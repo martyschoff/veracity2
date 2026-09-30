@@ -60,15 +60,24 @@ async def index(request: Request):
         ind["correct_count"] = ind.get("correct_count", 0) or len([p for p in ind_preds if p.get("verdict") == "correct"])
         ind["wrong_count"] = ind.get("wrong_count", 0) or len([p for p in ind_preds if p.get("verdict") == "wrong"])
 
-    # Only show individuals with predictions in the grid
-    individuals = [ind for ind in individuals if ind["total_count"] > 0]
+    # Split: tracked individuals (with predictions) vs panelists (without)
+    tracked = [ind for ind in individuals if ind["total_count"] > 0]
+    panelists = [ind for ind in individuals if ind["total_count"] == 0]
+
+    # Build panelists-by-category map for hover tooltips on category badges
+    panelists_by_category: dict[str, list[str]] = {}
+    for p in panelists:
+        for cat in p.get("categories", []):
+            panelists_by_category.setdefault(cat, []).append(p["name"])
 
     # Sort predictions by date descending
     predictions.sort(key=lambda p: p.get("date", ""), reverse=True)
 
     template = _jinja_env.get_template("index.html")
     html = template.render(
-        individuals=individuals,
+        individuals=tracked,
+        panelists=panelists,
+        panelists_by_category=panelists_by_category,
         predictions=predictions,
         category_colors=CATEGORY_COLORS,
     )
