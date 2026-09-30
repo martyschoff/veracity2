@@ -19,7 +19,7 @@
       "handle": "doomberg",
       "sources": [
         "https://newsletter.doomberg.com",
-        "https://www.youtube.com/results?search_query=doomberg"
+        "https://www.youtube.com/@DoombergChannel"
       ],
       "categories": [
         "energy",
@@ -31,7 +31,7 @@
       "name": "Peter Diamandis",
       "handle": "diamandis",
       "sources": [
-        "https://www.youtube.com/@PeterHDiamandis/videos"
+        "https://www.youtube.com/@peterdiamandis/videos"
       ],
       "categories": [
         "ai"
@@ -442,7 +442,7 @@
       "category": "energy",
       "claim": "NABEP will produce about 200,000 barrels a day by 2023",
       "source_url": "https://www.youtube.com/watch?v=u1XSaK6UgRU",
-      "transcript_excerpt": "And so he got kicked out of the country and Petro Zamora just until it was only producing like 100,000, maybe even 50,000 barrels a day. Well, fast forward to calendar year 2023 and a woman by the name of Rodríguez, who is now the acting president of Venezuela, uh brought him back in because the oil sector in Venezuela had just tanked in the intervening 3 years and started bringing the company back and I think it produces about 200,000 barrels a day right now.",
+      "transcript_excerpt": "And so he got kicked out of the country and Petro Zamora just until it was only producing like 100,000, maybe even 50,000 barrels a day. Well, fast forward to calendar year 2023 and a woman by the name of Rodr\u00edguez, who is now the acting president of Venezuela, uh brought him back in because the oil sector in Venezuela had just tanked in the intervening 3 years and started bringing the company back and I think it produces about 200,000 barrels a day right now.",
       "verdict": null,
       "created_at": "2026-09-30T19:15:13.466400"
     },
@@ -750,7 +750,7 @@
       "category": "energy",
       "claim": "NABEP will produce about 200,000 barrels a day by 2023",
       "source_url": "https://www.youtube.com/watch?v=u1XSaK6UgRU",
-      "transcript_excerpt": "And so he got kicked out of the country and Petro Zamora just until it was only producing like 100,000, maybe even 50,000 barrels a day. Well, fast forward to calendar year 2023 and a woman by the name of Rodríguez, who is now the acting president of Venezuela, uh brought him back in because the oil sector in Venezuela had just tanked in the intervening 3 years and started bringing the company back and I think it produces about 200,000 barrels a day right now.",
+      "transcript_excerpt": "And so he got kicked out of the country and Petro Zamora just until it was only producing like 100,000, maybe even 50,000 barrels a day. Well, fast forward to calendar year 2023 and a woman by the name of Rodr\u00edguez, who is now the acting president of Venezuela, uh brought him back in because the oil sector in Venezuela had just tanked in the intervening 3 years and started bringing the company back and I think it produces about 200,000 barrels a day right now.",
       "verdict": null,
       "created_at": "2026-09-30T19:20:04.971089"
     },
@@ -962,6 +962,116 @@
       "transcript_excerpt": "Japan is the world's oldest society. It's no longer the fastest aging, but it's expecting a workforce shortage of more than 11 million workers as soon as 2030.",
       "verdict": null,
       "created_at": "2026-09-30T19:23:07.737604"
+    },
+    {
+      "id": "pred_doomberg_d5e76711",
+      "individual_name": "Doomberg",
+      "date": "2025-03-19",
+      "category": "energy",
+      "claim": "A 'Mad Max style' great reset is coming with $150 oil and the Middle East at a tipping point.",
+      "source_url": "https://www.youtube.com/watch?v=rz8mwV7lJ8s",
+      "transcript_excerpt": "Mad Max style great reset, $150 oil, tipping point in Middle East",
+      "verdict": null,
+      "created_at": "2025-09-30T19:20:00"
+    },
+    {
+      "id": "pred_doomberg_a77496c4",
+      "individual_name": "Doomberg",
+      "date": "2024-12-16",
+      "category": "china",
+      "claim": "China will conquer semiconductors just as it has conquered EVs and solar.",
+      "source_url": "https://newsletter.doomberg.com/p/chip-shot",
+      "transcript_excerpt": "China will conquer semiconductors just as it has conquered EVs and solar",
+      "verdict": null,
+      "created_at": "2025-09-30T19:20:00"
+    },
+    {
+      "id": "pred_doomberg_9486f67c",
+      "individual_name": "Doomberg",
+      "date": "2025-09-25",
+      "category": "finance",
+      "claim": "Trump will call a national emergency over a diesel fuel crisis.",
+      "source_url": "https://www.youtube.com/watch?v=A1ao9xHy6KA",
+      "transcript_excerpt": "Trump to call a national emergency over diesel fuel crisis",
+      "verdict": null,
+      "created_at": "2025-09-30T19:20:00"
+    },
+    {
+      "id": "pred_doomberg_28edafe2",
+      "individual_name": "Doomberg",
+      "date": "2024-04-30",
+      "category": "energy",
+      "claim": "Natural gas and oil will set new records in 2024 \u2014 the green transition is over.",
+      "source_url": "https://newsletter.doomberg.com/p/hot-pockets",
+      "transcript_excerpt": "Coal, natural gas, and oil will all set records \u2014 the green transition is over",
+      "verdict": null,
+      "created_at": "2025-09-30T19:20:00"
+    },
+    {
+      "id": "pred_doomberg_67f74507",
+      "individual_name": "Doomberg",
+      "date": "2025-08-05",
+      "category": "finance",
+      "claim": "Gold is signaling a massive regime change in global finance.",
+      "source_url": "https://www.youtube.com/watch?v=c6z64C7aGmo",
+      "transcript_excerpt": "Gold is signaling a massive regime change",
+      "verdict": null,
+      "created_at": "2025-09-30T19:20:00"
+    },
+    {
+      "id": "pred_diamandis_0e456622",
+      "individual_name": "Peter Diamandis",
+      "date": "2025-09-13",
+      "category": "ai",
+      "claim": "By 2029 we'll have AI as capable as 8 billion humans \u2014 it's getting 10x better per year.",
+      "source_url": "https://www.youtube.com/watch?v=RF0KucU_low",
+      "transcript_excerpt": "AI increasing at 100x per year, by 2029 AI as capable as 8 billion humans",
+      "verdict": null,
+      "created_at": "2025-09-30T19:20:00"
+    },
+    {
+      "id": "pred_diamandis_d635b663",
+      "individual_name": "Peter Diamandis",
+      "date": "2026-01-01",
+      "category": "ai",
+      "claim": "AI agents will automate 30% of knowledge work by end of 2026. The shift has already begun.",
+      "source_url": "https://www.youtube.com/watch?v=ChHnxi2JyHE",
+      "transcript_excerpt": "AI agents are changing business forever, 30% of knowledge work automated",
+      "verdict": null,
+      "created_at": "2025-09-30T19:20:00"
+    },
+    {
+      "id": "pred_diamandis_bc45fd3c",
+      "individual_name": "Peter Diamandis",
+      "date": "2025-06-10",
+      "category": "ai",
+      "claim": "We could double the human lifespan and cure all disease within the next 10 years.",
+      "source_url": "https://www.youtube.com/watch?v=H5ZLorBJCDk",
+      "transcript_excerpt": "We're going to cure all disease within the next 10 years, double human lifespan",
+      "verdict": null,
+      "created_at": "2025-09-30T19:20:00"
+    },
+    {
+      "id": "pred_diamandis_8eba3e30",
+      "individual_name": "Peter Diamandis",
+      "date": "2025-11-01",
+      "category": "ai",
+      "claim": "By 2040 there will be more humanoid robots than people on Earth \u2014 10 billion+.",
+      "source_url": "https://www.youtube.com/watch?v=mofEOSUkMpA",
+      "transcript_excerpt": "by 2040 probably there are more humanoid robots than there are people, 10 billion",
+      "verdict": null,
+      "created_at": "2025-09-30T19:20:00"
+    },
+    {
+      "id": "pred_diamandis_017d3a43",
+      "individual_name": "Peter Diamandis",
+      "date": "2026-02-15",
+      "category": "ai",
+      "claim": "More than 80% of code merges into AI codebases will be written by AI itself within 2 years.",
+      "source_url": "https://www.youtube.com/watch?v=P2HJEz3oqLs",
+      "transcript_excerpt": "More than 80% of code merge into their code base is written by AI, the AI is building itself",
+      "verdict": null,
+      "created_at": "2025-09-30T19:20:00"
     }
   ]
 }
