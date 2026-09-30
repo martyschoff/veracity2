@@ -8,8 +8,7 @@ from typing import Any
 
 from fastapi import FastAPI, Request, Query
 from fastapi.responses import HTMLResponse, JSONResponse
-from fastapi.templating import Jinja2Templates
-from fastapi.staticfiles import StaticFiles
+from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from src.store import Store
 
@@ -23,7 +22,12 @@ DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
 
 # Initialize FastAPI
 app = FastAPI(title="Veracity2 — Predictions vs Reality")
-templates = Jinja2Templates(directory=str(TEMPLATES_DIR))
+
+# Jinja2 environment (direct, not via Starlette's wrapper to avoid cache key issues)
+_jinja_env = Environment(
+    loader=FileSystemLoader(str(TEMPLATES_DIR)),
+    autoescape=select_autoescape(["html"]),
+)
 
 # Category colors for badges
 CATEGORY_COLORS: dict[str, str] = {
@@ -52,15 +56,13 @@ async def index(request: Request):
     # Sort predictions by date descending
     predictions.sort(key=lambda p: p.get("date", ""), reverse=True)
 
-    return templates.TemplateResponse(
-        request=request,
-        name="index.html",
-        context={
-            "individuals": individuals,
-            "predictions": predictions,
-            "category_colors": CATEGORY_COLORS,
-        },
+    template = _jinja_env.get_template("index.html")
+    html = template.render(
+        individuals=individuals,
+        predictions=predictions,
+        category_colors=CATEGORY_COLORS,
     )
+    return HTMLResponse(content=html)
 
 
 @app.get("/api/predictions")
