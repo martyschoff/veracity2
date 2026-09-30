@@ -40,6 +40,9 @@ CATEGORY_COLORS: dict[str, str] = {
     "other": "#6b7280",
 }
 
+# The 3 tracked individuals (in column order)
+TRACKED_NAMES: list[str] = ["Peter Zeihan", "Doomberg", "Peter Diamandis"]
+
 
 def get_store() -> Store:
     return Store(str(DATA_FILE))
@@ -47,22 +50,30 @@ def get_store() -> Store:
 
 @app.get("/", response_class=HTMLResponse)
 async def index(request: Request):
-    """Render the grid view."""
+    """Render the spreadsheet-style grid view."""
     store = get_store()
     raw = store.get_all_raw()
     individuals = raw.get("individuals", [])
     predictions = raw.get("predictions", [])
 
-    # Compute correct/wrong counts and total per individual
+    # Split into tracked individuals (fixed order) and panelists
+    tracked_individuals = []
+    panelists = []
     for ind in individuals:
-        ind_preds = [p for p in predictions if p.get("individual_name") == ind.get("name")]
-        ind["total_count"] = len(ind_preds)
-        ind["correct_count"] = ind.get("correct_count", 0) or len([p for p in ind_preds if p.get("verdict") == "correct"])
-        ind["wrong_count"] = ind.get("wrong_count", 0) or len([p for p in ind_preds if p.get("verdict") == "wrong"])
+        if ind.get("name") in TRACKED_NAMES:
+            tracked_individuals.append(ind)
+        else:
+            panelists.append(ind)
 
-    # Split: tracked individuals (with predictions) vs panelists (without)
-    tracked = [ind for ind in individuals if ind["total_count"] > 0]
-    panelists = [ind for ind in individuals if ind["total_count"] == 0]
+    # Sort tracked individuals by the fixed column order
+    tracked_individuals.sort(key=lambda i: TRACKED_NAMES.index(i["name"]))
+
+    # Compute counts per tracked individual
+    for ind in tracked_individuals:
+        ind_preds = [p for p in predictions if p.get("individual_name") == ind["name"]]
+        ind["total_count"] = len(ind_preds)
+        ind["correct_count"] = len([p for p in ind_preds if p.get("verdict") == "correct"])
+        ind["wrong_count"] = len([p for p in ind_preds if p.get("verdict") == "wrong"])
 
     # Build panelists-by-category map for hover tooltips on category badges
     panelists_by_category: dict[str, list[str]] = {}
@@ -70,15 +81,27 @@ async def index(request: Request):
         for cat in p.get("categories", []):
             panelists_by_category.setdefault(cat, []).append(p["name"])
 
-    # Sort predictions by date descending
-    predictions.sort(key=lambda p: p.get("date", ""), reverse=True)
+    # Filter to only predictions from tracked individuals with no verdict (outstanding)
+    tracked_names_set = set(TRACKED_NAMES)
+    outstanding = [
+        p for p in predictions
+        if p.get("individual_name") in tracked_names_set and p.get("verdict") is None
+    ]
+    outstanding.sort(key=lambda p: p.get("date", ""), reverse=True)
+
+    # Take top 5 most recent outstanding
+    top5 = outstanding[:5]
+
+    # Total tracked predictions count (for stats bar)
+    total_tracked_preds = len([p for p in predictions if p.get("individual_name") in tracked_names_set])
 
     template = _jinja_env.get_template("index.html")
     html = template.render(
-        individuals=tracked,
+        tracked_individuals=tracked_individuals,
         panelists=panelists,
         panelists_by_category=panelists_by_category,
-        predictions=predictions,
+        rows=top5,
+        total_tracked_preds=total_tracked_preds,
         category_colors=CATEGORY_COLORS,
     )
     return HTMLResponse(content=html)

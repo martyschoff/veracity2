@@ -52,11 +52,12 @@
         .stats-bar span strong { color: var(--text); }
         .pred-grid {
             border: 1px solid var(--border); border-radius: 12px;
-            overflow: hidden; background: var(--card-bg);
+            overflow-x: auto; background: var(--card-bg);
         }
         .grid-row {
             display: grid;
-            grid-template-columns: 160px repeat(3, 1fr);
+            grid-template-columns: 180px repeat(3, 1fr);
+            min-width: 720px;
         }
         .grid-row:not(:last-child) { border-bottom: 1px solid var(--border); }
         .grid-cell { padding: 14px 16px; border-right: 1px solid var(--border); }
@@ -90,9 +91,8 @@
         .score-correct { color: var(--correct); font-weight: 600; }
         .score-wrong { color: var(--wrong); font-weight: 600; }
         .info-cell .info-label { font-size: 0.75rem; color: var(--text-muted); }
-        .pred-claim { font-size: 0.85rem; line-height: 1.5; margin-bottom: 6px; }
-        .pred-meta-row { display: flex; align-items: center; gap: 6px; margin-bottom: 6px; flex-wrap: wrap; }
-        .pred-date { font-size: 0.72rem; color: var(--text-muted); font-weight: 500; }
+        .pred-claim { font-size: 0.85rem; line-height: 1.5; }
+        .pred-date { font-size: 0.78rem; color: var(--text-muted); font-weight: 500; margin-bottom: 6px; }
         .badge {
             display: inline-block; padding: 2px 8px; border-radius: 10px;
             font-size: 0.62rem; font-weight: 600; text-transform: uppercase;
@@ -103,20 +103,16 @@
             display: none; position: absolute; z-index: 100;
             bottom: calc(100% + 6px); left: 50%; transform: translateX(-50%);
             background: #1e293b; border: 1px solid #334155; border-radius: 8px;
-            padding: 8px 12px; white-space: nowrap; font-size: 0.72rem;
-            font-weight: 400; text-transform: none; letter-spacing: normal;
-            color: #e2e8f0; box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-            line-height: 1.4;
+            padding: 8px 12px; max-width: 280px; white-space: normal;
+            font-size: 0.72rem; font-weight: 400; text-transform: none;
+            letter-spacing: normal; color: #e2e8f0;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3); line-height: 1.4;
         }
         .badge:hover .tooltip { display: block; }
         .pred-source { font-size: 0.72rem; color: var(--accent); text-decoration: none; }
         .pred-source:hover { text-decoration: underline; }
-        .empty-cell { color: var(--text-muted); font-size: 0.8rem; font-style: italic; }
+        .empty-cell { color: var(--text-muted); font-size: 0.8rem; }
         .empty { text-align: center; padding: 40px; color: var(--text-muted); }
-        @media (max-width: 767px) {
-            .grid-row { grid-template-columns: 1fr; }
-            .grid-cell { border-right: none; border-bottom: 1px solid var(--border); }
-        }
     </style>
 </head>
 <body>
@@ -191,67 +187,29 @@
         
         <div class="grid-row">
             <div class="grid-cell info-cell">
+                <div class="pred-date">2026-09-30</div>
                 
-                    <div style="font-weight: 600; font-size: 0.8rem; color: var(--text);">Pending</div>
-                    <div class="info-label">Outstanding</div>
+                
+                <span class="badge" style="background: #6366f1">
+                    geopolitics
+                    
+                    <span class="tooltip">Panelists: UnHerd, Jeff Snider (Eurodollar University), Ian Bremmer (GZERO Media), Stephen Miller (White House), H.R. McMaster, Niall Ferguson, Stephen Kotkin, Victor Davis Hanson</span>
+                    
+                </span>
+            </div>
+            
+            <div class="grid-cell">
+                
+                <div class="pred-claim">The US Treasury Secretary has announced new sanctions on anyone who might do business with Iranian aircraft and airlines, purging them from the US dollar system if an Iranian-owned aircraft lands anywhere in the world.</div>
+                <a class="pred-source" href="https://www.youtube.com/watch?v=BDaQXA0Tj80" target="_blank" rel="noopener">Source ↗</a>
                 
             </div>
             
             <div class="grid-cell">
                 
-                
-                    
-                    
-                    
-                    <div class="pred-meta-row">
-                        <span class="pred-date">2026-09-30</span>
-                        <span class="badge" style="background: #6366f1">
-                            geopolitics
-                            
-                            <span class="tooltip">Evaluated by: UnHerd, Jeff Snider (Eurodollar University), Ian Bremmer (GZERO Media), Stephen Miller (White House), H.R. McMaster, Niall Ferguson, Stephen Kotkin, Victor Davis Hanson</span>
-                            
-                        </span>
-                    </div>
-                    <div class="pred-claim">The US Treasury Secretary has announced new sanctions on anyone who might do business with Iranian aircraft and airlines, purging them from the US dollar system if an Iranian-owned aircraft lands anywhere in the world.</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=BDaQXA0Tj80" target="_blank" rel="noopener">Source ↗</a>
-                
             </div>
             
             <div class="grid-cell">
-                
-                
-                    
-                    
-                    
-                    <div class="pred-meta-row">
-                        <span class="pred-date">2025-09-25</span>
-                        <span class="badge" style="background: #10b981">
-                            finance
-                            
-                            <span class="tooltip">Evaluated by: Jeff Snider (Eurodollar University), Viktoriya M Finance, David McAlvany (McAlvany Financial), John Cochrane, Kevin Hassett (White House)</span>
-                            
-                        </span>
-                    </div>
-                    <div class="pred-claim">Trump will call a national emergency over a diesel fuel crisis.</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=A1ao9xHy6KA" target="_blank" rel="noopener">Source ↗</a>
-                
-            </div>
-            
-            <div class="grid-cell">
-                
-                
-                    
-                    
-                    
-                    <div class="pred-meta-row">
-                        <span class="pred-date">2026-02-15</span>
-                        <span class="badge" style="background: #8b5cf6">
-                            ai
-                            
-                        </span>
-                    </div>
-                    <div class="pred-claim">More than 80% of code merges into AI codebases will be written by AI itself within 2 years.</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=P2HJEz3oqLs" target="_blank" rel="noopener">Source ↗</a>
                 
             </div>
             
@@ -259,64 +217,29 @@
         
         <div class="grid-row">
             <div class="grid-cell info-cell">
+                <div class="pred-date">2026-09-30</div>
+                
+                
+                <span class="badge" style="background: #6366f1">
+                    geopolitics
+                    
+                    <span class="tooltip">Panelists: UnHerd, Jeff Snider (Eurodollar University), Ian Bremmer (GZERO Media), Stephen Miller (White House), H.R. McMaster, Niall Ferguson, Stephen Kotkin, Victor Davis Hanson</span>
+                    
+                </span>
+            </div>
+            
+            <div class="grid-cell">
+                
+                <div class="pred-claim">The Trump administration&#39;s strategy of targeting the Iranian population to pressure the regime into overthrowing itself will fail because the Iranian government has over a million people under arms and internal security has always been the priority for the Iranian government.</div>
+                <a class="pred-source" href="https://www.youtube.com/watch?v=BDaQXA0Tj80" target="_blank" rel="noopener">Source ↗</a>
                 
             </div>
             
             <div class="grid-cell">
                 
-                
-                    
-                    
-                    
-                    <div class="pred-meta-row">
-                        <span class="pred-date">2026-09-30</span>
-                        <span class="badge" style="background: #6366f1">
-                            geopolitics
-                            
-                            <span class="tooltip">Evaluated by: UnHerd, Jeff Snider (Eurodollar University), Ian Bremmer (GZERO Media), Stephen Miller (White House), H.R. McMaster, Niall Ferguson, Stephen Kotkin, Victor Davis Hanson</span>
-                            
-                        </span>
-                    </div>
-                    <div class="pred-claim">The Trump administration&#39;s strategy of targeting the Iranian population to pressure the regime into overthrowing itself will fail because the Iranian government has over a million people under arms and internal security has always been the priority for the Iranian government.</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=BDaQXA0Tj80" target="_blank" rel="noopener">Source ↗</a>
-                
             </div>
             
             <div class="grid-cell">
-                
-                
-                    
-                    
-                    
-                    <div class="pred-meta-row">
-                        <span class="pred-date">2025-08-05</span>
-                        <span class="badge" style="background: #10b981">
-                            finance
-                            
-                            <span class="tooltip">Evaluated by: Jeff Snider (Eurodollar University), Viktoriya M Finance, David McAlvany (McAlvany Financial), John Cochrane, Kevin Hassett (White House)</span>
-                            
-                        </span>
-                    </div>
-                    <div class="pred-claim">Gold is signaling a massive regime change in global finance.</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=c6z64C7aGmo" target="_blank" rel="noopener">Source ↗</a>
-                
-            </div>
-            
-            <div class="grid-cell">
-                
-                
-                    
-                    
-                    
-                    <div class="pred-meta-row">
-                        <span class="pred-date">2026-01-01</span>
-                        <span class="badge" style="background: #8b5cf6">
-                            ai
-                            
-                        </span>
-                    </div>
-                    <div class="pred-claim">AI agents will automate 30% of knowledge work by end of 2026. The shift has already begun.</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=ChHnxi2JyHE" target="_blank" rel="noopener">Source ↗</a>
                 
             </div>
             
@@ -324,62 +247,29 @@
         
         <div class="grid-row">
             <div class="grid-cell info-cell">
+                <div class="pred-date">2026-09-30</div>
+                
+                
+                <span class="badge" style="background: #6366f1">
+                    geopolitics
+                    
+                    <span class="tooltip">Panelists: UnHerd, Jeff Snider (Eurodollar University), Ian Bremmer (GZERO Media), Stephen Miller (White House), H.R. McMaster, Niall Ferguson, Stephen Kotkin, Victor Davis Hanson</span>
+                    
+                </span>
+            </div>
+            
+            <div class="grid-cell">
+                
+                <div class="pred-claim">China will not agree to participate in the US sanctions against Iran because China is the primary source for most of the manufactured goods that flow into Iran, including parts needed for their drones.</div>
+                <a class="pred-source" href="https://www.youtube.com/watch?v=BDaQXA0Tj80" target="_blank" rel="noopener">Source ↗</a>
                 
             </div>
             
             <div class="grid-cell">
                 
-                
-                    
-                    
-                    
-                    <div class="pred-meta-row">
-                        <span class="pred-date">2026-09-30</span>
-                        <span class="badge" style="background: #6366f1">
-                            geopolitics
-                            
-                            <span class="tooltip">Evaluated by: UnHerd, Jeff Snider (Eurodollar University), Ian Bremmer (GZERO Media), Stephen Miller (White House), H.R. McMaster, Niall Ferguson, Stephen Kotkin, Victor Davis Hanson</span>
-                            
-                        </span>
-                    </div>
-                    <div class="pred-claim">China will not agree to participate in the US sanctions against Iran because China is the primary source for most of the manufactured goods that flow into Iran, including parts needed for their drones.</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=BDaQXA0Tj80" target="_blank" rel="noopener">Source ↗</a>
-                
             </div>
             
             <div class="grid-cell">
-                
-                
-                    
-                    
-                    
-                    <div class="pred-meta-row">
-                        <span class="pred-date">2025-03-19</span>
-                        <span class="badge" style="background: #f59e0b">
-                            energy
-                            
-                        </span>
-                    </div>
-                    <div class="pred-claim">A &#39;Mad Max style&#39; great reset is coming with $150 oil and the Middle East at a tipping point.</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=rz8mwV7lJ8s" target="_blank" rel="noopener">Source ↗</a>
-                
-            </div>
-            
-            <div class="grid-cell">
-                
-                
-                    
-                    
-                    
-                    <div class="pred-meta-row">
-                        <span class="pred-date">2025-11-01</span>
-                        <span class="badge" style="background: #8b5cf6">
-                            ai
-                            
-                        </span>
-                    </div>
-                    <div class="pred-claim">By 2040 there will be more humanoid robots than people on Earth — 10 billion+.</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=mofEOSUkMpA" target="_blank" rel="noopener">Source ↗</a>
                 
             </div>
             
@@ -387,62 +277,29 @@
         
         <div class="grid-row">
             <div class="grid-cell info-cell">
+                <div class="pred-date">2026-09-30</div>
+                
+                
+                <span class="badge" style="background: #6366f1">
+                    geopolitics
+                    
+                    <span class="tooltip">Panelists: UnHerd, Jeff Snider (Eurodollar University), Ian Bremmer (GZERO Media), Stephen Miller (White House), H.R. McMaster, Niall Ferguson, Stephen Kotkin, Victor Davis Hanson</span>
+                    
+                </span>
+            </div>
+            
+            <div class="grid-cell">
+                
+                <div class="pred-claim">Trump will be the least informed president for any summit in American history because the Trump administration has systematically gutted all institutions that help the president make decisions.</div>
+                <a class="pred-source" href="https://www.youtube.com/watch?v=BDaQXA0Tj80" target="_blank" rel="noopener">Source ↗</a>
                 
             </div>
             
             <div class="grid-cell">
                 
-                
-                    
-                    
-                    
-                    <div class="pred-meta-row">
-                        <span class="pred-date">2026-09-30</span>
-                        <span class="badge" style="background: #6366f1">
-                            geopolitics
-                            
-                            <span class="tooltip">Evaluated by: UnHerd, Jeff Snider (Eurodollar University), Ian Bremmer (GZERO Media), Stephen Miller (White House), H.R. McMaster, Niall Ferguson, Stephen Kotkin, Victor Davis Hanson</span>
-                            
-                        </span>
-                    </div>
-                    <div class="pred-claim">Trump will be the least informed president for any summit in American history because the Trump administration has systematically gutted all institutions that help the president make decisions.</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=BDaQXA0Tj80" target="_blank" rel="noopener">Source ↗</a>
-                
             </div>
             
             <div class="grid-cell">
-                
-                
-                    
-                    
-                    
-                    <div class="pred-meta-row">
-                        <span class="pred-date">2024-12-16</span>
-                        <span class="badge" style="background: #ef4444">
-                            china
-                            
-                        </span>
-                    </div>
-                    <div class="pred-claim">China will conquer semiconductors just as it has conquered EVs and solar.</div>
-                    <a class="pred-source" href="https://newsletter.doomberg.com/p/chip-shot" target="_blank" rel="noopener">Source ↗</a>
-                
-            </div>
-            
-            <div class="grid-cell">
-                
-                
-                    
-                    
-                    
-                    <div class="pred-meta-row">
-                        <span class="pred-date">2025-09-13</span>
-                        <span class="badge" style="background: #8b5cf6">
-                            ai
-                            
-                        </span>
-                    </div>
-                    <div class="pred-claim">By 2029 we&#39;ll have AI as capable as 8 billion humans — it&#39;s getting 10x better per year.</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=RF0KucU_low" target="_blank" rel="noopener">Source ↗</a>
                 
             </div>
             
@@ -450,62 +307,29 @@
         
         <div class="grid-row">
             <div class="grid-cell info-cell">
+                <div class="pred-date">2026-09-30</div>
+                
+                
+                <span class="badge" style="background: #6366f1">
+                    geopolitics
+                    
+                    <span class="tooltip">Panelists: UnHerd, Jeff Snider (Eurodollar University), Ian Bremmer (GZERO Media), Stephen Miller (White House), H.R. McMaster, Niall Ferguson, Stephen Kotkin, Victor Davis Hanson</span>
+                    
+                </span>
+            </div>
+            
+            <div class="grid-cell">
+                
+                <div class="pred-claim">The bilateral talks between Trump and Xi Jinping in Washington will be a &#39;show&#39; because both leaders are among the least informed leaders in human history regarding international affairs.</div>
+                <a class="pred-source" href="https://www.youtube.com/watch?v=BDaQXA0Tj80" target="_blank" rel="noopener">Source ↗</a>
                 
             </div>
             
             <div class="grid-cell">
                 
-                
-                    
-                    
-                    
-                    <div class="pred-meta-row">
-                        <span class="pred-date">2026-09-30</span>
-                        <span class="badge" style="background: #6366f1">
-                            geopolitics
-                            
-                            <span class="tooltip">Evaluated by: UnHerd, Jeff Snider (Eurodollar University), Ian Bremmer (GZERO Media), Stephen Miller (White House), H.R. McMaster, Niall Ferguson, Stephen Kotkin, Victor Davis Hanson</span>
-                            
-                        </span>
-                    </div>
-                    <div class="pred-claim">The bilateral talks between Trump and Xi Jinping in Washington will be a &#39;show&#39; because both leaders are among the least informed leaders in human history regarding international affairs.</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=BDaQXA0Tj80" target="_blank" rel="noopener">Source ↗</a>
-                
             </div>
             
             <div class="grid-cell">
-                
-                
-                    
-                    
-                    
-                    <div class="pred-meta-row">
-                        <span class="pred-date">2024-04-30</span>
-                        <span class="badge" style="background: #f59e0b">
-                            energy
-                            
-                        </span>
-                    </div>
-                    <div class="pred-claim">Natural gas and oil will set new records in 2024 — the green transition is over.</div>
-                    <a class="pred-source" href="https://newsletter.doomberg.com/p/hot-pockets" target="_blank" rel="noopener">Source ↗</a>
-                
-            </div>
-            
-            <div class="grid-cell">
-                
-                
-                    
-                    
-                    
-                    <div class="pred-meta-row">
-                        <span class="pred-date">2025-06-10</span>
-                        <span class="badge" style="background: #8b5cf6">
-                            ai
-                            
-                        </span>
-                    </div>
-                    <div class="pred-claim">We could double the human lifespan and cure all disease within the next 10 years.</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=H5ZLorBJCDk" target="_blank" rel="noopener">Source ↗</a>
                 
             </div>
             
