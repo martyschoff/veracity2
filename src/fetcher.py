@@ -49,7 +49,8 @@ def fetch_recent_videos(
 ) -> list[VideoMeta]:
     """Fetch recent videos from a YouTube channel since since_date.
 
-    Uses yt-dlp with extract_flat to list videos without full extraction.
+    Uses yt-dlp with extract_flat to list videos, then does a lightweight
+    full extraction per video to get the upload date.
     Returns an empty list on any error (never crashes).
     """
     try:
@@ -78,18 +79,31 @@ def fetch_recent_videos(
             vid = entry.get("id") or entry.get("url", "")
             if not vid:
                 continue
-            upload_raw = entry.get("upload_date", "")
-            if not _is_after(upload_raw, since_date):
+
+            # Flat extraction doesn't give upload_date — do a quick full extraction
+            upload_raw = ""
+            try:
+                full_opts = {"quiet": True, "no_warnings": True, "skip_download": True}
+                with yt_dlp.YoutubeDL(full_opts) as ydl2:
+                    full_info = ydl2.extract_info(
+                        f"https://www.youtube.com/watch?v={vid}", download=False
+                    )
+                    if full_info:
+                        upload_raw = full_info.get("upload_date", "")
+            except Exception:
+                pass
+
+            if upload_raw and not _is_after(upload_raw, since_date):
                 continue
 
             title = entry.get("title", "Unknown")
-            url = entry.get("url") or f"https://www.youtube.com/watch?v={vid}"
+            url = f"https://www.youtube.com/watch?v={vid}"
 
             videos.append(
                 VideoMeta(
                     id=vid,
                     title=title,
-                    url=url if url.startswith("http") else f"https://www.youtube.com/watch?v={vid}",
+                    url=url,
                     upload_date=_parse_upload_date(upload_raw),
                     transcript=None,
                 )
@@ -112,17 +126,11 @@ def fetch_transcript(video_id: str) -> str | None:
 
     try:
         from youtube_transcript_api import YouTubeTranscriptApi
-        from youtube_transcript_api._errors import (
-            TranscriptsDisabled,
-            NoTranscriptFound,
-            VideoUnavailable,
-        )
 
-        transcript_list = YouTubeTranscriptApi.get_transcript(video_id)
-        # transcript_list is a list of {text, start, duration} dicts
-        text = " ".join(
-            snippet.get("text", "") for snippet in transcript_list
-        ).strip()
+        api = YouTubeTranscriptApi()
+        transcript = api.fetch(video_id)
+        # FetchedTranscript is iterable of FetchedTranscriptSnippet with .text
+        text = " ".join(snippet.text for snippet in transcript).strip()
         return text if text else None
 
     except Exception as e:

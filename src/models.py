@@ -14,6 +14,8 @@ class Individual:
     handle: str
     sources: list[str]
     categories: list[str]
+    correct_count: int = 0
+    wrong_count: int = 0
 
     @property
     def primary_category(self) -> str:

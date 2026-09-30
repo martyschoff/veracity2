@@ -53,6 +53,16 @@ async def index(request: Request):
     individuals = raw.get("individuals", [])
     predictions = raw.get("predictions", [])
 
+    # Compute correct/wrong counts and total per individual
+    for ind in individuals:
+        ind_preds = [p for p in predictions if p.get("individual_name") == ind.get("name")]
+        ind["total_count"] = len(ind_preds)
+        ind["correct_count"] = ind.get("correct_count", 0) or len([p for p in ind_preds if p.get("verdict") == "correct"])
+        ind["wrong_count"] = ind.get("wrong_count", 0) or len([p for p in ind_preds if p.get("verdict") == "wrong"])
+
+    # Only show individuals with predictions in the grid
+    individuals = [ind for ind in individuals if ind["total_count"] > 0]
+
     # Sort predictions by date descending
     predictions.sort(key=lambda p: p.get("date", ""), reverse=True)
 

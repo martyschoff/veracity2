@@ -1,0 +1,5 @@
+fetch_output.log
+__pycache__/
+*.pyc
+.venv/
+node_modules/

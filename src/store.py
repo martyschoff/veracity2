@@ -60,6 +60,8 @@ class Store:
                 handle=i["handle"],
                 sources=i.get("sources", []),
                 categories=i.get("categories", []),
+                correct_count=i.get("correct_count", 0),
+                wrong_count=i.get("wrong_count", 0),
             )
             for i in data["individuals"]
         ]

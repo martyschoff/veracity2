@@ -12,6 +12,8 @@
             --text-muted: #94a3b8;
             --border: #334155;
             --accent: #3b82f6;
+            --correct: #22c55e;
+            --wrong: #ef4444;
         }
         [data-theme="light"] {
             --bg: #f8fafc;
@@ -20,6 +22,8 @@
             --text-muted: #64748b;
             --border: #e2e8f0;
             --accent: #2563eb;
+            --correct: #16a34a;
+            --wrong: #dc2626;
         }
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -30,127 +34,72 @@
             padding: 20px;
         }
         .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 24px;
-            flex-wrap: wrap;
-            gap: 12px;
+            display: flex; justify-content: space-between; align-items: center;
+            margin-bottom: 24px; flex-wrap: wrap; gap: 12px;
         }
-        .header h1 {
-            font-size: 1.8rem;
-            font-weight: 700;
-        }
+        .header h1 { font-size: 1.8rem; font-weight: 700; }
         .header h1 span { color: var(--accent); }
-        .controls {
-            display: flex;
-            gap: 12px;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-        select, input[type="text"] {
-            background: var(--card-bg);
-            color: var(--text);
-            border: 1px solid var(--border);
-            border-radius: 6px;
-            padding: 8px 12px;
-            font-size: 0.9rem;
-            cursor: pointer;
-        }
+        .controls { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
         .theme-toggle {
-            background: var(--card-bg);
-            color: var(--text);
-            border: 1px solid var(--border);
-            border-radius: 6px;
-            padding: 8px 14px;
-            cursor: pointer;
-            font-size: 0.9rem;
-        }
-        .grid {
-            display: grid;
-            gap: 16px;
-        }
-        .individual-column {
-            background: var(--card-bg);
-            border-radius: 12px;
-            border: 1px solid var(--border);
-            overflow: hidden;
-        }
-        .column-header {
-            padding: 16px 20px;
-            border-bottom: 2px solid var(--border);
-            font-size: 1.1rem;
-            font-weight: 600;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-        .column-header .handle {
-            color: var(--text-muted);
-            font-size: 0.85rem;
-            font-weight: 400;
-        }
-        .prediction-card {
-            padding: 14px 20px;
-            border-bottom: 1px solid var(--border);
-            transition: background 0.15s;
-        }
-        .prediction-card:hover {
-            background: rgba(255,255,255,0.03);
-        }
-        [data-theme="light"] .prediction-card:hover {
-            background: rgba(0,0,0,0.02);
-        }
-        .pred-meta {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            margin-bottom: 6px;
-            font-size: 0.8rem;
-            color: var(--text-muted);
-        }
-        .badge {
-            display: inline-block;
-            padding: 2px 10px;
-            border-radius: 12px;
-            font-size: 0.7rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            color: white;
-        }
-        .pred-claim {
-            font-size: 0.95rem;
-            line-height: 1.5;
-            margin-bottom: 8px;
-        }
-        .pred-source {
-            font-size: 0.8rem;
-            color: var(--accent);
-            text-decoration: none;
-        }
-        .pred-source:hover { text-decoration: underline; }
-        .empty {
-            text-align: center;
-            padding: 40px;
-            color: var(--text-muted);
-        }
-        @media (min-width: 768px) {
-            .grid {
-                grid-template-columns: repeat({{ individuals|length }}, 1fr);
-            }
-        }
-        @media (max-width: 767px) {
-            .grid { grid-template-columns: 1fr; }
+            background: var(--card-bg); color: var(--text);
+            border: 1px solid var(--border); border-radius: 6px;
+            padding: 8px 14px; cursor: pointer; font-size: 0.9rem;
         }
         .stats-bar {
-            display: flex;
-            gap: 20px;
-            font-size: 0.85rem;
-            color: var(--text-muted);
-            margin-bottom: 16px;
+            display: flex; gap: 20px; font-size: 0.85rem;
+            color: var(--text-muted); margin-bottom: 16px;
         }
         .stats-bar span strong { color: var(--text); }
+        .pred-grid {
+            border: 1px solid var(--border); border-radius: 12px;
+            overflow: hidden; background: var(--card-bg);
+        }
+        .grid-row {
+            display: grid;
+            grid-template-columns: 180px repeat({{ individuals|length }}, 1fr);
+        }
+        .grid-row:not(:last-child) { border-bottom: 1px solid var(--border); }
+        .grid-cell { padding: 14px 16px; border-right: 1px solid var(--border); }
+        .grid-cell:last-child { border-right: none; }
+        .header-row .grid-cell {
+            border-bottom: 2px solid var(--border); background: rgba(0,0,0,0.06);
+        }
+        [data-theme="light"] .header-row .grid-cell { background: rgba(0,0,0,0.02); }
+        .header-row .grid-cell.info-cell {
+            display: flex; flex-direction: column; justify-content: center;
+            font-size: 0.8rem; color: var(--text-muted);
+        }
+        .ind-header { display: flex; align-items: center; gap: 10px; }
+        .avatar {
+            width: 36px; height: 36px; border-radius: 50%;
+            background: var(--accent); color: white;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 0.9rem; font-weight: 700; flex-shrink: 0;
+        }
+        .ind-name { font-size: 1rem; font-weight: 600; line-height: 1.2; }
+        .ind-cats { font-size: 0.75rem; color: var(--text-muted); margin-top: 2px; }
+        .scorecard { display: flex; gap: 10px; align-items: center; font-size: 0.8rem; margin-top: 6px; }
+        .score-total { color: var(--text-muted); }
+        .score-correct { color: var(--correct); font-weight: 600; }
+        .score-wrong { color: var(--wrong); font-weight: 600; }
+        .score-sep { color: var(--text-muted); }
+        .info-cell .info-label { font-size: 0.75rem; color: var(--text-muted); }
+        .pred-claim { font-size: 0.88rem; line-height: 1.45; margin-bottom: 6px; }
+        .pred-meta-row { display: flex; align-items: center; gap: 6px; margin-bottom: 4px; }
+        .pred-date { font-size: 0.75rem; color: var(--text-muted); font-weight: 500; }
+        .badge {
+            display: inline-block; padding: 2px 8px; border-radius: 10px;
+            font-size: 0.65rem; font-weight: 600; text-transform: uppercase;
+            letter-spacing: 0.04em; color: white;
+        }
+        .pred-source { font-size: 0.72rem; color: var(--accent); text-decoration: none; }
+        .pred-source:hover { text-decoration: underline; }
+        .empty-cell { color: var(--text-muted); font-size: 0.8rem; font-style: italic; }
+        .empty { text-align: center; padding: 40px; color: var(--text-muted); }
+        @media (max-width: 767px) {
+            .grid-row { grid-template-columns: 1fr; }
+            .grid-cell { border-right: none; border-bottom: 1px solid var(--border); }
+        }
     </style>
 </head>
 <body>
@@ -160,69 +109,73 @@
             <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 4px;">Predictions vs Reality Tracker</p>
         </div>
         <div class="controls">
-            <select id="categoryFilter">
-                <option value="">All Categories</option>
-                <option value="finance">Finance</option>
-                <option value="energy">Energy</option>
-                <option value="ukraine">Ukraine</option>
-                <option value="china">China</option>
-                <option value="ai">AI</option>
-                <option value="geopolitics">Geopolitics</option>
-                <option value="other">Other</option>
-            </select>
-            <select id="sortBy">
-                <option value="date-desc">Newest First</option>
-                <option value="date-asc">Oldest First</option>
-                <option value="category">Category</option>
-            </select>
             <button class="theme-toggle" onclick="toggleTheme()">🌙 Dark</button>
         </div>
     </div>
-
     <div class="stats-bar">
         <span><strong>{{ predictions|length }}</strong> predictions</span>
         <span><strong>{{ individuals|length }}</strong> individuals</span>
     </div>
-
-    <div class="grid" id="grid">
-        {% for ind in individuals %}
-        <div class="individual-column" data-individual="{{ ind.name }}">
-            <div class="column-header">
-                {{ ind.name }}
-                <span class="handle">@{{ ind.handle }}</span>
+    {% if individuals %}
+    <div class="pred-grid">
+        <div class="grid-row header-row">
+            <div class="grid-cell info-cell">
+                <div style="font-weight: 600; font-size: 0.85rem; color: var(--text);">Date / Category</div>
+                <div class="info-label">Top 5 outstanding</div>
             </div>
-            <div class="prediction-list" data-individual="{{ ind.name }}">
-                {% set ind_preds = predictions | selectattr('individual_name', 'equalto', ind.name) | list %}
-                {% if ind_preds %}
-                    {% for pred in ind_preds %}
-                    <div class="prediction-card"
-                         data-category="{{ pred.category }}"
-                         data-date="{{ pred.date }}">
-                        <div class="pred-meta">
-                            <span>{{ pred.date }}</span>
-                            {% if pred.category in category_colors %}
-                            <span class="badge" style="background: {{ category_colors[pred.category] }}">{{ pred.category }}</span>
-                            {% else %}
-                            <span class="badge" style="background: {{ category_colors.get('other', '#6b7280') }}">{{ pred.category }}</span>
-                            {% endif %}
-                        </div>
-                        <div class="pred-claim">{{ pred.claim }}</div>
-                        <a class="pred-source" href="{{ pred.source_url }}" target="_blank" rel="noopener">Source ↗</a>
+            {% for ind in individuals %}
+            <div class="grid-cell">
+                <div class="ind-header">
+                    <div class="avatar">{{ ind.name[:1] }}</div>
+                    <div>
+                        <div class="ind-name">{{ ind.name }}</div>
+                        <div class="ind-cats">{{ ind.categories | join(" · ") }}</div>
                     </div>
-                    {% endfor %}
-                {% else %}
-                    <div class="empty" style="padding: 30px 20px;">No predictions yet</div>
+                </div>
+                <div class="scorecard">
+                    <span class="score-total">{{ ind.total_count | default(0) }} total</span>
+                    <span class="score-sep">|</span>
+                    <span class="score-correct">👍 {{ ind.correct_count | default(0) }}</span>
+                    <span class="score-wrong">👎 {{ ind.wrong_count | default(0) }}</span>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% for row_idx in range(5) %}
+        <div class="grid-row">
+            <div class="grid-cell info-cell">
+                {% if row_idx == 0 %}
+                    <div style="font-weight: 600; font-size: 0.8rem; color: var(--text);">Pending</div>
+                    <div class="info-label">Outstanding</div>
                 {% endif %}
             </div>
+            {% for ind in individuals %}
+            <div class="grid-cell">
+                {% set ind_preds = predictions | selectattr('individual_name', 'equalto', ind.name) | selectattr('verdict', 'none') | list %}
+                {% if row_idx < ind_preds|length %}
+                    {% set pred = ind_preds[row_idx] %}
+                    <div class="pred-meta-row">
+                        <span class="pred-date">{{ pred.date }}</span>
+                        {% if pred.category in category_colors %}
+                        <span class="badge" style="background: {{ category_colors[pred.category] }}">{{ pred.category }}</span>
+                        {% else %}
+                        <span class="badge" style="background: #6b7280">{{ pred.category }}</span>
+                        {% endif %}
+                    </div>
+                    <div class="pred-claim">{{ pred.claim }}</div>
+                    <a class="pred-source" href="{{ pred.source_url }}" target="_blank" rel="noopener">Source ↗</a>
+                {% elif row_idx == 0 and ind_preds|length == 0 %}
+                    <span class="empty-cell">No outstanding predictions</span>
+                {% endif %}
+            </div>
+            {% endfor %}
         </div>
         {% endfor %}
-        {% if not individuals %}
-        <div class="empty">No individuals tracked yet. Run the seed script to populate.</div>
-        {% endif %}
     </div>
-
+    {% else %}
+    <div class="empty">No individuals tracked yet. Run the seed script to populate.</div>
+    {% endif %}
     <script>
-        // Theme toggle
         function toggleTheme() {
             const body = document.body;
             const btn = document.querySelector('.theme-toggle');
@@ -234,33 +187,6 @@
                 btn.textContent = '☀️ Light';
             }
         }
-
-        // Category filter
-        document.getElementById('categoryFilter').addEventListener('change', function() {
-            const cat = this.value;
-            document.querySelectorAll('.prediction-card').forEach(card => {
-                if (!cat || card.dataset.category === cat) {
-                    card.style.display = '';
-                } else {
-                    card.style.display = 'none';
-                }
-            });
-        });
-
-        // Sort
-        document.getElementById('sortBy').addEventListener('change', function() {
-            const mode = this.value;
-            document.querySelectorAll('.prediction-list').forEach(list => {
-                const cards = Array.from(list.querySelectorAll('.prediction-card'));
-                cards.sort((a, b) => {
-                    if (mode === 'date-desc') return (b.dataset.date || '').localeCompare(a.dataset.date || '');
-                    if (mode === 'date-asc') return (a.dataset.date || '').localeCompare(b.dataset.date || '');
-                    if (mode === 'category') return (a.dataset.category || '').localeCompare(b.dataset.category || '');
-                    return 0;
-                });
-                cards.forEach(c => list.appendChild(c));
-            });
-        });
     </script>
 </body>
 </html>
