@@ -25,9 +25,9 @@ for n in ['Peter Zeihan','Ian Bremmer','Peter Diamandis','Doomberg']:
     ds=sorted(p['date'] for p in data['predictions'] if p['individual_name']==n)
     print(n,c[n],ds[0] if ds else None)
 
-r=subprocess.run(['C:/Users/schof/AppData/Local/hermes/tools/python-3.14.7+20260901-win32-x64/python.exe','render.py'],
+r=subprocess.run(['python','render.py'],
                  capture_output=True,text=True,timeout=200)
 print('render rc',r.returncode,(r.stdout or r.stderr)[-300:])
-r=subprocess.run(['surge','surge_dist/','veracity2.surge.sh'],capture_output=True,text=True,timeout=200,
+r=subprocess.run(['surge.cmd','surge_dist/','veracity2.surge.sh'],capture_output=True,text=True,timeout=200,
                  env={**os.environ,'SURGE_TOKEN':'ea807c6f912951573c26c7fed2788f3f'})
 print('surge rc',r.returncode,(r.stdout or r.stderr)[-200:])
