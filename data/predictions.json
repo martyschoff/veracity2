@@ -229,6 +229,17 @@
         "finance",
         "ai"
       ]
+    },
+    {
+      "name": "Scott Bessent",
+      "handle": "sbessent",
+      "sources": [
+        "https://home.treasury.gov"
+      ],
+      "categories": [
+        "finance",
+        "geopolitics"
+      ]
     }
   ],
   "predictions": [
