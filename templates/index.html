@@ -52,7 +52,7 @@
         .stats-bar span strong { color: var(--text); }
         .pred-grid {
             border: 1px solid var(--border); border-radius: 12px;
-            overflow-x: auto; background: var(--card-bg);
+            overflow: hidden; background: var(--card-bg);
         }
         .grid-row {
             display: grid;
@@ -66,6 +66,20 @@
             border-bottom: 2px solid var(--border); background: rgba(0,0,0,0.06);
         }
         [data-theme="light"] .header-row .grid-cell { background: rgba(0,0,0,0.02); }
+        .pred-columns {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            min-width: 600px;
+        }
+        .pred-column {
+            border-right: 1px solid var(--border);
+        }
+        .pred-column:last-child { border-right: none; }
+        .pred-column .pred-entry {
+            padding: 14px 16px;
+            border-bottom: 1px solid var(--border);
+        }
+        .pred-column .pred-entry:last-child { border-bottom: none; }
         .header-row .grid-cell.info-cell {
             display: flex; flex-direction: column; justify-content: center;
             font-size: 0.8rem; color: var(--text-muted);
@@ -218,22 +232,20 @@
             </div>
             {% endfor %}
         </div>
-        {% for ind in tracked_individuals %}
-        {% set person_rows = rows_by_person.get(ind.name, []) %}
-        {% for row in person_rows %}
-        <div class="grid-row">
-            {% for col_ind in tracked_individuals %}
-            <div class="grid-cell">
-                {% if col_ind.name == ind.name %}
-                <div class="pred-date">{{ row.date }}</div>
-                <div class="pred-claim">{{ row.claim | condense }}</div>
-                <a class="pred-source" href="{{ row.source_url }}" target="_blank" rel="noopener">{{ row.source_url | source_label }} ↗</a>
-                {% endif %}
+        <div class="pred-columns">
+            {% for ind in tracked_individuals %}
+            <div class="pred-column">
+                {% set person_rows = rows_by_person.get(ind.name, []) %}
+                {% for row in person_rows %}
+                <div class="pred-entry">
+                    <div class="pred-date">{{ row.date }}</div>
+                    <div class="pred-claim">{{ row.claim | condense }}</div>
+                    <a class="pred-source" href="{{ row.source_url }}" target="_blank" rel="noopener">{{ row.source_url | source_label }} ↗</a>
+                </div>
+                {% endfor %}
             </div>
             {% endfor %}
         </div>
-        {% endfor %}
-        {% endfor %}
     </div>
     {% else %}
     <div class="empty">No individuals tracked yet.</div>
