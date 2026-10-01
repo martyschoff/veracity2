@@ -208,6 +208,16 @@
       "categories": [
         "ai"
       ]
+    },
+    {
+      "name": "Andrew Ross Sorkin",
+      "handle": "asorkin",
+      "sources": [
+        "https://www.cnbc.com"
+      ],
+      "categories": [
+        "finance"
+      ]
     }
   ],
   "predictions": [
