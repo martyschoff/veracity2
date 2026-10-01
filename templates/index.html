@@ -40,10 +40,71 @@
         .header h1 { font-size: 1.8rem; font-weight: 700; }
         .header h1 span { color: var(--accent); }
         .controls { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
-        .theme-toggle {
+        .theme-toggle, .settings-btn {
             background: var(--card-bg); color: var(--text);
             border: 1px solid var(--border); border-radius: 6px;
             padding: 8px 14px; cursor: pointer; font-size: 0.9rem;
+        }
+        .settings-dropdown {
+            display: none; position: absolute; z-index: 200;
+            right: 0; top: calc(100% + 4px);
+            background: var(--card-bg); border: 1px solid var(--border);
+            border-radius: 8px; padding: 12px; min-width: 180px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+        .settings-dropdown.open { display: block; }
+        .settings-dropdown label {
+            display: flex; align-items: center; gap: 8px;
+            font-size: 0.85rem; cursor: pointer; padding: 4px 0;
+        }
+        .ind-header { cursor: pointer; }
+        .ind-header:hover { opacity: 0.8; }
+        .detail-overlay {
+            display: none; position: fixed; z-index: 300;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0,0,0,0.6); padding: 40px;
+            overflow-y: auto;
+        }
+        .detail-overlay.open { display: block; }
+        .detail-panel {
+            background: var(--bg); border: 1px solid var(--border);
+            border-radius: 12px; max-width: 1200px; margin: 0 auto;
+            padding: 24px;
+        }
+        .detail-header {
+            display: flex; justify-content: space-between; align-items: center;
+            margin-bottom: 16px;
+        }
+        .detail-title { font-size: 1.4rem; font-weight: 700; }
+        .detail-close {
+            background: var(--card-bg); color: var(--text);
+            border: 1px solid var(--border); border-radius: 6px;
+            padding: 6px 16px; cursor: pointer; font-size: 0.9rem;
+        }
+        .detail-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 12px;
+        }
+        .detail-card {
+            background: var(--card-bg); border: 1px solid var(--border);
+            border-radius: 8px; padding: 12px;
+            display: flex; flex-direction: column; gap: 6px;
+        }
+        .detail-card .dc-date { font-size: 0.72rem; color: var(--text-muted); font-weight: 500; }
+        .detail-card .dc-claim { font-size: 0.82rem; line-height: 1.4; }
+        .detail-card .dc-cat {
+            display: inline-block; padding: 1px 6px; border-radius: 8px;
+            font-size: 0.58rem; font-weight: 600; text-transform: uppercase;
+            color: white; margin-top: 2px;
+        }
+        .detail-card .dc-source { font-size: 0.7rem; font-weight: 700; color: #f97316; text-decoration: none; margin-top: 4px; }
+        .detail-card .dc-source:hover { text-decoration: underline; }
+        @media (max-width: 900px) {
+            .detail-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 600px) {
+            .detail-grid { grid-template-columns: 1fr; }
         }
         .stats-bar {
             display: flex; gap: 20px; font-size: 0.85rem;
@@ -188,6 +249,10 @@
             <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 4px;">Predictions vs Reality Tracker</p>
         </div>
         <div class="controls">
+            <button class="settings-btn" onclick="toggleSettings()">⚙ Settings</button>
+            <div class="settings-dropdown" id="settings-dropdown">
+                <label><input type="checkbox" onchange="toggleTheme(this.checked)"> Light mode</label>
+            </div>
             <button class="theme-toggle" onclick="toggleTheme()">🌙 Dark</button>
         </div>
     </div>
@@ -201,7 +266,7 @@
         <div class="grid-row header-row">
             {% for ind in tracked_individuals %}
             <div class="grid-cell">
-                <div class="ind-header">
+                <div class="ind-header" onclick="showDetail('{{ ind.name }}')">
                     <div class="avatar">{{ ind.name[:1] }}</div>
                     <div>
                         <div class="ind-name">{{ ind.name }}</div>
@@ -243,18 +308,92 @@
     {% else %}
     <div class="empty">No individuals tracked yet.</div>
     {% endif %}
+    <!-- Detail overlay -->
+    <div class="detail-overlay" id="detail-overlay" onclick="if(event.target===this)hideDetail()">
+        <div class="detail-panel">
+            <div class="detail-header">
+                <div class="detail-title" id="detail-title"></div>
+                <button class="detail-close" onclick="hideDetail()">✕ Close</button>
+            </div>
+            <div class="detail-grid" id="detail-grid"></div>
+        </div>
+    </div>
+    <!-- All predictions as JSON -->
+    <script type="application/json" id="all-preds">
+        {{ all_preds_by_person | tojson }}
+    </script>
+    <script type="application/json" id="cat-colors">
+        {{ category_colors | tojson }}
+    </script>
     <script>
-        function toggleTheme() {
+        function toggleTheme(checkbox) {
             const body = document.body;
             const btn = document.querySelector('.theme-toggle');
-            if (body.getAttribute('data-theme') === 'light') {
-                body.removeAttribute('data-theme');
-                btn.textContent = '🌙 Dark';
-            } else {
+            const isLight = checkbox ? checkbox.checked : body.getAttribute('data-theme') !== 'light';
+            if (isLight) {
                 body.setAttribute('data-theme', 'light');
-                btn.textContent = '☀️ Light';
+                if (btn) btn.textContent = '☀️ Light';
+            } else {
+                body.removeAttribute('data-theme');
+                if (btn) btn.textContent = '🌙 Dark';
             }
         }
+        function toggleSettings() {
+            document.getElementById('settings-dropdown').classList.toggle('open');
+        }
+        document.addEventListener('click', function(e) {
+            if (!e.target.closest('.settings-btn') && !e.target.closest('.settings-dropdown')) {
+                document.getElementById('settings-dropdown').classList.remove('open');
+            }
+        });
+        function sourceLabel(url) {
+            if (!url) return 'Source';
+            var u = url.toLowerCase();
+            if (u.indexOf('youtube.com') >= 0 || u.indexOf('youtu.be') >= 0) return 'YouTube';
+            if (u.indexOf('newsletter.doomberg.com') >= 0) return 'Doomberg';
+            if (u.indexOf('substack') >= 0) return 'Substack';
+            if (u.indexOf('whitehouse.gov') >= 0) return 'White House';
+            if (u.indexOf('twitter.com') >= 0 || u.indexOf('x.com') >= 0) return 'X';
+            try {
+                var h = new URL(url).hostname.replace('www.','').split('.')[0];
+                return h.charAt(0).toUpperCase() + h.slice(1);
+            } catch(e) { return 'Source'; }
+        }
+        function condense(claim) {
+            if (!claim || claim.length <= 120) return claim;
+            for (var sep of ['. ', '! ', '? ']) {
+                var idx = claim.slice(0,140).lastIndexOf(sep);
+                if (idx > 60) return claim.slice(0, idx+1);
+            }
+            var idx = claim.slice(0,130).lastIndexOf(' ');
+            if (idx > 60) return claim.slice(0, idx) + '…';
+            return claim.slice(0,120) + '…';
+        }
+        function showDetail(name) {
+            var data = JSON.parse(document.getElementById('all-preds').textContent);
+            var colors = JSON.parse(document.getElementById('cat-colors').textContent);
+            var preds = data[name] || [];
+            document.getElementById('detail-title').textContent = name + ' — ' + preds.length + ' predictions';
+            var grid = document.getElementById('detail-grid');
+            grid.innerHTML = preds.map(function(p) {
+                var cat = p.category || 'other';
+                var color = colors[cat] || '#6b7280';
+                var label = sourceLabel(p.source_url);
+                return '<div class="detail-card">'
+                    + '<div class="dc-date">' + (p.date || '') + '</div>'
+                    + '<div class="dc-claim">' + condense(p.claim || '') + '</div>'
+                    + '<span class="dc-cat" style="background:' + color + '">' + cat + '</span>'
+                    + '<a class="dc-source" href="' + p.source_url + '" target="_blank" rel="noopener">' + label + ' ↗</a>'
+                    + '</div>';
+            }).join('');
+            document.getElementById('detail-overlay').classList.add('open');
+        }
+        function hideDetail() {
+            document.getElementById('detail-overlay').classList.remove('open');
+        }
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') hideDetail();
+        });
     </script>
 </body>
 </html>

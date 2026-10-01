@@ -91,10 +91,14 @@ async def index(request: Request):
 
     # Top 5 most recent outstanding PER PERSON
     rows_by_person: dict[str, list] = {}
+    all_preds_by_person: dict[str, list] = {}
     for ind in tracked_individuals:
         name = ind["name"]
         person_preds = [p for p in outstanding if p.get("individual_name") == name]
         rows_by_person[name] = person_preds[:5]
+        all_person = [p for p in predictions if p.get("individual_name") == name]
+        all_person.sort(key=lambda p: p.get("date", ""), reverse=True)
+        all_preds_by_person[name] = all_person
 
     # Total tracked predictions count (for stats bar)
     total_tracked_preds = len([p for p in predictions if p.get("individual_name") in tracked_names_set])
@@ -105,6 +109,7 @@ async def index(request: Request):
         panelists=panelists,
         panelists_by_category=panelists_by_category,
         rows_by_person=rows_by_person,
+        all_preds_by_person=all_preds_by_person,
         total_tracked_preds=total_tracked_preds,
         category_colors=CATEGORY_COLORS,
     )
