@@ -240,6 +240,26 @@
         "finance",
         "geopolitics"
       ]
+    },
+    {
+      "name": "David McAlvany",
+      "handle": "dmcalvany",
+      "sources": [
+        "https://mcalvany.com"
+      ],
+      "categories": [
+        "finance"
+      ]
+    },
+    {
+      "name": "Kevin Orrick",
+      "handle": "korrick",
+      "sources": [
+        "https://mcalvany.com"
+      ],
+      "categories": [
+        "finance"
+      ]
     }
   ],
   "predictions": [
