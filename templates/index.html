@@ -218,11 +218,13 @@
             </div>
             {% endfor %}
         </div>
-        {% for row in rows %}
+        {% for ind in tracked_individuals %}
+        {% set person_rows = rows_by_person.get(ind.name, []) %}
+        {% for row in person_rows %}
         <div class="grid-row">
-            {% for ind in tracked_individuals %}
+            {% for col_ind in tracked_individuals %}
             <div class="grid-cell">
-                {% if row.individual_name == ind.name %}
+                {% if col_ind.name == ind.name %}
                 <div class="pred-date">{{ row.date }}</div>
                 <div class="pred-claim">{{ row.claim | condense }}</div>
                 <a class="pred-source" href="{{ row.source_url }}" target="_blank" rel="noopener">{{ row.source_url | source_label }} ↗</a>
@@ -230,6 +232,7 @@
             </div>
             {% endfor %}
         </div>
+        {% endfor %}
         {% endfor %}
     </div>
     {% else %}

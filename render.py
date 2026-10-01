@@ -32,7 +32,13 @@ for p in panelists:
 tns = set(TRACKED_NAMES)
 outstanding = [p for p in predictions if p.get('individual_name') in tns and p.get('verdict') is None]
 outstanding.sort(key=lambda p: p.get('date', ''), reverse=True)
-top5 = outstanding[:5]
+
+# Top 5 per person
+rows_by_person = {}
+for name in TRACKED_NAMES:
+    person_preds = [p for p in outstanding if p.get('individual_name') == name]
+    rows_by_person[name] = person_preds[:5]
+
 total = len([p for p in predictions if p.get('individual_name') in tns])
 
 CC = {'finance':'#10b981','energy':'#f59e0b','ukraine':'#3b82f6','china':'#ef4444','ai':'#8b5cf6','geopolitics':'#6366f1','other':'#6b7280'}
@@ -83,16 +89,16 @@ env.filters['source_label'] = source_label
 env.filters['condense'] = condense
 html = env.get_template('index.html').render(
     tracked_individuals=tracked, panelists=panelists, panelists_by_category=pbc,
-    rows=top5, total_tracked_preds=total, category_colors=CC,
+    rows_by_person=rows_by_person, total_tracked_preds=total, category_colors=CC,
 )
 
 with open(OUT, 'w', encoding='utf-8') as f:
     f.write(html)
 print(f'Wrote {len(html)} bytes to {OUT}')
-print(f'Top5: {len(top5)} rows')
-for r in top5:
-    d = r.get('date','')
-    n = r.get('individual_name','')
-    c = r.get('category','')
-    cl = str(r.get('claim',''))[:60]
-    print(f'  {d} | {n} | {c} | {cl}')
+for name, preds in rows_by_person.items():
+    print(f'{name}: {len(preds)} rows')
+    for r in preds:
+        d = r.get('date','')
+        c = r.get('category','')
+        cl = str(r.get('claim',''))[:60]
+        print(f'  {d} | {c} | {cl}')
