@@ -364,6 +364,72 @@
       "special": true,
       "weight_subjective": 0.5,
       "weight_objective": 1.0
+    },
+    {
+      "name": "Wall Street Journal",
+      "handle": "wsj",
+      "sources": [
+        "https://www.wsj.com"
+      ],
+      "categories": [
+        "finance"
+      ],
+      "publication": true,
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Jerusalem Post",
+      "handle": "jpost",
+      "sources": [
+        "https://www.jpost.com"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "publication": true,
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Warsaw Voice",
+      "handle": "warsawvoice",
+      "sources": [
+        "https://www.warsawvoice.pl"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "publication": true,
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Notes from Poland",
+      "handle": "notesfrompoland",
+      "sources": [
+        "https://notesfrompoland.com"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "publication": true,
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "NHK World",
+      "handle": "nhkworld",
+      "sources": [
+        "https://www3.nhk.or.jp/nhkworld/"
+      ],
+      "categories": [
+        "finance",
+        "geopolitics"
+      ],
+      "publication": true,
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
     }
   ],
   "predictions": [
@@ -377,7 +443,10 @@
       "transcript_excerpt": "On the 24th, Chairman Xi Jinping of China is going to actually be in Washington for bilateral talks with Trump.",
       "verdict": null,
       "created_at": "2026-09-30T19:18:35.812869",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20260930191835_ae108c43fbce",
@@ -389,7 +458,10 @@
       "transcript_excerpt": "The real outside question is, of course, China. Uh which is the primary source for most of the manufactured goods that flow into Iran, up to and including the parts that they need for their drones.",
       "verdict": null,
       "created_at": "2026-09-30T19:18:35.800566",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20260930191406_7e8a4480d4e0",
@@ -401,7 +473,10 @@
       "transcript_excerpt": "The Chinese are under export restrictions, uh so, they cannot import the hardware that is necessary to make high-end semiconductors. Uh, specifically the extreme ultraviolet machines uh, that come from the Dutch company ASML. Um, and without those there's no way they can make anything that's really under 7 nm reliably.",
       "verdict": null,
       "created_at": "2026-09-30T19:14:06.836968",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20260930190909_002",
@@ -413,7 +488,10 @@
       "transcript_excerpt": "Right now in the rest of the world, the high-end chips are in the 2 to 4 nm range and we are now starting to get chips that were designed with coolant topography in mind.",
       "verdict": null,
       "created_at": "2026-09-30T19:09:09.288877",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20260930191448_391aa8cf850c",
@@ -425,7 +503,10 @@
       "transcript_excerpt": "And as of Wednesday, only three ships came through. So, the ability of the Iranians to shut that on and off is pretty, pretty strict, and that means we're looking at roughly 20 million barrels of crude that can't get out.",
       "verdict": null,
       "created_at": "2026-09-30T19:14:48.062459",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20260930191939_77f45274fefb",
@@ -437,7 +518,10 @@
       "transcript_excerpt": "That's going to hit energy at every level, including diesel. Anyway, in the United States, um we've got a couple of things going on. First of all, what's bringing this to my attention, So, been a lot of social media posts in places like California and Texas gas stations saying that they're just out of diesel.",
       "verdict": null,
       "created_at": "2026-09-30T19:19:40.017666",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20260930192033_e72d59032a15",
@@ -449,7 +533,10 @@
       "transcript_excerpt": "And then we'll have four to six years where the AI chips capable chips that are in data centers will basically run and then they'll burn themselves out and then we'll have to start all over. So >> [snorts] >> this is a conversation that honestly doesn't need to bear fruit until say like the 2040s when we rebuild those systems.",
       "verdict": null,
       "created_at": "2026-09-30T19:20:33.589647",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20260930191539_80ffbead462b",
@@ -461,7 +548,10 @@
       "transcript_excerpt": "keep in mind that the United States spends about 10 times as much on hardware, uh, for the stuff that is necessary to run AI than the Chinese do and then several times as much on the actual software. Uh, in terms of software, the most generous assessment I've seen of the Chinese is that they're six months behind American companies. It's probably more like 36 months. um, but when it comes to hardware, there's no contest. Uh, the Chinese cannot make chips by themselves that are better than 28 nanometers and you're not going to run even a sloppy [snorts] AI engine on something that is worse than say 14 or 15 and almost all the stuff that's being done in the United States on is on stuff that is 5 nanometers and smaller.",
       "verdict": null,
       "created_at": "2026-09-30T19:15:39.955954",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20260930192045_850b4403fdb7",
@@ -473,7 +563,10 @@
       "transcript_excerpt": "Keep in mind that Japan demographically is the oldest society right now with the highest proportion of senior citizens. And [snorts] uh the population has been shrinking for the last 20 years.",
       "verdict": null,
       "created_at": "2026-09-30T19:20:45.816587",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20260930191615_d79e00a2d5fb",
@@ -485,7 +578,10 @@
       "transcript_excerpt": "Uh keep in mind that Japan demographically is the oldest society right now with the highest proportion of senior citizens. And [snorts] uh the population has been shrinking for the last 20 years.",
       "verdict": null,
       "created_at": "2026-09-30T19:16:15.071342",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20260930192111_2b82b3d9bb3b",
@@ -497,7 +593,10 @@
       "transcript_excerpt": "More likely the business as usual of tech advancement that we've become used to is simply not going to fly and we're going to have to get by with less.",
       "verdict": null,
       "created_at": "2026-09-30T19:21:11.784549",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20260930192111_aadd10cff00e",
@@ -509,7 +608,10 @@
       "transcript_excerpt": "Cuz we are nearing the point in a few years where the Chinese system is going to collapse for demographic reasons. That assumes there's not a war, that assumes there's not a trade war, all of which could bring the end date faster.",
       "verdict": null,
       "created_at": "2026-09-30T19:21:11.715864",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20260930192135_24fbdecdd5bf",
@@ -521,7 +623,10 @@
       "transcript_excerpt": "Everybody, Peter Zeihan here, coming to you from above Barney Lake in the Hoover National Wilderness. Today, I want to talk about something that I saw in the news while I was on the plane to this trip. And that's [snorts] that the Trump administration is in the process of setting up a prize court, which is kind of cool. Prize court basically makes legal rulings on products that are seized by the US military, sold on behalf of the US government, and the proceeds go to the Treasury.",
       "verdict": null,
       "created_at": "2026-09-30T19:21:35.391159",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20260930192135_ac44ac0fd216",
@@ -533,7 +638,10 @@
       "transcript_excerpt": "So, uh this could mean that the rest of this year is going to get really interesting.",
       "verdict": null,
       "created_at": "2026-09-30T19:21:35.501499",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20260930192215_bea2e73ba9bd",
@@ -545,7 +653,10 @@
       "transcript_excerpt": "uh some of the cities controlled certain trade routes. They started to merge that and became a mercantile grouping. And eventually, they decided that they got along well enough that they should build a common wall among their entire combined area. And uh that set the formation of what we now call Rome, and eventually it became the Roman Empire. And in time, those seven communities and their merger and their collective infrastructure formed a city of a million people in the uh 3rd century AD, which was a level that was not matched by anyone else on the planet until London in the 1800s. Why does this matter now? >> [sighs] >> They, in essence, maximized the technologies they had at the moment, applied them to their geography, changed what they could, and in doing so created one of the great empires in history. We're entering a period now where the rules of geopolitics are forcing an adjustment, and just like the original seven cities of Rome, they're going to have to come up with something new to get by. Uh there are two areas that I think are worth drawing your attention to. The first is Southeast Asia, where you've got a cluster of a dozen countries ranging from technocratic Singapore, commodity-providing Australia and New Zealand, uh relatively backwards Myanmar, middle-range Malaysia and Thailand, who already have a series of groupings and agreements that allow them to punch above their collective weight should they develop a political system for doing so, which they haven't done. But the hard stuff, the economic integration, is already done.",
       "verdict": null,
       "created_at": "2026-09-30T19:22:15.924352",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20260930192215_a2cb0463b89c",
@@ -557,7 +668,10 @@
       "transcript_excerpt": "Number two, the southern part of Latin America, specifically the southern cone. This is an area that inclu- includes Chile, Argentina, Uruguay, uh Paraguay, and the southern few provinces of Brazil. This is a zone that is in the temperate zone, and so you don't have a lot of the just the infrastructure annihilating heat, humidity, and rainfall that exists further north in Brazil. Basically, anything south of Rio works, everything north kind of sketchy. Uh so they can feed themselves. Argentina has shown that even under some of the most destructive economic policies that humans have ever put together, they can still be a net oil and natural gas exporter, and they are the world's number two producer of shale energy. Uh Combine that with some of the offshore in Brazil, where they've got one of the world's best oil companies, and you're at least neutral, probably strongly positive [snorts] in terms of energy. And in a world where say China goes away, and there just aren't enough manufactured goods, this is an area with actually a really solid educational base. Uh Argentina, despite some of their policies, has always maintained a good baseline educational system, and Brazil has a shocking volume of skilled labor for an economy of its size that is highly specialized. You lump that all together, it really works.",
       "verdict": null,
       "created_at": "2026-09-30T19:22:15.965875",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20260930192307_c20f9aa39f2c",
@@ -569,7 +683,10 @@
       "transcript_excerpt": "By then, most of the data center should be built, and they can begin meaningful operations before the end of next year, but they probably won't finish the model until right around New Year's. So, we're already talking not just 2027, but 2028 before they might be able to start putting this thing into robot brains.",
       "verdict": null,
       "created_at": "2026-09-30T19:23:07.706145",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20260930192307_f7bb161cb48f",
@@ -581,7 +698,10 @@
       "transcript_excerpt": "Japan is the world's oldest society. It's no longer the fastest aging, but it's expecting a workforce shortage of more than 11 million workers as soon as 2030.",
       "verdict": null,
       "created_at": "2026-09-30T19:23:07.737604",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_doomberg_d5e76711",
@@ -593,7 +713,10 @@
       "transcript_excerpt": "Mad Max style great reset, $150 oil, tipping point in Middle East",
       "verdict": null,
       "created_at": "2025-09-30T19:20:00",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_doomberg_a77496c4",
@@ -605,7 +728,10 @@
       "transcript_excerpt": "China will conquer semiconductors just as it has conquered EVs and solar",
       "verdict": null,
       "created_at": "2025-09-30T19:20:00",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_doomberg_9486f67c",
@@ -617,7 +743,10 @@
       "transcript_excerpt": "Trump to call a national emergency over diesel fuel crisis",
       "verdict": null,
       "created_at": "2025-09-30T19:20:00",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_doomberg_28edafe2",
@@ -629,7 +758,10 @@
       "transcript_excerpt": "Coal, natural gas, and oil will all set records — the green transition is over",
       "verdict": null,
       "created_at": "2025-09-30T19:20:00",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_doomberg_67f74507",
@@ -641,7 +773,10 @@
       "transcript_excerpt": "Gold is signaling a massive regime change",
       "verdict": null,
       "created_at": "2025-09-30T19:20:00",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_diamandis_0e456622",
@@ -653,7 +788,10 @@
       "transcript_excerpt": "AI increasing at 100x per year, by 2029 AI as capable as 8 billion humans",
       "verdict": null,
       "created_at": "2025-09-30T19:20:00",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_diamandis_d635b663",
@@ -665,7 +803,10 @@
       "transcript_excerpt": "AI agents are changing business forever, 30% of knowledge work automated",
       "verdict": null,
       "created_at": "2025-09-30T19:20:00",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_diamandis_bc45fd3c",
@@ -677,7 +818,10 @@
       "transcript_excerpt": "We're going to cure all disease within the next 10 years, double human lifespan",
       "verdict": null,
       "created_at": "2025-09-30T19:20:00",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_diamandis_8eba3e30",
@@ -689,7 +833,10 @@
       "transcript_excerpt": "by 2040 probably there are more humanoid robots than there are people, 10 billion",
       "verdict": null,
       "created_at": "2025-09-30T19:20:00",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_diamandis_017d3a43",
@@ -701,7 +848,10 @@
       "transcript_excerpt": "More than 80% of code merge into their code base is written by AI, the AI is building itself",
       "verdict": null,
       "created_at": "2025-09-30T19:20:00",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001134835_000",
@@ -713,7 +863,10 @@
       "transcript_excerpt": "If you made me bet right now, I would say that Lula is likely to win, but it is extremely close. I wouldn't be surprised if Bolsonaro wins. Um, I I would say that if Bolsonaro does take it, um, then, uh, we will see a warmer relationship with the United States almost immediately.",
       "verdict": null,
       "created_at": "2026-10-01T13:48:35.350720",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001134835_001",
@@ -725,7 +878,10 @@
       "transcript_excerpt": "Uh, that's a big deal. What we wouldn't see, and the markets would like it because he's going to be arguing for more fiscal responsibility and reduction in uh, mandatory expenses in Brazil. What we wouldn't see is a change uh in the fact that Brazil's lead trade partner is China and will continue to be China and they will align with them not just in expanding their economic engagement um on uh commodity exports and on manufactured imports, but also on technology.",
       "verdict": null,
       "created_at": "2026-10-01T13:48:35.350732",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001134900_000",
@@ -737,7 +893,10 @@
       "transcript_excerpt": "We're hearing that from Anthropic and OpenAI. We're hearing it from Google. We're hearing it from Microsoft, but the US government is not prepared to take a lead in regulation or governance. And ultimately, these companies will not. They will not because they don't trust each other and they want to win. And also, because even if they did engage in such cooperation, it would be seen as breaking antitrust for the purposes of the US government.",
       "verdict": null,
       "created_at": "2026-10-01T13:49:00.450167",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001134900_001",
@@ -749,7 +908,10 @@
       "transcript_excerpt": "That's clearly going to lead to policy backlash uh, there. The fact is that these AI models are incredibly powerful because they are trained on human data and they're trained to behave in that regard as humans do. Um, which means, you know, you focus on the thing that is most important to you and other things uh, are guidelines perhaps, but they're not necessarily hard and fast rules. Um, and uh, that's what we're seeing from so many of these AI models and it's causing a lot more danger, um, in terms of cyber insecurity, um, and also in terms of being able to use these things directly as a weapon or inadvertently as a weapon when a second-order, um, you know, sort of consequence of just following the top priority of what these agents have been told to do suddenly becomes damaging. Whoops, my bad. Didn't mean to do that. I'll be careful next time. Um and um what that means is that we're going to have to have a much bigger crisis before we have a response, number one. And number two, the response will not be proactive and systemic, but will rather be overwhelmingly oriented to respond to that specific thing.",
       "verdict": null,
       "created_at": "2026-10-01T13:49:00.450176",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001134922_000",
@@ -761,7 +923,10 @@
       "transcript_excerpt": "This meeting is set up to go well, but it's set up to go well in part because President Trump is looking short-term and Xi Jinping is looking long-term. Very different from, say, conflict over Russia-Ukraine... But in the case of the US and China, over the last year, Trump's top priority with Xi Jinping has been getting control of TikTok, because he wants to make sure that he has that data and algorithm in upcoming elections.",
       "verdict": null,
       "created_at": "2026-10-01T13:49:22.528146",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001134922_001",
@@ -773,7 +938,10 @@
       "transcript_excerpt": "The one thing that isn't going to move is artificial intelligence. Oh, they can talk about a hotline. They can talk about the need to be friendly, but reality is the Chinese are actively trying to win on artificial intelligence and so are the Americans. And the Chinese are behind in terms of frontier models and semiconductors, but the Americans are behind in terms of the war of ideas. Most Americans are scared of AI. They think the technology is going to hurt them. Most Chinese favor AI. They're using it more frequently than the Americans, believe it or not, even though they're only a middle-income economy, and they think that AI will help them and will actually help their economy.",
       "verdict": null,
       "created_at": "2026-10-01T13:49:22.528155",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001134939_000",
@@ -785,7 +953,10 @@
       "transcript_excerpt": "The announcement over the weekend of a deal on Greenland was got a little a little bit of buzz because Trump is going to announce it at his speech at the United Nations this week and sees it as a big win",
       "verdict": null,
       "created_at": "2026-10-01T13:49:39.202466",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001134939_001",
@@ -797,7 +968,10 @@
       "transcript_excerpt": "We will say nothing to undermine that because we got everything we wanted. We want to make sure that this does not get undermined, that he actually puts pen to paper and proceeds with the deal so we don't have to worry about Greenland anymore. Why would Trump after months and months of fighting over Greenland and saying the US needs sovereignty, has to own it, no one else can protect it, why would he accept something that is dramatically less than that in deal? And the answer is because we have passed peak Trump on the global stage. That Trump's ability to disrupt and get outcomes that he wants, to secure outcomes has been diminished dramatically compared to where we were, where the world was, where he was a year ago, two years ago",
       "verdict": null,
       "created_at": "2026-10-01T13:49:39.202471",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001134952_000",
@@ -809,7 +983,10 @@
       "transcript_excerpt": "Anthropic, the AI company, revealed that it had blocked several users of its popular platform Claude from using its models to conduct research that could have helped develop dangerous biological weapons. Now, Anthropic doesn't know whether they were trying to build an actual bioweapon or just doing a little science project, accounts were asking questions that could have easily led to a real-life crisis.",
       "verdict": null,
       "created_at": "2026-10-01T13:49:52.193770",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001134952_001",
@@ -821,7 +998,10 @@
       "transcript_excerpt": "The greatest threat may not be AI deciding to destroy humanity itself. It is AI making it easier for humans to set off a crisis they can't control.",
       "verdict": null,
       "created_at": "2026-10-01T13:49:52.193776",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001142022_000",
@@ -833,7 +1013,10 @@
       "transcript_excerpt": "“National Gas has moved into the advanced engineering design phase for a 350-mile hydrogen pipeline linking St Fergus in northeast Scotland to Teesside on England’s east coast, the gas transmission system operator said in a statement Sept. 17.”",
       "verdict": null,
       "created_at": "2026-10-01T14:20:22.574827",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001142022_001",
@@ -845,7 +1028,10 @@
       "transcript_excerpt": "The pipeline is the second phase of Project Union, and National Gas plans to develop a 1,500-mile national hydrogen network connecting major industrial clusters and hydrogen production centers, the company said.",
       "verdict": null,
       "created_at": "2026-10-01T14:20:22.574918",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001142036_000",
@@ -857,7 +1043,10 @@
       "transcript_excerpt": "Despite solidifying his place as the most unpopular leader in modern German history, Merz intends to keep pretending he has a mandate to lead, at least for now.",
       "verdict": null,
       "created_at": "2026-10-01T14:20:36.379346",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001142036_001",
@@ -869,7 +1058,10 @@
       "transcript_excerpt": "French far-right leader and presidential candidate Marine Le Pen is among the politicians calling for a major cut in fuel taxes to deal with the crisis. Here too, the country's leader is setting records for unpopularity. President Emmanuel Macron's approval rating has fallen to a low of 16%, levels that would have triggered an honor-salvaging resignation in prior times.",
       "verdict": null,
       "created_at": "2026-10-01T14:20:36.379367",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001142046_000",
@@ -881,7 +1073,10 @@
       "transcript_excerpt": "Our minds returned to a mental model we first published in early April, just five weeks after the war in Iran kicked off. In that missive, we posited that, far from being a neutral bystander and potential victim of a global crude shortage, China stood a good chance of emerging from the conflict a decisive winner. With President Xi Jinping set to visit Washington next week, the cascading series of events befalling the Middle East looks far less likely to be a coincidence of timing.",
       "verdict": null,
       "created_at": "2026-10-01T14:20:46.644848",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001142106_000",
@@ -893,7 +1088,10 @@
       "transcript_excerpt": "With a separatist referendum just weeks away, a growing trade war between her home country and the US to navigate, and a potential tsunami of demand for Alberta’s cheap fuel accumulating from aspiring data-center builders, now would seem an inopportune time for Smith to be confronted with an explosive leak detailing the inner contemplations of her cabinet as she tries to thread the natural gas needle.",
       "verdict": null,
       "created_at": "2026-10-01T14:21:06.085584",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001142106_001",
@@ -905,7 +1103,10 @@
       "transcript_excerpt": "In [round numbers](https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2026/market-snapshot-canadas-natural-gas-production-kept-climbing-in-2025.html), of the province’s 11 bcf/d of production, 7 bcf/d is consumed within its borders, and only 4 bcf/d is exported to points east over the Prairies, west over the Rockies, and south to Orangemanbadland.",
       "verdict": null,
       "created_at": "2026-10-01T14:21:06.085610",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001142124_000",
@@ -917,7 +1118,10 @@
       "transcript_excerpt": "Argentina's president has heightened tensions with the UK over the Falkland Islands, warning he will impose economic sanctions on firms which exploit oil close to the British overseas territory. Milei said the Sea Lion oilfield, where a British and an Israeli firm are due to begin exploration work, was a 'clear and present danger.'",
       "verdict": null,
       "created_at": "2026-10-01T14:21:24.849611",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001142124_001",
@@ -929,7 +1133,10 @@
       "transcript_excerpt": "Foreign Secretary Ed Miliband said the UK's position on the islands was 'unwavering,' and they would remain British as 'that is the overwhelming position of the Islanders.'",
       "verdict": null,
       "created_at": "2026-10-01T14:21:24.849653",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001142140_000",
@@ -941,7 +1148,10 @@
       "transcript_excerpt": "Naturally, we hold a different view. The very scale of the problem is the accelerant for finding workable solutions, and strong signs indicate that scientists and entrepreneurs will soon crack it. When they invariably do, robust riches will certainly accrue.",
       "verdict": null,
       "created_at": "2026-10-01T14:21:40.812149",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001142140_001",
@@ -953,31 +1163,10 @@
       "transcript_excerpt": "Among the most ironclad, stone-cold, lead-pipe-lock bets of history is that aggregate primary energy consumption is a curve that goes up and to the right. Longtime readers will be familiar with the physical foundations for why this is so: The human endeavor is a constant, unrelenting struggle against the forces of entropy; one must harness primary energy to temporarily prevail in that struggle; one's standard of living is thus measured by how much primary energy is on offer for the task; and all humans everywhere want a higher standard of living.",
       "verdict": null,
       "created_at": "2026-10-01T14:21:40.812212",
-      "measurement_type": "subjective"
-    },
-    {
-      "id": "pred_20261001142156_000",
-      "individual_name": "Doomberg",
-      "date": "2026-09-01",
-      "category": "energy",
-      "claim": "The United States will secure majority control of more than 65 billion barrels of proven Oil Reserves in Venezuela at no cost to the American Taxpayer.",
-      "source_url": "https://newsletter.doomberg.com/p/with-american-characteristics",
-      "transcript_excerpt": "“BREAKING NEWS: The United States of America has just entered into an Agreement with the Country of Venezuela on, THE BIGGEST OIL DEAL IN WORLD HISTORY! At my direction, Secretary of State Marco Rubio, and Secretary of War Pete Hegseth, working closely with Highly Respected Interim President of Venezuela, Delcy Rodriguez, and, through a partnership with private business, have secured majority U.S. control of more than 65 BILLION BARRELS of proven Oil Reserves in Venezuela, at no cost to the American Taxpayer.”",
-      "verdict": null,
-      "created_at": "2026-10-01T14:21:56.928569",
-      "measurement_type": "quantitative"
-    },
-    {
-      "id": "pred_20261001142156_001",
-      "individual_name": "Doomberg",
-      "date": "2026-09-01",
-      "category": "energy",
-      "claim": "This historic oil transaction will substantially lower Gas Prices for all Americans, long into the future.",
-      "source_url": "https://newsletter.doomberg.com/p/with-american-characteristics",
-      "transcript_excerpt": "This Historic Transaction MORE THAN DOUBLES American Oil Reserves, greatly increases our Oil Supply, and will substantially lower Gas Prices for all Americans, long into the future, while helping to continue to set Venezuela on a course toward Tremendous Success and Great Prosperity.",
-      "verdict": null,
-      "created_at": "2026-10-01T14:21:56.928604",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001142203_000",
@@ -989,7 +1178,10 @@
       "transcript_excerpt": "If we're right, a pipeline construction boom is coming to Canada.",
       "verdict": null,
       "created_at": "2026-10-01T14:22:03.273572",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001142223_001",
@@ -1001,7 +1193,10 @@
       "transcript_excerpt": "Through various expansions and other improvements, the CPC pipeline can currently carry roughly 1.4 million bpd of oil to the Russian border and on to the all-important Port of Novorossiysk on the coast of the Black Sea.",
       "verdict": null,
       "created_at": "2026-10-01T14:22:23.194322",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001142241_000",
@@ -1013,7 +1208,10 @@
       "transcript_excerpt": "The near-term effects have been disturbingly clear. Since July 22, the Russian military has effectively closed the Ukrainian port complex in and around Odessa to all shipping. The loss of its remaining deep-water ports is already having a devastating effect on Ukraine's agricultural exports — the backbone of its economy — which officials warn may plummet by 50% in the coming months because alternative land, rail, and river routes have much less capacity and are much more costly.",
       "verdict": null,
       "created_at": "2026-10-01T14:22:41.302933",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001142241_001",
@@ -1025,7 +1223,10 @@
       "transcript_excerpt": "Ukraine has purchased a significant package of US-made defense equipment from Turkey, including 70 long-range Army Tactical Missile Systems (ATACMS), according to U.S. congressional records. The weapons transfer is expected to be initiated in late August.",
       "verdict": null,
       "created_at": "2026-10-01T14:22:41.302986",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001142253_000",
@@ -1037,7 +1238,10 @@
       "transcript_excerpt": "Energy Secretary Chris Wright has said about 35 to 40 million barrels of extra oil will be returned this year and next in the form of premiums.",
       "verdict": null,
       "created_at": "2026-10-01T14:22:53.296154",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001142253_001",
@@ -1049,7 +1253,10 @@
       "transcript_excerpt": "In July, for the third straight month, Venezuelan oil exports surpassed 1 million barrels per day, up from half that threshold as recently as December.",
       "verdict": null,
       "created_at": "2026-10-01T14:22:53.296189",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001142308_000",
@@ -1061,7 +1268,10 @@
       "transcript_excerpt": "Here's how the _Financial Times_ [frames it]:...\"Three officials said there was now work under way on how to curb the tactic, which has become increasingly prevalent in recent EU sanctions negotiations as capitals seek to protect companies still doing business with Russia.\"...Our [recent call] that the final days of the bloc itself are far closer than most are modeling.",
       "verdict": null,
       "created_at": "2026-10-01T14:23:08.306180",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001142308_001",
@@ -1073,7 +1283,10 @@
       "transcript_excerpt": "\"Brussels is considering a new approach to Russia sanctions after Greece held up a large package of EU measures to protect a shipping tycoon. European officials are looking at ways to speed up approval of more targeted financial restrictions so that member states have less opportunity to use vetoes in negotiations...\"",
       "verdict": null,
       "created_at": "2026-10-01T14:23:08.306251",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001142324_000",
@@ -1085,7 +1298,10 @@
       "transcript_excerpt": "It didn't take long for Beijing to hit back where it hurts:\n\n> \"China announced it will add export restrictions on 14 EU defense and technology companies after the EU added 14 Chinese businesses to its Russia sanctions lists. This marks Beijing's most direct and forceful response yet to EU sanctions listings, which it denounced as 'egregious.' Recent studies estimate that up to 90 percent of sanctioned goods still reaching Russia transit through China.\"",
       "verdict": null,
       "created_at": "2026-10-01T14:23:24.895422",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001142324_001",
@@ -1097,7 +1313,10 @@
       "transcript_excerpt": "The speed of China's response is also noteworthy.\n\nWhile sanctions diplomacy often drags on for weeks, Beijing acted in under a day. This shows not just political determination but also the growing effectiveness of China's legal framework, including its Export Control Law and Anti-Foreign Sanctions Law, which now allows quick, rules-based responses.",
       "verdict": null,
       "created_at": "2026-10-01T14:23:24.895475",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001142337_000",
@@ -1109,7 +1328,10 @@
       "transcript_excerpt": "Matthew Smith has spent the last 18 months modeling every well, pipeline, storage facility, and power plant in the American natural gas system. His conclusion is that the US is heading toward a natural gas shortage with no precedent, beginning in 2028.",
       "verdict": null,
       "created_at": "2026-10-01T14:23:37.444987",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001142337_001",
@@ -1121,7 +1343,10 @@
       "transcript_excerpt": "By 2030, he believes we could exhaust our working natural gas storage entirely. The fuel everyone in AI is counting on, and that everyone assumes is abundant, is not there.",
       "verdict": null,
       "created_at": "2026-10-01T14:23:37.445002",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001142359_000",
@@ -1133,7 +1358,10 @@
       "transcript_excerpt": "China's monthly car exports topped 1m for the first time in June as overall overseas shipments from the world's second biggest economy rose 27%. Sales of Chinese brands ranging from BYD to Jaecoo are booming, eating into the market shares of long-established brands, particularly in Europe. Wang is far from alone. China is now the world's largest car exporter, but sales at home have hit the skids in recent months, as the government scales back its subsidy programme and consumers remain reluctant to spend amid a shaky job market and prolonged property downturn.",
       "verdict": null,
       "created_at": "2026-10-01T14:23:59.173603",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001142359_001",
@@ -1145,7 +1373,10 @@
       "transcript_excerpt": "This play follows a familiar script. In the early stages, local champions are heavily subsidized on the home front until they have either developed or pilfered the necessary technology to compete on a global scale. Then the world is flooded with excellent products offered at impossible-to-compete-with prices, with the goal of quite literally putting the competition out of business. Were this just a story condemning the likes of General Motors, Ford, Toyota, Honda, and Volkswagen to ruin, it would be bad enough, but this exact sequence is playing out in the all-important artificial intelligence (AI) industry, only at an even faster pace.",
       "verdict": null,
       "created_at": "2026-10-01T14:23:59.173650",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001142426_000",
@@ -1157,7 +1388,10 @@
       "transcript_excerpt": "The company was quick to reject the accusations outright in a brief 8-K filed with the Securities and Exchange Commission (SEC), which pointed investors to a blog post explaining how it sources scandium. This is from the SEC filing: \"As to the claims regarding scandium oxide in the Report, we reject the conclusions. We have sufficient supply of scandium oxide to meet our current fuel cell demand and backlog, and our supply is not dependent on China. We are also not dependent on China to scale scandium oxide to meet future demand growth. We have clear visibility into our supply chain to support production of 25GW of fuel cells per year, and we will continue to expand this capacity.\"",
       "verdict": null,
       "created_at": "2026-10-01T14:24:26.987672",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001142445_000",
@@ -1169,7 +1403,10 @@
       "transcript_excerpt": "An industry source said at least 60,000 metric tons of gasoline have been dispatched from India to Russia. Another source said that two tankers, with parcels of 30,000 to 40,000 tons each, have been sent. A third source said that in total, Russia plans to import 400,000 tons of gasoline from various countries each month, including from neighbouring Belarus, which has already been exporting fuel to Russia.",
       "verdict": null,
       "created_at": "2026-10-01T14:24:45.724884",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001142445_001",
@@ -1181,7 +1418,10 @@
       "transcript_excerpt": "Recast in more familiar units, 400,000 tons of gasoline imported in a month is roughly 115,000 barrels per day, while 110,000 tons per day of peak summer demand is about 935,000 barrels. Is Russia importing 12% of its peak summer gasoline demand all that unusual? Not according to Alexander Mercouris of the popular YouTube channel _The Duran_.",
       "verdict": null,
       "created_at": "2026-10-01T14:24:45.724911",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001155826_063811",
@@ -1193,7 +1433,10 @@
       "transcript_excerpt": "And we're nearing the point where enough damage is inflicted on the shadow fleet that it's probably going to stop functioning later this year, which is going to end Russia's presence as a significant oil exporter.",
       "verdict": null,
       "created_at": "2026-10-01T15:58:26.063825",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001155826_063850",
@@ -1205,7 +1448,10 @@
       "transcript_excerpt": "But there is an end in sight here because if the Russians cannot load cargo, whether it's grain or crude, eventually the ports just run out of storage facilities and that cuts down production inland just as effective as stopping the shadow fleet would. So, one way or another, we're getting there. We're getting there this year.",
       "verdict": null,
       "created_at": "2026-10-01T15:58:26.063855",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001155838_838595",
@@ -1217,7 +1463,10 @@
       "transcript_excerpt": "So, we're at the end of the lifespan of the SPR, and without significant re-engineering, which I'm not even sure is possible since so many of the pieces are geologic rather than mechanical, uh we're probably going to be sending seeing the end of the reserve in the not too distant future.",
       "verdict": null,
       "created_at": "2026-10-01T15:58:38.838604",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001155838_838619",
@@ -1229,7 +1478,10 @@
       "transcript_excerpt": "So, either we have a new multi-billion dollar project authorized by Congress to establish an entirely new reserve, or the United States has to do something else in order to regulate markets.",
       "verdict": null,
       "created_at": "2026-10-01T15:58:38.838621",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001155851_033507",
@@ -1241,7 +1493,10 @@
       "transcript_excerpt": "Third, this is not something the United States can sustain indefinitely. The cost to the United States is in probably the dozens of millions of dollars a day cuz we're basically having a carrier anchored task force basically just parked in an area, and as long as it is there, it can't do anything else.",
       "verdict": null,
       "created_at": "2026-10-01T15:58:51.033516",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001155851_033528",
@@ -1253,7 +1508,10 @@
       "transcript_excerpt": "No country, including the United States, no coalition of countries can keep the seas safe any longer. So it's just a question of when and how and where it breaks down first.",
       "verdict": null,
       "created_at": "2026-10-01T15:58:51.033529",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001155859_422109",
@@ -1265,7 +1523,10 @@
       "transcript_excerpt": "Best estimates is that there's going to be another 20% collapse this year.",
       "verdict": null,
       "created_at": "2026-10-01T15:58:59.422120",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001155859_422135",
@@ -1277,7 +1538,10 @@
       "transcript_excerpt": "According to the official statistics, homes today are worth less than they were at the start of the boom in 2005.",
       "verdict": null,
       "created_at": "2026-10-01T15:58:59.422137",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001155911_428512",
@@ -1289,7 +1553,10 @@
       "transcript_excerpt": "They are expecting the refining system to not simply continue to come under attack, but they're expecting the city to run out of fuel before the end of the year, and perhaps a lot sooner than that.",
       "verdict": null,
       "created_at": "2026-10-01T15:59:11.428520",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001155911_428531",
@@ -1301,7 +1568,10 @@
       "transcript_excerpt": "The Russians are talking about this peripheral mobilization about 300,000 people, which would be enough to supply troops to maintain what the Russians have been doing at the last year's burn rates for another 6 to 9 months.",
       "verdict": null,
       "created_at": "2026-10-01T15:59:11.428531",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001155921_107185",
@@ -1313,7 +1583,10 @@
       "transcript_excerpt": "if you were looking for the reindustrialization of the United States under the Trump administration, we now have 18 months of data indicating that we've gone screaming in the opposite direction",
       "verdict": null,
       "created_at": "2026-10-01T15:59:21.107193",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001155921_107206",
@@ -1325,7 +1598,10 @@
       "transcript_excerpt": "if they do decide to target things like the manufacturing sector, that would really reverberate in places like Michigan and swing states",
       "verdict": null,
       "created_at": "2026-10-01T15:59:21.107207",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001155934_775103",
@@ -1337,7 +1613,10 @@
       "transcript_excerpt": "So, no, uh this isn't a good solution. Uh so, we're probably going to be seeing a broad-scale American withdrawal from the region unless and until the interceptor problem can be solved, and it will not be solved with Patriots.",
       "verdict": null,
       "created_at": "2026-10-01T15:59:34.775111",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001155934_775122",
@@ -1349,7 +1628,10 @@
       "transcript_excerpt": "And 600 miles range can bring those Iranian drones all the way to the Mediterranean, hit anywhere in Israel already. So, if the American goal is to have a close-in military facility in the Persian Gulf region, or the Middle East in general, that can threaten Iran, the interceptor problem has to be solved. It isn't an issue of distance. Iran has already demonstrated it and has robust capability of hitting anything in the region all the way to Israel, all the way to the Red Sea, all the way to Yemen.",
       "verdict": null,
       "created_at": "2026-10-01T15:59:34.775122",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160003_634755",
@@ -1361,7 +1643,10 @@
       "transcript_excerpt": "If the Koreans decided to pull the trigger today, they could have a device in days. They'll probably be able to have it deliverable nuclear weapon within months.",
       "verdict": null,
       "created_at": "2026-10-01T16:00:03.634764",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160003_634778",
@@ -1373,7 +1658,10 @@
       "transcript_excerpt": "We can probably now kiss that goodbye, which means that the rate of building new ships is going to continue to be very slow. Second piece is in computers... the Koreans make almost all of those, all the good ones anyway, and are really the only ones researching how to make better ones.",
       "verdict": null,
       "created_at": "2026-10-01T16:00:03.634780",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160016_444903",
@@ -1385,7 +1673,10 @@
       "transcript_excerpt": "we're probably going to have some sort of format before the end of the year where Iran is able to gather charges, uh whether it's a service fee or toll, whatever you want to call it.",
       "verdict": null,
       "created_at": "2026-10-01T16:00:16.444914",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160016_444929",
@@ -1397,7 +1688,10 @@
       "transcript_excerpt": "The second it becomes apparent that the Iranians can enforce their will uh on the Persian Gulf in this way, you can bet your ass that the Turks are going to be doing the same thing.",
       "verdict": null,
       "created_at": "2026-10-01T16:00:16.444930",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160024_120998",
@@ -1409,7 +1703,10 @@
       "transcript_excerpt": "So, in summary, the Russians probably won't have a space program by the end of the year.",
       "verdict": null,
       "created_at": "2026-10-01T16:00:24.121006",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160024_121021",
@@ -1421,7 +1718,10 @@
       "transcript_excerpt": "That makes them completely dependent upon third-party reconnaissance, primarily from China.",
       "verdict": null,
       "created_at": "2026-10-01T16:00:24.121022",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160036_238392",
@@ -1433,7 +1733,10 @@
       "transcript_excerpt": "And when that happens, we will have formally or informally broken with over a century of international maritime law that makes specific waterways open for all for free. Cuz once Hormuz falls, we have to revisit that issue with every other waterway that is like Hormuz.",
       "verdict": null,
       "created_at": "2026-10-01T16:00:36.238404",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160036_238424",
@@ -1445,7 +1748,10 @@
       "transcript_excerpt": "So, like a supertanker that comes through with a million barrels, that could be anywhere from $100,000 to $2 million uh per passage.",
       "verdict": null,
       "created_at": "2026-10-01T16:00:36.238427",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160110_178270",
@@ -1457,7 +1763,10 @@
       "transcript_excerpt": "The Ukrainians need to get down to that to a quarter of a million a pop maximum. Otherwise, it just doesn't serve the purpose in this new era...",
       "verdict": null,
       "created_at": "2026-10-01T16:01:10.178283",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160110_178304",
@@ -1469,7 +1778,10 @@
       "transcript_excerpt": "Once that happens, well, pace of anti-ballistic missile technology is going to skyrocket because everyone will be researching alternatives.",
       "verdict": null,
       "created_at": "2026-10-01T16:01:10.178306",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160147_723095",
@@ -1481,7 +1793,10 @@
       "transcript_excerpt": "Regardless of why, the United States is removing itself from a lot of the Eastern Hemisphere. You can make the argument that I've been making for some time that for reasons of demographics and geopolitics, the US is entering a more retrenched phase. ... The United States' position as the determinant of what happens in the Persian Gulf is fading very, very rapidly and will probably collapse before the end of this administration, if not the end of this year.",
       "verdict": null,
       "created_at": "2026-10-01T16:01:47.723106",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160147_723126",
@@ -1493,7 +1808,10 @@
       "transcript_excerpt": "But by the time we get to 2030, we're going to be in a very different environment both in the Middle East specifically and in the wider world and it's interesting to see countries that have capability like Pakistan, like Turkey, largest army in NATO, like Saudi Arabia uh already starting to prepare for post-American world.",
       "verdict": null,
       "created_at": "2026-10-01T16:01:47.723128",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160223_023770",
@@ -1505,7 +1823,10 @@
       "transcript_excerpt": "But at its peak, it was about 5 million barrels a day of raw crude plus some other 2 million barrels a day from Iran. We're looking at losing all of that uh as this year draws on.",
       "verdict": null,
       "created_at": "2026-10-01T16:02:23.023778",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160223_023790",
@@ -1517,7 +1838,10 @@
       "transcript_excerpt": "It's an open question whether anyone will let this thing dock because it's just going to leak in port then. Uh but at least one of the compartments is damaged to the point that uh the ship is going down. Anyway, a couple things to keep in moving forward. Number one, since this is the first real incident with a shadow fleet vessel, we don't know how the insurance system is going to work. Normally, if you had a fleet of vessels in this sort of condition and one of them then sunk on its own without getting shot at, uh you would see an explosion in insurance rates. It would probably lead to the decommissioning of every ship of its class. Uh that's not going to happen this time because these are ships that should have been decommissioned already. So, it's an open question how Russian insurance is going to pay out because the state created the insurance policy specifically to evade what everybody else normally does on the high seas. And it will be interesting to see if the Russian government actually pays out to cover the uh environmental restitution that will be required for for example for the Omanis.",
       "verdict": null,
       "created_at": "2026-10-01T16:02:23.023791",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160246_697686",
@@ -1529,7 +1853,10 @@
       "transcript_excerpt": "So, I expect the Russian position to be nominal. They might maintain a bit of an intelligence outpost, maybe a little observation, but that's it. So, we're really talking in excess of a 90% reduction in what the Russians used to get out of these bases within a very short period of time.",
       "verdict": null,
       "created_at": "2026-10-01T16:02:46.697697",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160246_697710",
@@ -1541,7 +1868,10 @@
       "transcript_excerpt": "And because the Turks control the straits that connect the Black Sea to the Mediterranean, and now that these ships that the Russians used to keep at Tartus have to go home or go somewhere, uh the ability of the Russians to even have the range that is necessary to project power uh doesn't exist. So, we're looking at the entire southwestern arc of the former Soviet space basically becoming a no-go zone for Russia.",
       "verdict": null,
       "created_at": "2026-10-01T16:02:46.697711",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160307_401101",
@@ -1553,7 +1883,10 @@
       "transcript_excerpt": "But if you remove just call it conservatively one-third of global food production then all of a sudden food prices are going to skyrocket",
       "verdict": null,
       "created_at": "2026-10-01T16:03:07.401109",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160307_401120",
@@ -1565,7 +1898,10 @@
       "transcript_excerpt": "So regardless of where you are on this equation and what argument you may have had in the past, the macroeconomic situation that led us to doing ethanol at scale is fading pretty quickly",
       "verdict": null,
       "created_at": "2026-10-01T16:03:07.401121",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160343_944971",
@@ -1577,7 +1913,10 @@
       "transcript_excerpt": "Best guess is that the shortage of 10 to 12 million barrels per day is going to go up over the next 3 months for the reasons I've already talked about plus of course the Houthis.",
       "verdict": null,
       "created_at": "2026-10-01T16:03:43.944980",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160343_944996",
@@ -1589,7 +1928,10 @@
       "transcript_excerpt": "At some point, that's going to lead to some sort of market reaction. And when that happens, then we get some of the biggest demand destruction we've seen at least since the price spikes of 2007 to 2009.",
       "verdict": null,
       "created_at": "2026-10-01T16:03:43.944999",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160406_777531",
@@ -1601,7 +1943,10 @@
       "transcript_excerpt": "So, what the United States can do to help the world recover or cope with the Iran war and the Ukraine war has already been done. And you're only going to get incremental increases in US exports from now on, assuming for the moment we even have stuff to export because our power demand is going through the roof.",
       "verdict": null,
       "created_at": "2026-10-01T16:04:06.777538",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160406_777550",
@@ -1613,7 +1958,10 @@
       "transcript_excerpt": "But, as the Russians vanish from the scene and the Persian Gulf doesn't recover, we're looking at that premium spreading to Europe. And we're looking at prices coming to Europe that they just haven't seen for the bulk of the past 5 years, and they're not ready for it.",
       "verdict": null,
       "created_at": "2026-10-01T16:04:06.777551",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160427_146525",
@@ -1625,7 +1973,10 @@
       "transcript_excerpt": "The Qatari this week uh this past week um declared force majeure extended their force majeure through the end of September, and now we're talking winter. And right now the winter storage for the Europeans for gas is less than half of the normal.",
       "verdict": null,
       "created_at": "2026-10-01T16:04:27.146533",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160427_146544",
@@ -1637,7 +1988,10 @@
       "transcript_excerpt": "Right now the winter storage for the Europeans for gas is less than half of the normal. It's the lowest it's ever been going into a winter.",
       "verdict": null,
       "created_at": "2026-10-01T16:04:27.146545",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160445_807407",
@@ -1649,7 +2003,10 @@
       "transcript_excerpt": "According to the Kazakhs, they've been looking at a 50 to 70% reduction in output from all of their major fields.",
       "verdict": null,
       "created_at": "2026-10-01T16:04:45.807415",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160445_807433",
@@ -1661,7 +2018,10 @@
       "transcript_excerpt": "We're looking at over a million barrels per day going offline, probably permanently.",
       "verdict": null,
       "created_at": "2026-10-01T16:04:45.807433",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160518_595233",
@@ -1673,7 +2033,10 @@
       "transcript_excerpt": "I would argue that until 8 years ago when Chairman Xi Jinping got rid of his last royal advisers, he had a very accurate understanding of the world about how China was arguably the country in world history most dependent upon international trade and how China utterly lacked the military means in order to protect that trade even within sight of its own shore.",
       "verdict": null,
       "created_at": "2026-10-01T16:05:18.595243",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160518_595257",
@@ -1685,7 +2048,10 @@
       "transcript_excerpt": "China basically faces three layers of problems. Uh number one, their chief sources of demand, primarily the United States, but to a slightly lesser degree, the European Union, are on the other side of continents from them and they're broadly hostile. Uh that means unless they can find a consumption source to absorb their goods, their current economic model won't work at all.",
       "verdict": null,
       "created_at": "2026-10-01T16:05:18.595259",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160553_451607",
@@ -1697,7 +2063,10 @@
       "transcript_excerpt": "The Emiratis have fast-tracked expansions. They hope to have another 300,000 barrels of capacity sometime later this year",
       "verdict": null,
       "created_at": "2026-10-01T16:05:53.451615",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160553_451627",
@@ -1709,7 +2078,10 @@
       "transcript_excerpt": "There's now talk of laying another parallel pipe, and maybe increasing this by another two or even 3 million barrels per day over the next few years.",
       "verdict": null,
       "created_at": "2026-10-01T16:05:53.451629",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160615_366857",
@@ -1721,7 +2093,10 @@
       "transcript_excerpt": "We are looking at a period for at least the next 30 years where the United States does not have a military presence on the waters in the Arctic whenever there's ice.",
       "verdict": null,
       "created_at": "2026-10-01T16:06:15.366866",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160615_366878",
@@ -1733,7 +2108,10 @@
       "transcript_excerpt": "You see, we don't even have a shipyard that can build them anymore. And that would be great, especially now that Finland's in NATO. But uh the two countries that the Trump administration has threatened most directly and most repeatedly are Canada. Canada is not going to help us build nice breaker fleet that could then circumvent Canadian power in the Arctic.",
       "verdict": null,
       "created_at": "2026-10-01T16:06:15.366878",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160738_835878",
@@ -1745,7 +2123,10 @@
       "transcript_excerpt": "So, the the party now is the party of Trump and that makes it really hard for it to be the party of J.D. Vance or Rubio or anybody else. What we have seen over and over and over again is Trump's popularity with MAGA does not translate to other candidates. His endorsement matters, uh, but nothing else. ... And if you fast forward this to the next election it does broadly suggest that the Republican Party is absolutely unelectable",
       "verdict": null,
       "created_at": "2026-10-01T16:07:38.835886",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160738_835900",
@@ -1757,7 +2138,10 @@
       "transcript_excerpt": "So, it's basically intellectual masturbation. And now, I've written a bunch of books, and my newest one, the fiction one, comes out in January. It It's a whopper. It's like 230,000 words. Xi Jinping has written over what is it, 30,000 pages? So, just shy of 300,000 words while he's been premier. You know, writing books takes a while. Uh but he's basically locked up in his office making up. And there really isn't much of a governing structure anymore in China. ... But the only thing that the Chinese government has that the American government right now doesn't have is a vision. ... And in many ways, Trump is leading us down a Chinese path, so a complete collapse of decision-making and governing capacity.",
       "verdict": null,
       "created_at": "2026-10-01T16:07:38.835901",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160845_797547",
@@ -1769,7 +2153,10 @@
       "transcript_excerpt": "That's a Democratic majority in the House of about 237 238 seats, maybe a bit optimistic.",
       "verdict": null,
       "created_at": "2026-10-01T16:08:45.797555",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160845_797568",
@@ -1781,7 +2168,10 @@
       "transcript_excerpt": "We have 55% odds that they take a majority, but we think the majority there is going to be pretty narrow.",
       "verdict": null,
       "created_at": "2026-10-01T16:08:45.797570",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160914_360681",
@@ -1793,7 +2183,10 @@
       "transcript_excerpt": "I would say that Lula is likely to win, but it is extremely close. I wouldn't be surprised if Bolsonaro wins.",
       "verdict": null,
       "created_at": "2026-10-01T16:09:14.360692",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160914_360711",
@@ -1805,7 +2198,10 @@
       "transcript_excerpt": "If uh Bolsonaro were to win, we would certainly see that the Shields of the Americas program... they would suddenly go after drug gangs as terrorist organizations that cooperate with the US directly on intelligence and militarily on the ground in Brazil, which would be new.",
       "verdict": null,
       "created_at": "2026-10-01T16:09:14.360713",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160943_166735",
@@ -1817,7 +2213,10 @@
       "transcript_excerpt": "When Americans are overwhelmingly either uncertain or fearful about deploying AI, and when the Chinese are overwhelmingly enthusiastic and optimistic about deploying AI, that's a race that increasingly the Chinese look like they're winning.",
       "verdict": null,
       "created_at": "2026-10-01T16:09:43.166744",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001160943_166759",
@@ -1829,7 +2228,10 @@
       "transcript_excerpt": "So, the geopolitical risk is changing because the politics of AI are themselves changing.",
       "verdict": null,
       "created_at": "2026-10-01T16:09:43.166760",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001161112_625802",
@@ -1841,7 +2243,10 @@
       "transcript_excerpt": "I think it's a much, much happier place for humans to exist. It's very much like Iron Man. You know, you're you're Robert Downey Jr. and you're you're just building together with your Jarvis. That's actually where we're really going in the next year. The amount of awesomeness in that job function is just incomprehensible.",
       "verdict": null,
       "created_at": "2026-10-01T16:11:12.625810",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001161112_625825",
@@ -1853,7 +2258,10 @@
       "transcript_excerpt": "That's where you want to be. You want to try and get to that group as quickly as you can. Cuz you know, just using a co-pilot, you know, the bar is rising fast. That's not good enough. You You need to move on and manage swarms.",
       "verdict": null,
       "created_at": "2026-10-01T16:11:12.625827",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001161713_526685",
@@ -1865,7 +2273,10 @@
       "transcript_excerpt": "In a hypothetical scenario where Venezuela and Guyana merged under a business-friendly government—either formally, through a redrawing of borders, or less so via a strategic agreement that resolves the Essequibo dispute—the possibilities for hydrocarbon development are enormous. Guyana is already producing more than 650,000 barrels of oil per day and is well on its way to over a million. The combined resource base, unconstrained, is arguably capable of supporting 5-10 million barrels per day of oil production. Constipating such an outcome is Maduro himself, of course, which is a key reason we suspect his days may be numbered.",
       "verdict": null,
       "created_at": "2026-10-01T16:17:13.526710",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001161713_526747",
@@ -1877,7 +2288,10 @@
       "transcript_excerpt": "The Trump administration may feel compelled to mount a rearguard action in Argentina on behalf of loyal ally President Javier Milei, whose political party was roundly defeated in local elections over the weekend. Although the results do not directly impact his standing at the federal level, the electoral setback is spooking markets just as oil and gas production in the country’s massive Vaca Muerta shale resource is taking off.",
       "verdict": null,
       "created_at": "2026-10-01T16:17:13.526751",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001161733_004913",
@@ -1889,7 +2303,10 @@
       "transcript_excerpt": "Chancellor Rachel Reeves could scrap a windfall profits levy on the UK oil and gas industry sooner than expected, after Prime Minister Keir Starmer said he wanted to ‘double down’ on North Sea extraction. Reeves is considering using her Budget to end the energy profits levy in March 2029—reversing a decision in last October’s Budget to extend it by a year to March 2030—according to people briefed on her thinking.",
       "verdict": null,
       "created_at": "2026-10-01T16:17:33.004924",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001161733_004943",
@@ -1901,7 +2318,10 @@
       "transcript_excerpt": "Such a development would likely bring little relief to British industry, as the person most likely to win the internal Labour Party race to replace him is none other than Miliband himself: ‘If that happens, how would Miliband be positioned in the subsequent leadership contest? The answer would seem to be ‘extraordinarily well’... Miliband is by a clear margin the most popular minister with Labour members... Historically, this might not have mattered so much because the membership commanded only one third of the vote... But that system was scrapped in 2015 – by none other than the then leader, one Ed Miliband – in favour of ‘one member, one vote.’”",
       "verdict": null,
       "created_at": "2026-10-01T16:17:33.004945",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001161810_856605",
@@ -1913,7 +2333,10 @@
       "transcript_excerpt": "The contract for the Diablo Canyon nuclear plant was set to expire by the end of next year. But a bill passed two years ago by the legislature has kept it open an additional five years, closing one reactor in 2029 and the other in 2030.",
       "verdict": null,
       "created_at": "2026-10-01T16:18:10.856623",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001161810_856653",
@@ -1925,7 +2348,10 @@
       "transcript_excerpt": "Perhaps out of a mix of ideology and future electoral competitiveness, Trump’s budget agenda will put California in the proverbial hurt locker if his Big Beautiful Bill becomes law.",
       "verdict": null,
       "created_at": "2026-10-01T16:18:10.856655",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001161823_755840",
@@ -1937,7 +2363,10 @@
       "transcript_excerpt": "They would also set a goal of quadrupling the size of the nation’s fleet of nuclear power plants, from nearly 100 gigawatts of electric capacity today to 400 gigawatts by 2050.",
       "verdict": null,
       "created_at": "2026-10-01T16:18:23.755873",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001161823_755904",
@@ -1949,7 +2378,10 @@
       "transcript_excerpt": "China has approved plans for building 10 nuclear reactors for 200 billion yuan ($27.7 billion), putting the country on track to push its nuclear power generation capacity past the US to become the world's largest by 2030.",
       "verdict": null,
       "created_at": "2026-10-01T16:18:23.755906",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001161842_899495",
@@ -1961,7 +2393,10 @@
       "transcript_excerpt": "Our interest was driven by the notoriously rocky relationship between Ottawa and the Province of Alberta, home to one of the world's largest hydrocarbon reserves, and how Carney's rise might be a catalyst for resetting Canada's energy trajectory. In a follow-up article titled \"The Fix Is In,\" we laid out a few more predictions: \"Here's how the play is likely to unfold in the weeks and months ahead: Carney will be elected Prime Minister on April 28 by a comfortable margin; [Alberta Premier Danielle] Smith will trigger a constitutional crisis, providing cover for Carney to strike a grand bargain that finally resolves longstanding tensions between the provinces and Ottawa; and large infrastructure permitting reform will fall into place.\"",
       "verdict": null,
       "created_at": "2026-10-01T16:18:42.899509",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001161842_899530",
@@ -1973,7 +2408,10 @@
       "transcript_excerpt": "Saudi Arabian officials are briefing allies and industry experts to say the kingdom is unwilling to prop up the oil market with further supply cuts and can handle a prolonged period of low prices, five sources with knowledge of the talks said. This possible shift in Saudi policy could suggest a move toward producing more and expanding its market share, a major change after five years spent balancing the market through deep output as a leader of the OPEC+ group of oil producers.",
       "verdict": null,
       "created_at": "2026-10-01T16:18:42.899532",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001161853_947402",
@@ -1985,7 +2423,10 @@
       "transcript_excerpt": "British Steel has announced plans to close its two blast furnaces in Scunthorpe, making Britain the only G7 country unable to manufacture its own steel.",
       "verdict": null,
       "created_at": "2026-10-01T16:18:53.947413",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001161853_947436",
@@ -1997,7 +2438,10 @@
       "transcript_excerpt": "The UK government took effective control Saturday of Britain’s last remaining factory that makes steel from scratch from its Chinese owners, after lawmakers approved an emergency rescue.",
       "verdict": null,
       "created_at": "2026-10-01T16:18:53.947438",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001161917_821928",
@@ -2009,7 +2453,10 @@
       "transcript_excerpt": "As the first proper winter in Europe in three years is drawing to an end, the continent faces a race against time—and prices—to restock with natural gas for next winter… Europe could need as many as 250 additional [liquefied natural gas] LNG cargoes to arrive in the summer to refill its inventories back up to 90% by November 1, as the current EU regulation stipulates, per Reuters calculations reported by columnist Ron Bousso…",
       "verdict": null,
       "created_at": "2026-10-01T16:19:17.821939",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001161917_821959",
@@ -2021,7 +2468,10 @@
       "transcript_excerpt": "The US Energy Information Administration recently covered the activity: “ North America’s liquefied natural gas (LNG) export capacity is on track to more than double between 2024 and 2028, from 11.4 billion cubic feet per day (Bcf/d) in 2023 to 24.4 Bcf/d in 2028, if projects currently under construction begin operations as planned.”",
       "verdict": null,
       "created_at": "2026-10-01T16:19:17.821961",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001161942_860204",
@@ -2033,7 +2483,10 @@
       "transcript_excerpt": "Fast-forward to 2024 and the North American energy markets are currently experiencing perhaps the single greatest example of hydrocarbon arbitrage the world has ever seen, both in the size of the price differential and the huge volumes involved. We speak, of course, of the vast disparity between the price of domestic natural gas and that of oil. On an equivalent energy content basis, the price of a barrel of oil should be roughly six times that of a million BTUs of natural gas. Accounting for the complexity of handling natural gas, oil has historically oscillated between 10-20 times natural gas. As of the time of this writing, it stands at 45. ... Taken together, these market moves have brought the oil-to-gas ratio back to historically normal levels. Whether that ratio might eventually reach energy parity—or even plow through it, making natural gas more valuable than oil—was the motivation for “ Bridge Burning ,” an article published in early October.",
       "verdict": null,
       "created_at": "2026-10-01T16:19:42.860216",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001161942_860235",
@@ -2045,7 +2498,10 @@
       "transcript_excerpt": "The province of Alberta, home to the world’s third-largest crude reserves, is making a push to become a hub for artificial intelligence data centres and sees the potential to attract $100 billion in investments. The government is planning to introduce legislation, make regulatory changes and roll out new services to encourage technology companies to build data centres in the province. The strategy seeks to take advantage of Alberta’s abundance of natural gas for power generation, low taxes and cold climate, which could reduce firms’ cooling costs.",
       "verdict": null,
       "created_at": "2026-10-01T16:19:42.860237",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001161952_067875",
@@ -2057,7 +2513,10 @@
       "transcript_excerpt": "6. Global demand for oil, natural gas, and coal are all at record levels and rising – no energy transition has begun.",
       "verdict": null,
       "created_at": "2026-10-01T16:19:52.067885",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001161952_067900",
@@ -2069,7 +2528,10 @@
       "transcript_excerpt": "10. Zero Energy Poverty by 2050 is a superior goal compared to Net Zero 2050.",
       "verdict": null,
       "created_at": "2026-10-01T16:19:52.067901",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162046_373296",
@@ -2081,7 +2543,10 @@
       "transcript_excerpt": "Yes, new solar installations in China set records in 2025, but—as we have been predicting in these pages for some time—that year will almost certainly set the metric’s high-water mark for many years to come, for reasons the data buried in the Review make abundantly clear.",
       "verdict": null,
       "created_at": "2026-10-01T16:20:46.373311",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162046_373343",
@@ -2093,7 +2558,10 @@
       "transcript_excerpt": "Hydrocarbons provided 86.24% of all global primary energy in 2025, down markedly from 86.65% the year prior. Won’t be long now!",
       "verdict": null,
       "created_at": "2026-10-01T16:20:46.373348",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162056_587561",
@@ -2105,7 +2573,10 @@
       "transcript_excerpt": "It is also providing diplomatic cover at the United Nations and undoubtedly pumping Iran with all manner of critical goods to help its population deal with the hardships of war.",
       "verdict": null,
       "created_at": "2026-10-01T16:20:56.587574",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162056_587597",
@@ -2117,7 +2588,10 @@
       "transcript_excerpt": "Pulling on this string over the past several weeks has led us to a new mental model to explain the war, pointing to a post-conflict geopolitical realignment that will profoundly reshape global energy markets.",
       "verdict": null,
       "created_at": "2026-10-01T16:20:56.587599",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162124_359935",
@@ -2129,7 +2603,10 @@
       "transcript_excerpt": "Prime Minister Anthony Albanese on Thursday urged Australians to avoid panic buying of petrol and diesel, which he said had led to shortages in some rural regions...",
       "verdict": null,
       "created_at": "2026-10-01T16:21:24.359949",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162124_359974",
@@ -2141,7 +2618,10 @@
       "transcript_excerpt": "...fear of supply disruptions due to the escalating war in the Middle East has led to a doubling of fuel demand in some regions resulting in localised shortages.",
       "verdict": null,
       "created_at": "2026-10-01T16:21:24.359979",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162134_666518",
@@ -2153,7 +2633,10 @@
       "transcript_excerpt": "The site hosts facilities including the LNG plant, which typically accounts for about a fifth of global supply. Production there was already halted after an Iranian drone attack earlier this month.",
       "verdict": null,
       "created_at": "2026-10-01T16:21:34.666534",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162134_666582",
@@ -2165,7 +2648,10 @@
       "transcript_excerpt": "The Strait of Hormuz is unlikely to be opened anytime soon, oil and gas facilities across the region are now considered fair game by both sides",
       "verdict": null,
       "created_at": "2026-10-01T16:21:34.666585",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162151_156350",
@@ -2177,7 +2663,10 @@
       "transcript_excerpt": "China going full turtle so early is a stark reminder of our friend Sir JJ’s wise quip that oil is worthless until it gets to a refinery. Should the Strait of Hormuz remain closed for much longer, we expect that national protectionism will ultimately open up wide regional disparities in the price of gasoline, diesel, jet fuel, and other refined products.",
       "verdict": null,
       "created_at": "2026-10-01T16:21:51.156407",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162151_156469",
@@ -2189,7 +2678,10 @@
       "transcript_excerpt": "Combine this with the fact that US companies also export various grades of crude and import others to optimize refinery runs, and that President Donald Trump has not yet limited exports or implemented price controls to stabilize prices for US consumers, and the drive back to parity between Brent and WTI makes sense.",
       "verdict": null,
       "created_at": "2026-10-01T16:21:51.156471",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162201_326957",
@@ -2201,7 +2693,10 @@
       "transcript_excerpt": "A full ban will take effect for LNG imports from the beginning of 2027",
       "verdict": null,
       "created_at": "2026-10-01T16:22:01.326969",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162201_326987",
@@ -2213,7 +2708,10 @@
       "transcript_excerpt": "QE won’t restart the facility for at least two weeks, according to initial estimates of the situation in the region, the sources said. Once the restart decision is taken, it will take another two weeks to turn gas into a super-chilled fuel and reach full capacity",
       "verdict": null,
       "created_at": "2026-10-01T16:22:01.326989",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162218_267672",
@@ -2225,7 +2723,10 @@
       "transcript_excerpt": "Among the more predictable aspects of the war with Iran has been the thicket of propaganda saturating social media... Yesterday, one content creator of note jumped at the chance to reset a particularly important narrative of his own. Never one short of audacity, California Governor Gavin Newsom laid bare his knack for raw opportunism when he sought to pin the long-festering gasoline crisis that is hammering his state on Trump’s fateful decision to go to war... On Sunday, we published a preliminary set of predictions about how things were likely to unfold in the days and weeks ahead. Included among them were our views that the spread between Brent crude and West Texas Intermediate (WTI) would significantly expand...",
       "verdict": null,
       "created_at": "2026-10-01T16:22:18.267682",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162218_267696",
@@ -2237,7 +2738,10 @@
       "transcript_excerpt": "On Sunday, we published a preliminary set of predictions about how things were likely to unfold in the days and weeks ahead. Included among them were our views that the spread between Brent crude and West Texas Intermediate (WTI) would significantly expand, the price of liquefied natural gas (LNG) in Europe and Asia would explode higher, and international coal prices would catch a significant bid.",
       "verdict": null,
       "created_at": "2026-10-01T16:22:18.267697",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162236_386054",
@@ -2249,7 +2753,10 @@
       "transcript_excerpt": "Golar LNG’s decision to redeploy its Hilli Episeyo FLNG vessel from Cameroon to Argentina, where it is anticipated to begin production in late 2027. ... Argentina LNG is expected to deliver 12 million tons per annum (mtpa) [1.6 bcf/d] of LNG capacity, via two floating LNG facilities with a capacity of 6 mtpa [0.8 bcf/d] each.",
       "verdict": null,
       "created_at": "2026-10-01T16:22:36.386062",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162236_386075",
@@ -2261,7 +2768,10 @@
       "transcript_excerpt": "The mainstreaming of FLNG technology represents a major development in hydrocarbon extraction technology—one that vastly expands resource viability worldwide and even pushes the phony concept of peak cheap oil further into the distant future than it already was, not that it was ever really on the horizon.",
       "verdict": null,
       "created_at": "2026-10-01T16:22:36.386077",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162333_680496",
@@ -2273,7 +2783,10 @@
       "transcript_excerpt": "Today, China is the unquestioned leader in both EV and plug-in hybrid electric vehicle sales, and is on track to sell nearly 16 million units across the two categories in its domestic market alone.",
       "verdict": null,
       "created_at": "2026-10-01T16:23:33.680512",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162333_680545",
@@ -2285,7 +2798,10 @@
       "transcript_excerpt": "Over the past year, a series of interesting headlines has inspired us to wonder whether the country’s efforts to unlock its shale resources might be nearing a tipping point. If we are right, the energy markets are about to be rocked.",
       "verdict": null,
       "created_at": "2026-10-01T16:23:33.680552",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162343_481252",
@@ -2297,7 +2813,10 @@
       "transcript_excerpt": "War risk insurance prices have risen from about 0.25 to 0.3 per cent of a ship’s value in early November to between 0.5 and 0.75 per cent this week...",
       "verdict": null,
       "created_at": "2026-10-01T16:23:43.481265",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162343_481287",
@@ -2309,7 +2828,10 @@
       "transcript_excerpt": "Additionally, if the campaign continues to escalate, commodity prices will undoubtedly soar across a global economy that simply cannot do without Russia’s vast supply.",
       "verdict": null,
       "created_at": "2026-10-01T16:23:43.481289",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162357_836931",
@@ -2321,7 +2843,10 @@
       "transcript_excerpt": "Alberta and Ottawa have signed a sweeping new energy accord that Premier Danielle Smith says marks a ‘new starting point for nation building,’ including a pledge from Prime Minister Mark Carney’s government to shelve its oil and gas emissions cap, suspend clean power rules, and back a major indigenous-owned pipeline to get oil to Asian markets.",
       "verdict": null,
       "created_at": "2026-10-01T16:23:57.836942",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162357_836960",
@@ -2333,7 +2858,10 @@
       "transcript_excerpt": "The line would come on top of the Trans Mountain expansion’s additional 300,000 to 400,000 barrels per day.",
       "verdict": null,
       "created_at": "2026-10-01T16:23:57.836962",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162408_631859",
@@ -2345,7 +2873,10 @@
       "transcript_excerpt": "Time will tell how long it will take for Bessent's bluster to be translated into reality, but as we pointed out in \"Taleb's Law,\" we have little doubt it will be faster than most are currently expecting, and, eventually, a glut of rare earth metals and magnets will hit the market.",
       "verdict": null,
       "created_at": "2026-10-01T16:24:08.631871",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162408_631893",
@@ -2357,7 +2888,10 @@
       "transcript_excerpt": "US Secretary of the Treasury Scott Bessent held up what he claimed was \"the first magnet made in the US in 25 years,\" declaring that the US was \"ending China's chokehold on our supply chain.\"",
       "verdict": null,
       "created_at": "2026-10-01T16:24:08.631895",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162421_652980",
@@ -2369,7 +2903,10 @@
       "transcript_excerpt": "This year, we expect about a quarter of our wells will use our new patented proppant, and roughly 50% of new wells by the end of 2026.",
       "verdict": null,
       "created_at": "2026-10-01T16:24:21.652992",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162421_653016",
@@ -2381,7 +2918,10 @@
       "transcript_excerpt": "The company plans to grow that number to 1.7 million bpd by 2030.",
       "verdict": null,
       "created_at": "2026-10-01T16:24:21.653018",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162435_907069",
@@ -2393,7 +2933,10 @@
       "transcript_excerpt": "China’s CTL industry consumed 276 million tons of coal last year, a staggering total that is expected to double within the next five years. If those plans are carried out, China’s CTL capacity would offset roughly 1.2 million barrels of oil per day.",
       "verdict": null,
       "created_at": "2026-10-01T16:24:35.907093",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162435_907126",
@@ -2405,7 +2948,10 @@
       "transcript_excerpt": "The fastest-growing sector in the industry is expected to be coal-to-gas. The capacity under construction is around four times what was built over the past decade, according to Reuters’ analysis of figures from Agora Energy China, the China National Coal Association and Guosen Securities. That would more than double annual capacity to 19.5 billion cubic metres (bcm), equal to roughly a fifth of China’s LNG imports last year.",
       "verdict": null,
       "created_at": "2026-10-01T16:24:35.907130",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162459_890722",
@@ -2417,7 +2963,10 @@
       "transcript_excerpt": "These judgments are hardly hyperbolic. China’s decree last week was almost certainly the result of decades of careful planning—a strategic cannon that would not have been fired if leaders in Beijing weren’t convinced of its definitive efficacy. If we are correct, the end of a 50-year world order and the beginning of a new one are upon us.",
       "verdict": null,
       "created_at": "2026-10-01T16:24:59.890731",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162459_890745",
@@ -2429,7 +2978,10 @@
       "transcript_excerpt": "That the Chinese have total escalation dominance in this scuffle; that the US would almost certainly have to beat a temporary retreat;",
       "verdict": null,
       "created_at": "2026-10-01T16:24:59.890747",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162517_840455",
@@ -2441,7 +2993,10 @@
       "transcript_excerpt": "The Trump administration pledged on Monday to do whatever is necessary to support Argentina’s struggling economy, throwing a lifeline to the country’s embattled president, Javier Milei, ahead of legislative elections there next month. Treasury Secretary Scott Bessent said that the United States is prepared to offer loans to Argentina’s central bank, direct currency purchases and purchases of U.S. dollar-denominated Argentine government debt from Treasury’s Exchange Stabilization Fund to keep Argentina’s economy afloat.",
       "verdict": null,
       "created_at": "2026-10-01T16:25:17.840462",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162517_840475",
@@ -2453,7 +3008,10 @@
       "transcript_excerpt": "Although the results do not directly impact his standing at the federal level, the electoral setback is spooking markets just as oil and gas production in the country’s massive Vaca Muerta shale resource is taking off.",
       "verdict": null,
       "created_at": "2026-10-01T16:25:17.840476",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162535_550751",
@@ -2465,7 +3023,10 @@
       "transcript_excerpt": "Pentagon officials are proposing the department prioritize protecting the homeland and Western Hemisphere, a striking reversal from the military’s yearslong mandate to focus on the threat from China. A draft of the newest National Defense Strategy... places domestic and regional missions above countering adversaries such as Beijing and Moscow.",
       "verdict": null,
       "created_at": "2026-10-01T16:25:35.550762",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162535_550778",
@@ -2477,7 +3038,10 @@
       "transcript_excerpt": "What if the entire Western Hemisphere were deemed by the three superpowers to be firmly back within America’s sphere of influence, with China pulling back?",
       "verdict": null,
       "created_at": "2026-10-01T16:25:35.550779",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162550_289949",
@@ -2489,7 +3053,10 @@
       "transcript_excerpt": "A recent Annual Energy Outlook by the Energy Information Administration (EIA) states that \" natural gas converted to LNG for export will increase to 9.8 trillion cubic feet (Tcf), or almost 27 billion cubic feet per day, in 2037 in our Reference case compared with 4.4 Tcf in 2024.\"",
       "verdict": null,
       "created_at": "2026-10-01T16:25:50.289957",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162550_289970",
@@ -2501,7 +3068,10 @@
       "transcript_excerpt": "G&amp;R reiterated their call that the two largest gas fields in the US—the Permian and Marcellus shales—are on the cusp of exhaustion: Natural gas is more complicated—but only slightly and the signs there are no less telling. Growth will slow, before turning negative sometime late next year.",
       "verdict": null,
       "created_at": "2026-10-01T16:25:50.289972",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162602_953822",
@@ -2513,7 +3083,10 @@
       "transcript_excerpt": "The Stabroek Block consortium, which Exxon leads in partnership with Chevron and China’s CNOOC Petroleum Guyana Limited, has set a goal of reaching an incredible 1.7 million bpd by 2030.",
       "verdict": null,
       "created_at": "2026-10-01T16:26:02.953831",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162602_953841",
@@ -2525,7 +3098,10 @@
       "transcript_excerpt": "Guyana’s per capita standard of living is racing up the global charts, a trend that is bound to continue in the decade ahead.",
       "verdict": null,
       "created_at": "2026-10-01T16:26:02.953842",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162617_300621",
@@ -2537,7 +3113,10 @@
       "transcript_excerpt": "US President Donald Trump will soon be confronted with the prospect of either escalating the Russia and China fronts to unthinkable levels or accepting significant damage to US prestige and geopolitical power.",
       "verdict": null,
       "created_at": "2026-10-01T16:26:17.300666",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162617_300707",
@@ -2549,7 +3128,10 @@
       "transcript_excerpt": "A resolution either way now seems imminent, and decades of geopolitical trajectory could reach a climax in the coming weeks.",
       "verdict": null,
       "created_at": "2026-10-01T16:26:17.300712",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162632_289189",
@@ -2561,7 +3143,10 @@
       "transcript_excerpt": "If the current pace continues, it is estimated that Russia could potentially launch up to 2,000 drones in a single night by November 2025; a dramatic increase from the fall of 2024, when roughly 2,000 drones were deployed across an entire month.",
       "verdict": null,
       "created_at": "2026-10-01T16:26:32.289200",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162632_289219",
@@ -2573,7 +3158,10 @@
       "transcript_excerpt": "This time it shifts the prior flat limit of $60 per barrel to a dynamic one: 15% below the six-month average price of Urals crude, Russia’s primary oil benchmark. The new imaginary cap is temporarily set at $47.60 per barrel.",
       "verdict": null,
       "created_at": "2026-10-01T16:26:32.289221",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162708_853277",
@@ -2585,7 +3173,10 @@
       "transcript_excerpt": "The analysis, presented Monday in a hearing of the Senate Resources Committee, is the most detailed look so far at the possibility that Anchorage and surrounding areas could be threatened with electrical brownouts and a heating shortage, just as they were amid a similar natural gas shortage a decade ago… The problem is that Cook Inlet’s existing oil and gas companies aren’t drilling enough new gas production wells to bring that gas to the surface and offset the long-term declines in existing wells, said DNR commissioner-designee John Boyle.",
       "verdict": null,
       "created_at": "2026-10-01T16:27:08.853290",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162725_448381",
@@ -2597,7 +3188,10 @@
       "transcript_excerpt": "The target of Trump’s post is, of course, China, the world’s largest importer of crude by a wide margin, surpassing all of Europe combined. In March 2025, it received a remarkable 1.8 million barrels per day (bpd) from Iran—nearly matching the 2.2 million bpd it sourced from Russia on average in 2024.",
       "verdict": null,
       "created_at": "2026-10-01T16:27:25.448396",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162725_448414",
@@ -2609,7 +3203,10 @@
       "transcript_excerpt": "A key US Senate ally of President Donald Trump [Lindsey Graham] said he has the commitment of 72 colleagues for a bill that would enact ‘bone-crushing’ new sanctions on Russia and tariffs on countries that buy its oil, gas and other key products if Vladimir Putin doesn’t engage in serious negotiations to end the war in Ukraine… The punishments would include a 500% tariff on imports from countries that buy Russian oil, petroleum products, natural gas or uranium, according to a draft of the bill seen by Bloomberg News.",
       "verdict": null,
       "created_at": "2026-10-01T16:27:25.448415",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162736_882168",
@@ -2621,7 +3218,10 @@
       "transcript_excerpt": "Huawei claims the 910D could surpass the H100's performance, a feat that would disrupt Nvidia's 80% grip on the global AI chip market, according to The Wall Street Journal.",
       "verdict": null,
       "created_at": "2026-10-01T16:27:36.882201",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162736_882295",
@@ -2633,7 +3233,10 @@
       "transcript_excerpt": "Meanwhile, the 910C, already in early shipments, is slated for mass production next month, filling the void left by Nvidia's restricted H20 chip.",
       "verdict": null,
       "created_at": "2026-10-01T16:27:36.882303",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162745_328888",
@@ -2645,7 +3248,10 @@
       "transcript_excerpt": "Phillips 66 announced its intent to close its Wilmington refinery—located just outside Los Angeles—by the end of 2025.",
       "verdict": null,
       "created_at": "2026-10-01T16:27:45.328899",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162745_328919",
@@ -2657,7 +3263,10 @@
       "transcript_excerpt": "Valero Energy dropped another hammer blow by announcing it will close its Benicia refinery near San Francisco by early 2026",
       "verdict": null,
       "created_at": "2026-10-01T16:27:45.328921",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162757_658483",
@@ -2669,7 +3278,10 @@
       "transcript_excerpt": "US Defense Secretary Pete Hegseth have [sic] raised alarms about China’s growing military capabilities. In particular, he pointed out the dangerous potential of China's hypersonic missiles, which could reportedly destroy US aircraft carriers in just 20 minutes.",
       "verdict": null,
       "created_at": "2026-10-01T16:27:57.658507",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162757_658535",
@@ -2681,7 +3293,10 @@
       "transcript_excerpt": "Should a kinetic conflict arise, the spark that ignites the inferno will almost certainly involve Taiwan—a country that China claims as sovereign territory, but which the US has long implied it would defend in the event of an attack... If Hegseth’s analysis of China’s ballistic missile capabilities is correct, it could attack targets more devastating than a US aircraft carrier to end the question of Taiwan.",
       "verdict": null,
       "created_at": "2026-10-01T16:27:57.658537",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162812_682478",
@@ -2693,7 +3308,10 @@
       "transcript_excerpt": "Eight OPEC+ countries unexpectedly agreed on Thursday to advance their plan to phase out oil output cuts by increasing output by 411,000 barrels per day in May, a decision that prompted oil prices to extend earlier sharp losses.",
       "verdict": null,
       "created_at": "2026-10-01T16:28:12.682495",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162812_682519",
@@ -2705,7 +3323,10 @@
       "transcript_excerpt": "Oil, which was already down over 4% on U.S. President Donald Trump's announcement of tariffs on trading partners, extended declines after OPEC updated its plans in a statement, with Brent crude dropping over 6% to below $70 a barrel.",
       "verdict": null,
       "created_at": "2026-10-01T16:28:12.682521",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162833_383894",
@@ -2717,7 +3338,10 @@
       "transcript_excerpt": "We posited that Mark Carney, a globalist’s delight and former head of both the Bank of Canada and the Bank of England, was being positioned to replace Justin Trudeau as leader of the Liberal Party. ... Carney will now replace Trudeau as Prime Minister, Polymarket gives him a fighting chance of defeating Poilievre in the upcoming election",
       "verdict": null,
       "created_at": "2026-10-01T16:28:33.383908",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162833_383928",
@@ -2729,7 +3353,10 @@
       "transcript_excerpt": "Alberta’s liquor stores are removing American products from their shelves. There is no time for selfish talk of independence when an outside actor threatens to alter your borders by force, and Trump’s behavior has made anything short of total national solidarity decidedly uncouth.",
       "verdict": null,
       "created_at": "2026-10-01T16:28:33.383930",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162847_578289",
@@ -2741,7 +3368,10 @@
       "transcript_excerpt": "The USA is expected to pull back from its substantial financial commitments to these countries. In total, USA pledges for Indonesia and Vietnam exceed USD 3 billion, while its commitment for South Africa stands at USD 1.063 billion as part of a larger USD 11.6 billion package.",
       "verdict": null,
       "created_at": "2026-10-01T16:28:47.578306",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162847_578327",
@@ -2753,7 +3383,10 @@
       "transcript_excerpt": "Secretary of Energy Chris Wright on Tuesday threw his support behind a vast expansion in geothermal energy... A mature geothermal industry, he said, 'could better energize our country, improve the quality of life for everyone. It could help enable AI, manufacturing, reshoring and stop the rise of our electricity prices.'",
       "verdict": null,
       "created_at": "2026-10-01T16:28:47.578329",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162924_598286",
@@ -2765,7 +3398,10 @@
       "transcript_excerpt": "This withdrawal shall go into effect beginning on January 21, 2025, and shall remain in effect until this Presidential Memorandum is revoked… This withdrawal temporarily prevents consideration of any area in the OCS for any new or renewed wind energy leasing for the purposes of generation of electricity or any other such use derived from the use of wind. This withdrawal does not apply to leasing related to any other purposes such as, but not limited to, oil, gas, minerals, and environmental conservation.",
       "verdict": null,
       "created_at": "2026-10-01T16:29:24.598296",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162924_598311",
@@ -2777,7 +3413,10 @@
       "transcript_excerpt": "Embedded within it is yet another attempt to get a notorious 50-year-old project over the finish line. Whether it actually gets done will be a powerful litmus test.",
       "verdict": null,
       "created_at": "2026-10-01T16:29:24.598314",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162940_936380",
@@ -2789,7 +3428,10 @@
       "transcript_excerpt": "if they land a $10 million federal grant, a demo project charging trains at Pueblo and plugging into the grid at Denver’s Cherokee power station could be ready by 2026.",
       "verdict": null,
       "created_at": "2026-10-01T16:29:40.936390",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162955_719808",
@@ -2801,7 +3443,10 @@
       "transcript_excerpt": "Taken together, a strong pattern emerges signaling that China has made significant progress in building its home-grown industry, perhaps even to the point of self-sufficiency.",
       "verdict": null,
       "created_at": "2026-10-01T16:29:55.719821",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001162955_719843",
@@ -2813,7 +3458,10 @@
       "transcript_excerpt": "The measures are likely to enrage Beijing, which has given tens of billions of dollars’ worth of subsidies and tax breaks to semiconductor firms in the hopes of building out its own chips sector.",
       "verdict": null,
       "created_at": "2026-10-01T16:29:55.719845",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001163006_958625",
@@ -2825,7 +3473,10 @@
       "transcript_excerpt": "On Tuesday, December 3, China announced stringent export restrictions on 'dual-use' technologies for both civilian and military use, specifically targeted at the United States. These restrictions double down on previously announced controls on these metals, going so far as to ban shipments of antimony, gallium, and germanium to the United States.",
       "verdict": null,
       "created_at": "2026-10-01T16:30:06.958642",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001163006_958665",
@@ -2837,7 +3488,10 @@
       "transcript_excerpt": "Critical mineral security is now intrinsically linked to the escalating tech trade war.",
       "verdict": null,
       "created_at": "2026-10-01T16:30:06.958667",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001163031_870365",
@@ -2849,7 +3503,10 @@
       "transcript_excerpt": "The balance of Washington’s generation comes from clean-burning natural gas, and the last of its large coal furnaces is set to close in 2025.",
       "verdict": null,
       "created_at": "2026-10-01T16:30:31.870380",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001163031_870402",
@@ -2861,7 +3518,10 @@
       "transcript_excerpt": "Under the city’s Building Emissions Performance Standard, signed into law last week, all existing commercial and multifamily residential buildings over 20,000 square feet will need to reach net-zero emissions by 2050. Meeting that target will effectively require building owners to replace oil and gas-powered furnaces, water heaters, gas stoves, and other appliances with electric alternatives like heat pumps and induction stoves.",
       "verdict": null,
       "created_at": "2026-10-01T16:30:31.870404",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001163043_028891",
@@ -2873,7 +3533,10 @@
       "transcript_excerpt": "The concept of global warming was created by and for the Chinese in order to make US manufacturing non-competitive. ... The demands of the Church of Carbon™ are wholly incompatible with his agenda to catalyze a domestic investment boom in energy, heavy industry, and advanced technology.",
       "verdict": null,
       "created_at": "2026-10-01T16:30:43.028905",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001163043_028967",
@@ -2885,7 +3548,10 @@
       "transcript_excerpt": "China has been happy to nod along with the West’s rejection of coal while gorging on the stuff itself, a pattern that has generated significant advantage for its domestic industrial sector while serving as the dominant source of incremental global carbon emissions for the past 25 years.",
       "verdict": null,
       "created_at": "2026-10-01T16:30:43.028970",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001163054_705008",
@@ -2897,7 +3563,10 @@
       "transcript_excerpt": "The company is also looking to reduce wages for around 140,000 workers by 10%, all of which would add to the woes of Europe’s largest economy.",
       "verdict": null,
       "created_at": "2026-10-01T16:30:54.705025",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001163054_705056",
@@ -2909,7 +3578,10 @@
       "transcript_excerpt": "What will remain of the much-vaunted German car industry in five years? Let’s analyze where things are headed and ponder what needs to be done to avoid catastrophe.",
       "verdict": null,
       "created_at": "2026-10-01T16:30:54.705058",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001163642_883574",
@@ -2921,7 +3593,10 @@
       "transcript_excerpt": "As the cleanest-burning hydrocarbon capable of producing a steady supply of baseload electricity, natural gas is inherently well-suited to meet the application’s needs. If Microsoft is willing to “overpay” for nuclear, surely natural gas, which can be rapidly deployed to create electricity at scale, is substantially more valuable than current prices indicate? Let’s explore the possibilities.",
       "verdict": null,
       "created_at": "2026-10-01T16:36:42.883590",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001163642_883618",
@@ -2933,7 +3608,10 @@
       "transcript_excerpt": "Microsoft Corp. is going to pay a hefty premium for power from the soon-to-be-restarted Three Mile Island nuclear plant, a recognition that carbon-free electricity is more valuable when it’s available around the clock. The company will pay owner Constellation Energy Corp. at least $100 a megawatt-hour for power from the Pennsylvania plant, according to estimates from Bloomberg Intelligence, while Jefferies LLC puts the figure at about $112. That compares to about $60 a megawatt-hour for wind and solar energy available now in the same region, according to Jefferies.",
       "verdict": null,
       "created_at": "2026-10-01T16:36:42.883622",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001163700_663715",
@@ -2945,7 +3623,10 @@
       "transcript_excerpt": "Constellation Energy Corp., the biggest US operator of reactors, expects Three Mile Island to go back into service in 2028, according to a statement Friday.",
       "verdict": null,
       "created_at": "2026-10-01T16:37:00.663726",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001163700_663747",
@@ -2957,7 +3638,10 @@
       "transcript_excerpt": "This past Monday—on the sidelines of the Climate Week summit in New York, no less—a gathering of international heads of state, leaders of numerous mega-banks, and representatives from the nuclear industry took place at the Rainbow Room in Rockefeller Center. Titled “Financing the Tripling of Nuclear,” the meeting almost certainly marks a critical inflection point that will finally give investors around the world the confidence to pour much-needed capital into new nuclear deployment at scale.",
       "verdict": null,
       "created_at": "2026-10-01T16:37:00.663749",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001163718_061934",
@@ -2969,7 +3653,10 @@
       "transcript_excerpt": "LNG export authorizations, for the volumes of LNG so authorized, will be firm and binding for a period of up to 30 years; and (vi) the granting of a firm and binding LNG export authorization shall imply for its holders the right to export all the volumes authorized in that capacity on a continuous basis and without interruptions or restrictions, reductions, or redirections for any reason, during each day of the term of the respective export authorization",
       "verdict": null,
       "created_at": "2026-10-01T16:37:18.061946",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001163718_061967",
@@ -2981,7 +3668,10 @@
       "transcript_excerpt": "Milei’s broad embrace of investor money into the hydrocarbon sector could be material on a global scale given the country’s massive oil and gas resources. When combined with his strong pro-US stance and improving relationship with the International Monetary Fund (IMF), explosive growth in Argentina’s oil and gas industry could reset global energy balances for decades to come.",
       "verdict": null,
       "created_at": "2026-10-01T16:37:18.061970",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001163733_824777",
@@ -2993,7 +3683,10 @@
       "transcript_excerpt": "Chevron Corporation announced Friday it would relocate its headquarters from San Ramon to Houston, Texas before the end of the year.",
       "verdict": null,
       "created_at": "2026-10-01T16:37:33.824789",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001163733_824810",
@@ -3005,7 +3698,10 @@
       "transcript_excerpt": "The Richmond City Council said the tax could generate as much as $90 million per year for the city.",
       "verdict": null,
       "created_at": "2026-10-01T16:37:33.824812",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001163826_476882",
@@ -3017,7 +3713,10 @@
       "transcript_excerpt": "Ukraine is imposing blackouts, launching hasty repairs and hunting for spare parts after a Russian bombing campaign targeting power infrastructure in recent months slashed the country’s electricity production by half.",
       "verdict": null,
       "created_at": "2026-10-01T16:38:26.476890",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001163826_476905",
@@ -3029,7 +3728,10 @@
       "transcript_excerpt": "When winter arrives, scenes of desperate citizens struggling against brutally cold conditions will undoubtedly cause outrage in the West and fuel a sense of desperation among Ukrainian leaders, potentially triggering an irreversible escalation.",
       "verdict": null,
       "created_at": "2026-10-01T16:38:26.476908",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001163839_367929",
@@ -3041,7 +3743,10 @@
       "transcript_excerpt": "The world faces a ‘staggering’ surplus of oil equating to millions of barrels a day by the end of the decade, as oil companies increase production, undermining the ability of Opec+ to manage crude prices, the International Energy Agency has warned.",
       "verdict": null,
       "created_at": "2026-10-01T16:38:39.367938",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001163839_367952",
@@ -3053,7 +3758,10 @@
       "transcript_excerpt": "While demand is forecast to peak before 2030, continued investment by oil producers, led by the US, would by then result in more than 8mn b/d of spare capacity, the IEA wrote in its annual report on the industry released on Wednesday.",
       "verdict": null,
       "created_at": "2026-10-01T16:38:39.367953",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001163852_751415",
@@ -3065,7 +3773,10 @@
       "transcript_excerpt": "Beginning in 2030, only locomotives less than 23 years of age will be allowed to operate in California (unless they meet the cleanest EPA locomotive exhaust emission standard) to remove the operations of the oldest and highest polluting locomotives…",
       "verdict": null,
       "created_at": "2026-10-01T16:38:52.751427",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001163852_751442",
@@ -3077,7 +3788,10 @@
       "transcript_excerpt": "Then in 2035, freight line haul locomotives with engine build dates of 2035 or newer will need to be operated in a zero-emission configuration in California.",
       "verdict": null,
       "created_at": "2026-10-01T16:38:52.751443",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001163914_096636",
@@ -3089,7 +3803,10 @@
       "transcript_excerpt": "To reach our goal of net zero by 2050, we have to at least triple our current nuclear capacity in this country. That means we've got to add 200 more gigawatts by 2050. Okay, two down, 198 to go!",
       "verdict": null,
       "created_at": "2026-10-01T16:39:14.096650",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001163914_096672",
@@ -3101,7 +3818,10 @@
       "transcript_excerpt": "the dog finally has the opportunity to catch the car. Now what? Well, the dog finally has the opportunity to catch the car. Now what? The dog finally has the opportunity to catch the car. Now what? The dog finally has the opportunity to catch the car. Now what? The dog finally has the opportunity to catch the car. Now what? The dog finally has the opportunity to catch the car. Now what? The dog finally has the opportunity to catch the car. Now what? The dog finally has the opportunity to catch the car. Now what? The dog finally has the opportunity to catch the car. Now what? The dog finally has the opportunity to catch the car. Now what? The dog finally has the opportunity to catch the car. Now what? The dog finally has the opportunity to catch the car. Now what? The dog finally has the opportunity to catch the car. Now what? The dog finally has the opportunity to catch the car. Now what? The dog finally has the opportunity to catch the car. Now what? The dog finally has the opportunity to catch the car. Now what? The dog finally has the opportunity to catch the car. Now what?",
       "verdict": null,
       "created_at": "2026-10-01T16:39:14.096673",
-      "measurement_type": "subjective"
+      "measurement_type": "subjective",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     },
     {
       "id": "pred_20261001163920_946298",
@@ -3113,7 +3833,10 @@
       "transcript_excerpt": "The Rodeo Renewable Energy Complex is on track to increase production rates to more than 800 million gallons per year (50,000 BPD) of renewable fuels by the end of the second quarter",
       "verdict": null,
       "created_at": "2026-10-01T16:39:20.946319",
-      "measurement_type": "quantitative"
+      "measurement_type": "quantitative",
+      "test_status": "eligible",
+      "testing_since": "2026-10-01",
+      "judgements": []
     }
   ]
 }
