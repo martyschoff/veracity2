@@ -267,7 +267,7 @@
         </div>
         <div class="controls">
             <button class="filter-btn objective-on" id="btn-objective" onclick="toggleFilter('objective')">● Objective</button>
-            <button class="filter-btn subjective-on" id="btn-subjective" onclick="toggleFilter('subjective')">● Subjective</button>
+            <button class="filter-btn subjective-off" id="btn-subjective" onclick="toggleFilter('subjective')">● Subjective</button>
             <button class="settings-btn" onclick="toggleSettings()">⚙ Settings</button>
             <div class="settings-dropdown" id="settings-dropdown">
                 <label><input type="checkbox" onchange="toggleTheme(this.checked)"> Light mode</label>
@@ -301,7 +301,7 @@
                     </div>
                 </div>
                 <div class="scorecard">
-                    <span class="score-total">{{ ind.total_count }} total</span>
+                    <span class="score-total" id="count-{{ loop.index0 }}">{{ ind.total_count }} total</span>
                     <span class="score-correct">👍 {{ ind.correct_count }}</span>
                     <span class="score-wrong">👎 {{ ind.wrong_count }}</span>
                 </div>
@@ -344,7 +344,7 @@
         {{ category_colors | tojson }}
     </script>
     <script>
-        var filters = {objective: true, subjective: true};
+        var filters = {objective: true, subjective: false};
         function toggleFilter(type) {
             filters[type] = !filters[type];
             var btn = document.getElementById('btn-' + type);
@@ -353,6 +353,19 @@
             applyFilters();
         }
         function applyFilters() {
+            var allData = JSON.parse(document.getElementById('all-preds').textContent);
+            var names = ['Peter Zeihan', 'Doomberg', 'Peter Diamandis', 'Ian Bremmer'];
+            names.forEach(function(name, idx) {
+                var preds = allData[name] || [];
+                var visible = preds.filter(function(p) {
+                    var mtype = p.measurement_type || 'subjective';
+                    if (filters.objective && mtype === 'quantitative') return true;
+                    if (filters.subjective && mtype === 'subjective') return true;
+                    return false;
+                });
+                var countEl = document.getElementById('count-' + idx);
+                if (countEl) countEl.textContent = visible.length + ' total';
+            });
             document.querySelectorAll('.pred-entry').forEach(function(el) {
                 var mtype = el.getAttribute('data-mtype') || 'subjective';
                 var show = false;
@@ -361,6 +374,7 @@
                 el.style.display = show ? '' : 'none';
             });
         }
+        document.addEventListener('DOMContentLoaded', applyFilters);
         function toggleTheme(checkbox) {
             const body = document.body;
             const btn = document.querySelector('.theme-toggle');
