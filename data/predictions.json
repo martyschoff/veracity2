@@ -230,7 +230,8 @@
       "source_url": "https://www.youtube.com/watch?v=BDaQXA0Tj80",
       "transcript_excerpt": "On the 24th, Chairman Xi Jinping of China is going to actually be in Washington for bilateral talks with Trump.",
       "verdict": null,
-      "created_at": "2026-09-30T19:18:35.812869"
+      "created_at": "2026-09-30T19:18:35.812869",
+      "measurement_type": "subjective"
     },
     {
       "id": "pred_20260930191835_ae108c43fbce",
@@ -241,7 +242,8 @@
       "source_url": "https://www.youtube.com/watch?v=BDaQXA0Tj80",
       "transcript_excerpt": "The real outside question is, of course, China. Uh which is the primary source for most of the manufactured goods that flow into Iran, up to and including the parts that they need for their drones.",
       "verdict": null,
-      "created_at": "2026-09-30T19:18:35.800566"
+      "created_at": "2026-09-30T19:18:35.800566",
+      "measurement_type": "subjective"
     },
     {
       "id": "pred_20260930191406_7e8a4480d4e0",
@@ -252,7 +254,8 @@
       "source_url": "https://www.youtube.com/watch?v=wFHIwUqKuqI",
       "transcript_excerpt": "The Chinese are under export restrictions, uh so, they cannot import the hardware that is necessary to make high-end semiconductors. Uh, specifically the extreme ultraviolet machines uh, that come from the Dutch company ASML. Um, and without those there's no way they can make anything that's really under 7 nm reliably.",
       "verdict": null,
-      "created_at": "2026-09-30T19:14:06.836968"
+      "created_at": "2026-09-30T19:14:06.836968",
+      "measurement_type": "quantitative"
     },
     {
       "id": "pred_20260930190909_002",
@@ -263,7 +266,8 @@
       "source_url": "https://www.youtube.com/watch?v=wFHIwUqKuqI",
       "transcript_excerpt": "Right now in the rest of the world, the high-end chips are in the 2 to 4 nm range and we are now starting to get chips that were designed with coolant topography in mind.",
       "verdict": null,
-      "created_at": "2026-09-30T19:09:09.288877"
+      "created_at": "2026-09-30T19:09:09.288877",
+      "measurement_type": "quantitative"
     },
     {
       "id": "pred_20260930191448_391aa8cf850c",
@@ -274,7 +278,8 @@
       "source_url": "https://www.youtube.com/watch?v=lpVb14yjHZw",
       "transcript_excerpt": "And as of Wednesday, only three ships came through. So, the ability of the Iranians to shut that on and off is pretty, pretty strict, and that means we're looking at roughly 20 million barrels of crude that can't get out.",
       "verdict": null,
-      "created_at": "2026-09-30T19:14:48.062459"
+      "created_at": "2026-09-30T19:14:48.062459",
+      "measurement_type": "quantitative"
     },
     {
       "id": "pred_20260930191939_77f45274fefb",
@@ -285,7 +290,8 @@
       "source_url": "https://www.youtube.com/watch?v=lpVb14yjHZw",
       "transcript_excerpt": "That's going to hit energy at every level, including diesel. Anyway, in the United States, um we've got a couple of things going on. First of all, what's bringing this to my attention, So, been a lot of social media posts in places like California and Texas gas stations saying that they're just out of diesel.",
       "verdict": null,
-      "created_at": "2026-09-30T19:19:40.017666"
+      "created_at": "2026-09-30T19:19:40.017666",
+      "measurement_type": "quantitative"
     },
     {
       "id": "pred_20260930191513_01c8b77bd738",
@@ -296,7 +302,8 @@
       "source_url": "https://www.youtube.com/watch?v=u1XSaK6UgRU",
       "transcript_excerpt": "And so he got kicked out of the country and Petro Zamora just until it was only producing like 100,000, maybe even 50,000 barrels a day. Well, fast forward to calendar year 2023 and a woman by the name of Rodríguez, who is now the acting president of Venezuela, uh brought him back in because the oil sector in Venezuela had just tanked in the intervening 3 years and started bringing the company back and I think it produces about 200,000 barrels a day right now.",
       "verdict": null,
-      "created_at": "2026-09-30T19:15:13.466400"
+      "created_at": "2026-09-30T19:15:13.466400",
+      "measurement_type": "quantitative"
     },
     {
       "id": "pred_20260930192004_01c8b77bd738",
@@ -307,7 +314,8 @@
       "source_url": "https://www.youtube.com/watch?v=u1XSaK6UgRU",
       "transcript_excerpt": "And so he got kicked out of the country and Petro Zamora just until it was only producing like 100,000, maybe even 50,000 barrels a day. Well, fast forward to calendar year 2023 and a woman by the name of Rodríguez, who is now the acting president of Venezuela, uh brought him back in because the oil sector in Venezuela had just tanked in the intervening 3 years and started bringing the company back and I think it produces about 200,000 barrels a day right now.",
       "verdict": null,
-      "created_at": "2026-09-30T19:20:04.971089"
+      "created_at": "2026-09-30T19:20:04.971089",
+      "measurement_type": "quantitative"
     },
     {
       "id": "pred_20260930192033_e72d59032a15",
@@ -318,7 +326,8 @@
       "source_url": "https://www.youtube.com/watch?v=UoqizA1bOjc",
       "transcript_excerpt": "And then we'll have four to six years where the AI chips capable chips that are in data centers will basically run and then they'll burn themselves out and then we'll have to start all over. So >> [snorts] >> this is a conversation that honestly doesn't need to bear fruit until say like the 2040s when we rebuild those systems.",
       "verdict": null,
-      "created_at": "2026-09-30T19:20:33.589647"
+      "created_at": "2026-09-30T19:20:33.589647",
+      "measurement_type": "quantitative"
     },
     {
       "id": "pred_20260930191539_80ffbead462b",
@@ -329,7 +338,8 @@
       "source_url": "https://www.youtube.com/watch?v=UoqizA1bOjc",
       "transcript_excerpt": "keep in mind that the United States spends about 10 times as much on hardware, uh, for the stuff that is necessary to run AI than the Chinese do and then several times as much on the actual software. Uh, in terms of software, the most generous assessment I've seen of the Chinese is that they're six months behind American companies. It's probably more like 36 months. um, but when it comes to hardware, there's no contest. Uh, the Chinese cannot make chips by themselves that are better than 28 nanometers and you're not going to run even a sloppy [snorts] AI engine on something that is worse than say 14 or 15 and almost all the stuff that's being done in the United States on is on stuff that is 5 nanometers and smaller.",
       "verdict": null,
-      "created_at": "2026-09-30T19:15:39.955954"
+      "created_at": "2026-09-30T19:15:39.955954",
+      "measurement_type": "subjective"
     },
     {
       "id": "pred_20260930192045_850b4403fdb7",
@@ -340,7 +350,8 @@
       "source_url": "https://www.youtube.com/watch?v=2qG5nrkkz1E",
       "transcript_excerpt": "Keep in mind that Japan demographically is the oldest society right now with the highest proportion of senior citizens. And [snorts] uh the population has been shrinking for the last 20 years.",
       "verdict": null,
-      "created_at": "2026-09-30T19:20:45.816587"
+      "created_at": "2026-09-30T19:20:45.816587",
+      "measurement_type": "subjective"
     },
     {
       "id": "pred_20260930191615_d79e00a2d5fb",
@@ -351,7 +362,8 @@
       "source_url": "https://www.youtube.com/watch?v=2qG5nrkkz1E",
       "transcript_excerpt": "Uh keep in mind that Japan demographically is the oldest society right now with the highest proportion of senior citizens. And [snorts] uh the population has been shrinking for the last 20 years.",
       "verdict": null,
-      "created_at": "2026-09-30T19:16:15.071342"
+      "created_at": "2026-09-30T19:16:15.071342",
+      "measurement_type": "subjective"
     },
     {
       "id": "pred_20260930192111_2b82b3d9bb3b",
@@ -362,7 +374,8 @@
       "source_url": "https://www.youtube.com/watch?v=HAjjFACnFpA",
       "transcript_excerpt": "More likely the business as usual of tech advancement that we've become used to is simply not going to fly and we're going to have to get by with less.",
       "verdict": null,
-      "created_at": "2026-09-30T19:21:11.784549"
+      "created_at": "2026-09-30T19:21:11.784549",
+      "measurement_type": "subjective"
     },
     {
       "id": "pred_20260930192111_aadd10cff00e",
@@ -373,7 +386,8 @@
       "source_url": "https://www.youtube.com/watch?v=HAjjFACnFpA",
       "transcript_excerpt": "Cuz we are nearing the point in a few years where the Chinese system is going to collapse for demographic reasons. That assumes there's not a war, that assumes there's not a trade war, all of which could bring the end date faster.",
       "verdict": null,
-      "created_at": "2026-09-30T19:21:11.715864"
+      "created_at": "2026-09-30T19:21:11.715864",
+      "measurement_type": "subjective"
     },
     {
       "id": "pred_20260930192135_24fbdecdd5bf",
@@ -384,7 +398,8 @@
       "source_url": "https://www.youtube.com/watch?v=yBLbtMFgI-k",
       "transcript_excerpt": "Everybody, Peter Zeihan here, coming to you from above Barney Lake in the Hoover National Wilderness. Today, I want to talk about something that I saw in the news while I was on the plane to this trip. And that's [snorts] that the Trump administration is in the process of setting up a prize court, which is kind of cool. Prize court basically makes legal rulings on products that are seized by the US military, sold on behalf of the US government, and the proceeds go to the Treasury.",
       "verdict": null,
-      "created_at": "2026-09-30T19:21:35.391159"
+      "created_at": "2026-09-30T19:21:35.391159",
+      "measurement_type": "subjective"
     },
     {
       "id": "pred_20260930192135_ac44ac0fd216",
@@ -395,7 +410,8 @@
       "source_url": "https://www.youtube.com/watch?v=yBLbtMFgI-k",
       "transcript_excerpt": "So, uh this could mean that the rest of this year is going to get really interesting.",
       "verdict": null,
-      "created_at": "2026-09-30T19:21:35.501499"
+      "created_at": "2026-09-30T19:21:35.501499",
+      "measurement_type": "subjective"
     },
     {
       "id": "pred_20260930192215_bea2e73ba9bd",
@@ -406,7 +422,8 @@
       "source_url": "https://www.youtube.com/watch?v=i-oKg9pv_X8",
       "transcript_excerpt": "uh some of the cities controlled certain trade routes. They started to merge that and became a mercantile grouping. And eventually, they decided that they got along well enough that they should build a common wall among their entire combined area. And uh that set the formation of what we now call Rome, and eventually it became the Roman Empire. And in time, those seven communities and their merger and their collective infrastructure formed a city of a million people in the uh 3rd century AD, which was a level that was not matched by anyone else on the planet until London in the 1800s. Why does this matter now? >> [sighs] >> They, in essence, maximized the technologies they had at the moment, applied them to their geography, changed what they could, and in doing so created one of the great empires in history. We're entering a period now where the rules of geopolitics are forcing an adjustment, and just like the original seven cities of Rome, they're going to have to come up with something new to get by. Uh there are two areas that I think are worth drawing your attention to. The first is Southeast Asia, where you've got a cluster of a dozen countries ranging from technocratic Singapore, commodity-providing Australia and New Zealand, uh relatively backwards Myanmar, middle-range Malaysia and Thailand, who already have a series of groupings and agreements that allow them to punch above their collective weight should they develop a political system for doing so, which they haven't done. But the hard stuff, the economic integration, is already done.",
       "verdict": null,
-      "created_at": "2026-09-30T19:22:15.924352"
+      "created_at": "2026-09-30T19:22:15.924352",
+      "measurement_type": "subjective"
     },
     {
       "id": "pred_20260930192215_a2cb0463b89c",
@@ -417,7 +434,8 @@
       "source_url": "https://www.youtube.com/watch?v=i-oKg9pv_X8",
       "transcript_excerpt": "Number two, the southern part of Latin America, specifically the southern cone. This is an area that inclu- includes Chile, Argentina, Uruguay, uh Paraguay, and the southern few provinces of Brazil. This is a zone that is in the temperate zone, and so you don't have a lot of the just the infrastructure annihilating heat, humidity, and rainfall that exists further north in Brazil. Basically, anything south of Rio works, everything north kind of sketchy. Uh so they can feed themselves. Argentina has shown that even under some of the most destructive economic policies that humans have ever put together, they can still be a net oil and natural gas exporter, and they are the world's number two producer of shale energy. Uh Combine that with some of the offshore in Brazil, where they've got one of the world's best oil companies, and you're at least neutral, probably strongly positive [snorts] in terms of energy. And in a world where say China goes away, and there just aren't enough manufactured goods, this is an area with actually a really solid educational base. Uh Argentina, despite some of their policies, has always maintained a good baseline educational system, and Brazil has a shocking volume of skilled labor for an economy of its size that is highly specialized. You lump that all together, it really works.",
       "verdict": null,
-      "created_at": "2026-09-30T19:22:15.965875"
+      "created_at": "2026-09-30T19:22:15.965875",
+      "measurement_type": "subjective"
     },
     {
       "id": "pred_20260930192307_c20f9aa39f2c",
@@ -428,7 +446,8 @@
       "source_url": "https://www.youtube.com/watch?v=NQlL59f4OFY",
       "transcript_excerpt": "By then, most of the data center should be built, and they can begin meaningful operations before the end of next year, but they probably won't finish the model until right around New Year's. So, we're already talking not just 2027, but 2028 before they might be able to start putting this thing into robot brains.",
       "verdict": null,
-      "created_at": "2026-09-30T19:23:07.706145"
+      "created_at": "2026-09-30T19:23:07.706145",
+      "measurement_type": "quantitative"
     },
     {
       "id": "pred_20260930192307_f7bb161cb48f",
@@ -439,7 +458,8 @@
       "source_url": "https://www.youtube.com/watch?v=NQlL59f4OFY",
       "transcript_excerpt": "Japan is the world's oldest society. It's no longer the fastest aging, but it's expecting a workforce shortage of more than 11 million workers as soon as 2030.",
       "verdict": null,
-      "created_at": "2026-09-30T19:23:07.737604"
+      "created_at": "2026-09-30T19:23:07.737604",
+      "measurement_type": "quantitative"
     },
     {
       "id": "pred_doomberg_d5e76711",
@@ -450,7 +470,8 @@
       "source_url": "https://www.youtube.com/watch?v=rz8mwV7lJ8s",
       "transcript_excerpt": "Mad Max style great reset, $150 oil, tipping point in Middle East",
       "verdict": null,
-      "created_at": "2025-09-30T19:20:00"
+      "created_at": "2025-09-30T19:20:00",
+      "measurement_type": "subjective"
     },
     {
       "id": "pred_doomberg_a77496c4",
@@ -461,7 +482,8 @@
       "source_url": "https://newsletter.doomberg.com/p/chip-shot",
       "transcript_excerpt": "China will conquer semiconductors just as it has conquered EVs and solar",
       "verdict": null,
-      "created_at": "2025-09-30T19:20:00"
+      "created_at": "2025-09-30T19:20:00",
+      "measurement_type": "subjective"
     },
     {
       "id": "pred_doomberg_9486f67c",
@@ -472,7 +494,8 @@
       "source_url": "https://www.youtube.com/watch?v=A1ao9xHy6KA",
       "transcript_excerpt": "Trump to call a national emergency over diesel fuel crisis",
       "verdict": null,
-      "created_at": "2025-09-30T19:20:00"
+      "created_at": "2025-09-30T19:20:00",
+      "measurement_type": "subjective"
     },
     {
       "id": "pred_doomberg_28edafe2",
@@ -483,7 +506,8 @@
       "source_url": "https://newsletter.doomberg.com/p/hot-pockets",
       "transcript_excerpt": "Coal, natural gas, and oil will all set records — the green transition is over",
       "verdict": null,
-      "created_at": "2025-09-30T19:20:00"
+      "created_at": "2025-09-30T19:20:00",
+      "measurement_type": "quantitative"
     },
     {
       "id": "pred_doomberg_67f74507",
@@ -494,7 +518,8 @@
       "source_url": "https://www.youtube.com/watch?v=c6z64C7aGmo",
       "transcript_excerpt": "Gold is signaling a massive regime change",
       "verdict": null,
-      "created_at": "2025-09-30T19:20:00"
+      "created_at": "2025-09-30T19:20:00",
+      "measurement_type": "subjective"
     },
     {
       "id": "pred_diamandis_0e456622",
@@ -505,7 +530,8 @@
       "source_url": "https://www.youtube.com/watch?v=RF0KucU_low",
       "transcript_excerpt": "AI increasing at 100x per year, by 2029 AI as capable as 8 billion humans",
       "verdict": null,
-      "created_at": "2025-09-30T19:20:00"
+      "created_at": "2025-09-30T19:20:00",
+      "measurement_type": "quantitative"
     },
     {
       "id": "pred_diamandis_d635b663",
@@ -516,7 +542,8 @@
       "source_url": "https://www.youtube.com/watch?v=ChHnxi2JyHE",
       "transcript_excerpt": "AI agents are changing business forever, 30% of knowledge work automated",
       "verdict": null,
-      "created_at": "2025-09-30T19:20:00"
+      "created_at": "2025-09-30T19:20:00",
+      "measurement_type": "quantitative"
     },
     {
       "id": "pred_diamandis_bc45fd3c",
@@ -527,7 +554,8 @@
       "source_url": "https://www.youtube.com/watch?v=H5ZLorBJCDk",
       "transcript_excerpt": "We're going to cure all disease within the next 10 years, double human lifespan",
       "verdict": null,
-      "created_at": "2025-09-30T19:20:00"
+      "created_at": "2025-09-30T19:20:00",
+      "measurement_type": "subjective"
     },
     {
       "id": "pred_diamandis_8eba3e30",
@@ -538,7 +566,8 @@
       "source_url": "https://www.youtube.com/watch?v=mofEOSUkMpA",
       "transcript_excerpt": "by 2040 probably there are more humanoid robots than there are people, 10 billion",
       "verdict": null,
-      "created_at": "2025-09-30T19:20:00"
+      "created_at": "2025-09-30T19:20:00",
+      "measurement_type": "quantitative"
     },
     {
       "id": "pred_diamandis_017d3a43",
@@ -549,7 +578,8 @@
       "source_url": "https://www.youtube.com/watch?v=P2HJEz3oqLs",
       "transcript_excerpt": "More than 80% of code merge into their code base is written by AI, the AI is building itself",
       "verdict": null,
-      "created_at": "2025-09-30T19:20:00"
+      "created_at": "2025-09-30T19:20:00",
+      "measurement_type": "quantitative"
     },
     {
       "id": "pred_20261001134835_000",
@@ -560,7 +590,8 @@
       "source_url": "https://www.youtube.com/watch?v=ZKx63e96Yow",
       "transcript_excerpt": "If you made me bet right now, I would say that Lula is likely to win, but it is extremely close. I wouldn't be surprised if Bolsonaro wins. Um, I I would say that if Bolsonaro does take it, um, then, uh, we will see a warmer relationship with the United States almost immediately.",
       "verdict": null,
-      "created_at": "2026-10-01T13:48:35.350720"
+      "created_at": "2026-10-01T13:48:35.350720",
+      "measurement_type": "quantitative"
     },
     {
       "id": "pred_20261001134835_001",
@@ -571,7 +602,8 @@
       "source_url": "https://www.youtube.com/watch?v=ZKx63e96Yow",
       "transcript_excerpt": "Uh, that's a big deal. What we wouldn't see, and the markets would like it because he's going to be arguing for more fiscal responsibility and reduction in uh, mandatory expenses in Brazil. What we wouldn't see is a change uh in the fact that Brazil's lead trade partner is China and will continue to be China and they will align with them not just in expanding their economic engagement um on uh commodity exports and on manufactured imports, but also on technology.",
       "verdict": null,
-      "created_at": "2026-10-01T13:48:35.350732"
+      "created_at": "2026-10-01T13:48:35.350732",
+      "measurement_type": "subjective"
     },
     {
       "id": "pred_20261001134900_000",
@@ -582,7 +614,8 @@
       "source_url": "https://www.youtube.com/watch?v=bd8F5n2QQpo",
       "transcript_excerpt": "We're hearing that from Anthropic and OpenAI. We're hearing it from Google. We're hearing it from Microsoft, but the US government is not prepared to take a lead in regulation or governance. And ultimately, these companies will not. They will not because they don't trust each other and they want to win. And also, because even if they did engage in such cooperation, it would be seen as breaking antitrust for the purposes of the US government.",
       "verdict": null,
-      "created_at": "2026-10-01T13:49:00.450167"
+      "created_at": "2026-10-01T13:49:00.450167",
+      "measurement_type": "quantitative"
     },
     {
       "id": "pred_20261001134900_001",
@@ -593,7 +626,8 @@
       "source_url": "https://www.youtube.com/watch?v=bd8F5n2QQpo",
       "transcript_excerpt": "That's clearly going to lead to policy backlash uh, there. The fact is that these AI models are incredibly powerful because they are trained on human data and they're trained to behave in that regard as humans do. Um, which means, you know, you focus on the thing that is most important to you and other things uh, are guidelines perhaps, but they're not necessarily hard and fast rules. Um, and uh, that's what we're seeing from so many of these AI models and it's causing a lot more danger, um, in terms of cyber insecurity, um, and also in terms of being able to use these things directly as a weapon or inadvertently as a weapon when a second-order, um, you know, sort of consequence of just following the top priority of what these agents have been told to do suddenly becomes damaging. Whoops, my bad. Didn't mean to do that. I'll be careful next time. Um and um what that means is that we're going to have to have a much bigger crisis before we have a response, number one. And number two, the response will not be proactive and systemic, but will rather be overwhelmingly oriented to respond to that specific thing.",
       "verdict": null,
-      "created_at": "2026-10-01T13:49:00.450176"
+      "created_at": "2026-10-01T13:49:00.450176",
+      "measurement_type": "subjective"
     },
     {
       "id": "pred_20261001134922_000",
@@ -604,7 +638,8 @@
       "source_url": "https://www.youtube.com/watch?v=K-cdYtuEn4A",
       "transcript_excerpt": "This meeting is set up to go well, but it's set up to go well in part because President Trump is looking short-term and Xi Jinping is looking long-term. Very different from, say, conflict over Russia-Ukraine... But in the case of the US and China, over the last year, Trump's top priority with Xi Jinping has been getting control of TikTok, because he wants to make sure that he has that data and algorithm in upcoming elections.",
       "verdict": null,
-      "created_at": "2026-10-01T13:49:22.528146"
+      "created_at": "2026-10-01T13:49:22.528146",
+      "measurement_type": "subjective"
     },
     {
       "id": "pred_20261001134922_001",
@@ -615,7 +650,8 @@
       "source_url": "https://www.youtube.com/watch?v=K-cdYtuEn4A",
       "transcript_excerpt": "The one thing that isn't going to move is artificial intelligence. Oh, they can talk about a hotline. They can talk about the need to be friendly, but reality is the Chinese are actively trying to win on artificial intelligence and so are the Americans. And the Chinese are behind in terms of frontier models and semiconductors, but the Americans are behind in terms of the war of ideas. Most Americans are scared of AI. They think the technology is going to hurt them. Most Chinese favor AI. They're using it more frequently than the Americans, believe it or not, even though they're only a middle-income economy, and they think that AI will help them and will actually help their economy.",
       "verdict": null,
-      "created_at": "2026-10-01T13:49:22.528155"
+      "created_at": "2026-10-01T13:49:22.528155",
+      "measurement_type": "subjective"
     },
     {
       "id": "pred_20261001134939_000",
@@ -626,7 +662,8 @@
       "source_url": "https://www.youtube.com/watch?v=bhtfC7iqbdo",
       "transcript_excerpt": "The announcement over the weekend of a deal on Greenland was got a little a little bit of buzz because Trump is going to announce it at his speech at the United Nations this week and sees it as a big win",
       "verdict": null,
-      "created_at": "2026-10-01T13:49:39.202466"
+      "created_at": "2026-10-01T13:49:39.202466",
+      "measurement_type": "subjective"
     },
     {
       "id": "pred_20261001134939_001",
@@ -637,7 +674,8 @@
       "source_url": "https://www.youtube.com/watch?v=bhtfC7iqbdo",
       "transcript_excerpt": "We will say nothing to undermine that because we got everything we wanted. We want to make sure that this does not get undermined, that he actually puts pen to paper and proceeds with the deal so we don't have to worry about Greenland anymore. Why would Trump after months and months of fighting over Greenland and saying the US needs sovereignty, has to own it, no one else can protect it, why would he accept something that is dramatically less than that in deal? And the answer is because we have passed peak Trump on the global stage. That Trump's ability to disrupt and get outcomes that he wants, to secure outcomes has been diminished dramatically compared to where we were, where the world was, where he was a year ago, two years ago",
       "verdict": null,
-      "created_at": "2026-10-01T13:49:39.202471"
+      "created_at": "2026-10-01T13:49:39.202471",
+      "measurement_type": "subjective"
     },
     {
       "id": "pred_20261001134952_000",
@@ -648,7 +686,8 @@
       "source_url": "https://www.youtube.com/watch?v=Fehm0E4RbzU",
       "transcript_excerpt": "Anthropic, the AI company, revealed that it had blocked several users of its popular platform Claude from using its models to conduct research that could have helped develop dangerous biological weapons. Now, Anthropic doesn't know whether they were trying to build an actual bioweapon or just doing a little science project, accounts were asking questions that could have easily led to a real-life crisis.",
       "verdict": null,
-      "created_at": "2026-10-01T13:49:52.193770"
+      "created_at": "2026-10-01T13:49:52.193770",
+      "measurement_type": "subjective"
     },
     {
       "id": "pred_20261001134952_001",
@@ -659,7 +698,8 @@
       "source_url": "https://www.youtube.com/watch?v=Fehm0E4RbzU",
       "transcript_excerpt": "The greatest threat may not be AI deciding to destroy humanity itself. It is AI making it easier for humans to set off a crisis they can't control.",
       "verdict": null,
-      "created_at": "2026-10-01T13:49:52.193776"
+      "created_at": "2026-10-01T13:49:52.193776",
+      "measurement_type": "subjective"
     }
   ]
 }

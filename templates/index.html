@@ -45,6 +45,23 @@
             border: 1px solid var(--border); border-radius: 6px;
             padding: 8px 14px; cursor: pointer; font-size: 0.9rem;
         }
+        .filter-btn {
+            border: 1px solid var(--border); border-radius: 6px;
+            padding: 8px 14px; cursor: pointer; font-size: 0.85rem;
+            font-weight: 600; transition: all 0.15s;
+        }
+        .filter-btn.objective-on {
+            background: rgba(34,197,94,0.15); color: #22c55e; border-color: #22c55e;
+        }
+        .filter-btn.objective-off {
+            background: rgba(239,68,68,0.1); color: #ef4444; border-color: rgba(239,68,68,0.4); opacity: 0.6;
+        }
+        .filter-btn.subjective-on {
+            background: rgba(245,158,11,0.15); color: #f59e0b; border-color: #f59e0b;
+        }
+        .filter-btn.subjective-off {
+            background: rgba(239,68,68,0.1); color: #ef4444; border-color: rgba(239,68,68,0.4); opacity: 0.6;
+        }
         .settings-dropdown {
             display: none; position: absolute; z-index: 200;
             right: 0; top: calc(100% + 4px);
@@ -249,6 +266,8 @@
             <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 4px;">Predictions vs Reality Tracker</p>
         </div>
         <div class="controls">
+            <button class="filter-btn objective-on" id="btn-objective" onclick="toggleFilter('objective')">● Objective</button>
+            <button class="filter-btn subjective-on" id="btn-subjective" onclick="toggleFilter('subjective')">● Subjective</button>
             <button class="settings-btn" onclick="toggleSettings()">⚙ Settings</button>
             <div class="settings-dropdown" id="settings-dropdown">
                 <label><input type="checkbox" onchange="toggleTheme(this.checked)"> Light mode</label>
@@ -294,7 +313,7 @@
             <div class="pred-column">
                 {% set person_rows = rows_by_person.get(ind.name, []) %}
                 {% for row in person_rows %}
-                <div class="pred-entry">
+                <div class="pred-entry" data-mtype="{{ row.measurement_type if row.measurement_type else 'subjective' }}">
                     <div class="pred-date">{{ row.date }}</div>
                     <div class="pred-claim">{{ row.claim | condense }}</div>
                     <a class="pred-source" href="{{ row.source_url }}" target="_blank" rel="noopener">{{ row.source_url | source_label }} ↗</a>
@@ -325,6 +344,23 @@
         {{ category_colors | tojson }}
     </script>
     <script>
+        var filters = {objective: true, subjective: true};
+        function toggleFilter(type) {
+            filters[type] = !filters[type];
+            var btn = document.getElementById('btn-' + type);
+            btn.classList.remove(type + '-on', type + '-off');
+            btn.classList.add(filters[type] ? type + '-on' : type + '-off');
+            applyFilters();
+        }
+        function applyFilters() {
+            document.querySelectorAll('.pred-entry').forEach(function(el) {
+                var mtype = el.getAttribute('data-mtype') || 'subjective';
+                var show = false;
+                if (filters.objective && mtype === 'quantitative') show = true;
+                if (filters.subjective && mtype === 'subjective') show = true;
+                el.style.display = show ? '' : 'none';
+            });
+        }
         function toggleTheme(checkbox) {
             const body = document.body;
             const btn = document.querySelector('.theme-toggle');
@@ -372,9 +408,16 @@
             var data = JSON.parse(document.getElementById('all-preds').textContent);
             var colors = JSON.parse(document.getElementById('cat-colors').textContent);
             var preds = data[name] || [];
-            document.getElementById('detail-title').textContent = name + ' — ' + preds.length + ' predictions';
+            // Apply current filters
+            var filtered = preds.filter(function(p) {
+                var mtype = p.measurement_type || 'subjective';
+                if (filters.objective && mtype === 'quantitative') return true;
+                if (filters.subjective && mtype === 'subjective') return true;
+                return false;
+            });
+            document.getElementById('detail-title').textContent = name + ' — ' + filtered.length + ' predictions';
             var grid = document.getElementById('detail-grid');
-            grid.innerHTML = preds.map(function(p) {
+            grid.innerHTML = filtered.map(function(p) {
                 var cat = p.category || 'other';
                 var color = colors[cat] || '#6b7280';
                 var label = sourceLabel(p.source_url);
