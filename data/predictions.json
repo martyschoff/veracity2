@@ -198,6 +198,16 @@
       "categories": [
         "ai"
       ]
+    },
+    {
+      "name": "Alex Karp",
+      "handle": "akarp",
+      "sources": [
+        "https://www.palantir.com"
+      ],
+      "categories": [
+        "ai"
+      ]
     }
   ],
   "predictions": [
