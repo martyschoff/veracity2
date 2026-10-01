@@ -41,7 +41,7 @@ CATEGORY_COLORS: dict[str, str] = {
 }
 
 # The 3 tracked individuals (in column order)
-TRACKED_NAMES: list[str] = ["Peter Zeihan", "Doomberg", "Peter Diamandis"]
+TRACKED_NAMES: list[str] = ["Peter Zeihan", "Doomberg", "Peter Diamandis", "Ian Bremmer"]
 
 
 def get_store() -> Store:

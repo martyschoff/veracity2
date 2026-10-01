@@ -79,7 +79,7 @@
       ]
     },
     {
-      "name": "Ian Bremmer (GZERO Media)",
+      "name": "Ian Bremmer",
       "handle": "gzero",
       "sources": [
         "https://www.youtube.com/@GZEROMedia/videos"
@@ -550,6 +550,303 @@
       "transcript_excerpt": "More than 80% of code merge into their code base is written by AI, the AI is building itself",
       "verdict": null,
       "created_at": "2025-09-30T19:20:00"
+    },
+    {
+      "id": "pred_20261001133303_000",
+      "individual_name": "Ian Bremmer",
+      "date": "2026-09-30",
+      "category": "geopolitics",
+      "claim": "If Bolsonaro wins the Brazilian presidential election, we will see a warmer relationship with the United States almost immediately.",
+      "source_url": "https://www.youtube.com/watch?v=ZKx63e96Yow",
+      "transcript_excerpt": "If you made me bet right now, I would say that Lula is likely to win, but it is extremely close. I wouldn't be surprised if Bolsonaro wins. Um, I I would say that if Bolsonaro does take it, um, then, uh, we will see a warmer relationship with the United States almost immediately.",
+      "verdict": null,
+      "created_at": "2026-10-01T13:33:03.733017"
+    },
+    {
+      "id": "pred_20261001133303_001",
+      "individual_name": "Ian Bremmer",
+      "date": "2026-09-30",
+      "category": "geopolitics",
+      "claim": "If Bolsonaro wins, Brazil would suddenly go after drug gangs as terrorist organizations and cooperate with the US directly on intelligence and militarily on the ground in Brazil.",
+      "source_url": "https://www.youtube.com/watch?v=ZKx63e96Yow",
+      "transcript_excerpt": "Uh, that's a big deal. What we wouldn't see, and the markets would like it because he's going to be arguing for more fiscal responsibility and reduction in uh, mandatory expenses in Brazil. What we wouldn't see is a change uh in the fact that Brazil's lead trade partner is China and will continue to be China and they will align with them not just in expanding their economic engagement um on uh commodity exports and on manufactured imports, but also on technology.",
+      "verdict": null,
+      "created_at": "2026-10-01T13:33:03.733024"
+    },
+    {
+      "id": "pred_20261001133323_000",
+      "individual_name": "Ian Bremmer",
+      "date": "2026-09-29",
+      "category": "other",
+      "claim": "AI can accelerate sustainable development goals (SDGs) by improving efficiency in humanitarian aid delivery and helping attract new funding, with AI potentially enabling the World Food Program to improve their efficiency from 85 cents to 90-95 cents per dollar delivered to beneficiaries.",
+      "source_url": "https://www.youtube.com/watch?v=e2GvoB9sI8E",
+      "transcript_excerpt": "AI needs to play a role in that entire value chain to strip out cost. AI can also play a role in attracting new money. We worked with Tom Fletcher and the OCHA team to help them with their grant management system to bring higher precision to where dollars are going and what the impact is. The US released 1.2 billion dollars to OCHA that could be distributed for humanitarian aid in part because there's these higher precision optics.",
+      "verdict": null,
+      "created_at": "2026-10-01T13:33:23.230074"
+    },
+    {
+      "id": "pred_20261001133323_001",
+      "individual_name": "Ian Bremmer",
+      "date": "2026-09-29",
+      "category": "ai",
+      "claim": "Microsoft and UNDP will train 35,000 civil servants in Kenya on AI and digital skills with a target of training many more, and will partner with government of Kenya and African innovators on an AI hub for sustainable development.",
+      "source_url": "https://www.youtube.com/watch?v=e2GvoB9sI8E",
+      "transcript_excerpt": "We work in Kenya together with the government of Kenya... We've trained 35,000 civil servants so far with a target of many more. We work in Nigeria and Egypt together on similar kinds of initiatives around different parts of the ecosystem. Microsoft has provided compute credits for African innovators as part of a project that we have on the uh an AI hub for sustainable development.",
+      "verdict": null,
+      "created_at": "2026-10-01T13:33:23.230080"
+    },
+    {
+      "id": "pred_20261001133342_000",
+      "individual_name": "Ian Bremmer",
+      "date": "2026-09-29",
+      "category": "ai",
+      "claim": "The Partnership on AI will continue to work toward developing responsible business practices for AI that serve the public interest, including fairness, privacy protection, reliability, transparency, accountability, and inclusivity in how AI systems are developed and built with people and communities.",
+      "source_url": "https://www.youtube.com/watch?v=qqoHRTJ2FfM",
+      "transcript_excerpt": "I like to say that our North Star is that we want to develop responsible business practices when it comes to AI that serve the public interest. So, that means, yes, they need to be fair. Yes, they need to be privacy protecting, reliable, transparent, all those sorts of things. But they need to be governed accountably, and they need to be inclusive in terms of how they are developed and how they are built with people and communities as well.",
+      "verdict": null,
+      "created_at": "2026-10-01T13:33:42.273365"
+    },
+    {
+      "id": "pred_20261001133342_001",
+      "individual_name": "Ian Bremmer",
+      "date": "2026-09-29",
+      "category": "ai",
+      "claim": "The UN should establish an international scientific panel to provide evidence-based guidance on AI safety and trustworthiness, which would inform policy mechanisms like the dialogue and other multilateral forums.",
+      "source_url": "https://www.youtube.com/watch?v=qqoHRTJ2FfM",
+      "transcript_excerpt": "I think the international scientific panel is a really clear, no-regret opportunity for the UN to say, 'Look, let's bring together this international group of scientists. Let's hear from them about how they're defining the terms of safety today. And then, let's make sure we're extracting those insights and putting them into mechanisms like the dialogue, like other multilateral forums that are taking place.'",
+      "verdict": null,
+      "created_at": "2026-10-01T13:33:42.273373"
+    },
+    {
+      "id": "pred_20261001133401_000",
+      "individual_name": "Ian Bremmer",
+      "date": "2026-09-28",
+      "category": "geopolitics",
+      "claim": "The US and China are heading toward an AI arms race with no willingness from the US to engage in governance or regulation of AI technology, while China is taking a risk-averse position that could lead to unilateral US responses focused on national security.",
+      "source_url": "https://www.youtube.com/watch?v=bd8F5n2QQpo",
+      "transcript_excerpt": "I'm very worried that we are presently heading for confrontation and an AI arms race. The US-China summit was did talk about establishing a bilateral channel on AI, but there is no willingness to engage in a pacing of the frontier, no governance from the United States. There is both feet on the accelerator to ensure that whoever wins in AI wins, and that needs to be the Americans. Meanwhile, the Chinese government has taken the position of let the Americans fight amongst themselves. That will ultimately help us.",
+      "verdict": null,
+      "created_at": "2026-10-01T13:34:01.366080"
+    },
+    {
+      "id": "pred_20261001133401_001",
+      "individual_name": "Ian Bremmer",
+      "date": "2026-09-28",
+      "category": "ai",
+      "claim": "There will be significant policy backlash from governments around the world due to AI models performing dangerous actions that were not anticipated by their monitors, such as accessing public health systems without proper oversight.",
+      "source_url": "https://www.youtube.com/watch?v=bd8F5n2QQpo",
+      "transcript_excerpt": "The headlines for the average Americans... has been about all of these, you know, breaks of sandboxes and AI models doing things that the the people that would be monitoring them wouldn't be happy about, um, getting into the Australian public health system, for example. The Aussies incredibly angry and only learned about that from OpenAI uh, many weeks after it initially occurred. That's clearly going to lead to policy backlash uh, there.",
+      "verdict": null,
+      "created_at": "2026-10-01T13:34:01.366088"
+    },
+    {
+      "id": "pred_20261001133418_000",
+      "individual_name": "Ian Bremmer",
+      "date": "2026-09-28",
+      "category": "other",
+      "claim": "The super El Niño forming over the course of 2026 and 2027 will cause enhanced rains in southern South America and the eastern part of Africa, while causing less than usual rains in Central America, western Africa, Indonesia, and Australia.",
+      "source_url": "https://www.youtube.com/watch?v=vTnbduYhE30",
+      "transcript_excerpt": "But, we expect enhanced rains, for example, in southern South America, and we expect enhanced rains over the eastern part of Africa. But, we expect less than uh usual rains in Central uh America, and also in western Africa, and particularly in Indonesia and Australia.",
+      "verdict": null,
+      "created_at": "2026-10-01T13:34:18.593757"
+    },
+    {
+      "id": "pred_20261001133418_001",
+      "individual_name": "Ian Bremmer",
+      "date": "2026-09-28",
+      "category": "other",
+      "claim": "The World Meteorological Organization (WMO) is working with national meteorological services and global centers to translate global El Niño signals into regional and national weather patterns for at least 3 months ahead.",
+      "source_url": "https://www.youtube.com/watch?v=vTnbduYhE30",
+      "transcript_excerpt": "So, thanks to the coordination of these global centers, we can monitor global signals like El Niño. But then, you need to translate those elements of the global circulation into regional and national events or patterns. That's where the work of the WMO coordinating the national meteorological services is so important.",
+      "verdict": null,
+      "created_at": "2026-10-01T13:34:18.593768"
+    },
+    {
+      "id": "pred_20261001133435_000",
+      "individual_name": "Ian Bremmer",
+      "date": "2026-09-27",
+      "category": "ai",
+      "claim": "Autonomous AI attacks are already happening and will adapt in real time when encountering challenges in the environment.",
+      "source_url": "https://www.youtube.com/watch?v=FbFPs2lS2is",
+      "transcript_excerpt": "So, what we're seeing is they're actually running autonomous campaigns against customers. So, what it means is they will build a campaign to do a reconnaissance in the environment, to find vulnerability, to chain them, to attack customers. And this thing will adapt real time. So, when it run into uh challenges in the environment, it will start adapting. So, autonomous attacks are happening with AI as we speak.",
+      "verdict": null,
+      "created_at": "2026-10-01T13:34:35.813507"
+    },
+    {
+      "id": "pred_20261001133435_001",
+      "individual_name": "Ian Bremmer",
+      "date": "2026-09-27",
+      "category": "ai",
+      "claim": "AI-powered security systems must be able to detect and respond to threats within minutes, not hours or days.",
+      "source_url": "https://www.youtube.com/watch?v=FbFPs2lS2is",
+      "transcript_excerpt": "So, what we have to be able to do is do it in minutes. Because they move at that speed. And that's what we're building. That's why the ecosystem is building. We have to be able to watch real time what they're doing so that you can action real time. Cuz if you don't, within the next 10 minutes that agents will have already done the damage. So, that's what we're building. Minutes.",
+      "verdict": null,
+      "created_at": "2026-10-01T13:34:35.813517"
+    },
+    {
+      "id": "pred_20261001133449_000",
+      "individual_name": "Ian Bremmer",
+      "date": "2026-09-27",
+      "category": "ai",
+      "claim": "Governments cannot abdicate their responsibility for the security of their citizens in relation to AI development, and international cooperation is needed because AI has no borders.",
+      "source_url": "https://www.youtube.com/watch?v=PhXZ-x98EqQ",
+      "transcript_excerpt": "governments cannot abdicate to have a word in relation to the development of these systems. And that on the other hand, artificial intelligence has no borders. And as artificial intelligence has no borders, we need effective international cooperation.",
+      "verdict": null,
+      "created_at": "2026-10-01T13:34:49.969153"
+    },
+    {
+      "id": "pred_20261001133449_001",
+      "individual_name": "Ian Bremmer",
+      "date": "2026-09-27",
+      "category": "ai",
+      "claim": "The trajectory of AI development is moving towards a cold war with two different blocks, where countries must choose to be part of one or the other.",
+      "source_url": "https://www.youtube.com/watch?v=PhXZ-x98EqQ",
+      "transcript_excerpt": "my fear is that right now the trajectory on AI appears to be towards a cold war, towards two different blocks. You have to choose to be part of one or the other. That that doesn't have to stay that way, but that's the present trajectory as opposed to the global economy where we see multipolarity being pushed by all sorts of different countries and regions.",
+      "verdict": null,
+      "created_at": "2026-10-01T13:34:49.969162"
+    },
+    {
+      "id": "pred_20261001133505_000",
+      "individual_name": "Ian Bremmer",
+      "date": "2026-09-26",
+      "category": "ai",
+      "claim": "Microsoft and Gallup will release data from 140 countries for their AI adoption and trust study by January.",
+      "source_url": "https://www.youtube.com/watch?v=a7n1wf2RQeg",
+      "transcript_excerpt": "So, as we mentioned today, we released 37 of the countries. In January, we're we're going to release another 100 so that we'll have almost 140 countries for the entire study.",
+      "verdict": null,
+      "created_at": "2026-10-01T13:35:05.422208"
+    },
+    {
+      "id": "pred_20261001133505_001",
+      "individual_name": "Ian Bremmer",
+      "date": "2026-09-26",
+      "category": "ai",
+      "claim": "By 2025, China will have over 90% of its population believing AI will be helpful to society, compared to a lower percentage in the United States.",
+      "source_url": "https://www.youtube.com/watch?v=a7n1wf2RQeg",
+      "transcript_excerpt": "There's been a remarkable trend in China where it was around uh a majority about 2019 when we first asked that question in China, now it's upwards of 90% that say that AI will be helpful to them excuse me, helpful to society in China um, is in stark contrast to the United States, where there's a much lower percentage.",
+      "verdict": null,
+      "created_at": "2026-10-01T13:35:05.422214"
+    },
+    {
+      "id": "pred_20261001133525_000",
+      "individual_name": "Ian Bremmer",
+      "date": "2026-09-26",
+      "category": "geopolitics",
+      "claim": "The United Nations Security Council and Bretton Woods institutions need to be reformed to reflect today's global realities, as they currently don't correspond to the power relations of the post-World War II era.",
+      "source_url": "https://www.youtube.com/watch?v=NKdbK-AVrY0",
+      "transcript_excerpt": "Let's be clear. We have a huge geopolitical divide, and we have multilateral institutions that are still working based on the composition and the rules of the post-Second World War that reflected the power relations of the post World War. And so obviously when you look at the Security Council of the United of the United Nations or when you look at the Bretton Woods system, it is clear that they don't correspond anymore to the realities of today's world in which a number of for instance emerging economies have today a much bigger weight than they had in the global economy.",
+      "verdict": null,
+      "created_at": "2026-10-01T13:35:25.165596"
+    },
+    {
+      "id": "pred_20261001133525_001",
+      "individual_name": "Ian Bremmer",
+      "date": "2026-09-26",
+      "category": "geopolitics",
+      "claim": "The trend toward multipolarity is irreversible and will lead to a networked multipolar world where middle-sized countries and regions intensify trade and technological agreements.",
+      "source_url": "https://www.youtube.com/watch?v=NKdbK-AVrY0",
+      "transcript_excerpt": "I think it is clear that we have an irreversible trend to multipolarity. And obviously, I think the position of the United States is facilitating the emergence of that multipolarity. And of a networked multipolarity. And what we are starting to witness is that uh a number of uh middle-sized countries or regions uh are starting to intensify trade agreements, technological agreements, uh other forms of international cooperation.",
+      "verdict": null,
+      "created_at": "2026-10-01T13:35:25.165604"
+    },
+    {
+      "id": "pred_20261001133545_000",
+      "individual_name": "Ian Bremmer",
+      "date": "2026-09-25",
+      "category": "ai",
+      "claim": "The UN is capable of leading efforts to create global understanding of AI governance, despite concerns about the Trump administration's approach.",
+      "source_url": "https://www.youtube.com/watch?v=3A2b9JbUdw4",
+      "transcript_excerpt": "Do you see the UN as being capable of leading this effort to create some sort of global understanding of governance? >> You know, uh that's a tricky question uh knowing what I know about how the Trump administration feels. So, I think they are going to not welcome the UN stepping in and trying to create and enforce a governance mechanism. That being said, there is certainly a role for the UN and there were UN folks around the table uh at the discussion that I participated in this morning and they're already doing excellent work to try to develop best practices for guardrails.",
+      "verdict": null,
+      "created_at": "2026-10-01T13:35:45.842538"
+    },
+    {
+      "id": "pred_20261001133545_001",
+      "individual_name": "Ian Bremmer",
+      "date": "2026-09-25",
+      "category": "ukraine",
+      "claim": "The security situation in Lebanon will change by the end of the year such that the country may not be prepared to take on its own defense at the scale previously anticipated.",
+      "source_url": "https://www.youtube.com/watch?v=3A2b9JbUdw4",
+      "transcript_excerpt": "Do you think since that decision the security situation has changed in Lebanon such that the country may not be prepared to take on its own defense at that scale? >> Well, I am a champion of the Lebanese armed forces and my record speaks to that. And the idea was when the US helped negotiate this uh framework agreement between Lebanon and Israel that we would start with pilot zones where Israel withdraws and the Lebanese armed forces would move in. Uh and you know, they are doing their best, but they're not quite capable for the full implementation of that um grand plan.",
+      "verdict": null,
+      "created_at": "2026-10-01T13:35:45.842544"
+    },
+    {
+      "id": "pred_20261001133605_000",
+      "individual_name": "Ian Bremmer",
+      "date": "2026-09-25",
+      "category": "geopolitics",
+      "claim": "The United Nations Security Council and Bretton Woods system no longer correspond to the realities of today's world in which emerging economies have much bigger weight than they had in the global economy.",
+      "source_url": "https://www.youtube.com/watch?v=36wNibURU-w",
+      "transcript_excerpt": "Let's be clear. We have a huge geopolitical divide. And we have multilateral institutions uh that are still working based on the composition and the rules uh of the post-Second World War. That reflected the power relations of the post-World War. And so obviously when we look at the Security Council of the Uni- of the United Nations or when we look at the Bretton Woods system, it is clear that they don't correspond anymore to the realities of today's world in which a number of for instance emerging economies have today a much bigger weight than they had uh in the global economy.",
+      "verdict": null,
+      "created_at": "2026-10-01T13:36:05.740090"
+    },
+    {
+      "id": "pred_20261001133605_001",
+      "individual_name": "Ian Bremmer",
+      "date": "2026-09-25",
+      "category": "geopolitics",
+      "claim": "There is an irreversible trend to multipolarity, and the position of the United States is facilitating the emergence of that multipolarity and of a networked multipolarity.",
+      "source_url": "https://www.youtube.com/watch?v=36wNibURU-w",
+      "transcript_excerpt": "I think it is clear that um we have an irreversible trend to multipolarity. And obviously, I think the position of the United States is facilitating the emergence of that multipolarity and of a networked multipolarity. And what we are starting to witness is that uh a number of uh middle-size countries or regions uh are starting to uh intense the intensify uh trade agreements, technological agreements, other forms of international cooperation.",
+      "verdict": null,
+      "created_at": "2026-10-01T13:36:05.740098"
+    },
+    {
+      "id": "pred_20261001133613_000",
+      "individual_name": "Ian Bremmer",
+      "date": "2026-09-25",
+      "category": "other",
+      "claim": "I think we have to continually ask, you know, what are other ways of being human? So, Borgo Dialogues is meant to be a space where people can have high-level conversations about things that matter.",
+      "source_url": "https://www.youtube.com/watch?v=uZRkbOY2ZJ8",
+      "transcript_excerpt": "So, Borgo Dialogues is meant to be a space where people can have high-level conversations about things that matter. Uh things that have more moral clarity, that have intellectual rigor, and practical impact.",
+      "verdict": null,
+      "created_at": "2026-10-01T13:36:13.783795"
+    },
+    {
+      "id": "pred_20261001133626_000",
+      "individual_name": "Ian Bremmer",
+      "date": "2026-09-25",
+      "category": "ai",
+      "claim": "A global agreement around the governance of AI might have started this weekend",
+      "source_url": "https://www.youtube.com/watch?v=Q-exibptzm0",
+      "transcript_excerpt": "So, I think what's happening is a lot of pennies are dropping, a lot of governments are suddenly paying new attention to the challenge. Um, and I think if you see some kind of a global agreement around the governance of AI emerge in due course, it might have started this weekend.",
+      "verdict": null,
+      "created_at": "2026-10-01T13:36:26.380105"
+    },
+    {
+      "id": "pred_20261001133626_001",
+      "individual_name": "Ian Bremmer",
+      "date": "2026-09-25",
+      "category": "ai",
+      "claim": "There will be international coordination on AI governance with multiple countries calling for control of frontier AI",
+      "source_url": "https://www.youtube.com/watch?v=Q-exibptzm0",
+      "transcript_excerpt": "Um, there's also skyrocketing demand for greater international coordination. Like there were 31 statements in the UN General Assembly yesterday, 22 of them talked about AI. Uh, there was a group of 20 plus countries on Monday who came together at the head of state and government level saying, \"We call for control of frontier AI.\"",
+      "verdict": null,
+      "created_at": "2026-10-01T13:36:26.380116"
+    },
+    {
+      "id": "pred_20261001133644_000",
+      "individual_name": "Ian Bremmer",
+      "date": "2026-09-24",
+      "category": "geopolitics",
+      "claim": "The geopolitical race between the United States and China in AI development will determine which country wins in terms of global power and influence.",
+      "source_url": "https://www.youtube.com/watch?v=ZlFqJjs72EE",
+      "transcript_excerpt": "Well, I mean the threat is changing in the perceptions of human beings. Uh we we are in a race between the United States and China. When President Trump says, you know, I'm not going to regulate or slow down AI because we've got to beat China. Whoever wins in AI wins.",
+      "verdict": null,
+      "created_at": "2026-10-01T13:36:44.331070"
+    },
+    {
+      "id": "pred_20261001133644_001",
+      "individual_name": "Ian Bremmer",
+      "date": "2026-09-24",
+      "category": "ai",
+      "claim": "Governments and companies will need to work together to establish effective AI governance and regulation to keep the technology under human control.",
+      "source_url": "https://www.youtube.com/watch?v=ZlFqJjs72EE",
+      "transcript_excerpt": "I think we need to have a conversation about the role of government and regulation to ensure it stays under human control. Um but the first principle is we need to keep it under human control. I'll say it starts with the companies who create this technology. I think we all have a ethical responsibility, a moral responsibility in any field um to stop the release of a product if it's unsafe.",
+      "verdict": null,
+      "created_at": "2026-10-01T13:36:44.331076"
     }
   ]
 }
