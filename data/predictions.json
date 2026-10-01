@@ -12,7 +12,9 @@
         "china",
         "ukraine",
         "finance"
-      ]
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
     },
     {
       "name": "Doomberg",
@@ -25,7 +27,9 @@
         "energy",
         "finance",
         "geopolitics"
-      ]
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
     },
     {
       "name": "Peter Diamandis",
@@ -35,7 +39,9 @@
       ],
       "categories": [
         "ai"
-      ]
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
     },
     {
       "name": "UnHerd",
@@ -45,7 +51,9 @@
       ],
       "categories": [
         "geopolitics"
-      ]
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
     },
     {
       "name": "Jeff Snider (Eurodollar University)",
@@ -56,7 +64,9 @@
       "categories": [
         "finance",
         "geopolitics"
-      ]
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
     },
     {
       "name": "Viktoriya M Finance",
@@ -66,7 +76,9 @@
       ],
       "categories": [
         "finance"
-      ]
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
     },
     {
       "name": "David McAlvany (McAlvany Financial)",
@@ -76,7 +88,9 @@
       ],
       "categories": [
         "finance"
-      ]
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
     },
     {
       "name": "Ian Bremmer",
@@ -86,7 +100,9 @@
       ],
       "categories": [
         "geopolitics"
-      ]
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
     },
     {
       "name": "Stephen Miller (White House)",
@@ -96,7 +112,9 @@
       ],
       "categories": [
         "geopolitics"
-      ]
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
     },
     {
       "name": "H.R. McMaster",
@@ -106,7 +124,9 @@
       ],
       "categories": [
         "geopolitics"
-      ]
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
     },
     {
       "name": "Niall Ferguson",
@@ -116,7 +136,9 @@
       ],
       "categories": [
         "geopolitics"
-      ]
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
     },
     {
       "name": "John Cochrane",
@@ -126,7 +148,9 @@
       ],
       "categories": [
         "finance"
-      ]
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
     },
     {
       "name": "Stephen Kotkin",
@@ -136,7 +160,9 @@
       ],
       "categories": [
         "geopolitics"
-      ]
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
     },
     {
       "name": "Victor Davis Hanson",
@@ -146,7 +172,9 @@
       ],
       "categories": [
         "geopolitics"
-      ]
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
     },
     {
       "name": "Kevin Hassett (White House)",
@@ -156,7 +184,9 @@
       ],
       "categories": [
         "finance"
-      ]
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
     },
     {
       "name": "Alex Ziskind",
@@ -166,7 +196,9 @@
       ],
       "categories": [
         "ai"
-      ]
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
     },
     {
       "name": "Jamison Greer",
@@ -177,7 +209,9 @@
       "categories": [
         "finance",
         "geopolitics"
-      ]
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
     },
     {
       "name": "Jensen Huang",
@@ -187,7 +221,9 @@
       ],
       "categories": [
         "ai"
-      ]
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
     },
     {
       "name": "Mustafa Suleyman",
@@ -197,7 +233,9 @@
       ],
       "categories": [
         "ai"
-      ]
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
     },
     {
       "name": "Alex Karp",
@@ -207,7 +245,9 @@
       ],
       "categories": [
         "ai"
-      ]
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
     },
     {
       "name": "Andrew Ross Sorkin",
@@ -217,7 +257,9 @@
       ],
       "categories": [
         "finance"
-      ]
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
     },
     {
       "name": "Dan Ives",
@@ -228,7 +270,9 @@
       "categories": [
         "finance",
         "ai"
-      ]
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
     },
     {
       "name": "Scott Bessent",
@@ -239,7 +283,9 @@
       "categories": [
         "finance",
         "geopolitics"
-      ]
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
     },
     {
       "name": "David McAlvany",
@@ -249,7 +295,9 @@
       ],
       "categories": [
         "finance"
-      ]
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
     },
     {
       "name": "Kevin Orrick",
@@ -259,7 +307,63 @@
       ],
       "categories": [
         "finance"
-      ]
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "FactCheck.org",
+      "handle": "factcheck",
+      "sources": [
+        "https://www.factcheck.org"
+      ],
+      "categories": [
+        "finance",
+        "energy",
+        "ukraine",
+        "china",
+        "ai",
+        "geopolitics"
+      ],
+      "special": true,
+      "weight_subjective": 0.5,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "AP Fact Check",
+      "handle": "apfactcheck",
+      "sources": [
+        "https://apnews.com/hub/ap-fact-check"
+      ],
+      "categories": [
+        "finance",
+        "energy",
+        "ukraine",
+        "china",
+        "ai",
+        "geopolitics"
+      ],
+      "special": true,
+      "weight_subjective": 0.5,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Google Fact Check Explorer",
+      "handle": "googlefactcheck",
+      "sources": [
+        "https://factchecktools.google.com"
+      ],
+      "categories": [
+        "finance",
+        "energy",
+        "ukraine",
+        "china",
+        "ai",
+        "geopolitics"
+      ],
+      "special": true,
+      "weight_subjective": 0.5,
+      "weight_objective": 1.0
     }
   ],
   "predictions": [
@@ -520,9 +624,9 @@
       "individual_name": "Doomberg",
       "date": "2024-04-30",
       "category": "energy",
-      "claim": "Natural gas and oil will set new records in 2024 \u2014 the green transition is over.",
+      "claim": "Natural gas and oil will set new records in 2024 — the green transition is over.",
       "source_url": "https://newsletter.doomberg.com/p/hot-pockets",
-      "transcript_excerpt": "Coal, natural gas, and oil will all set records \u2014 the green transition is over",
+      "transcript_excerpt": "Coal, natural gas, and oil will all set records — the green transition is over",
       "verdict": null,
       "created_at": "2025-09-30T19:20:00",
       "measurement_type": "quantitative"
@@ -544,7 +648,7 @@
       "individual_name": "Peter Diamandis",
       "date": "2026-05-31",
       "category": "ai",
-      "claim": "By 2029 we'll have AI as capable as 8 billion humans \u2014 it's getting 10x better per year.",
+      "claim": "By 2029 we'll have AI as capable as 8 billion humans — it's getting 10x better per year.",
       "source_url": "https://www.youtube.com/watch?v=RF0KucU_low",
       "transcript_excerpt": "AI increasing at 100x per year, by 2029 AI as capable as 8 billion humans",
       "verdict": null,
@@ -580,7 +684,7 @@
       "individual_name": "Peter Diamandis",
       "date": "2024-11-08",
       "category": "ai",
-      "claim": "By 2040 there will be more humanoid robots than people on Earth \u2014 10 billion+.",
+      "claim": "By 2040 there will be more humanoid robots than people on Earth — 10 billion+.",
       "source_url": "https://www.youtube.com/watch?v=mofEOSUkMpA",
       "transcript_excerpt": "by 2040 probably there are more humanoid robots than there are people, 10 billion",
       "verdict": null,
@@ -726,7 +830,7 @@
       "category": "energy",
       "claim": "National Gas has moved into the advanced engineering design phase for a 350-mile hydrogen pipeline linking St Fergus in northeast Scotland to Teesside on England's east coast, the gas transmission system operator said in a statement Sept. 17.",
       "source_url": "https://newsletter.doomberg.com/p/going-with-the-flow",
-      "transcript_excerpt": "\u201cNational Gas has moved into the advanced engineering design phase for a 350-mile hydrogen pipeline linking St Fergus in northeast Scotland to Teesside on England\u2019s east coast, the gas transmission system operator said in a statement Sept. 17.\u201d",
+      "transcript_excerpt": "“National Gas has moved into the advanced engineering design phase for a 350-mile hydrogen pipeline linking St Fergus in northeast Scotland to Teesside on England’s east coast, the gas transmission system operator said in a statement Sept. 17.”",
       "verdict": null,
       "created_at": "2026-10-01T14:20:22.574827",
       "measurement_type": "subjective"
@@ -786,7 +890,7 @@
       "category": "geopolitics",
       "claim": "Alberta Premier Danielle Smith will face significant political challenges in balancing natural gas exports with local consumer needs as she navigates a separatist referendum, trade war with the US, and growing demand from data-center builders.",
       "source_url": "https://newsletter.doomberg.com/p/value-trap",
-      "transcript_excerpt": "With a separatist referendum just weeks away, a growing trade war between her home country and the US to navigate, and a potential tsunami of demand for Alberta\u2019s cheap fuel accumulating from aspiring data-center builders, now would seem an inopportune time for Smith to be confronted with an explosive leak detailing the inner contemplations of her cabinet as she tries to thread the natural gas needle.",
+      "transcript_excerpt": "With a separatist referendum just weeks away, a growing trade war between her home country and the US to navigate, and a potential tsunami of demand for Alberta’s cheap fuel accumulating from aspiring data-center builders, now would seem an inopportune time for Smith to be confronted with an explosive leak detailing the inner contemplations of her cabinet as she tries to thread the natural gas needle.",
       "verdict": null,
       "created_at": "2026-10-01T14:21:06.085584",
       "measurement_type": "subjective"
@@ -798,7 +902,7 @@
       "category": "energy",
       "claim": "Alberta's natural gas production will continue to increase despite political and economic pressures, with 11 bcf/d of production and only 4 bcf/d exported to eastern markets by 2026.",
       "source_url": "https://newsletter.doomberg.com/p/value-trap",
-      "transcript_excerpt": "In [round numbers](https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2026/market-snapshot-canadas-natural-gas-production-kept-climbing-in-2025.html), of the province\u2019s 11 bcf/d of production, 7 bcf/d is consumed within its borders, and only 4 bcf/d is exported to points east over the Prairies, west over the Rockies, and south to Orangemanbadland.",
+      "transcript_excerpt": "In [round numbers](https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2026/market-snapshot-canadas-natural-gas-production-kept-climbing-in-2025.html), of the province’s 11 bcf/d of production, 7 bcf/d is consumed within its borders, and only 4 bcf/d is exported to points east over the Prairies, west over the Rockies, and south to Orangemanbadland.",
       "verdict": null,
       "created_at": "2026-10-01T14:21:06.085610",
       "measurement_type": "quantitative"
@@ -858,7 +962,7 @@
       "category": "energy",
       "claim": "The United States will secure majority control of more than 65 billion barrels of proven Oil Reserves in Venezuela at no cost to the American Taxpayer.",
       "source_url": "https://newsletter.doomberg.com/p/with-american-characteristics",
-      "transcript_excerpt": "\u201cBREAKING NEWS: The United States of America has just entered into an Agreement with the Country of Venezuela on, THE BIGGEST OIL DEAL IN WORLD HISTORY! At my direction, Secretary of State Marco Rubio, and Secretary of War Pete Hegseth, working closely with Highly Respected Interim President of Venezuela, Delcy Rodriguez, and, through a partnership with private business, have secured majority U.S. control of more than 65 BILLION BARRELS of proven Oil Reserves in Venezuela, at no cost to the American Taxpayer.\u201d",
+      "transcript_excerpt": "“BREAKING NEWS: The United States of America has just entered into an Agreement with the Country of Venezuela on, THE BIGGEST OIL DEAL IN WORLD HISTORY! At my direction, Secretary of State Marco Rubio, and Secretary of War Pete Hegseth, working closely with Highly Respected Interim President of Venezuela, Delcy Rodriguez, and, through a partnership with private business, have secured majority U.S. control of more than 65 BILLION BARRELS of proven Oil Reserves in Venezuela, at no cost to the American Taxpayer.”",
       "verdict": null,
       "created_at": "2026-10-01T14:21:56.928569",
       "measurement_type": "quantitative"
@@ -906,7 +1010,7 @@
       "category": "ukraine",
       "claim": "The Russian military has effectively closed the Ukrainian port complex in and around Odessa to all shipping since July 22, and this loss of deep-water ports will have a devastating effect on Ukraine's agricultural exports, which officials warn may plummet by 50% in the coming months.",
       "source_url": "https://newsletter.doomberg.com/p/a-minor-detail",
-      "transcript_excerpt": "The near-term effects have been disturbingly clear. Since July 22, the Russian military has effectively closed the Ukrainian port complex in and around Odessa to all shipping. The loss of its remaining deep-water ports is already having a devastating effect on Ukraine's agricultural exports \u2014 the backbone of its economy \u2014 which officials warn may plummet by 50% in the coming months because alternative land, rail, and river routes have much less capacity and are much more costly.",
+      "transcript_excerpt": "The near-term effects have been disturbingly clear. Since July 22, the Russian military has effectively closed the Ukrainian port complex in and around Odessa to all shipping. The loss of its remaining deep-water ports is already having a devastating effect on Ukraine's agricultural exports — the backbone of its economy — which officials warn may plummet by 50% in the coming months because alternative land, rail, and river routes have much less capacity and are much more costly.",
       "verdict": null,
       "created_at": "2026-10-01T14:22:41.302933",
       "measurement_type": "quantitative"
@@ -1756,9 +1860,9 @@
       "individual_name": "Doomberg",
       "date": "2025-12-14",
       "category": "geopolitics",
-      "claim": "In a hypothetical scenario where Venezuela and Guyana merged under a business-friendly government\u2014either formally, through a redrawing of borders, or less so via a strategic agreement that resolves the Essequibo dispute\u2014the possibilities for hydrocarbon development are enormous. Guyana is already producing more than 650,000 barrels of oil per day and is well on its way to over a million. The combined resource base, unconstrained, is arguably capable of supporting 5-10 million barrels per day of oil production. Constipating such an outcome is Maduro himself, of course, which is a key reason we suspect his days may be numbered.",
+      "claim": "In a hypothetical scenario where Venezuela and Guyana merged under a business-friendly government—either formally, through a redrawing of borders, or less so via a strategic agreement that resolves the Essequibo dispute—the possibilities for hydrocarbon development are enormous. Guyana is already producing more than 650,000 barrels of oil per day and is well on its way to over a million. The combined resource base, unconstrained, is arguably capable of supporting 5-10 million barrels per day of oil production. Constipating such an outcome is Maduro himself, of course, which is a key reason we suspect his days may be numbered.",
       "source_url": "https://newsletter.doomberg.com/p/hits-and-misses",
-      "transcript_excerpt": "In a hypothetical scenario where Venezuela and Guyana merged under a business-friendly government\u2014either formally, through a redrawing of borders, or less so via a strategic agreement that resolves the Essequibo dispute\u2014the possibilities for hydrocarbon development are enormous. Guyana is already producing more than 650,000 barrels of oil per day and is well on its way to over a million. The combined resource base, unconstrained, is arguably capable of supporting 5-10 million barrels per day of oil production. Constipating such an outcome is Maduro himself, of course, which is a key reason we suspect his days may be numbered.",
+      "transcript_excerpt": "In a hypothetical scenario where Venezuela and Guyana merged under a business-friendly government—either formally, through a redrawing of borders, or less so via a strategic agreement that resolves the Essequibo dispute—the possibilities for hydrocarbon development are enormous. Guyana is already producing more than 650,000 barrels of oil per day and is well on its way to over a million. The combined resource base, unconstrained, is arguably capable of supporting 5-10 million barrels per day of oil production. Constipating such an outcome is Maduro himself, of course, which is a key reason we suspect his days may be numbered.",
       "verdict": null,
       "created_at": "2026-10-01T16:17:13.526710",
       "measurement_type": "subjective"
@@ -1768,9 +1872,9 @@
       "individual_name": "Doomberg",
       "date": "2025-12-14",
       "category": "geopolitics",
-      "claim": "The Trump administration may feel compelled to mount a rearguard action in Argentina on behalf of loyal ally President Javier Milei, whose political party was roundly defeated in local elections over the weekend. Although the results do not directly impact his standing at the federal level, the electoral setback is spooking markets just as oil and gas production in the country\u2019s massive Vaca Muerta shale resource is taking off.",
+      "claim": "The Trump administration may feel compelled to mount a rearguard action in Argentina on behalf of loyal ally President Javier Milei, whose political party was roundly defeated in local elections over the weekend. Although the results do not directly impact his standing at the federal level, the electoral setback is spooking markets just as oil and gas production in the country’s massive Vaca Muerta shale resource is taking off.",
       "source_url": "https://newsletter.doomberg.com/p/hits-and-misses",
-      "transcript_excerpt": "The Trump administration may feel compelled to mount a rearguard action in Argentina on behalf of loyal ally President Javier Milei, whose political party was roundly defeated in local elections over the weekend. Although the results do not directly impact his standing at the federal level, the electoral setback is spooking markets just as oil and gas production in the country\u2019s massive Vaca Muerta shale resource is taking off.",
+      "transcript_excerpt": "The Trump administration may feel compelled to mount a rearguard action in Argentina on behalf of loyal ally President Javier Milei, whose political party was roundly defeated in local elections over the weekend. Although the results do not directly impact his standing at the federal level, the electoral setback is spooking markets just as oil and gas production in the country’s massive Vaca Muerta shale resource is taking off.",
       "verdict": null,
       "created_at": "2026-10-01T16:17:13.526751",
       "measurement_type": "subjective"
@@ -1782,7 +1886,7 @@
       "category": "finance",
       "claim": "Chancellor Rachel Reeves will scrap the Energy Profits Levy (EPL) on UK oil and gas industry in March 2029.",
       "source_url": "https://newsletter.doomberg.com/p/late-britain",
-      "transcript_excerpt": "Chancellor Rachel Reeves could scrap a windfall profits levy on the UK oil and gas industry sooner than expected, after Prime Minister Keir Starmer said he wanted to \u2018double down\u2019 on North Sea extraction. Reeves is considering using her Budget to end the energy profits levy in March 2029\u2014reversing a decision in last October\u2019s Budget to extend it by a year to March 2030\u2014according to people briefed on her thinking.",
+      "transcript_excerpt": "Chancellor Rachel Reeves could scrap a windfall profits levy on the UK oil and gas industry sooner than expected, after Prime Minister Keir Starmer said he wanted to ‘double down’ on North Sea extraction. Reeves is considering using her Budget to end the energy profits levy in March 2029—reversing a decision in last October’s Budget to extend it by a year to March 2030—according to people briefed on her thinking.",
       "verdict": null,
       "created_at": "2026-10-01T16:17:33.004924",
       "measurement_type": "quantitative"
@@ -1794,7 +1898,7 @@
       "category": "geopolitics",
       "claim": "Ed Miliband will become the next leader of the Labour Party if Prime Minister Keir Starmer is ousted in a leadership shakeup.",
       "source_url": "https://newsletter.doomberg.com/p/late-britain",
-      "transcript_excerpt": "Such a development would likely bring little relief to British industry, as the person most likely to win the internal Labour Party race to replace him is none other than Miliband himself: \u2018If that happens, how would Miliband be positioned in the subsequent leadership contest? The answer would seem to be \u2018extraordinarily well\u2019... Miliband is by a clear margin the most popular minister with Labour members... Historically, this might not have mattered so much because the membership commanded only one third of the vote... But that system was scrapped in 2015 \u2013 by none other than the then leader, one Ed Miliband \u2013 in favour of \u2018one member, one vote.\u2019\u201d",
+      "transcript_excerpt": "Such a development would likely bring little relief to British industry, as the person most likely to win the internal Labour Party race to replace him is none other than Miliband himself: ‘If that happens, how would Miliband be positioned in the subsequent leadership contest? The answer would seem to be ‘extraordinarily well’... Miliband is by a clear margin the most popular minister with Labour members... Historically, this might not have mattered so much because the membership commanded only one third of the vote... But that system was scrapped in 2015 – by none other than the then leader, one Ed Miliband – in favour of ‘one member, one vote.’”",
       "verdict": null,
       "created_at": "2026-10-01T16:17:33.004945",
       "measurement_type": "subjective"
@@ -1816,9 +1920,9 @@
       "individual_name": "Doomberg",
       "date": "2025-06-14",
       "category": "finance",
-      "claim": "If Trump\u2019s Big Beautiful Bill becomes law, California will face significant financial strain due to reduced federal support for green energy projects.",
+      "claim": "If Trump’s Big Beautiful Bill becomes law, California will face significant financial strain due to reduced federal support for green energy projects.",
       "source_url": "https://newsletter.doomberg.com/p/sunblock",
-      "transcript_excerpt": "Perhaps out of a mix of ideology and future electoral competitiveness, Trump\u2019s budget agenda will put California in the proverbial hurt locker if his Big Beautiful Bill becomes law.",
+      "transcript_excerpt": "Perhaps out of a mix of ideology and future electoral competitiveness, Trump’s budget agenda will put California in the proverbial hurt locker if his Big Beautiful Bill becomes law.",
       "verdict": null,
       "created_at": "2026-10-01T16:18:10.856655",
       "measurement_type": "subjective"
@@ -1830,7 +1934,7 @@
       "category": "energy",
       "claim": "The United States will quadruple its nuclear power fleet capacity from nearly 100 gigawatts to 400 gigawatts by 2050.",
       "source_url": "https://newsletter.doomberg.com/p/actuarial-examinations",
-      "transcript_excerpt": "They would also set a goal of quadrupling the size of the nation\u2019s fleet of nuclear power plants, from nearly 100 gigawatts of electric capacity today to 400 gigawatts by 2050.",
+      "transcript_excerpt": "They would also set a goal of quadrupling the size of the nation’s fleet of nuclear power plants, from nearly 100 gigawatts of electric capacity today to 400 gigawatts by 2050.",
       "verdict": null,
       "created_at": "2026-10-01T16:18:23.755873",
       "measurement_type": "quantitative"
@@ -1890,7 +1994,7 @@
       "category": "geopolitics",
       "claim": "The UK government will take emergency control of British Steel's last remaining blast furnace operations in Scunthorpe.",
       "source_url": "https://newsletter.doomberg.com/p/let-ed-run-it",
-      "transcript_excerpt": "The UK government took effective control Saturday of Britain\u2019s last remaining factory that makes steel from scratch from its Chinese owners, after lawmakers approved an emergency rescue.",
+      "transcript_excerpt": "The UK government took effective control Saturday of Britain’s last remaining factory that makes steel from scratch from its Chinese owners, after lawmakers approved an emergency rescue.",
       "verdict": null,
       "created_at": "2026-10-01T16:18:53.947438",
       "measurement_type": "subjective"
@@ -1902,7 +2006,7 @@
       "category": "energy",
       "claim": "Europe could need as many as 250 additional liquefied natural gas cargoes to arrive in the summer to refill its inventories back up to 90% by November 1, as the current EU regulation stipulates.",
       "source_url": "https://newsletter.doomberg.com/p/dead-of-winter-575",
-      "transcript_excerpt": "As the first proper winter in Europe in three years is drawing to an end, the continent faces a race against time\u2014and prices\u2014to restock with natural gas for next winter\u2026 Europe could need as many as 250 additional [liquefied natural gas] LNG cargoes to arrive in the summer to refill its inventories back up to 90% by November 1, as the current EU regulation stipulates, per Reuters calculations reported by columnist Ron Bousso\u2026",
+      "transcript_excerpt": "As the first proper winter in Europe in three years is drawing to an end, the continent faces a race against time—and prices—to restock with natural gas for next winter… Europe could need as many as 250 additional [liquefied natural gas] LNG cargoes to arrive in the summer to refill its inventories back up to 90% by November 1, as the current EU regulation stipulates, per Reuters calculations reported by columnist Ron Bousso…",
       "verdict": null,
       "created_at": "2026-10-01T16:19:17.821939",
       "measurement_type": "quantitative"
@@ -1912,9 +2016,9 @@
       "individual_name": "Doomberg",
       "date": "2025-03-15",
       "category": "energy",
-      "claim": "North America\u2019s liquefied natural gas (LNG) export capacity is on track to more than double between 2024 and 2028, from 11.4 billion cubic feet per day (Bcf/d) in 2023 to 24.4 Bcf/d in 2028.",
+      "claim": "North America’s liquefied natural gas (LNG) export capacity is on track to more than double between 2024 and 2028, from 11.4 billion cubic feet per day (Bcf/d) in 2023 to 24.4 Bcf/d in 2028.",
       "source_url": "https://newsletter.doomberg.com/p/dead-of-winter-575",
-      "transcript_excerpt": "The US Energy Information Administration recently covered the activity: \u201c North America\u2019s liquefied natural gas (LNG) export capacity is on track to more than double between 2024 and 2028, from 11.4 billion cubic feet per day (Bcf/d) in 2023 to 24.4 Bcf/d in 2028, if projects currently under construction begin operations as planned.\u201d",
+      "transcript_excerpt": "The US Energy Information Administration recently covered the activity: “ North America’s liquefied natural gas (LNG) export capacity is on track to more than double between 2024 and 2028, from 11.4 billion cubic feet per day (Bcf/d) in 2023 to 24.4 Bcf/d in 2028, if projects currently under construction begin operations as planned.”",
       "verdict": null,
       "created_at": "2026-10-01T16:19:17.821961",
       "measurement_type": "quantitative"
@@ -1926,7 +2030,7 @@
       "category": "energy",
       "claim": "The oil-to-gas ratio in North America will return to historically normal levels and potentially reach energy parity or even exceed it, making natural gas more valuable than oil.",
       "source_url": "https://newsletter.doomberg.com/p/this-year-in-gas",
-      "transcript_excerpt": "Fast-forward to 2024 and the North American energy markets are currently experiencing perhaps the single greatest example of hydrocarbon arbitrage the world has ever seen, both in the size of the price differential and the huge volumes involved. We speak, of course, of the vast disparity between the price of domestic natural gas and that of oil. On an equivalent energy content basis, the price of a barrel of oil should be roughly six times that of a million BTUs of natural gas. Accounting for the complexity of handling natural gas, oil has historically oscillated between 10-20 times natural gas. As of the time of this writing, it stands at 45. ... Taken together, these market moves have brought the oil-to-gas ratio back to historically normal levels. Whether that ratio might eventually reach energy parity\u2014or even plow through it, making natural gas more valuable than oil\u2014was the motivation for \u201c Bridge Burning ,\u201d an article published in early October.",
+      "transcript_excerpt": "Fast-forward to 2024 and the North American energy markets are currently experiencing perhaps the single greatest example of hydrocarbon arbitrage the world has ever seen, both in the size of the price differential and the huge volumes involved. We speak, of course, of the vast disparity between the price of domestic natural gas and that of oil. On an equivalent energy content basis, the price of a barrel of oil should be roughly six times that of a million BTUs of natural gas. Accounting for the complexity of handling natural gas, oil has historically oscillated between 10-20 times natural gas. As of the time of this writing, it stands at 45. ... Taken together, these market moves have brought the oil-to-gas ratio back to historically normal levels. Whether that ratio might eventually reach energy parity—or even plow through it, making natural gas more valuable than oil—was the motivation for “ Bridge Burning ,” an article published in early October.",
       "verdict": null,
       "created_at": "2026-10-01T16:19:42.860216",
       "measurement_type": "quantitative"
@@ -1938,7 +2042,7 @@
       "category": "geopolitics",
       "claim": "Alberta, Canada will attract $100 billion in investments to become a hub for artificial intelligence data centers, leveraging its abundance of natural gas, low taxes, and cold climate.",
       "source_url": "https://newsletter.doomberg.com/p/this-year-in-gas",
-      "transcript_excerpt": "The province of Alberta, home to the world\u2019s third-largest crude reserves, is making a push to become a hub for artificial intelligence data centres and sees the potential to attract $100 billion in investments. The government is planning to introduce legislation, make regulatory changes and roll out new services to encourage technology companies to build data centres in the province. The strategy seeks to take advantage of Alberta\u2019s abundance of natural gas for power generation, low taxes and cold climate, which could reduce firms\u2019 cooling costs.",
+      "transcript_excerpt": "The province of Alberta, home to the world’s third-largest crude reserves, is making a push to become a hub for artificial intelligence data centres and sees the potential to attract $100 billion in investments. The government is planning to introduce legislation, make regulatory changes and roll out new services to encourage technology companies to build data centres in the province. The strategy seeks to take advantage of Alberta’s abundance of natural gas for power generation, low taxes and cold climate, which could reduce firms’ cooling costs.",
       "verdict": null,
       "created_at": "2026-10-01T16:19:42.860237",
       "measurement_type": "quantitative"
@@ -1948,9 +2052,9 @@
       "individual_name": "Doomberg",
       "date": "2024-11-17",
       "category": "energy",
-      "claim": "Global demand for oil, natural gas, and coal are all at record levels and rising \u2013 no energy transition has begun.",
+      "claim": "Global demand for oil, natural gas, and coal are all at record levels and rising – no energy transition has begun.",
       "source_url": "https://newsletter.doomberg.com/p/in-praise-of-chris-wright",
-      "transcript_excerpt": "6. Global demand for oil, natural gas, and coal are all at record levels and rising \u2013 no energy transition has begun.",
+      "transcript_excerpt": "6. Global demand for oil, natural gas, and coal are all at record levels and rising – no energy transition has begun.",
       "verdict": null,
       "created_at": "2026-10-01T16:19:52.067885",
       "measurement_type": "subjective"
@@ -1974,7 +2078,7 @@
       "category": "energy",
       "claim": "China's solar industry will almost certainly set its high-water mark for new installations in 2025, with future growth expected to decline significantly.",
       "source_url": "https://newsletter.doomberg.com/p/land-of-the-waning-sun",
-      "transcript_excerpt": "Yes, new solar installations in China set records in 2025, but\u2014as we have been predicting in these pages for some time\u2014that year will almost certainly set the metric\u2019s high-water mark for many years to come, for reasons the data buried in the Review make abundantly clear.",
+      "transcript_excerpt": "Yes, new solar installations in China set records in 2025, but—as we have been predicting in these pages for some time—that year will almost certainly set the metric’s high-water mark for many years to come, for reasons the data buried in the Review make abundantly clear.",
       "verdict": null,
       "created_at": "2026-10-01T16:20:46.373311",
       "measurement_type": "subjective"
@@ -1986,7 +2090,7 @@
       "category": "energy",
       "claim": "Hydrocarbons will continue to provide the vast majority of global primary energy, with their share declining only slightly from 86.24% in 2025.",
       "source_url": "https://newsletter.doomberg.com/p/land-of-the-waning-sun",
-      "transcript_excerpt": "Hydrocarbons provided 86.24% of all global primary energy in 2025, down markedly from 86.65% the year prior. Won\u2019t be long now!",
+      "transcript_excerpt": "Hydrocarbons provided 86.24% of all global primary energy in 2025, down markedly from 86.65% the year prior. Won’t be long now!",
       "verdict": null,
       "created_at": "2026-10-01T16:20:46.373348",
       "measurement_type": "quantitative"
@@ -2070,7 +2174,7 @@
       "category": "energy",
       "claim": "China's curbs on diesel and gasoline exports will lead to significant regional disparities in the price of refined products across Asia.",
       "source_url": "https://newsletter.doomberg.com/p/90-of-the-law-00d",
-      "transcript_excerpt": "China going full turtle so early is a stark reminder of our friend Sir JJ\u2019s wise quip that oil is worthless until it gets to a refinery. Should the Strait of Hormuz remain closed for much longer, we expect that national protectionism will ultimately open up wide regional disparities in the price of gasoline, diesel, jet fuel, and other refined products.",
+      "transcript_excerpt": "China going full turtle so early is a stark reminder of our friend Sir JJ’s wise quip that oil is worthless until it gets to a refinery. Should the Strait of Hormuz remain closed for much longer, we expect that national protectionism will ultimately open up wide regional disparities in the price of gasoline, diesel, jet fuel, and other refined products.",
       "verdict": null,
       "created_at": "2026-10-01T16:21:51.156407",
       "measurement_type": "subjective"
@@ -2106,7 +2210,7 @@
       "category": "energy",
       "claim": "Qatar's Ras Laffan natural gas export facility will be shut down for at least two weeks and will take another two weeks to return to normal production after restart decision.",
       "source_url": "https://newsletter.doomberg.com/p/no-laffan-matter",
-      "transcript_excerpt": "QE won\u2019t restart the facility for at least two weeks, according to initial estimates of the situation in the region, the sources said. Once the restart decision is taken, it will take another two weeks to turn gas into a super-chilled fuel and reach full capacity",
+      "transcript_excerpt": "QE won’t restart the facility for at least two weeks, according to initial estimates of the situation in the region, the sources said. Once the restart decision is taken, it will take another two weeks to turn gas into a super-chilled fuel and reach full capacity",
       "verdict": null,
       "created_at": "2026-10-01T16:22:01.326989",
       "measurement_type": "quantitative"
@@ -2118,7 +2222,7 @@
       "category": "energy",
       "claim": "The spread between Brent crude and West Texas Intermediate (WTI) will significantly expand.",
       "source_url": "https://newsletter.doomberg.com/p/duration-risk",
-      "transcript_excerpt": "Among the more predictable aspects of the war with Iran has been the thicket of propaganda saturating social media... Yesterday, one content creator of note jumped at the chance to reset a particularly important narrative of his own. Never one short of audacity, California Governor Gavin Newsom laid bare his knack for raw opportunism when he sought to pin the long-festering gasoline crisis that is hammering his state on Trump\u2019s fateful decision to go to war... On Sunday, we published a preliminary set of predictions about how things were likely to unfold in the days and weeks ahead. Included among them were our views that the spread between Brent crude and West Texas Intermediate (WTI) would significantly expand...",
+      "transcript_excerpt": "Among the more predictable aspects of the war with Iran has been the thicket of propaganda saturating social media... Yesterday, one content creator of note jumped at the chance to reset a particularly important narrative of his own. Never one short of audacity, California Governor Gavin Newsom laid bare his knack for raw opportunism when he sought to pin the long-festering gasoline crisis that is hammering his state on Trump’s fateful decision to go to war... On Sunday, we published a preliminary set of predictions about how things were likely to unfold in the days and weeks ahead. Included among them were our views that the spread between Brent crude and West Texas Intermediate (WTI) would significantly expand...",
       "verdict": null,
       "created_at": "2026-10-01T16:22:18.267682",
       "measurement_type": "quantitative"
@@ -2142,7 +2246,7 @@
       "category": "energy",
       "claim": "Argentina LNG project will deliver 12 million tons per annum (mtpa) of LNG capacity via two floating LNG facilities with a capacity of 6 mtpa each, beginning production in late 2027.",
       "source_url": "https://newsletter.doomberg.com/p/infinity-machines",
-      "transcript_excerpt": "Golar LNG\u2019s decision to redeploy its Hilli Episeyo FLNG vessel from Cameroon to Argentina, where it is anticipated to begin production in late 2027. ... Argentina LNG is expected to deliver 12 million tons per annum (mtpa) [1.6 bcf/d] of LNG capacity, via two floating LNG facilities with a capacity of 6 mtpa [0.8 bcf/d] each.",
+      "transcript_excerpt": "Golar LNG’s decision to redeploy its Hilli Episeyo FLNG vessel from Cameroon to Argentina, where it is anticipated to begin production in late 2027. ... Argentina LNG is expected to deliver 12 million tons per annum (mtpa) [1.6 bcf/d] of LNG capacity, via two floating LNG facilities with a capacity of 6 mtpa [0.8 bcf/d] each.",
       "verdict": null,
       "created_at": "2026-10-01T16:22:36.386062",
       "measurement_type": "quantitative"
@@ -2154,7 +2258,7 @@
       "category": "energy",
       "claim": "The mainstreaming of FLNG technology will significantly expand resource viability worldwide and push the concept of peak cheap oil further into the future.",
       "source_url": "https://newsletter.doomberg.com/p/infinity-machines",
-      "transcript_excerpt": "The mainstreaming of FLNG technology represents a major development in hydrocarbon extraction technology\u2014one that vastly expands resource viability worldwide and even pushes the phony concept of peak cheap oil further into the distant future than it already was, not that it was ever really on the horizon.",
+      "transcript_excerpt": "The mainstreaming of FLNG technology represents a major development in hydrocarbon extraction technology—one that vastly expands resource viability worldwide and even pushes the phony concept of peak cheap oil further into the distant future than it already was, not that it was ever really on the horizon.",
       "verdict": null,
       "created_at": "2026-10-01T16:22:36.386077",
       "measurement_type": "subjective"
@@ -2178,7 +2282,7 @@
       "category": "energy",
       "claim": "China's efforts to unlock its shale resources may be nearing a tipping point, potentially reshaping global energy markets.",
       "source_url": "https://newsletter.doomberg.com/p/china-speed",
-      "transcript_excerpt": "Over the past year, a series of interesting headlines has inspired us to wonder whether the country\u2019s efforts to unlock its shale resources might be nearing a tipping point. If we are right, the energy markets are about to be rocked.",
+      "transcript_excerpt": "Over the past year, a series of interesting headlines has inspired us to wonder whether the country’s efforts to unlock its shale resources might be nearing a tipping point. If we are right, the energy markets are about to be rocked.",
       "verdict": null,
       "created_at": "2026-10-01T16:23:33.680552",
       "measurement_type": "subjective"
@@ -2190,7 +2294,7 @@
       "category": "energy",
       "claim": "The cost of war risk insurance for ships sailing through the Black Sea will rise to at least 0.75% of a ship's value.",
       "source_url": "https://newsletter.doomberg.com/p/yesterdays-war",
-      "transcript_excerpt": "War risk insurance prices have risen from about 0.25 to 0.3 per cent of a ship\u2019s value in early November to between 0.5 and 0.75 per cent this week...",
+      "transcript_excerpt": "War risk insurance prices have risen from about 0.25 to 0.3 per cent of a ship’s value in early November to between 0.5 and 0.75 per cent this week...",
       "verdict": null,
       "created_at": "2026-10-01T16:23:43.481265",
       "measurement_type": "quantitative"
@@ -2202,7 +2306,7 @@
       "category": "finance",
       "claim": "If the campaign of attacks on Russian shipping continues to escalate, commodity prices will soar across the global economy.",
       "source_url": "https://newsletter.doomberg.com/p/yesterdays-war",
-      "transcript_excerpt": "Additionally, if the campaign continues to escalate, commodity prices will undoubtedly soar across a global economy that simply cannot do without Russia\u2019s vast supply.",
+      "transcript_excerpt": "Additionally, if the campaign continues to escalate, commodity prices will undoubtedly soar across a global economy that simply cannot do without Russia’s vast supply.",
       "verdict": null,
       "created_at": "2026-10-01T16:23:43.481289",
       "measurement_type": "subjective"
@@ -2212,9 +2316,9 @@
       "individual_name": "Doomberg",
       "date": "2025-12-03",
       "category": "energy",
-      "claim": "Alberta and Ottawa have signed a sweeping new energy accord that includes a pledge from Prime Minister Mark Carney\u2019s government to shelve its oil and gas emissions cap, suspend clean power rules, and back a major indigenous-owned pipeline to get oil to Asian markets.",
+      "claim": "Alberta and Ottawa have signed a sweeping new energy accord that includes a pledge from Prime Minister Mark Carney’s government to shelve its oil and gas emissions cap, suspend clean power rules, and back a major indigenous-owned pipeline to get oil to Asian markets.",
       "source_url": "https://newsletter.doomberg.com/p/alberta-unstuck",
-      "transcript_excerpt": "Alberta and Ottawa have signed a sweeping new energy accord that Premier Danielle Smith says marks a \u2018new starting point for nation building,\u2019 including a pledge from Prime Minister Mark Carney\u2019s government to shelve its oil and gas emissions cap, suspend clean power rules, and back a major indigenous-owned pipeline to get oil to Asian markets.",
+      "transcript_excerpt": "Alberta and Ottawa have signed a sweeping new energy accord that Premier Danielle Smith says marks a ‘new starting point for nation building,’ including a pledge from Prime Minister Mark Carney’s government to shelve its oil and gas emissions cap, suspend clean power rules, and back a major indigenous-owned pipeline to get oil to Asian markets.",
       "verdict": null,
       "created_at": "2026-10-01T16:23:57.836942",
       "measurement_type": "subjective"
@@ -2226,7 +2330,7 @@
       "category": "energy",
       "claim": "The privately financed, indigenous co-owned bitumen pipeline will be capable of moving more than one million barrels per day to a deep-water port on the Pacific coast.",
       "source_url": "https://newsletter.doomberg.com/p/alberta-unstuck",
-      "transcript_excerpt": "The line would come on top of the Trans Mountain expansion\u2019s additional 300,000 to 400,000 barrels per day.",
+      "transcript_excerpt": "The line would come on top of the Trans Mountain expansion’s additional 300,000 to 400,000 barrels per day.",
       "verdict": null,
       "created_at": "2026-10-01T16:23:57.836962",
       "measurement_type": "quantitative"
@@ -2286,7 +2390,7 @@
       "category": "energy",
       "claim": "China's coal-to-liquids (CTL) industry capacity will double within the next five years, offsetting roughly 1.2 million barrels of oil per day.",
       "source_url": "https://newsletter.doomberg.com/p/closed-loop",
-      "transcript_excerpt": "China\u2019s CTL industry consumed 276 million tons of coal last year, a staggering total that is expected to double within the next five years. If those plans are carried out, China\u2019s CTL capacity would offset roughly 1.2 million barrels of oil per day.",
+      "transcript_excerpt": "China’s CTL industry consumed 276 million tons of coal last year, a staggering total that is expected to double within the next five years. If those plans are carried out, China’s CTL capacity would offset roughly 1.2 million barrels of oil per day.",
       "verdict": null,
       "created_at": "2026-10-01T16:24:35.907093",
       "measurement_type": "quantitative"
@@ -2296,9 +2400,9 @@
       "individual_name": "Doomberg",
       "date": "2025-11-19",
       "category": "energy",
-      "claim": "China's coal-to-gas capacity will more than double to 19.5 billion cubic meters annually, equaling roughly a fifth of China\u2019s LNG imports last year.",
+      "claim": "China's coal-to-gas capacity will more than double to 19.5 billion cubic meters annually, equaling roughly a fifth of China’s LNG imports last year.",
       "source_url": "https://newsletter.doomberg.com/p/closed-loop",
-      "transcript_excerpt": "The fastest-growing sector in the industry is expected to be coal-to-gas. The capacity under construction is around four times what was built over the past decade, according to Reuters\u2019 analysis of figures from Agora Energy China, the China National Coal Association and Guosen Securities. That would more than double annual capacity to 19.5 billion cubic metres (bcm), equal to roughly a fifth of China\u2019s LNG imports last year.",
+      "transcript_excerpt": "The fastest-growing sector in the industry is expected to be coal-to-gas. The capacity under construction is around four times what was built over the past decade, according to Reuters’ analysis of figures from Agora Energy China, the China National Coal Association and Guosen Securities. That would more than double annual capacity to 19.5 billion cubic metres (bcm), equal to roughly a fifth of China’s LNG imports last year.",
       "verdict": null,
       "created_at": "2026-10-01T16:24:35.907130",
       "measurement_type": "quantitative"
@@ -2310,7 +2414,7 @@
       "category": "geopolitics",
       "claim": "China will succeed in winning what is described as an important battle of World War III.",
       "source_url": "https://newsletter.doomberg.com/p/gloves-off",
-      "transcript_excerpt": "These judgments are hardly hyperbolic. China\u2019s decree last week was almost certainly the result of decades of careful planning\u2014a strategic cannon that would not have been fired if leaders in Beijing weren\u2019t convinced of its definitive efficacy. If we are correct, the end of a 50-year world order and the beginning of a new one are upon us.",
+      "transcript_excerpt": "These judgments are hardly hyperbolic. China’s decree last week was almost certainly the result of decades of careful planning—a strategic cannon that would not have been fired if leaders in Beijing weren’t convinced of its definitive efficacy. If we are correct, the end of a 50-year world order and the beginning of a new one are upon us.",
       "verdict": null,
       "created_at": "2026-10-01T16:24:59.890731",
       "measurement_type": "subjective"
@@ -2334,7 +2438,7 @@
       "category": "geopolitics",
       "claim": "The Trump administration will provide financial support to Argentina's struggling economy, including loans to the central bank and purchases of Argentine government debt.",
       "source_url": "https://newsletter.doomberg.com/p/energy-bind",
-      "transcript_excerpt": "The Trump administration pledged on Monday to do whatever is necessary to support Argentina\u2019s struggling economy, throwing a lifeline to the country\u2019s embattled president, Javier Milei, ahead of legislative elections there next month. Treasury Secretary Scott Bessent said that the United States is prepared to offer loans to Argentina\u2019s central bank, direct currency purchases and purchases of U.S. dollar-denominated Argentine government debt from Treasury\u2019s Exchange Stabilization Fund to keep Argentina\u2019s economy afloat.",
+      "transcript_excerpt": "The Trump administration pledged on Monday to do whatever is necessary to support Argentina’s struggling economy, throwing a lifeline to the country’s embattled president, Javier Milei, ahead of legislative elections there next month. Treasury Secretary Scott Bessent said that the United States is prepared to offer loans to Argentina’s central bank, direct currency purchases and purchases of U.S. dollar-denominated Argentine government debt from Treasury’s Exchange Stabilization Fund to keep Argentina’s economy afloat.",
       "verdict": null,
       "created_at": "2026-10-01T16:25:17.840462",
       "measurement_type": "subjective"
@@ -2346,7 +2450,7 @@
       "category": "energy",
       "claim": "Oil and gas production in Argentina's Vaca Muerta shale play will continue to expand, making the country an increasingly important energy player.",
       "source_url": "https://newsletter.doomberg.com/p/energy-bind",
-      "transcript_excerpt": "Although the results do not directly impact his standing at the federal level, the electoral setback is spooking markets just as oil and gas production in the country\u2019s massive Vaca Muerta shale resource is taking off.",
+      "transcript_excerpt": "Although the results do not directly impact his standing at the federal level, the electoral setback is spooking markets just as oil and gas production in the country’s massive Vaca Muerta shale resource is taking off.",
       "verdict": null,
       "created_at": "2026-10-01T16:25:17.840476",
       "measurement_type": "subjective"
@@ -2358,7 +2462,7 @@
       "category": "geopolitics",
       "claim": "The US military will prioritize protecting the homeland and Western Hemisphere over countering adversaries such as China and Russia, marking a major shift from previous administrations.",
       "source_url": "https://newsletter.doomberg.com/p/mosaic-theory",
-      "transcript_excerpt": "Pentagon officials are proposing the department prioritize protecting the homeland and Western Hemisphere, a striking reversal from the military\u2019s yearslong mandate to focus on the threat from China. A draft of the newest National Defense Strategy... places domestic and regional missions above countering adversaries such as Beijing and Moscow.",
+      "transcript_excerpt": "Pentagon officials are proposing the department prioritize protecting the homeland and Western Hemisphere, a striking reversal from the military’s yearslong mandate to focus on the threat from China. A draft of the newest National Defense Strategy... places domestic and regional missions above countering adversaries such as Beijing and Moscow.",
       "verdict": null,
       "created_at": "2026-10-01T16:25:35.550762",
       "measurement_type": "subjective"
@@ -2370,7 +2474,7 @@
       "category": "geopolitics",
       "claim": "China will pull back from its current sphere of influence in the Western Hemisphere, effectively returning it to American dominance.",
       "source_url": "https://newsletter.doomberg.com/p/mosaic-theory",
-      "transcript_excerpt": "What if the entire Western Hemisphere were deemed by the three superpowers to be firmly back within America\u2019s sphere of influence, with China pulling back?",
+      "transcript_excerpt": "What if the entire Western Hemisphere were deemed by the three superpowers to be firmly back within America’s sphere of influence, with China pulling back?",
       "verdict": null,
       "created_at": "2026-10-01T16:25:35.550779",
       "measurement_type": "subjective"
@@ -2394,7 +2498,7 @@
       "category": "energy",
       "claim": "Growth in natural gas production from the Permian and Marcellus shales will slow, before turning negative sometime late next year.",
       "source_url": "https://newsletter.doomberg.com/p/shale-gas-arithmetic",
-      "transcript_excerpt": "G&amp;R reiterated their call that the two largest gas fields in the US\u2014the Permian and Marcellus shales\u2014are on the cusp of exhaustion: Natural gas is more complicated\u2014but only slightly and the signs there are no less telling. Growth will slow, before turning negative sometime late next year.",
+      "transcript_excerpt": "G&amp;R reiterated their call that the two largest gas fields in the US—the Permian and Marcellus shales—are on the cusp of exhaustion: Natural gas is more complicated—but only slightly and the signs there are no less telling. Growth will slow, before turning negative sometime late next year.",
       "verdict": null,
       "created_at": "2026-10-01T16:25:50.289972",
       "measurement_type": "subjective"
@@ -2406,7 +2510,7 @@
       "category": "energy",
       "claim": "Guyana's oil production capacity will reach 1.7 million barrels per day (bpd) by 2030.",
       "source_url": "https://newsletter.doomberg.com/p/blooming-flower",
-      "transcript_excerpt": "The Stabroek Block consortium, which Exxon leads in partnership with Chevron and China\u2019s CNOOC Petroleum Guyana Limited, has set a goal of reaching an incredible 1.7 million bpd by 2030.",
+      "transcript_excerpt": "The Stabroek Block consortium, which Exxon leads in partnership with Chevron and China’s CNOOC Petroleum Guyana Limited, has set a goal of reaching an incredible 1.7 million bpd by 2030.",
       "verdict": null,
       "created_at": "2026-10-01T16:26:02.953831",
       "measurement_type": "quantitative"
@@ -2418,7 +2522,7 @@
       "category": "finance",
       "claim": "Guyana will continue to experience one of the world's fastest-growing economies in the decade ahead.",
       "source_url": "https://newsletter.doomberg.com/p/blooming-flower",
-      "transcript_excerpt": "Guyana\u2019s per capita standard of living is racing up the global charts, a trend that is bound to continue in the decade ahead.",
+      "transcript_excerpt": "Guyana’s per capita standard of living is racing up the global charts, a trend that is bound to continue in the decade ahead.",
       "verdict": null,
       "created_at": "2026-10-01T16:26:02.953842",
       "measurement_type": "subjective"
@@ -2466,7 +2570,7 @@
       "category": "energy",
       "claim": "The new EU oil price cap will be set at $47.60 per barrel",
       "source_url": "https://newsletter.doomberg.com/p/paint-by-number",
-      "transcript_excerpt": "This time it shifts the prior flat limit of $60 per barrel to a dynamic one: 15% below the six-month average price of Urals crude, Russia\u2019s primary oil benchmark. The new imaginary cap is temporarily set at $47.60 per barrel.",
+      "transcript_excerpt": "This time it shifts the prior flat limit of $60 per barrel to a dynamic one: 15% below the six-month average price of Urals crude, Russia’s primary oil benchmark. The new imaginary cap is temporarily set at $47.60 per barrel.",
       "verdict": null,
       "created_at": "2026-10-01T16:26:32.289221",
       "measurement_type": "quantitative"
@@ -2478,7 +2582,7 @@
       "category": "energy",
       "claim": "Southcentral Alaska may run out of available natural gas by the end of the decade.",
       "source_url": "https://newsletter.doomberg.com/p/anchorage-aweigh",
-      "transcript_excerpt": "The analysis, presented Monday in a hearing of the Senate Resources Committee, is the most detailed look so far at the possibility that Anchorage and surrounding areas could be threatened with electrical brownouts and a heating shortage, just as they were amid a similar natural gas shortage a decade ago\u2026 The problem is that Cook Inlet\u2019s existing oil and gas companies aren\u2019t drilling enough new gas production wells to bring that gas to the surface and offset the long-term declines in existing wells, said DNR commissioner-designee John Boyle.",
+      "transcript_excerpt": "The analysis, presented Monday in a hearing of the Senate Resources Committee, is the most detailed look so far at the possibility that Anchorage and surrounding areas could be threatened with electrical brownouts and a heating shortage, just as they were amid a similar natural gas shortage a decade ago… The problem is that Cook Inlet’s existing oil and gas companies aren’t drilling enough new gas production wells to bring that gas to the surface and offset the long-term declines in existing wells, said DNR commissioner-designee John Boyle.",
       "verdict": null,
       "created_at": "2026-10-01T16:27:08.853290",
       "measurement_type": "subjective"
@@ -2490,7 +2594,7 @@
       "category": "china",
       "claim": "China will continue to import significant volumes of Russian oil despite potential US sanctions, indicating that the effectiveness of such sanctions is overestimated.",
       "source_url": "https://newsletter.doomberg.com/p/the-wrong-end-of-the-telescope",
-      "transcript_excerpt": "The target of Trump\u2019s post is, of course, China, the world\u2019s largest importer of crude by a wide margin, surpassing all of Europe combined. In March 2025, it received a remarkable 1.8 million barrels per day (bpd) from Iran\u2014nearly matching the 2.2 million bpd it sourced from Russia on average in 2024.",
+      "transcript_excerpt": "The target of Trump’s post is, of course, China, the world’s largest importer of crude by a wide margin, surpassing all of Europe combined. In March 2025, it received a remarkable 1.8 million barrels per day (bpd) from Iran—nearly matching the 2.2 million bpd it sourced from Russia on average in 2024.",
       "verdict": null,
       "created_at": "2026-10-01T16:27:25.448396",
       "measurement_type": "subjective"
@@ -2502,7 +2606,7 @@
       "category": "geopolitics",
       "claim": "The US Senate bill proposing 500% tariffs on countries buying Russian oil and gas will likely face significant political resistance or fail to pass, due to economic consequences for the US.",
       "source_url": "https://newsletter.doomberg.com/p/the-wrong-end-of-the-telescope",
-      "transcript_excerpt": "A key US Senate ally of President Donald Trump [Lindsey Graham] said he has the commitment of 72 colleagues for a bill that would enact \u2018bone-crushing\u2019 new sanctions on Russia and tariffs on countries that buy its oil, gas and other key products if Vladimir Putin doesn\u2019t engage in serious negotiations to end the war in Ukraine\u2026 The punishments would include a 500% tariff on imports from countries that buy Russian oil, petroleum products, natural gas or uranium, according to a draft of the bill seen by Bloomberg News.",
+      "transcript_excerpt": "A key US Senate ally of President Donald Trump [Lindsey Graham] said he has the commitment of 72 colleagues for a bill that would enact ‘bone-crushing’ new sanctions on Russia and tariffs on countries that buy its oil, gas and other key products if Vladimir Putin doesn’t engage in serious negotiations to end the war in Ukraine… The punishments would include a 500% tariff on imports from countries that buy Russian oil, petroleum products, natural gas or uranium, according to a draft of the bill seen by Bloomberg News.",
       "verdict": null,
       "created_at": "2026-10-01T16:27:25.448415",
       "measurement_type": "subjective"
@@ -2538,7 +2642,7 @@
       "category": "energy",
       "claim": "Phillips 66 will close its Wilmington refinery by the end of 2025.",
       "source_url": "https://newsletter.doomberg.com/p/moonwalker",
-      "transcript_excerpt": "Phillips 66 announced its intent to close its Wilmington refinery\u2014located just outside Los Angeles\u2014by the end of 2025.",
+      "transcript_excerpt": "Phillips 66 announced its intent to close its Wilmington refinery—located just outside Los Angeles—by the end of 2025.",
       "verdict": null,
       "created_at": "2026-10-01T16:27:45.328899",
       "measurement_type": "quantitative"
@@ -2562,7 +2666,7 @@
       "category": "geopolitics",
       "claim": "China's hypersonic missiles could destroy US aircraft carriers in just 20 minutes.",
       "source_url": "https://newsletter.doomberg.com/p/escalation-dominance",
-      "transcript_excerpt": "US Defense Secretary Pete Hegseth have [sic] raised alarms about China\u2019s growing military capabilities. In particular, he pointed out the dangerous potential of China's hypersonic missiles, which could reportedly destroy US aircraft carriers in just 20 minutes.",
+      "transcript_excerpt": "US Defense Secretary Pete Hegseth have [sic] raised alarms about China’s growing military capabilities. In particular, he pointed out the dangerous potential of China's hypersonic missiles, which could reportedly destroy US aircraft carriers in just 20 minutes.",
       "verdict": null,
       "created_at": "2026-10-01T16:27:57.658507",
       "measurement_type": "quantitative"
@@ -2574,7 +2678,7 @@
       "category": "geopolitics",
       "claim": "A kinetic conflict involving Taiwan could be ignited by China's military capabilities, potentially leading to a major escalation with the US.",
       "source_url": "https://newsletter.doomberg.com/p/escalation-dominance",
-      "transcript_excerpt": "Should a kinetic conflict arise, the spark that ignites the inferno will almost certainly involve Taiwan\u2014a country that China claims as sovereign territory, but which the US has long implied it would defend in the event of an attack... If Hegseth\u2019s analysis of China\u2019s ballistic missile capabilities is correct, it could attack targets more devastating than a US aircraft carrier to end the question of Taiwan.",
+      "transcript_excerpt": "Should a kinetic conflict arise, the spark that ignites the inferno will almost certainly involve Taiwan—a country that China claims as sovereign territory, but which the US has long implied it would defend in the event of an attack... If Hegseth’s analysis of China’s ballistic missile capabilities is correct, it could attack targets more devastating than a US aircraft carrier to end the question of Taiwan.",
       "verdict": null,
       "created_at": "2026-10-01T16:27:57.658537",
       "measurement_type": "subjective"
@@ -2610,7 +2714,7 @@
       "category": "geopolitics",
       "claim": "Mark Carney will replace Justin Trudeau as Prime Minister of Canada and defeat Conservative Party leader Pierre Poilievre in the upcoming federal election.",
       "source_url": "https://newsletter.doomberg.com/p/unspontaneous-combustion",
-      "transcript_excerpt": "We posited that Mark Carney, a globalist\u2019s delight and former head of both the Bank of Canada and the Bank of England, was being positioned to replace Justin Trudeau as leader of the Liberal Party. ... Carney will now replace Trudeau as Prime Minister, Polymarket gives him a fighting chance of defeating Poilievre in the upcoming election",
+      "transcript_excerpt": "We posited that Mark Carney, a globalist’s delight and former head of both the Bank of Canada and the Bank of England, was being positioned to replace Justin Trudeau as leader of the Liberal Party. ... Carney will now replace Trudeau as Prime Minister, Polymarket gives him a fighting chance of defeating Poilievre in the upcoming election",
       "verdict": null,
       "created_at": "2026-10-01T16:28:33.383908",
       "measurement_type": "subjective"
@@ -2620,9 +2724,9 @@
       "individual_name": "Doomberg",
       "date": "2025-03-12",
       "category": "geopolitics",
-      "claim": "Alberta\u2019s liquor stores will remove American products from their shelves due to increased national unity and anger toward Donald Trump.",
+      "claim": "Alberta’s liquor stores will remove American products from their shelves due to increased national unity and anger toward Donald Trump.",
       "source_url": "https://newsletter.doomberg.com/p/unspontaneous-combustion",
-      "transcript_excerpt": "Alberta\u2019s liquor stores are removing American products from their shelves. There is no time for selfish talk of independence when an outside actor threatens to alter your borders by force, and Trump\u2019s behavior has made anything short of total national solidarity decidedly uncouth.",
+      "transcript_excerpt": "Alberta’s liquor stores are removing American products from their shelves. There is no time for selfish talk of independence when an outside actor threatens to alter your borders by force, and Trump’s behavior has made anything short of total national solidarity decidedly uncouth.",
       "verdict": null,
       "created_at": "2026-10-01T16:28:33.383930",
       "measurement_type": "subjective"
@@ -2658,7 +2762,7 @@
       "category": "energy",
       "claim": "The temporary withdrawal of all areas on the Outer Continental Shelf from offshore wind leasing will remain in effect until revoked, preventing new or renewed wind energy leasing for electricity generation in coastal waters for at least four years.",
       "source_url": "https://newsletter.doomberg.com/p/whiplash",
-      "transcript_excerpt": "This withdrawal shall go into effect beginning on January 21, 2025, and shall remain in effect until this Presidential Memorandum is revoked\u2026 This withdrawal temporarily prevents consideration of any area in the OCS for any new or renewed wind energy leasing for the purposes of generation of electricity or any other such use derived from the use of wind. This withdrawal does not apply to leasing related to any other purposes such as, but not limited to, oil, gas, minerals, and environmental conservation.",
+      "transcript_excerpt": "This withdrawal shall go into effect beginning on January 21, 2025, and shall remain in effect until this Presidential Memorandum is revoked… This withdrawal temporarily prevents consideration of any area in the OCS for any new or renewed wind energy leasing for the purposes of generation of electricity or any other such use derived from the use of wind. This withdrawal does not apply to leasing related to any other purposes such as, but not limited to, oil, gas, minerals, and environmental conservation.",
       "verdict": null,
       "created_at": "2026-10-01T16:29:24.598296",
       "measurement_type": "subjective"
@@ -2680,9 +2784,9 @@
       "individual_name": "Doomberg",
       "date": "2025-01-03",
       "category": "energy",
-      "claim": "A demo project charging trains at Pueblo and plugging into the grid at Denver\u2019s Cherokee power station could be ready by 2026.",
+      "claim": "A demo project charging trains at Pueblo and plugging into the grid at Denver’s Cherokee power station could be ready by 2026.",
       "source_url": "https://newsletter.doomberg.com/p/freighthopping",
-      "transcript_excerpt": "if they land a $10 million federal grant, a demo project charging trains at Pueblo and plugging into the grid at Denver\u2019s Cherokee power station could be ready by 2026.",
+      "transcript_excerpt": "if they land a $10 million federal grant, a demo project charging trains at Pueblo and plugging into the grid at Denver’s Cherokee power station could be ready by 2026.",
       "verdict": null,
       "created_at": "2026-10-01T16:29:40.936390",
       "measurement_type": "quantitative"
@@ -2706,7 +2810,7 @@
       "category": "china",
       "claim": "The US Department of Commerce's new export controls on China will likely enrage Beijing and significantly degrade China's ability to make the most advanced chips used in military modernization.",
       "source_url": "https://newsletter.doomberg.com/p/is-the-chip-war-already-lost",
-      "transcript_excerpt": "The measures are likely to enrage Beijing, which has given tens of billions of dollars\u2019 worth of subsidies and tax breaks to semiconductor firms in the hopes of building out its own chips sector.",
+      "transcript_excerpt": "The measures are likely to enrage Beijing, which has given tens of billions of dollars’ worth of subsidies and tax breaks to semiconductor firms in the hopes of building out its own chips sector.",
       "verdict": null,
       "created_at": "2026-10-01T16:29:55.719845",
       "measurement_type": "subjective"
@@ -2742,7 +2846,7 @@
       "category": "energy",
       "claim": "By 2025, Washington state will have closed all of its large coal-fired power plants.",
       "source_url": "https://newsletter.doomberg.com/p/their-democracy",
-      "transcript_excerpt": "The balance of Washington\u2019s generation comes from clean-burning natural gas, and the last of its large coal furnaces is set to close in 2025.",
+      "transcript_excerpt": "The balance of Washington’s generation comes from clean-burning natural gas, and the last of its large coal furnaces is set to close in 2025.",
       "verdict": null,
       "created_at": "2026-10-01T16:30:31.870380",
       "measurement_type": "quantitative"
@@ -2754,7 +2858,7 @@
       "category": "energy",
       "claim": "Seattle's Building Emissions Performance Standard will effectively require building owners to replace oil and gas-powered appliances with electric alternatives like heat pumps and induction stoves by 2050.",
       "source_url": "https://newsletter.doomberg.com/p/their-democracy",
-      "transcript_excerpt": "Under the city\u2019s Building Emissions Performance Standard, signed into law last week, all existing commercial and multifamily residential buildings over 20,000 square feet will need to reach net-zero emissions by 2050. Meeting that target will effectively require building owners to replace oil and gas-powered furnaces, water heaters, gas stoves, and other appliances with electric alternatives like heat pumps and induction stoves.",
+      "transcript_excerpt": "Under the city’s Building Emissions Performance Standard, signed into law last week, all existing commercial and multifamily residential buildings over 20,000 square feet will need to reach net-zero emissions by 2050. Meeting that target will effectively require building owners to replace oil and gas-powered furnaces, water heaters, gas stoves, and other appliances with electric alternatives like heat pumps and induction stoves.",
       "verdict": null,
       "created_at": "2026-10-01T16:30:31.870404",
       "measurement_type": "subjective"
@@ -2766,7 +2870,7 @@
       "category": "geopolitics",
       "claim": "Trump will prioritize policies that benefit US manufacturing and energy sectors, potentially at the expense of environmental regulations.",
       "source_url": "https://newsletter.doomberg.com/p/shift-shaping",
-      "transcript_excerpt": "The concept of global warming was created by and for the Chinese in order to make US manufacturing non-competitive. ... The demands of the Church of Carbon\u2122 are wholly incompatible with his agenda to catalyze a domestic investment boom in energy, heavy industry, and advanced technology.",
+      "transcript_excerpt": "The concept of global warming was created by and for the Chinese in order to make US manufacturing non-competitive. ... The demands of the Church of Carbon™ are wholly incompatible with his agenda to catalyze a domestic investment boom in energy, heavy industry, and advanced technology.",
       "verdict": null,
       "created_at": "2026-10-01T16:30:43.028905",
       "measurement_type": "subjective"
@@ -2778,7 +2882,7 @@
       "category": "china",
       "claim": "China will continue to increase its coal consumption while Western nations reduce emissions, maintaining China's industrial advantage.",
       "source_url": "https://newsletter.doomberg.com/p/shift-shaping",
-      "transcript_excerpt": "China has been happy to nod along with the West\u2019s rejection of coal while gorging on the stuff itself, a pattern that has generated significant advantage for its domestic industrial sector while serving as the dominant source of incremental global carbon emissions for the past 25 years.",
+      "transcript_excerpt": "China has been happy to nod along with the West’s rejection of coal while gorging on the stuff itself, a pattern that has generated significant advantage for its domestic industrial sector while serving as the dominant source of incremental global carbon emissions for the past 25 years.",
       "verdict": null,
       "created_at": "2026-10-01T16:30:43.028970",
       "measurement_type": "subjective"
@@ -2790,7 +2894,7 @@
       "category": "finance",
       "claim": "Volkswagen AG will reduce wages for around 140,000 workers by 10% in Germany.",
       "source_url": "https://newsletter.doomberg.com/p/far-from-gruven",
-      "transcript_excerpt": "The company is also looking to reduce wages for around 140,000 workers by 10%, all of which would add to the woes of Europe\u2019s largest economy.",
+      "transcript_excerpt": "The company is also looking to reduce wages for around 140,000 workers by 10%, all of which would add to the woes of Europe’s largest economy.",
       "verdict": null,
       "created_at": "2026-10-01T16:30:54.705025",
       "measurement_type": "quantitative"
@@ -2802,7 +2906,7 @@
       "category": "geopolitics",
       "claim": "The German car industry will be significantly diminished in five years due to energy policy failures and competition from China.",
       "source_url": "https://newsletter.doomberg.com/p/far-from-gruven",
-      "transcript_excerpt": "What will remain of the much-vaunted German car industry in five years? Let\u2019s analyze where things are headed and ponder what needs to be done to avoid catastrophe.",
+      "transcript_excerpt": "What will remain of the much-vaunted German car industry in five years? Let’s analyze where things are headed and ponder what needs to be done to avoid catastrophe.",
       "verdict": null,
       "created_at": "2026-10-01T16:30:54.705058",
       "measurement_type": "subjective"
@@ -2814,7 +2918,7 @@
       "category": "energy",
       "claim": "Natural gas could become significantly more valuable than oil, with the oil-to-gas price ratio falling below the historical equilibrium value of six, possibly even to unprecedented lows.",
       "source_url": "https://newsletter.doomberg.com/p/bridge-burning",
-      "transcript_excerpt": "As the cleanest-burning hydrocarbon capable of producing a steady supply of baseload electricity, natural gas is inherently well-suited to meet the application\u2019s needs. If Microsoft is willing to \u201coverpay\u201d for nuclear, surely natural gas, which can be rapidly deployed to create electricity at scale, is substantially more valuable than current prices indicate? Let\u2019s explore the possibilities.",
+      "transcript_excerpt": "As the cleanest-burning hydrocarbon capable of producing a steady supply of baseload electricity, natural gas is inherently well-suited to meet the application’s needs. If Microsoft is willing to “overpay” for nuclear, surely natural gas, which can be rapidly deployed to create electricity at scale, is substantially more valuable than current prices indicate? Let’s explore the possibilities.",
       "verdict": null,
       "created_at": "2026-10-01T16:36:42.883590",
       "measurement_type": "subjective"
@@ -2826,7 +2930,7 @@
       "category": "energy",
       "claim": "The price of carbon-free electricity from nuclear power will be at least $100 per megawatt-hour, with some estimates suggesting it could reach $112, compared to about $60 for wind and solar energy in the same region.",
       "source_url": "https://newsletter.doomberg.com/p/bridge-burning",
-      "transcript_excerpt": "Microsoft Corp. is going to pay a hefty premium for power from the soon-to-be-restarted Three Mile Island nuclear plant, a recognition that carbon-free electricity is more valuable when it\u2019s available around the clock. The company will pay owner Constellation Energy Corp. at least $100 a megawatt-hour for power from the Pennsylvania plant, according to estimates from Bloomberg Intelligence, while Jefferies LLC puts the figure at about $112. That compares to about $60 a megawatt-hour for wind and solar energy available now in the same region, according to Jefferies.",
+      "transcript_excerpt": "Microsoft Corp. is going to pay a hefty premium for power from the soon-to-be-restarted Three Mile Island nuclear plant, a recognition that carbon-free electricity is more valuable when it’s available around the clock. The company will pay owner Constellation Energy Corp. at least $100 a megawatt-hour for power from the Pennsylvania plant, according to estimates from Bloomberg Intelligence, while Jefferies LLC puts the figure at about $112. That compares to about $60 a megawatt-hour for wind and solar energy available now in the same region, according to Jefferies.",
       "verdict": null,
       "created_at": "2026-10-01T16:36:42.883622",
       "measurement_type": "quantitative"
@@ -2850,7 +2954,7 @@
       "category": "energy",
       "claim": "The nuclear industry will see a significant increase in investment and new deployments at scale due to confidence gained from recent developments.",
       "source_url": "https://newsletter.doomberg.com/p/cometh-the-hour",
-      "transcript_excerpt": "This past Monday\u2014on the sidelines of the Climate Week summit in New York, no less\u2014a gathering of international heads of state, leaders of numerous mega-banks, and representatives from the nuclear industry took place at the Rainbow Room in Rockefeller Center. Titled \u201cFinancing the Tripling of Nuclear,\u201d the meeting almost certainly marks a critical inflection point that will finally give investors around the world the confidence to pour much-needed capital into new nuclear deployment at scale.",
+      "transcript_excerpt": "This past Monday—on the sidelines of the Climate Week summit in New York, no less—a gathering of international heads of state, leaders of numerous mega-banks, and representatives from the nuclear industry took place at the Rainbow Room in Rockefeller Center. Titled “Financing the Tripling of Nuclear,” the meeting almost certainly marks a critical inflection point that will finally give investors around the world the confidence to pour much-needed capital into new nuclear deployment at scale.",
       "verdict": null,
       "created_at": "2026-10-01T16:37:00.663749",
       "measurement_type": "subjective"
@@ -2874,7 +2978,7 @@
       "category": "energy",
       "claim": "Argentina's oil and gas industry could see explosive growth due to Milei's pro-investment reforms, potentially resetting global energy balances for decades.",
       "source_url": "https://newsletter.doomberg.com/p/cash-cow",
-      "transcript_excerpt": "Milei\u2019s broad embrace of investor money into the hydrocarbon sector could be material on a global scale given the country\u2019s massive oil and gas resources. When combined with his strong pro-US stance and improving relationship with the International Monetary Fund (IMF), explosive growth in Argentina\u2019s oil and gas industry could reset global energy balances for decades to come.",
+      "transcript_excerpt": "Milei’s broad embrace of investor money into the hydrocarbon sector could be material on a global scale given the country’s massive oil and gas resources. When combined with his strong pro-US stance and improving relationship with the International Monetary Fund (IMF), explosive growth in Argentina’s oil and gas industry could reset global energy balances for decades to come.",
       "verdict": null,
       "created_at": "2026-10-01T16:37:18.061970",
       "measurement_type": "subjective"
@@ -2910,7 +3014,7 @@
       "category": "ukraine",
       "claim": "Ukraine's electricity production will be slashed by half due to Russian bombing campaign targeting power infrastructure.",
       "source_url": "https://newsletter.doomberg.com/p/doom-loop",
-      "transcript_excerpt": "Ukraine is imposing blackouts, launching hasty repairs and hunting for spare parts after a Russian bombing campaign targeting power infrastructure in recent months slashed the country\u2019s electricity production by half.",
+      "transcript_excerpt": "Ukraine is imposing blackouts, launching hasty repairs and hunting for spare parts after a Russian bombing campaign targeting power infrastructure in recent months slashed the country’s electricity production by half.",
       "verdict": null,
       "created_at": "2026-10-01T16:38:26.476890",
       "measurement_type": "quantitative"
@@ -2934,7 +3038,7 @@
       "category": "energy",
       "claim": "The world faces a 'staggering' surplus of oil equating to millions of barrels a day by the end of the decade, as oil companies increase production, undermining the ability of Opec+ to manage crude prices.",
       "source_url": "https://newsletter.doomberg.com/p/wishcasting",
-      "transcript_excerpt": "The world faces a \u2018staggering\u2019 surplus of oil equating to millions of barrels a day by the end of the decade, as oil companies increase production, undermining the ability of Opec+ to manage crude prices, the International Energy Agency has warned.",
+      "transcript_excerpt": "The world faces a ‘staggering’ surplus of oil equating to millions of barrels a day by the end of the decade, as oil companies increase production, undermining the ability of Opec+ to manage crude prices, the International Energy Agency has warned.",
       "verdict": null,
       "created_at": "2026-10-01T16:38:39.367938",
       "measurement_type": "quantitative"
@@ -2958,7 +3062,7 @@
       "category": "energy",
       "claim": "By 2030, only locomotives less than 23 years of age will be allowed to operate in California, unless they meet the cleanest EPA locomotive exhaust emission standard.",
       "source_url": "https://newsletter.doomberg.com/p/low-carb-diet",
-      "transcript_excerpt": "Beginning in 2030, only locomotives less than 23 years of age will be allowed to operate in California (unless they meet the cleanest EPA locomotive exhaust emission standard) to remove the operations of the oldest and highest polluting locomotives\u2026",
+      "transcript_excerpt": "Beginning in 2030, only locomotives less than 23 years of age will be allowed to operate in California (unless they meet the cleanest EPA locomotive exhaust emission standard) to remove the operations of the oldest and highest polluting locomotives…",
       "verdict": null,
       "created_at": "2026-10-01T16:38:52.751427",
       "measurement_type": "quantitative"
