@@ -294,30 +294,6 @@
       "measurement_type": "quantitative"
     },
     {
-      "id": "pred_20260930191513_01c8b77bd738",
-      "individual_name": "Peter Zeihan",
-      "date": "2026-09-25",
-      "category": "energy",
-      "claim": "NABEP will produce about 200,000 barrels a day by 2023",
-      "source_url": "https://www.youtube.com/watch?v=u1XSaK6UgRU",
-      "transcript_excerpt": "And so he got kicked out of the country and Petro Zamora just until it was only producing like 100,000, maybe even 50,000 barrels a day. Well, fast forward to calendar year 2023 and a woman by the name of Rodríguez, who is now the acting president of Venezuela, uh brought him back in because the oil sector in Venezuela had just tanked in the intervening 3 years and started bringing the company back and I think it produces about 200,000 barrels a day right now.",
-      "verdict": null,
-      "created_at": "2026-09-30T19:15:13.466400",
-      "measurement_type": "quantitative"
-    },
-    {
-      "id": "pred_20260930192004_01c8b77bd738",
-      "individual_name": "Peter Zeihan",
-      "date": "2026-09-25",
-      "category": "energy",
-      "claim": "NABEP will produce about 200,000 barrels a day by 2023",
-      "source_url": "https://www.youtube.com/watch?v=u1XSaK6UgRU",
-      "transcript_excerpt": "And so he got kicked out of the country and Petro Zamora just until it was only producing like 100,000, maybe even 50,000 barrels a day. Well, fast forward to calendar year 2023 and a woman by the name of Rodríguez, who is now the acting president of Venezuela, uh brought him back in because the oil sector in Venezuela had just tanked in the intervening 3 years and started bringing the company back and I think it produces about 200,000 barrels a day right now.",
-      "verdict": null,
-      "created_at": "2026-09-30T19:20:04.971089",
-      "measurement_type": "quantitative"
-    },
-    {
       "id": "pred_20260930192033_e72d59032a15",
       "individual_name": "Peter Zeihan",
       "date": "2026-09-24",

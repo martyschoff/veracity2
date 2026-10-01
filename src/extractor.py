@@ -36,8 +36,13 @@ def _build_prompt(transcript: str, individual_name: str, categories: list[str]) 
         "If a prediction doesn't fit any of those categories, use 'other'. "
         "Return a JSON array of objects with keys: 'claim', 'category', 'excerpt'. "
         "'excerpt' should be the relevant 1-2 sentence quote from the transcript. "
-        "Only include predictions (things that will happen or are predicted to happen), "
-        "not opinions or statements of fact. If no predictions are found, return an empty array []."
+        "Only include predictions (things that WILL happen or are predicted to happen IN THE FUTURE), "
+        "not opinions, statements of fact, or things that already happened. "
+        "Do NOT include predictions about past events or dates that have already passed. "
+        "If a claim references a year that is already in the past relative to the video date, exclude it. "
+        "Maximum 2 predictions per video. "
+        "Prioritize predictions with specific dates, timeframes, or measurable outcomes. "
+        "If no predictions are found, return an empty array []."
     )
     user_msg = f"Transcript from {individual_name}:\n\n{transcript[:8000]}"
     return [
