@@ -366,12 +366,23 @@
                 var countEl = document.getElementById('count-' + idx);
                 if (countEl) countEl.textContent = visible.length + ' total';
             });
-            document.querySelectorAll('.pred-entry').forEach(function(el) {
-                var mtype = el.getAttribute('data-mtype') || 'subjective';
-                var show = false;
-                if (filters.objective && mtype === 'quantitative') show = true;
-                if (filters.subjective && mtype === 'subjective') show = true;
-                el.style.display = show ? '' : 'none';
+            // Show only first 5 visible entries per column
+            var columns = document.querySelectorAll('.pred-column');
+            columns.forEach(function(col) {
+                var entries = col.querySelectorAll('.pred-entry');
+                var shown = 0;
+                entries.forEach(function(el) {
+                    var mtype = el.getAttribute('data-mtype') || 'subjective';
+                    var show = false;
+                    if (filters.objective && mtype === 'quantitative') show = true;
+                    if (filters.subjective && mtype === 'subjective') show = true;
+                    if (show && shown < 5) {
+                        el.style.display = '';
+                        shown++;
+                    } else {
+                        el.style.display = 'none';
+                    }
+                });
             });
         }
         document.addEventListener('DOMContentLoaded', applyFilters);

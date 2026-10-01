@@ -33,11 +33,12 @@ tns = set(TRACKED_NAMES)
 outstanding = [p for p in predictions if p.get('individual_name') in tns and p.get('verdict') is None]
 outstanding.sort(key=lambda p: p.get('date', ''), reverse=True)
 
-# Top 5 per person
+# ALL predictions per person for the grid (JS handles top-5 + filtering)
 rows_by_person = {}
 for name in TRACKED_NAMES:
     person_preds = [p for p in outstanding if p.get('individual_name') == name]
-    rows_by_person[name] = person_preds[:5]
+    person_preds.sort(key=lambda p: p.get('date', ''), reverse=True)
+    rows_by_person[name] = person_preds
 
 # ALL predictions per person (for the full list view)
 all_preds_by_person = {}
