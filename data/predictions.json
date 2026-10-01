@@ -218,6 +218,17 @@
       "categories": [
         "finance"
       ]
+    },
+    {
+      "name": "Dan Ives",
+      "handle": "dives",
+      "sources": [
+        "https://www.youtube.com/@DanIvesTech"
+      ],
+      "categories": [
+        "finance",
+        "ai"
+      ]
     }
   ],
   "predictions": [
