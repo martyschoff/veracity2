@@ -157,6 +157,37 @@
       "categories": [
         "finance"
       ]
+    },
+    {
+      "name": "Alex Ziskind",
+      "handle": "azisk",
+      "sources": [
+        "https://www.youtube.com/@AZisk"
+      ],
+      "categories": [
+        "ai"
+      ]
+    },
+    {
+      "name": "Jamison Greer",
+      "handle": "jgreer",
+      "sources": [
+        "https://www.youtube.com/@URSTR"
+      ],
+      "categories": [
+        "finance",
+        "geopolitics"
+      ]
+    },
+    {
+      "name": "Jensen Huang",
+      "handle": "jhuang",
+      "sources": [
+        "https://www.youtube.com/@nvidia"
+      ],
+      "categories": [
+        "ai"
+      ]
     }
   ],
   "predictions": [
@@ -442,7 +473,7 @@
       "category": "energy",
       "claim": "NABEP will produce about 200,000 barrels a day by 2023",
       "source_url": "https://www.youtube.com/watch?v=u1XSaK6UgRU",
-      "transcript_excerpt": "And so he got kicked out of the country and Petro Zamora just until it was only producing like 100,000, maybe even 50,000 barrels a day. Well, fast forward to calendar year 2023 and a woman by the name of Rodr\u00edguez, who is now the acting president of Venezuela, uh brought him back in because the oil sector in Venezuela had just tanked in the intervening 3 years and started bringing the company back and I think it produces about 200,000 barrels a day right now.",
+      "transcript_excerpt": "And so he got kicked out of the country and Petro Zamora just until it was only producing like 100,000, maybe even 50,000 barrels a day. Well, fast forward to calendar year 2023 and a woman by the name of Rodríguez, who is now the acting president of Venezuela, uh brought him back in because the oil sector in Venezuela had just tanked in the intervening 3 years and started bringing the company back and I think it produces about 200,000 barrels a day right now.",
       "verdict": null,
       "created_at": "2026-09-30T19:15:13.466400"
     },
@@ -750,7 +781,7 @@
       "category": "energy",
       "claim": "NABEP will produce about 200,000 barrels a day by 2023",
       "source_url": "https://www.youtube.com/watch?v=u1XSaK6UgRU",
-      "transcript_excerpt": "And so he got kicked out of the country and Petro Zamora just until it was only producing like 100,000, maybe even 50,000 barrels a day. Well, fast forward to calendar year 2023 and a woman by the name of Rodr\u00edguez, who is now the acting president of Venezuela, uh brought him back in because the oil sector in Venezuela had just tanked in the intervening 3 years and started bringing the company back and I think it produces about 200,000 barrels a day right now.",
+      "transcript_excerpt": "And so he got kicked out of the country and Petro Zamora just until it was only producing like 100,000, maybe even 50,000 barrels a day. Well, fast forward to calendar year 2023 and a woman by the name of Rodríguez, who is now the acting president of Venezuela, uh brought him back in because the oil sector in Venezuela had just tanked in the intervening 3 years and started bringing the company back and I think it produces about 200,000 barrels a day right now.",
       "verdict": null,
       "created_at": "2026-09-30T19:20:04.971089"
     },
@@ -1001,9 +1032,9 @@
       "individual_name": "Doomberg",
       "date": "2024-04-30",
       "category": "energy",
-      "claim": "Natural gas and oil will set new records in 2024 \u2014 the green transition is over.",
+      "claim": "Natural gas and oil will set new records in 2024 — the green transition is over.",
       "source_url": "https://newsletter.doomberg.com/p/hot-pockets",
-      "transcript_excerpt": "Coal, natural gas, and oil will all set records \u2014 the green transition is over",
+      "transcript_excerpt": "Coal, natural gas, and oil will all set records — the green transition is over",
       "verdict": null,
       "created_at": "2025-09-30T19:20:00"
     },
@@ -1023,7 +1054,7 @@
       "individual_name": "Peter Diamandis",
       "date": "2025-09-13",
       "category": "ai",
-      "claim": "By 2029 we'll have AI as capable as 8 billion humans \u2014 it's getting 10x better per year.",
+      "claim": "By 2029 we'll have AI as capable as 8 billion humans — it's getting 10x better per year.",
       "source_url": "https://www.youtube.com/watch?v=RF0KucU_low",
       "transcript_excerpt": "AI increasing at 100x per year, by 2029 AI as capable as 8 billion humans",
       "verdict": null,
@@ -1056,7 +1087,7 @@
       "individual_name": "Peter Diamandis",
       "date": "2025-11-01",
       "category": "ai",
-      "claim": "By 2040 there will be more humanoid robots than people on Earth \u2014 10 billion+.",
+      "claim": "By 2040 there will be more humanoid robots than people on Earth — 10 billion+.",
       "source_url": "https://www.youtube.com/watch?v=mofEOSUkMpA",
       "transcript_excerpt": "by 2040 probably there are more humanoid robots than there are people, 10 billion",
       "verdict": null,
