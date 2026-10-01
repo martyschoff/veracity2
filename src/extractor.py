@@ -120,6 +120,7 @@ def extract_predictions(
     video_url: str,
     individual_name: str,
     categories: list[str],
+    upload_date: str | None = None,
 ) -> list[Prediction]:
     """Extract predictions from a transcript using an LLM.
 
@@ -159,10 +160,20 @@ def extract_predictions(
         category = _validate_category(item.get("category", "other"), categories)
         excerpt = item.get("excerpt", "").strip()
 
+        # Use the video's upload date if provided, else today
+        from datetime import date as date_cls
+        if upload_date:
+            try:
+                pred_date = date_cls.fromisoformat(upload_date)
+            except (ValueError, TypeError):
+                pred_date = datetime.now().date()
+        else:
+            pred_date = datetime.now().date()
+
         pred = Prediction(
             id=f"pred_{timestamp}_{i:03d}",
             individual_name=individual_name,
-            date=datetime.now().date(),
+            date=pred_date,
             category=category,
             claim=claim,
             source_url=video_url,

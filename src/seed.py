@@ -68,6 +68,7 @@ def seed():
                         video_url=video.url,
                         individual_name=ind.name,
                         categories=ALL_CATEGORIES,
+                        upload_date=video.upload_date,
                     )
                     for pred in preds:
                         store.add_prediction(pred)
