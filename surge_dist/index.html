@@ -228,17 +228,23 @@
         .score-correct { color: var(--correct); font-weight: 600; }
         .score-wrong { color: var(--wrong); font-weight: 600; }
         .info-cell .info-label { font-size: 0.75rem; color: var(--text-muted); }
-        .pred-claim { font-size: 0.85rem; line-height: 1.5; font-weight: 500; }
-        .pred-date { font-size: 0.78rem; color: var(--text-muted); font-weight: 500; margin-bottom: 6px; }
-        .pred-source {
-            font-size: 0.75rem;
-            font-weight: 700;
-            color: #f97316;
-            text-decoration: none;
-            margin-top: 8px;
-            display: inline-block;
+        .pred-claim {
+            font-size: 0.85rem; line-height: 1.5; font-weight: 500;
+            color: #f97316; text-decoration: none; cursor: pointer;
         }
-        .pred-source:hover { text-decoration: underline; }
+        .pred-claim:hover { text-decoration: underline; }
+        .pred-date { font-size: 0.78rem; color: var(--text-muted); font-weight: 500; margin-bottom: 6px; }
+        .verdict-box {
+            display: inline-block;
+            padding: 2px 10px;
+            border-radius: 6px;
+            font-size: 0.68rem;
+            font-weight: 600;
+            margin-top: 6px;
+            background: rgba(148,163,184,0.15);
+            color: var(--text-muted);
+            border: 1px solid var(--border);
+        }
         .badge {
             display: inline-block; padding: 2px 8px; border-radius: 10px;
             font-size: 0.62rem; font-weight: 600; text-transform: uppercase;
@@ -382,110 +388,110 @@
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-09-30</div>
-                    <div class="pred-claim">Chairman Xi Jinping of China will be in Washington for bilateral talks with Trump on the 24th.</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=BDaQXA0Tj80" target="_blank" rel="noopener">YouTube ↗</a>
+                    <a class="pred-claim" href="https://www.youtube.com/watch?v=BDaQXA0Tj80" target="_blank" rel="noopener">Chairman Xi Jinping of China will be in Washington for bilateral talks with Trump on the 24th. ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-09-30</div>
-                    <div class="pred-claim">China will be a key factor in whether other countries agree to implement the new Iranian sanctions.</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=BDaQXA0Tj80" target="_blank" rel="noopener">YouTube ↗</a>
+                    <a class="pred-claim" href="https://www.youtube.com/watch?v=BDaQXA0Tj80" target="_blank" rel="noopener">China will be a key factor in whether other countries agree to implement the new Iranian sanctions. ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="quantitative">
                     <div class="pred-date">2026-09-29</div>
-                    <div class="pred-claim">China&#39;s artificial intelligence program will be limited by export restrictions on high-end semiconductors…</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=wFHIwUqKuqI" target="_blank" rel="noopener">YouTube ↗</a>
+                    <a class="pred-claim" href="https://www.youtube.com/watch?v=wFHIwUqKuqI" target="_blank" rel="noopener">China&#39;s artificial intelligence program will be limited by export restrictions on high-end semiconductors… ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="quantitative">
                     <div class="pred-date">2026-09-29</div>
-                    <div class="pred-claim">The U.S. and other countries&#39; high-end chips in the 2 to 4 nm range, with advanced coolant topography design…</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=wFHIwUqKuqI" target="_blank" rel="noopener">YouTube ↗</a>
+                    <a class="pred-claim" href="https://www.youtube.com/watch?v=wFHIwUqKuqI" target="_blank" rel="noopener">The U.S. and other countries&#39; high-end chips in the 2 to 4 nm range, with advanced coolant topography design… ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="quantitative">
                     <div class="pred-date">2026-09-28</div>
-                    <div class="pred-claim">The Strait of Hormuz will remain mostly closed for an extended period…</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=lpVb14yjHZw" target="_blank" rel="noopener">YouTube ↗</a>
+                    <a class="pred-claim" href="https://www.youtube.com/watch?v=lpVb14yjHZw" target="_blank" rel="noopener">The Strait of Hormuz will remain mostly closed for an extended period… ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="quantitative">
                     <div class="pred-date">2026-09-28</div>
-                    <div class="pred-claim">The Persian Gulf conflict will result in roughly 20 million barrels of crude that can&#39;t get out</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=lpVb14yjHZw" target="_blank" rel="noopener">YouTube ↗</a>
+                    <a class="pred-claim" href="https://www.youtube.com/watch?v=lpVb14yjHZw" target="_blank" rel="noopener">The Persian Gulf conflict will result in roughly 20 million barrels of crude that can&#39;t get out ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="quantitative">
                     <div class="pred-date">2026-09-24</div>
-                    <div class="pred-claim">The US will lose the ability to maintain the supply chains that make these chips within four to six years…</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=UoqizA1bOjc" target="_blank" rel="noopener">YouTube ↗</a>
+                    <a class="pred-claim" href="https://www.youtube.com/watch?v=UoqizA1bOjc" target="_blank" rel="noopener">The US will lose the ability to maintain the supply chains that make these chips within four to six years… ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-09-24</div>
-                    <div class="pred-claim">The Chinese cannot make chips by themselves that are better than 28 nanometers and you&#39;re not going to run even a sloppy AI…</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=UoqizA1bOjc" target="_blank" rel="noopener">YouTube ↗</a>
+                    <a class="pred-claim" href="https://www.youtube.com/watch?v=UoqizA1bOjc" target="_blank" rel="noopener">The Chinese cannot make chips by themselves that are better than 28 nanometers and you&#39;re not going to run even a sloppy AI… ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-09-23</div>
-                    <div class="pred-claim">The population of Japan will continue to shrink over the next 20 years due to demographic failure</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=2qG5nrkkz1E" target="_blank" rel="noopener">YouTube ↗</a>
+                    <a class="pred-claim" href="https://www.youtube.com/watch?v=2qG5nrkkz1E" target="_blank" rel="noopener">The population of Japan will continue to shrink over the next 20 years due to demographic failure ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-09-23</div>
-                    <div class="pred-claim">Japan&#39;s population has been shrinking for the last 20 years due to demographic failure</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=2qG5nrkkz1E" target="_blank" rel="noopener">YouTube ↗</a>
+                    <a class="pred-claim" href="https://www.youtube.com/watch?v=2qG5nrkkz1E" target="_blank" rel="noopener">Japan&#39;s population has been shrinking for the last 20 years due to demographic failure ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-09-22</div>
-                    <div class="pred-claim">The business as usual of tech advancement that we&#39;ve become used to will not fly due to reduced material supplies from…</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=HAjjFACnFpA" target="_blank" rel="noopener">YouTube ↗</a>
+                    <a class="pred-claim" href="https://www.youtube.com/watch?v=HAjjFACnFpA" target="_blank" rel="noopener">The business as usual of tech advancement that we&#39;ve become used to will not fly due to reduced material supplies from… ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-09-22</div>
-                    <div class="pred-claim">The Chinese system is going to collapse for demographic reasons in a few years, assuming there&#39;s not a war or trade war.</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=HAjjFACnFpA" target="_blank" rel="noopener">YouTube ↗</a>
+                    <a class="pred-claim" href="https://www.youtube.com/watch?v=HAjjFACnFpA" target="_blank" rel="noopener">The Chinese system is going to collapse for demographic reasons in a few years, assuming there&#39;s not a war or trade war. ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-09-21</div>
-                    <div class="pred-claim">The Trump administration will set up a prize court system to legally rule on products seized by the US military from Iran&#39;s shadow fleet…</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=yBLbtMFgI-k" target="_blank" rel="noopener">YouTube ↗</a>
+                    <a class="pred-claim" href="https://www.youtube.com/watch?v=yBLbtMFgI-k" target="_blank" rel="noopener">The Trump administration will set up a prize court system to legally rule on products seized by the US military from Iran&#39;s shadow fleet… ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-09-21</div>
-                    <div class="pred-claim">The rest of the year will get really interesting due to this prize court initiative.</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=yBLbtMFgI-k" target="_blank" rel="noopener">YouTube ↗</a>
+                    <a class="pred-claim" href="https://www.youtube.com/watch?v=yBLbtMFgI-k" target="_blank" rel="noopener">The rest of the year will get really interesting due to this prize court initiative. ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-09-19</div>
-                    <div class="pred-claim">Southeast Asia, with its cluster of dozen countries including technocratic Singapore, commodity-providing Australia and New Zealand…</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=i-oKg9pv_X8" target="_blank" rel="noopener">YouTube ↗</a>
+                    <a class="pred-claim" href="https://www.youtube.com/watch?v=i-oKg9pv_X8" target="_blank" rel="noopener">Southeast Asia, with its cluster of dozen countries including technocratic Singapore, commodity-providing Australia and New Zealand… ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-09-19</div>
-                    <div class="pred-claim">The southern part of Latin America, specifically the southern cone including Chile, Argentina, Uruguay, Paraguay…</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=i-oKg9pv_X8" target="_blank" rel="noopener">YouTube ↗</a>
+                    <a class="pred-claim" href="https://www.youtube.com/watch?v=i-oKg9pv_X8" target="_blank" rel="noopener">The southern part of Latin America, specifically the southern cone including Chile, Argentina, Uruguay, Paraguay… ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="quantitative">
                     <div class="pred-date">2026-09-18</div>
-                    <div class="pred-claim">Japan&#39;s robot project will not be operational until around New Year&#39;s and will not finish the model until 2028</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=NQlL59f4OFY" target="_blank" rel="noopener">YouTube ↗</a>
+                    <a class="pred-claim" href="https://www.youtube.com/watch?v=NQlL59f4OFY" target="_blank" rel="noopener">Japan&#39;s robot project will not be operational until around New Year&#39;s and will not finish the model until 2028 ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="quantitative">
                     <div class="pred-date">2026-09-18</div>
-                    <div class="pred-claim">Japan will face a workforce shortage of more than 11 million workers as early as 2030</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=NQlL59f4OFY" target="_blank" rel="noopener">YouTube ↗</a>
+                    <a class="pred-claim" href="https://www.youtube.com/watch?v=NQlL59f4OFY" target="_blank" rel="noopener">Japan will face a workforce shortage of more than 11 million workers as early as 2030 ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
             </div>
@@ -495,212 +501,212 @@
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-09-29</div>
-                    <div class="pred-claim">National Gas has moved into the advanced engineering design phase for a 350-mile hydrogen pipeline linking St Fergus in northeast…</div>
-                    <a class="pred-source" href="https://newsletter.doomberg.com/p/going-with-the-flow" target="_blank" rel="noopener">Doomberg ↗</a>
+                    <a class="pred-claim" href="https://newsletter.doomberg.com/p/going-with-the-flow" target="_blank" rel="noopener">National Gas has moved into the advanced engineering design phase for a 350-mile hydrogen pipeline linking St Fergus in northeast… ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-09-29</div>
-                    <div class="pred-claim">National Gas plans to develop a 1,500-mile national hydrogen network connecting major industrial clusters and hydrogen production…</div>
-                    <a class="pred-source" href="https://newsletter.doomberg.com/p/going-with-the-flow" target="_blank" rel="noopener">Doomberg ↗</a>
+                    <a class="pred-claim" href="https://newsletter.doomberg.com/p/going-with-the-flow" target="_blank" rel="noopener">National Gas plans to develop a 1,500-mile national hydrogen network connecting major industrial clusters and hydrogen production… ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-09-27</div>
-                    <div class="pred-claim">Trump will call a national emergency over a diesel fuel crisis.</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=A1ao9xHy6KA" target="_blank" rel="noopener">YouTube ↗</a>
+                    <a class="pred-claim" href="https://www.youtube.com/watch?v=A1ao9xHy6KA" target="_blank" rel="noopener">Trump will call a national emergency over a diesel fuel crisis. ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-09-22</div>
-                    <div class="pred-claim">German Chancellor Friedrich Merz intends to keep pretending he has a mandate to lead, at least for now</div>
-                    <a class="pred-source" href="https://newsletter.doomberg.com/p/escalation-clauses" target="_blank" rel="noopener">Doomberg ↗</a>
+                    <a class="pred-claim" href="https://newsletter.doomberg.com/p/escalation-clauses" target="_blank" rel="noopener">German Chancellor Friedrich Merz intends to keep pretending he has a mandate to lead, at least for now ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="quantitative">
                     <div class="pred-date">2026-09-22</div>
-                    <div class="pred-claim">French President Emmanuel Macron&#39;s approval rating has fallen to a low of 16%</div>
-                    <a class="pred-source" href="https://newsletter.doomberg.com/p/escalation-clauses" target="_blank" rel="noopener">Doomberg ↗</a>
+                    <a class="pred-claim" href="https://newsletter.doomberg.com/p/escalation-clauses" target="_blank" rel="noopener">French President Emmanuel Macron&#39;s approval rating has fallen to a low of 16% ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-09-18</div>
-                    <div class="pred-claim">President Xi Jinping is set to visit Washington next week</div>
-                    <a class="pred-source" href="https://newsletter.doomberg.com/p/coming-to-america" target="_blank" rel="noopener">Doomberg ↗</a>
+                    <a class="pred-claim" href="https://newsletter.doomberg.com/p/coming-to-america" target="_blank" rel="noopener">President Xi Jinping is set to visit Washington next week ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-09-16</div>
-                    <div class="pred-claim">A &#39;Mad Max style&#39; great reset is coming with $150 oil and the Middle East at a tipping point.</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=rz8mwV7lJ8s" target="_blank" rel="noopener">YouTube ↗</a>
+                    <a class="pred-claim" href="https://www.youtube.com/watch?v=rz8mwV7lJ8s" target="_blank" rel="noopener">A &#39;Mad Max style&#39; great reset is coming with $150 oil and the Middle East at a tipping point. ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-09-16</div>
-                    <div class="pred-claim">Alberta Premier Danielle Smith will face significant political challenges in balancing natural gas exports with local consumer…</div>
-                    <a class="pred-source" href="https://newsletter.doomberg.com/p/value-trap" target="_blank" rel="noopener">Doomberg ↗</a>
+                    <a class="pred-claim" href="https://newsletter.doomberg.com/p/value-trap" target="_blank" rel="noopener">Alberta Premier Danielle Smith will face significant political challenges in balancing natural gas exports with local consumer… ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="quantitative">
                     <div class="pred-date">2026-09-16</div>
-                    <div class="pred-claim">Alberta&#39;s natural gas production will continue to increase despite political and economic pressures…</div>
-                    <a class="pred-source" href="https://newsletter.doomberg.com/p/value-trap" target="_blank" rel="noopener">Doomberg ↗</a>
+                    <a class="pred-claim" href="https://newsletter.doomberg.com/p/value-trap" target="_blank" rel="noopener">Alberta&#39;s natural gas production will continue to increase despite political and economic pressures… ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-09-09</div>
-                    <div class="pred-claim">Argentina&#39;s president Javier Milei will impose economic sanctions on firms which exploit oil close to the British overseas…</div>
-                    <a class="pred-source" href="https://newsletter.doomberg.com/p/falkland-around" target="_blank" rel="noopener">Doomberg ↗</a>
+                    <a class="pred-claim" href="https://newsletter.doomberg.com/p/falkland-around" target="_blank" rel="noopener">Argentina&#39;s president Javier Milei will impose economic sanctions on firms which exploit oil close to the British overseas… ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-09-09</div>
-                    <div class="pred-claim">The UK&#39;s position on the Falkland Islands will remain unwavering…</div>
-                    <a class="pred-source" href="https://newsletter.doomberg.com/p/falkland-around" target="_blank" rel="noopener">Doomberg ↗</a>
+                    <a class="pred-claim" href="https://newsletter.doomberg.com/p/falkland-around" target="_blank" rel="noopener">The UK&#39;s position on the Falkland Islands will remain unwavering… ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-09-05</div>
-                    <div class="pred-claim">Scientists and entrepreneurs will soon crack the problem of produced water in the Permian Basin…</div>
-                    <a class="pred-source" href="https://newsletter.doomberg.com/p/necessary-inventions" target="_blank" rel="noopener">Doomberg ↗</a>
+                    <a class="pred-claim" href="https://newsletter.doomberg.com/p/necessary-inventions" target="_blank" rel="noopener">Scientists and entrepreneurs will soon crack the problem of produced water in the Permian Basin… ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-09-05</div>
-                    <div class="pred-claim">Aggregate primary energy consumption will continue to follow an upward trend over time…</div>
-                    <a class="pred-source" href="https://newsletter.doomberg.com/p/necessary-inventions" target="_blank" rel="noopener">Doomberg ↗</a>
+                    <a class="pred-claim" href="https://newsletter.doomberg.com/p/necessary-inventions" target="_blank" rel="noopener">Aggregate primary energy consumption will continue to follow an upward trend over time… ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="quantitative">
                     <div class="pred-date">2026-09-01</div>
-                    <div class="pred-claim">The United States will secure majority control of more than 65 billion barrels of proven Oil Reserves in Venezuela at no cost to…</div>
-                    <a class="pred-source" href="https://newsletter.doomberg.com/p/with-american-characteristics" target="_blank" rel="noopener">Doomberg ↗</a>
+                    <a class="pred-claim" href="https://newsletter.doomberg.com/p/with-american-characteristics" target="_blank" rel="noopener">The United States will secure majority control of more than 65 billion barrels of proven Oil Reserves in Venezuela at no cost to… ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-09-01</div>
-                    <div class="pred-claim">This historic oil transaction will substantially lower Gas Prices for all Americans, long into the future.</div>
-                    <a class="pred-source" href="https://newsletter.doomberg.com/p/with-american-characteristics" target="_blank" rel="noopener">Doomberg ↗</a>
+                    <a class="pred-claim" href="https://newsletter.doomberg.com/p/with-american-characteristics" target="_blank" rel="noopener">This historic oil transaction will substantially lower Gas Prices for all Americans, long into the future. ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-08-28</div>
-                    <div class="pred-claim">A pipeline construction boom is coming to Canada.</div>
-                    <a class="pred-source" href="https://newsletter.doomberg.com/p/maitres-chez-nous" target="_blank" rel="noopener">Doomberg ↗</a>
+                    <a class="pred-claim" href="https://newsletter.doomberg.com/p/maitres-chez-nous" target="_blank" rel="noopener">A pipeline construction boom is coming to Canada. ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="quantitative">
                     <div class="pred-date">2026-08-18</div>
-                    <div class="pred-claim">The Caspian Pipeline Consortium (CPC) pipeline can currently carry roughly 1.4 million barrels per day (bpd) of oil to the…</div>
-                    <a class="pred-source" href="https://newsletter.doomberg.com/p/over-target" target="_blank" rel="noopener">Doomberg ↗</a>
+                    <a class="pred-claim" href="https://newsletter.doomberg.com/p/over-target" target="_blank" rel="noopener">The Caspian Pipeline Consortium (CPC) pipeline can currently carry roughly 1.4 million barrels per day (bpd) of oil to the… ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="quantitative">
                     <div class="pred-date">2026-08-13</div>
-                    <div class="pred-claim">The Russian military has effectively closed the Ukrainian port complex in and around Odessa to all shipping since July 22…</div>
-                    <a class="pred-source" href="https://newsletter.doomberg.com/p/a-minor-detail" target="_blank" rel="noopener">Doomberg ↗</a>
+                    <a class="pred-claim" href="https://newsletter.doomberg.com/p/a-minor-detail" target="_blank" rel="noopener">The Russian military has effectively closed the Ukrainian port complex in and around Odessa to all shipping since July 22… ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-08-13</div>
-                    <div class="pred-claim">Ukraine has purchased a significant package of US-made defense equipment from Turkey…</div>
-                    <a class="pred-source" href="https://newsletter.doomberg.com/p/a-minor-detail" target="_blank" rel="noopener">Doomberg ↗</a>
+                    <a class="pred-claim" href="https://newsletter.doomberg.com/p/a-minor-detail" target="_blank" rel="noopener">Ukraine has purchased a significant package of US-made defense equipment from Turkey… ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="quantitative">
                     <div class="pred-date">2026-08-09</div>
-                    <div class="pred-claim">Energy Secretary Chris Wright has said about 35 to 40 million barrels of extra oil will be returned this year and next in the…</div>
-                    <a class="pred-source" href="https://newsletter.doomberg.com/p/endangered-specious" target="_blank" rel="noopener">Doomberg ↗</a>
+                    <a class="pred-claim" href="https://newsletter.doomberg.com/p/endangered-specious" target="_blank" rel="noopener">Energy Secretary Chris Wright has said about 35 to 40 million barrels of extra oil will be returned this year and next in the… ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="quantitative">
                     <div class="pred-date">2026-08-09</div>
-                    <div class="pred-claim">In July, for the third straight month, Venezuelan oil exports surpassed 1 million barrels per day…</div>
-                    <a class="pred-source" href="https://newsletter.doomberg.com/p/endangered-specious" target="_blank" rel="noopener">Doomberg ↗</a>
+                    <a class="pred-claim" href="https://newsletter.doomberg.com/p/endangered-specious" target="_blank" rel="noopener">In July, for the third straight month, Venezuelan oil exports surpassed 1 million barrels per day… ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-08-04</div>
-                    <div class="pred-claim">The final days of the European Union itself are far closer than most are modeling.</div>
-                    <a class="pred-source" href="https://newsletter.doomberg.com/p/passing-gas" target="_blank" rel="noopener">Doomberg ↗</a>
+                    <a class="pred-claim" href="https://newsletter.doomberg.com/p/passing-gas" target="_blank" rel="noopener">The final days of the European Union itself are far closer than most are modeling. ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-08-04</div>
-                    <div class="pred-claim">Brussels is considering a new approach to Russia sanctions that would speed up approval of more targeted financial restrictions…</div>
-                    <a class="pred-source" href="https://newsletter.doomberg.com/p/passing-gas" target="_blank" rel="noopener">Doomberg ↗</a>
+                    <a class="pred-claim" href="https://newsletter.doomberg.com/p/passing-gas" target="_blank" rel="noopener">Brussels is considering a new approach to Russia sanctions that would speed up approval of more targeted financial restrictions… ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-07-31</div>
-                    <div class="pred-claim">Recent studies estimate that up to 90 percent of sanctioned goods still reaching Russia transit through China.</div>
-                    <a class="pred-source" href="https://newsletter.doomberg.com/p/geopolitical-checkers" target="_blank" rel="noopener">Doomberg ↗</a>
+                    <a class="pred-claim" href="https://newsletter.doomberg.com/p/geopolitical-checkers" target="_blank" rel="noopener">Recent studies estimate that up to 90 percent of sanctioned goods still reaching Russia transit through China. ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-07-31</div>
-                    <div class="pred-claim">China&#39;s response to EU sanctions will be swift and strategic, acting in under a day with carefully planned…</div>
-                    <a class="pred-source" href="https://newsletter.doomberg.com/p/geopolitical-checkers" target="_blank" rel="noopener">Doomberg ↗</a>
+                    <a class="pred-claim" href="https://newsletter.doomberg.com/p/geopolitical-checkers" target="_blank" rel="noopener">China&#39;s response to EU sanctions will be swift and strategic, acting in under a day with carefully planned… ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="quantitative">
                     <div class="pred-date">2026-07-26</div>
-                    <div class="pred-claim">Matthew Smith believes the US is heading toward a natural gas shortage with no precedent, beginning in 2028.</div>
-                    <a class="pred-source" href="https://newsletter.doomberg.com/p/demand-push" target="_blank" rel="noopener">Doomberg ↗</a>
+                    <a class="pred-claim" href="https://newsletter.doomberg.com/p/demand-push" target="_blank" rel="noopener">Matthew Smith believes the US is heading toward a natural gas shortage with no precedent, beginning in 2028. ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="quantitative">
                     <div class="pred-date">2026-07-26</div>
-                    <div class="pred-claim">By 2030, Matthew Smith believes we could exhaust our working natural gas storage entirely.</div>
-                    <a class="pred-source" href="https://newsletter.doomberg.com/p/demand-push" target="_blank" rel="noopener">Doomberg ↗</a>
+                    <a class="pred-claim" href="https://newsletter.doomberg.com/p/demand-push" target="_blank" rel="noopener">By 2030, Matthew Smith believes we could exhaust our working natural gas storage entirely. ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-07-22</div>
-                    <div class="pred-claim">China&#39;s monthly car exports will continue to exceed America&#39;s entire capacity to make cars…</div>
-                    <a class="pred-source" href="https://newsletter.doomberg.com/p/old-tapes" target="_blank" rel="noopener">Doomberg ↗</a>
+                    <a class="pred-claim" href="https://newsletter.doomberg.com/p/old-tapes" target="_blank" rel="noopener">China&#39;s monthly car exports will continue to exceed America&#39;s entire capacity to make cars… ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-07-22</div>
-                    <div class="pred-claim">The US AI industry will face similar treatment as China&#39;s automotive industry…</div>
-                    <a class="pred-source" href="https://newsletter.doomberg.com/p/old-tapes" target="_blank" rel="noopener">Doomberg ↗</a>
+                    <a class="pred-claim" href="https://newsletter.doomberg.com/p/old-tapes" target="_blank" rel="noopener">The US AI industry will face similar treatment as China&#39;s automotive industry… ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-07-14</div>
-                    <div class="pred-claim">Bloom Energy will continue to expand its fuel cell capacity to meet demand growth…</div>
-                    <a class="pred-source" href="https://newsletter.doomberg.com/p/artificial-bloom" target="_blank" rel="noopener">Doomberg ↗</a>
+                    <a class="pred-claim" href="https://newsletter.doomberg.com/p/artificial-bloom" target="_blank" rel="noopener">Bloom Energy will continue to expand its fuel cell capacity to meet demand growth… ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-07-10</div>
-                    <div class="pred-claim">Russia plans to import 400,000 tons of gasoline from various countries each month, including from neighbouring Belarus…</div>
-                    <a class="pred-source" href="https://newsletter.doomberg.com/p/sources-and-methods" target="_blank" rel="noopener">Doomberg ↗</a>
+                    <a class="pred-claim" href="https://newsletter.doomberg.com/p/sources-and-methods" target="_blank" rel="noopener">Russia plans to import 400,000 tons of gasoline from various countries each month, including from neighbouring Belarus… ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="quantitative">
                     <div class="pred-date">2026-07-10</div>
-                    <div class="pred-claim">Russia imports approximately 12% of its peak summer gasoline demand through imports.</div>
-                    <a class="pred-source" href="https://newsletter.doomberg.com/p/sources-and-methods" target="_blank" rel="noopener">Doomberg ↗</a>
+                    <a class="pred-claim" href="https://newsletter.doomberg.com/p/sources-and-methods" target="_blank" rel="noopener">Russia imports approximately 12% of its peak summer gasoline demand through imports. ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-05-14</div>
-                    <div class="pred-claim">Gold is signaling a massive regime change in global finance.</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=c6z64C7aGmo" target="_blank" rel="noopener">YouTube ↗</a>
+                    <a class="pred-claim" href="https://www.youtube.com/watch?v=c6z64C7aGmo" target="_blank" rel="noopener">Gold is signaling a massive regime change in global finance. ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2024-12-16</div>
-                    <div class="pred-claim">China will conquer semiconductors just as it has conquered EVs and solar.</div>
-                    <a class="pred-source" href="https://newsletter.doomberg.com/p/chip-shot" target="_blank" rel="noopener">Doomberg ↗</a>
+                    <a class="pred-claim" href="https://newsletter.doomberg.com/p/chip-shot" target="_blank" rel="noopener">China will conquer semiconductors just as it has conquered EVs and solar. ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="quantitative">
                     <div class="pred-date">2024-04-30</div>
-                    <div class="pred-claim">Natural gas and oil will set new records in 2024 — the green transition is over.</div>
-                    <a class="pred-source" href="https://newsletter.doomberg.com/p/hot-pockets" target="_blank" rel="noopener">Doomberg ↗</a>
+                    <a class="pred-claim" href="https://newsletter.doomberg.com/p/hot-pockets" target="_blank" rel="noopener">Natural gas and oil will set new records in 2024 — the green transition is over. ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
             </div>
@@ -710,32 +716,32 @@
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-09-13</div>
-                    <div class="pred-claim">We could double the human lifespan and cure all disease within the next 10 years.</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=H5ZLorBJCDk" target="_blank" rel="noopener">YouTube ↗</a>
+                    <a class="pred-claim" href="https://www.youtube.com/watch?v=H5ZLorBJCDk" target="_blank" rel="noopener">We could double the human lifespan and cure all disease within the next 10 years. ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="quantitative">
                     <div class="pred-date">2026-06-08</div>
-                    <div class="pred-claim">More than 80% of code merges into AI codebases will be written by AI itself within 2 years.</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=P2HJEz3oqLs" target="_blank" rel="noopener">YouTube ↗</a>
+                    <a class="pred-claim" href="https://www.youtube.com/watch?v=P2HJEz3oqLs" target="_blank" rel="noopener">More than 80% of code merges into AI codebases will be written by AI itself within 2 years. ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="quantitative">
                     <div class="pred-date">2026-05-31</div>
-                    <div class="pred-claim">By 2029 we&#39;ll have AI as capable as 8 billion humans — it&#39;s getting 10x better per year.</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=RF0KucU_low" target="_blank" rel="noopener">YouTube ↗</a>
+                    <a class="pred-claim" href="https://www.youtube.com/watch?v=RF0KucU_low" target="_blank" rel="noopener">By 2029 we&#39;ll have AI as capable as 8 billion humans — it&#39;s getting 10x better per year. ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="quantitative">
                     <div class="pred-date">2026-05-16</div>
-                    <div class="pred-claim">AI agents will automate 30% of knowledge work by end of 2026. The shift has already begun.</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=ChHnxi2JyHE" target="_blank" rel="noopener">YouTube ↗</a>
+                    <a class="pred-claim" href="https://www.youtube.com/watch?v=ChHnxi2JyHE" target="_blank" rel="noopener">AI agents will automate 30% of knowledge work by end of 2026. The shift has already begun. ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="quantitative">
                     <div class="pred-date">2024-11-08</div>
-                    <div class="pred-claim">By 2040 there will be more humanoid robots than people on Earth — 10 billion+.</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=mofEOSUkMpA" target="_blank" rel="noopener">YouTube ↗</a>
+                    <a class="pred-claim" href="https://www.youtube.com/watch?v=mofEOSUkMpA" target="_blank" rel="noopener">By 2040 there will be more humanoid robots than people on Earth — 10 billion+. ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
             </div>
@@ -745,62 +751,62 @@
                 
                 <div class="pred-entry" data-mtype="quantitative">
                     <div class="pred-date">2026-09-30</div>
-                    <div class="pred-claim">If Bolsonaro wins, we will see a warmer relationship with the United States almost immediately.</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=ZKx63e96Yow" target="_blank" rel="noopener">YouTube ↗</a>
+                    <a class="pred-claim" href="https://www.youtube.com/watch?v=ZKx63e96Yow" target="_blank" rel="noopener">If Bolsonaro wins, we will see a warmer relationship with the United States almost immediately. ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-09-30</div>
-                    <div class="pred-claim">Brazil would suddenly go after drug gangs as terrorist organizations and cooperate with the US directly on intelligence and…</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=ZKx63e96Yow" target="_blank" rel="noopener">YouTube ↗</a>
+                    <a class="pred-claim" href="https://www.youtube.com/watch?v=ZKx63e96Yow" target="_blank" rel="noopener">Brazil would suddenly go after drug gangs as terrorist organizations and cooperate with the US directly on intelligence and… ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="quantitative">
                     <div class="pred-date">2026-09-28</div>
-                    <div class="pred-claim">The US government is not prepared to take a lead in regulation or governance of AI…</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=bd8F5n2QQpo" target="_blank" rel="noopener">YouTube ↗</a>
+                    <a class="pred-claim" href="https://www.youtube.com/watch?v=bd8F5n2QQpo" target="_blank" rel="noopener">The US government is not prepared to take a lead in regulation or governance of AI… ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-09-28</div>
-                    <div class="pred-claim">There will be a policy backlash against AI due to incidents like OpenAI&#39;s unauthorized access to Australia&#39;s public health system…</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=bd8F5n2QQpo" target="_blank" rel="noopener">YouTube ↗</a>
+                    <a class="pred-claim" href="https://www.youtube.com/watch?v=bd8F5n2QQpo" target="_blank" rel="noopener">There will be a policy backlash against AI due to incidents like OpenAI&#39;s unauthorized access to Australia&#39;s public health system… ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-09-23</div>
-                    <div class="pred-claim">The US and China are setting up their upcoming meeting to go well because President Trump is looking short-term and Xi Jinping is…</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=K-cdYtuEn4A" target="_blank" rel="noopener">YouTube ↗</a>
+                    <a class="pred-claim" href="https://www.youtube.com/watch?v=K-cdYtuEn4A" target="_blank" rel="noopener">The US and China are setting up their upcoming meeting to go well because President Trump is looking short-term and Xi Jinping is… ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-09-23</div>
-                    <div class="pred-claim">The United States and China are actively competing in artificial intelligence…</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=K-cdYtuEn4A" target="_blank" rel="noopener">YouTube ↗</a>
+                    <a class="pred-claim" href="https://www.youtube.com/watch?v=K-cdYtuEn4A" target="_blank" rel="noopener">The United States and China are actively competing in artificial intelligence… ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-09-21</div>
-                    <div class="pred-claim">Trump will announce a deal on Greenland at his speech at the United Nations this week</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=bhtfC7iqbdo" target="_blank" rel="noopener">YouTube ↗</a>
+                    <a class="pred-claim" href="https://www.youtube.com/watch?v=bhtfC7iqbdo" target="_blank" rel="noopener">Trump will announce a deal on Greenland at his speech at the United Nations this week ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-09-21</div>
-                    <div class="pred-claim">The United States has been diminished as a global disrupter compared to where it was 12-18 months ago</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=bhtfC7iqbdo" target="_blank" rel="noopener">YouTube ↗</a>
+                    <a class="pred-claim" href="https://www.youtube.com/watch?v=bhtfC7iqbdo" target="_blank" rel="noopener">The United States has been diminished as a global disrupter compared to where it was 12-18 months ago ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-09-18</div>
-                    <div class="pred-claim">Anthropic, the AI company, revealed that it had blocked several users of its popular platform Claude from using its models to…</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=Fehm0E4RbzU" target="_blank" rel="noopener">YouTube ↗</a>
+                    <a class="pred-claim" href="https://www.youtube.com/watch?v=Fehm0E4RbzU" target="_blank" rel="noopener">Anthropic, the AI company, revealed that it had blocked several users of its popular platform Claude from using its models to… ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
                 <div class="pred-entry" data-mtype="subjective">
                     <div class="pred-date">2026-09-18</div>
-                    <div class="pred-claim">AI makes it easier for humans to set off a crisis they can&#39;t control…</div>
-                    <a class="pred-source" href="https://www.youtube.com/watch?v=Fehm0E4RbzU" target="_blank" rel="noopener">YouTube ↗</a>
+                    <a class="pred-claim" href="https://www.youtube.com/watch?v=Fehm0E4RbzU" target="_blank" rel="noopener">AI makes it easier for humans to set off a crisis they can&#39;t control… ↗</a>
+                    <div class="verdict-box">Panel Judgement: TBD</div>
                 </div>
                 
             </div>
@@ -927,12 +933,13 @@
             grid.innerHTML = filtered.map(function(p) {
                 var cat = p.category || 'other';
                 var color = colors[cat] || '#6b7280';
-                var label = sourceLabel(p.source_url);
+                var verdict = p.verdict || 'TBD';
+                var verdictColor = verdict === 'correct' ? '#22c55e' : verdict === 'wrong' ? '#ef4444' : 'var(--text-muted)';
                 return '<div class="detail-card">'
                     + '<div class="dc-date">' + (p.date || '') + '</div>'
-                    + '<div class="dc-claim">' + condense(p.claim || '') + '</div>'
+                    + '<a class="dc-claim" href="' + p.source_url + '" target="_blank" rel="noopener" style="color:#f97316;text-decoration:none;cursor:pointer;">' + condense(p.claim || '') + ' ↗</a>'
                     + '<span class="dc-cat" style="background:' + color + '">' + cat + '</span>'
-                    + '<a class="dc-source" href="' + p.source_url + '" target="_blank" rel="noopener">' + label + ' ↗</a>'
+                    + '<div class="verdict-box" style="color:' + verdictColor + '">Panel Judgement: ' + verdict + '</div>'
                     + '</div>';
             }).join('');
             document.getElementById('detail-overlay').classList.add('open');
