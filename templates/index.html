@@ -308,8 +308,8 @@
                 </div>
                 <div class="scorecard">
                     <span class="score-total" id="count-{{ loop.index0 }}">{{ ind.total_count }} total</span>
-                    <span class="score-correct">👍 {{ ind.correct_count }}</span>
-                    <span class="score-wrong">👎 {{ ind.wrong_count }}</span>
+                    <span class="score-correct" style="cursor:pointer" onclick="showDetail('{{ ind.name }}','correct')">👍 {{ ind.correct_count }}</span>
+                    <span class="score-wrong" style="cursor:pointer" onclick="showDetail('{{ ind.name }}','wrong')">👎 {{ ind.wrong_count }}</span>
                 </div>
             </div>
             {% endfor %}
@@ -435,18 +435,23 @@
             if (idx > 60) return claim.slice(0, idx) + '…';
             return claim.slice(0,120) + '…';
         }
-        function showDetail(name) {
+        function showDetail(name, verdictFilter) {
             var data = JSON.parse(document.getElementById('all-preds').textContent);
             var colors = JSON.parse(document.getElementById('cat-colors').textContent);
             var preds = data[name] || [];
             // Apply current filters
             var filtered = preds.filter(function(p) {
+                // If verdictFilter is set, only show that verdict
+                if (verdictFilter) {
+                    return p.verdict === verdictFilter;
+                }
                 var mtype = p.measurement_type || 'subjective';
                 if (filters.objective && mtype === 'quantitative') return true;
                 if (filters.subjective && mtype === 'subjective') return true;
                 return false;
             });
-            document.getElementById('detail-title').textContent = name + ' — ' + filtered.length + ' predictions';
+            var label = verdictFilter === 'correct' ? ' (Correct ✓)' : verdictFilter === 'wrong' ? ' (Wrong ✗)' : '';
+            document.getElementById('detail-title').textContent = name + ' — ' + filtered.length + ' predictions' + label;
             var grid = document.getElementById('detail-grid');
             grid.innerHTML = filtered.map(function(p) {
                 var cat = p.category || 'other';

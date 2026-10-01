@@ -308,8 +308,8 @@
                 </div>
                 <div class="scorecard">
                     <span class="score-total" id="count-0">18 total</span>
-                    <span class="score-correct">👍 0</span>
-                    <span class="score-wrong">👎 0</span>
+                    <span class="score-correct" style="cursor:pointer" onclick="showDetail('Peter Zeihan','correct')">👍 0</span>
+                    <span class="score-wrong" style="cursor:pointer" onclick="showDetail('Peter Zeihan','wrong')">👎 0</span>
                 </div>
             </div>
             
@@ -327,8 +327,8 @@
                 </div>
                 <div class="scorecard">
                     <span class="score-total" id="count-1">35 total</span>
-                    <span class="score-correct">👍 0</span>
-                    <span class="score-wrong">👎 0</span>
+                    <span class="score-correct" style="cursor:pointer" onclick="showDetail('Doomberg','correct')">👍 0</span>
+                    <span class="score-wrong" style="cursor:pointer" onclick="showDetail('Doomberg','wrong')">👎 0</span>
                 </div>
             </div>
             
@@ -351,8 +351,8 @@
                 </div>
                 <div class="scorecard">
                     <span class="score-total" id="count-2">5 total</span>
-                    <span class="score-correct">👍 0</span>
-                    <span class="score-wrong">👎 0</span>
+                    <span class="score-correct" style="cursor:pointer" onclick="showDetail('Peter Diamandis','correct')">👍 0</span>
+                    <span class="score-wrong" style="cursor:pointer" onclick="showDetail('Peter Diamandis','wrong')">👎 0</span>
                 </div>
             </div>
             
@@ -375,8 +375,8 @@
                 </div>
                 <div class="scorecard">
                     <span class="score-total" id="count-3">10 total</span>
-                    <span class="score-correct">👍 0</span>
-                    <span class="score-wrong">👎 0</span>
+                    <span class="score-correct" style="cursor:pointer" onclick="showDetail('Ian Bremmer','correct')">👍 0</span>
+                    <span class="score-wrong" style="cursor:pointer" onclick="showDetail('Ian Bremmer','wrong')">👎 0</span>
                 </div>
             </div>
             
@@ -917,18 +917,23 @@
             if (idx > 60) return claim.slice(0, idx) + '…';
             return claim.slice(0,120) + '…';
         }
-        function showDetail(name) {
+        function showDetail(name, verdictFilter) {
             var data = JSON.parse(document.getElementById('all-preds').textContent);
             var colors = JSON.parse(document.getElementById('cat-colors').textContent);
             var preds = data[name] || [];
             // Apply current filters
             var filtered = preds.filter(function(p) {
+                // If verdictFilter is set, only show that verdict
+                if (verdictFilter) {
+                    return p.verdict === verdictFilter;
+                }
                 var mtype = p.measurement_type || 'subjective';
                 if (filters.objective && mtype === 'quantitative') return true;
                 if (filters.subjective && mtype === 'subjective') return true;
                 return false;
             });
-            document.getElementById('detail-title').textContent = name + ' — ' + filtered.length + ' predictions';
+            var label = verdictFilter === 'correct' ? ' (Correct ✓)' : verdictFilter === 'wrong' ? ' (Wrong ✗)' : '';
+            document.getElementById('detail-title').textContent = name + ' — ' + filtered.length + ' predictions' + label;
             var grid = document.getElementById('detail-grid');
             grid.innerHTML = filtered.map(function(p) {
                 var cat = p.category || 'other';
