@@ -35,11 +35,11 @@ def fetch_quick_takes():
         vid = entry.get("id") or entry.get("url", "")
         if not vid:
             continue
-        # Focus on Quick Takes and Ian Explains - those have the predictions
+        # ONLY include Quick Takes / Ian Explains / Ask Ian — skip everything else
         title_lower = title.lower()
         if not any(kw in title_lower for kw in ["quick take", "ian explain", "ian bremmer explain", "ask ian"]):
-            # Still include but with lower priority - we'll take top 2 per video anyway
-            pass
+            logger.debug("Skipping non-Quick-Take: %s", title)
+            continue
         # Get upload date
         upload_raw = ""
         try:
@@ -69,12 +69,35 @@ def fetch_quick_takes():
     return videos
 
 def fetch_transcript(video_id):
-    """Fetch transcript for a YouTube video."""
+    """Fetch transcript using yt-dlp (youtube_transcript_api is IP-blocked)."""
     try:
-        from youtube_transcript_api import YouTubeTranscriptApi
-        api = YouTubeTranscriptApi()
-        transcript = api.fetch(video_id)
-        text = " ".join(snippet.text for snippet in transcript).strip()
+        import yt_dlp as _ydl
+        import urllib.request
+        opts = {
+            "quiet": True, "no_warnings": True, "skip_download": True,
+            "writesubtitles": True, "writeautomaticsub": True,
+            "subtitleslangs": ["en", "en-US", "en-orig"],
+            "subtitlesformat": "json3",
+        }
+        with _ydl.YoutubeDL(opts) as ydl:
+            info = ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=False)
+        subs = info.get("subtitles", {}) or {}
+        auto = info.get("automatic_captions", {}) or {}
+        en = subs.get("en") or subs.get("en-US") or auto.get("en") or auto.get("en-US")
+        if not en:
+            return None
+        url = en[0].get("url", "")
+        if not url:
+            return None
+        with urllib.request.urlopen(url, timeout=30) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+        texts = []
+        for event in data.get("events", []):
+            segs = event.get("segs", [])
+            line = "".join(s.get("utf8", "") for s in segs).strip()
+            if line:
+                texts.append(line)
+        text = " ".join(texts).strip()
         return text if text else None
     except Exception as e:
         logger.debug("No transcript for %s: %s", video_id, e)
@@ -83,7 +106,7 @@ def fetch_transcript(video_id):
 def extract_predictions(transcript, video_url, individual_name, categories, upload_date=None):
     """Send transcript to LLM and extract predictions."""
     LLM_ENDPOINTS = [
-        {"url": "http://127.0.0.1:8081/v1/chat/completions", "model": "qwen3-coder:30b"},
+        {"url": "http://127.0.0.1:8081/v1/chat/completions", "model": "qwen3.8-27b"},
         {"url": "http://upthread64.tail5b3b50.ts.net:11434/v1/chat/completions", "model": "qwen3-coder:30b-32k"},
     ]
     cats_str = ", ".join(categories)
@@ -192,9 +215,9 @@ def main():
 
     # Make sure Ian Bremmer is a tracked individual
     existing_names = {i['name'] for i in data['individuals']}
-    if 'Ian Bremmer (GZERO Media)' not in existing_names:
+    if 'Ian Bremmer' not in existing_names:
         data['individuals'].append({
-            'name': 'Ian Bremmer (GZERO Media)',
+            'name': 'Ian Bremmer',
             'handle': 'gzero',
             'sources': ['https://www.youtube.com/@GZEROMedia/videos'],
             'categories': ['geopolitics']
@@ -222,7 +245,7 @@ def main():
         preds = extract_predictions(
             transcript=transcript,
             video_url=video['url'],
-            individual_name="Ian Bremmer (GZERO Media)",
+            individual_name="Ian Bremmer",
             categories=CATEGORIES,
             upload_date=video['upload_date'],
         )
