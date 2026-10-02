@@ -63,6 +63,7 @@ def process(channel, vids):
     out_lock = threading.Lock()
 
     def work(vid):
+        vid = vid.strip()
         url = f"https://www.youtube.com/watch?v={vid}"
         meta = queue.get(vid, {})
         title = meta.get("title", "")
