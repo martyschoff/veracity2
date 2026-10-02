@@ -48,10 +48,38 @@ AI_KEYWORD_RE = re.compile(r"\b(?:a\.?i\.?|artificial[\s-]+intelligence)\b", re.
 AI_PANEL_WEIGHT = 0.5
 QUANT_PROMPT = (
     "Only include predictions made by the AUTHOR in their own voice. "
+    "Return a 'claim_origin' field for each: 'own' (first-person assertion), "
+    "'reported' (author relays someone else's forecast), 'quoted' (inside quotes/attributed), "
+    "'unclear'. Only return claims with claim_origin 'own'; when 'reported'/'quoted' and the "
+    "third party is identifiable, include 'third_party_source'. "
     "Never extract predictions from quoted material, blockquotes, tweets, or statements "
     "attributed to other people - even if the author appears to endorse them. "
     "If a claim is inside quotation marks or attributed to someone else, exclude it. "
 )
+
+# Ownership framing required in the supporting excerpt (BUILD 4)
+OWNERSHIP_RE = re.compile(
+    r"\b(I|we|my|our)\s+(think|believe|expect|predict|forecast|see|suspect|reckon|would|will|'m|'ll|do)\b"
+    r"|\bin my (view|opinion|judgment|judgement)\b"
+    r"|\bmy (view|expectation|expectations|prediction|forecast|sense)\b"
+    r"|\b(I|we)\s+would\s+(expect|say)\b",
+    re.IGNORECASE,
+)
+
+GUEST_POOL_FILE = BASE_DIR / "data" / "guest_pool.json"
+
+
+def append_guest_pool(entry: dict) -> None:
+    try:
+        pool = []
+        if GUEST_POOL_FILE.exists():
+            with open(GUEST_POOL_FILE, "r", encoding="utf-8") as f:
+                pool = json.load(f)
+        pool.append(entry)
+        with open(GUEST_POOL_FILE, "w", encoding="utf-8") as f:
+            json.dump(pool, f, indent=2, ensure_ascii=False)
+    except Exception as e:
+        logger.debug("Failed to append guest pool entry: %s", e)
 
 
 # ---- State helpers ----
@@ -183,6 +211,27 @@ def extract_predictions(text: str, source_url: str, author: str,
             continue
         claim = (item.get("claim") or "").strip()
         if not claim:
+            continue
+        # Claim-origin gate: reported/quoted -> guest pool, unclear -> drop
+        origin = (item.get("claim_origin") or "").lower().strip()
+        if origin not in ("own", "reported", "quoted", "unclear"):
+            origin = "unclear"
+        if origin in ("reported", "quoted"):
+            append_guest_pool({
+                "speaker": (item.get("third_party_source") or "unknown third party"),
+                "claim": claim,
+                "date": source_date,
+                "source_url": source_url,
+                "reason": f"claim_origin={origin} (pipeline extractor); attributed to {author}'s content",
+            })
+            logger.info("  Skipping %s-claim (-> guest pool): %s", origin, claim[:60])
+            continue
+        if origin == "unclear":
+            logger.info("  Skipping unclear-origin claim: %s", claim[:60])
+            continue
+        excerpt = (item.get("excerpt") or "").strip()
+        if not OWNERSHIP_RE.search(excerpt or claim):
+            logger.info("  Skipping: no ownership framing in excerpt: %s", claim[:60])
             continue
         cat = (item.get("category") or "other").lower().strip()
         if cat not in valid_cats:
@@ -368,7 +417,8 @@ def qa_approve(pred: dict, verdict: str) -> bool:
         "Review the prediction, the verdict, and each panelist's reasoning. "
         "Approve only if the verdict is supported by the reasoning and the "
         "reasoning is factually plausible and on-topic. "
-        "Answer with JSON: {\"approve\": true|false, \"reason\": \"one sentence\"}."
+        "Answer with JSON: {\"approve\": true|false, \"reason\": \"one sentence\"}. "
+        "Additionally reject if the claim reports a third party's forecast rather than the speaker's own view."
     )
     user = (f"Prediction (made {pred.get('date')}): {pred.get('claim')}\n"
             f"Computed verdict: {verdict}\n\nJudgements:\n{bundle}")
