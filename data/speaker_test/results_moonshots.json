@@ -1,0 +1,74 @@
+{
+ "endpoint_used": "nimo128 (Ollama qwen3:32b on HermesMac)",
+ "results": [
+  {
+   "test": "moonshots_susskind",
+   "cast": {
+    "speakers": [
+     {
+      "name": "Mike Parsons",
+      "role": "host",
+      "evidence": "Introduces himself as 'your co-host, Mike Parsons' in the transcript."
+     },
+     {
+      "name": "Mark Pearson Fillland",
+      "role": "host",
+      "evidence": "Referred to as 'Mr. Mark Pearson Fillland' and interacts with Mike as co-host."
+     },
+     {
+      "name": "Daniel Susskind",
+      "role": "guest",
+      "evidence": "Named in the title and description as the author of 'Growth'; his voice is quoted in the transcript (e.g., 'I think the metaphor that many policymakers...')."
+     }
+    ],
+    "single_person": false
+   },
+   "predictions": [
+    {
+     "speaker": "Daniel Susskind",
+     "claim": "Prosperity in the 21st century will come from technologies that balance economic growth with societal values (e.g., protecting the environment, reducing inequality) rather than purely maximizing material prosperity.",
+     "category": "geopolitics",
+     "excerpt": "That it seems to me is where prosperity will come from in the 21st century."
+    }
+   ],
+   "unattributed": [],
+   "allocation": {
+    "tracked": {},
+    "guests": [
+     {
+      "speaker": "Daniel Susskind",
+      "claim": "Prosperity in the 21st century will come from technologies that balance economic growth with societal values (e.g., protecting the environment, reducing inequality) rather than purely maximizing material prosperity.",
+      "category": "geopolitics",
+      "date": "20260920",
+      "source_url": "https://www.youtube.com/watch?v=eWTfjnkaH0c",
+      "excerpt": "That it seems to me is where prosperity will come from in the 21st century."
+     }
+    ]
+   }
+  },
+  {
+   "test": "moonshots_housel",
+   "cast": {
+    "speakers": [
+     {
+      "name": "Mike Parsons",
+      "role": "host",
+      "evidence": "Self-identified in transcript: 'I'm your co-host Mike Parsons'"
+     },
+     {
+      "name": "Mark Pearson Freeland",
+      "role": "host",
+      "evidence": "Self-identified in transcript: 'as always, I'm joined by the man himself, Mr. Mark Pearson Freeland'"
+     }
+    ],
+    "single_person": false
+   },
+   "predictions": [],
+   "unattributed": [],
+   "allocation": {
+    "tracked": {},
+    "guests": []
+   }
+  }
+ ]
+}
