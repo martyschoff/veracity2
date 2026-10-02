@@ -331,6 +331,20 @@ def llm_assess(pred: dict) -> dict | None:
 MAX_TESTS_PER_RUN = 20  # 2 runs/day = 40/day; clears the 227 backlog in ~6 days
 
 
+def volume_liberal(pred: dict, data: dict) -> bool:
+    """Excess rule (user directive): QA may toss liberally when a person has an
+    abundance of predictions — total > 100, or > 10 in the same month."""
+    person = pred.get("individual_name", "")
+    total = sum(1 for p in data["predictions"] if p.get("individual_name") == person)
+    if total > 100:
+        return True
+    month = (pred.get("date") or "")[:7]
+    per_month = sum(1 for p in data["predictions"]
+                    if p.get("individual_name") == person
+                    and (p.get("date") or "")[:7] == month)
+    return per_month > 10
+
+
 def qa_approve(pred: dict, verdict: str) -> bool:
     """QA judge: a separate local-model pass reviews the judgement bundle.
 
@@ -353,6 +367,10 @@ def qa_approve(pred: dict, verdict: str) -> bool:
     user = (f"Prediction (made {pred.get('date')}): {pred.get('claim')}\n"
             f"Computed verdict: {verdict}\n\nJudgements:\n{bundle}")
     try:
+        if volume_liberal(pred, load_data()):
+            system += (" EXCESS MODE: this person has an abundance of predictions, "
+                       "so be strict — reject verdicts with weak, vague, or thin "
+                       "reasoning rather than approving borderline cases.")
         raw = call_llm(system, user, max_tokens=400)
         if not raw:
             return True  # QA unavailable -> do not block
