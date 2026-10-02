@@ -46,6 +46,9 @@ LLM_ENDPOINTS = [
      "model": "qwen3-coder:30b-32k"},
 ]
 
+# Producers (extraction, panelist votes, fact-check) — nimo128 first
+PRODUCER_ENDPOINTS = LLM_ENDPOINTS[1:]
+
 # Judges used ONLY for QA review (not production/extraction)
 QA_JUDGE_ENDPOINTS = [
     {"url": "http://tower1.tail5b3b50.ts.net:11434/v1/chat/completions",
@@ -190,7 +193,7 @@ def extract_predictions(text: str, source_url: str, author: str,
         "(dates, quantities, prices, election results). "
         "If no predictions found, return []."
     )
-    raw = call_llm(system, f"Source from {author}, published {source_date}:\n\n{text[:8000]}")
+    raw = call_llm(system, f"Source from {author}, published {source_date}:\n\n{text[:8000]}", endpoints=PRODUCER_ENDPOINTS)
     if not raw:
         return []
 
@@ -339,7 +342,7 @@ def fact_check_lookup(pred: dict) -> dict | None:
                 )
                 user = (f"Prediction: {claim}\n"
                         f"Fact-check article: {r.get('title')}\n{r.get('description')}")
-                raw = call_llm(system, user, max_tokens=200)
+                raw = call_llm(system, user, max_tokens=200, endpoints=PRODUCER_ENDPOINTS)
                 if raw:
                     try:
                         m = re.search(r"\{.*\}", raw, re.DOTALL)
@@ -376,7 +379,7 @@ def llm_assess(pred: dict) -> dict | None:
            "For subjective predictions, judge whether the overall direction/event occurred. ")
         + "Use 'unclear' if you genuinely cannot assess it or it hasn't resolved yet."
     )
-    raw = call_llm(system, f"Prediction (made {pred.get('date')}): {claim}", max_tokens=200)
+    raw = call_llm(system, f"Prediction (made {pred.get('date')}): {claim}", max_tokens=200, endpoints=PRODUCER_ENDPOINTS)
     if not raw:
         return None
     try:
