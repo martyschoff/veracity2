@@ -785,7 +785,8 @@
       ],
       "stated_count": 2,
       "marty_agrees": false,
-      "marty_note": "MartyPredicts: Wrong"
+      "marty_note": "MartyPredicts: Wrong",
+      "mc_status": "queued"
     },
     {
       "id": "pred_20260930192033_e72d59032a15",
@@ -802,7 +803,8 @@
       "testing_since": "2026-10-01",
       "judgements": [],
       "marty_agrees": false,
-      "marty_note": "MartyPredicts: Wrong"
+      "marty_note": "MartyPredicts: Wrong",
+      "mc_status": "queued"
     },
     {
       "id": "pred_20260930191615_d79e00a2d5fb",
@@ -974,21 +976,6 @@
       "judgements": []
     },
     {
-      "id": "pred_doomberg_a77496c4",
-      "individual_name": "Doomberg",
-      "date": "2024-12-16",
-      "category": "china",
-      "claim": "China will conquer semiconductors just as it has conquered EVs and solar.",
-      "source_url": "https://newsletter.doomberg.com/p/chip-shot",
-      "transcript_excerpt": "China will conquer semiconductors just as it has conquered EVs and solar",
-      "verdict": null,
-      "created_at": "2025-09-30T19:20:00",
-      "measurement_type": "subjective",
-      "test_status": "eligible",
-      "testing_since": "2026-10-01",
-      "judgements": []
-    },
-    {
       "id": "pred_doomberg_9486f67c",
       "individual_name": "Doomberg",
       "date": "2026-09-27",
@@ -1052,21 +1039,6 @@
       "verdict": null,
       "created_at": "2025-09-30T19:20:00",
       "measurement_type": "quantitative",
-      "test_status": "eligible",
-      "testing_since": "2026-10-01",
-      "judgements": []
-    },
-    {
-      "id": "pred_diamandis_bc45fd3c",
-      "individual_name": "Peter Diamandis",
-      "date": "2026-09-13",
-      "category": "ai",
-      "claim": "We could double the human lifespan and cure all disease within the next 10 years.",
-      "source_url": "https://www.youtube.com/watch?v=H5ZLorBJCDk",
-      "transcript_excerpt": "We're going to cure all disease within the next 10 years, double human lifespan",
-      "verdict": null,
-      "created_at": "2025-09-30T19:20:00",
-      "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
       "judgements": []
@@ -3127,21 +3099,6 @@
       "judgements": []
     },
     {
-      "id": "pred_20261001162517_840455",
-      "individual_name": "Doomberg",
-      "date": "2025-09-28",
-      "category": "geopolitics",
-      "claim": "The Trump administration will provide financial support to Argentina's struggling economy, including loans to the central bank and purchases of Argentine government debt.",
-      "source_url": "https://newsletter.doomberg.com/p/energy-bind",
-      "transcript_excerpt": "The Trump administration pledged on Monday to do whatever is necessary to support Argentina’s struggling economy, throwing a lifeline to the country’s embattled president, Javier Milei, ahead of legislative elections there next month. Treasury Secretary Scott Bessent said that the United States is prepared to offer loans to Argentina’s central bank, direct currency purchases and purchases of U.S. dollar-denominated Argentine government debt from Treasury’s Exchange Stabilization Fund to keep Argentina’s economy afloat.",
-      "verdict": null,
-      "created_at": "2026-10-01T16:25:17.840462",
-      "measurement_type": "subjective",
-      "test_status": "eligible",
-      "testing_since": "2026-10-01",
-      "judgements": []
-    },
-    {
       "id": "pred_20261001162517_840475",
       "individual_name": "Doomberg",
       "date": "2025-09-28",
@@ -3151,21 +3108,6 @@
       "transcript_excerpt": "Although the results do not directly impact his standing at the federal level, the electoral setback is spooking markets just as oil and gas production in the country’s massive Vaca Muerta shale resource is taking off.",
       "verdict": null,
       "created_at": "2026-10-01T16:25:17.840476",
-      "measurement_type": "subjective",
-      "test_status": "eligible",
-      "testing_since": "2026-10-01",
-      "judgements": []
-    },
-    {
-      "id": "pred_20261001162535_550751",
-      "individual_name": "Doomberg",
-      "date": "2025-09-10",
-      "category": "geopolitics",
-      "claim": "The US military will prioritize protecting the homeland and Western Hemisphere over countering adversaries such as China and Russia, marking a major shift from previous administrations.",
-      "source_url": "https://newsletter.doomberg.com/p/mosaic-theory",
-      "transcript_excerpt": "Pentagon officials are proposing the department prioritize protecting the homeland and Western Hemisphere, a striking reversal from the military’s yearslong mandate to focus on the threat from China. A draft of the newest National Defense Strategy... places domestic and regional missions above countering adversaries such as Beijing and Moscow.",
-      "verdict": null,
-      "created_at": "2026-10-01T16:25:35.550762",
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
@@ -3805,36 +3747,6 @@
       "judgements": []
     },
     {
-      "id": "pred_20261001163733_824777",
-      "individual_name": "Doomberg",
-      "date": "2024-08-30",
-      "category": "finance",
-      "claim": "Chevron Corporation will relocate its headquarters from San Ramon, California to Houston, Texas before the end of the year.",
-      "source_url": "https://newsletter.doomberg.com/p/bay-watch",
-      "transcript_excerpt": "Chevron Corporation announced Friday it would relocate its headquarters from San Ramon to Houston, Texas before the end of the year.",
-      "verdict": null,
-      "created_at": "2026-10-01T16:37:33.824789",
-      "measurement_type": "subjective",
-      "test_status": "eligible",
-      "testing_since": "2026-10-01",
-      "judgements": []
-    },
-    {
-      "id": "pred_20261001163733_824810",
-      "individual_name": "Doomberg",
-      "date": "2024-08-30",
-      "category": "finance",
-      "claim": "The tax measure in Richmond could generate as much as $90 million per year for the city if approved by voters.",
-      "source_url": "https://newsletter.doomberg.com/p/bay-watch",
-      "transcript_excerpt": "The Richmond City Council said the tax could generate as much as $90 million per year for the city.",
-      "verdict": null,
-      "created_at": "2026-10-01T16:37:33.824812",
-      "measurement_type": "quantitative",
-      "test_status": "eligible",
-      "testing_since": "2026-10-01",
-      "judgements": []
-    },
-    {
       "id": "pred_20261001163826_476882",
       "individual_name": "Doomberg",
       "date": "2024-06-20",
@@ -3860,36 +3772,6 @@
       "verdict": null,
       "created_at": "2026-10-01T16:38:26.476908",
       "measurement_type": "subjective",
-      "test_status": "eligible",
-      "testing_since": "2026-10-01",
-      "judgements": []
-    },
-    {
-      "id": "pred_20261001163839_367929",
-      "individual_name": "Doomberg",
-      "date": "2024-06-16",
-      "category": "energy",
-      "claim": "The world faces a 'staggering' surplus of oil equating to millions of barrels a day by the end of the decade, as oil companies increase production, undermining the ability of Opec+ to manage crude prices.",
-      "source_url": "https://newsletter.doomberg.com/p/wishcasting",
-      "transcript_excerpt": "The world faces a ‘staggering’ surplus of oil equating to millions of barrels a day by the end of the decade, as oil companies increase production, undermining the ability of Opec+ to manage crude prices, the International Energy Agency has warned.",
-      "verdict": null,
-      "created_at": "2026-10-01T16:38:39.367938",
-      "measurement_type": "quantitative",
-      "test_status": "eligible",
-      "testing_since": "2026-10-01",
-      "judgements": []
-    },
-    {
-      "id": "pred_20261001163839_367952",
-      "individual_name": "Doomberg",
-      "date": "2024-06-16",
-      "category": "energy",
-      "claim": "Oil companies may want to make sure their business strategies and plans are prepared for the changes taking place, as demand is forecast to peak before 2030.",
-      "source_url": "https://newsletter.doomberg.com/p/wishcasting",
-      "transcript_excerpt": "While demand is forecast to peak before 2030, continued investment by oil producers, led by the US, would by then result in more than 8mn b/d of spare capacity, the IEA wrote in its annual report on the industry released on Wednesday.",
-      "verdict": null,
-      "created_at": "2026-10-01T16:38:39.367953",
-      "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
       "judgements": []
@@ -3940,21 +3822,6 @@
       "judgements": []
     },
     {
-      "id": "pred_20261001163914_096672",
-      "individual_name": "Doomberg",
-      "date": "2024-06-08",
-      "category": "energy",
-      "claim": "The US nuclear industry will face significant challenges from environmental activists and policy uncertainty.",
-      "source_url": "https://newsletter.doomberg.com/p/be-like-ike",
-      "transcript_excerpt": "the dog finally has the opportunity to catch the car. Now what? Well, the dog finally has the opportunity to catch the car. Now what? The dog finally has the opportunity to catch the car. Now what? The dog finally has the opportunity to catch the car. Now what? The dog finally has the opportunity to catch the car. Now what? The dog finally has the opportunity to catch the car. Now what? The dog finally has the opportunity to catch the car. Now what? The dog finally has the opportunity to catch the car. Now what? The dog finally has the opportunity to catch the car. Now what? The dog finally has the opportunity to catch the car. Now what? The dog finally has the opportunity to catch the car. Now what? The dog finally has the opportunity to catch the car. Now what? The dog finally has the opportunity to catch the car. Now what? The dog finally has the opportunity to catch the car. Now what? The dog finally has the opportunity to catch the car. Now what? The dog finally has the opportunity to catch the car. Now what? The dog finally has the opportunity to catch the car. Now what?",
-      "verdict": null,
-      "created_at": "2026-10-01T16:39:14.096673",
-      "measurement_type": "subjective",
-      "test_status": "eligible",
-      "testing_since": "2026-10-01",
-      "judgements": []
-    },
-    {
       "id": "pred_20261001163920_946298",
       "individual_name": "Doomberg",
       "date": "2024-06-04",
@@ -3968,18 +3835,6 @@
       "test_status": "eligible",
       "testing_since": "2026-10-01",
       "judgements": []
-    },
-    {
-      "id": "pred_20261001181011_df5e6c7c2068",
-      "individual_name": "Peter Zeihan",
-      "date": "2024-10-01",
-      "category": "geopolitics",
-      "claim": "Today's video will be 7 days from there",
-      "source_url": "https://www.youtube.com/watch?v=MeBUuHOKCvo",
-      "transcript_excerpt": "today's video will be 7 days from there okay that's it for me",
-      "verdict": null,
-      "created_at": "2026-10-01T18:10:11",
-      "measurement_type": "quantitative"
     },
     {
       "id": "pred_20261001181024_1feff5099f91",
@@ -4075,18 +3930,6 @@
       "measurement_type": "subjective"
     },
     {
-      "id": "pred_20261001181203_11d8d9671b20",
-      "individual_name": "Peter Zeihan",
-      "date": "2024-09-23",
-      "category": "ukraine",
-      "claim": "The Ukrainians will launch a large number of the new drone missiles (Lenisa) in attacks against Russian rail networks and ammunition depots within 150 miles of the Ukrainian border in the north, northeast, and east of Ukraine.",
-      "source_url": "https://www.youtube.com/watch?v=pBfxY3b3R1g",
-      "transcript_excerpt": "so we should expect to see more of this sort of activity uh which brings us to the fourth and final issue which is probably a change in targeting if the ukrainians really do have better Intel on the rail system now and if they've got these faster more lethal mass produced missile drones well The Logical Target for the ukrainians is to start going after the power generation and distribution system ",
-      "verdict": null,
-      "created_at": "2026-10-01T18:12:03",
-      "measurement_type": "quantitative"
-    },
-    {
       "id": "pred_20261001181203_1a329cd9d2b1",
       "individual_name": "Peter Zeihan",
       "date": "2024-09-23",
@@ -4097,18 +3940,6 @@
       "verdict": null,
       "created_at": "2026-10-01T18:12:03",
       "measurement_type": "subjective"
-    },
-    {
-      "id": "pred_20261001181220_5ccfd95453bf",
-      "individual_name": "Peter Zeihan",
-      "date": "2024-09-20",
-      "category": "geopolitics",
-      "claim": "Germany will have to bring in 2 to 2.5 million people under age 30 every year for the next 20 years just to hold their demographic position.",
-      "source_url": "https://www.youtube.com/watch?v=RWZ553deROY",
-      "transcript_excerpt": "if you wait too long if you wait till you have more people in their 40s than their 30s than their 20s the M 10s then their zeros then you will be a different place and this is the situation that the Canadians are facing not right now but will in 20 or 30 years they waited until it was very late in the day and then they started bringing in millions of people if this happens over a long enough perio",
-      "verdict": null,
-      "created_at": "2026-10-01T18:12:20",
-      "measurement_type": "quantitative"
     },
     {
       "id": "pred_20261001181220_6547513e24cc",
@@ -4891,18 +4722,6 @@
       "transcript_excerpt": "America's baby boobers are going to die out and the Young Generation coming up from below the Zoomers and the Les to a lesser degree the Millennials are not nearly as evenhanded when it comes to Israel versus the Palestinians so demographics are absolutely against Israel on this topic",
       "verdict": null,
       "created_at": "2026-10-01T18:26:17",
-      "measurement_type": "quantitative"
-    },
-    {
-      "id": "pred_20261001182624_d217289b65d4",
-      "individual_name": "Peter Zeihan",
-      "date": "2024-07-24",
-      "category": "geopolitics",
-      "claim": "The European Union will create a common air defense space.",
-      "source_url": "https://www.youtube.com/watch?v=SrWd485faGM",
-      "transcript_excerpt": "her assertion that the EU now needed to create a common air defense space",
-      "verdict": null,
-      "created_at": "2026-10-01T18:26:24",
       "measurement_type": "quantitative"
     },
     {
@@ -5986,18 +5805,6 @@
       "judgements": []
     },
     {
-      "id": "pred_20261001192100_38c3cad0f56b",
-      "individual_name": "Peter Zeihan",
-      "date": "2025-10-01",
-      "category": "geopolitics",
-      "claim": "The manufacturing sector will be affected first by the tariff policies due to the ease of relocating supply chains outside the country with tariff structures.",
-      "source_url": "https://www.youtube.com/watch?v=kSx6G-lw534",
-      "transcript_excerpt": "I think we'll have our economic correction far before that, though.",
-      "verdict": null,
-      "created_at": "2026-10-01T19:21:00",
-      "measurement_type": "subjective"
-    },
-    {
       "id": "pred_20261001192100_49cb7cad4cca",
       "individual_name": "Peter Zeihan",
       "date": "2025-10-01",
@@ -6089,27 +5896,6 @@
           "url": "https://www.youtube.com/watch?v=7puZUPjOoOI",
           "claim": "The United States will likely be technologically pushed out of certain military regions on the planet due to the loss of its monopoly on glide bomb technology.",
           "id": "pred_20261001192221_cefdd3bf8af4"
-        }
-      ],
-      "stated_count": 2
-    },
-    {
-      "id": "pred_20261001192236_eaa0de7df364",
-      "individual_name": "Peter Zeihan",
-      "date": "2025-09-23",
-      "category": "geopolitics",
-      "claim": "Israel will continue to escalate its military actions in the Persian Gulf region, potentially targeting other hostile groups or states if they become more adversarial towards Israel.",
-      "source_url": "https://www.youtube.com/watch?v=xiL_TDQF0VY",
-      "transcript_excerpt": "This level of aggression, this willingness to ramp up this newborn policy of taking action wherever and whyever uh is immense because you know Gutter is a US ally, Saudi Arabia is a US ally and for the Israelis to just be so brazen. Uh this is something that is going to continue until and unless a significant series of countries that includes up to and in the United including the United States lev",
-      "verdict": null,
-      "created_at": "2026-10-01T19:22:36",
-      "measurement_type": "subjective",
-      "occurrences": [
-        {
-          "date": "2025-09-23",
-          "url": "https://www.youtube.com/watch?v=xiL_TDQF0VY",
-          "claim": "The United States' ability to influence or control the actions of its closest strategic ally, Israel, will be significantly undermined if it allows attacks on U.S. bases in the region without taking punitive action.",
-          "id": "pred_20261001192236_7f3a137a1e81"
         }
       ],
       "stated_count": 2
@@ -7864,30 +7650,6 @@
       "measurement_type": "subjective"
     },
     {
-      "id": "pred_20261001195856_cd711c54098e",
-      "individual_name": "Peter Zeihan",
-      "date": "2025-05-06",
-      "category": "finance",
-      "claim": "The US dollar will drop by about 10 to 15% in the time since the current date.",
-      "source_url": "https://www.youtube.com/watch?v=yaiILtkgFqA",
-      "transcript_excerpt": "And you know, that's several hundred billion dollars a year. Second is East Asia. Japan has been a big source of capital for the US for decades. China more recently largely because both of these systems treat capital as a political good. I actually don't think that this is going to change because the Japanese and the Chinese have known for a very long time that if you keep the money at home, it ju",
-      "verdict": null,
-      "created_at": "2026-10-01T19:58:56",
-      "measurement_type": "quantitative"
-    },
-    {
-      "id": "pred_20261001195856_c45658ad0eaa",
-      "individual_name": "Peter Zeihan",
-      "date": "2025-05-06",
-      "category": "finance",
-      "claim": "There will be a significant drop in capital flight into the US financial markets.",
-      "source_url": "https://www.youtube.com/watch?v=yaiILtkgFqA",
-      "transcript_excerpt": "You add that all up and we're looking at capital flight into the US financial markets probably dropping by a little bit more than half.",
-      "verdict": null,
-      "created_at": "2026-10-01T19:58:56",
-      "measurement_type": "quantitative"
-    },
-    {
       "id": "pred_20261001195959_e3b1cffa022d",
       "individual_name": "Peter Zeihan",
       "date": "2025-05-03",
@@ -8365,18 +8127,6 @@
       "transcript_excerpt": "The Germans have been arms manufacturers for a very long time. That would not be a challenge. And the idea that the Germans could not put into the device into a deliverable weapon system. The Germans have been arms manufacturers for a very long time. That would not be a challenge.",
       "verdict": null,
       "created_at": "2026-10-01T20:12:47",
-      "measurement_type": "quantitative"
-    },
-    {
-      "id": "pred_20261001201258_6a52ebe2cfd5",
-      "individual_name": "Peter Zeihan",
-      "date": "2025-03-26",
-      "category": "geopolitics",
-      "claim": "Putin will implement a partial ceasefire that involves not attacking energy infrastructure, but will violate that承诺 less than 3 hours after the phone call with Trump.",
-      "source_url": "https://www.youtube.com/watch?v=QtAx8fbvG48",
-      "transcript_excerpt": "He said that for a real ceasefire, again, 30-day ceasefire, what he expected was an end to all Western weapons transfers to Ukraine, an end to all intelligence support to Ukraine, and an end to all military recruiting within Ukraine to set the stage for the complete dissolution of the Ukrainian armed forces. And this for a 30-day ceasefire.",
-      "verdict": null,
-      "created_at": "2026-10-01T20:12:58",
       "measurement_type": "quantitative"
     },
     {
@@ -9259,30 +9009,6 @@
       "measurement_type": "subjective"
     },
     {
-      "id": "pred_20261001202513_420c5d1d7873",
-      "individual_name": "Peter Zeihan",
-      "date": "2025-02-20",
-      "category": "geopolitics",
-      "claim": "The young adult generation in Iran, who have lived through one state failure after another for the last 15 years, will make very interesting political and personal decisions as the system fails.",
-      "source_url": "https://www.youtube.com/watch?v=1Nn5PnUobDA",
-      "transcript_excerpt": "that that can turn violent very very quickly even if it doesn't",
-      "verdict": null,
-      "created_at": "2026-10-01T20:25:13",
-      "measurement_type": "subjective"
-    },
-    {
-      "id": "pred_20261001202513_c12f4b94e131",
-      "individual_name": "Peter Zeihan",
-      "date": "2025-02-20",
-      "category": "china",
-      "claim": "The Chinese system will crash around the Zoomer generation of citizens who have visceral memories of how the system crashed around them.",
-      "source_url": "https://www.youtube.com/watch?v=1Nn5PnUobDA",
-      "transcript_excerpt": "those people are going to be making some very interesting political and personal decisions as the system fails because if there's anything we know about Chinese history in the past when the center breaks people leave",
-      "verdict": null,
-      "created_at": "2026-10-01T20:25:13",
-      "measurement_type": "subjective"
-    },
-    {
       "id": "pred_20261001202607_2240189d9931",
       "individual_name": "Peter Zeihan",
       "date": "2025-02-19",
@@ -9451,18 +9177,6 @@
       "measurement_type": "quantitative"
     },
     {
-      "id": "pred_20261001202820_5100de23d9bd",
-      "individual_name": "Peter Zeihan",
-      "date": "2025-02-06",
-      "category": "geopolitics",
-      "claim": "Donald Trump's executive orders will lead to a significant erosion of his political capital due to the pace and nature of his actions.",
-      "source_url": "https://www.youtube.com/watch?v=2H5T_cvHlM8",
-      "transcript_excerpt": "but I got to admit there's a show and it's entertaining",
-      "verdict": null,
-      "created_at": "2026-10-01T20:28:20",
-      "measurement_type": "subjective"
-    },
-    {
       "id": "pred_20261001202820_f45bbb86de75",
       "individual_name": "Peter Zeihan",
       "date": "2025-02-06",
@@ -9485,18 +9199,6 @@
       "verdict": null,
       "created_at": "2026-10-01T20:28:32",
       "measurement_type": "quantitative"
-    },
-    {
-      "id": "pred_20261001202952_b8466630db7c",
-      "individual_name": "Peter Zeihan",
-      "date": "2025-02-03",
-      "category": "geopolitics",
-      "claim": "The United States will likely return to a more interventionist foreign policy style similar to 'Dollar Diplomacy' in the aftermath of reconstruction, where powerful individuals driven by various motives (economic, corporate, etc.) will interface with the world and call for military support when needed.",
-      "source_url": "https://www.youtube.com/watch?v=mw6aCEoGZp8",
-      "transcript_excerpt": "what has changed in the 10 years since I wrote absent is that the view in the United States of the military has evolved... and we saw the new conservative Coalition that is the Republican Party push that entire Wing out of power... now as a rule the further to the right you are on the American political Spectrum the more hostile you are to the US military which is one of the reasons that the Donal",
-      "verdict": null,
-      "created_at": "2026-10-01T20:29:52",
-      "measurement_type": "subjective"
     },
     {
       "id": "pred_20261001202952_89d696e17790",
@@ -9535,18 +9237,6 @@
       "measurement_type": "subjective"
     },
     {
-      "id": "pred_20261001203017_42b8eedc9bee",
-      "individual_name": "Peter Zeihan",
-      "date": "2025-01-31",
-      "category": "finance",
-      "claim": "Most real estate in China is worth maybe 10 cents on the dollar",
-      "source_url": "https://www.youtube.com/watch?v=a2AJvCPcNUE",
-      "transcript_excerpt": "bottom line is you can't break these things down you can't really sell the properties because they're not owned by just one person and they're not owned by the same Consortium of people so just finding the ownership network is kind of strange can't just knock them down even though there's just such huge excess Supply and a lot of people think that you know maybe when the economy turns demand will ",
-      "verdict": null,
-      "created_at": "2026-10-01T20:30:17",
-      "measurement_type": "quantitative"
-    },
-    {
       "id": "pred_20261001203017_c20bf64fbad5",
       "individual_name": "Peter Zeihan",
       "date": "2025-01-31",
@@ -9556,18 +9246,6 @@
       "transcript_excerpt": "so we've seen home sales in China drop by somewhere between 70 and 80% again using Chinese data so take it for what it is uh over the last uh 18 months",
       "verdict": null,
       "created_at": "2026-10-01T20:30:17",
-      "measurement_type": "quantitative"
-    },
-    {
-      "id": "pred_20261001203035_7668ad13a0aa",
-      "individual_name": "Peter Zeihan",
-      "date": "2025-01-30",
-      "category": "geopolitics",
-      "claim": "The West Antarctic ice sheet will probably already have collapsed by the time technology exists to exploit Greenland's ice.",
-      "source_url": "https://www.youtube.com/watch?v=BA2T1LNok0Y",
-      "transcript_excerpt": "when you look at things like the permafrost in Northern Canada or the ice in Greenland you have a much more durable climate zone so for example in the permafrost it's a mess in the summer it's a swamp it's mushy it's hard to build things on and there is only one road leading from Mainland Canada if that's the right word populated Canada up above the Arctic Circle to to Yellow Knife actually that's",
-      "verdict": null,
-      "created_at": "2026-10-01T20:30:35",
       "measurement_type": "quantitative"
     },
     {
@@ -11830,27 +11508,6 @@
       "stated_count": 2
     },
     {
-      "id": "pred_20261001211909_79fbb12e4e0b",
-      "individual_name": "Peter Zeihan",
-      "date": "2025-11-28",
-      "category": "geopolitics",
-      "claim": "The state of New Mexico will successfully implement a policy providing state-covered child care for all residents, costing approximately $600 million per year, and this policy will positively impact New Mexico's demographic profile and workforce participation.",
-      "source_url": "https://www.youtube.com/watch?v=W408HYFcLbw",
-      "transcript_excerpt": "they expect that it's going to cost them about $600 million a year. We will see if that is feasible. We will see if that is realistic.",
-      "verdict": null,
-      "created_at": "2026-10-01T21:19:09",
-      "measurement_type": "quantitative",
-      "occurrences": [
-        {
-          "date": "2025-11-29",
-          "url": "https://www.youtube.com/watch?v=1rsdHTjYJsc",
-          "claim": "Mexico and Canada will only see a successful shale industry if they link into American infrastructure, population structure, and processing infrastructure.",
-          "id": "pred_20261001211903_7711b98a9f09"
-        }
-      ],
-      "stated_count": 2
-    },
-    {
       "id": "pred_20261001211917_56b621d6af4a",
       "individual_name": "Peter Zeihan",
       "date": "2025-11-27",
@@ -13108,30 +12765,6 @@
       "stated_count": 4
     },
     {
-      "id": "pred_20261001214152_b40d0347b2f1",
-      "individual_name": "Peter Zeihan",
-      "date": "2026-02-28",
-      "category": "geopolitics",
-      "claim": "The United States and Israel will not target Iran's energy sector, specifically Kharg Island, which is the economic node that makes Iran possible in the modern age where 90% of their oil exports flow through.",
-      "source_url": "https://www.youtube.com/watch?v=KFwYJP8eExk",
-      "transcript_excerpt": "Uh, this is the first military operation in the last 40 years that the administration, any administration, has carried out without first going to Congress. So, according to Congress, uh, this is very clearly a violation of the War Powers Act, where the president is supposed to give Congress notice as to what's happening, then he has 90 days to sew it up before going back to Congress.",
-      "verdict": null,
-      "created_at": "2026-10-01T21:41:52",
-      "measurement_type": "subjective"
-    },
-    {
-      "id": "pred_20261001214152_bafaced03c3c",
-      "individual_name": "Peter Zeihan",
-      "date": "2026-02-28",
-      "category": "ukraine",
-      "claim": "If the U.S. military targets Iran's drone production capacity, specifically for the Shaheds, it would end Russia's ability to use these weapons in the Ukraine war.",
-      "source_url": "https://www.youtube.com/watch?v=KFwYJP8eExk",
-      "transcript_excerpt": "Uh, this is the first American military operation in which we are using a large number of one-way drones. I don't have technical specs on that. I will be looking for that because it would be the first sign that the US military, in a very big way, is starting to convert its offensive arsenal from Tomahawk missiles, which are in play, precision munitions dropped by jets, which are in play and now al",
-      "verdict": null,
-      "created_at": "2026-10-01T21:41:52",
-      "measurement_type": "subjective"
-    },
-    {
       "id": "pred_20261001214202_fdc4887a1119",
       "individual_name": "Peter Zeihan",
       "date": "2026-02-27",
@@ -13772,18 +13405,6 @@
       "verdict": null,
       "created_at": "2026-10-01T21:57:49",
       "measurement_type": "subjective"
-    },
-    {
-      "id": "pred_20261001215800_58ea5761cd18",
-      "individual_name": "Peter Zeihan",
-      "date": "2026-03-05",
-      "category": "geopolitics",
-      "claim": "The number of Iranian launchers has been reduced by somewhere between 60 and 80%, which is great.",
-      "source_url": "https://www.youtube.com/watch?v=M5gHHXiib3o",
-      "transcript_excerpt": "according to Cain, who is the chief of staff, the number of launchers that the Iranians have has been reduced by somewhere between 60 and 80%, which is great.",
-      "verdict": null,
-      "created_at": "2026-10-01T21:58:00",
-      "measurement_type": "quantitative"
     },
     {
       "id": "pred_20261001215800_75a71ac13df8",
@@ -15640,33 +15261,6 @@
       "measurement_type": "subjective"
     },
     {
-      "id": "pred_20261001224153_d40417afc411",
-      "individual_name": "Peter Zeihan",
-      "date": "2026-07-10",
-      "category": "ukraine",
-      "claim": "The United States will produce 2,000 F-10 drones under license from Ukraine by 2029.",
-      "source_url": "https://www.youtube.com/watch?v=eDeBB7kbO9U",
-      "transcript_excerpt": "they've only ordered 2,000 of them. And at a rate of say $650 to $700, you know, these just aren't particularly sophisticated drones",
-      "verdict": null,
-      "created_at": "2026-10-01T22:41:53",
-      "measurement_type": "quantitative",
-      "occurrences": [
-        {
-          "date": "2026-07-10",
-          "url": "https://www.youtube.com/watch?v=eDeBB7kbO9U",
-          "claim": "The Department of Defense aims to get 200,000 drones in active service before the end of 2027.",
-          "id": "pred_20261001224153_e6f6ae2f40ea"
-        },
-        {
-          "date": "2026-07-13",
-          "url": "https://www.youtube.com/watch?v=xJy6CdJ56TU",
-          "claim": "Construction of the new pipeline will begin in 2027 and finish by 2034, if everything goes perfectly.",
-          "id": "pred_20261001224041_41f23e6e96a7"
-        }
-      ],
-      "stated_count": 3
-    },
-    {
       "id": "pred_20261001224203_5c0ded951d12",
       "individual_name": "Peter Zeihan",
       "date": "2026-07-09",
@@ -15674,18 +15268,6 @@
       "claim": "The current AI supply chain integration involving over 50 countries will break down if even one key component provider is lost, leading to a significant disruption in AI development and related technologies.",
       "source_url": "https://www.youtube.com/watch?v=yo5YM0QJqi0",
       "transcript_excerpt": "But, you lose even one of those pieces and this all stops.",
-      "verdict": null,
-      "created_at": "2026-10-01T22:42:03",
-      "measurement_type": "quantitative"
-    },
-    {
-      "id": "pred_20261001224203_fb95d7a42ff4",
-      "individual_name": "Peter Zeihan",
-      "date": "2026-07-09",
-      "category": "finance",
-      "claim": "Korean exports will likely decrease significantly in the midterm as the global AI supply chain becomes less integrated and more geographically distributed.",
-      "source_url": "https://www.youtube.com/watch?v=yo5YM0QJqi0",
-      "transcript_excerpt": "So, I'd argue that from a value-added point of view, the United States already dominates the part that's most important. Designing the system so the geometry of the chips actually does what we need it to do.",
       "verdict": null,
       "created_at": "2026-10-01T22:42:03",
       "measurement_type": "quantitative"
@@ -15707,51 +15289,6 @@
           "url": "https://www.youtube.com/watch?v=PhpzX8Gp_Ys",
           "claim": "Iran will charge fees or tolls for passage through the Strait of Hormuz, with coordination between Iran and Oman expected.",
           "id": "pred_20261001224215_711bcdd36a1e"
-        }
-      ],
-      "stated_count": 2
-    },
-    {
-      "id": "pred_20261001224223_78176d7e3493",
-      "individual_name": "Peter Zeihan",
-      "date": "2026-07-06",
-      "category": "energy",
-      "claim": "The United States government will restrict oil exports in order to keep prices under control as the international system loses energy.",
-      "source_url": "https://www.youtube.com/watch?v=rIf5WuqhuFw",
-      "transcript_excerpt": "Absolutely, absolutely, absolutely. The question is how.",
-      "verdict": null,
-      "created_at": "2026-10-01T22:42:23",
-      "measurement_type": "quantitative"
-    },
-    {
-      "id": "pred_20261001224223_9acc3cd634b0",
-      "individual_name": "Peter Zeihan",
-      "date": "2026-07-06",
-      "category": "geopolitics",
-      "claim": "Within a couple of months, the Trump administration will decide which option it will pursue regarding energy export restrictions.",
-      "source_url": "https://www.youtube.com/watch?v=rIf5WuqhuFw",
-      "transcript_excerpt": "We'll probably find out within a couple of months which one the Trump administration is considering cuz we're getting really close.",
-      "verdict": null,
-      "created_at": "2026-10-01T22:42:23",
-      "measurement_type": "quantitative"
-    },
-    {
-      "id": "pred_20261001224236_9257e0cc8c2d",
-      "individual_name": "Peter Zeihan",
-      "date": "2026-07-03",
-      "category": "geopolitics",
-      "claim": "The Ukrainians will systematically destroy infrastructure within 700 miles of their borders that gives Russia economic wherewithal, particularly targeting facilities serving Kazakh needs.",
-      "source_url": "https://www.youtube.com/watch?v=xl6TgTRHDAg",
-      "transcript_excerpt": "What the Ukrainians are doing is basically systematically destroying any infrastructure that's within about 700 miles of their borders. Anything that gives the Russians any sort of air economic wherewithal.",
-      "verdict": null,
-      "created_at": "2026-10-01T22:42:36",
-      "measurement_type": "quantitative",
-      "occurrences": [
-        {
-          "date": "2026-07-03",
-          "url": "https://www.youtube.com/watch?v=xl6TgTRHDAg",
-          "claim": "Attacks on Russian infrastructure serving Kazakh oil and gas production will increase, especially targeting the Caspian Pipeline Consortium and related pumping stations or port facilities like Novorossiysk.",
-          "id": "pred_20261001224236_83a979f02d83"
         }
       ],
       "stated_count": 2
@@ -15997,18 +15534,6 @@
       "measurement_type": "subjective"
     },
     {
-      "id": "pred_20261001224819_65975b2ebb07",
-      "individual_name": "Ian Bremmer",
-      "date": "2024-07-08",
-      "category": "geopolitics",
-      "claim": "The far right will gain significant political ground in France following the upcoming parliamentary elections.",
-      "source_url": "https://www.youtube.com/watch?v=nfcZsnk9R0I",
-      "transcript_excerpt": "The far right has doubled their number in the parliament",
-      "verdict": null,
-      "created_at": "2026-10-01T22:48:19",
-      "measurement_type": "quantitative"
-    },
-    {
       "id": "pred_20261001224833_496a6c04e866",
       "individual_name": "Ian Bremmer",
       "date": "2024-07-01",
@@ -16141,18 +15666,6 @@
       "measurement_type": "quantitative"
     },
     {
-      "id": "pred_20261001225017_da02b5d299ec",
-      "individual_name": "Ian Bremmer",
-      "date": "2024-06-10",
-      "category": "geopolitics",
-      "claim": "The Israeli government, led by Bibi and the far right, is moving further from any plausible breakthrough agreement than it was even a few weeks prior.",
-      "source_url": "https://www.youtube.com/watch?v=Gw92Rn0XAZg",
-      "transcript_excerpt": "Benny Gantz, leaving the Unity war cabinet and now leading the War Cabinet to look basically just like the Israeli government, which means Bibi, the PM and the far right, which puts you farther from any plausible breakthrough agreement than you were even over the past weeks.",
-      "verdict": null,
-      "created_at": "2026-10-01T22:50:17",
-      "measurement_type": "quantitative"
-    },
-    {
       "id": "pred_20261001225028_a04f8d49ec0d",
       "individual_name": "Ian Bremmer",
       "date": "2024-06-04",
@@ -16175,18 +15688,6 @@
       "verdict": null,
       "created_at": "2026-10-01T22:50:28",
       "measurement_type": "subjective"
-    },
-    {
-      "id": "pred_20261001225212_dcd2e0fbf137",
-      "individual_name": "Ian Bremmer",
-      "date": "2024-05-23",
-      "category": "geopolitics",
-      "claim": "Prime Minister Modi will win over 400 seats in India's elections, resulting in a supermajority.",
-      "source_url": "https://www.youtube.com/watch?v=M0536Q2tCxA",
-      "transcript_excerpt": "Prime Minister Modi, coming out publicly saying that he thinks he's going to get over 400 seats, which would be a supermajority.",
-      "verdict": null,
-      "created_at": "2026-10-01T22:52:12",
-      "measurement_type": "quantitative"
     },
     {
       "id": "pred_20261001225212_316806fcd4fd",
@@ -16522,18 +16023,6 @@
       "measurement_type": "subjective"
     },
     {
-      "id": "pred_20261001230641_c9ac44742d78",
-      "individual_name": "Ian Bremmer",
-      "date": "2025-07-21",
-      "category": "geopolitics",
-      "claim": "The Chinese will continue to use their control over critical minerals and rare earths as a strategic weapon against the U.S.",
-      "source_url": "https://www.youtube.com/watch?v=vwZiRkvBUcs",
-      "transcript_excerpt": "And so suddenly you had a bunch of American CEOs going to Mar-a-Lago and saying, \"We're going to have companies and factories shutting down in red states if you don't find a way to get the Chinese to undo this new licensing regime shutting down this choke point.\"",
-      "verdict": null,
-      "created_at": "2026-10-01T23:06:41",
-      "measurement_type": "subjective"
-    },
-    {
       "id": "pred_20261001230641_88d1009191b7",
       "individual_name": "Ian Bremmer",
       "date": "2025-07-21",
@@ -16546,18 +16035,6 @@
       "measurement_type": "quantitative"
     },
     {
-      "id": "pred_20261001230717_be8c64657f51",
-      "individual_name": "Ian Bremmer",
-      "date": "2025-07-14",
-      "category": "geopolitics",
-      "claim": "Dan Bongino will resign from his position and become publicly vocal about the Epstein files.",
-      "source_url": "https://www.youtube.com/watch?v=TFyt804sGds",
-      "transcript_excerpt": "And that is not credible. I mean, first of all, on its face, if this was a file that was put together by the Democrats as Trump is suggesting, then why wouldn't they have released it to undermine Trump during the campaign when they were failing? And the answer is because he's lying, because they did no such thing. And he is hoping that his people will just believe him, and believe his information,",
-      "verdict": null,
-      "created_at": "2026-10-01T23:07:17",
-      "measurement_type": "subjective"
-    },
-    {
       "id": "pred_20261001230717_db74fe2b13cb",
       "individual_name": "Ian Bremmer",
       "date": "2025-07-14",
@@ -16568,30 +16045,6 @@
       "verdict": null,
       "created_at": "2026-10-01T23:07:17",
       "measurement_type": "subjective"
-    },
-    {
-      "id": "pred_20261001231356_0a49944ddc15",
-      "individual_name": "Ian Bremmer",
-      "date": "2025-07-07",
-      "category": "geopolitics",
-      "claim": "Elon Musk will create a new political party called the America Party.",
-      "source_url": "https://www.youtube.com/watch?v=l0-wSwA75vs",
-      "transcript_excerpt": "So he's going to now, I mean, how many of them are Americans that voted? We have no idea in this poll. How many of them actually are registered voters? How many of them are over 18 years old? How many of them are people? How many of them are bots? We don't know. Not the point. The point is that the people have spoken and because the people have spoken on Elon's poll, we now should have this party ",
-      "verdict": null,
-      "created_at": "2026-10-01T23:13:56",
-      "measurement_type": "quantitative"
-    },
-    {
-      "id": "pred_20261001231356_9e119c662f33",
-      "individual_name": "Ian Bremmer",
-      "date": "2025-07-07",
-      "category": "geopolitics",
-      "claim": "If Elon Musk invests $25 million each and gives it to 10 different safe seats in the House, he could potentially get 10 people to switch parties and form a new small coalition.",
-      "source_url": "https://www.youtube.com/watch?v=l0-wSwA75vs",
-      "transcript_excerpt": "If Elon wanted to take say $25 million each and give it to 10 different safe seats, you wouldn't have to wait for midterms. You could probably get 10 people. Certainly there are 10 members of the House that are suitably venal that they'd willing to flip immediately to an America party and actually form a new very small king making coalition.",
-      "verdict": null,
-      "created_at": "2026-10-01T23:13:56",
-      "measurement_type": "quantitative"
     },
     {
       "id": "pred_20261001231415_d801e0c3bc80",
@@ -16993,30 +16446,6 @@
       "measurement_type": "quantitative"
     },
     {
-      "id": "pred_20261001231008_CeurHG_0",
-      "individual_name": "Ian Bremmer",
-      "date": "2025-10-21",
-      "category": "geopolitics",
-      "claim": "Taichi Sanai will become the first female prime minister in Japan's history",
-      "source_url": "https://www.youtube.com/watch?v=CeurHGRGaIs",
-      "transcript_excerpt": "Taichi Sanai has become the first female prime minister in Japan's history",
-      "verdict": null,
-      "created_at": "2026-10-01T23:10:08.611763",
-      "measurement_type": "subjective",
-      "test_status": "eligible",
-      "testing_since": "2025-10-21",
-      "judgements": [],
-      "occurrences": [
-        {
-          "date": "2025-10-21",
-          "url": "https://www.youtube.com/watch?v=CeurHGRGaIs",
-          "claim": "Japan's first female prime minister, Sanae Takaichi, will prioritize policies that align with Trump's global stance on immigration, identity, culture, fiscal policy, and China orientation, leading to a stronger U.S.-Japan alliance.",
-          "id": "pred_20261001233824_d99fbbf134ff"
-        }
-      ],
-      "stated_count": 2
-    },
-    {
       "id": "pred_20261001231153_CJOvSi_0",
       "individual_name": "Ian Bremmer",
       "date": "2025-10-14",
@@ -17030,18 +16459,6 @@
       "test_status": "eligible",
       "testing_since": "2025-10-14",
       "judgements": []
-    },
-    {
-      "id": "pred_20261001233839_1bacf7231752",
-      "individual_name": "Ian Bremmer",
-      "date": "2025-10-14",
-      "category": "geopolitics",
-      "claim": "Trump will impose 100% tariffs on Chinese goods by November 1st, 2025",
-      "source_url": "https://www.youtube.com/watch?v=CJOvSiWLPos",
-      "transcript_excerpt": "the markets go down and before the markets reopen uh this week uh Trump immediately sends out another post saying ah it'll be fine we'll find a way to come to yes uh with Xiinping don't worry about it um and and I think that that latter does reflect the reality I think there are real guard rails uh between these two countries because they don't want to get in a trade war they don't want to find ou",
-      "verdict": null,
-      "created_at": "2026-10-01T23:38:39",
-      "measurement_type": "quantitative"
     },
     {
       "id": "pred_20261001231206_dUprHP_0",
@@ -17095,21 +16512,6 @@
       "stated_count": 2
     },
     {
-      "id": "pred_20261001232332_Cku10B_0",
-      "individual_name": "Ian Bremmer",
-      "date": "2025-12-16",
-      "category": "geopolitics",
-      "claim": "Trump's response to the murder of Rob Reiner and his wife will damage his political support among moderate voters in the upcoming election cycle.",
-      "source_url": "https://www.youtube.com/watch?v=Cku10B_nURI",
-      "transcript_excerpt": "Um and so uh when the news of his and his wife's uh murder all looks like at the hands of his uh son um all sorts of mental challenges uh there um and drug addiction and whatnot. Um what we saw from President Trump um was uh not silence, not graciousness, uh was uh not silence, not graciousness, uh you know, sort of not, you know, sort of not, you know, sort of God bless him, rest his passing, but uh but rather uh he had Trump derangement but rather uh he had Trump derangement syndrome and that's what killed him. Um and then when Trump was asked about that by journalists later, can you believe it? He said the same outrageous thing a second time. Shocking.",
-      "verdict": null,
-      "created_at": "2026-10-01T23:23:32.386006",
-      "measurement_type": "subjective",
-      "test_status": "eligible",
-      "testing_since": "2025-12-16",
-      "judgements": []
-    },
-    {
       "id": "pred_20261001234642_73bd05f17bc2",
       "individual_name": "Ian Bremmer",
       "date": "2025-12-15",
@@ -17129,21 +16531,6 @@
         }
       ],
       "stated_count": 2
-    },
-    {
-      "id": "pred_20261001233446_PjJeHs_0",
-      "individual_name": "Ian Bremmer",
-      "date": "2026-01-09",
-      "category": "geopolitics",
-      "claim": "The United States will run a country of some 30 million people under Trump's leadership",
-      "source_url": "https://www.youtube.com/watch?v=PjJeHs11I20",
-      "transcript_excerpt": "How exactly will the United States run, as Trump says, a country of some 30 million people?",
-      "verdict": null,
-      "created_at": "2026-10-01T23:34:46.437188",
-      "measurement_type": "quantitative",
-      "test_status": "eligible",
-      "testing_since": "2026-01-09",
-      "judgements": []
     },
     {
       "id": "pred_20261001233458__vghW__0",
@@ -17263,30 +16650,6 @@
       "measurement_type": "subjective"
     },
     {
-      "id": "pred_20261001232010_aacf5231c13d",
-      "individual_name": "Ian Bremmer",
-      "date": "2025-05-07",
-      "category": "geopolitics",
-      "claim": "The USMCA trade agreement will not be renegotiated in the coming year and will instead be continuously postponed.",
-      "source_url": "https://www.youtube.com/watch?v=M6soZybuL48",
-      "transcript_excerpt": "And no, it is not true that the US doesn't do much business with Canada. In fact, Canada actually buys more from the United States than any other individual country in the world does. And if you go talk to the governors, the senators, the representatives of all of the northern states that border Canada, they can tell you just how integrated those supply chains are, how essential the Canadian econo",
-      "verdict": null,
-      "created_at": "2026-10-01T23:20:10",
-      "measurement_type": "subjective"
-    },
-    {
-      "id": "pred_20261001232106_8447e996b0ab",
-      "individual_name": "Ian Bremmer",
-      "date": "2025-05-05",
-      "category": "geopolitics",
-      "claim": "America will embrace the slow food movement",
-      "source_url": "https://www.youtube.com/watch?v=blslh7C8oys",
-      "transcript_excerpt": "That's not American. Trump's the guy that won the election after serving at McDonald's, right? And, by the way, not serving like at the counter, but serving at the drive-through. Because it's not enough to have fast food. But you have to fast food even faster than you would normally have fast food by going into the restaurant.",
-      "verdict": null,
-      "created_at": "2026-10-01T23:21:06",
-      "measurement_type": "subjective"
-    },
-    {
       "id": "pred_20261001232146_3d7bcafe9e72",
       "individual_name": "Ian Bremmer",
       "date": "2025-04-28",
@@ -17368,18 +16731,6 @@
       "measurement_type": "subjective"
     },
     {
-      "id": "pred_20261001232229_23971c58f1a8",
-      "individual_name": "Ian Bremmer",
-      "date": "2025-04-07",
-      "category": "geopolitics",
-      "claim": "The US government will collect money from tariffs and redistribute it to the average American through tax breaks and direct payments to help offset inflation and rising prices.",
-      "source_url": "https://www.youtube.com/watch?v=2u5R05RbQMQ",
-      "transcript_excerpt": "I'm going to snap back the tax breaks that I gave to the highest bracket. You guys are going to start paying again, and I'm going to take the money from the tariffs, take these, you know, effectively, a sales tax, all the money that the US government will be collecting from these higher goods, and I'm going to redistribute it to the average American.",
-      "verdict": null,
-      "created_at": "2026-10-01T23:22:29",
-      "measurement_type": "subjective"
-    },
-    {
       "id": "pred_20261001232229_f2fc8c9bc181",
       "individual_name": "Ian Bremmer",
       "date": "2025-04-07",
@@ -17426,33 +16777,6 @@
       "verdict": null,
       "created_at": "2026-10-01T23:23:51",
       "measurement_type": "subjective"
-    },
-    {
-      "id": "pred_20261001232356_a0d2a0364e4c",
-      "individual_name": "Ian Bremmer",
-      "date": "2025-03-25",
-      "category": "geopolitics",
-      "claim": "The Trump administration will proceed with imminent attacks by the United States on the Houthis in Yemen",
-      "source_url": "https://www.youtube.com/watch?v=4PxUePweBwM",
-      "transcript_excerpt": "invited into a Signal chat, the Signal app, by the national security advisor, Michael Waltz, with all of the major national security related principles in the Trump administration, to discuss imminent attacks by the United States on the Houthis in Yemen",
-      "verdict": null,
-      "created_at": "2026-10-01T23:23:56",
-      "measurement_type": "quantitative",
-      "occurrences": [
-        {
-          "date": "2026-01-12",
-          "url": "https://www.youtube.com/watch?v=42h_-toLll4",
-          "claim": "The Trump administration is preparing to take military strikes soon to show that they can, likely something like the Basij headquarters, the paramilitary groups that report to the Islamic Revolutionary Guard Corps and are involved directly in the repression of these unarmed civilians",
-          "id": "pred_20261001233508_42h_-t_0"
-        },
-        {
-          "date": "2026-01-12",
-          "url": "https://www.youtube.com/watch?v=42h_-toLll4",
-          "claim": "The Trump administration is preparing to take military strikes soon to show that they can directly target Iranian paramilitary groups involved in repression, likely including Basij headquarters and local police headquarters.",
-          "id": "pred_20261001235141_4a8b22a99995"
-        }
-      ],
-      "stated_count": 3
     },
     {
       "id": "pred_20261001232407_b97a5e906695",
@@ -17626,18 +16950,6 @@
       "measurement_type": "subjective"
     },
     {
-      "id": "pred_20261001232714_ec26dd7ca31a",
-      "individual_name": "Ian Bremmer",
-      "date": "2025-02-15",
-      "category": "geopolitics",
-      "claim": "President Trump will propose taking over the Gaza Strip and turning it into the Riviera of the Middle East.",
-      "source_url": "https://www.youtube.com/watch?v=ckckHnwHkfI",
-      "transcript_excerpt": "President Trump stands beside Israel's Prime Minister Benjamin Netanyahu during a Washington press conference. Trump stuns the world and apparently Netanyahu by proposing to take over the Gaza Strip and turn it into, quote, the Riviera of the Middle East.",
-      "verdict": null,
-      "created_at": "2026-10-01T23:27:14",
-      "measurement_type": "quantitative"
-    },
-    {
       "id": "pred_20261001232717_e05d9715446d",
       "individual_name": "Ian Bremmer",
       "date": "2025-02-14",
@@ -17647,30 +16959,6 @@
       "transcript_excerpt": "The level of tension here is extremely high. The level of trust has been reduced.",
       "verdict": null,
       "created_at": "2026-10-01T23:27:17",
-      "measurement_type": "subjective"
-    },
-    {
-      "id": "pred_20261001232742_a3360a0507f1",
-      "individual_name": "Ian Bremmer",
-      "date": "2025-02-10",
-      "category": "geopolitics",
-      "claim": "The United States will take over Gaza and develop it into a new Riviera on the Mediterranean, with an investment of at least $20 billion.",
-      "source_url": "https://www.youtube.com/watch?v=rvWdXWf7W1Q",
-      "transcript_excerpt": "What's temporary mean? Probably talking about a generation. Are the Palestinians likely to believe that, given what's happened on the ground in the West Bank? Hard to imagine. What does governance for the Palestinians look like? Well, Trump no longer supports a two-state solution, which he did support back in the days of the Abraham Accords.",
-      "verdict": null,
-      "created_at": "2026-10-01T23:27:42",
-      "measurement_type": "quantitative"
-    },
-    {
-      "id": "pred_20261001232742_5a61343c27f9",
-      "individual_name": "Ian Bremmer",
-      "date": "2025-02-10",
-      "category": "geopolitics",
-      "claim": "Trump will make an announcement regarding Gaza development by himself if other regional states refuse to participate.",
-      "source_url": "https://www.youtube.com/watch?v=rvWdXWf7W1Q",
-      "transcript_excerpt": "And then the US diplomats were spending day and night back channeling with Gulf allies saying, \"He didn't really mean he was going to take over all of it. He's not planning on taking over the land. Don't worry about it.\" What I would say is, this is an opening strategy to try to get, sort of all of the states in the region together with Israel and negotiate what the development of Gaza would possi",
-      "verdict": null,
-      "created_at": "2026-10-01T23:27:42",
       "measurement_type": "subjective"
     },
     {
@@ -17729,27 +17017,6 @@
       "verdict": null,
       "created_at": "2026-10-01T23:29:13",
       "measurement_type": "subjective"
-    },
-    {
-      "id": "pred_20261001232922_1aa012925b15",
-      "individual_name": "Ian Bremmer",
-      "date": "2025-01-24",
-      "category": "geopolitics",
-      "claim": "Trump will impose 10% tariffs across the board on Chinese goods starting February 1, 2025",
-      "source_url": "https://www.youtube.com/watch?v=dfXxO4zWFk8",
-      "transcript_excerpt": "We are going to now see tariffs early on China, 10% across the board February 1.",
-      "verdict": null,
-      "created_at": "2026-10-01T23:29:22",
-      "measurement_type": "quantitative",
-      "occurrences": [
-        {
-          "date": "2025-11-25",
-          "url": "https://www.youtube.com/watch?v=IeZcODodatM",
-          "claim": "Trump will likely back down from his initial tariffs on Brazil and other countries due to economic pressures and midterm election considerations.",
-          "id": "pred_20261001234120_5f9ab7143e47"
-        }
-      ],
-      "stated_count": 2
     },
     {
       "id": "pred_20261001232922_5fab3dab533c",
@@ -18184,18 +17451,6 @@
       "measurement_type": "subjective"
     },
     {
-      "id": "pred_20261001234142_fdad6ea0753f",
-      "individual_name": "Ian Bremmer",
-      "date": "2025-11-21",
-      "category": "geopolitics",
-      "claim": "Mamani will become mayor of New York City in January.",
-      "source_url": "https://www.youtube.com/watch?v=9bSq1oUKl0c",
-      "transcript_excerpt": "Uh he is going to be mayor. He won. That is not surprising. No, he is not a communist. Um and uh he is going to be in place in January.",
-      "verdict": null,
-      "created_at": "2026-10-01T23:41:42",
-      "measurement_type": "quantitative"
-    },
-    {
       "id": "pred_20261001234200_72fe0b4faab9",
       "individual_name": "Ian Bremmer",
       "date": "2025-11-17",
@@ -18331,18 +17586,6 @@
       "stated_count": 2
     },
     {
-      "id": "pred_20261001234706_e8f09b579a92",
-      "individual_name": "Ian Bremmer",
-      "date": "2025-12-08",
-      "category": "geopolitics",
-      "claim": "Notre Dame will automatically qualify for the college football championship tournament if they are ranked in the top 12 next year.",
-      "source_url": "https://www.youtube.com/watch?v=xWobgBGksEw",
-      "transcript_excerpt": "So, Notre Dame has been very careful to ensure that they have their own set of rules that apply to them and not to other schools. So, it's not because they're worried about next year. Uh the recruiters uh at Notre Dame uh showed it off. uh they said it's Notre Dame versus the world that on arguably the most important day uh of college football around the world that Notre Dame showed they could com",
-      "verdict": null,
-      "created_at": "2026-10-01T23:47:06",
-      "measurement_type": "quantitative"
-    },
-    {
       "id": "pred_20261001234717_963c798d879f",
       "individual_name": "Ian Bremmer",
       "date": "2025-12-08",
@@ -18433,18 +17676,6 @@
       "measurement_type": "quantitative"
     },
     {
-      "id": "pred_20261001235002_4879aa245e4b",
-      "individual_name": "Ian Bremmer",
-      "date": "2026-01-27",
-      "category": "geopolitics",
-      "claim": "The United States will impose 100% tariffs on Canadian exports if Canada enters into a trade deal with China.",
-      "source_url": "https://www.youtube.com/watch?v=NXtThw7glYU",
-      "transcript_excerpt": "President uh Trump now talking uh about 100% tariffs uh on the Canadians if they do a deal uh with the Chinese.",
-      "verdict": null,
-      "created_at": "2026-10-01T23:50:02",
-      "measurement_type": "quantitative"
-    },
-    {
       "id": "pred_20261001235012_0372f783d301",
       "individual_name": "Ian Bremmer",
       "date": "2026-01-26",
@@ -18467,27 +17698,6 @@
       "verdict": null,
       "created_at": "2026-10-01T23:50:12",
       "measurement_type": "subjective"
-    },
-    {
-      "id": "pred_20261001235024_22aa118cb0eb",
-      "individual_name": "Ian Bremmer",
-      "date": "2026-01-21",
-      "category": "geopolitics",
-      "claim": "The US-led global order has ended, and there will be a vacuum in global leadership.",
-      "source_url": "https://www.youtube.com/watch?v=vzizGMSMPic",
-      "transcript_excerpt": "The point here is not Trump's speech. The speech that matter was Mark Carney speech the Canadian prime minister yesterday where he put a public pin in what everyone has been saying quietly but hasn't been willing to say publicly which is there has been a rupture an end to the US-led global order",
-      "verdict": null,
-      "created_at": "2026-10-01T23:50:24",
-      "measurement_type": "subjective",
-      "occurrences": [
-        {
-          "date": "2026-01-27",
-          "url": "https://www.youtube.com/watch?v=NXtThw7glYU",
-          "claim": "The relationship between the US and Canada is permanently damaged and will lead to increased fragmentation of the 'free world.'",
-          "id": "pred_20261001235002_dfd2a5f1cfc5"
-        }
-      ],
-      "stated_count": 2
     },
     {
       "id": "pred_20261001235024_d688f9754ee5",
@@ -18829,18 +18039,6 @@
       "measurement_type": "subjective"
     },
     {
-      "id": "pred_20261002000213_98cc3d7603ea",
-      "individual_name": "Ian Bremmer",
-      "date": "2026-04-24",
-      "category": "geopolitics",
-      "claim": "A deal between the U.S. and Cuba could resemble the 2015 opening by President Obama, except Trump would treat the economics as the end goal, not a step toward political change.",
-      "source_url": "https://www.youtube.com/watch?v=bmJnSKd6CTc",
-      "transcript_excerpt": "But such a deal would fly in the face of what Secretary of State Marco Rubio, Cuban-American himself, and millions of Cuban expats have been calling for. Here he is responding to a reporter on a noisy tarmac recently. Do you want regime change or would you be okay with an economic deal? No. You mean an economic deal? No, Cuba's economy needs to change and their economy can't change unless the syst",
-      "verdict": null,
-      "created_at": "2026-10-02T00:02:13",
-      "measurement_type": "subjective"
-    },
-    {
       "id": "pred_20261002000229_78999e4b8759",
       "individual_name": "Ian Bremmer",
       "date": "2026-04-23",
@@ -19009,27 +18207,6 @@
       "measurement_type": "subjective"
     },
     {
-      "id": "pred_20261002000603_ed44eedc1262",
-      "individual_name": "Ian Bremmer",
-      "date": "2026-04-08",
-      "category": "geopolitics",
-      "claim": "The ceasefire will last for at least two weeks.",
-      "source_url": "https://www.youtube.com/watch?v=c3se_stoj8Y",
-      "transcript_excerpt": "This is a big change, almost a 180 from President Trump. Not not entirely surprising in in the morning, he had declared that Iranian civilization was probably going to be over between 8:00 and 12:00 p.m. That's very specific. He managed to escalate maximally before the eventual climb down. This was frankly the best possible scenario for weeks was that Trump would declare victory unilaterally irres",
-      "verdict": null,
-      "created_at": "2026-10-02T00:06:03",
-      "measurement_type": "quantitative",
-      "occurrences": [
-        {
-          "date": "2026-05-05",
-          "url": "https://www.youtube.com/watch?v=EukLN0YFDjM",
-          "claim": "The ceasefire will break down and lead to another round of very serious fighting in an environment where the global economy is far more fragile",
-          "id": "pred_20261002001025_4e7a17d42001"
-        }
-      ],
-      "stated_count": 2
-    },
-    {
       "id": "pred_20261002000603_e7eac481203a",
       "individual_name": "Ian Bremmer",
       "date": "2026-04-08",
@@ -19187,27 +18364,6 @@
           "url": "https://www.youtube.com/watch?v=OmPeF0ll2ew",
           "claim": "The United States' disruptive influence in global trade and the Middle East will diminish compared to the past year and a half due to constraints on Trump's power.",
           "id": "pred_20261002001106_45977b780879"
-        }
-      ],
-      "stated_count": 2
-    },
-    {
-      "id": "pred_20261002000907_45bc7a4d0945",
-      "individual_name": "Ian Bremmer",
-      "date": "2026-05-15",
-      "category": "geopolitics",
-      "claim": "China is rising and the United States is in decline, but this is due to Biden's policies, not Trump's.",
-      "source_url": "https://www.youtube.com/watch?v=Z1F1bb5uMt0",
-      "transcript_excerpt": "Trump said, \"Yeah, he said they're in decline, but it's because of Biden, not because of me, and now we're winning everywhere.\"",
-      "verdict": null,
-      "created_at": "2026-10-02T00:09:07",
-      "measurement_type": "subjective",
-      "occurrences": [
-        {
-          "date": "2026-06-29",
-          "url": "https://www.youtube.com/watch?v=OmPeF0ll2ew",
-          "claim": "Trump will not be able to continue doubling down on threats against actors that are able to hit back, and his ability to disrupt the global order will be constrained by domestic and international limits.",
-          "id": "pred_20261002001106_aeeb9c3bdb77"
         }
       ],
       "stated_count": 2
@@ -19651,18 +18807,6 @@
       "measurement_type": "subjective"
     },
     {
-      "id": "pred_20261002001913_20f1b70655d9",
-      "individual_name": "Ian Bremmer",
-      "date": "2026-08-31",
-      "category": "geopolitics",
-      "claim": "The US government will not slow down AI development despite support from over a thousand employees of frontier AI companies.",
-      "source_url": "https://www.youtube.com/watch?v=zIu5fxLlK3w",
-      "transcript_excerpt": "I've never seen that before. Where top employees that are in companies who want to make money and build their products know that they can't shut down as an individual company because of the competition are saying to the government legitimately, 'Please slow this down.' Bill Gates, who has been a huge proponent of AI... He believes that this is becoming incredibly dangerous and a pause is necessary",
-      "verdict": null,
-      "created_at": "2026-10-02T00:19:13",
-      "measurement_type": "quantitative"
-    },
-    {
       "id": "pred_20261002001953_9d738d665fdf",
       "individual_name": "Ian Bremmer",
       "date": "2026-08-28",
@@ -19672,18 +18816,6 @@
       "transcript_excerpt": "And a technical feat [music] that laid the groundwork for sending astronauts back to the lunar surface as soon as 2028.",
       "verdict": null,
       "created_at": "2026-10-02T00:19:53",
-      "measurement_type": "quantitative"
-    },
-    {
-      "id": "pred_20261002002004_8f8dab4db807",
-      "individual_name": "Ian Bremmer",
-      "date": "2026-08-24",
-      "category": "geopolitics",
-      "claim": "The United States will implement 50% tariffs on cars, trucks, auto parts, and steel starting January 1st.",
-      "source_url": "https://www.youtube.com/watch?v=XvZtLb03Pkw",
-      "transcript_excerpt": "the United States President Trump has said he has threatened that these 50% new tariffs on cars and trucks and auto parts and steel, but uh in a tweet said that they are going to be implemented on January 1st.",
-      "verdict": null,
-      "created_at": "2026-10-02T00:20:04",
       "measurement_type": "quantitative"
     },
     {
@@ -20113,18 +19245,6 @@
       "measurement_type": "subjective"
     },
     {
-      "id": "pred_20261002002911_0f5d424c38bd",
-      "individual_name": "Peter Diamandis",
-      "date": "2024-09-21",
-      "category": "ai",
-      "claim": "The cultural shift around psychedelics will continue, making therapeutic use more mainstream in the United States.",
-      "source_url": "https://www.youtube.com/watch?v=YkHm03ffnK8",
-      "transcript_excerpt": "Michael's often times he did it with the omnivores dilemma he's just he's he's right on the cusp of these things becoming more cultural mainstream and he helps orchestrate that cultural change in because after I read him doing a guided journey I thought you know what I'm going to do a guided Journey absolutely am and I set that up so that just a couple of months before I retired from Whole Foods I",
-      "verdict": null,
-      "created_at": "2026-10-02T00:29:11",
-      "measurement_type": "subjective"
-    },
-    {
       "id": "pred_20261002002927_697fcc506831",
       "individual_name": "Peter Diamandis",
       "date": "2024-09-20",
@@ -20201,39 +19321,6 @@
         }
       ],
       "stated_count": 2
-    },
-    {
-      "id": "pred_20261002003015_9762e3e80078",
-      "individual_name": "Peter Diamandis",
-      "date": "2024-09-18",
-      "category": "ai",
-      "claim": "Robotically built AI autonomous colonies in space, such as those envisioned by Gerard K. O'Neal, will be constructed within the next 30 years.",
-      "source_url": "https://www.youtube.com/watch?v=Lv5nSJx0TXo",
-      "transcript_excerpt": "I think that the abilities to do this um will be there but here's the point if we go to Mars there two scenario when we go to Mars Mr optimistic man come on do do you think there's okay listen you know we could end as a species that's true but at some point somewhere if we go to Mars it's because the military forces of the world required it of us you and I will you and I will continue to differ on",
-      "verdict": null,
-      "created_at": "2026-10-02T00:30:15",
-      "measurement_type": "quantitative",
-      "occurrences": [
-        {
-          "date": "2024-09-19",
-          "url": "https://www.youtube.com/watch?v=6nAAAOxgxDs",
-          "claim": "AI will enable an explosion of creativity and AI-enabled work, allowing businesses to be built with minimal infrastructure, such as AI agents helping build a hairdressing business.",
-          "id": "pred_20261002002950_f8348e2fc66b"
-        }
-      ],
-      "stated_count": 2
-    },
-    {
-      "id": "pred_20261002003015_3843008cd2b2",
-      "individual_name": "Peter Diamandis",
-      "date": "2024-09-18",
-      "category": "ai",
-      "claim": "The cost of Mars missions will be funded primarily through private ventures, such as Starlink, rather than traditional government funding.",
-      "source_url": "https://www.youtube.com/watch?v=Lv5nSJx0TXo",
-      "transcript_excerpt": "starlink um is his Venture uh to fund this thing how do you get a trillion dollars in value you plug into a large consumer base engine economic engine which is Communications and I I think he's doing pretty damn good",
-      "verdict": null,
-      "created_at": "2026-10-02T00:30:15",
-      "measurement_type": "subjective"
     },
     {
       "id": "pred_20261002003115_f22be71e21dd",
@@ -20779,18 +19866,6 @@
       "measurement_type": "quantitative"
     },
     {
-      "id": "pred_20261002004145_48281542564c",
-      "individual_name": "Peter Diamandis",
-      "date": "2024-08-10",
-      "category": "ai",
-      "claim": "Given current progress and technological acceleration, people who are 63 years old (as of 2024-08-10) could potentially live to 101.",
-      "source_url": "https://www.youtube.com/watch?v=_BqcBJX5Xwg",
-      "transcript_excerpt": "if in fact I can make it to 93 and I have every confidence that you and I can that's 30 years of ress ahead of us 30 years during the most rapid acceleration of AI and biotech ever um and so I'm counting on that a lot but having said that I'm going to do everything I can to make sure I've got that Runway and so blue zones is definitely part of that critical part so so there's two pools of demograp",
-      "verdict": null,
-      "created_at": "2026-10-02T00:41:45",
-      "measurement_type": "quantitative"
-    },
-    {
       "id": "pred_20261002004230_af37fd567f82",
       "individual_name": "Peter Diamandis",
       "date": "2024-08-09",
@@ -20813,30 +19888,6 @@
       "verdict": null,
       "created_at": "2026-10-02T00:42:30",
       "measurement_type": "subjective"
-    },
-    {
-      "id": "pred_20261002004242_2953abb27663",
-      "individual_name": "Peter Diamandis",
-      "date": "2024-08-08",
-      "category": "ai",
-      "claim": "RFK Jr. will become a presidential candidate and speak publicly about Bitcoin in a way that significantly impacts the political discourse around crypto regulation.",
-      "source_url": "https://www.youtube.com/watch?v=cfJW3WCZwgU",
-      "transcript_excerpt": "he was not pandering I mean this guy has gone deep he has a huge Bitcoin holding personally he was describing the technology I have friends that have spent time with him on this he's done many podcasts in my kind of crypto sphere where he's gone deep on broken money and you know it's it's it's truly astounding the degree to which he has dug in",
-      "verdict": null,
-      "created_at": "2026-10-02T00:42:42",
-      "measurement_type": "quantitative"
-    },
-    {
-      "id": "pred_20261002004242_54ef45a820e3",
-      "individual_name": "Peter Diamandis",
-      "date": "2024-08-08",
-      "category": "ai",
-      "claim": "If Trump is elected, he will fire Gary Gensler, chairman of the SEC, within his first day in office.",
-      "source_url": "https://www.youtube.com/watch?v=cfJW3WCZwgU",
-      "transcript_excerpt": "and on day one I will fire Gary Gensler and the crowd of 8,000 people literally goes bananas and loses their mind",
-      "verdict": null,
-      "created_at": "2026-10-02T00:42:42",
-      "measurement_type": "quantitative"
     },
     {
       "id": "pred_20261002004258_0862423193e8",
@@ -20905,48 +19956,6 @@
       "stated_count": 2
     },
     {
-      "id": "pred_20261002004410_4348165f07e1",
-      "individual_name": "Peter Diamandis",
-      "date": "2024-08-03",
-      "category": "ai",
-      "claim": "Elon Musk's xAI will leverage Tesla's data collection capabilities to become a competitive player in the AI wars.",
-      "source_url": "https://www.youtube.com/watch?v=yeaO6rjFNNo",
-      "transcript_excerpt": "I think he has big ideas and uh I think he's motivated by what has happened at open Ai and uh probably wants to probably is betting on something uh pointing uh away from open AI in terms of okay where where where should I place my bets and towards uh what he is doing from from a a trust point of view",
-      "verdict": null,
-      "created_at": "2026-10-02T00:44:10",
-      "measurement_type": "subjective",
-      "occurrences": [
-        {
-          "date": "2024-08-13",
-          "url": "https://www.youtube.com/watch?v=JpzFCel5b-w",
-          "claim": "The capability to have AI systems program AI will advance significantly in the next few months, with GPD 5 likely having the ability to perform self-recursive training.",
-          "id": "pred_20261002004113_11b914fa2948"
-        }
-      ],
-      "stated_count": 2
-    },
-    {
-      "id": "pred_20261002004410_a676d9bd5f36",
-      "individual_name": "Peter Diamandis",
-      "date": "2024-08-03",
-      "category": "ai",
-      "claim": "Proprietary data from Tesla and other companies will be one of the biggest competitive advantages in AI development.",
-      "source_url": "https://www.youtube.com/watch?v=yeaO6rjFNNo",
-      "transcript_excerpt": "we think proprietary data at the end of the day is going to be uh the one of the biggest competitive advantages",
-      "verdict": null,
-      "created_at": "2026-10-02T00:44:10",
-      "measurement_type": "subjective",
-      "occurrences": [
-        {
-          "date": "2024-08-27",
-          "url": "https://www.youtube.com/watch?v=NXOq6S2nGOM",
-          "claim": "Lightning network will enable millions of transactions per second by using a channel-based approach on top of Bitcoin's base layer.",
-          "id": "pred_20261002003551_d24e45c6773b"
-        }
-      ],
-      "stated_count": 2
-    },
-    {
       "id": "pred_20261002004417_b164878a4e75",
       "individual_name": "Peter Diamandis",
       "date": "2024-08-02",
@@ -20980,27 +19989,6 @@
       "measurement_type": "subjective"
     },
     {
-      "id": "pred_20261002004428_65a5dd64ccb5",
-      "individual_name": "Peter Diamandis",
-      "date": "2024-08-01",
-      "category": "ai",
-      "claim": "By 2030, Bitcoin will reach a price of $650,000 to $1.5 million per coin.",
-      "source_url": "https://www.youtube.com/watch?v=lnUpyE-k7Zk",
-      "transcript_excerpt": "our bull uh case bull is uh over 1.5 million our base is in the $650,000 range so about tenfold from here by by 2030",
-      "verdict": null,
-      "created_at": "2026-10-02T00:44:28",
-      "measurement_type": "quantitative",
-      "occurrences": [
-        {
-          "date": "2024-08-01",
-          "url": "https://www.youtube.com/watch?v=lnUpyE-k7Zk",
-          "claim": "A spot Bitcoin ETF will be available on major financial platforms within the next few months, with at least one platform introducing it in the fall of 2024.",
-          "id": "pred_20261002004428_665f09a4afc7"
-        }
-      ],
-      "stated_count": 2
-    },
-    {
       "id": "pred_20261002004435_cda5344b013b",
       "individual_name": "Peter Diamandis",
       "date": "2024-08-01",
@@ -21011,39 +19999,6 @@
       "verdict": null,
       "created_at": "2026-10-02T00:44:35",
       "measurement_type": "subjective"
-    },
-    {
-      "id": "pred_20261002004524_c388ccd57988",
-      "individual_name": "Peter Diamandis",
-      "date": "2024-07-30",
-      "category": "ai",
-      "claim": "Tesla's Robo taxi will launch within the next 18 months to maybe two years.",
-      "source_url": "https://www.youtube.com/watch?v=1t-LuKyn4XQ",
-      "transcript_excerpt": "our confidence that Robo taxi is going to launch within the next 18 months maybe two years is very high",
-      "verdict": null,
-      "created_at": "2026-10-02T00:45:24",
-      "measurement_type": "quantitative",
-      "occurrences": [
-        {
-          "date": "2024-07-30",
-          "url": "https://www.youtube.com/watch?v=1t-LuKyn4XQ",
-          "claim": "The probability of Tesla's Robo taxi launch being later than two years has significantly diminished.",
-          "id": "pred_20261002004524_39c78f314b0b"
-        }
-      ],
-      "stated_count": 2
-    },
-    {
-      "id": "pred_20261002004533_973b5c26b10b",
-      "individual_name": "Peter Diamandis",
-      "date": "2024-07-29",
-      "category": "ai",
-      "claim": "A psychedelic called ketamine will be used as an optional add-on in personal development programs to enhance brain plasticity and reset old patterns.",
-      "source_url": "https://www.youtube.com/watch?v=SbU4XaTMbaQ",
-      "transcript_excerpt": "we're using ketamine as an optional add-on on top of intense personal development neur feedback because every dose of ketamine even a low dose not the kind where you're going to go you know see aliens this is a load called a psycholytic dose it causes 72 hours of profound brain plasticity",
-      "verdict": null,
-      "created_at": "2026-10-02T00:45:33",
-      "measurement_type": "quantitative"
     },
     {
       "id": "pred_20261002004619_5754e97cba9b",
@@ -21188,30 +20143,6 @@
       "verdict": null,
       "created_at": "2026-10-02T00:47:49",
       "measurement_type": "quantitative"
-    },
-    {
-      "id": "pred_20261002004811_d91f8ebbec91",
-      "individual_name": "Peter Diamandis",
-      "date": "2024-07-05",
-      "category": "ai",
-      "claim": "Gen AI workloads will continue to eat more and more compute internally at Google.",
-      "source_url": "https://www.youtube.com/watch?v=AbfMIHGjDqw",
-      "transcript_excerpt": "so we've got classical digital computers right now the classical CPU from Intel and such and then Nvidia I think very luckily fell upon uh the opportunity with gpus most people hopefully know gpus graphical processor units were originally created for video games for graphics yeah for graphics and then they just happened to get a market in Bitcoin mining yeah right and then all of a sudden here com",
-      "verdict": null,
-      "created_at": "2026-10-02T00:48:11",
-      "measurement_type": "quantitative"
-    },
-    {
-      "id": "pred_20261002004811_f9bcb0751fba",
-      "individual_name": "Peter Diamandis",
-      "date": "2024-07-05",
-      "category": "ai",
-      "claim": "There will be different nodes of the tech tree that need development imminently, using physics that's not quantum mechanical, and these will be more useful for Gen AI.",
-      "source_url": "https://www.youtube.com/watch?v=AbfMIHGjDqw",
-      "transcript_excerpt": "during that time in Quantum Computing I realized that actually there was going to be different nodes of our our our TCH Tre that need development imminently that use a different kind of physics that's not quantum mechanical physics and that would be much more useful for for Gen AI as I was seeing sort of gen AI workloads eat more and more of the compute internally at Google",
-      "verdict": null,
-      "created_at": "2026-10-02T00:48:11",
-      "measurement_type": "subjective"
     },
     {
       "id": "pred_20261002004822_6e06fbfbc04d",
@@ -21677,7 +20608,8 @@
       "testing_since": "2026-10-02",
       "judgements": [],
       "marty_agrees": true,
-      "marty_note": "MartyPredicts: Correct"
+      "marty_note": "MartyPredicts: Correct",
+      "mc_status": "queued"
     },
     {
       "id": "pred_1790961078_17",
@@ -21703,20 +20635,6 @@
       "transcript_excerpt": "Our deficit-to-GDP is the highest in the developed world, 7.8%. And not far behind us you’ve got the French, you’ve got the Brits. And then further down the list, Germany, maybe I have that in reverse, maybe Germany is a little bit higher. But across Europe, it’s similar in terms of deficit spending. You’re supposed to reserve deficit spending for those critical moments where the consumer is unable to contribute to economic growth. Where the consumer is concerned, retrenching, tightening the belt, and not showing up. When the economy slips towards recession, Keynesian economics, Neo-Keynesian economics would suggest that’s when you deficit spend. We’ve chosen to deficit spend in a period of time where the consumer has fully showed up. And so we’re in this very precarious state. We’re on track for 2.5 trillion dollars in deficit spending, and that’s not with a recession. If we have a recession, we could see that blow out to 3.5, 4 trillion for 2026.",
       "verdict": null,
       "measurement_type": "quantitative",
-      "test_status": "eligible",
-      "testing_since": "2026-10-02",
-      "judgements": []
-    },
-    {
-      "id": "pred_1790961078_19",
-      "individual_name": "David McAlvany",
-      "date": "2026-07-22",
-      "category": "finance",
-      "claim": "Gold will rise significantly when it enters the market, and we think it could go much higher than current levels.",
-      "source_url": "https://mcalvany.com/weekly-commentary/the-old-market-order-is-breaking-what-it-means-for-gold/",
-      "transcript_excerpt": "David: ...how high do we think gold might go when it does go?",
-      "verdict": null,
-      "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
       "judgements": []
@@ -21773,20 +20691,6 @@
       "transcript_excerpt": "I think the ratio will continue its long-term compression towards the low-single digits, where it has repeatedly bottomed throughout history.",
       "verdict": null,
       "measurement_type": "subjective",
-      "test_status": "eligible",
-      "testing_since": "2026-10-02",
-      "judgements": []
-    },
-    {
-      "id": "pred_1790961078_26",
-      "individual_name": "David McAlvany",
-      "date": "2026-07-01",
-      "category": "finance",
-      "claim": "Gold could ultimately reach 17,250 an ounce, with the Dow-to-gold ratio compressing to 2-to-1.",
-      "source_url": "https://mcalvany.com/weekly-commentary/increasing-use-of-chinese-yuan-is-bullish-for-gold/",
-      "transcript_excerpt": "Pierre was a featured speaker there last year. So he suggested that gold could ultimately reach 17,250 an ounce, with the Dow-to-gold ratio compressing to 2-to-1.",
-      "verdict": null,
-      "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
       "judgements": []
@@ -21904,20 +20808,6 @@
       "judgements": []
     },
     {
-      "id": "pred_1790961078_35",
-      "individual_name": "David McAlvany",
-      "date": "2026-05-06",
-      "category": "finance",
-      "claim": "Gold can rise to $8,000 over the next five years.",
-      "source_url": "https://mcalvany.com/weekly-commentary/central-banks-gobble-up-gold-retail-buyers-yawn/",
-      "transcript_excerpt": "Deutsche Bank concludes that, \"the return of history is here, and we can now see a future in which gold can rise to $8,000 over the next five years.\"",
-      "verdict": null,
-      "measurement_type": "quantitative",
-      "test_status": "eligible",
-      "testing_since": "2026-10-02",
-      "judgements": []
-    },
-    {
       "id": "pred_1790961078_37",
       "individual_name": "David McAlvany",
       "date": "2026-05-13",
@@ -21927,20 +20817,6 @@
       "transcript_excerpt": "David: Yeah. I mean, what’s likely to unfold in the years directly in front of us, and maybe even in the quarters or months on a much shorter time frame, is a massive monetization of Treasury debt by the Federal Reserve.",
       "verdict": null,
       "measurement_type": "quantitative",
-      "test_status": "eligible",
-      "testing_since": "2026-10-02",
-      "judgements": []
-    },
-    {
-      "id": "pred_1790961078_38",
-      "individual_name": "David McAlvany",
-      "date": "2026-05-13",
-      "category": "finance",
-      "claim": "The U.S. dollar's dominance as a global reserve currency will decline significantly, with countries like China and India moving away from holding U.S. Treasuries.",
-      "source_url": "https://mcalvany.com/weekly-commentary/the-new-unofficial-global-gold-standard/",
-      "transcript_excerpt": "David: The current rate right now is between 4.8 and 12 million barrels per day of reserves that are being depleted, and we still have supplies coming to market that were in transit at the time the war started.",
-      "verdict": null,
-      "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
       "judgements": []

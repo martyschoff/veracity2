@@ -266,6 +266,12 @@
         }
         .marty-agrees { background: rgba(34,197,94,0.15); color: #22c55e; border: 1px solid #22c55e; }
         .marty-disagrees { background: rgba(239,68,68,0.12); color: #ef4444; border: 1px solid rgba(239,68,68,0.5); }
+        .mc-badge {
+            display: inline-block; padding: 2px 10px; border-radius: 6px;
+            font-size: 0.68rem; font-weight: 700; margin-top: 6px;
+            background: rgba(59,130,246,0.12); color: #3b82f6; border: 1px solid rgba(59,130,246,0.5);
+        }
+        .mc-running { opacity: 0.6; }
         .badge {
             display: inline-block; padding: 2px 8px; border-radius: 10px;
             font-size: 0.62rem; font-weight: 600; text-transform: uppercase;
@@ -347,6 +353,11 @@
                         <div class="verdict-box">Panel Judgement: {{ row.verdict | upper if row.verdict else 'TBD' }}</div>
                         {% if row.marty_agrees is defined and row.marty_agrees is not none %}
                         <div class="marty-badge {{ 'marty-agrees' if row.marty_agrees else 'marty-disagrees' }}">{{ row.marty_note if row.marty_note else ('MartyPredicts: Correct' if row.marty_agrees else 'MartyPredicts: Wrong') }}</div>
+                        {% endif %}
+                        {% if row.mc_status == 'done' and row.mc_result %}
+                        <div class="mc-badge">MonteCarlo: {{ row.mc_result }}</div>
+                        {% elif row.mc_status == 'queued' or row.mc_status == 'running' %}
+                        <div class="mc-badge mc-running">MonteCarlo: running…</div>
                         {% endif %}
                     </div>
                 </div>

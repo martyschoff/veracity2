@@ -590,12 +590,15 @@ def run_retire_stage(data: dict) -> int:
 # ---- Marty notation ----
 
 def set_marty_verdict(data: dict, pred_id: str, agrees: bool, note: str = "") -> bool:
-    """Set Marty's advisory agreement flag on a prediction. Does not force verdict."""
+    """Set Marty's advisory agreement flag on a prediction. Does not force verdict.
+    Enqueues a Monte Carlo (persona swarm) assessment for the marked prediction."""
     for pred in data["predictions"]:
         if pred.get("id") == pred_id:
             pred["marty_agrees"] = agrees
             pred["marty_note"] = note
             pred["marty_at"] = datetime.now().date().isoformat()
+            if pred.get("mc_status") in (None, "none"):
+                pred["mc_status"] = "queued"  # picked up by scripts/monte_carlo.py
             return True
     return False
 

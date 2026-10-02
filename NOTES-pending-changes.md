@@ -54,5 +54,7 @@
 ## 2. Also held (previously agreed, awaiting go)
 - Backfill completion check for Bremmer (GZERO) + Diamandis to 2024-04-30 (agent running)
 - Verdict system display already live; cron 8am/8pm live
-- TOMORROW: benchmark local model tok/s (user asked; needs idle server)
+- TOMORROW: benchmark local model tok/s (DONE 10/2: 16.3 tok/s steady on 27B; tower1 gpt-oss:120b = 11.7 tok/s)
+- TOMORROW: write a WhatsApp-facing state brief (project context file auto-read by laphermes sessions) — user deferred to tomorrow
+- WhatsApp "laphermes" is LIVE (self-chat mode, gateway installed as login item)
 - LLM dedupe run results: review merged groups, then render+deploy+commit
