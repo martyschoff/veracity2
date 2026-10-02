@@ -2204,3 +2204,200 @@
 10-01 22:32:12 OK ZeihanonGeopolitics D3467GJaQaw 2026-06-10 preds=2 :: Insulating the President with Loyalists || Peter Zeihan
 10-01 22:32:21 OK ZeihanonGeopolitics 2qkDJRUczz0 2026-06-09 preds=2 :: The Future of Drone Tech: Naval Launch Platforms || Peter Ze
 10-01 22:32:21 NO_TRANSCRIPT ZeihanonGeopolitics 6K4wwP0gfO8 2026-07-02 :: The Future of Drone Tech: Mid-Range Drones || Peter Zeihan
+10-01 22:34:13 OK ZeihanonGeopolitics OTUIRrG2JJA 2026-06-06 preds=2 :: The Future of Drone Tech: Long-Range Strikes || Peter Zeihan
+10-01 22:34:23 OK ZeihanonGeopolitics VYh2m6IcMvQ 2026-06-05 preds=2 :: Ukrainian Strikes Disrupt the Russian Economic Summit || Pet
+10-01 22:34:30 OK ZeihanonGeopolitics kNO5tiJcFck 2026-06-04 preds=1 :: The Future of Drone Tech: Israel's Iron Dome || Peter Zeihan
+10-01 22:34:42 OK ZeihanonGeopolitics Et0mwzZj-_o 2026-06-03 preds=2 :: Should Alberta Secede from Canada? || Peter Zeihan
+10-01 22:34:53 OK ZeihanonGeopolitics -E2xgpNIgqw 2026-06-02 preds=2 :: Magyar Tries to Rebuild the Visegrád Group || Peter Zeihan
+10-01 22:34:53 NO_TRANSCRIPT ZeihanonGeopolitics NNEi3RmD0sc 2026-08-02 :: Ukraine's Military Reshuffling Highlights Resource Problems 
+10-01 22:35:50 OK ZeihanonGeopolitics QJxKnIYmBxc 2026-07-30 preds=1 :: Spain's Immigration Solution Turns Into a Crisis || Peter Ze
+10-01 22:36:02 OK ZeihanonGeopolitics F7Z5BuGPNfc 2026-07-29 preds=2 :: Houthis Declare Open Season on Saudi Arabia || Peter Zeihan
+10-01 22:36:12 OK ZeihanonGeopolitics PbzXXcApttw 2026-07-28 preds=2 :: Ukraine Closes the Sea of Azov || Peter Zeihan
+10-01 22:36:25 OK ZeihanonGeopolitics WA3i9KTyLso 2026-07-27 preds=2 :: Chinese Marriage Data Confirms Demographic Crisis || Peter Z
+10-01 22:36:36 OK ZeihanonGeopolitics qvrj7_SMxao 2026-07-24 preds=2 :: The Demographics of Central Europe || Peter Zeihan
+10-01 22:36:36 NO_TRANSCRIPT ZeihanonGeopolitics J_2Kh2UWEgs 2026-08-02 :: Russian Sleeper Cells Don't Scare Me || Peter Zeihan
+10-01 22:37:44 OK ZeihanonGeopolitics SrvQVmvDZxw 2026-07-22 preds=2 :: Why Space and Data Centers Don't Go Together || Peter Zeihan
+10-01 22:37:54 OK ZeihanonGeopolitics 6770CRbOl0I 2026-07-21 preds=2 :: Defending Against Rising Sea Levels || Peter Zeihan
+10-01 22:38:03 OK ZeihanonGeopolitics 6-jdy8aoB9M 2026-07-20 preds=2 :: How to Solve the Cocaine Problem || Peter Zeihan
+10-01 22:39:09 OK ZeihanonGeopolitics g4y_bth79kI 2026-07-17 preds=2 :: The Future of Drone Tech: Naval Strategies || Peter Zeihan
+10-01 22:39:17 OK ZeihanonGeopolitics 7JFzDkpkxGQ 2026-07-16 preds=2 :: South Korea Goes All-In on Drones || Peter Zeihan
+10-01 22:39:17 NO_TRANSCRIPT ZeihanonGeopolitics MVc-AMmhNwc 2026-08-02 :: The Future of Drone Tech: Ukraine's Innovation || Peter Zeih
+10-01 22:40:22 OK ZeihanonGeopolitics v9jD_EmzoAw 2026-07-14 preds=2 :: Why Nobody Came to Help the U.S in Iran || Peter Zeihan
+10-01 22:40:41 OK ZeihanonGeopolitics xJy6CdJ56TU 2026-07-13 preds=1 :: A Canadian Pipe(line) Dream || Peter Zeihan
+10-01 22:41:53 OK ZeihanonGeopolitics eDeBB7kbO9U 2026-07-10 preds=2 :: The U.S. and Ukraine Make a Drone Deal || Peter Zeihan
+10-01 22:42:03 OK ZeihanonGeopolitics yo5YM0QJqi0 2026-07-09 preds=2 :: Korean Exports Skyrocket Thanks to AI || Peter Zeihan
+10-01 22:42:15 OK ZeihanonGeopolitics PhpzX8Gp_Ys 2026-07-07 preds=2 :: Status Update on the Persian Gulf || Peter Zeihan
+10-01 22:42:23 OK ZeihanonGeopolitics rIf5WuqhuFw 2026-07-06 preds=2 :: U.S. Oil Export Restrictions Coming Soon || Peter Zeihan
+10-01 22:42:36 OK ZeihanonGeopolitics xl6TgTRHDAg 2026-07-03 preds=2 :: Say Goodbye to Kazakhstan Oil || Peter Zeihan
+10-01 22:42:36 == ZeihanonGeopolitics COMPLETE ==
+10-01 22:43:57 OK GZEROMedia jpVsYVknJmQ 2024-09-30 preds=2 :: Israel strikes: Why Hezbollah remains silent | Ian Bremmer's
+10-01 22:44:02 OK GZEROMedia lx2moFyTZYU 2024-09-24 preds=1 :: Israel vs Hezbollah | Ian Bremmer's Quick Take
+10-01 22:44:02 NO_TRANSCRIPT GZEROMedia xULGY7o2sFE 2024-10-02 :: Ian Bremmer on Trump second assassination attempt | Quick Ta
+10-01 22:44:11 OK GZEROMedia HHGqlnB_6pM 2024-09-11 preds=2 :: Harris wins debate | Ian Bremmer | Quick Take
+10-01 22:44:24 OK GZEROMedia RHk8oDn5ATY 2024-09-10 preds=2 :: Brazil's X ban becomes a rallying cry for Bolsonaro | Ian Br
+10-01 22:44:24 NO_TRANSCRIPT GZEROMedia -gToGPhpMdg 2024-10-02 :: Israelis push Netanyahu for ceasefire after Hamas kills host
+10-01 22:46:07 OK GZEROMedia E3eKXCmbS6k 2024-08-26 preds=2 :: Israel & Hezbollah: What to expect next | Quick Take
+10-01 22:46:19 OK GZEROMedia r9iu4GWy7Q8 2024-08-19 preds=2 :: Harris, Trump and the hypocrisy in US politics | Ian Bremmer
+10-01 22:46:29 OK GZEROMedia BnOELrJYGxo 2024-08-12 preds=2 :: Why Ukraine invaded Russia | Ian Bremmer | Quick Take
+10-01 22:46:36 OK GZEROMedia TeUP-noJJAI 2024-08-05 preds=1 :: Kamala Harris on foreign policy | Ian Bremmer | Quick Take
+10-01 22:46:46 OK GZEROMedia v-3do4toa4o 2024-07-31 preds=2 :: Hamas leader assassinated in Iran | Ian Bremmer | Quick Take
+10-01 22:46:46 NO_TRANSCRIPT GZEROMedia BkaPTQwcgPU 2024-10-02 :: Maduro's dubious Venezuela win leaves Biden with few options
+10-01 22:47:46 OK GZEROMedia MUzstE0VXiQ 2024-07-21 preds=2 :: Biden steps aside | Ian Bremmer | Quick Take
+10-01 22:48:00 OK GZEROMedia N62WYSINycM 2024-07-15 preds=2 :: After Trump attack, will the US unite? | Ian Bremmer | Quick
+10-01 22:48:11 OK GZEROMedia Lo2HvvuxaFM 2024-07-14 preds=2 :: Breaking news: Trump shot in apparent assassination attempt 
+10-01 22:48:19 OK GZEROMedia nfcZsnk9R0I 2024-07-08 preds=2 :: In global elections, incumbents are in trouble | Ian Bremmer
+10-01 22:48:33 OK GZEROMedia 2DdlFACFWDI 2024-07-01 preds=2 :: Biden isn't going anywhere for now | Ian Bremmer | Quick Tak
+10-01 22:48:36 CHECKPOINT rc=0 merged/out:    [90mProduction ..................................................................... [4mveracity2.surge.sh[24m[39m
+
+   [32mSuccess![39m[90m - Published to [4mveracity2.surge.sh[24m[39m
+
+
+
+10-01 22:49:44 OK GZEROMedia -xABj0wKiBU 2024-06-28 preds=2 :: Ian Bremmer on debate: A big loss for Biden | Quick Take
+10-01 22:49:55 OK GZEROMedia Vm_xECt8prQ 2024-06-24 preds=2 :: Russia-Ukraine reality check | Ian Bremmer's Quick Take
+10-01 22:50:05 OK GZEROMedia gsdNZzgOGf8 2024-06-17 preds=2 :: The US is the world's most dysfunctional major democracy | I
+10-01 22:50:17 OK GZEROMedia Gw92Rn0XAZg 2024-06-10 preds=2 :: Israel hostage rescue & the worsening human toll | Ian Bremm
+10-01 22:50:28 OK GZEROMedia OCNyUU2e82s 2024-06-04 preds=2 :: Biden's Israel-Hamas cease-fire plan is trouble for Netanyah
+10-01 22:50:28 NO_TRANSCRIPT GZEROMedia 8pCxmtVjIaY 2024-10-02 :: Ian Bremmer on Trump's guilty verdict | Quick Take
+10-01 22:51:55 NO_TRANSCRIPT GZEROMedia 6-T_VAUR6O4 2024-10-02 :: Israel & Hamas extreme positions move them even further apar
+10-01 22:52:12 OK GZEROMedia M0536Q2tCxA 2024-05-23 preds=2 :: Modi set to win big in India's elections as economy booms | 
+10-01 22:52:21 OK GZEROMedia lmwRX05RrmA 2024-05-20 preds=2 :: ICC war crimes charge strengthens Netanyahu's position in Is
+10-01 22:52:21 NO_TRANSCRIPT GZEROMedia py4KHljQsBw 2024-10-02 :: Israel-Gaza situation has Biden facing bipartisan criticism 
+10-01 22:52:29 OK GZEROMedia xXshizAYApQ 2024-05-06 preds=2 :: How Javier Milei is turning Argentina's economy around | Ian
+10-01 22:52:29 NO_TRANSCRIPT GZEROMedia 2OtX4KbnnRY 2024-10-02 :: Ian Explains: Does it matter if Americans don't trust the Su
+10-01 22:53:18 OUT_OF_RANGE toQy0QclUKk 2024-04-29
+10-01 22:53:18 OUT_OF_RANGE AhqVivQO7nY 2024-04-28
+10-01 22:53:18 OUT_OF_RANGE baJT3Gte3nE 2024-04-23
+10-01 22:53:18 OUT_OF_RANGE qAzCifevkWQ 2024-04-19
+10-01 22:53:18 OUT_OF_RANGE A3u-D4SJhrI 2024-04-14
+10-01 22:53:18 NO_TRANSCRIPT GZEROMedia jRB9SyZW2DM 2024-10-02 :: Ian Explains: Xi Jinping's nationalist agenda is rebuilding 
+10-01 22:54:17 NO_TRANSCRIPT GZEROMedia aqjDzvqXID4 2024-10-02 :: US-China relationship at its most stable in years as Yellen 
+10-01 22:54:17 OUT_OF_RANGE aD5a9cTuPqk 2024-04-04
+10-01 22:54:17 OUT_OF_RANGE MUtoPT81sME 2024-04-01
+10-01 22:54:17 OUT_OF_RANGE UuzO_ymyE4g 2024-03-25
+10-01 22:54:17 OUT_OF_RANGE 93-OyItvp9Q 2024-03-18
+10-01 22:54:17 NO_TRANSCRIPT GZEROMedia jmVetS19QHk 2024-10-02 :: Israel, Hamas and US in impasse over cease-fire deal | Ian B
+10-01 22:55:19 OUT_OF_RANGE bQqnsUiQvys 2024-03-04
+10-01 22:55:19 OUT_OF_RANGE ylbmp32cmaI 2024-02-26
+10-01 22:55:19 OUT_OF_RANGE 94rAIdnU5o4 2024-02-23
+10-01 22:55:19 OUT_OF_RANGE f6tCXM9-Te0 2024-02-20
+10-01 22:55:19 NO_TRANSCRIPT GZEROMedia adc36YgX6_8 2024-10-02 :: Navalny's death is a message to the West | Ian Bremmer | Qui
+10-01 22:55:19 NO_TRANSCRIPT GZEROMedia gw9783GhIAA 2024-10-02 :: Munich Security Conference 2024: What to expect | Ian Bremme
+10-01 22:55:57 OUT_OF_RANGE eP5j-gjwzsw 2024-02-12
+10-01 22:55:57 OUT_OF_RANGE JLE4gF1UKPs 2024-02-09
+10-01 22:55:57 OUT_OF_RANGE crjeU7RUJ5A 2024-02-08
+10-01 22:55:57 OUT_OF_RANGE U2VBo4LuSqo 2024-02-05
+10-01 22:55:57 OUT_OF_RANGE mZab1JxGAjY 2024-02-02
+10-01 22:55:57 NO_TRANSCRIPT GZEROMedia ZdGgeBKoKKg 2024-10-02 :: Ian Explains: How the US turned red and blue | GZERO World w
+10-01 22:57:02 OUT_OF_RANGE EnRxgdJ1ovQ 2024-01-29
+10-01 22:57:02 OUT_OF_RANGE Zixp3Y6FmLw 2024-01-22
+10-01 22:57:02 OUT_OF_RANGE P0FJCsQ03h4 2024-01-20
+10-01 22:57:02 OUT_OF_RANGE 29wlXLTfKzo 2024-01-15
+10-01 22:57:02 OUT_OF_RANGE OFuUqmDcVks 2024-01-12
+10-01 22:57:02 NO_TRANSCRIPT GZEROMedia Bsjvw7IJqsA 2024-10-02 :: 2024's top global risks: The trifecta of wars threatening gl
+10-01 22:57:59 OUT_OF_RANGE HJ661bquQbE 2024-01-04
+10-01 22:57:59 OUT_OF_RANGE It4BjNDIT6A 2023-12-27
+10-01 22:57:59 OUT_OF_RANGE OUeBAW_yX28 2023-12-18
+10-01 22:57:59 OUT_OF_RANGE 5D6MMMMWuTA 2023-12-15
+10-01 22:57:59 OUT_OF_RANGE T1_z-Gqpyow 2023-12-11
+10-01 22:57:59 NO_TRANSCRIPT GZEROMedia fazJXVrDdks 2024-10-02 :: Ian Explains: How is America's "Pivot to Asia" playing out? 
+10-01 22:58:41 OUT_OF_RANGE yhfvCenbOe0 2023-12-04
+10-01 22:58:41 OUT_OF_RANGE HDKba5U9-lI 2023-12-01
+10-01 22:58:41 NO_TRANSCRIPT GZEROMedia dqyoPjWZhNA 2024-10-02 :: Israel-Hamas war: Hostage release doesn't mean the end is ne
+10-01 22:58:41 OUT_OF_RANGE NIiifw5Ydm4 2023-11-20
+10-01 22:58:41 OUT_OF_RANGE Ws4Z9pK9q40 2023-11-17
+10-01 22:58:41 NO_TRANSCRIPT GZEROMedia kvK2gRjjqj4 2024-10-02 :: Israel’s geopolitical missteps in Gaza | Ian Bremmer | Quick
+10-01 22:59:47 OUT_OF_RANGE eWze2F2mrbg 2023-11-06
+10-01 22:59:47 OUT_OF_RANGE W1KP0J2LZjc 2023-11-03
+10-01 22:59:47 OUT_OF_RANGE QSYqpcV4wJ0 2023-10-30
+10-01 22:59:47 OUT_OF_RANGE eR6yhlP_Ut4 2023-10-26
+10-01 22:59:47 OUT_OF_RANGE 6feZ2OIY2lk 2023-10-23
+10-01 22:59:47 NO_TRANSCRIPT GZEROMedia OUNv721JhwE 2024-10-02 :: Israel-Hamas War: The race to avert escalation in the Middle
+10-01 23:00:48 OUT_OF_RANGE mOIA_nvaoJU 2023-10-07
+10-01 23:00:48 OUT_OF_RANGE vtdnPnW-euM 2023-10-07
+10-01 23:00:48 OUT_OF_RANGE -QKv_ro7cL0 2023-10-03
+10-01 23:00:55 OK GZEROMedia o_6hp6GA4sU 2025-09-30 preds=1 :: Trump shifts on Russia: From carrots to sticks in Ukraine wa
+10-01 23:01:06 OK GZEROMedia 2VsopOfGZGs 2025-09-29 preds=2 :: Israel is facing real consequences over Gaza annexation plan
+10-01 23:01:06 NO_TRANSCRIPT GZEROMedia PPNW6c4ZRAs 2025-10-02 :: Trump’s UN speech: Sovereignty, security, and ending wars | 
+10-01 23:02:14 OK GZEROMedia f2ev81dBfP4 2025-09-16 preds=2 :: Brazil sentences Bolsonaro: What it means for democracy and 
+10-01 23:02:18 OK GZEROMedia t54kUDts1dY 2025-09-15 preds=1 :: Charlie Kirk's assassination will make things worse in the U
+10-01 23:02:27 OK GZEROMedia GZUWRtbUq8Y 2025-09-10 preds=2 :: Israel attacks and targets Hamas leadership in Qatar | ask i
+10-01 23:02:36 OK GZEROMedia GrwSaRK4VFw 2025-09-08 preds=2 :: Russia-Ukraine war escalation | Ian Bremmer’s Quick Take
+10-01 23:02:48 OK GZEROMedia I3sMv_CyOPI 2025-09-03 preds=2 :: US strike on vessel from Venezuela | ask ian
+10-01 23:02:48 NO_TRANSCRIPT GZEROMedia 5iqUwxOnGIc 2025-10-02 :: China’s push for a new world order | Ian Bremmer’s Quick Tak
+10-01 23:03:37 OK GZEROMedia qFVYk9yRoRs 2025-08-27 preds=2 :: Is the US preparing to strike Venezuela? | Ian Bremmer's Qui
+10-01 23:03:49 OK GZEROMedia ZsdMLNUpqvQ 2025-08-25 preds=2 :: Is American capitalism still capitalism? | Ian Bremmer's Qui
+10-01 23:04:03 OK GZEROMedia kT7HqMyt57w 2025-08-18 preds=2 :: Zelensky, Trump, and NATO: A united front on Ukraine? | Ian 
+10-01 23:05:32 OK GZEROMedia NUCvWFvpRB8 2025-08-11 preds=2 :: Trump and Putin to meet in Alaska to discuss Ukraine | Ian B
+10-01 23:06:20 OK GZEROMedia tcfTJ8WnuFE 2025-08-04 preds=2 :: US government rescinds West Point role for former cyber dire
+10-01 23:06:31 OK GZEROMedia 5vU-ATfMS9c 2025-07-28 preds=2 :: US-EU trade deal marks a "big win" for Trump | Ian Bremmer's
+10-01 23:06:41 OK GZEROMedia vwZiRkvBUcs 2025-07-21 preds=2 :: The US, China, and the critical minerals question | Ian Brem
+10-01 23:07:17 OK GZEROMedia TFyt804sGds 2025-07-14 preds=2 :: Epstein conspiracies divide Trump's MAGA base | Ian Bremmer'
+10-01 23:07:17 NO_TRANSCRIPT GZEROMedia 0gH_GbkyuOM 2025-10-02 :: US-Brazil relations in crisis | Ian Bremmer's Quick Take
+10-01 23:13:56 OK GZEROMedia l0-wSwA75vs 2025-07-07 preds=2 :: Elon Musk vows to start a new political party | Ian Bremmer'
+10-01 23:14:15 OK GZEROMedia Jf_OpQri_SU 2025-06-30 preds=2 :: What Zohran Mamdani’s win really signals for US politics | I
+10-01 23:14:23 OK GZEROMedia td-F5iPbR_k 2025-06-23 preds=2 :: Iran's retaliation shows strategic weakness | Ian Bremmer's 
+10-01 23:14:37 OK GZEROMedia BXfvPr0XCko 2025-06-22 preds=2 :: US enters war with Iran: What comes next? | Ian Bremmer's Qu
+10-01 23:14:48 OK GZEROMedia mXMFQvkAXGQ 2025-06-16 preds=2 :: Iran looks to negotiate ceasefire | Ian Bremmer's Quick Take
+10-01 23:14:48 NO_TRANSCRIPT GZEROMedia bPdnB2Y9FDE 2025-10-02 :: Israel strikes Iran: Could the US and Gulf States be pulled 
+10-01 23:17:02 OK GZEROMedia mGUHR1s-Xxo 2025-06-09 preds=2 :: Trump deploys National Guard to LA amid immigration protests
+10-01 23:18:15 OK GZEROMedia ZcICo6aikQ4 2025-06-06 preds=2 :: Elon vs. Trump: Billionaire fallout goes public | Ian Bremme
+10-01 23:18:26 OK GZEROMedia 2SGSx-PBHEY 2025-06-02 preds=2 :: Ukraine’s drone strike shocks Russia and redefines modern wa
+10-01 23:18:26 NO_TRANSCRIPT GZEROMedia XDvKdvbSpCY 2025-10-02 :: Elon Musk steps down from Trump administration | Ian Bremmer
+10-01 23:18:39 OK GZEROMedia occ80F13gXI 2025-05-27 preds=2 :: Trump targets Harvard: What's at stake for US education & in
+10-01 23:18:44 OK GZEROMedia 4PUlsVrDyDQ 2025-05-19 preds=1 :: Trump’s Middle East playbook: Business first, diplomacy late
+10-01 23:18:44 NO_TRANSCRIPT GZEROMedia 53lDDfAQNt4 2025-10-02 :: Trump's weekend of geopolitical success | Ian Bremmer's Quic
+10-01 23:18:47 CHECKPOINT rc=0 merged/out:    [90mProduction ..................................................................... [4mveracity2.surge.sh[24m[39m
+
+   [32mSuccess![39m[90m - Published to [4mveracity2.surge.sh[24m[39m
+
+
+
+10-01 23:20:10 OK GZEROMedia M6soZybuL48 2025-05-07 preds=2 :: Can Trump and Carney reset US-Canada relations? | Ian Bremme
+10-01 23:21:06 OK GZEROMedia blslh7C8oys 2025-05-05 preds=1 :: Trump’s ‘less is more’ message is un-American | Ian Bremmer'
+10-01 23:21:46 OK GZEROMedia fbXJ9zsIG6Y 2025-04-28 preds=2 :: ​Ian Bremmer on Trump's first 100 days | Quick Take
+10-01 23:21:57 OK GZEROMedia 2lVog3POi3o 2025-04-23 preds=2 :: Trump’s America: A kleptocracy but not a police state | Ian 
+10-01 23:22:03 OK GZEROMedia Psbm0IWoDRM 2025-04-21 preds=1 :: Inside the Harvard-Trump showdown | Ian Bremmer's Quick Take
+10-01 23:22:15 OK GZEROMedia EXETOHvRMj4 2025-04-14 preds=2 :: Can the US win by undoing globalization? | Ian Bremmer's Qui
+10-01 23:22:29 OK GZEROMedia 2u5R05RbQMQ 2025-04-07 preds=2 :: Who benefits from Trump's tariff wall? | Ian Bremmer's Quick
+10-01 23:22:29 NO_TRANSCRIPT GZEROMedia taQng8WmWRU 2025-10-02 :: Trump's tariffs & the end of globalization | Ian Bremmer's Q
+10-01 23:23:43 OK GZEROMedia Z-WqUhAOHcc 2025-03-31 preds=2 :: Will Marine Le Pen's conviction really keep her out of Frenc
+10-01 23:23:51 OK GZEROMedia NpLZZFPDv0E 2025-03-26 preds=1 :: Leaked Signal chat shows Trump team's mindset | Ian Bremmer'
+10-01 23:23:56 OK GZEROMedia 4PxUePweBwM 2025-03-25 preds=1 :: What Trump team's war plans leak revealed | Ian Bremmer's Qu
+10-01 23:24:07 OK GZEROMedia XxwntadlDe4 2025-03-24 preds=2 :: Is Europe in trouble as the US pulls away? | Ian Bremmer's Q
+10-01 23:24:14 OK GZEROMedia U5suWMMABoo 2025-03-18 preds=2 :: Putin-Trump Ukraine call is a small win for both sides | Ian
+10-01 23:24:14 NO_TRANSCRIPT GZEROMedia tLVLFV9M9Ho 2025-10-02 :: What will Trump offer Putin in Ukraine ceasefire talks? | Ia
+10-01 23:25:30 OK GZEROMedia q9ui9dXHBmA 2025-03-11 preds=2 :: Ukraine ceasefire deal now awaits Putin's response | Ian Bre
+10-01 23:25:38 OK GZEROMedia LPI52kN0XMw 2025-03-10 preds=1 :: If Trump's foreign policy pushes allies away, can the US go 
+10-01 23:25:49 OK GZEROMedia xg6bvUdXl9Q 2025-03-03 preds=2 :: Can Europe broker a Ukraine ceasefire? | Ian Bremmer's Quick
+10-01 23:25:59 OK GZEROMedia NXoreH_5coA 2025-03-01 preds=2 :: What the Trump-Zelensky fallout means for Ukraine war | Ian 
+10-01 23:26:10 OK GZEROMedia 7GF3-VjKuPk 2025-02-26 preds=2 :: Why the US-Ukraine minerals deal changed | Ian Bremmer's Qui
+10-01 23:26:10 NO_TRANSCRIPT GZEROMedia keI0eyp9Zck 2025-10-02 :: Germany's close election limits its ability to lead Europe |
+10-01 23:27:09 OK GZEROMedia uVLyCLTXT_0 2025-02-18 preds=2 :: Ukraine looks to Europe for help as US negotiates with Russi
+10-01 23:27:14 OK GZEROMedia ckckHnwHkfI 2025-02-15 preds=1 :: Trump to Gazans: Does it matter where you live? | Ian Explai
+10-01 23:27:17 OK GZEROMedia KGJd2lxZovA 2025-02-14 preds=1 :: JD Vance stuns Munich conference with critique on European d
+10-01 23:27:28 OK GZEROMedia c3PaJDMK8Cw 2025-02-13 preds=2 :: Trump-Putin chat over Ukraine "deeply" worries Europe | Ian 
+10-01 23:27:42 OK GZEROMedia rvWdXWf7W1Q 2025-02-10 preds=2 :: What is Trump's Gaza playbook? | Ian Bremmer's Quick Take
+10-01 23:27:42 NO_TRANSCRIPT GZEROMedia 6x90th29Jr0 2025-10-02 :: Why cutting USAID will hurt American foreign policy | Ian Br
+10-01 23:28:47 OK GZEROMedia tLX4ZA9_fLA 2025-02-02 preds=2 :: Why is Trump starting a trade war with Canada? | Ian Bremmer
+10-01 23:29:13 OK GZEROMedia IAOcs9B40fo 2025-01-27 preds=2 :: How Trump's assertive foreign policy impacts international r
+10-01 23:29:22 OK GZEROMedia dfXxO4zWFk8 2025-01-24 preds=2 :: Trump's Davos address sets up big shifts in US strategy | Ia
+10-01 23:29:27 OK GZEROMedia GBCj0qG5gBQ 2025-01-20 preds=1 :: From Davos: How global leaders are grappling with Trump’s re
+10-01 23:29:39 OK GZEROMedia nIaenz_ZQik 2025-01-17 preds=2 :: Ian Bremmer on the forces behind the geopolitical recession 
+10-01 23:29:46 OK GZEROMedia ayuNaC83pgg 2025-01-13 preds=1 :: What Greenlanders might want from a deal with Trump | Ian Br
+10-01 23:29:46 NO_TRANSCRIPT GZEROMedia BEhwlt_XTG4 2025-10-02 :: New Year's Day terror attacks highlight America's divisions 
+10-01 23:31:32 OK GZEROMedia pxskJ45w2D0 2024-12-27 preds=2 :: MAGA, the American Dream and immigration | Ian Bremmer's Qui
+10-01 23:31:39 OK GZEROMedia cSLyBylRG6k 2024-12-23 preds=2 :: What Trump's Panama Canal threats reveal about today's geopo
+10-01 23:31:46 OK GZEROMedia 5YI_OKyhcHI 2024-12-22 preds=2 :: A look back at the Top Risks of 2024 | Ian Bremmer's Quick T
+10-01 23:31:55 OK GZEROMedia gaweHWZu610 2024-12-16 preds=2 :: South Korea's president impeached. What's next? | Ian Bremme
+10-01 23:32:09 OK GZEROMedia CCVrozOuEMo 2024-12-08 preds=2 :: Ian Bremmer on Assad's fall | Quick Take
+10-01 23:33:12 OK GZEROMedia jEJ3WiZJduk 2024-12-03 preds=2 :: Why South Korea's president declared martial law | Ian Bremm
+10-01 23:33:22 OK GZEROMedia 7tynPb2gdVQ 2024-12-01 preds=2 :: Syrian rebel forces take Aleppo | Ian Bremmer's Quick Take
+10-01 23:33:29 OK GZEROMedia _XA7Ff-cgRE 2024-11-25 preds=2 :: Putin's strategy in Ukraine ahead of Trump's return | Ian Br
+10-01 23:33:39 OK GZEROMedia LpuxYdWcnVA 2024-11-18 preds=2 :: Global leaders scramble to align with Trump | Ian Bremmer's 
+10-01 23:33:47 OK GZEROMedia Ik_yvnCMt-4 2024-11-12 preds=2 :: Trump's plans for policy & personnel | Ian Bremmer's Quick T
+10-01 23:33:47 NO_TRANSCRIPT GZEROMedia bvYiMZ1_hjo 2025-10-02 :: Ian Bremmer on Trump's win | Quick Take
+10-01 23:35:16 OK GZEROMedia Tueua6R6b3Q 2024-11-04 preds=2 :: Ian Bremmer on the 2024 US election ahead | Quick Take
+10-01 23:35:24 OK GZEROMedia U0YV6a8FH_Y 2024-10-28 preds=2 :: After Israel's response to Iran, what's next? | Ian Bremmer'
+10-01 23:35:33 OK GZEROMedia 4BjzbjGGdZ8 2024-10-21 preds=2 :: A global leadership void and ongoing wars | Ian Bremmer | Qu
+10-01 23:35:48 OK GZEROMedia 19danG_HD5g 2024-10-14 preds=2 :: Israel's next move | Ian Bremmer | Quick Take
