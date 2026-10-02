@@ -34,7 +34,9 @@
 - Case: Zeihan "China's AI program limited by chips" → geopolitics + AI panel.
 
 ## 4. QA process (STANDING RULE, implemented in pipeline)
-- One model judges another model's output before it counts:
+- One model judges another model's output BEFORE the main agent sees it —
+  applies to BOTH code and content. The agent reviews already-QA'd results
+  only; rejects go back to the producing model (retry/escalate), not to Marty.
   - Verdicts: local QA judge reviews the judgement bundle before finalizing
     (qa_approve in src/pipeline.py); rejected verdicts go back for re-test.
   - Extraction/speaker-attribution results (nimo128 etc.) get the same

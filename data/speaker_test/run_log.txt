@@ -1,0 +1,106 @@
+PING: OK
+
+=== moonshots_susskind: Daniel Susskind: Why More Growth Won’t Make You Happier (20260920) len=41577
+CAST: {
+ "speakers": [
+  {
+   "name": "Mike Parsons",
+   "role": "host",
+   "evidence": "Self-identified in transcript: 'I'm your co-host, Mike Parsons'"
+  },
+  {
+   "name": "Mark Pearson Fillland",
+   "role": "host",
+   "evidence": "Self-identified in transcript: 'Mr. Mark Pearson Fillland'"
+  },
+  {
+   "name": "Daniel Susskind",
+   "role": "guest",
+   "evidence": "Named in title, described as author of 'Growth' in description and transcript, with direct quotes from his book in transcript"
+  }
+ ],
+ "single_person": false
+}
+PREDICTIONS: []
+UNATTRIBUTED: 0
+ROSTER: {
+ "tracked": {},
+ "guests": []
+}
+
+=== moonshots_housel: How to Spend Money Without Ruining Your Life — Morgan Housel (20260913) len=48269
+CAST: {
+ "speakers": [
+  {
+   "name": "Mike Parsons",
+   "role": "host",
+   "evidence": "Self-identified in transcript: 'I'm your co-host Mike Parsons'"
+  },
+  {
+   "name": "Mark Pearson Freeland",
+   "role": "host",
+   "evidence": "Introduced by Mike as 'Mr. Mark Pearson Freeland' in transcript"
+  }
+ ],
+ "single_person": false
+}
+PREDICTIONS: []
+UNATTRIBUTED: 0
+ROSTER: {
+ "tracked": {},
+ "guests": []
+}
+
+=== zeihan_solo: How To Ban Diesel Exports || Peter Zeihan (20261001) len=8377
+CAST: {
+ "speakers": [
+  {
+   "name": "Peter Zeihan",
+   "role": "host",
+   "evidence": "Self-identified in transcript ('Peter Zeihan here') and named in video title"
+  }
+ ],
+ "single_person": true
+}
+PREDICTIONS: [
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "Crude oil production in North Dakota and Texas would fall off a cliff very quickly if a crude oil export ban is implemented without mitigating policies.",
+  "category": "energy",
+  "excerpt": "if you were to do a crude oil export ban tomorrow and have no mitigating policies, you would see crude production in places like North Dakota and Texas fall off a cliff very, very quickly..."
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The United States would have less diesel than before if a diesel ban is implemented, due to oversaturation and reduced refinery operations.",
+  "category": "energy",
+  "excerpt": "if we were to have a diesel ban tomorrow... the United States has less diesel than it had before"
+ }
+]
+UNATTRIBUTED: 0
+ROSTER: {
+ "tracked": {
+  "Peter Zeihan": [
+   {
+    "speaker": "Peter Zeihan",
+    "claim": "Crude oil production in North Dakota and Texas would fall off a cliff very quickly if a crude oil export ban is implemented without mitigating policies.",
+    "category": "energy",
+    "date": "20261001",
+    "source_url": "https://www.youtube.com/watch?v=WsyPVdDjs2Y",
+    "excerpt": "if you were to do a crude oil export ban tomorrow and have no mitigating policies, you would see crude production in places like North Dakota and Texas fall off a cliff very, very quickly...",
+    "individual_name": "Peter Zeihan"
+   },
+   {
+    "speaker": "Peter Zeihan",
+    "claim": "The United States would have less diesel than before if a diesel ban is implemented, due to oversaturation and reduced refinery operations.",
+    "category": "energy",
+    "date": "20261001",
+    "source_url": "https://www.youtube.com/watch?v=WsyPVdDjs2Y",
+    "excerpt": "if we were to have a diesel ban tomorrow... the United States has less diesel than it had before",
+    "individual_name": "Peter Zeihan"
+   }
+  ]
+ },
+ "guests": []
+}
+
+ENDPOINT USED: nimo128 (Ollama qwen3:32b on HermesMac)
