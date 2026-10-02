@@ -28,18 +28,32 @@ logger = logging.getLogger("pipeline")
 
 # ---- Configuration ----
 LLM_ENDPOINTS = [
-    # nimo128 (Ollama qwen3:32b on HermesMac) — preferred workhorse; offload here first
+    # QA JUDGE (tower1 gpt-oss:120b, 2x3080+RAM MoE split) — strongest, use for QA/verdict review
+    {"url": "http://tower1.tail5b3b50.ts.net:11434/v1/chat/completions",
+     "key": None,
+     "model": "gpt-oss:120b"},
+    # nimo128 (Ollama qwen3:32b on HermesMac) — primary producer workhorse
     {"url": "http://100.84.167.88:11434/v1/chat/completions",
      "key": None,
      "model": "qwen3:32b"},
-    # local llama-server (Qwen3.8-27B, 64k ctx) — fallback
+    # local llama-server (Qwen3.8-27B, 64k ctx) — extraction + fallback
     {"url": "http://127.0.0.1:18434/v1/chat/completions",
      "key": "OyISwmqwQMak4mEOtO3zajuzSY8clG73",
      "model": "Qwen3.8-27B-UD-Q4_K_M"},
-    # upthread64 (Mac Mini Ollama, qwen3-coder MoE) — second fallback
+    # upthread64 (Mac Mini Ollama, qwen3-coder MoE) — last fallback
     {"url": "http://upthread64.tail5b3b50.ts.net:11434/v1/chat/completions",
      "key": None,
      "model": "qwen3-coder:30b-32k"},
+]
+
+# Judges used ONLY for QA review (not production/extraction)
+QA_JUDGE_ENDPOINTS = [
+    {"url": "http://tower1.tail5b3b50.ts.net:11434/v1/chat/completions",
+     "key": None,
+     "model": "gpt-oss:120b"},
+    {"url": "http://100.84.167.88:11434/v1/chat/completions",
+     "key": None,
+     "model": "qwen3:32b"},
 ]
 
 TESTING_MONTHS_BEFORE_EXPIRY = 12
@@ -108,9 +122,9 @@ def save_pipeline_state(state: dict) -> None:
 
 # ---- LLM helper ----
 
-def call_llm(system: str, user: str, max_tokens: int = 2000) -> str | None:
+def call_llm(system: str, user: str, max_tokens: int = 2000, endpoints: list | None = None) -> str | None:
     import httpx
-    for ep in LLM_ENDPOINTS:
+    for ep in (endpoints or LLM_ENDPOINTS):
         headers = {"Content-Type": "application/json"}
         if ep.get("key"):
             headers["Authorization"] = f"Bearer {ep['key']}"
@@ -417,6 +431,9 @@ def qa_approve(pred: dict, verdict: str) -> bool:
         "Review the prediction, the verdict, and each panelist's reasoning. "
         "Approve only if the verdict is supported by the reasoning and the "
         "reasoning is factually plausible and on-topic. "
+        "Judge internal consistency and plausibility only — do NOT reject merely "
+        "because you cannot verify a specific factual assertion from your training "
+        "data; recent events may postdate it. "
         "Answer with JSON: {\"approve\": true|false, \"reason\": \"one sentence\"}. "
         "Additionally reject if the claim reports a third party's forecast rather than the speaker's own view."
     )
@@ -427,7 +444,7 @@ def qa_approve(pred: dict, verdict: str) -> bool:
             system += (" EXCESS MODE: this person has an abundance of predictions, "
                        "so be strict — reject verdicts with weak, vague, or thin "
                        "reasoning rather than approving borderline cases.")
-        raw = call_llm(system, user, max_tokens=400)
+        raw = call_llm(system, user, max_tokens=400, endpoints=QA_JUDGE_ENDPOINTS)
         if not raw:
             return True  # QA unavailable -> do not block
         m = re.search(r"\{.*\}", raw, re.DOTALL)

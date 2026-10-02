@@ -21675,7 +21675,9 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": []
+      "judgements": [],
+      "marty_agrees": true,
+      "marty_note": "MartyPredicts: Correct"
     },
     {
       "id": "pred_1790961078_17",
