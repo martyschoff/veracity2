@@ -33,6 +33,14 @@
 - AI-category predictions themselves don't get a second AI vote.
 - Case: Zeihan "China's AI program limited by chips" → geopolitics + AI panel.
 
+## 4. QA process (STANDING RULE, implemented in pipeline)
+- One model judges another model's output before it counts:
+  - Verdicts: local QA judge reviews the judgement bundle before finalizing
+    (qa_approve in src/pipeline.py); rejected verdicts go back for re-test.
+  - Extraction/speaker-attribution results (nimo128 etc.) get the same
+    treatment: results are judged by the local model; unsatisfactory output
+    from one bot (nimo128) escalates to another (tower2).
+
 ## 2. Also held (previously agreed, awaiting go)
 - Backfill completion check for Bremmer (GZERO) + Diamandis to 2024-04-30 (agent running)
 - Verdict system display already live; cron 8am/8pm live

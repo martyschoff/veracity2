@@ -37,7 +37,8 @@
       "name": "Peter Diamandis",
       "handle": "diamandis",
       "sources": [
-        "https://www.youtube.com/@peterdiamandis/videos"
+        "https://www.youtube.com/@peterdiamandis/videos",
+        "https://www.youtube.com/@MoonshotsPodcast"
       ],
       "categories": [
         "ai"
@@ -517,6 +518,127 @@
       ],
       "categories": [
         "finance"
+      ],
+      "publication": false,
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Dario Amodei",
+      "handle": "damodei",
+      "sources": [
+        "https://www.anthropic.com"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "publication": false,
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Sundar Pichai",
+      "handle": "spichai",
+      "sources": [
+        "https://blog.google"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "publication": false,
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Yann LeCun",
+      "handle": "ylecun",
+      "sources": [
+        "https://ai.meta.com"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "publication": false,
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "sources": [
+        "https://x.com/elonmusk"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "publication": false,
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "handle": "mzuckerberg",
+      "sources": [
+        "https://about.meta.com"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "publication": false,
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Salim Ismail",
+      "handle": "sismail",
+      "sources": [
+        "https://www.youtube.com/@SalimIsmail",
+        "https://www.youtube.com/@MoonshotsPodcast"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "publication": false,
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Dave Blundin",
+      "handle": "dblundin",
+      "sources": [
+        "https://www.linkedin.com/in/dave-blundin",
+        "https://www.youtube.com/@MoonshotsPodcast"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "publication": false,
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Alexander Wissner-Gross",
+      "handle": "awg",
+      "sources": [
+        "https://www.youtube.com/results?search_query=alexander+wissner-gross",
+        "https://www.youtube.com/@MoonshotsPodcast"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "publication": false,
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Emad Mostaque",
+      "handle": "emostaque",
+      "sources": [
+        "https://x.com/EMostaque",
+        "https://www.youtube.com/@MoonshotsPodcast"
+      ],
+      "categories": [
+        "ai"
       ],
       "publication": false,
       "weight_subjective": 1.0,

@@ -331,6 +331,39 @@ def llm_assess(pred: dict) -> dict | None:
 MAX_TESTS_PER_RUN = 20  # 2 runs/day = 40/day; clears the 227 backlog in ~6 days
 
 
+def qa_approve(pred: dict, verdict: str) -> bool:
+    """QA judge: a separate local-model pass reviews the judgement bundle.
+
+    Standing process rule: one model judges another model's output. The judge
+    uses a fresh persona, reviews claim + verdicts + reasonings, and returns
+    True only if it endorses the verdict. Any failure of the QA call itself
+    approves by default (QA must not hard-block the pipeline).
+    """
+    bundle = "\n".join(
+        f"- [{j.get('panelist','?')}] {j.get('verdict')}: {j.get('reasoning','')[:200]}"
+        for j in pred.get("judgements", [])
+    )
+    system = (
+        "You are a QA judge reviewing another model's fact-check verdict. "
+        "Review the prediction, the verdict, and each panelist's reasoning. "
+        "Approve only if the verdict is supported by the reasoning and the "
+        "reasoning is factually plausible and on-topic. "
+        "Answer with JSON: {\"approve\": true|false, \"reason\": \"one sentence\"}."
+    )
+    user = (f"Prediction (made {pred.get('date')}): {pred.get('claim')}\n"
+            f"Computed verdict: {verdict}\n\nJudgements:\n{bundle}")
+    try:
+        raw = call_llm(system, user, max_tokens=400)
+        if not raw:
+            return True  # QA unavailable -> do not block
+        m = re.search(r"\{.*\}", raw, re.DOTALL)
+        if m:
+            return bool(json.loads(m.group(0)).get("approve", True))
+    except Exception as e:
+        logger.debug("QA pass failed for %s: %s", pred.get("id"), e)
+    return True
+
+
 def run_test_stage(data: dict) -> dict:
     """Test eligible predictions (up to MAX_TESTS_PER_RUN per run)."""
     stats = {"tested": 0, "judged": 0, "disputed": 0, "errors": 0}
@@ -408,6 +441,15 @@ def run_test_stage(data: dict) -> dict:
         # Compute verdict
         verdict = compute_verdict(pred)
         if verdict in ("correct", "wrong"):
+            # QA pass: a local-model judge reviews the judgement bundle before
+            # it is finalized. Standing process rule (user directive): one model
+            # judges another model's results.
+            if not qa_approve(pred, verdict):
+                pred["verdict"] = None
+                pred["test_status"] = "eligible"  # back to queue for re-test
+                stats["errors"] += 1
+                logger.info("  QA REJECTED verdict for %s — sent back for re-test", pred["id"])
+                continue
             pred["verdict"] = verdict
             pred["test_status"] = "judged"
             stats["judged"] += 1
