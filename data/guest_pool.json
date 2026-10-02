@@ -6,5 +6,13 @@
     "source_url": "https://mcalvany.com/weekly-commentary/the-ai-bubbles-circular-financing-problem-with-jack-gamble/",
     "note": "QA: Jack Gamble own voice, misattributed to David McAlvany",
     "removed_at": "2026-10-02"
+  },
+  {
+    "speaker": "Anthropic document (quoted by Diamandis)",
+    "claim": "More than 80% of code merges into AI codebases will be written by AI itself within 2 years.",
+    "date": "2026-06-08",
+    "source_url": "https://www.youtube.com/watch?v=P2HJEz3oqLs",
+    "note": "QA: paraphrase of Anthropic paper quote, not Diamandis own prediction",
+    "removed_at": "2026-10-02"
   }
 ]

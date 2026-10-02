@@ -28,9 +28,15 @@ logger = logging.getLogger("pipeline")
 
 # ---- Configuration ----
 LLM_ENDPOINTS = [
+    # nimo128 (Ollama qwen3:32b on HermesMac) — preferred workhorse; offload here first
+    {"url": "http://100.84.167.88:11434/v1/chat/completions",
+     "key": None,
+     "model": "qwen3:32b"},
+    # local llama-server (Qwen3.8-27B, 64k ctx) — fallback
     {"url": "http://127.0.0.1:18434/v1/chat/completions",
      "key": "OyISwmqwQMak4mEOtO3zajuzSY8clG73",
      "model": "Qwen3.8-27B-UD-Q4_K_M"},
+    # upthread64 (Mac Mini Ollama, qwen3-coder MoE) — second fallback
     {"url": "http://upthread64.tail5b3b50.ts.net:11434/v1/chat/completions",
      "key": None,
      "model": "qwen3-coder:30b-32k"},
@@ -97,7 +103,7 @@ def call_llm(system: str, user: str, max_tokens: int = 2000) -> str | None:
                 content = (msg.get("content") or "").strip()
                 if not content:
                     # Reasoning models may spend the budget on reasoning_content
-                    content = (msg.get("reasoning_content") or "").strip()
+                    content = ((msg.get("reasoning_content") or msg.get("reasoning") or "")).strip()
                 if content:
                     return content
         except Exception as e:

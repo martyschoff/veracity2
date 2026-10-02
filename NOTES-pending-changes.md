@@ -34,6 +34,10 @@
 - Case: Zeihan "China's AI program limited by chips" → geopolitics + AI panel.
 
 ## 4. QA process (STANDING RULE, implemented in pipeline)
+- GUEST POOL RULE: guest-pool entries are NEVER auto-added to panels or as
+  tracked predictors. Promotion happens only on explicit user command.
+- Source citations ≈ 740 unique URLs for 1,436 blocks (dedupe collapsed
+  restatements); sweeps and research should group by source_url.
 - One model judges another model's output BEFORE the main agent sees it —
   applies to BOTH code and content. The agent reviews already-QA'd results
   only; rejects go back to the producing model (retry/escalate), not to Marty.
