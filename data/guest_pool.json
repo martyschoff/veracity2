@@ -30,5 +30,21 @@
     "source_url": "https://www.youtube.com/watch?v=NIA2BztpIKE",
     "note": "Strict ownership: Naveen Jain own voice; Peter Diamandis assent only (\"100%\", \"absolutely\") - not adopted",
     "removed_at": "2026-10-02"
+  },
+  {
+    "speaker": "Chris Wright (reported)",
+    "claim": "Energy Secretary Chris Wright has said about 35 to 40 million barrels of extra oil will be returned this year and next in the form of premiums.",
+    "date": "2026-08-09",
+    "source_url": "https://newsletter.doomberg.com/p/endangered-specious",
+    "note": "QA: reported third-party statement / current fact, not Doomberg own prediction",
+    "removed_at": "2026-10-02"
+  },
+  {
+    "speaker": "News fact (not a prediction)",
+    "claim": "In July, for the third straight month, Venezuelan oil exports surpassed 1 million barrels per day, up from half that threshold as recently as December.",
+    "date": "2026-08-09",
+    "source_url": "https://newsletter.doomberg.com/p/endangered-specious",
+    "note": "QA: reported third-party statement / current fact, not Doomberg own prediction",
+    "removed_at": "2026-10-02"
   }
 ]

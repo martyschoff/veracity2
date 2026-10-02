@@ -9,7 +9,11 @@ OUT = f'{REPO}/data/qa_results.json'
 
 SYS = """You are a speaker-attribution auditor. Each item is a prediction currently filed under a TRACKED individual, with the video title, channel, the claim, and a transcript excerpt from the source.
 Decide for each: was the claim made by the tracked individual in their OWN voice, or by a guest / interviewer / quoted third party?
-Rules: Keep unless the excerpt gives real evidence someone else said it (e.g. excerpt quotes another speaker, "my guest", a different speaker's name attached to the wording, or a third-person reference to the tracked person like "Peter says..."). Uncertain -> keep. Empty excerpt -> keep unless the title clearly shows an interview whose main speaker is a named guest rather than the tracked individual.
+Rules (STRICT OWNERSHIP): a prediction belongs only to whoever ARTICULATED the substantive claim.
+- Remove (misattributed) if the excerpt shows the claim was spoken by a guest, interviewer, or quoted third party (excerpt names another speaker, "my guest", a quotation attributed to someone else, or a third-person reference like "Peter says...").
+- Remove if the excerpt shows the tracked individual only BARELY ASSENTED to a claim actually articulated by someone else ("yes", "100%", "absolutely", "I agree") — assent does NOT transfer ownership.
+- Empty excerpt -> keep unless the title clearly shows an interview whose main speaker is a named guest rather than the tracked individual.
+- Uncertain -> keep.
 Reply ONLY JSON: {"results":[{"i":<idx>,"verdict":"keep"|"remove","confidence":0-1,"reason":"<short>","speaker":"<name or empty>"}]} with exactly one entry per item, in order."""
 
 ENDPOINTS = [

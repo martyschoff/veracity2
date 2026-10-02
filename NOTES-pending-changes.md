@@ -34,6 +34,10 @@
 - Case: Zeihan "China's AI program limited by chips" → geopolitics + AI panel.
 
 ## 4. QA process (STANDING RULE, implemented in pipeline)
+- STRICT OWNERSHIP (user ruling): a prediction belongs to whoever articulated
+  the substantive claim. Bare assent ("yes", "100%", "absolutely") by a tracked
+  individual does NOT transfer ownership — file under the actual speaker;
+  assent is not recorded (tiered endorsement rejected by user).
 - GUEST POOL RULE: guest-pool entries are NEVER auto-added to panels or as
   tracked predictors. Promotion happens only on explicit user command.
 - Source citations ≈ 740 unique URLs for 1,436 blocks (dedupe collapsed

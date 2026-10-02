@@ -656,6 +656,32 @@
       "publication": false,
       "weight_subjective": 1.0,
       "weight_objective": 1.0
+    },
+    {
+      "name": "Chris Wright",
+      "handle": "chriswright",
+      "sources": [
+        "https://www.energy.gov"
+      ],
+      "categories": [
+        "energy"
+      ],
+      "publication": false,
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Mike Wirth",
+      "handle": "mwirth",
+      "sources": [
+        "https://www.chevron.com"
+      ],
+      "categories": [
+        "energy"
+      ],
+      "publication": false,
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
     }
   ],
   "predictions": [
@@ -1425,36 +1451,6 @@
       "verdict": null,
       "created_at": "2026-10-01T14:22:41.302986",
       "measurement_type": "subjective",
-      "test_status": "eligible",
-      "testing_since": "2026-10-01",
-      "judgements": []
-    },
-    {
-      "id": "pred_20261001142253_000",
-      "individual_name": "Doomberg",
-      "date": "2026-08-09",
-      "category": "energy",
-      "claim": "Energy Secretary Chris Wright has said about 35 to 40 million barrels of extra oil will be returned this year and next in the form of premiums.",
-      "source_url": "https://newsletter.doomberg.com/p/endangered-specious",
-      "transcript_excerpt": "Energy Secretary Chris Wright has said about 35 to 40 million barrels of extra oil will be returned this year and next in the form of premiums.",
-      "verdict": null,
-      "created_at": "2026-10-01T14:22:53.296154",
-      "measurement_type": "quantitative",
-      "test_status": "eligible",
-      "testing_since": "2026-10-01",
-      "judgements": []
-    },
-    {
-      "id": "pred_20261001142253_001",
-      "individual_name": "Doomberg",
-      "date": "2026-08-09",
-      "category": "energy",
-      "claim": "In July, for the third straight month, Venezuelan oil exports surpassed 1 million barrels per day, up from half that threshold as recently as December.",
-      "source_url": "https://newsletter.doomberg.com/p/endangered-specious",
-      "transcript_excerpt": "In July, for the third straight month, Venezuelan oil exports surpassed 1 million barrels per day, up from half that threshold as recently as December.",
-      "verdict": null,
-      "created_at": "2026-10-01T14:22:53.296189",
-      "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
       "judgements": []
