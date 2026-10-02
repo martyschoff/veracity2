@@ -1,5 +1,11 @@
 # Pending UI/Data Changes — awaiting go command
 
+## 0. Panel/predictor rule (USER RULE, must implement in verdict logic)
+- A predictor can sit on panels, but CANNOT panel-vote on their own predictions.
+- Predictors: Zeihan, Doomberg, Diamandis, Bremmer + one more shortly.
+- In the testing stage: when judging a prediction authored by X, exclude any
+  judgement from panelist X.
+
 ## 1. Dedupe / condense duplicate predictions per individual (DESIGNED, not built)
 
 **Matching:**

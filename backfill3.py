@@ -19,6 +19,7 @@ CATS = {
     "PeterHDiamandis": ("Peter Diamandis", ["ai"]),
 }
 BREMMER_OK = re.compile(r"quick take|ian explains|ask ian", re.I)
+CUTOFF = "2024-04-30"
 
 
 def load_state():
@@ -28,13 +29,14 @@ def load_state():
 
 
 def find_cache(vid):
-    for f in glob.glob(os.path.join(CACHE, "www.youtube.com-*.md")):
-        try:
-            t = open(f, encoding="utf-8", errors="replace").read()
-        except OSError:
-            continue
-        if vid in t:
-            return f, t
+    for pat in ("ytdlp-*.md", "www.youtube.com-*.md", "invidious-*.md"):
+        for f in glob.glob(os.path.join(CACHE, pat)):
+            try:
+                t = open(f, encoding="utf-8", errors="replace").read()
+            except OSError:
+                continue
+            if vid in t:
+                return f, t
     return None, None
 
 
@@ -79,6 +81,10 @@ def process(channel, vids):
             with open(os.path.join(ROOT, "no_transcript.txt"), "a") as nf:
                 nf.write(f"{vid} {channel}\n")
             return {"id": vid, "status": "NO_TRANSCRIPT", "date": date}
+        if date and date < CUTOFF:
+            with state_lock:
+                state["processed"][vid] = 0
+            return {"id": vid, "status": "BEFORE_CUTOFF", "date": date}
         new = extract_predictions(trans, url, author, cats, date)
         kept = 0
         out = []

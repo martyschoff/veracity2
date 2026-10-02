@@ -1616,3 +1616,264 @@
 10-01 19:17:14 OUT_OF_RANGE M6tsp4mFix8 2023-11-01
 10-01 19:17:14 OUT_OF_RANGE ePBc_mxNnjY 2023-10-31
 10-01 19:17:14 NO_TRANSCRIPT ZeihanonGeopolitics lNulBQC4tfs 2024-10-02 :: Venezuelan Oil Sector: Biden Lifts Sanctions || Peter Zeihan
+10-01 19:18:02 OUT_OF_RANGE 9Sovz3NTB-Q 2023-10-27
+10-01 19:18:02 OUT_OF_RANGE vwZo7egM_F0 2023-10-26
+10-01 19:18:02 OUT_OF_RANGE 5UK6iZ2MtxQ 2023-10-25
+10-01 19:18:02 OUT_OF_RANGE NxluOEw1ZEU 2023-10-24
+10-01 19:18:02 OUT_OF_RANGE gMRgkpTuSiI 2023-10-23
+10-01 19:18:02 NO_TRANSCRIPT ZeihanonGeopolitics OagYlYna75Y 2024-10-02 :: Gaza and Israel: The Start of WWIII or an Isolated Conflict?
+10-01 19:19:01 OUT_OF_RANGE x1eFLsifD-A 2023-10-19
+10-01 19:19:01 OUT_OF_RANGE btDVfbI858g 2023-10-18
+10-01 19:19:01 OUT_OF_RANGE rwpn7EwNmcs 2023-10-17
+10-01 19:19:01 OUT_OF_RANGE IvCnnQtHLKQ 2023-10-16
+10-01 19:19:01 OUT_OF_RANGE WxXJOqqNFVM 2023-10-13
+10-01 19:19:01 NO_TRANSCRIPT ZeihanonGeopolitics 65EwyO8fVrQ 2024-10-02 :: Why Rising Capital Costs Could Kill Greentech || Peter Zeiha
+10-01 19:19:43 OUT_OF_RANGE hYSwKaGWZKU 2023-10-12
+10-01 19:19:43 OUT_OF_RANGE xmEhTFjQB1g 2023-10-11
+10-01 19:19:43 OUT_OF_RANGE RZ0IUCMpgEE 2023-10-09
+10-01 19:19:43 OUT_OF_RANGE I7TGj7iLpoA 2023-10-08
+10-01 19:19:43 OUT_OF_RANGE c-1MUAY79MU 2023-10-06
+10-01 19:19:43 NO_TRANSCRIPT ZeihanonGeopolitics kH5e4e8J9Pk 2024-10-02 :: Russian Oil Thrives Despite European Sanctions (Here's How..
+10-01 19:20:51 OUT_OF_RANGE A-Vr9o-JurQ 2023-10-04
+10-01 19:20:51 OUT_OF_RANGE y0pet5QC7wk 2023-10-03
+10-01 19:20:51 OUT_OF_RANGE b-GBVRdwXVA 2023-10-02
+10-01 19:21:00 OK ZeihanonGeopolitics kSx6G-lw534 2025-10-01 preds=2 :: Immigration and Tariff Policies Stunt US Economy || Peter Ze
+10-01 19:21:12 OK ZeihanonGeopolitics 0bzoiAV7CjE 2025-09-30 preds=2 :: Saudi Arabia and Pakistan Sign A Mutual Defense Treaty || Pe
+10-01 19:21:12 NO_TRANSCRIPT ZeihanonGeopolitics Rs-zQppucJA 2025-10-02 :: The Pressure Is Dialing Up on Russia’s Oil Network || Peter 
+10-01 19:22:01 OK ZeihanonGeopolitics vWloFh_hLyA 2025-09-26 preds=2 :: Nvidia Purchases $5 Billion of Intel Stock || Peter Zeihan
+10-01 19:22:13 OK ZeihanonGeopolitics G1dZYj8EQ5w 2025-09-25 preds=2 :: The Swiss Are Screwed || Peter Zeihan
+10-01 19:22:21 OK ZeihanonGeopolitics 7puZUPjOoOI 2025-09-24 preds=2 :: Ukraine (And Everyone Else) Develops Glide Bombs || Peter Ze
+10-01 19:22:36 OK ZeihanonGeopolitics xiL_TDQF0VY 2025-09-23 preds=2 :: Everybody Wants to Bomb Qatar || Peter Zeihan
+10-01 19:22:41 OK ZeihanonGeopolitics 3QBZw0yXLK0 2025-09-22 preds=1 :: The Federal Reserve's Dilemma || Peter Zeihan
+10-01 19:22:41 NO_TRANSCRIPT ZeihanonGeopolitics kxKk7sBpcYA 2025-10-02 :: Why Trump's Stance on Canada Makes Sense || Peter Zeihan
+10-01 19:23:38 OK ZeihanonGeopolitics ASv1W0G81-E 2025-09-18 preds=2 :: Syria and the Return of the March || Peter Zeihan
+10-01 19:23:45 OK ZeihanonGeopolitics Dk0HCJvCgrI 2025-09-16 preds=1 :: Ukraine Hammers Russian Oil Infrastructure || Peter Zeihan
+10-01 19:23:56 OK ZeihanonGeopolitics HEOdR57n1so 2025-09-15 preds=2 :: While I Was Gone, Part 4: US Security || Peter Zeihan
+10-01 19:24:09 OK ZeihanonGeopolitics mBotd3VofYk 2025-09-12 preds=2 :: While I Was Gone, Part 3: Economic Status || Peter Zeihan
+10-01 19:24:15 OK ZeihanonGeopolitics CfIW9Y2RxLM 2025-09-11 preds=1 :: While I Was Gone, Part 2: US Health || Peter Zeihan
+10-01 19:24:15 NO_TRANSCRIPT ZeihanonGeopolitics kEP_ZJc18x8 2025-10-02 :: While I Was Gone, Part 1: Trade Policy Updates || Peter Zeih
+10-01 19:25:30 OK ZeihanonGeopolitics FL-du2TAwCU 2025-09-09 preds=2 :: Should the UAE Invest in a Tech Sector? || Peter Zeihan
+10-01 19:25:43 OK ZeihanonGeopolitics ucjOgpSrER0 2025-09-08 preds=2 :: The Automation of War Drags On || Peter Zeihan
+10-01 19:26:12 OK ZeihanonGeopolitics oAAxdIwZAXs 2025-09-05 preds=2 :: Avoiding the Middle-Income Trap || Peter Zeihan
+10-01 19:26:18 OK ZeihanonGeopolitics mBGI01HXcX8 2025-09-04 preds=1 :: Automation of US Agriculture || Peter Zeihan
+10-01 19:26:27 OK ZeihanonGeopolitics cHrjqzo-aLo 2025-09-03 preds=1 :: Can China Break Through the First Island Chain? || Peter Zei
+10-01 19:26:27 NO_TRANSCRIPT ZeihanonGeopolitics fyompkPXkS4 2025-10-02 :: George Jetson Would Be Disappointed with Autonomous Vehicles
+10-01 19:27:13 OK ZeihanonGeopolitics wUiF_Fzp5X8 2025-09-01 preds=2 :: Will the Drought in Iran Cause Political Change? || Peter Ze
+10-01 19:27:24 OK ZeihanonGeopolitics _4dNif7hpDI 2025-08-29 preds=2 :: Smokey Bear's Best Friend: fire.airnow.gov || Peter Zeihan
+10-01 19:27:33 OK ZeihanonGeopolitics 83Drzy7t8JQ 2025-08-28 preds=2 :: Ukraine Strikes Russia's Druzhba Oil Pipeline || Peter Zeiha
+10-01 19:27:46 OK ZeihanonGeopolitics SWLMRu3yCpM 2025-08-27 preds=2 :: A Peace Deal for Azerbaijan and Armenia? || Peter Zeihan
+10-01 19:27:55 OK ZeihanonGeopolitics 9dhViZjP9BQ 2025-08-26 preds=2 :: American and Indian Relations Sour || Peter Zeihan
+10-01 19:27:55 NO_TRANSCRIPT ZeihanonGeopolitics 5jmlix2NZ3M 2025-10-02 :: Russian Evolutions in the Ukraine War || Peter Zeihan
+10-01 19:28:49 OK ZeihanonGeopolitics pG8Rg862ATI 2025-08-22 preds=2 :: The Alaska Summit: Putin and Trump Talk War || Peter Zeihan
+10-01 19:29:00 OK ZeihanonGeopolitics eoutYw5VJpk 2025-08-20 preds=2 :: Trump Trade Talks: NAFTA Deals Stall || Peter Zeihan
+10-01 19:29:09 OK ZeihanonGeopolitics ymjlSe_sL2Y 2025-08-19 preds=2 :: Trump Wants a Second Opinion on Labor Statistics || Peter Ze
+10-01 19:29:22 OK ZeihanonGeopolitics 38bKRnwviPs 2025-08-18 preds=2 :: The Revolution in Military Affairs: Artificial Intelligence 
+10-01 19:30:16 OK ZeihanonGeopolitics Qv3arzsorCc 2025-08-15 preds=2 :: The Revolution in Military Affairs: What's Ahead || Peter Ze
+10-01 19:30:30 OK ZeihanonGeopolitics rnCs7KBXSV8 2025-08-14 preds=2 :: The Revolution in Military Affairs: Water Wars || Peter Zeih
+10-01 19:30:45 OK ZeihanonGeopolitics LCI0pxGStqo 2025-08-13 preds=2 :: The Revolution in Military Affairs: Recruitment || Peter Zei
+10-01 19:30:58 OK ZeihanonGeopolitics WwCiIxnQhtg 2025-08-12 preds=2 :: Trump Trade Talks: Japan Gets a Deal || Peter Zeihan
+10-01 19:31:05 OK ZeihanonGeopolitics 6fQRjD8bCNg 2025-08-11 preds=2 :: Trump Trade Talks: US-EU Strike a Deal || Peter Zeihan
+10-01 19:31:05 NO_TRANSCRIPT ZeihanonGeopolitics NySVg5Xtr80 2025-10-02 :: Why Trump's Stance on Ukraine Has Changed - Part 2 || Peter 
+10-01 19:32:54 NO_TRANSCRIPT ZeihanonGeopolitics chJGSFw-_30 2025-10-02 :: Why Trump's Stance on Ukraine Has Changed - Part 1 || Peter 
+10-01 19:32:54 NO_TRANSCRIPT ZeihanonGeopolitics E-pou7TD6hU 2025-10-02 :: China vs. Mother Nature: Can the Dikes Hold the Rain? || Pet
+10-01 19:32:54 NO_TRANSCRIPT ZeihanonGeopolitics wqP2a9Pty5E 2025-10-02 :: Inflation Ticks Up Under Trump-2 || Peter Zeihan
+10-01 19:33:01 OK ZeihanonGeopolitics ch9epSJsu_Q 2025-08-01 preds=2 :: What It Means to Be a State (France and Palestine) || Peter 
+10-01 19:33:09 OK ZeihanonGeopolitics d8a9ZLIeqxQ 2025-07-31 preds=2 :: Keep an Eye on Industrial Construction Spending || Peter Zei
+10-01 19:33:09 NO_TRANSCRIPT ZeihanonGeopolitics _svO9vAkYF0 2025-10-02 :: The Future of US Monetary Policy || Peter Zeihan
+10-01 19:34:05 OK ZeihanonGeopolitics G6e9f9Fno14 2025-07-29 preds=2 :: China's Stance on Iran || Peter Zeihan
+10-01 19:35:06 OK ZeihanonGeopolitics lc8kLqE3B7M 2025-07-28 preds=2 :: Key Economic Indicators to Watch: Retail Sales || Peter Zeih
+10-01 19:35:17 OK ZeihanonGeopolitics Vq0e6hJUfw8 2025-07-25 preds=2 :: The Revolution in Military Affairs: Wars Without People || P
+10-01 19:36:16 OK ZeihanonGeopolitics l04pp_Ly638 2025-07-24 preds=2 :: A Ukraine-US Deal? || Peter Zeihan
+10-01 19:36:27 OK ZeihanonGeopolitics UdlkdrCCYIo 2025-07-23 preds=2 :: What Happens After Trump and Putin Split? || Peter Zeihan
+10-01 19:36:41 OK ZeihanonGeopolitics -CGCbO8xFNA 2025-07-22 preds=2 :: Copper Imports Slapped with 50% Tariff || Peter Zeihan
+10-01 19:36:41 NO_TRANSCRIPT ZeihanonGeopolitics 2tTqjFAO8r0 2025-10-02 :: Trump and Putin Split, Ukraine Gets Aid Again || Peter Zeiha
+10-01 19:37:45 OK ZeihanonGeopolitics 6aMcin_CDyA 2025-07-18 preds=2 :: The Highs and Lows of Burgum's Energy Strategy || Peter Zeih
+10-01 19:37:57 OK ZeihanonGeopolitics zOOcWzA7fvs 2025-07-17 preds=2 :: Elon Musk's America Party || Peter Zeihan
+10-01 19:38:07 OK ZeihanonGeopolitics ZUJXdnQKGTs 2025-07-16 preds=2 :: Tariff Day Is Here, Again! || Peter Zeihan
+10-01 19:38:22 OK ZeihanonGeopolitics R-c0Aw3UGg8 2025-07-16 preds=2 :: Tariffs Hit Brazil || Peter Zeihan
+10-01 19:38:36 OK ZeihanonGeopolitics LSNDs13EkL0 2025-07-15 preds=2 :: Stop Worrying About the BRICS Alliance || Peter Zeihan
+10-01 19:40:00 OK ZeihanonGeopolitics Nz9j2Apn2Ws 2025-07-14 preds=2 :: Here's Why Inflation Isn't a Solution || Peter Zeihan
+10-01 19:40:12 OK ZeihanonGeopolitics V3jRuaHNeOo 2025-07-11 preds=2 :: "Made in China" Becomes "Made in Vietnam" || Peter Zeihan
+10-01 19:41:52 OK ZeihanonGeopolitics iSPzVzxF4Cc 2025-07-10 preds=2 :: Why Do the Democrats Keep Losing Ground? || Peter Zeihan
+10-01 19:41:57 OK ZeihanonGeopolitics jYgg9ATqtv8 2025-07-09 preds=1 :: Xi Purges Chinese Military of Corruption…Kinda || Peter Zeih
+10-01 19:42:09 OK ZeihanonGeopolitics qvPgyPlsA8o 2025-07-08 preds=2 :: Rebuilding the American Industrial Base, Rare Earths Edition
+10-01 19:42:09 NO_TRANSCRIPT ZeihanonGeopolitics Aw-BQji34PU 2025-10-02 :: The Art of Trump’s Trade Deal || Peter Zeihan
+10-01 19:43:02 OK ZeihanonGeopolitics 6gw8cjH823Y 2025-07-04 preds=2 :: Finally, a Productive NATO Summit || Peter Zeihan
+10-01 19:43:08 OK ZeihanonGeopolitics S19R4jdA930 2025-07-03 preds=1 :: The Revolution in Military Affairs: Ditching Artillery || Pe
+10-01 19:43:18 OK ZeihanonGeopolitics XZEq6GpCZl4 2025-07-02 preds=1 :: The Revolution in Military Affairs: USS Nimitz || Peter Zeih
+10-01 19:44:16 OK ZeihanonGeopolitics Ohol12pkfwc 2025-07-01 preds=2 :: The US Strikes Iran's Nuclear Facilities || Peter Zeihan
+10-01 19:44:25 OK ZeihanonGeopolitics _Dy2Wd_ZNSA 2025-06-30 preds=2 :: The Revolution in Military Affairs: Naval Advances || Peter 
+10-01 19:44:37 OK ZeihanonGeopolitics XbCPjbUqL1Y 2025-06-27 preds=2 :: The Revolution in Military Affairs: Europe's Future || Peter
+10-01 19:44:53 OK ZeihanonGeopolitics VKWdcZ09Kak 2025-06-26 preds=2 :: Israel’s Uncertain Endgame in Iran || Peter Zeihan
+10-01 19:45:07 OK ZeihanonGeopolitics ue7-_byY7FU 2025-06-25 preds=2 :: The Revolution in Military Affairs: Weapons Sales || Peter Z
+10-01 19:45:07 NO_TRANSCRIPT ZeihanonGeopolitics BhnIX3eOLgw 2025-10-02 :: What is Israel's Victory Condition in Iran? || Peter Zeihan
+10-01 19:45:10 CHECKPOINT rc=0 merged/out:    [90mProduction ..................................................................... [4mveracity2.surge.sh[24m[39m
+
+   [32mSuccess![39m[90m - Published to [4mveracity2.surge.sh[24m[39m
+
+
+
+10-01 19:46:25 OK ZeihanonGeopolitics kSKO1wrfPTc 2025-06-23 preds=2 :: Oil Markets Aren't Worried About Iran || Peter Zeihan
+10-01 19:46:34 OK ZeihanonGeopolitics psHQ4XS7DW4 2025-06-20 preds=2 :: Israel Launches Attack on Iranian Nuclear Sites || Peter Zei
+10-01 19:47:05 OK ZeihanonGeopolitics U2IWh7X78Jk 2025-06-20 preds=2 :: Watch This Number for Recession Indicators || Peter Zeihan
+10-01 19:47:10 OK ZeihanonGeopolitics VUmP7ZZkXoY 2025-06-19 preds=1 :: Trump Calls in the Marines for California's Protests || Pete
+10-01 19:47:27 OK ZeihanonGeopolitics XcDy_oy0RGo 2025-06-18 preds=2 :: The Revolution in Military Affairs: Series Intro || Peter Ze
+10-01 19:47:27 NO_TRANSCRIPT ZeihanonGeopolitics EbwhTyL_lWw 2025-10-02 :: Musk Pulls the Carpet Out from Under DOGE || Peter Zeihan
+10-01 19:48:47 OK ZeihanonGeopolitics vPkHrSBVfzQ 2025-06-13 preds=2 :: Trouble in MAGA Paradise || Peter Zeihan
+10-01 19:48:59 OK ZeihanonGeopolitics 5buWjvOYLLM 2025-06-13 preds=2 :: Should the US Military Invade Mexico? || Peter Zeihan
+10-01 19:49:15 OK ZeihanonGeopolitics S6mXqOk63Ss 2025-06-12 preds=2 :: The Demographic Crisis in Russia || Peter Zeihan
+10-01 19:49:23 OK ZeihanonGeopolitics a1tAGoynS8U 2025-06-11 preds=2 :: Finally, Some Clarity on US-China Relations || Peter Zeihan
+10-01 19:49:33 OK ZeihanonGeopolitics JHM8BlDNtaA 2025-06-10 preds=2 :: What's Up with the Middle East: Saudi Oil Slips || Peter Zei
+10-01 19:49:33 NO_TRANSCRIPT ZeihanonGeopolitics efG4a3dpFJg 2025-10-02 :: Ukraine Strikes Russian Strategic Bombers || Peter Zeihan
+10-01 19:50:26 OK ZeihanonGeopolitics Xv5iRocgfIk 2025-06-09 preds=1 :: Coping Mechanisms 101: The "TACO" Trade || Peter Zeihan
+10-01 19:50:34 OK ZeihanonGeopolitics PKEF6s2OC_A 2025-06-06 preds=2 :: What's Up with the Middle East: Syrian Dysfunction || Peter 
+10-01 19:50:43 OK ZeihanonGeopolitics PfKoTHwE72E 2025-06-05 preds=2 :: What's Up with the Middle East: Turkish Dominance || Peter Z
+10-01 19:50:53 OK ZeihanonGeopolitics Wdhop--5E4w 2025-06-04 preds=2 :: What's Up In the Middle East: Israel's Future || Peter Zeiha
+10-01 19:51:04 OK ZeihanonGeopolitics h5PAA3WIWtg 2025-06-03 preds=2 :: The Future of Tourism: Part 2 || Peter Zeihan
+10-01 19:51:04 NO_TRANSCRIPT ZeihanonGeopolitics 3b07NlIkKDc 2025-10-02 :: The Future of Tourism: Part 1 || Peter Zeihan
+10-01 19:51:45 OK ZeihanonGeopolitics 0DG2vS6DcOM 2025-05-30 preds=1 :: America’s Processing Crisis: Racing China's Decline || Peter
+10-01 19:51:58 OK ZeihanonGeopolitics hCeQg_GuAAc 2025-05-29 preds=2 :: The Future of Piracy (ARRRGH!) || Peter Zeihan
+10-01 19:52:07 OK ZeihanonGeopolitics AW-dbnYmQ74 2025-05-28 preds=2 :: Did Trump Just Wreck US-India Relations? || Peter Zeihan
+10-01 19:52:18 OK ZeihanonGeopolitics I4DOpi5MMqI 2025-05-27 preds=2 :: Iran Snuggles Up with the Houthis in Yemen || Peter Zeihan
+10-01 19:52:30 OK ZeihanonGeopolitics EK8eLfbS3c4 2025-05-26 preds=2 :: The Fire Hose of Chaos: How Do You Lose 100 Million People?
+10-01 19:53:40 OK ZeihanonGeopolitics 2RNdKvoD9XA 2025-05-23 preds=2 :: The Fire Hose of Chaos: Xi's Power Chokehold
+10-01 19:53:52 OK ZeihanonGeopolitics mR-KgEshQZQ 2025-05-22 preds=2 :: The Fire Hose of Chaos: China's First Domino
+10-01 19:54:02 OK ZeihanonGeopolitics lIKH8ZEW0a0 2025-05-21 preds=2 :: Aging Populations and Which Countries Look the Worst || Pete
+10-01 19:54:13 OK ZeihanonGeopolitics igxc6wlF0I0 2025-05-20 preds=2 :: The Fire Hose of Chaos: The “Deal" With the Chinese
+10-01 19:54:24 OK ZeihanonGeopolitics YYufPSiXiXU 2025-05-19 preds=2 :: The Fire Hose of Chaos: Chinese Edition Intro
+10-01 19:54:24 NO_TRANSCRIPT ZeihanonGeopolitics hI_o5GWq72Y 2025-10-02 :: VIDEO REPOST - Moody's Downgraded the Debt, So Let's Recap |
+10-01 19:55:54 OK ZeihanonGeopolitics 3RIq3WDBcI8 2025-05-16 preds=2 :: The Question of Leadership…And Management || Peter Zeihan
+10-01 19:56:07 OK ZeihanonGeopolitics d2fV_bBYMPs 2025-05-15 preds=2 :: The Fire Hose of Chaos: American Brands
+10-01 19:56:24 OK ZeihanonGeopolitics 5hQS2CoVeH0 2025-05-14 preds=2 :: The Russians Continue Stirring the Romanian Pot || Peter Zei
+10-01 19:56:36 OK ZeihanonGeopolitics Y_jtHIezOqU 2025-05-13 preds=2 :: The Fire Hose of Chaos: Agriculture
+10-01 19:56:36 NO_TRANSCRIPT ZeihanonGeopolitics fuE6qALI954 2025-10-02 :: The Fire Hose of Chaos: The Fed
+10-01 19:56:36 NO_TRANSCRIPT ZeihanonGeopolitics DI7uWedIfU0 2025-10-02 :: The Night the Lights Went Out in Geor- er, Spain || Peter Ze
+10-01 19:58:06 OK ZeihanonGeopolitics YcWSh-yKe9I 2025-05-09 preds=2 :: The Fire Hose of Chaos: Recession Time
+10-01 19:58:09 OK ZeihanonGeopolitics SwWyR6ywyMg 2025-05-08 preds=1 :: A Fresh Chance for Breakdown in South Asia - TEASER
+10-01 19:58:18 OK ZeihanonGeopolitics BCIduTiPS-A 2025-05-08 preds=2 :: The Fire Hose of Chaos: Housing Problems
+10-01 19:58:27 OK ZeihanonGeopolitics LWhKtxp3K_8 2025-05-07 preds=2 :: The Fire Hose of Chaos: Steel and Aluminum
+10-01 19:58:56 OK ZeihanonGeopolitics yaiILtkgFqA 2025-05-06 preds=2 :: The Fire Hose of Chaos: Finance
+10-01 19:58:56 NO_TRANSCRIPT ZeihanonGeopolitics H4VM4DjSLkQ 2025-10-02 :: The Fire Hose of Chaos: Port Fees
+10-01 19:59:59 OK ZeihanonGeopolitics 6iwaroyFfSE 2025-05-03 preds=2 :: Will New Zealand Dive or Thrive? || Peter Zeihan
+10-01 20:00:12 OK ZeihanonGeopolitics GtLsyH-2xg0 2025-05-02 preds=2 :: A Concerning Update to the Russian Reach Series || Peter Zei
+10-01 20:00:23 OK ZeihanonGeopolitics OiZneVh_9OE 2025-05-01 preds=2 :: The Fire Hose of Chaos: The Green Transition Is Over
+10-01 20:00:35 OK ZeihanonGeopolitics B2IhhjYxjm4 2025-04-30 preds=2 :: The Fire Hose of Chaos: Government Debt
+10-01 20:00:47 OK ZeihanonGeopolitics TTd4_seZuxw 2025-04-29 preds=2 :: The Fire Hose of Chaos: What Is Hegseth Doing?
+10-01 20:00:47 NO_TRANSCRIPT ZeihanonGeopolitics 75PeExNmaS8 2025-10-02 :: The Fire Hose of Chaos: Corruption || Peter Zeihan
+10-01 20:03:22 OK ZeihanonGeopolitics YcWSh-yKe9I 2025-05-09 preds=2 :: The Fire Hose of Chaos: Recession Time
+10-01 20:03:26 OK ZeihanonGeopolitics SwWyR6ywyMg 2025-05-08 preds=1 :: A Fresh Chance for Breakdown in South Asia - TEASER
+10-01 20:03:34 OK ZeihanonGeopolitics BCIduTiPS-A 2025-05-08 preds=2 :: The Fire Hose of Chaos: Housing Problems
+10-01 20:03:45 OK ZeihanonGeopolitics LWhKtxp3K_8 2025-05-07 preds=2 :: The Fire Hose of Chaos: Steel and Aluminum
+10-01 20:03:55 OK ZeihanonGeopolitics yaiILtkgFqA 2025-05-06 preds=2 :: The Fire Hose of Chaos: Finance
+10-01 20:03:55 NO_TRANSCRIPT ZeihanonGeopolitics H4VM4DjSLkQ 2025-10-02 :: The Fire Hose of Chaos: Port Fees
+10-01 20:04:07 OK ZeihanonGeopolitics 6iwaroyFfSE 2025-05-03 preds=2 :: Will New Zealand Dive or Thrive? || Peter Zeihan
+10-01 20:04:15 OK ZeihanonGeopolitics GtLsyH-2xg0 2025-05-02 preds=0 :: A Concerning Update to the Russian Reach Series || Peter Zei
+10-01 20:04:25 OK ZeihanonGeopolitics OiZneVh_9OE 2025-05-01 preds=2 :: The Fire Hose of Chaos: The Green Transition Is Over
+10-01 20:04:36 OK ZeihanonGeopolitics B2IhhjYxjm4 2025-04-30 preds=2 :: The Fire Hose of Chaos: Government Debt
+10-01 20:04:46 OK ZeihanonGeopolitics TTd4_seZuxw 2025-04-29 preds=2 :: The Fire Hose of Chaos: What Is Hegseth Doing?
+10-01 20:04:46 NO_TRANSCRIPT ZeihanonGeopolitics 75PeExNmaS8 2025-10-02 :: The Fire Hose of Chaos: Corruption || Peter Zeihan
+10-01 20:05:05 NO_TRANSCRIPT ZeihanonGeopolitics jWNlaKNPDNc 2025-10-02 :: Why There's No Fentanyl in Easter Eggs This Year || Peter Ze
+10-01 20:05:05 NO_TRANSCRIPT ZeihanonGeopolitics FBlxbKJB4YA 2025-10-02 :: The Fire Hose of Chaos: Bye-Bye De Minimis
+10-01 20:05:05 NO_TRANSCRIPT ZeihanonGeopolitics 3v25aMhjKqQ 2025-10-02 :: The Fire Hose of Chaos: Don't Expect Many Trade Deals
+10-01 20:05:05 NO_TRANSCRIPT ZeihanonGeopolitics dfzesL2mJgw 2025-10-02 :: The Fire Hose of Chaos: Wait, The Recession Is Already Here?
+10-01 20:05:16 OK ZeihanonGeopolitics V3g6Dj8n6cY 2025-04-22 preds=2 :: Should the US Stay in the Middle East? || Peter Zeihan
+10-01 20:05:16 NO_TRANSCRIPT ZeihanonGeopolitics 8J6pgrVd8-8 2025-10-02 :: I Hope You Didn't Want to Buy a Home || Peter Zeihan
+10-01 20:06:10 OK ZeihanonGeopolitics UkHCbDAlbuI 2025-04-19 preds=2 :: Is Trump Playing 4D Chess? || Peter Zeihan
+10-01 20:06:20 OK ZeihanonGeopolitics bYok-YUJkwA 2025-04-18 preds=2 :: Of Tariffs, Manufacturing and PSAs || Peter Zeihan
+10-01 20:07:05 OK ZeihanonGeopolitics JKApwmvWSuU 2025-04-16 preds=2 :: Stopping Trump's Tariffs with A New Trade Act || Peter Zeiha
+10-01 20:07:15 OK ZeihanonGeopolitics Xnwxfu6YsBU 2025-04-15 preds=2 :: Tariff Spotlight: Vietnam || Peter Zeihan
+10-01 20:07:24 OK ZeihanonGeopolitics _Cix4amo0aY 2025-04-14 preds=2 :: Spain's Economy Is Booming || Peter Zeihan
+10-01 20:07:37 OK ZeihanonGeopolitics b4tVDNJX0ds 2025-04-11 preds=2 :: India Complicates the US Fentanyl Crisis || Peter Zeihan
+10-01 20:07:48 OK ZeihanonGeopolitics M_4uG--_MDg 2025-04-10 preds=2 :: Turkey Takes a Break from Democracy || Peter Zeihan
+10-01 20:07:48 NO_TRANSCRIPT ZeihanonGeopolitics 8yKupF2j4RY 2025-10-02 :: The Death of US-China Trade || Peter Zeihan
+10-01 20:08:41 OK ZeihanonGeopolitics ndbf1GIQCVg 2025-04-09 preds=2 :: The Tariffs Stalk at Midnight + LIVE Q&A Starts Soon!
+10-01 20:09:00 OK ZeihanonGeopolitics pSW11DLS50g 2025-04-08 preds=2 :: Trump’s Tariffs: Reciprocal Edition + Live Q&A || Peter Zeih
+10-01 20:09:11 OK ZeihanonGeopolitics FCe7xOTEv7Y 2025-04-07 preds=2 :: You Mess with the Don, You Get the Tariffs || Peter Zeihan
+10-01 20:09:21 OK ZeihanonGeopolitics uF6_AACp5C8 2025-04-07 preds=2 :: Why I'm Okay with Some of the Secondary Tariffs || Peter Zei
+10-01 20:09:30 OK ZeihanonGeopolitics c7bmBoOWEGY 2025-04-04 preds=2 :: Signalgate. It's Worse Than You Think. || Peter Zeihan
+10-01 20:09:30 NO_TRANSCRIPT ZeihanonGeopolitics ptlOlM-wxJU 2025-10-02 :: Auto Tariffs and the Art of Routine Vehicle Maintenance || P
+10-01 20:10:47 OK ZeihanonGeopolitics Bo4IyN06KNQ 2025-04-03 preds=2 :: Half A Million Immigrants Get the Boot || Peter Zeihan
+10-01 20:10:51 OK ZeihanonGeopolitics Fd2kA4O_nu8 2025-04-02 preds=1 :: Only 1 Week Until the Live Q&A on Patreon || Peter Zeihan
+10-01 20:10:58 OK ZeihanonGeopolitics 0zSNUjhWGrc 2025-04-02 preds=2 :: The Future of NATO's Supreme Allied Commander || Peter Zeiha
+10-01 20:11:09 OK ZeihanonGeopolitics 7RfYU9Za5a0 2025-04-01 preds=2 :: Introducing the Next Generation Air Dominance Platform, F-47
+10-01 20:11:22 OK ZeihanonGeopolitics do2vr7HpIus 2025-04-01 preds=2 :: The American Reindustrialization - A (Stalled) Progress Repo
+10-01 20:11:22 NO_TRANSCRIPT ZeihanonGeopolitics doIvFUNZgTs 2025-10-02 :: Getting Ready for Trump's Tariffs || Peter Zeihan
+10-01 20:12:29 OK ZeihanonGeopolitics liIc6Ips-tg 2025-03-28 preds=1 :: Gaza Goes Back to Square One || Peter Zeihan
+10-01 20:12:47 OK ZeihanonGeopolitics Q7Abm5BBZMM 2025-03-27 preds=2 :: Going Nuclear + Live Q&A Announcement || Peter Zeihan
+10-01 20:12:58 OK ZeihanonGeopolitics QtAx8fbvG48 2025-03-26 preds=2 :: The Ukraine War Ceasefire || Peter Zeihan
+10-01 20:13:05 OK ZeihanonGeopolitics zjkksEIOAog 2025-03-25 preds=1 :: Fentanyl Isn't as Lethal...What Happened? || Peter Zeihan
+10-01 20:13:16 OK ZeihanonGeopolitics BGLPG6hK-wU 2025-03-24 preds=2 :: Getting Ready for Trump's Tariffs - TEASER || Peter Zeihan
+10-01 20:13:16 NO_TRANSCRIPT ZeihanonGeopolitics lj1emdflpvo 2025-10-02 :: Why You Shouldn't Expect Good Policy || Peter Zeihan
+10-01 20:14:32 OK ZeihanonGeopolitics L8_VYVE2epk 2025-03-23 preds=2 :: Russia, NATO, and Negotiations || Peter Zeihan
+10-01 20:14:46 OK ZeihanonGeopolitics aoZq4sAE1YQ 2025-03-22 preds=2 :: The Russian Reach: Russia's Wish List Part 2 || Peter Zeihan
+10-01 20:15:09 OK ZeihanonGeopolitics _edpJv-v9Fk 2025-03-21 preds=2 :: The Russian Reach: Russia's Wish List Part 1 || Peter Zeihan
+10-01 20:15:17 OK ZeihanonGeopolitics CTX2RLKZyqY 2025-03-20 preds=2 :: The Chinese Attempt the Impossible || Peter Zeihan
+10-01 20:15:27 OK ZeihanonGeopolitics GRyXhfu_ZUE 2025-03-20 preds=2 :: The Russian Reach: Christian Ultranationalism || Peter Zeiha
+10-01 20:15:27 NO_TRANSCRIPT ZeihanonGeopolitics 2sUc5exdVLk 2025-10-02 :: Making Sense of Africa: Congo and Rwanda || Peter Zeihan
+10-01 20:15:30 CHECKPOINT rc=0 merged/out:    [90mProduction ..................................................................... [4mveracity2.surge.sh[24m[39m
+
+   [32mSuccess![39m[90m - Published to [4mveracity2.surge.sh[24m[39m
+
+
+
+10-01 20:16:17 OK ZeihanonGeopolitics bKkksAngJtw 2025-03-18 preds=2 :: A Fresh Mess In Syria || Peter Zeihan
+10-01 20:16:28 OK ZeihanonGeopolitics fWv5uXgb-3o 2025-03-17 preds=2 :: The Russian Reach: A Grip on Romania || PETER ZEIHAN
+10-01 20:16:43 OK ZeihanonGeopolitics rBgoNFd2LC0 2025-03-17 preds=2 :: The Russian Reach: Categorizing Intelligence Agents || PETER
+10-01 20:17:01 OK ZeihanonGeopolitics AEEGUV14t5k 2025-03-16 preds=2 :: The Russian Reach: Playing Catch Up Pt. 2 || PETER ZEIHAN
+10-01 20:17:18 OK ZeihanonGeopolitics 9ydJlUukGFI 2025-03-15 preds=2 :: The Russian Reach: Playing Catch Up Pt. 1 || PETER ZEIHAN
+10-01 20:17:18 NO_TRANSCRIPT ZeihanonGeopolitics AQmtUYaAoYU 2025-10-02 :: The Russian Reach: US Cuts Ukraine Intel & Dominos Fall || P
+10-01 20:18:33 OK ZeihanonGeopolitics Ce0rodtWEuc 2025-03-14 preds=2 :: The Russian Reach: Geography and Intelligence || PETER ZEIHA
+10-01 20:18:39 OK ZeihanonGeopolitics O4wHk55k0VA 2025-03-13 preds=1 :: A (BIG) Change in Germany || PETER ZEIHAN
+10-01 20:19:11 OK ZeihanonGeopolitics IY_ToG_Dr0k 2025-03-13 preds=2 :: The Russian Reach: Why Leadership Doesn't Matter…Until It Do
+10-01 20:19:17 OK ZeihanonGeopolitics Zop0Yx6ZY5s 2025-03-12 preds=1 :: Doors Open for Turkey as the Kurds Disarm || PETER ZEIHAN
+10-01 20:19:28 OK ZeihanonGeopolitics _aNlB2U9LyU 2025-03-11 preds=2 :: Of Birds and Bugs || Peter Zeihan
+10-01 20:19:28 NO_TRANSCRIPT ZeihanonGeopolitics DGOaf3ryWG4 2025-10-02 :: Venezuelan Crude Is Off the Menu…But You Can Still Get It Ar
+10-01 20:20:26 OK ZeihanonGeopolitics lGFKwshHjWQ 2025-03-09 preds=2 :: The Russian Reach: Series Introduction || PETER ZEIHAN
+10-01 20:20:42 OK ZeihanonGeopolitics UDf8YBuRIvU 2025-03-08 preds=2 :: From the Frontlines in Ukraine to Truth Social || Peter Zeih
+10-01 20:20:53 OK ZeihanonGeopolitics sDjy-8Nye1w 2025-03-07 preds=2 :: Economic Troubles for New Zealand || Peter Zeihan
+10-01 20:21:01 OK ZeihanonGeopolitics 9FzWfPg391c 2025-03-06 preds=2 :: Educating the Workers of Tomorrow || Peter Zeihan
+10-01 20:21:05 OK ZeihanonGeopolitics DymaE4kWnXI 2025-03-05 preds=1 :: The Russian Reach: Series Teaser || Peter Zeihan
+10-01 20:21:05 NO_TRANSCRIPT ZeihanonGeopolitics ua6DbL-YzgU 2025-10-02 :: Will Trump Pump the Brakes on Greentech? || Peter Zeihan
+10-01 20:22:34 OK ZeihanonGeopolitics jSkgLNSLaYg 2025-03-04 preds=2 :: Will the US and Canada Actually Merge? || Peter Zeihan
+10-01 20:22:54 OK ZeihanonGeopolitics WzAgmP1KIk4 2025-03-03 preds=2 :: Are Rare Earths Really That Rare? || Peter Zeihan
+10-01 20:23:08 OK ZeihanonGeopolitics VV82poPUJO0 2025-03-01 preds=2 :: What Trump Should Take on Instead... || Peter Zeihan
+10-01 20:23:20 OK ZeihanonGeopolitics uEwVQnLnHRo 2025-02-28 preds=2 :: Trump Takes on Illegal Immigration || Peter Zeihan
+10-01 20:23:33 OK ZeihanonGeopolitics U_nTl4Xp8u4 2025-02-27 preds=2 :: Trump Takes on Trade || Peter Zeihan
+10-01 20:23:33 NO_TRANSCRIPT ZeihanonGeopolitics VvPo6lIOo1M 2025-10-02 :: Trump Takes on China…or Not || Peter Zeihan
+10-01 20:24:28 OK ZeihanonGeopolitics 5JLjleh_nqo 2025-02-25 preds=2 :: Trump Takes on the Middle East || Peter Zeihan
+10-01 20:24:40 OK ZeihanonGeopolitics eqdVmz8G6gQ 2025-02-24 preds=2 :: Trump Takes on Russia…or Maybe It's the Other Way Around || 
+10-01 20:25:00 OK ZeihanonGeopolitics Q0GKM780rjw 2025-02-21 preds=2 :: Trump Takes on Washington || Peter Zeihan
+10-01 20:25:13 OK ZeihanonGeopolitics 1Nn5PnUobDA 2025-02-20 preds=2 :: Generational Divides of Other Countries || Peter Zeihan
+10-01 20:26:07 OK ZeihanonGeopolitics stEp9qaSFfs 2025-02-19 preds=2 :: Can Tariffs Replace Income Taxes? || Peter Zeihan
+10-01 20:26:15 OK ZeihanonGeopolitics FQEa7t-Jjgo 2025-02-18 preds=1 :: Russia After Russia || Peter Zeihan
+10-01 20:26:29 OK ZeihanonGeopolitics taNg3U9Lv_E 2025-02-17 preds=2 :: The Russian Depopulation || Peter Zeihan
+10-01 20:26:38 OK ZeihanonGeopolitics 4rsAQGz2UUQ 2025-02-14 preds=2 :: The Real Secret to Saving Birthrates || Peter Zeihan
+10-01 20:26:49 OK ZeihanonGeopolitics diqtKX26Qn8 2025-02-13 preds=2 :: Syria Opens Doors for Turkey || Peter Zeihan
+10-01 20:26:49 NO_TRANSCRIPT ZeihanonGeopolitics MnrI3I-LWLI 2025-10-02 :: Coal Remains Essential for US Electricity || Peter Zeihan
+10-01 20:27:49 OK ZeihanonGeopolitics VpmHhkXPO0k 2025-02-11 preds=2 :: Global Economic Growth Patterns (Or Should I Say Decline) ||
+10-01 20:27:59 OK ZeihanonGeopolitics qi8vgD7FUEc 2025-02-10 preds=2 :: Dealing With Chinese Drones || Peter Zeihan
+10-01 20:28:12 OK ZeihanonGeopolitics EnjrE6tUfBA 2025-02-07 preds=2 :: AI Drama: DeepSeek, Nvidia, and China || Peter Zeihan
+10-01 20:28:20 OK ZeihanonGeopolitics 2H5T_cvHlM8 2025-02-06 preds=2 :: Trump's Political Capital Bonfire || Peter Zeihan
+10-01 20:28:32 OK ZeihanonGeopolitics 6yhAeprR2r8 2025-02-05 preds=2 :: What's the US Housing Market Doing? || Peter Zeihan
+10-01 20:28:32 NO_TRANSCRIPT ZeihanonGeopolitics FQyIHc3jVk0 2025-10-02 :: Wind Energy Deserves Some Love || Peter Zeihan
+10-01 20:29:52 OK ZeihanonGeopolitics mw6aCEoGZp8 2025-02-03 preds=2 :: The End of Bipartisan Foreign Policy || Peter Zeihan
+10-01 20:30:03 OK ZeihanonGeopolitics 6dtJ7DkPVSI 2025-02-01 preds=2 :: The Two-Sided Coin of Russian Sanctions || Peter Zeihan
+10-01 20:30:17 OK ZeihanonGeopolitics a2AJvCPcNUE 2025-01-31 preds=2 :: The Failure of Chinese Real Estate || Peter Zeihan
+10-01 20:30:35 OK ZeihanonGeopolitics BA2T1LNok0Y 2025-01-30 preds=1 :: The Geopolitics of Climate Change || Peter Zeihan
+10-01 20:30:44 OK ZeihanonGeopolitics C8ufCG-gIFs 2025-01-29 preds=2 :: Trump, Cartels, Terrorism and...Increasing Migration || Pete
+10-01 20:30:44 NO_TRANSCRIPT ZeihanonGeopolitics -GbHoKBf9Z4 2025-10-02 :: Join Peter Zeihan's Live Q&A On Feb. 7
+10-01 20:31:40 OK ZeihanonGeopolitics SB75I6E0HOI 2025-01-28 preds=2 :: It’s time for an update on the war in Ukraine || Peter Zeiha
+10-01 20:31:54 OK ZeihanonGeopolitics PPIoulC3GoQ 2025-01-27 preds=2 :: Boomers, Xers, and Budgeting || Peter Zeihan
+10-01 20:32:04 OK ZeihanonGeopolitics ioZwhAWgPws 2025-01-26 preds=2 :: Milei One Year On || Peter Zeihan
+10-01 20:32:15 OK ZeihanonGeopolitics g_PEZrDZQNU 2025-01-25 preds=2 :: Intel Keeps Playing Catch-Up with TSMC || Peter Zeihan
+10-01 20:32:33 OK ZeihanonGeopolitics ZQeYdZUA10c 2025-01-24 preds=2 :: The Next Recession Isn't Here Quite Yet || Peter Zeihan
+10-01 20:32:33 NO_TRANSCRIPT ZeihanonGeopolitics yjwgjeheqCg 2025-10-02 :: Russia Is Failing Not Failed || Peter Zeihan
+10-01 20:33:45 OK ZeihanonGeopolitics uxSVDZGfGIU 2025-01-22 preds=2 :: Trump 2.0 - Reindustrialization || Peter Zeihan
+10-01 20:33:58 OK ZeihanonGeopolitics rV7tdjXbY84 2025-01-21 preds=2 :: Trump 2.0 - Iran || Peter Zeihan
+10-01 20:35:17 OK ZeihanonGeopolitics kI5onbXSByc 2025-01-20 preds=2 :: Trump 2.0 - China || Peter Zeihan
+10-01 20:35:28 OK ZeihanonGeopolitics 6e_axmH0UHk 2025-01-19 preds=2 :: China Has No Chance || Peter Zeihan
+10-01 20:35:41 OK ZeihanonGeopolitics mYnYZF1fnz0 2025-01-18 preds=2 :: Can Venezuela Help Out with a Middle East Oil Shortage? || P
+10-01 20:35:41 NO_TRANSCRIPT ZeihanonGeopolitics pCXm0vpMaTE 2025-10-02 :: Trump 2.0 - NATO || Peter Zeihan
+10-01 20:37:33 OK ZeihanonGeopolitics zpFxsJJ8898 2025-01-16 preds=2 :: Trump 2.0 - Russia || Peter Zeihan
+10-01 20:37:43 OK ZeihanonGeopolitics Egj9k4ksoxA 2025-01-15 preds=2 :: My Dream Alliance for the US - Part 2 || Peter Zeihan
+10-01 20:38:30 OK ZeihanonGeopolitics I6qFo28QiMQ 2025-01-14 preds=2 :: Trump Goes A-Conquerin' || Peter Zeihan

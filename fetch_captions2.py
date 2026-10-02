@@ -24,8 +24,9 @@ def fetch(vid):
     import yt_dlp
     opts = {
         "skip_download": True,
-        "write_auto_sub": True,
-        "subtitleslangs": ["en", "en-US", "en-GB"],
+        "writesubtitles": True, "writeautomaticsub": True,
+        "extractor_args": {"youtube": {"player_client": ["android_vr"]}},
+        "subtitleslangs": ["en", "en-orig"],
         "subtitlesformat": "vtt",
         "quiet": True,
         "no_warnings": True,
@@ -36,6 +37,11 @@ def fetch(vid):
     date = info.get("upload_date")
     date = f"{date[:4]}-{date[4:6]}-{date[6:]}" if date else ""
     title = info.get("title", "")
+    if date and date < "2024-04-30":
+        md = (f"# [{title}](https://www.youtube.com/watch?v={vid})\n\n"
+              f"**Uploaded at**: {date}\n\n## Transcript\n\n[pre-cutoff]\n")
+        open(os.path.join(CACHE, f"ytdlp-{vid}.md"), "w", encoding="utf-8").write(md)
+        return date, -1, title
     # find written subtitle file
     sub = None
     for f in os.listdir(CACHE):
@@ -56,9 +62,27 @@ def fetch(vid):
 
 
 if __name__ == "__main__":
+    import time
     for vid in sys.argv[1:]:
-        try:
-            date, n, title = fetch(vid)
-            print(vid, "OK" if n >= 200 else "FAIL", date, n, title[:50], flush=True)
-        except Exception as e:
-            print(vid, "ERR", str(e)[:120], flush=True)
+        vid = vid.strip()
+        if not vid:
+            continue
+        for attempt in range(3):
+            try:
+                date, n, title = fetch(vid)
+                if n == -1:
+                    print(vid, "OLD", date, flush=True)
+                    break
+                if n >= 200:
+                    print(vid, "OK", date, n, title[:50], flush=True)
+                    break
+                print(vid, "FAIL", date, n, title[:50], flush=True)
+                time.sleep(20)
+            except Exception as e:
+                msg = str(e)
+                print(vid, "ERR", msg[:120], flush=True)
+                if "429" in msg:
+                    time.sleep(45)
+                else:
+                    break
+        time.sleep(2)

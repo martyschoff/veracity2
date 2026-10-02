@@ -1,0 +1,12 @@
+2026-10-01 20:20:08,970 [INFO] === Veracity2 pipeline run started ===
+2026-10-01 20:20:08,997 [INFO] --- Stage 3: Testing ---
+2026-10-01 20:20:21,355 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2026-10-01 20:20:29,590 [INFO] HTTP Request: POST http://upthread64.tail5b3b50.ts.net:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-01 20:22:37,616 [INFO] HTTP Request: POST http://upthread64.tail5b3b50.ts.net:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-01 20:22:52,803 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2026-10-01 20:22:58,141 [INFO] HTTP Request: POST http://upthread64.tail5b3b50.ts.net:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-01 20:25:02,677 [INFO] HTTP Request: POST http://upthread64.tail5b3b50.ts.net:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-01 20:26:14,353 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2026-10-01 20:26:18,428 [INFO] HTTP Request: POST http://upthread64.tail5b3b50.ts.net:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-01 20:27:27,887 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-01 20:29:09,694 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 200 OK"

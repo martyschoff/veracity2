@@ -13,7 +13,7 @@ FALLBACK = 'http://127.0.0.1:18434/v1/chat/completions'
 FALLBACK_MODEL = 'Qwen3.8-27B-UD-Q4_K_M'
 FALLBACK_KEY = 'OyISwmqwQMak4mEOtO3zajuzSY8clG73'
 CHECK_SECS = 1800
-TIME_BUDGET = 260
+TIME_BUDGET = 215
 STATE_FILE = 'state.json'
 STAGED = 'staged_predictions.jsonl'
 

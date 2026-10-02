@@ -21,3 +21,636 @@
 {"id": "FGBU-AkI714", "status": "NO_CACHE"}
 {"id": "FGBU-AkI714", "status": "OK", "date": "2024-08-29", "pred": {"id": "pred_20261001191554_FGBU-A_0", "individual_name": "Peter Zeihan", "date": "2024-08-29", "category": "energy", "claim": "The offline Libyan oil production of 700,000 barrels per day might actually increase in the days and weeks to come, and the shutdown could last longer than the political dispute due to waxy oil clogging pipelines requiring extensive maintenance.", "source_url": "https://www.youtube.com/watch?v=FGBU-AkI714", "transcript_excerpt": "so we have 700,000 barrels a day that are going offline it might actually increase uh in the days and weeks to come uh it could be offline longer than just this political dispute because Libyan oil especially the stuff in the eastern part of the country is very waxy and if it's not kept warm it basically turns everything into a soft candle including the pipelines uh which will take a lot of Maintenance to clear out", "verdict": null, "created_at": "2026-10-01T19:15:54.755939", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-08-29", "judgements": []}, "merged": true}
 {"id": "FGBU-AkI714", "status": "OK", "date": "2024-08-29", "pred": {"id": "pred_20261001191554_FGBU-A_1", "individual_name": "Peter Zeihan", "date": "2024-08-29", "category": "geopolitics", "claim": "The two rival Libyan governments will not come together to form a unity government, and the country will remain divided until one side wins.", "source_url": "https://www.youtube.com/watch?v=FGBU-AkI714", "transcript_excerpt": "this is just what Libya is going to look like until one side or the other wins or the two sides um come together and form Unity government which is definitely not going to happen", "verdict": null, "created_at": "2026-10-01T19:15:54.756023", "measurement_type": "quantitative", "test_status": "eligible", "testing_since": "2024-08-29", "judgements": []}, "merged": true}
+{"id": "JYOwfqF5dmI", "status": "OK", "date": "2024-08-15", "pred": {"id": "pred_20261001192441_JYOwfq_0", "individual_name": "Peter Zeihan", "date": "2024-08-15", "category": "finance", "claim": "Greece's bailout debt repayment is going to take decades to complete.", "source_url": "https://www.youtube.com/watch?v=JYOwfqF5dmI", "transcript_excerpt": "the bailout to pay it back uh is going to take them decades so the capital side of the equation was already all wono for them", "verdict": null, "created_at": "2026-10-01T19:24:41.843275", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-08-15", "judgements": []}, "merged": true}
+{"id": "JYOwfqF5dmI", "status": "OK", "date": "2024-08-15", "pred": {"id": "pred_20261001192441_JYOwfq_1", "individual_name": "Peter Zeihan", "date": "2024-08-15", "category": "geopolitics", "claim": "Greece's government decision to force six-day work weeks will generate political problems.", "source_url": "https://www.youtube.com/watch?v=JYOwfqF5dmI", "transcript_excerpt": "this government has chosen labor that will obviously generate some political problems I don't mean to suggest that it won't", "verdict": null, "created_at": "2026-10-01T19:24:41.843337", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-08-15", "judgements": []}, "merged": true}
+{"id": "AU9Z4WtQQVE", "status": "NO_CACHE"}
+{"id": "JlRNLCq4HWE", "status": "NO_CACHE"}
+{"id": "-YUndZPV20g", "status": "NO_CACHE"}
+{"id": "-e2R6XBHuQQ", "status": "NO_CACHE"}
+{"id": "yv-bcPE4PxQ", "status": "NO_CACHE"}
+{"id": "QZvyWiYuatE", "status": "NO_CACHE"}
+{"id": "SrESlPEjyY8", "status": "NO_CACHE"}
+{"id": "_Z_WmApbbsw", "status": "NO_CACHE"}
+{"id": "WchmGYfOcuE", "status": "NO_CACHE"}
+{"id": "W0H9JU7T1XM", "status": "NO_CACHE"}
+{"id": "V_AkQLfzhkk", "status": "NO_CACHE"}
+{"id": "nKVtkoLfxHc", "status": "OK", "date": "2024-04-29", "pred": {"id": "pred_20261001193318_nKVtko_0", "individual_name": "Peter Zeihan", "date": "2024-04-29", "category": "geopolitics", "claim": "The Japanese Kaga heavy destroyer will complete sea trials for probably about a year, maybe a year and a half, before beginning full deployment", "source_url": "https://www.youtube.com/watch?v=nKVtkoLfxHc", "transcript_excerpt": "the Kaga will be going through sea trials now for probably about a year, maybe a year and a half, before beginning full deployment", "verdict": null, "created_at": "2026-10-01T19:33:18.746178", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-04-29", "judgements": []}, "merged": true}
+{"id": "nKVtkoLfxHc", "status": "OK", "date": "2024-04-29", "pred": {"id": "pred_20261001193318_nKVtko_1", "individual_name": "Peter Zeihan", "date": "2024-04-29", "category": "china", "claim": "The Japanese population has moved beyond its general feeling of pacifism in the post-World War era, realizing that as the Chinese become more uppity, that a firmer military position is needed", "source_url": "https://www.youtube.com/watch?v=nKVtkoLfxHc", "transcript_excerpt": "the Japanese population has moved beyond its general feeling of pacifism in the post-World War era, realizing that as the Chinese become more uppity, that a firmer military position is needed", "verdict": null, "created_at": "2026-10-01T19:33:18.746210", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-04-29", "judgements": []}, "merged": true}
+{"id": "cFXqJ1f2rqE", "status": "OK", "date": "2024-04-26", "pred": {"id": "pred_20261001193335_cFXqJ1_0", "individual_name": "Peter Zeihan", "date": "2024-04-26", "category": "geopolitics", "claim": "Unless something changes significantly, there is not a road to victory for Trump in the 2024 election.", "source_url": "https://www.youtube.com/watch?v=cFXqJ1f2rqE", "transcript_excerpt": "so unless something changes significantly there isn't a road to Victory here for Trump", "verdict": null, "created_at": "2026-10-01T19:33:35.733436", "measurement_type": "quantitative", "test_status": "eligible", "testing_since": "2024-04-26", "judgements": []}, "merged": true}
+{"id": "cFXqJ1f2rqE", "status": "OK", "date": "2024-04-26", "pred": {"id": "pred_20261001193335_cFXqJ1_1", "individual_name": "Peter Zeihan", "date": "2024-04-26", "category": "geopolitics", "claim": "RFK Jr's entrance into the race could cause some of Trump's strongest supporters and counties to flip towards RFK, potentially preventing Trump from returning to the White House.", "source_url": "https://www.youtube.com/watch?v=cFXqJ1f2rqE", "transcript_excerpt": "we might see some of the strongest supporters and some of the strongest counties and precincts actually flipping towards RFK a little bit and that would be more than enough to add to the other factors to make sure that Donald Trump doesn't get back into the White House", "verdict": null, "created_at": "2026-10-01T19:33:35.733467", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-04-26", "judgements": []}, "merged": true}
+{"id": "TyzqmUcDSzs", "status": "OK", "date": "2024-04-25", "pred": {"id": "pred_20261001193326_TyzqmU_0", "individual_name": "Peter Zeihan", "date": "2024-04-25", "category": "geopolitics", "claim": "The Arctic will be ice-free in the winter by 2050, which is the soonest timeframe this northern passage route could theoretically work", "source_url": "https://www.youtube.com/watch?v=TyzqmUcDSzs", "transcript_excerpt": "So, the soonest soonest soonest soonest that this might theoretically work uh is like 2050. That's the soonest we might have an ice-free Arctic in the winter, not just the summer.", "verdict": null, "created_at": "2026-10-01T19:33:26.979070", "measurement_type": "quantitative", "test_status": "eligible", "testing_since": "2024-04-25", "judgements": []}, "merged": true}
+{"id": "TyzqmUcDSzs", "status": "OK", "date": "2024-04-25", "pred": {"id": "pred_20261001193326_TyzqmU_1", "individual_name": "Peter Zeihan", "date": "2024-04-25", "category": "china", "claim": "By 2050, China will no longer exist due to demographic collapse, making the northern shipping route irrelevant", "source_url": "https://www.youtube.com/watch?v=TyzqmUcDSzs", "transcript_excerpt": "And by that time, there's not going to be a China anyway due to demographic collapse.", "verdict": null, "created_at": "2026-10-01T19:33:26.979085", "measurement_type": "quantitative", "test_status": "eligible", "testing_since": "2024-04-25", "judgements": []}, "merged": true}
+{"id": "7Gdvo8QPuMk", "status": "OK", "date": "2024-04-24", "pred": {"id": "pred_20261001193347_7Gdvo8_0", "individual_name": "Peter Zeihan", "date": "2024-04-24", "category": "energy", "claim": "Argentina will remain the second largest shale producer in the world for the next 10-15 years", "source_url": "https://www.youtube.com/watch?v=7Gdvo8QPuMk", "transcript_excerpt": "the second largest Shale power in the world is Argentina and I see no reason for that to change in the next 10 15 years", "verdict": null, "created_at": "2026-10-01T19:33:47.214515", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-04-24", "judgements": []}, "merged": true}
+{"id": "7Gdvo8QPuMk", "status": "OK", "date": "2024-04-24", "pred": {"id": "pred_20261001193347_7Gdvo8_1", "individual_name": "Peter Zeihan", "date": "2024-04-24", "category": "energy", "claim": "Canada will continue to develop its shale resources, particularly in Alberta, with roughly 25-35% of natural gas coming from shale formations using shale technologies", "source_url": "https://www.youtube.com/watch?v=7Gdvo8QPuMk", "transcript_excerpt": "the second one is Canada where we've got a similar political culture uh degree of technical expertise and there's an existing Energy play in the oil sands in Alberta and on the fringes especially further north there are some places that look very favorable in terms of shale production and specifically Shale gas and roughly 25 to 35% of the natural gas that comes out of Alberta is indeed coming from Shale formations and using Shale Technologies", "verdict": null, "created_at": "2026-10-01T19:33:47.214532", "measurement_type": "quantitative", "test_status": "eligible", "testing_since": "2024-04-24", "judgements": []}, "merged": true}
+{"id": "oh8jIBBCeT4", "status": "NO_CACHE"}
+{"id": "2ziLp66XPAw", "status": "OK", "date": "2024-04-22", "pred": {"id": "pred_20261001193445_2ziLp6_0", "individual_name": "Peter Zeihan", "date": "2024-04-22", "category": "finance", "claim": "If the United States is in an information war with China where targets that transmit information are being targeted, starlink will be nationalized as one of the first assets of the US government.", "source_url": "https://www.youtube.com/watch?v=2ziLp66XPAw", "transcript_excerpt": "if we ever get into a situation where the United States is in an information War where targets that transmit information being targeted you can guarantee that starlink is going to be nationalized as one of the first AES of the US government", "verdict": null, "created_at": "2026-10-01T19:34:45.633207", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-04-22", "judgements": []}, "merged": true}
+{"id": "2ziLp66XPAw", "status": "OK", "date": "2024-04-22", "pred": {"id": "pred_20261001193445_2ziLp6_1", "individual_name": "Peter Zeihan", "date": "2024-04-22", "category": "geopolitics", "claim": "In a real war between the US and China, the US government would prioritize cutting cables over maintaining internet connectivity and email transmission across the Pacific at high speed.", "source_url": "https://www.youtube.com/watch?v=2ziLp66XPAw", "transcript_excerpt": "if we're in a real war the last thing that Washington is going to be concerned about is whether or not internet connectivity and email males going back and forth across the Pacific at a high speed", "verdict": null, "created_at": "2026-10-01T19:34:45.633264", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-04-22", "judgements": []}, "merged": true}
+{"id": "9pgFPNQNEqs", "status": "OK", "date": "2024-04-19", "pred": {"id": "pred_20261001193426_9pgFPN_0", "individual_name": "Peter Zeihan", "date": "2024-04-19", "category": "geopolitics", "claim": "The glaciers in Central Asia will continue to diminish over the next 50 years, leading to precipitous declines in river flow in the Amo and Craa rivers.", "source_url": "https://www.youtube.com/watch?v=9pgFPNQNEqs", "transcript_excerpt": "the glaciers of Central Asia have been desting for about 50 years ever since the Soviets built a series of water diversion systems in turkman in usbekistan to grow cotton in the desert... you fast forward that 50 years and the Glaciers are pretty much gone and the flow in the rivers the Amo and craa are falling precipitously", "verdict": null, "created_at": "2026-10-01T19:34:26.323384", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-04-19", "judgements": []}, "merged": true}
+{"id": "9pgFPNQNEqs", "status": "OK", "date": "2024-04-19", "pred": {"id": "pred_20261001193426_9pgFPN_1", "individual_name": "Peter Zeihan", "date": "2024-04-19", "category": "geopolitics", "claim": "Turkey's Grand Anatolian project dams will continue to negatively impact water flow to downstream countries like Iraq and Syria, leaving these dry countries with limited ability to respond.", "source_url": "https://www.youtube.com/watch?v=9pgFPNQNEqs", "transcript_excerpt": "Turkey and a dry country Iraq and Syria where the Turks have built lots and lots and lots of dams in southeast turkey called the Grand Anatolian project in order to improve agricultural possibilities for the Southeastern part of turkey and provide an economic ballast to dissuade say Kurdish uh separatism however if you happen to be Downstream in Baghdad this is a bit of a problem and your place is drying out but again you've got a wet country Turkey doing things that are messing with the water table in a dry country Iraq and there's not a lot that Iraq can do about it", "verdict": null, "created_at": "2026-10-01T19:34:26.323411", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-04-19", "judgements": []}, "merged": true}
+{"id": "LMTINxXa-zI", "status": "NO_CACHE"}
+{"id": "lZ4ZXeQ4-V0", "status": "OK", "date": "2024-04-17", "pred": {"id": "pred_20261001193455_lZ4ZXe_0", "individual_name": "Peter Zeihan", "date": "2024-04-17", "category": "energy", "claim": "The United States will not feel the most significant impact from Russian energy infrastructure attacks, as the U.S. is both the world's largest producer and exporter of refined petroleum products.", "source_url": "https://www.youtube.com/watch?v=lZ4ZXeQ4-V0", "transcript_excerpt": "the United States is not simply the world's largest producer of crude oil it's also the world's largest producer of refined product to the degree that it is also the world's largest exporter of refined product so not only will the United States feel the least pinch in terms of energy inflation from anything in Russia going offline", "verdict": null, "created_at": "2026-10-01T19:34:55.754377", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-04-17", "judgements": []}, "merged": true}
+{"id": "lZ4ZXeQ4-V0", "status": "OK", "date": "2024-04-17", "pred": {"id": "pred_20261001193455_lZ4ZXe_1", "individual_name": "Peter Zeihan", "date": "2024-04-17", "category": "geopolitics", "claim": "Most European countries have already cut almost all Russian energy out of their fuel mixes in anticipation of a larger conflict with Russia.", "source_url": "https://www.youtube.com/watch?v=lZ4ZXeQ4-V0", "transcript_excerpt": "most of the Europeans have basically cut almost all Russian energy out of their fuel mixes already in anticipation for that fight", "verdict": null, "created_at": "2026-10-01T19:34:55.754402", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-04-17", "judgements": []}, "merged": true}
+{"id": "TNvVS4fz29E", "status": "OK", "date": "2024-04-16", "pred": {"id": "pred_20261001193436_TNvVS4_0", "individual_name": "Peter Zeihan", "date": "2024-04-16", "category": "ukraine", "claim": "If the Russians keep up their current tactics of using Glide bombs on civilian infrastructure and implementing 'double tap' missile attacks, they will be able to make large sections of Ukraine uninhabitable for the population densities that are there now.", "source_url": "https://www.youtube.com/watch?v=TNvVS4fz29E", "transcript_excerpt": "if the Russians keep this up and they certainly have the Weaponry to do it uh they will be able to make large sections of Ukraine uninhabitable for the population densities that are there now", "verdict": null, "created_at": "2026-10-01T19:34:36.139634", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-04-16", "judgements": []}, "merged": true}
+{"id": "TNvVS4fz29E", "status": "OK", "date": "2024-04-16", "pred": {"id": "pred_20261001193436_TNvVS4_1", "individual_name": "Peter Zeihan", "date": "2024-04-16", "category": "ukraine", "claim": "The populations around K, which is the third largest city in Ukraine, are the ones most at risk from the Russian attacks on civilian infrastructure.", "source_url": "https://www.youtube.com/watch?v=TNvVS4fz29E", "transcript_excerpt": "the populations around K which is the third largest city in the country are the ones most at the risk and where that's where the Russians have kind of started this shift to just complete obliteration of Civilian infrastructure", "verdict": null, "created_at": "2026-10-01T19:34:36.139660", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-04-16", "judgements": []}, "merged": true}
+{"id": "W4W0FHJ8A0o", "status": "NO_CACHE"}
+{"id": "F9Vtck34kRs", "status": "OK", "date": "2024-04-12", "pred": {"id": "pred_20261001193608_F9Vtck_0", "individual_name": "Peter Zeihan", "date": "2024-04-12", "category": "geopolitics", "claim": "The Russians have approximately 5 to 8 more years of capacity to continue the war at their current pace before running out of resources and personnel.", "source_url": "https://www.youtube.com/watch?v=F9Vtck34kRs", "transcript_excerpt": "so we are looking at the Twilight of the Russian system here but it also means that since there's no longer resources that can be shuffled from other places in the Russian Federation the Russians are now dependent upon this throughput for refurbishment for training for equipment coming from other countries in order just to fight the war in the first place so the situation in Ukraine for the ukrainians isn't great but the Russians have now run out of stuff to reposition and they're dependent upon that throughput and that means economic and political factors both in Russia and abroad now massively affect the pipeline that allows Russia to keep men and equipment in the front in the first place so we need to watch the Russian space and the adjacent countries much more closely now than we have because there's no longer any depth to what the Russians can do as soon as they get something they throw it into the front because if they don't the front gets empty so it may feel that the Russians that like last month or so have had a bit of momentum and they have but they haven't been able to capitalize on the the breaking of the Avida front and in fact the front has become Static again and so the Russians are doing attack like with the 76 to tr try to find a weak point and the troops are just getting cut up and they just can't maintain this pace forever but we're still looking at another 5 to8 years", "verdict": null, "created_at": "2026-10-01T19:36:08.252760", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-04-12", "judgements": []}, "merged": true}
+{"id": "F9Vtck34kRs", "status": "OK", "date": "2024-04-12", "pred": {"id": "pred_20261001193608_F9Vtck_1", "individual_name": "Peter Zeihan", "date": "2024-04-12", "category": "geopolitics", "claim": "The Russian military will be unable to sustain its current war effort beyond 5-8 years due to depletion of tank reserves and manpower.", "source_url": "https://www.youtube.com/watch?v=F9Vtck34kRs", "transcript_excerpt": "so if you look at the number of tanks that they've got in reserve you look at the number of men in their 20s that they've got left they can keep up this pace that they've been going for the last two years for probably another 5 to 8 years and when that happens they're out of a gear and they're out of men so that's how long roughly the Russians have that they continue this war and any follow-on wars", "verdict": null, "created_at": "2026-10-01T19:36:08.252787", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-04-12", "judgements": []}, "merged": true}
+{"id": "HO9A-Gkz9M0", "status": "OK", "date": "2024-04-11", "pred": {"id": "pred_20261001193544_HO9A-G_0", "individual_name": "Peter Zeihan", "date": "2024-04-11", "category": "china", "claim": "China's birth rate dropped by about half in just the last five or six years, and the cohort of people born pre-one child policy are now in their late 40s and early 50s, meaning China's basically lost their ability to regenerate their workforce and population.", "source_url": "https://www.youtube.com/watch?v=HO9A-Gkz9M0", "transcript_excerpt": "the Chinese birth rate has been plunging but during covid it just fell off a cliff and the Chinese are now reporting that their birth rate dropped by about half in just the last five or six years... the Chinese are now reporting that their birth rate dropped by about half in just the last five or six years you combine that with the previous demographic collapse and during the covid period when numbers were kind of scrambled it turns out that that cohort of people born pre one child policy are now in their late 40s and early 50s and so China's basically lost their ability to regenerate their Workforce and in fact regenerate their population", "verdict": null, "created_at": "2026-10-01T19:35:44.026701", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-04-11", "judgements": []}, "merged": true}
+{"id": "HO9A-Gkz9M0", "status": "OK", "date": "2024-04-11", "pred": {"id": "pred_20261001193544_HO9A-G_1", "individual_name": "Peter Zeihan", "date": "2024-04-11", "category": "geopolitics", "claim": "Over the next decade, the United States and Europe will systematically block China off from most economic sectors, especially in medium manufactured goods, automotive, and green tech, forcing China to dump its products onto the developing world.", "source_url": "https://www.youtube.com/watch?v=HO9A-Gkz9M0", "transcript_excerpt": "we are at the dawn of the very end of the globalized system as China is now going to be systematically blocked off from most economic sectors in anything that is especially a medium manufactured good or better specifically automotive and Green Tech uh after that it's just a personal preference for each individual country about how much damage they want to do the Chinese system", "verdict": null, "created_at": "2026-10-01T19:35:44.026736", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-04-11", "judgements": []}, "merged": true}
+{"id": "E8wgQ6r82l4", "status": "OK", "date": "2024-04-10", "pred": {"id": "pred_20261001193527_E8wgQ6_0", "individual_name": "Peter Zeihan", "date": "2024-04-10", "category": "geopolitics", "claim": "If anything happens to international trade, infant mortality in Yemen and Nigeria will shoot up and life expectancy will collapse.", "source_url": "https://www.youtube.com/watch?v=E8wgQ6r82l4", "transcript_excerpt": "if anything happens to international trade you should expect INF Mor ality to shoot up and life expectancy to collapse", "verdict": null, "created_at": "2026-10-01T19:35:27.050980", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-04-10", "judgements": []}, "merged": true}
+{"id": "E8wgQ6r82l4", "status": "OK", "date": "2024-04-10", "pred": {"id": "pred_20261001193527_E8wgQ6_1", "individual_name": "Peter Zeihan", "date": "2024-04-10", "category": "china", "claim": "China will experience population collapse by the end of the century due to its aging population and lack of new births, even without financial crisis, war, or agricultural crisis.", "source_url": "https://www.youtube.com/watch?v=E8wgQ6r82l4", "transcript_excerpt": "even if nothing goes wrong in the system no financial crisis no war no agricultural crisis you're still looking at population collapse because people can't live any longer than they are and for the last 50 years people have not been having children so that inverted funnel at the bottom just goes up and sucks away the entire population", "verdict": null, "created_at": "2026-10-01T19:35:27.051008", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-04-10", "judgements": []}, "merged": true}
+{"id": "AU9Z4WtQQVE", "status": "NO_CACHE"}
+{"id": "JlRNLCq4HWE", "status": "NO_CACHE"}
+{"id": "-YUndZPV20g", "status": "NO_CACHE"}
+{"id": "-e2R6XBHuQQ", "status": "NO_CACHE"}
+{"id": "yv-bcPE4PxQ", "status": "NO_CACHE"}
+{"id": "QZvyWiYuatE", "status": "NO_CACHE"}
+{"id": "SrESlPEjyY8", "status": "NO_CACHE"}
+{"id": "_Z_WmApbbsw", "status": "NO_CACHE"}
+{"id": "WchmGYfOcuE", "status": "NO_CACHE"}
+{"id": "W0H9JU7T1XM", "status": "NO_CACHE"}
+{"id": "V_AkQLfzhkk", "status": "NO_CACHE"}
+{"id": "oh8jIBBCeT4", "status": "NO_CACHE"}
+{"id": "LMTINxXa-zI", "status": "NO_CACHE"}
+{"id": "W4W0FHJ8A0o", "status": "NO_CACHE"}
+{"id": "en2FlT6pho4", "status": "OK", "date": "2024-04-09", "pred": {"id": "pred_20261001193914_en2FlT_0", "individual_name": "Peter Zeihan", "date": "2024-04-09", "category": "finance", "claim": "Ohio has become a world leader in things like high-end plastics", "source_url": "https://www.youtube.com/watch?v=en2FlT6pho4", "transcript_excerpt": "so we're seeing dozens of chemical facilities that do secondary processing popping up in the more populated parts of Ohio taking advantage of what is basically below Global cost inputs of things like ethane propane butane and the rest so here we are in the middle of the continent and we're suddenly seeing an explosion in industrial activity for something that we normally associate with the Chinese Coast the Persian Gulf or the Texas coast very different situation very different geology very different outcomes", "verdict": null, "created_at": "2026-10-01T19:39:14.749381", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-04-09", "judgements": []}, "merged": true}
+{"id": "en2FlT6pho4", "status": "OK", "date": "2024-04-09", "pred": {"id": "pred_20261001193914_en2FlT_1", "individual_name": "Peter Zeihan", "date": "2024-04-09", "category": "finance", "claim": "Dozens of chemical facilities that do secondary processing will pop up in the more populated parts of Ohio", "source_url": "https://www.youtube.com/watch?v=en2FlT6pho4", "transcript_excerpt": "so we're seeing dozens of chemical facilities that do secondary processing popping up in the more populated parts of Ohio taking advantage of what is basically below Global cost inputs of things like ethane propane butane and the rest", "verdict": null, "created_at": "2026-10-01T19:39:14.749409", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-04-09", "judgements": []}, "merged": true}
+{"id": "o0ZbhqkMdfU", "status": "OK", "date": "2024-04-08", "pred": {"id": "pred_20261001193904_o0Zbhq_0", "individual_name": "Peter Zeihan", "date": "2024-04-08", "category": "geopolitics", "claim": "Isis kusan (ISIS) is not constraint and could very well be coming to a place near you soon", "source_url": "https://www.youtube.com/watch?v=o0ZbhqkMdfU", "transcript_excerpt": "Isis is not the sort of group that can expand much Beyond its current footprint then certainly not beyond that part of the middle Euphrates where from time to time they can kind of expand as corad is a different sort of category they are not constraint and could very well be coming to a place near you soon", "verdict": null, "created_at": "2026-10-01T19:39:04.869846", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-04-08", "judgements": []}, "merged": true}
+{"id": "o0ZbhqkMdfU", "status": "OK", "date": "2024-04-08", "pred": {"id": "pred_20261001193904_o0Zbhq_1", "individual_name": "Peter Zeihan", "date": "2024-04-08", "category": "geopolitics", "claim": "Isis kusan (ISIS) is recruiting aggressively from within the former Soviet sphere including USCS, Tajiks, some Kirgis, maybe some Turkmen, Dagestanis, Chechens, Bashirs and Tatars", "source_url": "https://www.youtube.com/watch?v=o0ZbhqkMdfU", "transcript_excerpt": "so one of the things that it appears to be with Isis corad is they've been recruiting pretty aggressively from within the former Soviet sphere USCS tajiks some kirgis maybe some some turkmen uh and hopefully not but most likely so dagestanis chuchin Bashir and tatars those are all people who live within the Russian Federation today", "verdict": null, "created_at": "2026-10-01T19:39:04.869894", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-04-08", "judgements": []}, "merged": true}
+{"id": "E_PcENUsO3Q", "status": "NO_CACHE"}
+{"id": "nWUtLoWChFY", "status": "NO_CACHE"}
+{"id": "IYG654K1D3M", "status": "OK", "date": "2024-04-03", "pred": {"id": "pred_20261001193942_IYG654_0", "individual_name": "Peter Zeihan", "date": "2024-04-03", "category": "ukraine", "claim": "Ukrainians will continue to demonstrate the ability to strike targets over 1,000 kilometers from their border, specifically aiming for facilities north of Moscow instead of south of Moscow.", "source_url": "https://www.youtube.com/watch?v=IYG654K1D3M", "transcript_excerpt": "now that the ukrainians have demonstrated the ability to strike over a th000 kilometers from their border it's only a matter of time before they start aiming for targets that are north of Moscow instead of south of Moscow", "verdict": null, "created_at": "2026-10-01T19:39:42.515830", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-04-03", "judgements": []}, "merged": true}
+{"id": "IYG654K1D3M", "status": "OK", "date": "2024-04-03", "pred": {"id": "pred_20261001193942_IYG654_1", "individual_name": "Peter Zeihan", "date": "2024-04-03", "category": "energy", "claim": "If key pipeline nexuses like Samara and Tatar get taken offline, Russian crude will be unable to flow due to lack of backup systems, leading to pressure buildup in pipelines and potential freezing of well heads in Northwestern Siberia.", "source_url": "https://www.youtube.com/watch?v=IYG654K1D3M", "transcript_excerpt": "if these are interrupted especially Samara which is an Nexus uh then the crude has nowhere to go there's not a backup system when these clusters get taken offline for whatever reason pressure builds up in the pipe back to the well head now this could be worse uh the facilities that are in Southwestern Siberia especially places like todan and Bash kiristan it doesn't get so cold there in the winter that the well heads freeze but now that the ukrainians have demonstrated the ability to strike over a th000 kilometers from their border it's only a matter of time before they start aiming for targets that are north of Moscow instead of south of Moscow and if those pipeline nexuses go offline then you're talking about the well heads in Northwestern Siberia actually freezing shut", "verdict": null, "created_at": "2026-10-01T19:39:42.515879", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-04-03", "judgements": []}, "merged": true}
+{"id": "XmqyYyQEuD0", "status": "OK", "date": "2024-04-02", "pred": {"id": "pred_20261001193925_XmqyYy_0", "individual_name": "Peter Zeihan", "date": "2024-04-02", "category": "ukraine", "claim": "Ukraine will once again have its single largest line item exporter (grain) back online, which will help everyone because the more that Ukrainians can put their own money into the war, the less pressure there will be politically on everyone else.", "source_url": "https://www.youtube.com/watch?v=XmqyYyQEuD0", "transcript_excerpt": "all of a sudden Ukraine again has its single largest line item exporter earner back uh and that will help everyone because the more that the ukrainians can put their own money into the war the less pressure there will be politically on everyone", "verdict": null, "created_at": "2026-10-01T19:39:25.492724", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-04-02", "judgements": []}, "merged": true}
+{"id": "XmqyYyQEuD0", "status": "OK", "date": "2024-04-02", "pred": {"id": "pred_20261001193925_XmqyYy_1", "individual_name": "Peter Zeihan", "date": "2024-04-02", "category": "ukraine", "claim": "The Western half of the Black Sea will be cleared of Russian vessels, allowing Ukrainian grain exports to resume through NATO territory specifically Romania, Bulgaria, and Turkey.", "source_url": "https://www.youtube.com/watch?v=XmqyYyQEuD0", "transcript_excerpt": "this has opened up a grain export quor going down the western side of the Black Sea through NATO territory specifically Romania Bulgaria and turkey uh to the Turkish Straits and out to the aian in The Wider world", "verdict": null, "created_at": "2026-10-01T19:39:25.492755", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-04-02", "judgements": []}, "merged": true}
+{"id": "jJ2Z4ozK2b0", "status": "OK", "date": "2024-04-01", "pred": {"id": "pred_20261001194043_jJ2Z4o_0", "individual_name": "Peter Zeihan", "date": "2024-04-01", "category": "finance", "claim": "The Jones Act, which requires ships transporting goods between American ports to be American-built, owned, captained, and crewed, has caused cargo on America's waterways to drop by over 99% in the century since its implementation.", "source_url": "https://www.youtube.com/watch?v=jJ2Z4ozK2b0", "transcript_excerpt": "and even that's a a tight race it's in the Mid-Atlantic so it's the midpoint going north north south on the American east coast for the parts that are densely populated from roughly Atlanta all the way up to Boston and it has access to what used to be the National Road through the Cumberland Gap getting into the Ohio River Valley so it should should should be a Crossroads of the greatest manufacturing Zone on the planet uh it is not because of something called The Jones act which was a program passed in 1920 that was designed to keep jobs within the American system uh that says that any Maritime vehicle any ship that transports Port any Goods uh between any two American ports must be American built owned captained and crewed and as a result of having that restriction on Maritime transport but not on truck transport or Air transport or rail transport people stopped using the riverways completely and we've seen cargo on America's waterways drop by over 99% in the century since", "verdict": null, "created_at": "2026-10-01T19:40:43.570421", "measurement_type": "quantitative", "test_status": "eligible", "testing_since": "2024-04-01", "judgements": []}, "merged": true}
+{"id": "jJ2Z4ozK2b0", "status": "OK", "date": "2024-04-01", "pred": {"id": "pred_20261001194043_jJ2Z4o_1", "individual_name": "Peter Zeihan", "date": "2024-04-01", "category": "finance", "claim": "If the Jones Act had not been implemented, the United States would have an additional $1 trillion in economic output right now, most of it in manufacturing within the Mid-Atlantic waterway system.", "source_url": "https://www.youtube.com/watch?v=jJ2Z4ozK2b0", "transcript_excerpt": "it's not that these are non-issues but these are like minor rounding errors considering how catastrophic of an event this should have been uh if we had gone the other direction we'd have an extra1 trillion do on the US economy right now most of that in manufacturing most of it in this Zone", "verdict": null, "created_at": "2026-10-01T19:40:43.570439", "measurement_type": "quantitative", "test_status": "eligible", "testing_since": "2024-04-01", "judgements": []}, "merged": true}
+{"id": "vZdfqqRAht4", "status": "OK", "date": "2024-03-29", "pred": {"id": "pred_20261001194140_vZdfqq_0", "individual_name": "Peter Zeihan", "date": "2024-03-29", "category": "finance", "claim": "Traditional liberal arts colleges, especially smaller ones, will not have nearly the level of demand they used to because we are desperate for blue-collar workers and have an oversupply of white-collar workers.", "source_url": "https://www.youtube.com/watch?v=vZdfqqRAht4", "transcript_excerpt": "your traditional liberal arts college, especially the smaller ones, are not going to have nearly the level of demand that they used to", "verdict": null, "created_at": "2026-10-01T19:41:40.062237", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-03-29", "judgements": []}, "merged": true}
+{"id": "vZdfqqRAht4", "status": "OK", "date": "2024-03-29", "pred": {"id": "pred_20261001194140_vZdfqq_1", "individual_name": "Peter Zeihan", "date": "2024-03-29", "category": "finance", "claim": "Two-year universities that focus on technical skills will be in very high demand due to the shortage of blue-collar workers and the need to expand industrial construction spending as China approaches its demographic end.", "source_url": "https://www.youtube.com/watch?v=vZdfqqRAht4", "transcript_excerpt": "Two-year universities that work on more technical skills, they're going to be in very high demand", "verdict": null, "created_at": "2026-10-01T19:41:40.062318", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-03-29", "judgements": []}, "merged": true}
+{"id": "bsU6gONt8Z8", "status": "NO_CACHE"}
+{"id": "ibja8YSWaFw", "status": "OK", "date": "2024-03-26", "pred": {"id": "pred_20261001194023_ibja8Y_0", "individual_name": "Peter Zeihan", "date": "2024-03-26", "category": "ukraine", "claim": "The Western half of the Black Sea is now completely no go for the Russian Fleet due to Ukrainian drone attacks using jet skis loaded with explosives.", "source_url": "https://www.youtube.com/watch?v=ibja8YSWaFw", "transcript_excerpt": "uh basically the Western half of the Black Sea is now completely no go for the Russian Fleet uh and most of their ships especially the larger ones simply can't shoot back because anything that's installed on the deck of the ship is designed to hit the horizon or higher and it can't angle down to Target these small boats in the water", "verdict": null, "created_at": "2026-10-01T19:40:23.809876", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-03-26", "judgements": []}, "merged": true}
+{"id": "ibja8YSWaFw", "status": "OK", "date": "2024-03-26", "pred": {"id": "pred_20261001194023_ibja8Y_1", "individual_name": "Peter Zeihan", "date": "2024-03-26", "category": "ukraine", "claim": "Ukrainian drone attacks using Phoenix Ghost drones have taken offline between 500,000 to 1 million barrels per day of Russian refining capacity.", "source_url": "https://www.youtube.com/watch?v=ibja8YSWaFw", "transcript_excerpt": "you know we're talking about regularly a half a million to a million barrels per day of Russian refining capacity is taken offline", "verdict": null, "created_at": "2026-10-01T19:40:23.809928", "measurement_type": "quantitative", "test_status": "eligible", "testing_since": "2024-03-26", "judgements": []}, "merged": true}
+{"id": "h4kQeaWlzeo", "status": "OK", "date": "2024-03-25", "pred": {"id": "pred_20261001194131_h4kQea_0", "individual_name": "Peter Zeihan", "date": "2024-03-25", "category": "finance", "claim": "Japan's interest rates will remain above zero at .1% as a result of supply chain inflation rather than renewed consumer demand, with no fundamental change to the country's demographic-driven economic challenges.", "source_url": "https://www.youtube.com/watch?v=h4kQeaWlzeo", "transcript_excerpt": "they're now .1% very exciting stuff uh let me give you the backdrop so I talk a lot about demographics Japan is the original demographic Basket Case uh they started industrializing around the turn of the last century and were first significant country after Germany to be majority urbanized and I like Germany where you have suburbs you basically just have inner city followed by more in City uh with everyone living in condos so they've had the world's lowest birth rate for quite some time until recently and they're definitely the world's until recentl y the world's fastest aging society and are still the world's oldest Society they found a way to mitigate some of that but it's really just slowed the decline it's definitely not reversed it uh anywh who um one people age I pass roughly 50 I it's a different for every culture but roughly there uh they start consuming less and saving more and in a case of Japan back in the 1980s which was one of the most productive economies in the world you got this super saturation of the local market with high-tech goods and then everything had to be sold abroad uh it was a combination social management political and economic plan allinone um that meant that Japan became the Bo man of the day for the Americans because they could sell high tech stuff for cheaper than the Americans could make it at home but it also meant that back in Japan the super saturation pushed prices down and if you think prices are going to go down you tend to defer your purchases for a little bit because they'll go down more and that happened across every economic sector in Japan for decades and eventually got to the point that between trade tensions which triggered problems with the United States that forced Japan to all FL some of their manufacturing to other countries most notably the United States in order to keep relations okay uh you also had people aging and aging and aging and aging eventually hitting Mass retirement so the Bulge and the population pyramid in Japan is past the age of retirement already and people who are retired don't consume much at all so after 30 years of consumption being flat to negative you're now not simply dealing with the different population structure that can't consume you also have a smaller industrial blit base in Japan so much of it has been offloaded and moved to other places for a mix of strategic political and economic reasons well that means deflation has never really gone away and that means that the uh the Japanese have been really having problems stimulating consumption normally normally interest rates are to be perfectly blunt a method of regulating demand the idea is you make them lower so it's easier to borrow when you want people to buy more you raise them when you me to slow down and fight inflation so that they'll buy less that that's how it works but once you get into deflation and you eventually drop your interest rates to zero you can't go any further well I mean guess the Japanese did you go negative so you actually get paid when you borrow money but it wasn't enough to change the fundamental mechanics of it now in recent years especially with the recovery from covid we've been seeing inflation throughout the manufacturing supply chain system Japan is no exception to that and so prices have risen in Japan triggering monetary policy changes like raising interest rates to a record high in recent years of 0.1 but this is not a sign of a return to something that's more normal this has only occurred because of increase in prices for the inputs of raw materials and the outputs of intermediate and finished products this is a supply chain reason for inflation going up not a demand reason so while it's a little bit more normal today in Japan and Banks can work a little bit more normally which is you know a good good thing there hasn't actually been a fundamental change in the core problem that plagues the country and that's that demand has been steadily dropping now for an entire generation and is unlikely to recover", "verdict": null, "created_at": "2026-10-01T19:41:31.485271", "measurement_type": "quantitative", "test_status": "eligible", "testing_since": "2024-03-25", "judgements": []}, "merged": true}
+{"id": "h4kQeaWlzeo", "status": "OK", "date": "2024-03-25", "pred": {"id": "pred_20261001194131_h4kQea_1", "individual_name": "Peter Zeihan", "date": "2024-03-25", "category": "other", "claim": "Countries currently associated with robust economic growth and high industrial production, including Korea, Taiwan, Thailand, China, Germany, Italy, Spain, and Poland, will experience demographic aging at rates that surpass Japan's current pace, making Japan's economic challenges the new normal for these nations.", "source_url": "https://www.youtube.com/watch?v=h4kQeaWlzeo", "transcript_excerpt": "so Japan's past is the future for a lot of these countries and Japan's present doesn't look all that hot either", "verdict": null, "created_at": "2026-10-01T19:41:31.485361", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-03-25", "judgements": []}, "merged": true}
+{"id": "AU9Z4WtQQVE", "status": "NO_CACHE"}
+{"id": "JlRNLCq4HWE", "status": "NO_CACHE"}
+{"id": "-YUndZPV20g", "status": "NO_CACHE"}
+{"id": "-e2R6XBHuQQ", "status": "NO_CACHE"}
+{"id": "yv-bcPE4PxQ", "status": "NO_CACHE"}
+{"id": "QZvyWiYuatE", "status": "NO_CACHE"}
+{"id": "SrESlPEjyY8", "status": "NO_CACHE"}
+{"id": "_Z_WmApbbsw", "status": "NO_CACHE"}
+{"id": "WchmGYfOcuE", "status": "NO_CACHE"}
+{"id": "W0H9JU7T1XM", "status": "NO_CACHE"}
+{"id": "V_AkQLfzhkk", "status": "NO_CACHE"}
+{"id": "oh8jIBBCeT4", "status": "NO_CACHE"}
+{"id": "LMTINxXa-zI", "status": "NO_CACHE"}
+{"id": "W4W0FHJ8A0o", "status": "NO_CACHE"}
+{"id": "E_PcENUsO3Q", "status": "NO_CACHE"}
+{"id": "nWUtLoWChFY", "status": "NO_CACHE"}
+{"id": "bsU6gONt8Z8", "status": "NO_CACHE"}
+{"id": "uJZcIrBCrqs", "status": "BEFORE_CUTOFF", "date": "2024-03-23"}
+{"id": "zeufnEgY1RM", "status": "BEFORE_CUTOFF", "date": "2024-03-22"}
+{"id": "mRYi04wDtnA", "status": "BEFORE_CUTOFF", "date": "2024-03-22"}
+{"id": "6BNRZdqkZjg", "status": "NO_CACHE"}
+{"id": "sanVTBnxb2A", "status": "BEFORE_CUTOFF", "date": "2024-03-20"}
+{"id": "E-FHlz5ClGE", "status": "BEFORE_CUTOFF", "date": "2024-03-19"}
+{"id": "5D7I4uespms", "status": "BEFORE_CUTOFF", "date": "2024-03-18"}
+{"id": "RdFmWztXF-k", "status": "BEFORE_CUTOFF", "date": "2024-03-15"}
+{"id": "86YrV2D-nB4", "status": "BEFORE_CUTOFF", "date": "2024-03-14"}
+{"id": "fagtI6MOCUo", "status": "NO_CACHE"}
+{"id": "LFPeyPNXDkc", "status": "BEFORE_CUTOFF", "date": "2024-03-12"}
+{"id": "fUUXG0YsiX8", "status": "NO_CACHE"}
+{"id": "0Aps823Jj5Y", "status": "BEFORE_CUTOFF", "date": "2024-03-08"}
+{"id": "AU9Z4WtQQVE", "status": "NO_CACHE"}
+{"id": "JlRNLCq4HWE", "status": "NO_CACHE"}
+{"id": "-YUndZPV20g", "status": "NO_CACHE"}
+{"id": "-e2R6XBHuQQ", "status": "NO_CACHE"}
+{"id": "yv-bcPE4PxQ", "status": "NO_CACHE"}
+{"id": "QZvyWiYuatE", "status": "NO_CACHE"}
+{"id": "SrESlPEjyY8", "status": "NO_CACHE"}
+{"id": "_Z_WmApbbsw", "status": "NO_CACHE"}
+{"id": "WchmGYfOcuE", "status": "NO_CACHE"}
+{"id": "W0H9JU7T1XM", "status": "NO_CACHE"}
+{"id": "V_AkQLfzhkk", "status": "NO_CACHE"}
+{"id": "oh8jIBBCeT4", "status": "NO_CACHE"}
+{"id": "LMTINxXa-zI", "status": "NO_CACHE"}
+{"id": "W4W0FHJ8A0o", "status": "NO_CACHE"}
+{"id": "E_PcENUsO3Q", "status": "NO_CACHE"}
+{"id": "nWUtLoWChFY", "status": "NO_CACHE"}
+{"id": "bsU6gONt8Z8", "status": "NO_CACHE"}
+{"id": "uJZcIrBCrqs", "status": "BEFORE_CUTOFF", "date": "2024-03-23"}
+{"id": "zeufnEgY1RM", "status": "BEFORE_CUTOFF", "date": "2024-03-22"}
+{"id": "mRYi04wDtnA", "status": "BEFORE_CUTOFF", "date": "2024-03-22"}
+{"id": "6BNRZdqkZjg", "status": "NO_CACHE"}
+{"id": "sanVTBnxb2A", "status": "BEFORE_CUTOFF", "date": "2024-03-20"}
+{"id": "E-FHlz5ClGE", "status": "BEFORE_CUTOFF", "date": "2024-03-19"}
+{"id": "5D7I4uespms", "status": "BEFORE_CUTOFF", "date": "2024-03-18"}
+{"id": "RdFmWztXF-k", "status": "BEFORE_CUTOFF", "date": "2024-03-15"}
+{"id": "86YrV2D-nB4", "status": "BEFORE_CUTOFF", "date": "2024-03-14"}
+{"id": "fagtI6MOCUo", "status": "NO_CACHE"}
+{"id": "LFPeyPNXDkc", "status": "BEFORE_CUTOFF", "date": "2024-03-12"}
+{"id": "fUUXG0YsiX8", "status": "NO_CACHE"}
+{"id": "0Aps823Jj5Y", "status": "BEFORE_CUTOFF", "date": "2024-03-08"}
+{"id": "uRzoqpprxL4", "status": "BEFORE_CUTOFF", "date": "2024-03-07"}
+{"id": "YC3fHVUWZ4E", "status": "BEFORE_CUTOFF", "date": "2024-03-06"}
+{"id": "Kdp6z2yC2R4", "status": "NO_CACHE"}
+{"id": "v4hdynSEOQY", "status": "BEFORE_CUTOFF", "date": "2024-03-04"}
+{"id": "KUWMifkHeLw", "status": "BEFORE_CUTOFF", "date": "2024-03-01"}
+{"id": "HB6guIIxjTY", "status": "BEFORE_CUTOFF", "date": "2024-02-28"}
+{"id": "9lkHjjtciew", "status": "BEFORE_CUTOFF", "date": "2024-02-27"}
+{"id": "GN4UZxH7224", "status": "BEFORE_CUTOFF", "date": "2024-02-26"}
+{"id": "OY7pk0Trxo4", "status": "NO_CACHE"}
+{"id": "tWp9KNSQ7b0", "status": "BEFORE_CUTOFF", "date": "2024-02-21"}
+{"id": "AU9Z4WtQQVE", "status": "NO_CACHE"}
+{"id": "JlRNLCq4HWE", "status": "NO_CACHE"}
+{"id": "-YUndZPV20g", "status": "NO_CACHE"}
+{"id": "-e2R6XBHuQQ", "status": "NO_CACHE"}
+{"id": "yv-bcPE4PxQ", "status": "NO_CACHE"}
+{"id": "QZvyWiYuatE", "status": "NO_CACHE"}
+{"id": "SrESlPEjyY8", "status": "NO_CACHE"}
+{"id": "_Z_WmApbbsw", "status": "NO_CACHE"}
+{"id": "WchmGYfOcuE", "status": "NO_CACHE"}
+{"id": "W0H9JU7T1XM", "status": "NO_CACHE"}
+{"id": "V_AkQLfzhkk", "status": "NO_CACHE"}
+{"id": "oh8jIBBCeT4", "status": "NO_CACHE"}
+{"id": "LMTINxXa-zI", "status": "NO_CACHE"}
+{"id": "W4W0FHJ8A0o", "status": "NO_CACHE"}
+{"id": "E_PcENUsO3Q", "status": "NO_CACHE"}
+{"id": "nWUtLoWChFY", "status": "NO_CACHE"}
+{"id": "bsU6gONt8Z8", "status": "NO_CACHE"}
+{"id": "uJZcIrBCrqs", "status": "BEFORE_CUTOFF", "date": "2024-03-23"}
+{"id": "zeufnEgY1RM", "status": "BEFORE_CUTOFF", "date": "2024-03-22"}
+{"id": "mRYi04wDtnA", "status": "BEFORE_CUTOFF", "date": "2024-03-22"}
+{"id": "6BNRZdqkZjg", "status": "NO_CACHE"}
+{"id": "sanVTBnxb2A", "status": "BEFORE_CUTOFF", "date": "2024-03-20"}
+{"id": "E-FHlz5ClGE", "status": "BEFORE_CUTOFF", "date": "2024-03-19"}
+{"id": "5D7I4uespms", "status": "BEFORE_CUTOFF", "date": "2024-03-18"}
+{"id": "RdFmWztXF-k", "status": "BEFORE_CUTOFF", "date": "2024-03-15"}
+{"id": "86YrV2D-nB4", "status": "BEFORE_CUTOFF", "date": "2024-03-14"}
+{"id": "fagtI6MOCUo", "status": "NO_CACHE"}
+{"id": "LFPeyPNXDkc", "status": "BEFORE_CUTOFF", "date": "2024-03-12"}
+{"id": "fUUXG0YsiX8", "status": "NO_CACHE"}
+{"id": "0Aps823Jj5Y", "status": "BEFORE_CUTOFF", "date": "2024-03-08"}
+{"id": "uRzoqpprxL4", "status": "BEFORE_CUTOFF", "date": "2024-03-07"}
+{"id": "YC3fHVUWZ4E", "status": "BEFORE_CUTOFF", "date": "2024-03-06"}
+{"id": "Kdp6z2yC2R4", "status": "NO_CACHE"}
+{"id": "v4hdynSEOQY", "status": "BEFORE_CUTOFF", "date": "2024-03-04"}
+{"id": "KUWMifkHeLw", "status": "BEFORE_CUTOFF", "date": "2024-03-01"}
+{"id": "HB6guIIxjTY", "status": "BEFORE_CUTOFF", "date": "2024-02-28"}
+{"id": "9lkHjjtciew", "status": "BEFORE_CUTOFF", "date": "2024-02-27"}
+{"id": "GN4UZxH7224", "status": "BEFORE_CUTOFF", "date": "2024-02-26"}
+{"id": "OY7pk0Trxo4", "status": "NO_CACHE"}
+{"id": "tWp9KNSQ7b0", "status": "BEFORE_CUTOFF", "date": "2024-02-21"}
+{"id": "S9-4toma0UE", "status": "BEFORE_CUTOFF", "date": "2024-02-20"}
+{"id": "HhnmQnhXCBY", "status": "BEFORE_CUTOFF", "date": "2024-02-19"}
+{"id": "N_PFs2pEXEc", "status": "BEFORE_CUTOFF", "date": "2024-02-16"}
+{"id": "_AfnIefCDLs", "status": "BEFORE_CUTOFF", "date": "2024-02-16"}
+{"id": "DjmBAhTDRXY", "status": "NO_CACHE"}
+{"id": "DSJqE5gQzvs", "status": "BEFORE_CUTOFF", "date": "2024-02-14"}
+{"id": "GCaAKMRe1SY", "status": "BEFORE_CUTOFF", "date": "2024-02-13"}
+{"id": "2y_iv8coTYM", "status": "BEFORE_CUTOFF", "date": "2024-02-12"}
+{"id": "QneLOcOafEE", "status": "BEFORE_CUTOFF", "date": "2024-02-09"}
+{"id": "RVbs0c3kfHc", "status": "BEFORE_CUTOFF", "date": "2024-02-08"}
+{"id": "RRoDjUcVOPY", "status": "NO_CACHE"}
+{"id": "pBbzrdDDyxQ", "status": "BEFORE_CUTOFF", "date": "2024-02-06"}
+{"id": "eejRr-oP6hw", "status": "BEFORE_CUTOFF", "date": "2024-02-05"}
+{"id": "SzZ6e6-WUU8", "status": "BEFORE_CUTOFF", "date": "2024-02-02"}
+{"id": "dtrFTV3ZKDw", "status": "BEFORE_CUTOFF", "date": "2024-02-01"}
+{"id": "JD3m6U6g53k", "status": "BEFORE_CUTOFF", "date": "2024-01-31"}
+{"id": "4XO7iQ5gcPQ", "status": "NO_CACHE"}
+{"id": "ge6ZJ3ngO00", "status": "BEFORE_CUTOFF", "date": "2024-01-29"}
+{"id": "UsIFHOMVjEc", "status": "BEFORE_CUTOFF", "date": "2024-01-28"}
+{"id": "a5I41pLH6S0", "status": "BEFORE_CUTOFF", "date": "2024-01-26"}
+{"id": "lc22QxlThKg", "status": "BEFORE_CUTOFF", "date": "2024-01-25"}
+{"id": "GJ2Qc7WnguM", "status": "BEFORE_CUTOFF", "date": "2024-01-24"}
+{"id": "aUsjzgNx_8Y", "status": "NO_CACHE"}
+{"id": "BiuvSiFUAf8", "status": "BEFORE_CUTOFF", "date": "2024-01-22"}
+{"id": "eoHUXxjlgfs", "status": "BEFORE_CUTOFF", "date": "2024-01-22"}
+{"id": "-4ct2yCQOK0", "status": "BEFORE_CUTOFF", "date": "2024-01-18"}
+{"id": "6Y8Zf83u2Io", "status": "BEFORE_CUTOFF", "date": "2024-01-17"}
+{"id": "f0C07AmMUuw", "status": "BEFORE_CUTOFF", "date": "2024-01-16"}
+{"id": "FMIfXS1yZc4", "status": "NO_CACHE"}
+{"id": "N2p4atitLzM", "status": "BEFORE_CUTOFF", "date": "2024-01-12"}
+{"id": "43axCkGrrN4", "status": "BEFORE_CUTOFF", "date": "2024-01-12"}
+{"id": "vn8nKcioRK8", "status": "BEFORE_CUTOFF", "date": "2024-01-11"}
+{"id": "_MLNFzSfEhk", "status": "BEFORE_CUTOFF", "date": "2024-01-10"}
+{"id": "AIX2nXeKW0M", "status": "BEFORE_CUTOFF", "date": "2024-01-09"}
+{"id": "-uFjRZ5R5pU", "status": "NO_CACHE"}
+{"id": "w6t2Q2F2NGY", "status": "BEFORE_CUTOFF", "date": "2024-01-05"}
+{"id": "cpWVpWk34lQ", "status": "BEFORE_CUTOFF", "date": "2024-01-04"}
+{"id": "8hSYixFjZWM", "status": "BEFORE_CUTOFF", "date": "2024-01-03"}
+{"id": "ilA1KpA3kog", "status": "BEFORE_CUTOFF", "date": "2024-01-02"}
+{"id": "41AEoEkgDm0", "status": "BEFORE_CUTOFF", "date": "2024-01-01"}
+{"id": "AU9Z4WtQQVE", "status": "NO_CACHE"}
+{"id": "JlRNLCq4HWE", "status": "NO_CACHE"}
+{"id": "-YUndZPV20g", "status": "NO_CACHE"}
+{"id": "-e2R6XBHuQQ", "status": "NO_CACHE"}
+{"id": "yv-bcPE4PxQ", "status": "NO_CACHE"}
+{"id": "QZvyWiYuatE", "status": "NO_CACHE"}
+{"id": "SrESlPEjyY8", "status": "NO_CACHE"}
+{"id": "_Z_WmApbbsw", "status": "NO_CACHE"}
+{"id": "WchmGYfOcuE", "status": "NO_CACHE"}
+{"id": "W0H9JU7T1XM", "status": "NO_CACHE"}
+{"id": "V_AkQLfzhkk", "status": "NO_CACHE"}
+{"id": "oh8jIBBCeT4", "status": "NO_CACHE"}
+{"id": "LMTINxXa-zI", "status": "NO_CACHE"}
+{"id": "W4W0FHJ8A0o", "status": "NO_CACHE"}
+{"id": "E_PcENUsO3Q", "status": "NO_CACHE"}
+{"id": "nWUtLoWChFY", "status": "NO_CACHE"}
+{"id": "bsU6gONt8Z8", "status": "NO_CACHE"}
+{"id": "uJZcIrBCrqs", "status": "BEFORE_CUTOFF", "date": "2024-03-23"}
+{"id": "zeufnEgY1RM", "status": "BEFORE_CUTOFF", "date": "2024-03-22"}
+{"id": "mRYi04wDtnA", "status": "BEFORE_CUTOFF", "date": "2024-03-22"}
+{"id": "6BNRZdqkZjg", "status": "NO_CACHE"}
+{"id": "sanVTBnxb2A", "status": "BEFORE_CUTOFF", "date": "2024-03-20"}
+{"id": "E-FHlz5ClGE", "status": "BEFORE_CUTOFF", "date": "2024-03-19"}
+{"id": "5D7I4uespms", "status": "BEFORE_CUTOFF", "date": "2024-03-18"}
+{"id": "RdFmWztXF-k", "status": "BEFORE_CUTOFF", "date": "2024-03-15"}
+{"id": "86YrV2D-nB4", "status": "BEFORE_CUTOFF", "date": "2024-03-14"}
+{"id": "fagtI6MOCUo", "status": "NO_CACHE"}
+{"id": "LFPeyPNXDkc", "status": "BEFORE_CUTOFF", "date": "2024-03-12"}
+{"id": "fUUXG0YsiX8", "status": "NO_CACHE"}
+{"id": "0Aps823Jj5Y", "status": "BEFORE_CUTOFF", "date": "2024-03-08"}
+{"id": "uRzoqpprxL4", "status": "BEFORE_CUTOFF", "date": "2024-03-07"}
+{"id": "YC3fHVUWZ4E", "status": "BEFORE_CUTOFF", "date": "2024-03-06"}
+{"id": "Kdp6z2yC2R4", "status": "NO_CACHE"}
+{"id": "v4hdynSEOQY", "status": "BEFORE_CUTOFF", "date": "2024-03-04"}
+{"id": "KUWMifkHeLw", "status": "BEFORE_CUTOFF", "date": "2024-03-01"}
+{"id": "HB6guIIxjTY", "status": "BEFORE_CUTOFF", "date": "2024-02-28"}
+{"id": "9lkHjjtciew", "status": "BEFORE_CUTOFF", "date": "2024-02-27"}
+{"id": "GN4UZxH7224", "status": "BEFORE_CUTOFF", "date": "2024-02-26"}
+{"id": "OY7pk0Trxo4", "status": "NO_CACHE"}
+{"id": "tWp9KNSQ7b0", "status": "BEFORE_CUTOFF", "date": "2024-02-21"}
+{"id": "S9-4toma0UE", "status": "BEFORE_CUTOFF", "date": "2024-02-20"}
+{"id": "HhnmQnhXCBY", "status": "BEFORE_CUTOFF", "date": "2024-02-19"}
+{"id": "N_PFs2pEXEc", "status": "BEFORE_CUTOFF", "date": "2024-02-16"}
+{"id": "_AfnIefCDLs", "status": "BEFORE_CUTOFF", "date": "2024-02-16"}
+{"id": "DjmBAhTDRXY", "status": "NO_CACHE"}
+{"id": "DSJqE5gQzvs", "status": "BEFORE_CUTOFF", "date": "2024-02-14"}
+{"id": "GCaAKMRe1SY", "status": "BEFORE_CUTOFF", "date": "2024-02-13"}
+{"id": "2y_iv8coTYM", "status": "BEFORE_CUTOFF", "date": "2024-02-12"}
+{"id": "QneLOcOafEE", "status": "BEFORE_CUTOFF", "date": "2024-02-09"}
+{"id": "RVbs0c3kfHc", "status": "BEFORE_CUTOFF", "date": "2024-02-08"}
+{"id": "RRoDjUcVOPY", "status": "NO_CACHE"}
+{"id": "pBbzrdDDyxQ", "status": "BEFORE_CUTOFF", "date": "2024-02-06"}
+{"id": "eejRr-oP6hw", "status": "BEFORE_CUTOFF", "date": "2024-02-05"}
+{"id": "SzZ6e6-WUU8", "status": "BEFORE_CUTOFF", "date": "2024-02-02"}
+{"id": "dtrFTV3ZKDw", "status": "BEFORE_CUTOFF", "date": "2024-02-01"}
+{"id": "JD3m6U6g53k", "status": "BEFORE_CUTOFF", "date": "2024-01-31"}
+{"id": "4XO7iQ5gcPQ", "status": "NO_CACHE"}
+{"id": "ge6ZJ3ngO00", "status": "BEFORE_CUTOFF", "date": "2024-01-29"}
+{"id": "UsIFHOMVjEc", "status": "BEFORE_CUTOFF", "date": "2024-01-28"}
+{"id": "a5I41pLH6S0", "status": "BEFORE_CUTOFF", "date": "2024-01-26"}
+{"id": "lc22QxlThKg", "status": "BEFORE_CUTOFF", "date": "2024-01-25"}
+{"id": "GJ2Qc7WnguM", "status": "BEFORE_CUTOFF", "date": "2024-01-24"}
+{"id": "aUsjzgNx_8Y", "status": "NO_CACHE"}
+{"id": "BiuvSiFUAf8", "status": "BEFORE_CUTOFF", "date": "2024-01-22"}
+{"id": "eoHUXxjlgfs", "status": "BEFORE_CUTOFF", "date": "2024-01-22"}
+{"id": "-4ct2yCQOK0", "status": "BEFORE_CUTOFF", "date": "2024-01-18"}
+{"id": "6Y8Zf83u2Io", "status": "BEFORE_CUTOFF", "date": "2024-01-17"}
+{"id": "f0C07AmMUuw", "status": "BEFORE_CUTOFF", "date": "2024-01-16"}
+{"id": "FMIfXS1yZc4", "status": "NO_CACHE"}
+{"id": "N2p4atitLzM", "status": "BEFORE_CUTOFF", "date": "2024-01-12"}
+{"id": "43axCkGrrN4", "status": "BEFORE_CUTOFF", "date": "2024-01-12"}
+{"id": "vn8nKcioRK8", "status": "BEFORE_CUTOFF", "date": "2024-01-11"}
+{"id": "_MLNFzSfEhk", "status": "BEFORE_CUTOFF", "date": "2024-01-10"}
+{"id": "AIX2nXeKW0M", "status": "BEFORE_CUTOFF", "date": "2024-01-09"}
+{"id": "-uFjRZ5R5pU", "status": "NO_CACHE"}
+{"id": "w6t2Q2F2NGY", "status": "BEFORE_CUTOFF", "date": "2024-01-05"}
+{"id": "cpWVpWk34lQ", "status": "BEFORE_CUTOFF", "date": "2024-01-04"}
+{"id": "8hSYixFjZWM", "status": "BEFORE_CUTOFF", "date": "2024-01-03"}
+{"id": "ilA1KpA3kog", "status": "BEFORE_CUTOFF", "date": "2024-01-02"}
+{"id": "41AEoEkgDm0", "status": "BEFORE_CUTOFF", "date": "2024-01-01"}
+{"id": "fruhvf_OWA0", "status": "NO_CACHE"}
+{"id": "8v8AT1Q9-iI", "status": "BEFORE_CUTOFF", "date": "2023-12-28"}
+{"id": "V66Omm5svDE", "status": "BEFORE_CUTOFF", "date": "2023-12-26"}
+{"id": "PYoOuJIj5qM", "status": "BEFORE_CUTOFF", "date": "2023-12-26"}
+{"id": "zLDEv50zvzU", "status": "BEFORE_CUTOFF", "date": "2023-12-25"}
+{"id": "80s5vIrlpAo", "status": "BEFORE_CUTOFF", "date": "2023-12-22"}
+{"id": "d-gwM46F69g", "status": "NO_CACHE"}
+{"id": "WJE7g08NldQ", "status": "BEFORE_CUTOFF", "date": "2023-12-20"}
+{"id": "PycoZ1R35Z4", "status": "BEFORE_CUTOFF", "date": "2023-12-19"}
+{"id": "lf6YnP9ZcAk", "status": "BEFORE_CUTOFF", "date": "2023-12-18"}
+{"id": "pAjBy5cBwJ0", "status": "BEFORE_CUTOFF", "date": "2023-12-15"}
+{"id": "RiWKYeD-Zp4", "status": "BEFORE_CUTOFF", "date": "2023-12-14"}
+{"id": "sm_3B6MiZ0Y", "status": "NO_CACHE"}
+{"id": "4mbQDmbaZuQ", "status": "BEFORE_CUTOFF", "date": "2023-12-12"}
+{"id": "Wc02-Rbhc5w", "status": "BEFORE_CUTOFF", "date": "2023-12-11"}
+{"id": "rtwe3l-AXXw", "status": "BEFORE_CUTOFF", "date": "2023-12-08"}
+{"id": "xwgivqvvYDs", "status": "BEFORE_CUTOFF", "date": "2023-12-07"}
+{"id": "7XfEAHvM8Ow", "status": "BEFORE_CUTOFF", "date": "2023-12-06"}
+{"id": "ODIs8-uueqg", "status": "NO_CACHE"}
+{"id": "m1YQOga-vHo", "status": "BEFORE_CUTOFF", "date": "2023-12-04"}
+{"id": "5CmIlZMoU1U", "status": "BEFORE_CUTOFF", "date": "2023-12-01"}
+{"id": "0kwtVbM5o-o", "status": "BEFORE_CUTOFF", "date": "2023-11-30"}
+{"id": "yXUdalkdniM", "status": "BEFORE_CUTOFF", "date": "2023-11-28"}
+{"id": "xQYiFyd-ah4", "status": "BEFORE_CUTOFF", "date": "2023-11-27"}
+{"id": "5N79unwU2RE", "status": "NO_CACHE"}
+{"id": "P1X7liBj-Tw", "status": "BEFORE_CUTOFF", "date": "2023-11-23"}
+{"id": "hh2jUE_dYww", "status": "BEFORE_CUTOFF", "date": "2023-11-22"}
+{"id": "78y2tyRoLwo", "status": "BEFORE_CUTOFF", "date": "2023-11-21"}
+{"id": "af3_0CrnH7o", "status": "BEFORE_CUTOFF", "date": "2023-11-20"}
+{"id": "tzwmDeaHd8A", "status": "BEFORE_CUTOFF", "date": "2023-11-17"}
+{"id": "ymOTXoLlOQ0", "status": "NO_CACHE"}
+{"id": "aQLX_xWAd8I", "status": "BEFORE_CUTOFF", "date": "2023-11-15"}
+{"id": "bDB8jyE6pEk", "status": "BEFORE_CUTOFF", "date": "2023-11-14"}
+{"id": "vJfDKlnWYuA", "status": "BEFORE_CUTOFF", "date": "2023-11-13"}
+{"id": "I6l96QKERjc", "status": "BEFORE_CUTOFF", "date": "2023-11-10"}
+{"id": "Lj24yy3r8lE", "status": "BEFORE_CUTOFF", "date": "2023-11-09"}
+{"id": "Yr0VQxfjAQI", "status": "NO_CACHE"}
+{"id": "We7ydLHejsg", "status": "BEFORE_CUTOFF", "date": "2023-11-07"}
+{"id": "t7cpi28YT_Y", "status": "BEFORE_CUTOFF", "date": "2023-11-06"}
+{"id": "8P95NFlAnmY", "status": "BEFORE_CUTOFF", "date": "2023-11-02"}
+{"id": "M6tsp4mFix8", "status": "BEFORE_CUTOFF", "date": "2023-11-01"}
+{"id": "ePBc_mxNnjY", "status": "BEFORE_CUTOFF", "date": "2023-10-31"}
+{"id": "lNulBQC4tfs", "status": "NO_CACHE"}
+{"id": "9Sovz3NTB-Q", "status": "BEFORE_CUTOFF", "date": "2023-10-27"}
+{"id": "vwZo7egM_F0", "status": "BEFORE_CUTOFF", "date": "2023-10-26"}
+{"id": "5UK6iZ2MtxQ", "status": "BEFORE_CUTOFF", "date": "2023-10-25"}
+{"id": "NxluOEw1ZEU", "status": "BEFORE_CUTOFF", "date": "2023-10-24"}
+{"id": "gMRgkpTuSiI", "status": "BEFORE_CUTOFF", "date": "2023-10-23"}
+{"id": "OagYlYna75Y", "status": "NO_CACHE"}
+{"id": "x1eFLsifD-A", "status": "BEFORE_CUTOFF", "date": "2023-10-19"}
+{"id": "btDVfbI858g", "status": "BEFORE_CUTOFF", "date": "2023-10-18"}
+{"id": "rwpn7EwNmcs", "status": "BEFORE_CUTOFF", "date": "2023-10-17"}
+{"id": "IvCnnQtHLKQ", "status": "BEFORE_CUTOFF", "date": "2023-10-16"}
+{"id": "WxXJOqqNFVM", "status": "BEFORE_CUTOFF", "date": "2023-10-13"}
+{"id": "65EwyO8fVrQ", "status": "NO_CACHE"}
+{"id": "hYSwKaGWZKU", "status": "BEFORE_CUTOFF", "date": "2023-10-12"}
+{"id": "xmEhTFjQB1g", "status": "BEFORE_CUTOFF", "date": "2023-10-11"}
+{"id": "RZ0IUCMpgEE", "status": "BEFORE_CUTOFF", "date": "2023-10-09"}
+{"id": "I7TGj7iLpoA", "status": "BEFORE_CUTOFF", "date": "2023-10-08"}
+{"id": "c-1MUAY79MU", "status": "BEFORE_CUTOFF", "date": "2023-10-06"}
+{"id": "kH5e4e8J9Pk", "status": "NO_CACHE"}
+{"id": "A-Vr9o-JurQ", "status": "BEFORE_CUTOFF", "date": "2023-10-04"}
+{"id": "y0pet5QC7wk", "status": "BEFORE_CUTOFF", "date": "2023-10-03"}
+{"id": "b-GBVRdwXVA", "status": "BEFORE_CUTOFF", "date": "2023-10-02"}
+{"id": "Rs-zQppucJA", "status": "NO_CACHE"}
+{"id": "kxKk7sBpcYA", "status": "NO_CACHE"}
+{"id": "kEP_ZJc18x8", "status": "NO_CACHE"}
+{"id": "fyompkPXkS4", "status": "NO_CACHE"}
+{"id": "5jmlix2NZ3M", "status": "NO_CACHE"}
+{"id": "NySVg5Xtr80", "status": "NO_CACHE"}
+{"id": "chJGSFw-_30", "status": "NO_CACHE"}
+{"id": "E-pou7TD6hU", "status": "NO_CACHE"}
+{"id": "wqP2a9Pty5E", "status": "NO_CACHE"}
+{"id": "_svO9vAkYF0", "status": "NO_CACHE"}
+{"id": "2tTqjFAO8r0", "status": "NO_CACHE"}
+{"id": "Aw-BQji34PU", "status": "NO_CACHE"}
+{"id": "BhnIX3eOLgw", "status": "NO_CACHE"}
+{"id": "kSKO1wrfPTc", "status": "NO_CACHE"}
+{"id": "psHQ4XS7DW4", "status": "NO_CACHE"}
+{"id": "U2IWh7X78Jk", "status": "NO_CACHE"}
+{"id": "VUmP7ZZkXoY", "status": "NO_CACHE"}
+{"id": "XcDy_oy0RGo", "status": "NO_CACHE"}
+{"id": "EbwhTyL_lWw", "status": "NO_CACHE"}
+{"id": "vPkHrSBVfzQ", "status": "NO_CACHE"}
+{"id": "5buWjvOYLLM", "status": "NO_CACHE"}
+{"id": "S6mXqOk63Ss", "status": "NO_CACHE"}
+{"id": "a1tAGoynS8U", "status": "NO_CACHE"}
+{"id": "JHM8BlDNtaA", "status": "NO_CACHE"}
+{"id": "efG4a3dpFJg", "status": "NO_CACHE"}
+{"id": "Xv5iRocgfIk", "status": "NO_CACHE"}
+{"id": "PKEF6s2OC_A", "status": "NO_CACHE"}
+{"id": "PfKoTHwE72E", "status": "NO_CACHE"}
+{"id": "Wdhop--5E4w", "status": "NO_CACHE"}
+{"id": "h5PAA3WIWtg", "status": "NO_CACHE"}
+{"id": "3b07NlIkKDc", "status": "NO_CACHE"}
+{"id": "0DG2vS6DcOM", "status": "NO_CACHE"}
+{"id": "hCeQg_GuAAc", "status": "NO_CACHE"}
+{"id": "AW-dbnYmQ74", "status": "NO_CACHE"}
+{"id": "I4DOpi5MMqI", "status": "NO_CACHE"}
+{"id": "EK8eLfbS3c4", "status": "NO_CACHE"}
+{"id": "2RNdKvoD9XA", "status": "NO_CACHE"}
+{"id": "mR-KgEshQZQ", "status": "NO_CACHE"}
+{"id": "lIKH8ZEW0a0", "status": "NO_CACHE"}
+{"id": "igxc6wlF0I0", "status": "NO_CACHE"}
+{"id": "YYufPSiXiXU", "status": "NO_CACHE"}
+{"id": "hI_o5GWq72Y", "status": "NO_CACHE"}
+{"id": "3RIq3WDBcI8", "status": "NO_CACHE"}
+{"id": "d2fV_bBYMPs", "status": "NO_CACHE"}
+{"id": "5hQS2CoVeH0", "status": "NO_CACHE"}
+{"id": "Y_jtHIezOqU", "status": "NO_CACHE"}
+{"id": "fuE6qALI954", "status": "NO_CACHE"}
+{"id": "DI7uWedIfU0", "status": "NO_CACHE"}
+{"id": "YcWSh-yKe9I", "status": "NO_CACHE"}
+{"id": "SwWyR6ywyMg", "status": "NO_CACHE"}
+{"id": "BCIduTiPS-A", "status": "NO_CACHE"}
+{"id": "LWhKtxp3K_8", "status": "NO_CACHE"}
+{"id": "yaiILtkgFqA", "status": "NO_CACHE"}
+{"id": "H4VM4DjSLkQ", "status": "NO_CACHE"}
+{"id": "6iwaroyFfSE", "status": "NO_TRANSCRIPT", "date": "2025-10-02"}
+{"id": "GtLsyH-2xg0", "status": "NO_CACHE"}
+{"id": "AU9Z4WtQQVE", "status": "NO_CACHE"}
+{"id": "JlRNLCq4HWE", "status": "NO_CACHE"}
+{"id": "-YUndZPV20g", "status": "NO_CACHE"}
+{"id": "-e2R6XBHuQQ", "status": "NO_CACHE"}
+{"id": "yv-bcPE4PxQ", "status": "NO_CACHE"}
+{"id": "QZvyWiYuatE", "status": "NO_CACHE"}
+{"id": "SrESlPEjyY8", "status": "NO_CACHE"}
+{"id": "_Z_WmApbbsw", "status": "NO_CACHE"}
+{"id": "WchmGYfOcuE", "status": "NO_CACHE"}
+{"id": "W0H9JU7T1XM", "status": "NO_CACHE"}
+{"id": "V_AkQLfzhkk", "status": "NO_CACHE"}
+{"id": "oh8jIBBCeT4", "status": "NO_CACHE"}
+{"id": "LMTINxXa-zI", "status": "NO_CACHE"}
+{"id": "W4W0FHJ8A0o", "status": "NO_CACHE"}
+{"id": "E_PcENUsO3Q", "status": "NO_CACHE"}
+{"id": "nWUtLoWChFY", "status": "NO_CACHE"}
+{"id": "bsU6gONt8Z8", "status": "NO_CACHE"}
+{"id": "uJZcIrBCrqs", "status": "BEFORE_CUTOFF", "date": "2024-03-23"}
+{"id": "zeufnEgY1RM", "status": "BEFORE_CUTOFF", "date": "2024-03-22"}
+{"id": "mRYi04wDtnA", "status": "BEFORE_CUTOFF", "date": "2024-03-22"}
+{"id": "6BNRZdqkZjg", "status": "NO_CACHE"}
+{"id": "sanVTBnxb2A", "status": "BEFORE_CUTOFF", "date": "2024-03-20"}
+{"id": "E-FHlz5ClGE", "status": "BEFORE_CUTOFF", "date": "2024-03-19"}
+{"id": "5D7I4uespms", "status": "BEFORE_CUTOFF", "date": "2024-03-18"}
+{"id": "RdFmWztXF-k", "status": "BEFORE_CUTOFF", "date": "2024-03-15"}
+{"id": "86YrV2D-nB4", "status": "BEFORE_CUTOFF", "date": "2024-03-14"}
+{"id": "fagtI6MOCUo", "status": "NO_CACHE"}
+{"id": "LFPeyPNXDkc", "status": "BEFORE_CUTOFF", "date": "2024-03-12"}
+{"id": "fUUXG0YsiX8", "status": "NO_CACHE"}
+{"id": "0Aps823Jj5Y", "status": "BEFORE_CUTOFF", "date": "2024-03-08"}
+{"id": "uRzoqpprxL4", "status": "BEFORE_CUTOFF", "date": "2024-03-07"}
+{"id": "YC3fHVUWZ4E", "status": "BEFORE_CUTOFF", "date": "2024-03-06"}
+{"id": "Kdp6z2yC2R4", "status": "NO_CACHE"}
+{"id": "v4hdynSEOQY", "status": "BEFORE_CUTOFF", "date": "2024-03-04"}
+{"id": "KUWMifkHeLw", "status": "BEFORE_CUTOFF", "date": "2024-03-01"}
+{"id": "HB6guIIxjTY", "status": "BEFORE_CUTOFF", "date": "2024-02-28"}
+{"id": "9lkHjjtciew", "status": "BEFORE_CUTOFF", "date": "2024-02-27"}
+{"id": "GN4UZxH7224", "status": "BEFORE_CUTOFF", "date": "2024-02-26"}
+{"id": "OY7pk0Trxo4", "status": "NO_CACHE"}
+{"id": "tWp9KNSQ7b0", "status": "BEFORE_CUTOFF", "date": "2024-02-21"}
+{"id": "AU9Z4WtQQVE", "status": "NO_CACHE"}
+{"id": "JlRNLCq4HWE", "status": "NO_CACHE"}
+{"id": "-YUndZPV20g", "status": "NO_CACHE"}
+{"id": "-e2R6XBHuQQ", "status": "NO_CACHE"}
+{"id": "yv-bcPE4PxQ", "status": "NO_CACHE"}
+{"id": "QZvyWiYuatE", "status": "NO_CACHE"}
+{"id": "SrESlPEjyY8", "status": "NO_CACHE"}
+{"id": "_Z_WmApbbsw", "status": "NO_CACHE"}
+{"id": "WchmGYfOcuE", "status": "NO_CACHE"}
+{"id": "W0H9JU7T1XM", "status": "NO_CACHE"}
+{"id": "V_AkQLfzhkk", "status": "NO_CACHE"}
+{"id": "oh8jIBBCeT4", "status": "NO_CACHE"}
+{"id": "LMTINxXa-zI", "status": "NO_CACHE"}
+{"id": "W4W0FHJ8A0o", "status": "NO_CACHE"}
+{"id": "E_PcENUsO3Q", "status": "NO_CACHE"}
+{"id": "nWUtLoWChFY", "status": "NO_CACHE"}
+{"id": "bsU6gONt8Z8", "status": "NO_CACHE"}
+{"id": "uJZcIrBCrqs", "status": "BEFORE_CUTOFF", "date": "2024-03-23"}
+{"id": "zeufnEgY1RM", "status": "BEFORE_CUTOFF", "date": "2024-03-22"}
+{"id": "mRYi04wDtnA", "status": "BEFORE_CUTOFF", "date": "2024-03-22"}
+{"id": "6BNRZdqkZjg", "status": "NO_CACHE"}
+{"id": "sanVTBnxb2A", "status": "BEFORE_CUTOFF", "date": "2024-03-20"}
+{"id": "E-FHlz5ClGE", "status": "BEFORE_CUTOFF", "date": "2024-03-19"}
+{"id": "5D7I4uespms", "status": "BEFORE_CUTOFF", "date": "2024-03-18"}
+{"id": "RdFmWztXF-k", "status": "BEFORE_CUTOFF", "date": "2024-03-15"}
+{"id": "86YrV2D-nB4", "status": "BEFORE_CUTOFF", "date": "2024-03-14"}
+{"id": "fagtI6MOCUo", "status": "NO_CACHE"}
+{"id": "LFPeyPNXDkc", "status": "BEFORE_CUTOFF", "date": "2024-03-12"}
+{"id": "fUUXG0YsiX8", "status": "NO_CACHE"}
+{"id": "0Aps823Jj5Y", "status": "BEFORE_CUTOFF", "date": "2024-03-08"}
+{"id": "uRzoqpprxL4", "status": "BEFORE_CUTOFF", "date": "2024-03-07"}
+{"id": "YC3fHVUWZ4E", "status": "BEFORE_CUTOFF", "date": "2024-03-06"}
+{"id": "Kdp6z2yC2R4", "status": "NO_CACHE"}
+{"id": "v4hdynSEOQY", "status": "BEFORE_CUTOFF", "date": "2024-03-04"}
+{"id": "KUWMifkHeLw", "status": "BEFORE_CUTOFF", "date": "2024-03-01"}
+{"id": "HB6guIIxjTY", "status": "BEFORE_CUTOFF", "date": "2024-02-28"}
+{"id": "9lkHjjtciew", "status": "BEFORE_CUTOFF", "date": "2024-02-27"}
+{"id": "GN4UZxH7224", "status": "BEFORE_CUTOFF", "date": "2024-02-26"}
+{"id": "OY7pk0Trxo4", "status": "NO_CACHE"}
+{"id": "tWp9KNSQ7b0", "status": "BEFORE_CUTOFF", "date": "2024-02-21"}
+{"id": "S9-4toma0UE", "status": "BEFORE_CUTOFF", "date": "2024-02-20"}
+{"id": "HhnmQnhXCBY", "status": "BEFORE_CUTOFF", "date": "2024-02-19"}
+{"id": "N_PFs2pEXEc", "status": "BEFORE_CUTOFF", "date": "2024-02-16"}
+{"id": "_AfnIefCDLs", "status": "BEFORE_CUTOFF", "date": "2024-02-16"}
+{"id": "DjmBAhTDRXY", "status": "NO_CACHE"}
+{"id": "DSJqE5gQzvs", "status": "BEFORE_CUTOFF", "date": "2024-02-14"}
+{"id": "GCaAKMRe1SY", "status": "BEFORE_CUTOFF", "date": "2024-02-13"}
+{"id": "2y_iv8coTYM", "status": "BEFORE_CUTOFF", "date": "2024-02-12"}
+{"id": "QneLOcOafEE", "status": "BEFORE_CUTOFF", "date": "2024-02-09"}
+{"id": "RVbs0c3kfHc", "status": "BEFORE_CUTOFF", "date": "2024-02-08"}
+{"id": "RRoDjUcVOPY", "status": "NO_CACHE"}
+{"id": "pBbzrdDDyxQ", "status": "BEFORE_CUTOFF", "date": "2024-02-06"}
+{"id": "eejRr-oP6hw", "status": "BEFORE_CUTOFF", "date": "2024-02-05"}
+{"id": "SzZ6e6-WUU8", "status": "BEFORE_CUTOFF", "date": "2024-02-02"}
+{"id": "dtrFTV3ZKDw", "status": "BEFORE_CUTOFF", "date": "2024-02-01"}
+{"id": "JD3m6U6g53k", "status": "BEFORE_CUTOFF", "date": "2024-01-31"}
+{"id": "4XO7iQ5gcPQ", "status": "NO_CACHE"}
+{"id": "ge6ZJ3ngO00", "status": "BEFORE_CUTOFF", "date": "2024-01-29"}
+{"id": "UsIFHOMVjEc", "status": "BEFORE_CUTOFF", "date": "2024-01-28"}
+{"id": "a5I41pLH6S0", "status": "BEFORE_CUTOFF", "date": "2024-01-26"}
+{"id": "AU9Z4WtQQVE\r", "status": "NO_CACHE"}
+{"id": "JlRNLCq4HWE\r", "status": "NO_CACHE"}
+{"id": "-YUndZPV20g\r", "status": "NO_CACHE"}
+{"id": "-e2R6XBHuQQ\r", "status": "NO_CACHE"}
+{"id": "yv-bcPE4PxQ\r", "status": "NO_CACHE"}
+{"id": "QZvyWiYuatE\r", "status": "NO_CACHE"}
+{"id": "SrESlPEjyY8\r", "status": "NO_CACHE"}
+{"id": "_Z_WmApbbsw\r", "status": "NO_CACHE"}
+{"id": "WchmGYfOcuE\r", "status": "NO_CACHE"}
+{"id": "W0H9JU7T1XM\r", "status": "NO_CACHE"}
+{"id": "V_AkQLfzhkk\r", "status": "NO_CACHE"}
+{"id": "AU9Z4WtQQVE\r", "status": "NO_CACHE"}
+{"id": "JlRNLCq4HWE\r", "status": "NO_CACHE"}
+{"id": "-YUndZPV20g\r", "status": "NO_CACHE"}
+{"id": "-e2R6XBHuQQ\r", "status": "NO_CACHE"}
+{"id": "yv-bcPE4PxQ\r", "status": "NO_CACHE"}
+{"id": "QZvyWiYuatE\r", "status": "NO_CACHE"}
+{"id": "SrESlPEjyY8\r", "status": "NO_CACHE"}
+{"id": "_Z_WmApbbsw\r", "status": "NO_CACHE"}
+{"id": "WchmGYfOcuE\r", "status": "NO_CACHE"}
+{"id": "W0H9JU7T1XM\r", "status": "NO_CACHE"}
+{"id": "V_AkQLfzhkk\r", "status": "NO_CACHE"}
+{"id": "AU9Z4WtQQVE", "status": "NO_CACHE"}
+{"id": "JlRNLCq4HWE", "status": "NO_CACHE"}
+{"id": "-YUndZPV20g", "status": "NO_CACHE"}
+{"id": "-e2R6XBHuQQ", "status": "NO_CACHE"}
+{"id": "yv-bcPE4PxQ", "status": "NO_CACHE"}
+{"id": "QZvyWiYuatE", "status": "NO_CACHE"}
+{"id": "SrESlPEjyY8", "status": "NO_CACHE"}
+{"id": "_Z_WmApbbsw", "status": "NO_CACHE"}
+{"id": "WchmGYfOcuE", "status": "NO_CACHE"}
+{"id": "W0H9JU7T1XM", "status": "NO_CACHE"}
+{"id": "V_AkQLfzhkk", "status": "NO_CACHE"}
+{"id": "oh8jIBBCeT4", "status": "NO_CACHE"}
+{"id": "LMTINxXa-zI", "status": "NO_CACHE"}
+{"id": "W4W0FHJ8A0o", "status": "NO_CACHE"}
+{"id": "E_PcENUsO3Q", "status": "NO_CACHE"}
+{"id": "nWUtLoWChFY", "status": "NO_CACHE"}
+{"id": "bsU6gONt8Z8", "status": "NO_CACHE"}
+{"id": "uJZcIrBCrqs", "status": "BEFORE_CUTOFF", "date": "2024-03-23"}
+{"id": "zeufnEgY1RM", "status": "BEFORE_CUTOFF", "date": "2024-03-22"}
+{"id": "mRYi04wDtnA", "status": "BEFORE_CUTOFF", "date": "2024-03-22"}
+{"id": "6BNRZdqkZjg", "status": "NO_CACHE"}
+{"id": "sanVTBnxb2A", "status": "BEFORE_CUTOFF", "date": "2024-03-20"}
+{"id": "E-FHlz5ClGE", "status": "BEFORE_CUTOFF", "date": "2024-03-19"}
+{"id": "5D7I4uespms", "status": "BEFORE_CUTOFF", "date": "2024-03-18"}
+{"id": "RdFmWztXF-k", "status": "BEFORE_CUTOFF", "date": "2024-03-15"}
+{"id": "86YrV2D-nB4", "status": "BEFORE_CUTOFF", "date": "2024-03-14"}
+{"id": "fagtI6MOCUo", "status": "NO_CACHE"}
+{"id": "LFPeyPNXDkc", "status": "BEFORE_CUTOFF", "date": "2024-03-12"}
+{"id": "fUUXG0YsiX8", "status": "NO_CACHE"}
+{"id": "0Aps823Jj5Y", "status": "BEFORE_CUTOFF", "date": "2024-03-08"}
+{"id": "uRzoqpprxL4", "status": "BEFORE_CUTOFF", "date": "2024-03-07"}
+{"id": "YC3fHVUWZ4E", "status": "BEFORE_CUTOFF", "date": "2024-03-06"}
+{"id": "Kdp6z2yC2R4", "status": "NO_CACHE"}
+{"id": "v4hdynSEOQY", "status": "BEFORE_CUTOFF", "date": "2024-03-04"}
+{"id": "KUWMifkHeLw", "status": "BEFORE_CUTOFF", "date": "2024-03-01"}
+{"id": "HB6guIIxjTY", "status": "BEFORE_CUTOFF", "date": "2024-02-28"}
+{"id": "9lkHjjtciew", "status": "BEFORE_CUTOFF", "date": "2024-02-27"}
+{"id": "GN4UZxH7224", "status": "BEFORE_CUTOFF", "date": "2024-02-26"}
+{"id": "OY7pk0Trxo4", "status": "NO_CACHE"}
+{"id": "tWp9KNSQ7b0", "status": "BEFORE_CUTOFF", "date": "2024-02-21"}
+{"id": "AU9Z4WtQQVE", "status": "OK", "date": "2024-08-06", "pred": {"id": "pred_20261001203506_AU9Z4W_0", "individual_name": "Peter Zeihan", "date": "2024-08-06", "category": "china", "claim": "The Chinese government's increasing censorship and banning of terms like 'garbage time' and 'laying flat' indicates growing nervousness about internal stability and public discourse in China.", "source_url": "https://www.youtube.com/watch?v=AU9Z4WtQQVE", "transcript_excerpt": "I kind of watch what the Chinese are Banning because it gives you an idea of what XI Jin Pang and the CCP in China are nervous about", "verdict": null, "created_at": "2026-10-01T20:35:06.975759", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-08-06", "judgements": []}, "merged": true}
+{"id": "AU9Z4WtQQVE", "status": "OK", "date": "2024-08-06", "pred": {"id": "pred_20261001203506_AU9Z4W_1", "individual_name": "Peter Zeihan", "date": "2024-08-06", "category": "china", "claim": "The terms 'garbage time' and 'laying flat' will continue to be banned or restricted in China as the government seeks to maintain control over public discourse and prevent discussions about systemic collapse.", "source_url": "https://www.youtube.com/watch?v=AU9Z4WtQQVE", "transcript_excerpt": "the Chinese government doesn't like the fact that people are even discussing this concept uh the second term is something called laying flat", "verdict": null, "created_at": "2026-10-01T20:35:06.975808", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-08-06", "judgements": []}, "merged": true}
+{"id": "JlRNLCq4HWE", "status": "OK", "date": "2024-07-29", "pred": {"id": "pred_20261001203413_JlRNLC_0", "individual_name": "Peter Zeihan", "date": "2024-07-29", "category": "ukraine", "claim": "The Ukrainian government has been reporting a tripling of casualties inflicted upon Russian artillery in the last five to six weeks.", "source_url": "https://www.youtube.com/watch?v=JlRNLCq4HWE", "transcript_excerpt": "the Ukrainian government over the last roughly five maybe even six weeks down has been reporting a tripling uh in terms of the tolls inflicted upon Russian Artillery", "verdict": null, "created_at": "2026-10-01T20:34:13.661782", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-07-29", "judgements": []}, "merged": true}
+{"id": "JlRNLCq4HWE", "status": "OK", "date": "2024-07-29", "pred": {"id": "pred_20261001203413_JlRNLC_1", "individual_name": "Peter Zeihan", "date": "2024-07-29", "category": "ukraine", "claim": "North Korean artillery shells entering the field can be used by Russian artillery systems dating back to the 1950s.", "source_url": "https://www.youtube.com/watch?v=JlRNLCq4HWE", "transcript_excerpt": "North Korean shells that are entering the field now and these things uh can't use modern artillery systems North creat is many things but a technological the Leer it is not and so most of the artillery pieces that the Russians have that can use the North Korean artillery shells date back to the 1950s", "verdict": null, "created_at": "2026-10-01T20:34:13.661814", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-07-29", "judgements": []}, "merged": true}
+{"id": "-YUndZPV20g", "status": "OK", "date": "2024-07-18", "pred": {"id": "pred_20261001203431_-YUndZ_0", "individual_name": "Peter Zeihan", "date": "2024-07-18", "category": "geopolitics", "claim": "The Republican Party is in a period of flux and transformation, with the Trump-aligned faction pushing for significant changes to the party's traditional positions on social issues.", "source_url": "https://www.youtube.com/watch?v=-YUndZPV20g", "transcript_excerpt": "the Republican party is in flux um for those of youve been watching me for a while you know that I've been seeing for a couple years several years now that were in the late party structure for what is called the sixth party structure uh basically every generation or to American politics goes into a period of flux where the factions that make up our parties move around and for the last few years we've been in that process uh it's happening for both of the parties but the Republicans are further along so it's been the one I've been following most closely", "verdict": null, "created_at": "2026-10-01T20:34:31.972652", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-07-18", "judgements": []}, "merged": true}
+{"id": "-YUndZPV20g", "status": "OK", "date": "2024-07-18", "pred": {"id": "pred_20261001203431_-YUndZ_1", "individual_name": "Peter Zeihan", "date": "2024-07-18", "category": "geopolitics", "claim": "The Trump-aligned Republican Party is shifting toward a softer position on social conservative issues like gays and abortion, advocating that these should be decided by states rather than at the national level.", "source_url": "https://www.youtube.com/watch?v=-YUndZPV20g", "transcript_excerpt": "a little bit of a surprise a softer position on some social conservative position on some social conservative issues like gays and abortion uh basically uh the Trump party is now saying that these are issues that should be decided by the states rather than the national level", "verdict": null, "created_at": "2026-10-01T20:34:31.972681", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-07-18", "judgements": []}, "merged": true}
+{"id": "-e2R6XBHuQQ", "status": "NO_CACHE"}
+{"id": "yv-bcPE4PxQ", "status": "OK", "date": "2024-07-02", "pred": {"id": "pred_20261001203453_yv-bcP_0", "individual_name": "Peter Zeihan", "date": "2024-07-02", "category": "geopolitics", "claim": "The ultra-Orthodox population in Israel, which makes up between 10 and 20% of the population, will continue to grow at a high rate while maintaining very low labor participation rates and high birth rates, creating increasing social and economic strain on the rest of Israeli society.", "source_url": "https://www.youtube.com/watch?v=yv-bcPE4PxQ", "transcript_excerpt": "the ultra-Orthodox are somewhere between 10 and 20% of uh Israel's population, based on where you draw the number. And since they pay very low taxes and qualify for all kinds of subsidies and don't serve, don't serve, um most of them don't work, and so they have high very very very very high birth rates, very very low labor participation rates, and they don't serve in the military. Um so there is an issue that as they become a larger and larger percentage of the population, just the sheer weight of what uh is then dropped on the shoulders of everybody else becomes almost insurmountable.", "verdict": null, "created_at": "2026-10-01T20:34:53.601577", "measurement_type": "quantitative", "test_status": "eligible", "testing_since": "2024-07-02", "judgements": []}, "merged": true}
+{"id": "yv-bcPE4PxQ", "status": "OK", "date": "2024-07-02", "pred": {"id": "pred_20261001203453_yv-bcP_1", "individual_name": "Peter Zeihan", "date": "2024-07-02", "category": "geopolitics", "claim": "The Israeli government's reliance on ultra-Orthodox parties within Netanyahu's governing coalition will lead to increased political instability or policy gridlock as tensions rise between secular and religious factions.", "source_url": "https://www.youtube.com/watch?v=yv-bcPE4PxQ", "transcript_excerpt": "most of the parties that subscribe to ultra-Orthodox are part of Netanyahu, Prime Minister Netanyahu's governing coalition, and have been for quite some time. Israel's had a lot of governments the last 20 years, when since Netanyahu kind of came into the burst on the field. Uh he's definitely the longest-running Prime Minister overall.", "verdict": null, "created_at": "2026-10-01T20:34:53.601611", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-07-02", "judgements": []}, "merged": true}
+{"id": "QZvyWiYuatE", "status": "OK", "date": "2024-06-25", "pred": {"id": "pred_20261001203610_QZvyWi_0", "individual_name": "Peter Zeihan", "date": "2024-06-25", "category": "energy", "claim": "The Russian civilian space program is effectively ending due to the destruction of one of their deep space satellite communication networks within the last 36 hours.", "source_url": "https://www.youtube.com/watch?v=QZvyWiYuatE", "transcript_excerpt": "it pretty much is the end of the Russian civilian Space Program", "verdict": null, "created_at": "2026-10-01T20:36:10.983389", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-06-25", "judgements": []}, "merged": true}
+{"id": "QZvyWiYuatE", "status": "OK", "date": "2024-06-25", "pred": {"id": "pred_20261001203610_QZvyWi_1", "individual_name": "Peter Zeihan", "date": "2024-06-25", "category": "ukraine", "claim": "Ukraine will likely succeed in significantly degrading the Russian air defense network before F-16 and Mirage fighter jets arrive over the summer.", "source_url": "https://www.youtube.com/watch?v=QZvyWiYuatE", "transcript_excerpt": "ukrainians are hoping to take out as much of the Russian air defense network as possible before they get F-16 Mirage fighter jets over the summer", "verdict": null, "created_at": "2026-10-01T20:36:10.983413", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-06-25", "judgements": []}, "merged": true}
+{"id": "SrESlPEjyY8", "status": "OK", "date": "2024-06-17", "pred": {"id": "pred_20261001203558_SrESlP_0", "individual_name": "Peter Zeihan", "date": "2024-06-17", "category": "ukraine", "claim": "Russia's National Security Doctrine dictates that the Russians are likely to expand their War Westward from Ukraine", "source_url": "https://www.youtube.com/watch?v=SrESlPEjyY8", "transcript_excerpt": "Doctrine dictates that the Russians are likely to expand their War Westward from Ukraine", "verdict": null, "created_at": "2026-10-01T20:35:58.884241", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-06-17", "judgements": []}, "merged": true}
+{"id": "SrESlPEjyY8", "status": "OK", "date": "2024-06-17", "pred": {"id": "pred_20261001203558_SrESlP_1", "individual_name": "Peter Zeihan", "date": "2024-06-17", "category": "geopolitics", "claim": "The only way to make someone do what you want is to occupy them", "source_url": "https://www.youtube.com/watch?v=SrESlPEjyY8", "transcript_excerpt": "the only way to make someone do what you want is to occupy them", "verdict": null, "created_at": "2026-10-01T20:35:58.884265", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-06-17", "judgements": []}, "merged": true}
+{"id": "_Z_WmApbbsw", "status": "OK", "date": "2024-06-04", "pred": {"id": "pred_20261001203633__Z_WmA_0", "individual_name": "Peter Zeihan", "date": "2024-06-04", "category": "geopolitics", "claim": "The houthis will continue to attack ships in the Red Sea, but most ships are simply avoiding the area and taking the long route around Africa.", "source_url": "https://www.youtube.com/watch?v=_Z_WmApbbsw", "transcript_excerpt": "the ships are still being attacked... reason that you're not hearing as much about it is most ships are simply avoiding the area now and doing the very very long sail around Africa", "verdict": null, "created_at": "2026-10-01T20:36:33.553445", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-06-04", "judgements": []}, "merged": true}
+{"id": "_Z_WmApbbsw", "status": "OK", "date": "2024-06-04", "pred": {"id": "pred_20261001203633__Z_WmA_1", "individual_name": "Peter Zeihan", "date": "2024-06-04", "category": "china", "claim": "Chinese flagged container ships will continue to avoid the Red Sea area completely.", "source_url": "https://www.youtube.com/watch?v=_Z_WmApbbsw", "transcript_excerpt": "all other container ships which are the more valuable ships on the seas are avoiding the area completely", "verdict": null, "created_at": "2026-10-01T20:36:33.553487", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-06-04", "judgements": []}, "merged": true}
+{"id": "WchmGYfOcuE", "status": "OK", "date": "2024-05-29", "pred": {"id": "pred_20261001203621_WchmGY_0", "individual_name": "Peter Zeihan", "date": "2024-05-29", "category": "energy", "claim": "The Biden Administration will liquidate the Northeast gas Al Reserve", "source_url": "https://www.youtube.com/watch?v=WchmGYfOcuE", "transcript_excerpt": "Biden Administration is in the process of liquidating the Northeast gas Al Reserve", "verdict": null, "created_at": "2026-10-01T20:36:21.343899", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-05-29", "judgements": []}, "merged": true}
+{"id": "WchmGYfOcuE", "status": "OK", "date": "2024-05-29", "pred": {"id": "pred_20261001203621_WchmGY_1", "individual_name": "Peter Zeihan", "date": "2024-05-29", "category": "energy", "claim": "The United States will no longer need the Northeast gas Al Reserve as it has become an unnecessary expense", "source_url": "https://www.youtube.com/watch?v=WchmGYfOcuE", "transcript_excerpt": "this Reserve just is a necessary anymore it's an unnecessary expense", "verdict": null, "created_at": "2026-10-01T20:36:21.343921", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-05-29", "judgements": []}, "merged": true}
+{"id": "W0H9JU7T1XM", "status": "OK", "date": "2024-05-20", "pred": {"id": "pred_20261001203817_W0H9JU_0", "individual_name": "Peter Zeihan", "date": "2024-05-20", "category": "geopolitics", "claim": "Iran has been 6 months away from having an active nuclear weapon for 25 years", "source_url": "https://www.youtube.com/watch?v=W0H9JU7T1XM", "transcript_excerpt": "supposedly Iran has been 6 months away from having an active nuke for 25 years now", "verdict": null, "created_at": "2026-10-01T20:38:17.530795", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-05-20", "judgements": []}, "merged": true}
+{"id": "W0H9JU7T1XM", "status": "OK", "date": "2024-05-20", "pred": {"id": "pred_20261001203817_W0H9JU_1", "individual_name": "Peter Zeihan", "date": "2024-05-20", "category": "energy", "claim": "The technology required for an Iranian nuclear weapon is extremely difficult to achieve and requires precise implosion mechanics", "source_url": "https://www.youtube.com/watch?v=W0H9JU7T1XM", "transcript_excerpt": "this is harder than it sounds because if you have any flaw on that or if one of the plates doesn't go off at exactly the right time then you don't get that implosion and the explosion instead of funneling in goes out through one of those spots", "verdict": null, "created_at": "2026-10-01T20:38:17.530817", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-05-20", "judgements": []}, "merged": true}
+{"id": "V_AkQLfzhkk", "status": "OK", "date": "2024-05-10", "pred": {"id": "pred_20261001203804_V_AkQL_0", "individual_name": "Peter Zeihan", "date": "2024-05-10", "category": "finance", "claim": "The Federal Reserve will not implement rate cuts in the near term and may even increase rates for the remainder of the next two to five years", "source_url": "https://www.youtube.com/watch?v=V_AkQLfzhkk", "transcript_excerpt": "so remainder of the next two to 5 years so step one most of the inflation story that we've been experienced of late has been covid related... and it's going to vary wildly by product and by region but on average you're looking at an 18 to 24 month adjustment period before Supply chains can catch up to what we want well well most of us reopened more than 2 years ago and reopened more than 2 years ago and California the last American state to reopen for good uh did so just under two years ago so for the last two years we've been seeing inflation steadily tick down as Supply chains catch up and tick down as Supply chains catch up and the goods mismatch and the supply chain mismatch becomes a smaller and smaller feature in the system uh unfortunately for the people who want lower rates while this has brought inflation down down from 9% we roughly", "verdict": null, "created_at": "2026-10-01T20:38:04.528240", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-05-10", "judgements": []}, "merged": true}
+{"id": "V_AkQLfzhkk", "status": "OK", "date": "2024-05-10", "pred": {"id": "pred_20261001203804_V_AkQL_1", "individual_name": "Peter Zeihan", "date": "2024-05-10", "category": "finance", "claim": "Inflation will continue to decrease as supply chains fully adjust to post-pandemic consumption patterns over the next 18-24 months", "source_url": "https://www.youtube.com/watch?v=V_AkQLfzhkk", "transcript_excerpt": "so for the last two years we've been seeing inflation steadily tick down as Supply chains catch up and the goods mismatch and the supply chain mismatch becomes a smaller and smaller feature in the system", "verdict": null, "created_at": "2026-10-01T20:38:04.528264", "measurement_type": "subjective", "test_status": "eligible", "testing_since": "2024-05-10", "judgements": []}, "merged": true}
+{"id": "oh8jIBBCeT4", "status": "NO_TRANSCRIPT", "date": "2024-04-23"}
+{"id": "LMTINxXa-zI", "status": "NO_TRANSCRIPT", "date": "2024-04-18"}
+{"id": "W4W0FHJ8A0o", "status": "NO_TRANSCRIPT", "date": "2024-04-15"}
+{"id": "E_PcENUsO3Q", "status": "NO_TRANSCRIPT", "date": "2024-04-05"}
+{"id": "nWUtLoWChFY", "status": "NO_TRANSCRIPT", "date": "2024-04-04"}
+{"id": "bsU6gONt8Z8", "status": "NO_CACHE"}
+{"id": "uJZcIrBCrqs", "status": "NO_TRANSCRIPT", "date": "2024-03-23"}
+{"id": "zeufnEgY1RM", "status": "NO_TRANSCRIPT", "date": "2024-03-22"}
+{"id": "mRYi04wDtnA", "status": "NO_TRANSCRIPT", "date": "2024-03-22"}
+{"id": "6BNRZdqkZjg", "status": "NO_TRANSCRIPT", "date": "2024-03-21"}
+{"id": "sanVTBnxb2A", "status": "NO_TRANSCRIPT", "date": "2024-03-20"}
+{"id": "E-FHlz5ClGE", "status": "NO_TRANSCRIPT", "date": "2024-03-19"}
+{"id": "5D7I4uespms", "status": "NO_TRANSCRIPT", "date": "2024-03-18"}
+{"id": "RdFmWztXF-k", "status": "NO_TRANSCRIPT", "date": "2024-03-15"}
+{"id": "86YrV2D-nB4", "status": "NO_TRANSCRIPT", "date": "2024-03-14"}
+{"id": "fagtI6MOCUo", "status": "NO_TRANSCRIPT", "date": "2024-03-13"}
+{"id": "LFPeyPNXDkc", "status": "BEFORE_CUTOFF", "date": "2024-03-12"}
+{"id": "fUUXG0YsiX8", "status": "NO_TRANSCRIPT", "date": "2024-03-11"}
+{"id": "0Aps823Jj5Y", "status": "NO_TRANSCRIPT", "date": "2024-03-08"}
+{"id": "uRzoqpprxL4", "status": "NO_TRANSCRIPT", "date": "2024-03-07"}
+{"id": "YC3fHVUWZ4E", "status": "NO_TRANSCRIPT", "date": "2024-03-06"}
+{"id": "Kdp6z2yC2R4", "status": "NO_TRANSCRIPT", "date": "2024-03-05"}
+{"id": "v4hdynSEOQY", "status": "NO_TRANSCRIPT", "date": "2024-03-04"}
+{"id": "KUWMifkHeLw", "status": "NO_TRANSCRIPT", "date": "2024-03-01"}
+{"id": "HB6guIIxjTY", "status": "NO_TRANSCRIPT", "date": "2024-02-28"}
+{"id": "9lkHjjtciew", "status": "BEFORE_CUTOFF", "date": "2024-02-27"}
+{"id": "GN4UZxH7224", "status": "NO_TRANSCRIPT", "date": "2024-02-26"}
+{"id": "OY7pk0Trxo4", "status": "NO_TRANSCRIPT", "date": "2024-02-23"}
+{"id": "tWp9KNSQ7b0", "status": "NO_TRANSCRIPT", "date": "2024-02-21"}
