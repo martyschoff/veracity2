@@ -2526,3 +2526,174 @@
 
 
 
+10-02 00:22:11 OK GZEROMedia yj3ZAkxxSyU 2026-09-08 preds=2 :: How the AfD's rise could reshape German politics | Ian Bremm
+10-02 00:22:11 == GZEROMedia COMPLETE ==
+10-02 00:23:37 OK PeterHDiamandis y6aq6TVhueQ 2024-10-01 preds=2 :: Billionaire Entrepreneur on How to Raise Successful Children
+10-02 00:23:48 OK PeterHDiamandis 7V2Gr_thwp0 2024-09-30 preds=2 :: Your Next Surgery May Be Done by a Robot | MOONSHOTS|NA
+10-02 00:24:15 OK PeterHDiamandis YZUAGBQAbxI 2024-09-30 preds=2 :: Whole Foods Founder on Why He Left the Company | MOONSHOTS|N
+10-02 00:24:26 OK PeterHDiamandis NIA2BztpIKE 2024-09-29 preds=2 :: The 5 Things That Actually Help You Live Longer | MOONSHOTS|
+10-02 00:24:36 OK PeterHDiamandis srMWi1HVUeQ 2024-09-29 preds=2 :: Getting Your Testosterone Levels Right to Boost Motivation |
+10-02 00:24:36 NO_TRANSCRIPT PeterHDiamandis 5QGhzdKMAr0 2024-10-02 :: Neil DeGrasse Tyson Debates the Solutions to Earth's Problem
+10-02 00:25:27 OK PeterHDiamandis FlmGZTIEbVk 2024-09-27 preds=1 :: How AI Will Transform India Into a Global Superpower | MOONS
+10-02 00:25:36 OK PeterHDiamandis Emcpi2rFgZ8 2024-09-27 preds=2 :: Big Banks Are in on Bitcoin | MOONSHOTS|NA
+10-02 00:25:46 OK PeterHDiamandis Br7OLJeVNf0 2024-09-26 preds=2 :: Billionaire Naveen Jain Reveals How AI Will Change Medicine 
+10-02 00:25:57 OK PeterHDiamandis XqzBJco78xM 2024-09-26 preds=2 :: What AI Means for Bitcoin | MOONSHOTS|NA
+10-02 00:26:07 OK PeterHDiamandis 3s0Wo9RhPAU 2024-09-25 preds=2 :: The 80% Rule and Longevity Foods to Live to 100 | MOONSHOTS|
+10-02 00:26:07 NO_TRANSCRIPT PeterHDiamandis 7UEGIgvgqpQ 2024-10-02 :: Crypto Expert - How Bitcoin Will Integrate With Traditional 
+10-02 00:27:26 NO_TRANSCRIPT PeterHDiamandis ZDqyzxaq7Qk 2024-10-02 :: Aging Expert's Ideal Skincare Routine for Anti-Aging | MOONS
+10-02 00:27:35 OK PeterHDiamandis M_mUOMjEhjg 2024-09-23 preds=2 :: How Optimism, Purpose and Rituals Contribute to Longevity | 
+10-02 00:27:44 OK PeterHDiamandis DqZkS_A7lHM 2024-09-23 preds=2 :: Skin Expert on the True Impact of Sun Exposure | MOONSHOTS|N
+10-02 00:27:49 OK PeterHDiamandis m_f6ACl5If4 2024-09-22 preds=1 :: Neil DeGrasse Tyson on the Stranded NASA Astronauts | MOONSH
+10-02 00:27:58 OK PeterHDiamandis -LCrXhzWb1w 2024-09-22 preds=2 :: The Discovery of the Age Reversing Peptide | MOONSHOTS|NA
+10-02 00:27:58 NO_TRANSCRIPT PeterHDiamandis 112P6RWU4zw 2024-10-02 :: Why We Age: The Hidden Factors No One Talks About | MOONSHOT
+10-02 00:29:11 OK PeterHDiamandis YkHm03ffnK8 2024-09-21 preds=2 :: Whole Foods Founder's Views on Psychedelics | MOONSHOTS|NA
+10-02 00:29:27 OK PeterHDiamandis FNckSmLHuaQ 2024-09-20 preds=2 :: The Diet and Supplements to Build Muscle and Stay Fit in 20 
+10-02 00:29:38 OK PeterHDiamandis VsO4fNU7438 2024-09-19 preds=2 :: How I am Reversing My Skins Aging With Peptides w/ Carolina 
+10-02 00:29:50 OK PeterHDiamandis 6nAAAOxgxDs 2024-09-19 preds=2 :: How to Invest in AI - Expert's Opinion | MOONSHOTS|NA
+10-02 00:30:15 OK PeterHDiamandis Lv5nSJx0TXo 2024-09-18 preds=2 :: Neil deGrasse Tyson's Strong Opinions on Mars | MOONSHOTS|NA
+10-02 00:30:15 NO_TRANSCRIPT PeterHDiamandis g43qswbxfrM 2024-10-02 :: Everything You Need to Know about AI Agents | MOONSHOTS|NA
+10-02 00:31:15 OK PeterHDiamandis BhMcu1O16sA 2024-09-16 preds=2 :: Neil DeGrasse Tyson on AI Safety | MOONSHOTS|NA
+10-02 00:31:24 OK PeterHDiamandis qkfAFYWBJaY 2024-09-15 preds=2 :: Neil Degrasse Tyson on Humanoid Robots | MOONSHOTS|NA
+10-02 00:31:32 OK PeterHDiamandis 7zYpHInjkyU 2024-09-15 preds=2 :: What Studies Revealed on AI's Level of Empathy | MOONSHOTS|N
+10-02 00:31:45 OK PeterHDiamandis KuiUpIfOGAc 2024-09-15 preds=2 :: Is Google Losing the AI Race? | MOONSHOTS|NA
+10-02 00:31:50 OK PeterHDiamandis sCaHzMhfSJw 2024-09-14 preds=1 :: What We Know for Sure About Aliens | MOONSHOTS|NA
+10-02 00:31:50 NO_TRANSCRIPT PeterHDiamandis HwZVuToQp8g 2024-10-02 :: How Experts Use AI to Maximize Working Potential | MOONSHOTS
+10-02 00:32:39 OK PeterHDiamandis 6afxPM2NloU 2024-09-12 preds=2 :: When Humans Merge with AI, Who Gets Access? | MOONSHOTS|NA
+10-02 00:32:53 OK PeterHDiamandis nygN77P2bIw 2024-09-12 preds=2 :: Why Global Cooperation is Crucial to Prevent AI Catastrophe 
+10-02 00:33:10 OK PeterHDiamandis lP4yS6_Meqg 2024-09-12 preds=1 :: The Path Towards AI-Driven Healthcare | MOONSHOTS|NA
+10-02 00:33:17 OK PeterHDiamandis kewfTE-b5qM 2024-09-11 preds=2 :: AI Expert on What to Expect For the Future of Jobs | MOONSHO
+10-02 00:33:23 OK PeterHDiamandis TwOvSaI3308 2024-09-11 preds=2 :: Robotics Expert on When Robots Will be Working in Your Home 
+10-02 00:33:23 NO_TRANSCRIPT PeterHDiamandis 6kQRIBX-i3M 2024-10-02 :: Neil deGrasse Tyson - Are We Alone On Earth? The Truth About
+10-02 00:34:10 OK PeterHDiamandis j8BV5up6DKg 2024-09-04 preds=2 :: Private Tour of The Company Competing for Instant Delivery |
+10-02 00:34:23 OK PeterHDiamandis 1P5lnNaVB0Q 2024-09-02 preds=2 :: Are We In A Recession? The True State Of The Economy | MOONS
+10-02 00:35:14 OK PeterHDiamandis s-tqfKZp3D8 2024-08-31 preds=2 :: How Delivery Drones Will Revolutionize Our Daily Lives | MOO
+10-02 00:35:20 OK PeterHDiamandis 2_NFbEcFnic 2024-08-30 preds=1 :: Millionaire Founder - What I Would Do If I Were 20 | MOONSHO
+10-02 00:35:37 OK PeterHDiamandis hwwNUIBPfb0 2024-08-29 preds=2 :: Amazon's Competition for Drone Delivery w/ Keller Rinaudo Cl
+10-02 00:35:45 OK PeterHDiamandis 4uZ-k-l9UKw 2024-08-28 preds=2 :: How Bitcoin Will Impact The Coming Election | MOONSHOTS|NA
+10-02 00:35:51 OK PeterHDiamandis NXOq6S2nGOM 2024-08-27 preds=1 :: Why is Bitcoin Better? | MOONSHOTS|NA
+10-02 00:35:51 NO_TRANSCRIPT PeterHDiamandis PDs4EAfju5w 2024-10-02 :: Bitcoin Expert - Greed or Fear? Where is Bitcoin | MOONSHOTS
+10-02 00:37:02 OK PeterHDiamandis liC5az-0yYM 2024-08-24 preds=2 :: Crypto Expert - How Much of Your Wealth Should You Invest in
+10-02 00:37:14 OK PeterHDiamandis HsrbA_vxJwk 2024-08-23 preds=2 :: What a Bitcoin ETF Means for the Market | MOONSHOTS|NA
+10-02 00:37:18 OK PeterHDiamandis dLGX93jT3rM 2024-08-22 preds=1 :: Exclusive Look of Figure’s Humanoid Robot Factory | MOONSHOT
+10-02 00:37:49 OK PeterHDiamandis O_f2gOWV2Es 2024-08-22 preds=2 :: The Man Taking on Tesla in the Race for Humanoid Robots w/ B
+10-02 00:37:49 NO_TRANSCRIPT PeterHDiamandis Zwhkm57z7SY 2024-10-02 :: How Bitcoin's Global Rise Challenges the US Empire | MOONSHO
+10-02 00:37:49 NO_TRANSCRIPT PeterHDiamandis RpEWWXNQbLM 2024-10-02 :: How to Grow a Massive Business Without Funding | MOONSHOTS|N
+10-02 00:38:46 OK PeterHDiamandis Xqrx7vVS1jE 2024-08-20 preds=2 :: Crypto Expert - What Really Makes Bitcoin's Price Move | MOO
+10-02 00:38:52 OK PeterHDiamandis NLfIpWKg3Fw 2024-08-19 preds=1 :: Alvin Graylin Explains What the Metaverse is and How it Will
+10-02 00:39:04 OK PeterHDiamandis Pfmphk_Ny1o 2024-08-16 preds=2 :: AI Hype Vs. Reality 2024 - The State of Emerging Technologie
+10-02 00:39:12 OK PeterHDiamandis HkbJAw4zQkg 2024-08-16 preds=2 :: VR Expert on When The Likely Reality of Ready Player One | M
+10-02 00:40:12 OK PeterHDiamandis _U9LnPBVBGs 2024-08-15 preds=2 :: The Three Books All Entrepreneurs Need to Read | MOONSHOTS|N
+10-02 00:40:12 NO_TRANSCRIPT PeterHDiamandis 8LRBhT3TLr8 2024-10-02 :: Humanoid Robots, the Job Market & Mass Automation - The Curr
+10-02 00:41:13 OK PeterHDiamandis JpzFCel5b-w 2024-08-13 preds=2 :: The Only Path to Superintelligence | MOONSHOTS|NA
+10-02 00:41:22 OK PeterHDiamandis rem02CJ8Jow 2024-08-12 preds=1 :: Dr. Jeff Karp Describes How He Turned ADHD Into a Superpower
+10-02 00:41:45 OK PeterHDiamandis _BqcBJX5Xwg 2024-08-10 preds=2 :: Dan Buettner Explains How Lifestyle Accounts for 85% of Your
+10-02 00:42:30 OK PeterHDiamandis sybIEu2wjgI 2024-08-09 preds=2 :: Nasal Spray That Kills COVID, Influenza and Numerous Other I
+10-02 00:42:42 OK PeterHDiamandis cfJW3WCZwgU 2024-08-08 preds=2 :: RFK and Trump on Bitcoin | MOONSHOTS|NA
+10-02 00:42:58 OK PeterHDiamandis WuJ5lVAQ7UI 2024-08-08 preds=2 :: Solving the Mystery of the Disappearance of the Ancient Maya
+10-02 00:43:05 OK PeterHDiamandis 2R1C_9m4xys 2024-08-07 preds=1 :: Bitcoin, The US Election, and AI w/ Bill Barhydt | EP #113|N
+10-02 00:43:12 OK PeterHDiamandis SVrDOOEYW7k 2024-08-07 preds=2 :: Extropic CEO Gill Verdon Explains His Company's Origin and G
+10-02 00:43:12 NO_TRANSCRIPT PeterHDiamandis cgMMshycL4Q 2024-10-02 :: The Shocking Secrets of Living to 100 - Dan Buettner | MOONS
+10-02 00:44:01 OK PeterHDiamandis HATAevRAlxQ 2024-08-05 preds=2 :: Why Elon Musk is Investing in Humanoid Robots | MOONSHOTS|NA
+10-02 00:44:10 OK PeterHDiamandis yeaO6rjFNNo 2024-08-03 preds=2 :: Cathie Wood on Elon Musk's Approach to AI | MOONSHOTS|NA
+10-02 00:44:17 OK PeterHDiamandis JkMDu65J4Do 2024-08-02 preds=2 :: Psychedelics for Neuroplasticity and Transformative Life Exp
+10-02 00:44:28 OK PeterHDiamandis lnUpyE-k7Zk 2024-08-01 preds=2 :: Cathie Wood on the Future of Bitcoin | MOONSHOTS|NA
+10-02 00:44:35 OK PeterHDiamandis jaqN-kFKJkc 2024-08-01 preds=1 :: Whole Foods Founder on American Health Care, AI and Lack of 
+10-02 00:44:35 NO_TRANSCRIPT PeterHDiamandis myp-Aak79Co 2024-10-02 :: Enhancing Your Perception of Reality with Insights from Neur
+10-02 00:45:24 OK PeterHDiamandis 1t-LuKyn4XQ 2024-07-30 preds=2 :: Robotaxis are closer than you think… | MOONSHOTS|NA
+10-02 00:45:33 OK PeterHDiamandis SbU4XaTMbaQ 2024-07-29 preds=1 :: Dave Asprey Explains how Nootropics Enhance Cognitive Functi
+10-02 00:46:19 OK PeterHDiamandis HpxB4_NjVHU 2024-07-25 preds=2 :: How To Be Insanely Productive Even with ADHD w/ Dr. Jeff Kar
+10-02 00:46:28 OK PeterHDiamandis ZYOetdjlnKQ 2024-07-18 preds=2 :: How Building Muscle Can Add Years to Your Life & Ozempic's I
+10-02 00:46:39 OK PeterHDiamandis bqH6YO0lv_Q 2024-07-12 preds=2 :: How to Keep Your Children Safe Amongst Technology Takeover |
+10-02 00:46:55 OK PeterHDiamandis q2x5c3fH9uU 2024-07-11 preds=2 :: The 5 Biohacks Anyone Can Implement To Live Longer w/ Dave A
+10-02 00:47:01 OK PeterHDiamandis IZkw13uXAn8 2024-07-09 preds=2 :: How Gill Verdon Plans to Make The Universe Smarter | MOONSHO
+10-02 00:47:01 NO_TRANSCRIPT PeterHDiamandis 9FTIVK9a0ZE 2024-10-02 :: Cathie Wood on the Bitcoin Halving, Apple/Open AI & NVDIAs D
+10-02 00:47:49 OK PeterHDiamandis 3kIyrcdhSuE 2024-07-07 preds=2 :: Vaccines Just Got Smarter With This New Technology | MOONSHO
+10-02 00:48:11 OK PeterHDiamandis AbfMIHGjDqw 2024-07-05 preds=2 :: What It's Like To Work with Sergey Brin (Google Founder) | M
+10-02 00:48:22 OK PeterHDiamandis JftGkgikeEI 2024-07-02 preds=2 :: This Life Support Device Will Save Millions of Lives | MOONS
+10-02 00:48:30 OK PeterHDiamandis VqXnhcpiXZw 2024-06-28 preds=2 :: Thermodynamic Computing Explained in 5 Minutes | MOONSHOTS|N
+10-02 00:48:43 OK PeterHDiamandis vji6pMKMtAI 2024-06-27 preds=2 :: Why Americans Live 10-15 Years Less Than Other Countries W/ 
+10-02 00:48:43 NO_TRANSCRIPT PeterHDiamandis AweNMdvlIAA 2024-10-02 :: How Printing Organs Can Save Children All Over the World | M
+10-02 00:49:56 OK PeterHDiamandis zGCS3uQpgZo 2024-06-21 preds=2 :: Ex-Google CEO on How AI Will Commerce | MOONSHOTS|NA
+10-02 00:50:02 OK PeterHDiamandis nmGsjDTL2UI 2024-06-20 preds=1 :: How to Build & Implement Systems to Grow Your Business w/ Fr
+10-02 00:50:18 OK PeterHDiamandis Y8f2Ezc9yn4 2024-06-18 preds=2 :: How We Will Solve The Shortage of Organs for Transplants | M
+10-02 00:50:27 OK PeterHDiamandis F82XMMGmVnc 2024-06-14 preds=2 :: Gill Verdon Explains Jeremy England's Thermodynamic Imperati
+10-02 00:50:48 OK PeterHDiamandis -Zv1eXcX2pc 2024-06-13 preds=2 :: What Separates Billion-Dollar Companies From Failed Startups
+10-02 00:50:48 NO_TRANSCRIPT PeterHDiamandis DpMxsLn1-NY 2024-10-02 :: What Warfare Will Look Like After AI | MOONSHOTS|NA
+10-02 00:51:44 OK PeterHDiamandis gvZVs6BjHmY 2024-06-07 preds=2 :: This Wheelchair Can Climb Stairs & Go Through Any Terrain | 
+10-02 00:51:55 OK PeterHDiamandis N4yc7iB08O4 2024-06-06 preds=2 :: What AI, AGI, and the Metaverse Mean for the Future of Human
+10-02 00:52:02 OK PeterHDiamandis qcJ-oiS6YtY 2024-06-04 preds=2 :: AI is Already Saving Lives Human Doctors Wouldn't Have | MOO
+10-02 00:52:14 OK PeterHDiamandis rceuDZEyaRU 2024-05-31 preds=2 :: An Honest Look at the Threats of AI | MOONSHOTS|NA
+10-02 00:52:27 OK PeterHDiamandis 6SVYh4WWShY 2024-05-30 preds=2 :: Managing Risk to Build a Moonshot Venture w/ Marc Lore & Aus
+10-02 00:52:27 NO_TRANSCRIPT PeterHDiamandis JvVft_vISMM 2024-10-02 :: Forget Everything You Believed About Computing w/ Gill Verdo
+10-02 00:52:30 CHECKPOINT rc=0 merged/out:    [90mProduction ..................................................................... [4mveracity2.surge.sh[24m[39m
+
+   [32mSuccess![39m[90m - Published to [4mveracity2.surge.sh[24m[39m
+
+
+
+10-02 00:53:56 OK PeterHDiamandis aZPE61yqfW8 2024-05-16 preds=2 :: AI & Bitcoin - How Our World Will Change This Decade w/ Sali
+10-02 00:53:56 NO_TRANSCRIPT PeterHDiamandis wyzEJ_oNnVU 2024-10-02 :: Shocking AI Innovations Happening Right Now | MOONSHOTS|NA
+10-02 00:54:02 OK PeterHDiamandis 8B3akaUg--s 2024-05-10 preds=2 :: The Tech Behind AI's Rapid Evolution | MOONSHOTS|NA
+10-02 00:54:31 OK PeterHDiamandis pTX2sNFz3Nw 2024-05-09 preds=2 :: The World-Changing Science of Organ Manufacturing w/ Dean Ka
+10-02 00:54:38 OK PeterHDiamandis pGNweUleVVE 2024-05-03 preds=2 :: What The Next Great Leap in AI Will Look Like | MOONSHOTS|NA
+10-02 00:54:38 NO_TRANSCRIPT PeterHDiamandis eHy68Jy-qwQ 2024-10-02 :: Ex-Google CEO on Government AI Policy & Deepfakes w/ Eric Sc
+10-02 00:55:34 OK PeterHDiamandis 4tZ8lZwL3Ow 2024-04-30 preds=2 :: How Far Away is AI From Being Truly Creative? | MOONSHOTS|NA
+10-02 00:55:34 OUT_OF_RANGE aPtDDPT1gZQ 2024-04-25
+10-02 00:55:34 OUT_OF_RANGE QtfkxHqgfdM 2024-04-23
+10-02 00:55:34 OUT_OF_RANGE HIidMryjSJQ 2024-04-19
+10-02 00:55:34 OUT_OF_RANGE FI2Xa0SWvlk 2024-04-19
+10-02 00:55:34 NO_TRANSCRIPT PeterHDiamandis yVv3mg8zWIU 2024-10-02 :: AI Panel Discussion W/ Emad Mostaque, Ray Kurzweil, Mo Gawda
+10-02 00:56:17 OUT_OF_RANGE 1az20P_QksM 2024-04-16
+10-02 00:56:17 OUT_OF_RANGE wEu5WGB9TTw 2024-04-14
+10-02 00:56:17 OUT_OF_RANGE i1ER7XBt-PI 2024-04-13
+10-02 00:56:17 OUT_OF_RANGE yJjqitqU-eE 2024-04-12
+10-02 00:56:17 OUT_OF_RANGE oGi7UDuwKeg 2024-04-11
+10-02 00:56:17 NO_TRANSCRIPT PeterHDiamandis kCre83853TM 2024-10-02 :: Ray Kurzweil & Geoff Hinton Debate the Future of AI | EP #95
+10-02 00:57:31 OUT_OF_RANGE QaN6iQEyhFQ 2024-04-10
+10-02 00:57:31 OUT_OF_RANGE xD5FASS5988 2024-04-10
+10-02 00:57:31 OUT_OF_RANGE WJ_l_zxu2SA 2024-04-09
+10-02 00:57:31 OUT_OF_RANGE MkZiXN1xAiY 2024-04-05
+10-02 00:57:31 OUT_OF_RANGE HqDGtYpeqyA 2024-04-04
+10-02 00:57:31 NO_TRANSCRIPT PeterHDiamandis 0JJf6RhL_t0 2024-10-02 :: Why Elon Is Still Focused On Space | MOONSHOTS|NA
+10-02 00:58:13 OUT_OF_RANGE HvCpw8_1EFc 2024-04-02
+10-02 00:58:13 OUT_OF_RANGE zu8KF52vSn4 2024-04-01
+10-02 00:58:13 OUT_OF_RANGE rEY0FsnmS00 2024-03-31
+10-02 00:58:13 OUT_OF_RANGE wzjwaAspWpI 2024-03-30
+10-02 00:58:13 OUT_OF_RANGE e1UgzSTicuY 2024-03-29
+10-02 00:58:13 NO_TRANSCRIPT PeterHDiamandis -TI56YOpTmY 2024-10-02 :: Elon Musk on Neuralink | MOONSHOTS|NA
+10-02 00:58:54 OUT_OF_RANGE 9g-qIMI7VHo 2024-03-28
+10-02 00:58:54 OUT_OF_RANGE DSKxmvq9t04 2024-03-27
+10-02 00:58:54 OUT_OF_RANGE cifuTy4fBfg 2024-03-26
+10-02 00:58:54 OUT_OF_RANGE jcdS3uijEKQ 2024-03-26
+10-02 00:58:54 OUT_OF_RANGE akXMYvKjUxM 2024-03-25
+10-02 00:58:54 NO_TRANSCRIPT PeterHDiamandis zcqJAOJ71GA 2024-10-02 :: Why Many People Will Stop Intermittent Fasting in 2024 | MOO
+10-02 00:59:56 NO_TRANSCRIPT PeterHDiamandis mw4tPfk0zBo 2024-10-02 :: Cathie Wood - Bitcoin ETFs & Why This is Just the Beginning 
+10-02 00:59:56 OUT_OF_RANGE w9auXeBfJ0w 2024-03-19
+10-02 00:59:56 OUT_OF_RANGE 0t6zRIXBZp4 2024-03-15
+10-02 00:59:56 OUT_OF_RANGE XdLOUC13wFk 2024-03-14
+10-02 00:59:56 OUT_OF_RANGE _TZDFB9rRa4 2024-03-12
+10-02 00:59:56 NO_TRANSCRIPT PeterHDiamandis 1VNuEwHKrpI 2024-10-02 :: Humanoid Robots Are Getting Freaky Good | MOONSHOTS|NA
+10-02 01:01:22 OUT_OF_RANGE gOFOa5R7p1E 2024-03-07
+10-02 01:01:22 OUT_OF_RANGE INALUbdSA8k 2024-03-05
+10-02 01:01:22 OUT_OF_RANGE N56KpDN9Tn8 2024-03-01
+10-02 01:01:22 OUT_OF_RANGE qGklNgVmCaA 2024-02-29
+10-02 01:01:22 OUT_OF_RANGE hLFzBZz5IkY 2024-02-27
+10-02 01:01:22 NO_TRANSCRIPT PeterHDiamandis EjA-7VMQsYE 2024-10-02 :: History of the Abundance Summit|NA
+10-02 01:02:20 OUT_OF_RANGE Yx1TuI5ky3c 2024-02-23
+10-02 01:02:20 OUT_OF_RANGE XVBokw9SPN8 2024-02-23
+10-02 01:02:20 OUT_OF_RANGE sXuFUOvNcGM 2024-02-22
+10-02 01:02:20 OUT_OF_RANGE YOO4qPZADwQ 2024-02-21
+10-02 01:02:20 OUT_OF_RANGE Lw6I7nVz3KQ 2024-02-19
+10-02 01:02:20 NO_TRANSCRIPT PeterHDiamandis HGsPqp8iXXI 2024-10-02 :: Creator of Oculus on Apple Vision Pro|NA
+10-02 01:03:10 OUT_OF_RANGE 5n-qaXfJRog 2024-02-11
+10-02 01:03:10 OUT_OF_RANGE WO7kzoFSRgY 2024-02-09
+10-02 01:03:10 OUT_OF_RANGE ZSwbvj4mqPA 2024-02-08
+10-02 01:03:10 OUT_OF_RANGE -nqGW3LI_l4 2024-02-01
+10-02 01:03:10 OUT_OF_RANGE Iu7zOOofcdg 2024-02-01
+10-02 01:03:10 NO_TRANSCRIPT PeterHDiamandis 8CaBR5rtlDA 2024-10-02 :: How Anyone Can Build Muscle - Even If You're Skinny | MOONSH
+10-02 01:03:52 OUT_OF_RANGE oD1ij37KHWw 2024-01-26
+10-02 01:03:52 OUT_OF_RANGE usPOKgPxYTo 2024-01-25
+10-02 01:03:52 OUT_OF_RANGE yXD7olC0zZU 2024-01-25
+10-02 01:03:52 OUT_OF_RANGE H8AVJ1KMv8c 2024-01-19
+10-02 01:03:52 OUT_OF_RANGE Xy0wC_hL3fs 2024-01-18
+10-02 01:03:52 NO_TRANSCRIPT PeterHDiamandis QrmcQVCMppA 2024-10-02 :: The Discovery That Sold Michael Saylor on Bitcoin | MOONSHOT
