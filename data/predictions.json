@@ -21661,20 +21661,6 @@
       "stated_count": 2
     },
     {
-      "id": "pred_1790961078_8",
-      "individual_name": "David McAlvany",
-      "date": "2026-09-02",
-      "category": "finance",
-      "claim": "Data centers being built will become useless within a couple of years, probably sooner, because AI usage for inference will shift to local hardware.",
-      "source_url": "https://mcalvany.com/weekly-commentary/the-ai-bubbles-circular-financing-problem-with-jack-gamble/",
-      "transcript_excerpt": "And so, I think certainly for most consumer applications, for any business application where data security is important, which is a lot of them, certainly healthcare, legal, I think the future of AI is on local equipment, not cloud, which means these data centers that are being built will be useless in a couple of years, probably sooner.",
-      "verdict": null,
-      "measurement_type": "quantitative",
-      "test_status": "eligible",
-      "testing_since": "2026-10-02",
-      "judgements": []
-    },
-    {
       "id": "pred_1790961078_10",
       "individual_name": "David McAlvany",
       "date": "2026-08-26",
