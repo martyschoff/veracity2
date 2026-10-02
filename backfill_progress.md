@@ -2401,3 +2401,128 @@
 10-01 23:35:24 OK GZEROMedia U0YV6a8FH_Y 2024-10-28 preds=2 :: After Israel's response to Iran, what's next? | Ian Bremmer'
 10-01 23:35:33 OK GZEROMedia 4BjzbjGGdZ8 2024-10-21 preds=2 :: A global leadership void and ongoing wars | Ian Bremmer | Qu
 10-01 23:35:48 OK GZEROMedia 19danG_HD5g 2024-10-14 preds=2 :: Israel's next move | Ian Bremmer | Quick Take
+10-01 23:36:39 OK GZEROMedia tqWVvXBXcVw 2024-10-07 preds=2 :: How October 7th changed Israel and the Middle East | Ian Bre
+10-01 23:38:01 OK GZEROMedia jck-6WWC8ac 2025-10-30 preds=2 :: What the Trump-Xi meeting means for US-China relations | Ian
+10-01 23:38:01 NO_TRANSCRIPT GZEROMedia 4xkNKl95iuU 2025-11-02 :: Trump-Xi meeting in South Korea | ask ian
+10-01 23:38:10 OK GZEROMedia G7u1JcSMxJo 2025-10-27 preds=2 :: Trump’s East Wing demolition, Binance pardon, and tariffs on
+10-01 23:38:24 OK GZEROMedia CeurHGRGaIs 2025-10-21 preds=2 :: Japan’s first female prime minister: What Sanae Takaichi mea
+10-01 23:38:39 OK GZEROMedia CJOvSiWLPos 2025-10-14 preds=2 :: Trump, Xi, and the new US–China standoff | ask ian
+10-01 23:38:39 NO_TRANSCRIPT GZEROMedia dUprHPTKX7I 2025-11-02 :: Trump brokers peace: Hostages freed and guns fall silent in 
+10-01 23:39:41 OK GZEROMedia 6Qrv_zs12X4 2025-10-09 preds=2 :: Trump's role in brokering Israel-Hamas deal | Ian Bremmer's 
+10-01 23:39:57 OK GZEROMedia x-Af9lOPJr4 2025-10-07 preds=2 :: US-China AI race: Dueling strategies and potential risks | a
+10-01 23:41:07 OK GZEROMedia IWFJH__wxlY 2025-10-06 preds=2 :: Is USA winning the short game, but losing the future? | Ian 
+10-01 23:41:20 OK GZEROMedia IeZcODodatM 2025-11-25 preds=2 :: Is Trump’s trade strategy backfiring abroad? | ask ian
+10-01 23:41:30 OK GZEROMedia qcFxeEwhkuU 2025-11-24 preds=2 :: Europe divided as US pushes Ukraine-Russia peace deal | Ian 
+10-01 23:41:42 OK GZEROMedia 9bSq1oUKl0c 2025-11-21 preds=2 :: Ian stands in line for a bagel, the internet melts down | as
+10-01 23:42:00 OK GZEROMedia 47mymgbAs1I 2025-11-17 preds=2 :: How bad is Trump’s Epstein problem? | ask ian
+10-01 23:42:00 NO_TRANSCRIPT GZEROMedia GFP6LjvVmJ0 2025-12-02 :: Democrats divided over government shutdown deal | ask ian
+10-01 23:43:48 OK GZEROMedia ghTMTNMFmi8 2025-11-10 preds=2 :: Trump escalates sanctions against Russia | Ian Bremmer’s Qui
+10-01 23:44:35 OK GZEROMedia S6U0EuWSqgM 2025-11-04 preds=2 :: Zohran Mamdani and America's political future | ask ian
+10-01 23:44:45 OK GZEROMedia z8yr2fjNdkM 2025-11-02 preds=2 :: Is Abu Dhabi becoming the global capital of AI development? 
+10-01 23:44:58 OK GZEROMedia HsQJD2xrjwg 2025-12-29 preds=1 :: Trump–Zelensky meeting at Mar-a-Lago | ask ian
+10-01 23:45:39 OK GZEROMedia 11_hY9CUyEM 2025-12-23 preds=1 :: Revisiting the top geopolitical risks of 2025 | ask ian
+10-01 23:45:50 OK GZEROMedia Hg35ihCy65Y 2025-12-22 preds=2 :: Is the US heading toward military strikes in Venezuela? | as
+10-01 23:45:50 NO_TRANSCRIPT GZEROMedia Cku10B_nURI 2026-01-02 :: Trump, loyalty, and the limits of accountability | ask ian
+10-01 23:46:42 OK GZEROMedia e3ONHh1kQ98 2025-12-15 preds=2 :: Europe takes control of Ukraine’s future | Ian Bremmer's Qui
+10-01 23:47:06 OK GZEROMedia xWobgBGksEw 2025-12-08 preds=1 :: Notre Dame, politics, and playing by their own rules | ask i
+10-01 23:47:17 OK GZEROMedia z-xsKZJFYkQ 2025-12-08 preds=2 :: Trump’s new national security strategy targets Europe | Ian 
+10-01 23:48:38 OK GZEROMedia 2SiV92WJU54 2025-12-02 preds=2 :: Trump, Russia, and a deal Ukraine can’t accept | Ian's Quick
+10-01 23:49:50 OK GZEROMedia F7KaAby26jA 2025-12-02 preds=2 :: Trump threatens regime change in Venezuela | ask ian
+10-01 23:50:02 OK GZEROMedia NXtThw7glYU 2026-01-27 preds=2 :: Trump, Canada, and the future of the free world | ask ian
+10-01 23:50:12 OK GZEROMedia HGDnRo4caIs 2026-01-26 preds=2 :: ICE in Minneapolis | Ian Bremmer's Quick Take
+10-01 23:50:24 OK GZEROMedia vzizGMSMPic 2026-01-21 preds=2 :: Has the US-led world order ended? | ask ian
+10-01 23:50:35 OK GZEROMedia nNhDqHDnp74 2026-01-19 preds=2 :: Trump’s demands put Europe in FAFO territory | Ian Bremmer's
+10-01 23:50:35 NO_TRANSCRIPT GZEROMedia sFXzlUhKymM 2026-02-02 :: Why Trump is pushing to take Greenland | Ian Bremmer's Quick
+10-01 23:50:38 CHECKPOINT rc=0 merged/out:    [90mProduction ..................................................................... [4mveracity2.surge.sh[24m[39m
+
+   [32mSuccess![39m[90m - Published to [4mveracity2.surge.sh[24m[39m
+
+
+
+10-01 23:51:26 OK GZEROMedia RcTRQzaXX08 2026-01-13 preds=1 :: Trump targets Fed chair | ask ian
+10-01 23:51:41 OK GZEROMedia 42h_-toLll4 2026-01-12 preds=2 :: US response to Iran protests | Ian Bremmer’s Quick Take
+10-01 23:51:49 OK GZEROMedia PjJeHs11I20 2026-01-09 preds=2 :: Venezuela after Maduro and Trump unleashed | Ian Explains
+10-01 23:52:05 OK GZEROMedia _vghW_XKrFI 2026-01-03 preds=2 :: Maduro ousted in US raid, a major win for Trump | Ian Bremme
+10-01 23:53:18 OK GZEROMedia -RHl78r3cjc 2026-02-28 preds=1 :: The US and Israel launch war on Iran | Quick Take
+10-01 23:53:31 OK GZEROMedia Bxu0TE5AJ2Y 2026-02-25 preds=2 :: Trump’s State of the Union address | Ian Bremmer's Quick Tak
+10-01 23:53:52 OK GZEROMedia QS9sashTw_s 2026-02-23 preds=2 :: Has US–Iran diplomacy reached its end? | Ian Bremmer's Quick
+10-01 23:54:00 OK GZEROMedia Ix_L8479VDI 2026-02-20 preds=2 :: Europe can no longer count on the US | Ian Explains
+10-01 23:54:18 OK GZEROMedia me54zMBRwws 2026-02-20 preds=2 :: Supreme Court blocks Trump’s tariff power | Ian Bremmer's Qu
+10-01 23:54:18 NO_TRANSCRIPT GZEROMedia 4hzAqE4FfiE 2026-03-02 :: From Iran to Ukraine: The growing risk of conflict | ask ian
+10-01 23:55:50 OK GZEROMedia dkRUzPkbQtc 2026-02-12 preds=1 :: Munich Security Conference: Can Europe defend itself without
+10-01 23:55:59 OK GZEROMedia kaLd_fyHWEc 2026-02-10 preds=2 :: Venezuela’s new reality | ask ian
+10-01 23:57:12 OK GZEROMedia fyWTUbeIPhI 2026-02-09 preds=1 :: Freedom of expression at the Olympics | Ian Bremmer's Quick 
+10-01 23:57:12 NO_TRANSCRIPT GZEROMedia f5nj9sq_388 2026-03-02 :: Epstein and America’s two-tier justice system | ask ian
+10-01 23:57:30 OK GZEROMedia _lps6D0eZ5A 2026-02-02 preds=2 :: Trump’s next move in Iran | Ian Bremmer’s Quick Take
+10-01 23:57:30 NO_TRANSCRIPT GZEROMedia ZTEyzuIfWxE 2026-04-02 :: China and Pakistan push five-point peace plan for Middle Eas
+10-01 23:57:48 OK GZEROMedia vm77yTQbf68 2026-03-30 preds=2 :: The strategy gap in the Iran war | Ian Bremmer’s Quick Take
+10-01 23:57:48 NO_TRANSCRIPT GZEROMedia Ke7oH3zJgpE 2026-04-02 :: Is Trump losing control of the Iran war? | Ian Explains
+10-01 23:59:05 OK GZEROMedia fUvUEXv7P8s 2026-03-25 preds=2 :: How Americans feel about the war in Iran | ask ian
+10-01 23:59:16 OK GZEROMedia nFoF0jIAgEU 2026-03-24 preds=2 :: Trump postpones military strikes on Iran's power plants | Ia
+10-01 23:59:23 OK GZEROMedia MSe7ZgYodrw 2026-03-19 preds=2 :: Trump asks for $200B to fund Iran war | Ian Bremmer's Quick 
+10-01 23:59:23 NO_TRANSCRIPT GZEROMedia nHGigudjDtE 2026-04-02 :: Is regime change in Iran even possible? | ask ian
+10-01 23:59:40 OK GZEROMedia t5NbIndubRg 2026-03-16 preds=2 :: War in Iran disrupts global shipping | Ian Bremmer's Quick T
+10-01 23:59:40 NO_TRANSCRIPT GZEROMedia dqc3TLjlk_0 2026-04-02 :: Trump’s gamble in Iran | Ian Explains
+10-02 00:00:43 OK GZEROMedia a_ME1g2U7NI 2026-03-10 preds=2 :: What is Trump's exit strategy from Iran? | ask ian
+10-02 00:00:56 OK GZEROMedia ZGNWvHlnExw 2026-03-09 preds=2 :: Trump’s war of choice in Iran | Ian Bremmer's Quick Take
+10-02 00:01:00 OK GZEROMedia j6MED4ZG-xc 2026-03-06 preds=1 :: The Supreme Court checks Trump’s tariff power | Ian Explains
+10-02 00:01:12 OK GZEROMedia 7-o_9Abc130 2026-03-03 preds=2 :: What comes next in the US-Israel war with Iran? | Ian Bremme
+10-02 00:01:22 OK GZEROMedia XizpLGUcHRw 2026-04-28 preds=2 :: UAE to withdraw from OPEC | ask ian
+10-02 00:01:22 NO_TRANSCRIPT GZEROMedia GBKio7OSpaw 2026-05-02 :: US-Iran peace talks stall | Ian Bremmer's Quick Take
+10-02 00:02:13 OK GZEROMedia bmJnSKd6CTc 2026-04-24 preds=2 :: Will Trump actually try to "take" Cuba? | Ian Explains
+10-02 00:02:29 OK GZEROMedia dZquBezlHOo 2026-04-23 preds=2 :: China plays the long game, Cuba faces mounting US pressure |
+10-02 00:02:42 OK GZEROMedia lTHqjt5JQNM 2026-04-21 preds=2 :: Taiwan and the Trump-Xi summit | ask ian
+10-02 00:03:47 OK GZEROMedia 34LOXu6znSg 2026-04-20 preds=2 :: Iran war ceasefire holds … for now | Quick Take
+10-02 00:04:42 OK GZEROMedia xtxzSDXZM1c 2026-04-17 preds=2 :: North Korea's nuclear bet paid off | Ian Explains
+10-02 00:04:53 OK GZEROMedia Dmx5OWtTn2g 2026-04-13 preds=2 :: Hungary’s Orbán concedes election defeat | Quick Take
+10-02 00:04:57 OK GZEROMedia v3jAQIbU89o 2026-04-13 preds=1 :: Can anyone actually dethrone the dollar? | Ian Explains
+10-02 00:06:03 OK GZEROMedia c3se_stoj8Y 2026-04-08 preds=2 :: Trump’s ceasefire deal with Iran | ask ian
+10-02 00:06:16 OK GZEROMedia y4hQ0aBS7sw 2026-04-06 preds=2 :: Who’s negotiating with Iran to keep trade moving? | Ian Brem
+10-02 00:06:16 NO_TRANSCRIPT GZEROMedia YnEI-KA2B6s 2026-05-02 :: Will Hungary's strongman Viktor Orbán lose his empire? | Ian
+10-02 00:07:10 OK GZEROMedia Vv8cfpDtN3o 2026-06-01 preds=2 :: Is the Iran war accelerating the clean energy transition? | 
+10-02 00:07:32 OK GZEROMedia ulnZwH93erg 2026-05-27 preds=2 :: Is an Iran deal in sight? | ask ian
+10-02 00:07:58 OK GZEROMedia n6tnQkGE7YA 2026-05-26 preds=2 :: Putin threatens 'systematic strikes' on Kyiv | Ian Bremmer’s
+10-02 00:08:41 OK GZEROMedia XuWvRWQNGjM 2026-05-19 preds=2 :: Trump flip flops on Iran threats | ask ian
+10-02 00:08:52 OK GZEROMedia rTaaMwjEU-g 2026-05-18 preds=2 :: Drone warfare shifts the Ukraine-Russia battlefield | Ian Br
+10-02 00:08:58 OK GZEROMedia q8mVVHBdUhE 2026-05-15 preds=2 :: Why Trump can't find the exit ramp in Iran | Ian Explains
+10-02 00:09:07 OK GZEROMedia Z1F1bb5uMt0 2026-05-15 preds=2 :: Why the US-China summit changed very little | Quick Take
+10-02 00:09:17 OK GZEROMedia 5h4XcS-3R_E 2026-05-12 preds=2 :: Did the US actually stabilize Venezuela? | ask ian
+10-02 00:09:17 NO_TRANSCRIPT GZEROMedia wP1C0_FZvhw 2026-06-02 :: Iran thinks it has more leverage than Trump | Quick Take
+10-02 00:10:17 OK GZEROMedia dpjIkWOE6m4 2026-05-08 preds=2 :: How AI is transforming the US military | Ian Explains
+10-02 00:10:25 OK GZEROMedia EukLN0YFDjM 2026-05-05 preds=2 :: Iran tensions rising again: Is the ceasefire about to collap
+10-02 00:10:37 OK GZEROMedia 8DB-529DFhg 2026-05-04 preds=2 :: Trump’s ‘Project Freedom’ | Ian Bremmer’s Quick Take
+10-02 00:10:52 OK GZEROMedia 18tFEg1wxDI 2026-06-30 preds=2 :: US-China cooperation falls short on Russia-Ukraine war and A
+10-02 00:11:06 OK GZEROMedia OmPeF0ll2ew 2026-06-29 preds=2 :: Is Trump the biggest global risk? | Ian Bremmer's Quick Take
+10-02 00:11:06 NO_TRANSCRIPT GZEROMedia y0wUFaFq9eI 2026-07-02 :: Why Europe isn’t falling apart despite political turmoil | a
+10-02 00:12:32 OK GZEROMedia hmP3IIbxCKc 2026-06-22 preds=2 :: Trump’s ineffective pressure campaign on Iran and China | Ia
+10-02 00:12:47 OK GZEROMedia rfpzHLsOy_U 2026-06-16 preds=2 :: What the rise of a trillionaire reveals about the American D
+10-02 00:12:56 OK GZEROMedia dUwnKWL5D2A 2026-06-15 preds=2 :: US and Iran reach framework peace deal | Ian Bremmer's Quick
+10-02 00:13:04 OK GZEROMedia mTYDaaMFZhE 2026-06-12 preds=2 :: The World Cup is more political than you think | Ian Explain
+10-02 00:13:13 OK GZEROMedia M1vwtbDFtXA 2026-06-09 preds=2 :: The battle for the Senate | ask ian
+10-02 00:13:13 NO_TRANSCRIPT GZEROMedia nPin8veaocE 2026-07-02 :: Iran ceasefire frays | Ian Bremmer's Quick Take
+10-02 00:14:20 OK GZEROMedia j4I5YOciDLM 2026-06-02 preds=2 :: Trump’s midterm strategy and beyond | ask ian
+10-02 00:14:27 OK GZEROMedia 0Ns_N8fVv9I 2026-07-31 preds=2 :: Ten years since Brexit | Ian Explains
+10-02 00:14:39 OK GZEROMedia TA2G7_Q0CKU 2026-07-28 preds=2 :: Has Trump changed his view of Ukraine? | ask ian
+10-02 00:14:50 OK GZEROMedia nyVynKLbGoQ 2026-07-27 preds=2 :: Why the US and Iran still can’t reach a deal | Ian Bremmer's
+10-02 00:14:57 OK GZEROMedia WMXj690zq28 2026-07-24 preds=2 :: How Hezbollah in Lebanon became Iran's most powerful proxy f
+10-02 00:14:57 NO_TRANSCRIPT GZEROMedia EB5zBTn9Hzc 2026-08-02 :: Why AI needs a global referee | ask ian
+10-02 00:16:49 OK GZEROMedia nLmBuOuGEsM 2026-07-20 preds=2 :: Mounting pressure between US and Iran with no end in sight |
+10-02 00:16:59 OK GZEROMedia UpQwi4G9wXo 2026-07-17 preds=2 :: Can Putin still outlast Ukraine? | Ian Explains
+10-02 00:17:08 OK GZEROMedia _BDADmMULhg 2026-07-14 preds=2 :: Is the Strait of Hormuz closed again? | ask ian
+10-02 00:17:19 OK GZEROMedia v9llyU7WhHc 2026-07-13 preds=2 :: The complicated legacy of Lindsey Graham | Ian Bremmer’s Qui
+10-02 00:17:31 OK GZEROMedia wRtiAGnUuRI 2026-07-07 preds=2 :: NATO summit signals stability amid Trump uncertainty | ask i
+10-02 00:17:31 NO_TRANSCRIPT GZEROMedia oZttV_VaE18 2026-08-02 :: Trump's FIFA intervention is indefensible | Ian Bremmer's Qu
+10-02 00:18:35 OK GZEROMedia iIqclHXI-rM 2026-07-04 preds=1 :: America's 250th birthday | Ian Explains
+10-02 00:19:13 OK GZEROMedia zIu5fxLlK3w 2026-08-31 preds=1 :: Lack of AI governance is a real threat | Ian Bremmer’s Quick
+10-02 00:19:53 OK GZEROMedia Eng5yN6o6-g 2026-08-28 preds=1 :: The race to build on the Moon | Ian Explains
+10-02 00:20:04 OK GZEROMedia XvZtLb03Pkw 2026-08-24 preds=2 :: US-Canada trade war heats up | Ian Bremmer’s Quick Take
+10-02 00:21:10 OK GZEROMedia TC9dM-PXxcM 2026-08-17 preds=2 :: US plan to divide the world’s AI alliances? | Ian Bremmer's 
+10-02 00:21:21 OK GZEROMedia ScYez6zSOUs 2026-08-10 preds=2 :: Is the US-China relationship reaching a breaking point? | Ia
+10-02 00:21:30 OK GZEROMedia NEIdMz4U9kU 2026-08-03 preds=2 :: Why Trump keeps backing down on Iran | Ian Bremmer’s Quick T
+10-02 00:21:30 NO_TRANSCRIPT GZEROMedia qxBViM4LD7I 2026-09-11 :: The lasting impact of 9/11 on US leadership | ask ian
+10-02 00:21:33 CHECKPOINT rc=0 merged/out:    [90mProduction ..................................................................... [4mveracity2.surge.sh[24m[39m
+
+   [32mSuccess![39m[90m - Published to [4mveracity2.surge.sh[24m[39m
+
+
+
