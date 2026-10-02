@@ -27,3 +27,5 @@
 ## 2. Also held (previously agreed, awaiting go)
 - Backfill completion check for Bremmer (GZERO) + Diamandis to 2024-04-30 (agent running)
 - Verdict system display already live; cron 8am/8pm live
+- TOMORROW: benchmark local model tok/s (user asked; needs idle server)
+- LLM dedupe run results: review merged groups, then render+deploy+commit

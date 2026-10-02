@@ -117,6 +117,16 @@
         }
         .detail-card .dc-source { font-size: 0.7rem; font-weight: 700; color: #f97316; text-decoration: none; margin-top: 4px; }
         .detail-card .dc-source:hover { text-decoration: underline; }
+        .chip-x {
+            display: inline-block; padding: 1px 7px; border-radius: 8px;
+            font-size: 0.65rem; font-weight: 700; background: #f97316; color: #fff;
+            vertical-align: middle; margin-left: 4px;
+        }
+        .dc-occ-label { font-size: 0.68rem; font-weight: 700; color: var(--text-muted); margin-top: 6px; }
+        .dc-occ { font-size: 0.66rem; color: var(--text-muted); max-height: 120px; overflow-y: auto; }
+        .dc-occ a { color: #f97316; text-decoration: none; }
+        .dc-occ a:hover { text-decoration: underline; }
+        .dc-occ-date { font-weight: 600; }
         @media (max-width: 900px) {
             .detail-grid { grid-template-columns: repeat(2, 1fr); }
         }
@@ -331,7 +341,7 @@
                 {% set person_rows = rows_by_person.get(ind.name, []) %}
                 {% for row in person_rows %}
                 <div class="pred-entry" data-mtype="{{ row.measurement_type if row.measurement_type else 'subjective' }}">
-                    <div class="pred-date">{{ row.date }}</div>
+                    <div class="pred-date">{{ row.date }}{% if row.stated_count and row.stated_count > 1 %} <span class="chip-x">×{{ row.stated_count }}</span>{% endif %}</div>
                     <a class="pred-claim" href="{{ row.source_url }}" target="_blank" rel="noopener">{{ row.claim | condense }} ↗</a>
                     <div>
                         <div class="verdict-box">Panel Judgement: {{ row.verdict | upper if row.verdict else 'TBD' }}</div>
@@ -477,11 +487,20 @@
                 var martyr = '';
                 if (p.marty_agrees === true) martyr = '<div class="marty-badge marty-agrees">Marty agrees ✓</div>';
                 else if (p.marty_agrees === false) martyr = '<div class="marty-badge marty-disagrees">Marty disagrees ✗</div>';
+                var occ = p.occurrences || [];
+                var occHtml = '';
+                if (occ.length > 0) {
+                    occHtml = '<div class="dc-occ-label">Stated ' + (occ.length + 1) + ' times:</div>'
+                        + '<div class="dc-occ">' + occ.map(function(o) {
+                            return '<div><span class="dc-occ-date">' + (o.date || '') + '</span> <a href="' + o.url + '" target="_blank" rel="noopener">source ↗</a></div>';
+                        }).join('') + '</div>';
+                }
                 return '<div class="detail-card">'
-                    + '<div class="dc-date">' + (p.date || '') + '</div>'
+                    + '<div class="dc-date">' + (p.date || '') + (occ.length > 0 ? ' <span class="chip-x">×' + (occ.length + 1) + '</span>' : '') + '</div>'
                     + '<a class="dc-claim" href="' + p.source_url + '" target="_blank" rel="noopener" style="color:#f97316;text-decoration:none;cursor:pointer;">' + condense(p.claim || '') + ' ↗</a>'
                     + '<span class="dc-cat" style="background:' + color + '">' + cat + '</span>'
                     + '<div><div class="verdict-box" style="color:' + verdictColor + '">Panel Judgement: ' + verdict.toUpperCase() + '</div>' + martyr + '</div>'
+                    + occHtml
                     + '</div>';
             }).join('');
             document.getElementById('detail-overlay').classList.add('open');

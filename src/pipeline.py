@@ -364,6 +364,8 @@ def run_test_stage(data: dict) -> dict:
         stats["tested"] += 1
         tested_this_run += 1
 
+        author = pred.get("individual_name", "")
+
         # Objective: fact-checker lookup first
         if pred.get("measurement_type") == "quantitative":
             j = fact_check_lookup(pred)
@@ -372,11 +374,20 @@ def run_test_stage(data: dict) -> dict:
                 pred["judgements"] = judgements
 
         # LLM assessment (fills gaps for both types; second vote)
+        # RULE: a predictor cannot panel-vote on their own predictions —
+        # skip LLM votes for LLM panelists? No: LLM panelist is not the author.
+        # Exclusion applies to human panelists via set_marty_verdict and future
+        # panel-vote ingestion: filter judgements where panelist == author.
         if len(judgements) < VOTES_NEEDED_FOR_VERDICT:
             j = llm_assess(pred)
             if j:
                 judgements.append(j)
                 pred["judgements"] = judgements
+
+        # Enforce no-self-voting: drop judgements attributed to the author
+        judgements = [j for j in judgements
+                      if j.get("panelist", "") != author]
+        pred["judgements"] = judgements
 
         # Compute verdict
         verdict = compute_verdict(pred)
