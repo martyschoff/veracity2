@@ -19907,39 +19907,6 @@
       "stated_count": 2
     },
     {
-      "id": "pred_20261002002426_98c48e223051",
-      "individual_name": "Peter Diamandis",
-      "date": "2024-09-29",
-      "category": "ai",
-      "claim": "People who live a life of purpose tend to live 10 to 15 years longer than those who do not have a purpose in life.",
-      "source_url": "https://www.youtube.com/watch?v=NIA2BztpIKE",
-      "transcript_excerpt": "people who live a life of purpose they tend to be obviously Optimist but really living a life of purpose you tend to live 10 to 15 years longer when you have a purpose in life than you people who don't have a purpose in life right",
-      "verdict": null,
-      "created_at": "2026-10-02T00:24:26",
-      "measurement_type": "quantitative",
-      "occurrences": [
-        {
-          "date": "2024-09-30",
-          "url": "https://www.youtube.com/watch?v=YZUAGBQAbxI",
-          "claim": "There will be a significant increase in longevity due to advances in science, with people potentially living to 150 or beyond while maintaining high mental and physical wellness.",
-          "id": "pred_20261002002415_3f499db3575b"
-        }
-      ],
-      "stated_count": 2
-    },
-    {
-      "id": "pred_20261002002426_b6775f639917",
-      "individual_name": "Peter Diamandis",
-      "date": "2024-09-29",
-      "category": "ai",
-      "claim": "Getting at least 1.5 to 2 hours of REM sleep and at least 1.5 hours of deep sleep per night is important for health.",
-      "source_url": "https://www.youtube.com/watch?v=NIA2BztpIKE",
-      "transcript_excerpt": "we get hour and a half to two hours of ram sleep and we get at least hour to hour and a half of deep sleep it is really really important",
-      "verdict": null,
-      "created_at": "2026-10-02T00:24:26",
-      "measurement_type": "quantitative"
-    },
-    {
       "id": "pred_20261002002436_1b1af78cb548",
       "individual_name": "Peter Diamandis",
       "date": "2024-09-29",
