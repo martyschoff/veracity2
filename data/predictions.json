@@ -622,7 +622,9 @@
           "id": "pred_20260930191406_7e8a4480d4e0"
         }
       ],
-      "stated_count": 2
+      "stated_count": 2,
+      "marty_agrees": false,
+      "marty_note": "MartyPredicts: Wrong"
     },
     {
       "id": "pred_20260930192033_e72d59032a15",
@@ -637,7 +639,9 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [],
+      "marty_agrees": false,
+      "marty_note": "MartyPredicts: Wrong"
     },
     {
       "id": "pred_20260930191615_d79e00a2d5fb",

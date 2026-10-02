@@ -346,7 +346,7 @@
                     <div>
                         <div class="verdict-box">Panel Judgement: {{ row.verdict | upper if row.verdict else 'TBD' }}</div>
                         {% if row.marty_agrees is defined and row.marty_agrees is not none %}
-                        <div class="marty-badge {{ 'marty-agrees' if row.marty_agrees else 'marty-disagrees' }}">Marty {{ 'agrees ✓' if row.marty_agrees else 'disagrees ✗' }}</div>
+                        <div class="marty-badge {{ 'marty-agrees' if row.marty_agrees else 'marty-disagrees' }}">{{ row.marty_note if row.marty_note else ('MartyPredicts: Correct' if row.marty_agrees else 'MartyPredicts: Wrong') }}</div>
                         {% endif %}
                     </div>
                 </div>
@@ -485,8 +485,8 @@
                 var verdict = p.verdict || 'TBD';
                 var verdictColor = verdict === 'correct' ? '#22c55e' : verdict === 'wrong' ? '#ef4444' : 'var(--text-muted)';
                 var martyr = '';
-                if (p.marty_agrees === true) martyr = '<div class="marty-badge marty-agrees">Marty agrees ✓</div>';
-                else if (p.marty_agrees === false) martyr = '<div class="marty-badge marty-disagrees">Marty disagrees ✗</div>';
+                if (p.marty_agrees === true) martyr = '<div class="marty-badge marty-agrees">' + (p.marty_note || 'MartyPredicts: Correct') + '</div>';
+                else if (p.marty_agrees === false) martyr = '<div class="marty-badge marty-disagrees">' + (p.marty_note || 'MartyPredicts: Wrong') + '</div>';
                 var occ = p.occurrences || [];
                 var occHtml = '';
                 if (occ.length > 0) {
