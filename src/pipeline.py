@@ -37,7 +37,9 @@ LLM_ENDPOINTS = [
 ]
 
 TESTING_MONTHS_BEFORE_EXPIRY = 12
-VOTES_NEEDED_FOR_VERDICT = 2
+VOTES_NEEDED_FOR_VERDICT = 2.0  # sum of agreeing weights needed
+AI_KEYWORD_RE = re.compile(r"\b(?:a\.?i\.?|artificial[\s-]+intelligence)\b", re.IGNORECASE)
+AI_PANEL_WEIGHT = 0.5
 QUANT_PROMPT = (
     "Only include predictions made by the AUTHOR in their own voice. "
     "Never extract predictions from quoted material, blockquotes, tweets, or statements "
@@ -211,22 +213,22 @@ def extract_predictions(text: str, source_url: str, author: str,
 # ---- Stage 3: Testing ----
 
 def compute_verdict(pred: dict) -> str | None:
-    """Compute verdict from judgements. 2 agreeing votes -> verdict; mixed -> disputed."""
+    """Weighted verdict. 2.0 weight of agreeing votes (no opposition) -> verdict;
+    both sides present -> disputed."""
     judgements = pred.get("judgements", [])
-    if len(judgements) == 0:
+    if not judgements:
         return None
 
     correct_weight = sum(j.get("weight", 1.0) for j in judgements if j.get("verdict") == "correct")
     wrong_weight = sum(j.get("weight", 1.0) for j in judgements if j.get("verdict") == "wrong")
-    votes = CounterVerdicts(judgements)
 
-    if votes["correct"] >= VOTES_NEEDED_FOR_VERDICT and votes["wrong"] == 0:
+    if correct_weight >= VOTES_NEEDED_FOR_VERDICT and wrong_weight == 0:
         return "correct"
-    if votes["wrong"] >= VOTES_NEEDED_FOR_VERDICT and votes["correct"] == 0:
+    if wrong_weight >= VOTES_NEEDED_FOR_VERDICT and correct_weight == 0:
         return "wrong"
-    if votes["correct"] > 0 and votes["wrong"] > 0:
+    if correct_weight > 0 and wrong_weight > 0:
         return "disputed"
-    return None  # only one vote so far, or inconclusive
+    return None  # not enough weight yet
 
 
 def CounterVerdicts(judgements: list) -> dict:
@@ -383,6 +385,20 @@ def run_test_stage(data: dict) -> dict:
             if j:
                 judgements.append(j)
                 pred["judgements"] = judgements
+
+        # AI cross-panel: non-ai predictions mentioning AI get an AI-panel vote
+        # at half weight (votes consolidate across panels).
+        is_ai_cat = pred.get("category") == "ai"
+        mentions_ai = bool(AI_KEYWORD_RE.search(pred.get("claim", "")))
+        if mentions_ai and not is_ai_cat:
+            has_ai_vote = any("AI panel" in j.get("panelist", "") for j in judgements)
+            if not has_ai_vote:
+                aj = llm_assess(pred)
+                if aj:
+                    aj["panelist"] = "LLM panelist (AI panel)"
+                    aj["weight"] = AI_PANEL_WEIGHT
+                    judgements.append(aj)
+                    pred["judgements"] = judgements
 
         # Enforce no-self-voting: drop judgements attributed to the author
         judgements = [j for j in judgements

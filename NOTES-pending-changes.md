@@ -24,6 +24,15 @@
 
 **Effect:** Zeihan's 246 preds likely collapse to 40-80 distinct blocks; testing pipeline judges distinct claims only.
 
+## 3. AI cross-panel voting (DESIGNED, awaiting go)
+- Predictions in NON-ai categories that mention "AI"/"artificial intelligence"
+  (word-boundary match, also "A.I.", "artificial-intelligence") get a SECOND
+  vote source: the AI panel, at WEIGHT 0.5 per panelist.
+- Votes consolidate across panels: 2 agreeing votes still decides, weighted
+  (1.0 primary + 0.5 AI each; fact-checker weights unchanged).
+- AI-category predictions themselves don't get a second AI vote.
+- Case: Zeihan "China's AI program limited by chips" → geopolitics + AI panel.
+
 ## 2. Also held (previously agreed, awaiting go)
 - Backfill completion check for Bremmer (GZERO) + Diamandis to 2024-04-30 (agent running)
 - Verdict system display already live; cron 8am/8pm live

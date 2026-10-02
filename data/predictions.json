@@ -508,6 +508,19 @@
       "publication": false,
       "weight_subjective": 1.0,
       "weight_objective": 1.0
+    },
+    {
+      "name": "Peter St Onge",
+      "handle": "profstonge",
+      "sources": [
+        "https://www.youtube.com/@Profstonge"
+      ],
+      "categories": [
+        "finance"
+      ],
+      "publication": false,
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
     }
   ],
   "predictions": [
