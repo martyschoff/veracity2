@@ -13,7 +13,7 @@ with open(DATA_FILE, 'r', encoding='utf-8') as f:
 individuals = raw.get('individuals', [])
 predictions = raw.get('predictions', [])
 
-TRACKED_NAMES = ['Peter Zeihan', 'Doomberg', 'Peter Diamandis', 'Ian Bremmer']
+TRACKED_NAMES = ['Peter Zeihan', 'Doomberg', 'Peter Diamandis', 'Ian Bremmer', 'David McAlvany']
 tracked = [i for i in individuals if i.get('name') in TRACKED_NAMES]
 tracked.sort(key=lambda i: TRACKED_NAMES.index(i['name']))
 panelists = [i for i in individuals if i.get('name') not in TRACKED_NAMES]

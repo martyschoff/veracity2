@@ -100,7 +100,7 @@
         }
         .detail-grid {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(5, 1fr);
             gap: 12px;
         }
         .detail-card {
@@ -144,7 +144,7 @@
         }
         .grid-row {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(5, 1fr);
             min-width: 800px;
         }
         .grid-row:not(:last-child) { border-bottom: 1px solid var(--border); }
@@ -156,7 +156,7 @@
         [data-theme="light"] .header-row .grid-cell { background: rgba(0,0,0,0.02); }
         .pred-columns {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(5, 1fr);
             min-width: 800px;
         }
         .pred-column {
@@ -306,26 +306,6 @@
         <span><strong>{{ tracked_individuals|length }}</strong> tracked</span>
         <span><strong>{{ panelists|length }}</strong> panelists</span>
     </div>
-    <div class="panels-strip">
-        {% for cat, names in panelists_by_category.items() %}
-        <div class="panel-row">
-            <span class="panel-cat">{{ cat }}</span>
-            <span class="panel-names">{{ names | join(", ") }}</span>
-        </div>
-        {% endfor %}
-    </div>
-    <style>
-        .panels-strip {
-            max-width: 1400px; margin: 8px auto 0; padding: 8px 16px;
-            font-size: 0.72rem; color: var(--text-muted);
-        }
-        .panel-row { margin: 2px 0; }
-        .panel-cat {
-            display: inline-block; min-width: 90px; font-weight: 700;
-            text-transform: uppercase; font-size: 0.62rem; color: #8b5cf6;
-        }
-        .panel-names { opacity: 0.9; }
-    </style>
     {% if tracked_individuals %}
     <div class="pred-grid">
         <div class="grid-row header-row">
