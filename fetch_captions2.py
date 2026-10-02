@@ -77,12 +77,12 @@ if __name__ == "__main__":
                     print(vid, "OK", date, n, title[:50], flush=True)
                     break
                 print(vid, "FAIL", date, n, title[:50], flush=True)
-                time.sleep(20)
+                time.sleep(120)
             except Exception as e:
                 msg = str(e)
                 print(vid, "ERR", msg[:120], flush=True)
                 if "429" in msg:
-                    time.sleep(45)
+                    time.sleep(120)
                 else:
                     break
-        time.sleep(2)
+        time.sleep(6)
