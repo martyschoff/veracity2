@@ -1,0 +1,16 @@
+2026-10-02 21:51:44,383 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2026-10-02 21:53:29,548 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-02 21:55:23,257 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-02 21:56:38,766 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-02 21:57:55,614 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-02 22:00:25,005 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+s1 batch 13: FAILED
+2026-10-02 22:03:01,876 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2026-10-02 22:05:33,106 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+s1 batch 16: FAILED
+2026-10-02 22:07:21,688 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 200 OK"
+s1: 5/56 batches, 18.5 min
+2026-10-02 22:08:43,978 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-02 22:09:53,043 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-02 22:11:29,317 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-02 22:12:47,747 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 200 OK"

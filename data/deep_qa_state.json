@@ -1,0 +1,199 @@
+{
+ "stage": "A",
+ "batch_idx": 3,
+ "results": [
+  {
+   "i": 0,
+   "pred_id": "pred_20260930191835_1a49ca01f181",
+   "class": "PREDICTION",
+   "claim": "Chairman Xi Jinping of China will be in Washington for bilateral talks with Trump on the 24th.",
+   "category": "geopolitics",
+   "reason": "Forward-looking claim about a geopolitical event (bilateral talks) that can be verified as true/false."
+  },
+  {
+   "i": 1,
+   "pred_id": "pred_20260930190909_002",
+   "class": "PREDICTION",
+   "claim": "The U.S. and other countries' high-end chips in the 2 to 4 nm range, with advanced coolant topography design, will maintain a significant advantage in AI computation power over China's 4-5 nm chips.",
+   "category": "ai",
+   "reason": "Forecast about technological superiority in AI computation power, testable via future chip performance metrics."
+  },
+  {
+   "i": 2,
+   "pred_id": "pred_20260930191448_391aa8cf850c",
+   "class": "PREDICTION",
+   "claim": "The Strait of Hormuz will remain mostly closed for an extended period, limiting crude oil exports by about 20 million barrels.",
+   "category": "energy",
+   "reason": "Prediction about geopolitical conflict impacting energy supply, testable via shipping data and oil exports."
+  },
+  {
+   "i": 3,
+   "pred_id": "pred_20260930191939_77f45274fefb",
+   "class": "PREDICTION",
+   "claim": "The Persian Gulf conflict will result in roughly 20 million barrels of crude that can't get out.",
+   "category": "energy",
+   "reason": "Forward-looking claim about energy supply disruption due to conflict, testable via export data."
+  },
+  {
+   "i": 4,
+   "pred_id": "pred_20260930191539_80ffbead462b",
+   "class": "PREDICTION",
+   "claim": "The Chinese cannot make chips by themselves that are better than 28 nanometers and you're not going to run even a sloppy AI engine on something that is worse than say 14 or 15 and almost all the stuff that's being done in the United States is on stuff that is 5 nanometers and smaller.",
+   "category": "ai",
+   "reason": "Forecast about hardware capabilities for AI, testable via chip manufacturing benchmarks."
+  },
+  {
+   "i": 5,
+   "pred_id": "pred_20260930192033_e72d59032a15",
+   "class": "PREDICTION",
+   "claim": "The US will lose the ability to maintain the supply chains that make these chips within four to six years, causing AI chips to burn themselves out and requiring a complete rebuild of systems by the 2040s.",
+   "category": "ai",
+   "reason": "Long-term prediction about supply chain sustainability and AI hardware obsolescence, testable via industry timelines."
+  },
+  {
+   "i": 6,
+   "pred_id": "pred_20260930191615_d79e00a2d5fb",
+   "class": "SELF-REPORT",
+   "claim": "Japan's population has been shrinking for the last 20 years due to demographic failure",
+   "category": "other",
+   "reason": "Describes a past/present demographic trend, not a forward-looking claim."
+  },
+  {
+   "i": 7,
+   "pred_id": "pred_20260930192111_aadd10cff00e",
+   "class": "PREDICTION",
+   "claim": "The Chinese system is going to collapse for demographic reasons in a few years, assuming there's not a war or trade war.",
+   "category": "geopolitics",
+   "reason": "Forward-looking claim about systemic collapse due to demographics, conditional on no war/trade war, testable via political stability metrics."
+  },
+  {
+   "i": 8,
+   "pred_id": "pred_20260930192135_24fbdecdd5bf",
+   "class": "PREDICTION",
+   "claim": "The Trump administration will set up a prize court system to legally rule on products seized by the US military from Iran's shadow fleet, with proceeds going to the Treasury.",
+   "category": "geopolitics",
+   "reason": "Forecasts a specific US policy action with geopolitical implications."
+  },
+  {
+   "i": 9,
+   "pred_id": "pred_20260930192135_ac44ac0fd216",
+   "class": "PREDICTION",
+   "claim": "The rest of the year will get really interesting due to this prize court initiative.",
+   "category": "geopolitics",
+   "reason": "Predicts geopolitical consequences of the prize court system."
+  },
+  {
+   "i": 10,
+   "pred_id": "pred_20260930192215_bea2e73ba9bd",
+   "class": "PREDICTION",
+   "claim": "Southeast Asia... will develop a political system for economic integration that allows them to punch above their collective weight.",
+   "category": "geopolitics",
+   "reason": "Forecasts regional economic/political integration in Southeast Asia."
+  },
+  {
+   "i": 11,
+   "pred_id": "pred_20260930192215_a2cb0463b89c",
+   "class": "PREDICTION",
+   "claim": "The southern cone of Latin America will form a cohesive economic bloc with solid educational base that can function independently if China goes away and manufactured goods become scarce.",
+   "category": "geopolitics",
+   "reason": "Predicts economic bloc formation in response to global supply chain shifts."
+  },
+  {
+   "i": 12,
+   "pred_id": "pred_20260930192307_c20f9aa39f2c",
+   "class": "PREDICTION",
+   "claim": "Japan's robot project will not be operational until around New Year's and will not finish the model until 2028",
+   "category": "ai",
+   "reason": "Specific timeline prediction about AI/robotics development."
+  },
+  {
+   "i": 13,
+   "pred_id": "pred_20260930192307_f7bb161cb48f",
+   "class": "PREDICTION",
+   "claim": "Japan will face a workforce shortage of more than 11 million workers as early as 2030",
+   "category": "health",
+   "reason": "Demographic prediction tied to aging population and labor market."
+  },
+  {
+   "i": 14,
+   "pred_id": "pred_doomberg_d5e76711",
+   "class": "PREDICTION",
+   "claim": "A 'Mad Max style' great reset is coming with $150 oil and the Middle East at a tipping point.",
+   "category": "energy",
+   "reason": "Predicts energy price surge and geopolitical instability in the Middle East."
+  },
+  {
+   "i": 15,
+   "pred_id": "pred_doomberg_9486f67c",
+   "class": "PREDICTION",
+   "claim": "Trump will call a national emergency over a diesel fuel crisis.",
+   "category": "energy",
+   "reason": "Forecasts executive action in response to energy supply disruptions."
+  },
+  {
+   "i": 16,
+   "pred_id": "pred_doomberg_28edafe2",
+   "class": "PREDICTION",
+   "claim": "Natural gas and oil will set new records in 2024 \u2014 the green transition is over.",
+   "category": "energy",
+   "reason": "Forward-looking claim about energy market outcomes (natural gas/oil records) and the green transition's status."
+  },
+  {
+   "i": 17,
+   "pred_id": "pred_doomberg_67f74507",
+   "class": "PREDICTION",
+   "claim": "Gold is signaling a massive regime change in global finance.",
+   "category": "finance",
+   "reason": "Forward-looking claim about global financial system shifts indicated by gold's behavior."
+  },
+  {
+   "i": 18,
+   "pred_id": "pred_diamandis_d635b663",
+   "class": "PREDICTION",
+   "claim": "AI agents will automate 30% of knowledge work by end of 2026.",
+   "category": "ai",
+   "reason": "Quantifiable forward-looking claim about AI's impact on knowledge work."
+  },
+  {
+   "i": 19,
+   "pred_id": "pred_20261001134835_000",
+   "class": "PREDICTION",
+   "claim": "If Bolsonaro wins, we will see a warmer relationship with the United States almost immediately.",
+   "category": "geopolitics",
+   "reason": "Conditional forward-looking claim about Brazil-US geopolitical relations."
+  },
+  {
+   "i": 20,
+   "pred_id": "pred_20261001134835_001",
+   "class": "PREDICTION",
+   "claim": "Brazil would suddenly go after drug gangs as terrorist organizations and cooperate with the US directly on intelligence and militarily on the ground in Brazil.",
+   "category": "geopolitics",
+   "reason": "Forward-looking claim about Brazil's geopolitical actions and US collaboration."
+  },
+  {
+   "i": 21,
+   "pred_id": "pred_20261001134900_000",
+   "class": "PREDICTION",
+   "claim": "The US government is not prepared to take a lead in regulation or governance of AI, and companies will not cooperate because they don't trust each other and want to win, while also avoiding antitrust concerns.",
+   "category": "ai",
+   "reason": "Forward-looking claim about AI governance and corporate behavior."
+  },
+  {
+   "i": 22,
+   "pred_id": "pred_20261001134900_001",
+   "class": "PREDICTION",
+   "claim": "There will be a policy backlash against AI due to incidents like OpenAI's unauthorized access to Australia's public health system, and the response will be reactive rather than proactive or systemic.",
+   "category": "ai",
+   "reason": "Forward-looking claim about regulatory responses to AI incidents."
+  },
+  {
+   "i": 23,
+   "pred_id": "pred_20261001134922_000",
+   "class": "PREDICTION",
+   "claim": "The US and China are setting up their upcoming meeting to go well because President Trump is looking short-term and Xi Jinping is looking long-term, with Trump focused on immediate electoral benefits like TikTok control and soybean purchases, while Xi focuses on 5-10-20 year strategic goals.",
+   "category": "geopolitics",
+   "reason": "Forward-looking claim about US-China geopolitical strategy and meeting outcomes."
+  }
+ ],
+ "errors": []
+}

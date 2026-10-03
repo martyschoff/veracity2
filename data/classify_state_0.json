@@ -1,0 +1,702 @@
+{
+ "batch_idx": 36,
+ "results": {
+  "0": {
+   "0": {
+    "pred_id": "pred_20260930191835_1a49ca01f181",
+    "class": "PREDICTION",
+    "claim": "Chairman Xi Jinping of China will be in Washington for bilateral talks with Trump on the 24th.",
+    "category": "geopolitics",
+    "reason": "Forward-looking claim about a specific geopolitical event (bilateral talks) between China and the U.S."
+   },
+   "1": {
+    "pred_id": "pred_20260930190909_002",
+    "class": "PREDICTION",
+    "claim": "The U.S. and other countries' high-end chips in the 2 to 4 nm range, with advanced coolant topography design, will maintain a significant advantage in AI computation power over China's 4-5 nm chips.",
+    "category": "ai",
+    "reason": "Forward-looking claim about technological superiority in AI computation power between global players and China."
+   },
+   "2": {
+    "pred_id": "pred_20260930191448_391aa8cf850c",
+    "class": "PREDICTION",
+    "claim": "The Strait of Hormuz will remain mostly closed for an extended period, limiting crude oil exports by about 20 million barrels.",
+    "category": "energy",
+    "reason": "Forward-looking claim about geopolitical disruption of energy (oil) supply via the Strait of Hormuz."
+   },
+   "3": {
+    "pred_id": "pred_20260930191939_77f45274fefb",
+    "class": "PREDICTION",
+    "claim": "The Persian Gulf conflict will result in roughly 20 million barrels of crude that can't get out",
+    "category": "energy",
+    "reason": "Forward-looking claim about energy (oil) supply disruption due to geopolitical conflict in the Persian Gulf."
+   },
+   "4": {
+    "pred_id": "pred_20260930191539_80ffbead462b",
+    "class": "PREDICTION",
+    "claim": "The Chinese cannot make chips by themselves that are better than 28 nanometers and you're not going to run even a sloppy AI engine on something that is worse than say 14 or 15 and almost all the stuff that's being done in the United States is on stuff that is 5 nanometers and smaller.",
+    "category": "ai",
+    "reason": "Forward-looking claim about technological limitations in China's AI hardware (chip manufacturing) compared to the U.S."
+   },
+   "5": {
+    "pred_id": "pred_20260930192033_e72d59032a15",
+    "class": "PREDICTION",
+    "claim": "The US will lose the ability to maintain the supply chains that make these chips within four to six years, causing AI chips to burn themselves out and requiring a complete rebuild of systems by the 2040s.",
+    "category": "ai",
+    "reason": "Forward-looking claim about future technological (AI chip) supply chain collapse and systemic rebuild in the 2040s."
+   },
+   "6": {
+    "pred_id": "pred_20260930191615_d79e00a2d5fb",
+    "class": "SELF-REPORT",
+    "claim": "Japan's population has been shrinking for the last 20 years due to demographic failure",
+    "category": "other",
+    "reason": "Describes a past/factual demographic trend in Japan, not a forward-looking claim."
+   },
+   "7": {
+    "pred_id": "pred_20260930192111_aadd10cff00e",
+    "class": "PREDICTION",
+    "claim": "The Chinese system is going to collapse for demographic reasons in a few years, assuming there's not a war or trade war.",
+    "category": "china",
+    "reason": "Forward-looking claim about geopolitical instability in China due to demographic factors."
+   }
+  },
+  "3": {
+   "0": {
+    "pred_id": "pred_20261001134922_001",
+    "class": "PREDICTION",
+    "claim": "The United States and China are actively competing in artificial intelligence, with Americans being scared of AI and believing it will hurt them, while Chinese citizens favor AI and believe it will help their economy, creating a fundamental ideological divide that will persist despite diplomatic efforts.",
+    "category": "ai",
+    "reason": "The claim forecasts a persistent ideological divide in AI adoption between the US and China, which is a forward-looking geopolitical and technological outcome."
+   },
+   "1": {
+    "pred_id": "pred_20261001134939_000",
+    "class": "PREDICTION",
+    "claim": "Trump will announce a deal on Greenland at his speech at the United Nations this week",
+    "category": "geopolitics",
+    "reason": "The claim predicts a specific future event (Trump's announcement) related to international relations and territorial agreements."
+   },
+   "2": {
+    "pred_id": "pred_20261001134939_001",
+    "class": "SELF-REPORT",
+    "claim": "The United States has been diminished as a global disrupter compared to where it was 12-18 months ago",
+    "category": "geopolitics",
+    "reason": "The claim describes a current assessment of the US's geopolitical influence, not a forward-looking prediction."
+   },
+   "3": {
+    "pred_id": "pred_20261001134952_000",
+    "class": "SELF-REPORT",
+    "claim": "Anthropic, the AI company, revealed that it had blocked several users of its popular platform Claude from using its models to conduct research that could have helped develop dangerous biological weapons.",
+    "category": "ai",
+    "reason": "The claim reports a past action by Anthropic, not a forward-looking assertion."
+   },
+   "4": {
+    "pred_id": "pred_20261001134952_001",
+    "class": "PREDICTION",
+    "claim": "AI makes it easier for humans to set off a crisis they can't control, and the greatest threat may not be AI deciding to destroy humanity itself, but AI making it easier for humans to trigger catastrophic events.",
+    "category": "ai",
+    "reason": "The claim forecasts a future risk scenario involving AI's role in enabling human-triggered crises."
+   },
+   "5": {
+    "pred_id": "pred_20261001142022_000",
+    "class": "SELF-REPORT",
+    "claim": "National Gas has moved into the advanced engineering design phase for a 350-mile hydrogen pipeline linking St Fergus in northeast Scotland to Teesside on England's east coast, the gas transmission system operator said in a statement Sept. 17.",
+    "category": "energy",
+    "reason": "The claim describes a current project phase, not a forward-looking prediction."
+   },
+   "6": {
+    "pred_id": "pred_20261001142022_001",
+    "class": "SELF-REPORT",
+    "claim": "National Gas plans to develop a 1,500-mile national hydrogen network connecting major industrial clusters and hydrogen production centers",
+    "category": "energy",
+    "reason": "The claim outlines a planned project phase, but the statement is about current planning, not a testable future outcome."
+   },
+   "7": {
+    "pred_id": "pred_20261001142036_000",
+    "class": "SELF-REPORT",
+    "claim": "German Chancellor Friedrich Merz intends to keep pretending he has a mandate to lead, at least for now",
+    "category": "geopolitics",
+    "reason": "The claim describes a current political behavior, not a forward-looking assertion."
+   }
+  },
+  "6": {
+   "0": {
+    "pred_id": "pred_20261001142337_000",
+    "class": "PREDICTION",
+    "claim": "The US is heading toward a natural gas shortage with no precedent, beginning in 2028.",
+    "category": "energy",
+    "reason": "Forward-looking claim about a specific energy market outcome (natural gas shortage) with a testable timeline."
+   },
+   "1": {
+    "pred_id": "pred_20261001142337_001",
+    "class": "PREDICTION",
+    "claim": "We could exhaust our working natural gas storage entirely by 2030.",
+    "category": "energy",
+    "reason": "Testable forecast about depletion of natural gas storage capacity."
+   },
+   "2": {
+    "pred_id": "pred_20261001142359_000",
+    "class": "PREDICTION",
+    "claim": "China's monthly car exports will continue to exceed America's entire capacity to make cars, and the country will maintain its position as the world's largest car exporter while domestic sales in China decline.",
+    "category": "china",
+    "reason": "Forecast about China's export dominance and domestic market trends in the automotive industry."
+   },
+   "3": {
+    "pred_id": "pred_20261001142359_001",
+    "class": "PREDICTION",
+    "claim": "The US AI industry will face similar treatment as China's automotive industry, with Beijing using industrial policy and subsidies to dominate global markets.",
+    "category": "ai",
+    "reason": "Comparison-based forecast about AI industry dynamics and geopolitical competition."
+   },
+   "4": {
+    "pred_id": "pred_20261001142426_000",
+    "class": "PREDICTION",
+    "claim": "Bloom Energy will expand its fuel cell capacity to meet demand growth, with clear visibility into its supply chain to support production of 25GW of fuel cells per year.",
+    "category": "energy",
+    "reason": "Forward-looking claim about a company's production capacity and supply chain readiness."
+   },
+   "5": {
+    "pred_id": "pred_20261001142445_000",
+    "class": "PREDICTION",
+    "claim": "Russia plans to import 400,000 tons of gasoline from various countries each month, including from neighbouring Belarus.",
+    "category": "energy",
+    "reason": "Testable forecast about Russia's fuel import strategy."
+   },
+   "6": {
+    "pred_id": "pred_20261001142445_001",
+    "class": "SELF-REPORT",
+    "claim": "Russia imports approximately 12% of its peak summer gasoline demand through imports.",
+    "category": "energy",
+    "reason": "Descriptive statement about current import levels, not a forward-looking claim."
+   },
+   "7": {
+    "pred_id": "pred_20261001155826_063811",
+    "class": "PREDICTION",
+    "claim": "Russia's presence as a significant oil exporter will end later this year due to damage inflicted on the shadow fleet by Ukraine.",
+    "category": "geopolitics",
+    "reason": "Forecast about geopolitical conflict impacts on Russia's oil exports with a specific timeline."
+   }
+  },
+  "9": {
+   "0": {
+    "pred_id": "pred_20261001160024_120998",
+    "class": "PREDICTION",
+    "claim": "Russia's space program will be completely offline by the end of the year.",
+    "category": "geopolitics",
+    "reason": "Forecasts Russia's future status of its space program as a geopolitical outcome."
+   },
+   "1": {
+    "pred_id": "pred_20261001160024_121021",
+    "class": "PREDICTION",
+    "claim": "Russia will be completely dependent on third-party reconnaissance, primarily from China.",
+    "category": "geopolitics",
+    "reason": "Predicts Russia's dependency on China for reconnaissance, a geopolitical shift."
+   },
+   "2": {
+    "pred_id": "pred_20261001160036_238392",
+    "class": "PREDICTION",
+    "claim": "The Strait of Hormuz will become functionally non-functional or operate as a toll system due to Iranian control, breaking over a century of international maritime law.",
+    "category": "geopolitics",
+    "reason": "Forecasts control of a strategic waterway and its impact on international law."
+   },
+   "3": {
+    "pred_id": "pred_20261001160036_238424",
+    "class": "PREDICTION",
+    "claim": "Iran will be able to charge tolls ranging from $100,000 to $2 million per passage through the Strait of Hormuz for supertankers carrying a million barrels.",
+    "category": "geopolitics",
+    "reason": "Predicts economic consequences of Iranian control over a strategic waterway."
+   },
+   "4": {
+    "pred_id": "pred_20261001160110_178270",
+    "class": "PREDICTION",
+    "claim": "Ukraine will drive down the price of the Patriot missile to a maximum of $250,000.",
+    "category": "geopolitics",
+    "reason": "Forecasts a geopolitical/military outcome affecting defense economics."
+   },
+   "5": {
+    "pred_id": "pred_20261001160147_723095",
+    "class": "PREDICTION",
+    "claim": "The United States' position as the determinant of what happens in the Persian Gulf will fade very rapidly and collapse before the end of this administration, if not the end of this year.",
+    "category": "geopolitics",
+    "reason": "Predicts a decline in U.S. geopolitical influence in the Persian Gulf."
+   },
+   "6": {
+    "pred_id": "pred_20261001160147_723126",
+    "class": "PREDICTION",
+    "claim": "By the year 2030, the countries involved in the proposed alliance (Saudi Arabia, Turkey, and Pakistan) will be seen as closer in security and economic integration, leading to a functional alliance.",
+    "category": "geopolitics",
+    "reason": "Forecasts the formation of a geopolitical alliance among three nations."
+   },
+   "7": {
+    "pred_id": "pred_20261001160223_023770",
+    "class": "PREDICTION",
+    "claim": "The Russian-Iranian shadow fleet will lose all of its capacity as the year draws on, with a total of about 7 million barrels a day (5 million from Russia and 2 million from Iran) disappearing due to sinking vessels and attacks.",
+    "category": "energy",
+    "reason": "Predicts the collapse of an energy transportation network due to geopolitical conflict."
+   }
+  },
+  "12": {
+   "0": {
+    "pred_id": "pred_20261001160615_366857",
+    "class": "PREDICTION",
+    "claim": "The United States will not have a military presence on the waters in the Arctic whenever there's ice for at least the next 30 years.",
+    "category": "geopolitics",
+    "reason": "Forward-looking claim about U.S. military strategy in the Arctic, testable over 30 years."
+   },
+   "1": {
+    "pred_id": "pred_20261001160615_366878",
+    "class": "PREDICTION",
+    "claim": "The United States will not be able to build icebreakers domestically and will rely on agreements with Canada and Finland, which are unlikely to materialize.",
+    "category": "geopolitics",
+    "reason": "Prediction about U.S. naval capabilities and international cooperation, testable via shipbuilding and diplomatic outcomes."
+   },
+   "2": {
+    "pred_id": "pred_20261001160738_835878",
+    "class": "PREDICTION",
+    "claim": "The Republican Party is absolutely unelectable in the next federal election due to Trump's purging of all but loyal supporters.",
+    "category": "geopolitics",
+    "reason": "Forward-looking claim about U.S. political party viability in an election, testable via election results."
+   },
+   "3": {
+    "pred_id": "pred_20261001160738_835900",
+    "class": "PREDICTION",
+    "claim": "The United States is heading toward a complete collapse of decision-making and governing capacity similar to China under Xi Jinping.",
+    "category": "geopolitics",
+    "reason": "Prediction about U.S. governance structure and its comparison to China, testable via institutional performance."
+   },
+   "4": {
+    "pred_id": "pred_20261001160845_797547",
+    "class": "PREDICTION",
+    "claim": "Democrats will win a majority in the House of Representatives with approximately 237-238 seats.",
+    "category": "geopolitics",
+    "reason": "Specific numerical prediction about U.S. election outcomes, testable via election results."
+   },
+   "5": {
+    "pred_id": "pred_20261001160845_797568",
+    "class": "PREDICTION",
+    "claim": "Democrats have a 55% odds of taking a majority in the Senate, though the majority will be narrow.",
+    "category": "geopolitics",
+    "reason": "Quantitative prediction about Senate election outcomes, testable via election results."
+   },
+   "6": {
+    "pred_id": "pred_20261001160943_166735",
+    "class": "PREDICTION",
+    "claim": "The Chinese are increasingly winning the AI race due to their enthusiasm and optimism compared to American uncertainty or fear.",
+    "category": "ai",
+    "reason": "Forward-looking claim about global AI development competitiveness, testable via technological advancements."
+   },
+   "7": {
+    "pred_id": "pred_20261001160943_166759",
+    "class": "PREDICTION",
+    "claim": "The geopolitical risk is changing because the politics of AI are themselves changing.",
+    "category": "ai",
+    "reason": "Prediction about evolving geopolitical risks linked to AI policy shifts, testable via geopolitical event trends."
+   }
+  },
+  "15": {
+   "0": {
+    "pred_id": "pred_20261001161942_860204",
+    "class": "PREDICTION",
+    "claim": "The oil-to-gas ratio in North America will return to historically normal levels and potentially reach energy parity or even exceed it, making natural gas more valuable than oil.",
+    "category": "energy",
+    "reason": "Forward-looking claim about energy market dynamics between oil and natural gas."
+   },
+   "1": {
+    "pred_id": "pred_20261001161942_860235",
+    "class": "PREDICTION",
+    "claim": "Alberta, Canada will attract $100 billion in investments to become a hub for artificial intelligence data centers, leveraging its abundance of natural gas, low taxes, and cold climate.",
+    "category": "ai",
+    "reason": "Testable forecast about AI infrastructure investment in Alberta."
+   },
+   "2": {
+    "pred_id": "pred_20261001161952_067875",
+    "class": "PREDICTION",
+    "claim": "Global demand for oil, natural gas, and coal are all at record levels and rising \u2013 no energy transition has begun.",
+    "category": "energy",
+    "reason": "Assertion about ongoing energy demand trends and absence of transition."
+   },
+   "3": {
+    "pred_id": "pred_20261001161952_067900",
+    "class": "PERSONAL-POSITION",
+    "claim": "Zero Energy Poverty by 2050 is a superior goal compared to Net Zero 2050.",
+    "category": "energy",
+    "reason": "Opinion on policy goals without testable world-outcome forecast."
+   },
+   "4": {
+    "pred_id": "pred_20261001162046_373296",
+    "class": "PREDICTION",
+    "claim": "China's solar industry will almost certainly set its high-water mark for new installations in 2025, with future growth expected to decline significantly.",
+    "category": "energy",
+    "reason": "Forecast about peak solar installation growth in China."
+   },
+   "5": {
+    "pred_id": "pred_20261001162046_373343",
+    "class": "PREDICTION",
+    "claim": "Hydrocarbons will continue to provide the vast majority of global primary energy, with their share declining only slightly from 86.24% in 2025.",
+    "category": "energy",
+    "reason": "Projection of hydrocarbon dominance in global energy mix."
+   },
+   "6": {
+    "pred_id": "pred_20261001162056_587561",
+    "class": "PREDICTION",
+    "claim": "China will continue to provide significant diplomatic and material support to Iran despite the risk of oil supply disruptions that could harm China's own energy security.",
+    "category": "geopolitics",
+    "reason": "Forecast of China-Iran geopolitical and energy dynamics."
+   },
+   "7": {
+    "pred_id": "pred_20261001162056_587597",
+    "class": "PREDICTION",
+    "claim": "The Strait of Hormuz closure strategy by Iran will lead to a major realignment of global energy markets post-conflict, affecting oil prices and supply chains.",
+    "category": "geopolitics",
+    "reason": "Prediction of geopolitical conflict's impact on energy markets."
+   }
+  },
+  "18": {
+   "0": {
+    "pred_id": "pred_20261001162408_631893",
+    "class": "PREDICTION",
+    "claim": "The US will end China's chokehold on the rare earth supply chain.",
+    "category": "geopolitics",
+    "reason": "Forward-looking geopolitical/economic forecast about supply chain control."
+   },
+   "1": {
+    "pred_id": "pred_20261001162421_652980",
+    "class": "PREDICTION",
+    "claim": "ExxonMobil will use its new patented proppant in about a quarter of its wells this year and roughly 50% of new wells by the end of 2026.",
+    "category": "energy",
+    "reason": "Specific future operational projection about energy production methods."
+   },
+   "2": {
+    "pred_id": "pred_20261001162435_907069",
+    "class": "PREDICTION",
+    "claim": "China's coal-to-liquids (CTL) industry capacity will double within the next five years, offsetting roughly 1.2 million barrels of oil per day.",
+    "category": "energy",
+    "reason": "Quantifiable future energy production forecast."
+   },
+   "3": {
+    "pred_id": "pred_20261001162435_907126",
+    "class": "PREDICTION",
+    "claim": "China's coal-to-gas capacity will more than double to 19.5 billion cubic meters annually, equaling roughly a fifth of China\u2019s LNG imports last year.",
+    "category": "energy",
+    "reason": "Future energy infrastructure projection with specific metrics."
+   },
+   "4": {
+    "pred_id": "pred_20261001162459_890722",
+    "class": "PREDICTION",
+    "claim": "China will succeed in winning what is described as an important battle of World War III.",
+    "category": "geopolitics",
+    "reason": "Speculative geopolitical outcome framed as a strategic victory."
+   },
+   "5": {
+    "pred_id": "pred_20261001162459_890745",
+    "class": "PREDICTION",
+    "claim": "The US will almost certainly have to beat a temporary retreat in response to China's rare earth restrictions.",
+    "category": "geopolitics",
+    "reason": "Future geopolitical response to supply chain conflict."
+   },
+   "6": {
+    "pred_id": "pred_20261001162517_840475",
+    "class": "PREDICTION",
+    "claim": "Oil and gas production in Argentina's Vaca Muerta shale play will continue to expand, making the country an increasingly important energy player.",
+    "category": "energy",
+    "reason": "Future energy production growth forecast."
+   },
+   "7": {
+    "pred_id": "pred_20261001162535_550778",
+    "class": "PREDICTION",
+    "claim": "China will pull back from its current sphere of influence in the Western Hemisphere, effectively returning it to American dominance.",
+    "category": "geopolitics",
+    "reason": "Future geopolitical realignment prediction."
+   }
+  },
+  "21": {
+   "0": {
+    "pred_id": "pred_20261001162812_682519",
+    "class": "PREDICTION",
+    "claim": "Oil prices will drop below $70 a barrel due to OPEC+ output increase and U.S. tariffs.",
+    "category": "energy",
+    "reason": "Forward-looking market forecast about oil prices driven by OPEC+ and U.S. tariffs."
+   },
+   "1": {
+    "pred_id": "pred_20261001162833_383894",
+    "class": "PREDICTION",
+    "claim": "Mark Carney will replace Justin Trudeau as Prime Minister of Canada and defeat Conservative Party leader Pierre Poilievre in the upcoming federal election.",
+    "category": "geopolitics",
+    "reason": "Political outcome prediction about Canadian leadership and election results."
+   },
+   "2": {
+    "pred_id": "pred_20261001162833_383928",
+    "class": "PREDICTION",
+    "claim": "Alberta\u2019s liquor stores will remove American products from their shelves due to increased national unity and anger toward Donald Trump.",
+    "category": "geopolitics",
+    "reason": "Business action prediction tied to geopolitical tensions and national unity."
+   },
+   "3": {
+    "pred_id": "pred_20261001162847_578289",
+    "class": "PREDICTION",
+    "claim": "The United States will withdraw from the Just Energy Transition Partnership (JETP) and end its financial commitments to Indonesia, Vietnam, and South Africa, totaling over $4.363 billion.",
+    "category": "energy",
+    "reason": "Geopolitical and financial prediction about U.S. energy transition funding withdrawal."
+   },
+   "4": {
+    "pred_id": "pred_20261001162847_578327",
+    "class": "PREDICTION",
+    "claim": "Geothermal energy will see a significant expansion under the Trump administration, with the industry potentially becoming a major contributor to U.S. electricity generation and supporting AI, manufacturing, and reshoring efforts.",
+    "category": "energy",
+    "reason": "Energy transition prediction with indirect AI and manufacturing implications."
+   },
+   "5": {
+    "pred_id": "pred_20261001162924_598286",
+    "class": "PREDICTION",
+    "claim": "The temporary withdrawal of all areas on the Outer Continental Shelf from offshore wind leasing will remain in effect until revoked, preventing new or renewed wind energy leasing for electricity generation in coastal waters for at least four years.",
+    "category": "energy",
+    "reason": "Policy prediction about U.S. offshore wind energy leasing restrictions."
+   },
+   "6": {
+    "pred_id": "pred_20261001162924_598311",
+    "class": "PREDICTION",
+    "claim": "President Trump's executive order on Alaska's resources will serve as a litmus test for whether the long-delayed 50-year-old project will actually be completed.",
+    "category": "energy",
+    "reason": "Conditional prediction about project completion tied to executive policy."
+   },
+   "7": {
+    "pred_id": "pred_20261001162940_936380",
+    "class": "PREDICTION",
+    "claim": "A demo project charging trains at Pueblo and plugging into the grid at Denver\u2019s Cherokee power station could be ready by 2026.",
+    "category": "energy",
+    "reason": "Infrastructure project timeline prediction contingent on funding."
+   }
+  },
+  "24": {
+   "0": {
+    "pred_id": "pred_20261001163826_476882",
+    "class": "PREDICTION",
+    "claim": "Ukraine's electricity production will be slashed by half due to Russian bombing campaign targeting power infrastructure.",
+    "category": "geopolitics",
+    "reason": "Forward-looking claim about the impact of Russian military actions on Ukraine's energy infrastructure, testable as right/wrong."
+   },
+   "1": {
+    "pred_id": "pred_20261001163826_476905",
+    "class": "PREDICTION",
+    "claim": "The winter will bring scenes of desperate citizens struggling against brutally cold conditions, potentially triggering an irreversible escalation in the conflict.",
+    "category": "geopolitics",
+    "reason": "Forecast of winter-induced humanitarian and geopolitical consequences in Ukraine, testable as right/wrong."
+   },
+   "2": {
+    "pred_id": "pred_20261001163852_751415",
+    "class": "PREDICTION",
+    "claim": "By 2030, only locomotives less than 23 years of age will be allowed to operate in California, unless they meet the cleanest EPA locomotive exhaust emission standard.",
+    "category": "energy",
+    "reason": "Regulatory prediction about locomotive emissions standards in California, testable as right/wrong."
+   },
+   "3": {
+    "pred_id": "pred_20261001163852_751442",
+    "class": "PREDICTION",
+    "claim": "In 2035, freight line haul locomotives with engine build dates of 2035 or newer will need to be operated in a zero-emission configuration in California.",
+    "category": "energy",
+    "reason": "Future regulatory requirement for zero-emission locomotives in California, testable as right/wrong."
+   },
+   "4": {
+    "pred_id": "pred_20261001163914_096636",
+    "class": "PREDICTION",
+    "claim": "The US will add 200 gigawatts of nuclear capacity by 2050 to reach net zero emissions.",
+    "category": "energy",
+    "reason": "Quantitative energy policy target (200 GW nuclear by 2050), testable as right/wrong."
+   },
+   "5": {
+    "pred_id": "pred_20261001163920_946298",
+    "class": "PREDICTION",
+    "claim": "The Rodeo Renewable Energy Complex will increase production rates to more than 800 million gallons per year (50,000 BPD) of renewable fuels by the end of the second quarter",
+    "category": "energy",
+    "reason": "Specific production target for a renewable energy facility, testable as right/wrong."
+   },
+   "6": {
+    "pred_id": "pred_20261001181024_1feff5099f91",
+    "class": "PREDICTION",
+    "claim": "The Russian military will expand to become the second largest standing army in the world.",
+    "category": "geopolitics",
+    "reason": "Forecast of Russian military size relative to global peers, testable as right/wrong."
+   },
+   "7": {
+    "pred_id": "pred_20261001181024_078c75a3dbf4",
+    "class": "PREDICTION",
+    "claim": "The United States will use conventional forces to destroy every Russian military and civilian asset shipping around the world if Russia were to throw a nuke anywhere.",
+    "category": "geopolitics",
+    "reason": "Conditional prediction about U.S. military response to a hypothetical Russian nuclear strike, testable as right/wrong."
+   }
+  },
+  "27": {
+   "0": {
+    "pred_id": "pred_20261001181451_25f5aeae9d8b",
+    "class": "PREDICTION",
+    "claim": "The current German government led by Olaf Scholz will remain in place until its full term ends and general elections are held, as the German system does not allow for votes of no confidence.",
+    "category": "geopolitics",
+    "reason": "Forward-looking claim about a political outcome (government tenure) based on institutional rules."
+   },
+   "1": {
+    "pred_id": "pred_20261001181503_837360bbd2e8",
+    "class": "PREDICTION",
+    "claim": "The French government will reach a cooperation deal with Pavel Durov regarding Telegram's data, potentially leading to significant intelligence breakthroughs for French intelligence and the Russian military losing its primary communication method.",
+    "category": "geopolitics",
+    "reason": "Predicts a geopolitical and technological outcome (intelligence cooperation and communication disruption)."
+   },
+   "2": {
+    "pred_id": "pred_20261001181503_9fa737ebc2ec",
+    "class": "PREDICTION",
+    "claim": "Pavel Durov will likely be induced to cooperate with French authorities and may face consequences, including a potential loss of his freedom or financial penalties.",
+    "category": "geopolitics",
+    "reason": "Forward-looking claim about individual actions and geopolitical consequences."
+   },
+   "3": {
+    "pred_id": "pred_20261001181511_985e735087e1",
+    "class": "PREDICTION",
+    "claim": "The European Union will build an Arbiter of Truth to manage social media and content moderation, following the example of Brazil's approach.",
+    "category": "other",
+    "reason": "Predicts regulatory action in social media governance."
+   },
+   "4": {
+    "pred_id": "pred_20261001181523_d7e82b52a0a5",
+    "class": "PREDICTION",
+    "claim": "The global wine industry will experience a growing split between countries that can generate their own financing or easily import capital and those that cannot, due to demographic shifts leading to reduced capital availability.",
+    "category": "other",
+    "reason": "Predicts economic and demographic trends affecting an industry."
+   },
+   "5": {
+    "pred_id": "pred_20261001181523_b8744b9782dd",
+    "class": "PREDICTION",
+    "claim": "Old World wine-producing countries, particularly in Europe, will face increasing difficulty justifying the capital necessary to sustain mature or new wine-growing regions due to aging demographics.",
+    "category": "finance",
+    "reason": "Predicts economic challenges in specific regions due to demographics."
+   },
+   "6": {
+    "pred_id": "pred_20261001181624_c696021e60b2",
+    "class": "PREDICTION",
+    "claim": "Global calorie production will drop by a third",
+    "category": "health",
+    "reason": "Predicts a global agricultural/food production outcome."
+   },
+   "7": {
+    "pred_id": "pred_20261001181624_4b7d8758fb35",
+    "class": "PREDICTION",
+    "claim": "The part of the United States most at risk from deglobalization is California's Central Valley",
+    "category": "other",
+    "reason": "Predicts regional economic vulnerability due to global trends."
+   }
+  },
+  "30": {
+   "0": {
+    "pred_id": "pred_20261001181951_951f0347b4a2",
+    "class": "PREDICTION",
+    "claim": "The Baltic states will switch their electrical system from Russian Standard to European Standard in March of the following year.",
+    "category": "geopolitics",
+    "reason": "Forward-looking geopolitical claim about infrastructure changes."
+   },
+   "1": {
+    "pred_id": "pred_20261001182002_89be7d8341fd",
+    "class": "PREDICTION",
+    "claim": "The Navy's Replicator Initiative will be online in prototype form within two years from the upload date (2024-08-19).",
+    "category": "other",
+    "reason": "Testable future event about a defense technology initiative."
+   },
+   "2": {
+    "pred_id": "pred_20261001182002_be6fb67bca5a",
+    "class": "PREDICTION",
+    "claim": "The age of super carriers may be over if navies fail to innovate fast enough to counter jet ski-style threats.",
+    "category": "geopolitics",
+    "reason": "Conditional forecast about military strategy and naval warfare."
+   },
+   "3": {
+    "pred_id": "pred_20261001182010_11fb6e05a8d7",
+    "class": "PREDICTION",
+    "claim": "The Mexican cartels will continue to expand their control over avocado production and protection rackets, making it worse rather than better in the near future.",
+    "category": "geopolitics",
+    "reason": "Forward-looking claim about organized crime's influence."
+   },
+   "4": {
+    "pred_id": "pred_20261001182010_15a1461593b2",
+    "class": "SELF-REPORT",
+    "claim": "A significant percentage of Mexican agricultural operations are now paying protection money to cartels, with a tenth to 15 percent of the tea industry in Mexico paying protection money.",
+    "category": "other",
+    "reason": "Describes current events without a forward-looking forecast."
+   },
+   "5": {
+    "pred_id": "pred_20261001182133_ab4fff214b5a",
+    "class": "PREDICTION",
+    "claim": "Myanmar will remain in a state of civil breakdown and civil war for the foreseeable future, with no political resolution appearing on the horizon.",
+    "category": "geopolitics",
+    "reason": "Forecast of ongoing conflict and political instability."
+   },
+   "6": {
+    "pred_id": "pred_20261001182133_31a375ef4a58",
+    "class": "PREDICTION",
+    "claim": "The center (Burmese government) cannot effectively push power into the provinces and edges of the country, leading to parts of Myanmar becoming stateless.",
+    "category": "geopolitics",
+    "reason": "Future outcome of governance failure in Myanmar."
+   },
+   "7": {
+    "pred_id": "pred_20261001182143_276d8e61329b",
+    "class": "PREDICTION",
+    "claim": "Iran will likely continue with tit-for-tat attacks but will not escalate to a major war involving its key players like Israel, Hezbollah, and Iran's own leadership.",
+    "category": "geopolitics",
+    "reason": "Forecast of Iran's strategic behavior in regional conflicts."
+   }
+  },
+  "33": {
+   "0": {
+    "pred_id": "pred_20261001182617_05ccfd074534",
+    "class": "PREDICTION",
+    "claim": "The Ultra Orthodox population in Israel will grow rapidly and, within the next 25 years, they will be neck and neck in terms of voting power with traditional secular Jews.",
+    "category": "geopolitics",
+    "reason": "Forward-looking demographic and political forecast about Israel's voting dynamics."
+   },
+   "1": {
+    "pred_id": "pred_20261001182617_479ef4971ee4",
+    "class": "PREDICTION",
+    "claim": "The demographic shift in the United States, particularly the retirement of baby boomers, will lead to reduced American support for Israel in the long term.",
+    "category": "geopolitics",
+    "reason": "Predicts long-term geopolitical impact of U.S. demographic changes on foreign policy."
+   },
+   "2": {
+    "pred_id": "pred_20261001182624_57911d4f28b1",
+    "class": "PREDICTION",
+    "claim": "The Europeans are likely to massively expand their defense spending due to the Ukraine war.",
+    "category": "geopolitics",
+    "reason": "Forecasts defense spending changes in Europe linked to the Ukraine conflict."
+   },
+   "3": {
+    "pred_id": "pred_20261001182633_5ef23768a95e",
+    "class": "PREDICTION",
+    "claim": "Bangladesh's textile industry will experience disruption that could last at least the next couple of years due to ongoing protests.",
+    "category": "other",
+    "reason": "Predicts economic disruption in Bangladesh's textile sector over a 2-3 year timeframe."
+   },
+   "4": {
+    "pred_id": "pred_20261001182633_42f5ae1aed65",
+    "class": "PREDICTION",
+    "claim": "The automation of textile production in the United States will soon make it cheaper than production in Bangladesh and China.",
+    "category": "other",
+    "reason": "Forecasts technological cost shifts in global textile manufacturing."
+   },
+   "5": {
+    "pred_id": "pred_20261001182642_a1956588c919",
+    "class": "SELF-REPORT",
+    "claim": "The polls currently being conducted are not predictive of the 2024 U.S. presidential election outcome due to methodological flaws and the absence of third-party candidates in polling data.",
+    "category": "other",
+    "reason": "Analyzes current polling limitations without asserting a testable future outcome."
+   },
+   "6": {
+    "pred_id": "pred_20261001182815_ac1e59dd394b",
+    "class": "PREDICTION",
+    "claim": "The United States will mass deploy American weapon systems off the Chinese coast within the next two to three years that are perfect for boxing in China.",
+    "category": "geopolitics",
+    "reason": "Predicts specific military deployment actions by the U.S. near China."
+   },
+   "7": {
+    "pred_id": "pred_20261001182815_43ca46c62295",
+    "class": "PREDICTION",
+    "claim": "The balance of forces for Russia across the entire theater will shift from problematic to catastrophic due to the return of U.S. mid-range weaponry in Europe.",
+    "category": "geopolitics",
+    "reason": "Forecasts a military strategic shift in Europe affecting Russia's position."
+   }
+  }
+ },
+ "errors": []
+}
