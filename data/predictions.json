@@ -786,7 +786,9 @@
       "stated_count": 2,
       "marty_agrees": false,
       "marty_note": "MartyPredicts: Wrong",
-      "mc_status": "queued"
+      "mc_status": "done",
+      "mc_result": "NO (38% of 24 decided, 16 unclear)",
+      "mc_split": 38
     },
     {
       "id": "pred_20260930192033_e72d59032a15",
@@ -804,7 +806,9 @@
       "judgements": [],
       "marty_agrees": false,
       "marty_note": "MartyPredicts: Wrong",
-      "mc_status": "queued"
+      "mc_status": "done",
+      "mc_result": "NO (0% of 10 decided, 30 unclear)",
+      "mc_split": 0
     },
     {
       "id": "pred_20260930191615_d79e00a2d5fb",
@@ -20609,7 +20613,9 @@
       "judgements": [],
       "marty_agrees": true,
       "marty_note": "MartyPredicts: Correct",
-      "mc_status": "queued"
+      "mc_status": "done",
+      "mc_result": "NO (0% of 22 decided, 18 unclear)",
+      "mc_split": 0
     },
     {
       "id": "pred_1790961078_17",
