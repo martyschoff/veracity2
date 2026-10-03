@@ -1,5 +1,17 @@
 # Pending UI/Data Changes — awaiting go command
 
+## 5. MIROFISH VERDICT (Fable analysis + QA-approved roadmap, 2026-10-03)
+- Finding: MiroFish is architecture-locked social-opinion sim (not generalist forecaster);
+  specialization into geopolitics/finance adjudication engine is WORTH IT for our use.
+- ROADMAP.md delivered at C:/Users/schof/mirofish-analysis/ROADMAP.md (26KB, Fable, QA-approved by tower1 120B on full doc).
+- Phases: 0 Ollama fleet profiles (S), 1 Claim model/API (S-M), 2 geo/finance ontology presets (M),
+  3 specialist YAML personas (M), 4 Graphiti/Neo4j replaces Zep (L), 5 panel deliberation + A/B (L),
+  6 verdict.json schema (M), 7 eval harness (M).
+- M0 milestone: ONE Zeihan claim end-to-end via CLI (preset ontology, 5 YAML specialists, 2-3 rounds,
+  Graphiti+Ollama, schema-valid verdict.json; no Zep). Acceptance criteria in ROADMAP.md.
+- QA-flagged risks: Graphiti search-tool parity vs ZepToolsService; Ollama fleet model quirks; UI deferred.
+- NEXT (user go pending): Fable implements M0 in a veracity-panel fork.
+
 ## 0. Panel/predictor rule (USER RULE, must implement in verdict logic)
 - A predictor can sit on panels, but CANNOT panel-vote on their own predictions.
 - Predictors: Zeihan, Doomberg, Diamandis, Bremmer + one more shortly.
