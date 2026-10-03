@@ -1,0 +1,1787 @@
+{
+ "judged": {
+  "pred_20260930191835_1a49ca01f181": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states the prediction in his own voice: \"On the 24th, Chairman Xi Jinping of China is going to actually be in Washington for bilateral talks with Trump.\" This is an original, forward\u2011looking claim, not a reported or quoted statement.",
+   "context_excerpt": "On the 24th, Chairman Xi Jinping of China is going to actually be in Washington for bilateral talks with Trump.",
+   "revised_claim": ""
+  },
+  "pred_20260930192307_f7bb161cb48f": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states the forecast in his own narration: \"...it's expecting a workforce shortage of more than 11 million workers as soon as 2030.\" This is an original claim by the speaker, not a quotation or report of someone else.",
+   "context_excerpt": "Japan is the world's oldest society. It's no longer the fastest aging, but it's expecting a workforce shortage of more than 11 million workers as soon as 2030.",
+   "revised_claim": ""
+  },
+  "pred_doomberg_67f74507": {
+   "status": "judged",
+   "found": "match",
+   "origin": "NOT-FOUND",
+   "borderline": false,
+   "reason": "The provided context contains a discussion about geopolitics, wars, and global power shifts, but there is no mention of gold or any claim that gold is signaling a massive regime change in global finance. Therefore the prediction cannot be located in the source text.",
+   "context_excerpt": "",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "NOT-FOUND"
+  },
+  "pred_20261001142124_001": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The article attributes the statement to Foreign Secretary Ed Miliband; the author is reporting Miliband's words, not asserting the forecast in their own voice. | escalation override: kept",
+   "context_excerpt": "Foreign Secretary Ed Miliband said the UK\u2019s position on the islands was \u2018unwavering,\u2019 and they would remain British as \u2018that is the overwhelming position of the Islanders.\u2019",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "OWNS"
+  },
+  "pred_20261001155851_033528": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states the prediction in their own voice without attribution or quotation, matching the stored claim.",
+   "context_excerpt": "Uh no country, including the United States, no coalition of countries can keep the seas safe any longer. So it's just a question of when and how and where it breaks down first.",
+   "revised_claim": ""
+  },
+  "pred_20261001155921_107185": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker describes the past 18 months of data showing a move opposite to reindustrialization, not a forward\u2011looking forecast that the United States will fail to achieve reindustrialization within the next 18 months. The stored claim misstates the speaker's statement as a prediction. | escalation override: kept",
+   "context_excerpt": "if you were looking for the reindustrialization of the United States under the Trump administration, we now have 18 months of data indicating that we've gone screaming in the opposite direction",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "OWNS"
+  },
+  "pred_20261001160016_444929": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly predicts that once Iran can enforce its will in the Persian Gulf, Turkey will similarly regulate the Bosphorus and Dardanelles. This is a forward\u2011looking statement made in the speaker's own voice, not a report or quotation.",
+   "context_excerpt": "The second it becomes apparent that the Iranians can enforce their will uh on the Persian Gulf in this way, you can bet your ass that the Turks are going to be doing the same thing.",
+   "revised_claim": ""
+  },
+  "pred_20261001160110_178270": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states the forecast in their own voice, not attributing it to anyone else.",
+   "context_excerpt": "If the Ukrainians are even mildly successful, they're going to be able to drive down the price of the Patriot... The Ukrainians need to get down to that to a quarter of a million a pop maximum.",
+   "revised_claim": ""
+  },
+  "pred_20261001160343_944971": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states their own forecast in first\u2011person language, matching the stored claim.",
+   "context_excerpt": "Best guess is that the shortage of 10 to 12 million barrels per day is going to go up over the next 3 months for the reasons I've already talked about plus of course the Houthis.",
+   "revised_claim": ""
+  },
+  "pred_20261001160553_451627": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker, Peter Zeihan, directly states the forward\u2011looking forecast in his own narration: \u201cThere\u2019s now talk of laying another parallel pipe, and maybe increasing this by another two or even 3 million barrels per day over the next few years.\u201d This is an original assertion, not a quotation or report of someone else\u2019s view.",
+   "context_excerpt": "There's now talk of laying another parallel pipe, and maybe increasing this by another two or even 3 million barrels per day over the next few years.",
+   "revised_claim": ""
+  },
+  "pred_20261001160943_166759": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states the claim in their own voice: \"So, the geopolitical risk is changing because the politics of AI are themselves changing.\" This is an unhedged, first\u2011person assertion, not a report of someone else\u2019s view.",
+   "context_excerpt": "So, the geopolitical risk is changing because the politics of AI are themselves changing.",
+   "revised_claim": ""
+  },
+  "pred_20261001161853_947436": {
+   "status": "judged",
+   "found": "match",
+   "origin": "PAST-FACT",
+   "borderline": false,
+   "reason": "The claim predicts a future emergency takeover, but the context reports that the UK government has already taken effective control of the blast furnace operations, describing a past event rather than a forward\u2011looking forecast.",
+   "context_excerpt": "The UK government took effective control Saturday of Britain\u2019s last remaining factory that makes steel from scratch from its Chinese owners, after lawmakers approved an emergency rescue.",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "REPORTED"
+  },
+  "pred_20261001162056_587561": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The article discusses China's current diplomatic and material assistance to Iran, but it does not contain a forward\u2011looking statement that China will continue this support despite oil\u2011supply risks. The specific prediction in the stored claim cannot be located in the provided context. | escalation override: kept",
+   "context_excerpt": "",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "OWNS"
+  },
+  "pred_20261001162333_680496": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The article author directly states that China is on track to sell nearly 16\u202fmillion EV and plug\u2011in hybrid units in its domestic market, which is a forward\u2011looking claim made in the author's own voice.",
+   "context_excerpt": "Today, China is the unquestioned leader in both EV and plug-in hybrid electric vehicle sales, and is on track to sell nearly 16 million units across the two categories in its domestic market alone.",
+   "revised_claim": ""
+  },
+  "pred_20261001162408_631893": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The claim is presented as a direct quotation of US Treasury Secretary Scott Bessent\u2019s statement, not as the article author\u2019s own forecast. It is therefore a quoted claim and should be removed. | escalation override: kept",
+   "context_excerpt": "In a recent sit-down interview with Fox Business, US Secretary of the Treasury Scott Bessent held up what he claimed was \u201cthe first magnet made in the US in 25 years,\u201d declaring that the US was \u201cending China\u2019s chokehold on our supply chain.\u201d",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "OWNS"
+  },
+  "pred_20261001162602_953822": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The article states that the Stabroek Block consortium has set a goal of 1.7\u202fmillion\u202fbpd by 2030. This is a reported target of the consortium, not a forecast asserted in the author\u2019s own voice. | escalation override: kept",
+   "context_excerpt": "The Stabroek Block consortium, which Exxon leads in partnership with Chevron and China\u2019s CNOOC Petroleum Guyana Limited, has set a goal of reaching an incredible 1.7 million bpd by 2030.",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "OWNS"
+  },
+  "pred_20261001162745_328888": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The article states that Phillips 66 announced its intent to close the Wilmington refinery by the end of 2025. This is a report of the company's announcement, not the author\u2019s own forecast. | escalation override: kept",
+   "context_excerpt": "Mere weeks after we flagged the state\u2019s risk, Phillips 66 announced its intent to close its Wilmington refinery\u2014located just outside Los Angeles\u2014by the end of 2025.",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "OWNS"
+  },
+  "pred_20261001162955_719808": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The sentence appears in the author's own narrative, not quoted or attributed to another source, and directly states the prediction.",
+   "context_excerpt": "Taken together, a strong pattern emerges signaling that China has made significant progress in building its home-grown industry, perhaps even to the point of self-sufficiency.",
+   "revised_claim": ""
+  },
+  "pred_20261001163054_705008": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The article\u2019s author directly states that Volkswagen is looking to reduce wages for about 140,000 workers by 10%, which is an unquoted, un-attributed forecast expressed in the author\u2019s own voice.",
+   "context_excerpt": "The company is also looking to reduce wages for around 140,000 workers by 10%, all of which would add to the woes of Europe\u2019s largest economy.",
+   "revised_claim": ""
+  },
+  "pred_20261001163914_096636": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The prediction is presented as a direct quotation from U.S. Secretary of Energy Jennifer Granholm (\u201c...we have to add 200 more gigawatts by 2050...\u201d), not as the article author's own assertion. Quoted material must be removed. | escalation override: kept",
+   "context_excerpt": "\"To reach our goal of net zero by 2050, we have to at least triple our current nuclear capacity in this country. That means we\u2019ve got to add 200 more gigawatts by 2050. Okay, two down, 198 to go!\"",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "OWNS"
+  },
+  "pred_20261001181054_0ca63cb03634": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states the forecast in their own voice: \u201cHezbollah needs to reorganize which is a process that\u2019s probably going to take over a year.\u201d This is an original assertion, not a report or quotation.",
+   "context_excerpt": "Hezbollah needs to reorganize which is a process that's probably going to take over a year",
+   "revised_claim": ""
+  },
+  "pred_20261001181440_c86ab5807910": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly forecasts that Mexican oil production will drop below the level needed for domestic supply within the next 2\u20113 years, using their own voice.",
+   "context_excerpt": "oil production is tanking to the point that very very soon probably within 2 or 3 years it's going to fall below the level that Mexico needs to supply its own meat",
+   "revised_claim": ""
+  },
+  "pred_20261001181523_b8744b9782dd": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states in their own voice that Europe\u2019s aging population will make it difficult to justify the capital needed to maintain existing or start new wine\u2011growing regions, matching the stored claim.",
+   "context_excerpt": "if you're talking about the Old World Europe is just aging massively and as the entire continent turns into basically a geriatric Camp it's going to be difficult to justify the volume of Capital that's necessary to keep a mature much less a new wine growing region running",
+   "revised_claim": ""
+  },
+  "pred_20261001181632_80213b83ad93": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states in their own voice that wheat will be the crop whose production collapses and whose price explodes as climate change reduces moisture in hot and dry agricultural zones.",
+   "context_excerpt": "the crop that is definitely going to collapse in terms of production explode in terms of price is going to be wheat",
+   "revised_claim": ""
+  },
+  "pred_20261001181755_802053df4c19": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states in their own voice that the Red Sea has become a stateless region where any vessel risks attack and that a military solution should not be expected anytime soon. This matches the stored prediction.",
+   "context_excerpt": "the Red Sea is basically just become a stateless region where anyone who sails through the road risk ... you shouldn't expect a military solution to this anytime soon",
+   "revised_claim": ""
+  },
+  "pred_20261001181826_9ab6277e2c01": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states that many Chinese infrastructure projects in Africa were unnecessary, cannot be operated locally, and have fallen into disrepair, indicating significant financial waste. This is expressed in his own voice, not reported from another source.",
+   "context_excerpt": "\"a lot of these projects were things that the locals didn't need or can't operate themselves when the Chinese actually started demanding payment a lot of this stuff just fell into disrepair... I don't have a specific number for Africa alone but on a global basis we're talking easily north of a trillion US\"",
+   "revised_claim": ""
+  },
+  "pred_20261001182010_15a1461593b2": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker is describing the current situation\u2014about a tenth to 15\u202f% of the tea industry in Mexico paying protection money\u2014not making a forward\u2011looking forecast. Therefore it is a present\u2011state claim, not a prediction. | escalation override: kept",
+   "context_excerpt": "we're now in a situation where something like a tenth to 15th per of the teas in Mexico are paying protection money to one of the cartels",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "OWNS"
+  },
+  "pred_20261001182153_a5618c205f7a": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly forecasts that economic destitution and civil breakdown will lead to millions of refugees and immigrants leaving Bangladesh, using first\u2011person language. This is an original claim by the speaker, not a report or quotation.",
+   "context_excerpt": "we're probably going to see a lot of economic destitution and civil breakdown which means we're probably going to see millions of refugees and immigrants leaving Bangladesh for some other place",
+   "revised_claim": ""
+  },
+  "pred_20261001182433_293fc26c690a": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states that the existing tariffs are the first round and that they expect the tariffs to at least double over the next couple of years, which is a forward\u2011looking claim made in the speaker\u2019s own voice.",
+   "context_excerpt": "the United States and the European Union have both put heavy tariffs on Chinese electric vehicles ... this is just the first round expect these to at least double over the course of the next couple of years",
+   "revised_claim": ""
+  },
+  "pred_20261001182507_1bdf5a579e86": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states the forecast in their own voice ('you\u2019re not going to have mass manufacture of the technology within a decade'), not attributing it to anyone else or quoting external material.",
+   "context_excerpt": "And if that's the situation, you're not going to have mass manufacture of the technology within a decade.",
+   "revised_claim": ""
+  },
+  "pred_20261001182617_05ccfd074534": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states the forecast in their own voice, asserting that the Ultra\u2011Orthodox numbers are growing rapidly and that within the next 25 years they will be neck\u2011and\u2011neck in voting power with secular Jews.",
+   "context_excerpt": "their numbers are growing very rapidly and we're going to need hit a position within the next 25 years where they are going to be neck and\u2011neck in terms of voting power with the traditional secular Jews",
+   "revised_claim": ""
+  },
+  "pred_20261001182642_a1956588c919": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states that current polls are unreliable and explains the methodological flaws and omission of third\u2011party candidates, which matches the stored claim.",
+   "context_excerpt": "you should absolutely not be paying any attention to the polls especially now ... you shouldn't be looking at any polls for any reason until you get to the first week of September ... third party candidates right now they're really not included in the polling",
+   "revised_claim": ""
+  },
+  "pred_20261001182901_e3610b7f84f6": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states in their own voice that the post\u2011World War\u202fII global system is breaking down because Americans can no longer or will not pay for global security and openness, matching the stored claim.",
+   "context_excerpt": "that whole system is breaking down two reasons number one the Americans can't pay for it anymore and don't want to",
+   "revised_claim": ""
+  },
+  "pred_20261001183123_de35a2130fe6": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker uses first\u2011person language (\u201cmy general assessment\u2026\u201d) to assert that Biden will win the election provided he stays alive, which matches the stored claim.",
+   "context_excerpt": "so my general assessment that this is Biden's election no matter what happens as long as he remains alive stands",
+   "revised_claim": ""
+  },
+  "pred_20261001183318_b96f1079f2b0": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker, Peter Zeihan, directly states the forecast in his own voice, asserting that the pipeline project will not happen without major changes in transport physics, construction, or energy. This is a forward\u2011looking claim made by the speaker themselves.",
+   "context_excerpt": "It is not going to happen unless our understanding of transport physics, construction, and energy change significantly and that doesn't seem to be on the table at the moment.",
+   "revised_claim": ""
+  },
+  "pred_20261001183533_2847161d9ca0": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker (Peter Z) directly states the forecast in his own voice, predicting a major Ukrainian offensive in a couple of months and that Ukraine is preparing to receive a large allotment of F\u201116s from NATO. This is an original forward\u2011looking claim, not a report of someone else\u2019s statement.",
+   "context_excerpt": "it appears that we're about to see a major offensive by the Ukrainians not in the next couple of days or anything like that probably going to be a couple months off ... the Ukrainians are preparing to receive a large allotment of f-16s from NATO countries",
+   "revised_claim": ""
+  },
+  "pred_20261001184251_a749bafeeebd": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly forecasts a negative outlook for the Euro within the next ten years, attributing it to the retirement of the working population caused by demographic aging. This is expressed in the speaker's own voice, not quoted or reported, but the original stored claim uses the stronger term \"collapse\" which is not stated in the transcript.",
+   "context_excerpt": "something something that happens within the next 10 years when that goes down there isn't much hope for the Euro",
+   "revised_claim": "The Euro will have little hope within the next 10 years as the working population retires due to demographic aging."
+  },
+  "pred_20261001184750_ffead3b69bde": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker is directly stating, in their own voice, that China's shale oil extraction is unlikely to become significant because of technical challenges (lake\u2011bed, waxy shales, low recovery rates) and geopolitical concerns (Sichuan\u2019s secessionist risk). This is a forward\u2011looking forecast made by the speaker, not a quotation or report of someone else\u2019s view.",
+   "context_excerpt": "So only about 5% of the wells that the Chinese have drilled at this point even remotely approach break even\u2026 they've steadily revised down their estimates. I think they're now down to less than 2% of what they thought they were to get 15 years ago.",
+   "revised_claim": ""
+  },
+  "pred_20261001184937_f37503d9111a": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states the forecast in their own voice, asserting that replacing Shoigu would likely increase Russia's capacity to prosecute the war.",
+   "context_excerpt": "if he were to be sacked and replaced with like an average third grader who doesn't even speak Russian there would probably be a significant increase in Russia's capacity to prosecute this war",
+   "revised_claim": ""
+  },
+  "pred_20261001185112_b08c100f15f7": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states their own forecast that, if current pace continues, China will have a carrier capable of standing up to a 50\u2011year\u2011old American carrier within the next decade or two.",
+   "context_excerpt": "if they keep up their current Pace they will be able to have a carrier that can stand up to an American Carrier that's 50 years old in the next decade or two not something that changes my forecast all that much",
+   "revised_claim": ""
+  },
+  "pred_20261001192201_021d368a35b6": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly asserts that the $5\u202fbillion investment \"doesn't move the needle\" and \"doesn't speed up the process,\" indicating it will not significantly accelerate Intel's ability to produce cutting\u2011edge sub\u20114nm semiconductors. This is the speaker's own forecast, not a reported or quoted statement.",
+   "context_excerpt": "It doesn't speed up the process. ... this really doesn't move the needle for anyone. It doesn't speed up the process.",
+   "revised_claim": ""
+  },
+  "pred_20261001192530_67e8fa9f8ab3": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states that a data center under construction in the UAE is expected to become operational before the end of 2026, which is a forward\u2011looking claim made in their own voice.",
+   "context_excerpt": "There is one of what's supposed to be one of the world's most advanced data centers under construction in the United Arab Emirates right now. If everything goes to plan, it'll become operational before the end of 2026.",
+   "revised_claim": ""
+  },
+  "pred_20261001192733_722af09c319a": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly forecasts future Ukrainian actions in his own voice: \u201cAnd if they are muted, you should expect the Ukrainians to go after those pumping stations in volume.\u201d This is a forward\u2011looking claim made by the author, not a report of someone else\u2019s view.",
+   "context_excerpt": "And if they are muted, you should expect the Ukrainians to go after those pumping stations in volume.",
+   "revised_claim": ""
+  },
+  "pred_20261001193016_0ad81da70c54": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states the forecast in their own voice, using first\u2011person plural (\"we're going to see\") to predict radical applications of current military drone technologies within the next five to ten years.",
+   "context_excerpt": "So these are all things we're going to see in probably just the next five years, certainly in the next 10. ... As the military technologies continue to evolve, we're going to see radical applications of all of these.",
+   "revised_claim": ""
+  },
+  "pred_20261001193405_05f12cababf6": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states in their own voice that the notion of the United States getting involved in a war with Iran to protect oil flows to China is flawed, implying the US will not intervene. This is a forward\u2011looking claim made by the speaker themselves.",
+   "context_excerpt": "the idea that the United States will get in involved in a war with Iran to protect oil flows to China, that's some very bad strategic math.",
+   "revised_claim": ""
+  },
+  "pred_20261001193757_e33c4129e1c3": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The context does not contain any mention of Elon Musk starting 50 local parties. It only reports that Musk intends to launch an America Party for the 2028 federal elections, without the specific detail of 50 local parties. Therefore the claim cannot be located in the provided text. | escalation override: kept",
+   "context_excerpt": "",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "OWNS"
+  },
+  "pred_20261001194157_62e49e406c80": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker, Peter Zion, directly asserts in his own voice that the Chinese military leadership is compromised by frequent purges, implying ongoing and future degradation of effectiveness. This is not a reported or quoted statement, nor a past fact.",
+   "context_excerpt": "when the ruling body of six people, which includes the chairman, has had eight people purged from it. It tells you what you need to know about the quality of the leadership.",
+   "revised_claim": ""
+  },
+  "pred_20261001194416_c832f3fffb07": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly asserts the forecast in their own voice, stating there will never be a deal and noting Iran has never signed a security, oil, or technology agreement. This is a first\u2011person prediction, not a reported or quoted statement.",
+   "context_excerpt": "Folks, there is never going to be a deal. Iran has never signed and implemented a security deal with anyone. In fact, the only thing that even comes close is the 1987 ceasefire in the Iran\u2011Iraq war, which was never turned into a peace agreement.",
+   "revised_claim": ""
+  },
+  "pred_20261001194437_53139e437b96": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states the current proportion of Ukrainian-made drone components, not a future forecast. The stored claim misstates this as a future increase, so we revise it to match the factual statement.",
+   "context_excerpt": "right now probably um when they started it was like 10 to 20% of the components were made in Ukraine. Now it's closer to 70 to 80%.",
+   "revised_claim": "Ukraine has increased the percentage of domestically produced drone components from about 10\u201120% to roughly 70\u201180%."
+  },
+  "pred_20261001194634_fd9417ef2c5e": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker attributes the forecast to \"they\" (the Israeli government) by saying they are telegraphing that the campaign will continue, rather than stating the prediction in their own voice. | escalation override: kept",
+   "context_excerpt": "And they are telegraphing that this is going to continue for at least a couple of weeks.",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "OWNS"
+  },
+  "pred_20261001194923_2d9374ddff1f": {
+   "status": "judged",
+   "found": "match",
+   "origin": "REPORTED",
+   "borderline": false,
+   "reason": "The speaker attributes the forecast to Defense Secretary Pete Hegsath ('defense secretary Pete Hegsath has said... If Taiwan is invaded, of course the United States will respond in kind...'), so it is not the speaker's own claim.",
+   "context_excerpt": "defense secretary Pete Hegsath has said that China is the threat. If Taiwan is invaded, of course the United States will respond in kind. Military options are not just on the table. They would be our goto.",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "REPORTED"
+  },
+  "pred_20261001195034_f7584ec126b1": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker (Peter Zion) directly states his own forecast that the new Syrian government will not endure and the civil war will resume, using first\u2011person language (\u201cdon\u2019t expect this to last\u2026 calm before the storm\u201d). This is an original assertion, not a reported or quoted statement.",
+   "context_excerpt": "we have a new government that controls most of the territory ... but don't expect this to last. We're at a kind of this the calm before the storm. ... the Civil War is kind of at a pause, but don't expect that to last.",
+   "revised_claim": ""
+  },
+  "pred_20261001195053_aea2ac65b500": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states that Trump has repeatedly said he has no intention of getting involved in a meaningful war with Iran, which matches the stored prediction. This is the speaker's own assertion, not a quotation or report of someone else.",
+   "context_excerpt": "while the Trump administration and Trump personally talks a big talk on Iran, uh Trump has made it very clear over and over and over again in both this administration and his first one that he has no intention of getting involved in a meaningful war.",
+   "revised_claim": ""
+  },
+  "pred_20261001195207_facd433840f0": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker is describing the current impact of the Trump administration\u2019s actions, stating that years of work have been unwound. This is an assessment of present/past events, not a forward\u2011looking prediction, so it should be removed. | escalation override: kept",
+   "context_excerpt": "Basically, all of that work has now been unwound because we took the one thing that the Indians cared about and basically took a big steaming dump on it. ... So, this is something that the Trump administration would have known if they had talked to people in the CIA or the NSC or the State Department, but all of those people have been fired.",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "OWNS"
+  },
+  "pred_20261001195352_198a207f35fe": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states that the Trump administration has forced a rapid industrialization pulse and that expanding the power grid by at least 50% in three years is technically impossible, which matches the stored claim and is expressed in the speaker's own voice.",
+   "context_excerpt": "And that means expanding the grid by a minimum of 50% in 3 years, which I think is technically impossible.",
+   "revised_claim": ""
+  },
+  "pred_20261001195554_9bda24d7d6c5": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly asserts the forecast in their own voice, not attributing it to anyone else, matching the stored claim.",
+   "context_excerpt": "But in China, even before the trade war, their demographic situation was so atrocious, they probably only had about 8 years left. And now they have to do it without a functional government.",
+   "revised_claim": ""
+  },
+  "pred_20261001195806_6f55f3952e71": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker, Peter Zeihan, directly states the forecast in his own voice, not attributing it to anyone else.",
+   "context_excerpt": "The last of the pre-tariff vessels will dock in Los Angeles on or about May 5. About 2 weeks later, the last will hit Houston. About a week after that, here in New York. And at that point, the inventory that's in the country is all we've got to work with, and we will see good shortages of almost every kind within a month.",
+   "revised_claim": ""
+  },
+  "pred_20261001195818_80b64abd2689": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly forecasts that federal action will pressure insurance companies and that their only response may be to stop offering coverage, which matches the stored claim.",
+   "context_excerpt": "So we will have federal action that will grind away the insurance companies in a way that is designed to benefit the consumer. And the only way that insurance companies can deal with that is by stopping to offer coverage.",
+   "revised_claim": ""
+  },
+  "pred_20261001200012_83541ed74771": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The transcript only describes the Trump administration's past actions of dismantling parts of the intelligence community and State Department that protect election integrity. It does not contain a forward\u2011looking forecast that the administration will continue to do so, so the claim is not a present or future prediction by the speaker. | escalation override: kept",
+   "context_excerpt": "",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "OWNS"
+  },
+  "pred_20261001200620_e35774391ac3": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker, Peter Zeihan, directly states his own forecast that meaningful American manufacturers should not be expected within the next two years, even with tariffs at 145%. This is an unhedged, first\u2011person prediction, so it should be kept.",
+   "context_excerpt": "you should not expect to get meaningful American manufacturers within the next two years.",
+   "revised_claim": ""
+  },
+  "pred_20261001200724_b8d1de3fb112": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker, Peter Zeihan, directly states the forecast in his own voice: \"they're going to have to bring in just shy of a million people a year who are under the age of 30 from now on\" as a condition to maintain Spain's demographic structure.",
+   "context_excerpt": "Just keep in mind that if the Spanish want to continue to repair or just maintain their demographic structure, they're going to have to bring in just shy of a million people a year who are under the age of 30 from now on.",
+   "revised_claim": ""
+  },
+  "pred_20261001200748_f91d2d3d5b7c": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The prediction appears verbatim in the speaker's own narrative without attribution or quotation marks, indicating the speaker is asserting the forecast themselves.",
+   "context_excerpt": "And if Ukraine were to fall, Turkey knows that its own national interests would be severely impinged.",
+   "revised_claim": ""
+  },
+  "pred_20261001201047_b3bc767d3874": {
+   "status": "judged",
+   "found": "match",
+   "origin": "KEEP-REVISED",
+   "borderline": false,
+   "reason": "The speaker directly asserts the forecast in their own voice: \"so the next wave is definitely going to cross illegally and form an underclass in American society.\" This is a forward\u2011looking claim, but the stored claim misstates the certainty (it says \"probably\" while the speaker says \"definitely\"). Hence we keep the prediction with a revised wording that matches the source.",
+   "context_excerpt": "so the next wave is definitely going to cross illegally and form an underclass in American society.",
+   "revised_claim": "The next wave will definitely cross illegally and form an underclass in American society."
+  },
+  "pred_20261001201109_b3204ad7bf6e": {
+   "status": "judged",
+   "found": "match",
+   "origin": "KEEP-REVISED",
+   "borderline": false,
+   "reason": "The speaker is making the forecast in their own voice, but the stored claim misidentifies the program as \"F-47 (NGAD)\" whereas the speaker refers to it as the \"ENGAD\" (NGAD). The core prediction about cost escalation to around $300\u202fmillion per airframe and reduced international interest due to broken alliances is present.",
+   "context_excerpt": "the ENGAD got a really nasty review from an internal Pentagon audit... they said it looked like the cost could be upward of $300 million per airframe. And the days of us being able to spread that out across the alliance, are gone.",
+   "revised_claim": "The ENGAD (NGAD) will likely face significant cost increases and reduced international interest due to the breakdown of U.S. alliances, potentially reaching $300\u202fmillion per airframe."
+  },
+  "pred_20261001201305_a27df89a8635": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker, Peter Zeihan, directly states the forecast in his own voice that the fentanyl crisis will not be resolved and that synthetic fentanyl production could reappear anywhere because the technology is easy, citing examples like Oklahoma or Illinois.",
+   "context_excerpt": "Does this mean that the fentanyl crisis is over? Oh god, no. ... the technology is so easy. We're talking about like middle school to high school chemistry here, that it would just pop up somewhere else, like in, say, I don't know, Oklahoma or Illinois. So, this is part of the drug milieu now. We're not going to get rid of it.",
+   "revised_claim": ""
+  },
+  "pred_20261001201517_c64929180fa9": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly asserts in his own voice that China cannot meet the 5% GDP growth target, matching the stored claim.",
+   "context_excerpt": "the big thing that was proclaimed was they're going to stick with the 5% GDP growth target which they can't make",
+   "revised_claim": ""
+  },
+  "pred_20261001192441_JYOwfq_0": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states the forecast in their own voice: \"the bailout to pay it back uh is going to take them decades\". This is an unqualified forward\u2011looking claim made by the speaker, not a quotation, report, or past fact.",
+   "context_excerpt": "the bailout to pay it back uh is going to take them decades",
+   "revised_claim": ""
+  },
+  "pred_20261001203633__Z_WmA_0": {
+   "status": "judged",
+   "found": "match",
+   "origin": "KEEP-REVISED",
+   "borderline": false,
+   "reason": "The speaker (Peter Z) directly states that ships are still being attacked and that most ships are avoiding the area by taking the long route around Africa. The stored claim adds a future prediction ('will continue to attack') that is not explicitly made in the transcript, so the claim should be revised to match the speaker's actual wording.",
+   "context_excerpt": "it's still in play the ships are still being attacked the reason that you're not hearing as much about it is most ships are simply avoiding the area now and doing the very very long sail around Africa",
+   "revised_claim": "The houthis are still attacking ships in the Red Sea, but most ships are simply avoiding the area and taking the long route around Africa."
+  },
+  "pred_20261001201617_d2458075ce54": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states that Israelis would like Russia to keep a nominal foothold in Syria to prevent Syria from becoming a threat again. This is an unquoted, first\u2011person narration, not attributed to another source.",
+   "context_excerpt": "the Israelis kind of would like to have the Russians keep at least a nominal foothold because it would shatter Syria and prevent it from ever resurrecting itself as any sort of threat to Israel again",
+   "revised_claim": ""
+  },
+  "pred_20261001201928_98683a1cc026": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states the forecast in their own voice, asserting that egg prices have risen sharply and there is no reason to expect them to fall, which is a forward\u2011looking claim.",
+   "context_excerpt": "egg prices have more than doubled they've gone up by like 40% just this year and there's no reason to expect that to go down at all uh considering how much inflation was a part of Joe Biden's feet relevant topic",
+   "revised_claim": ""
+  },
+  "pred_20261001202053_b5b4c9726997": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly asserts the forecast in their own voice: \u201cyou should expect both tourism and agriculture especially Dairy to continue to grow in percentage terms that are just not possible anywhere else in the world.\u201d This is not a quotation, report, or past fact, so the claim should be kept.",
+   "context_excerpt": "you should expect both tourism and agriculture especially Dairy to continue to grow in percentage terms that are just not possible anywhere else in the world",
+   "revised_claim": ""
+  },
+  "pred_20261001202234_e7434ecaccc2": {
+   "status": "judged",
+   "found": "match",
+   "origin": "KEEP-REVISED",
+   "borderline": false,
+   "reason": "The speaker is making the forecast in their own voice that Alberta and Saskatchewan would secede from Canada and apply for U.S. statehood. However, the stored claim adds an inaccurate five\u2011year timeframe that is not present in the source text, so the claim needs to be revised.",
+   "context_excerpt": "the idea that a majority of Canadians are going to petition for us membership is a stretch would would be far more likely to happen is individual provinces of Canada would secede from the Canadian nation and then apply for stth hood for the United States the first two states to watch are the two that youngest demographically that are the richest in per capita terms ... those are Alberta and Saskatchewan",
+   "revised_claim": "Alberta and Saskatchewan would secede from Canada and apply for U.S. statehood."
+  },
+  "pred_20261001202320_975e39219dc9": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker (Peter Z) directly states both that the United States has between 10\u201115\u202fmillion undocumented immigrants and that any policy that reduces this labor force will hinder the country's ability to prepare for a post\u2011Chinese trade world, which matches the stored claim.",
+   "context_excerpt": "the United States has somewhere between 10 and 15 million undocumented people in the United States so that's a substantial number of folks ... anything that inhibits the labor force is definitely going to inhibit our ability to prepare for a post Chinese world",
+   "revised_claim": ""
+  },
+  "pred_20261001202638_4fc03463d566": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The source contains only a hopeful statement ('hopefully we can figure out something in between in the United States ... before the birth rate drops too low') rather than a definitive forecast that the United States will develop a balanced childcare approach. The specific claim as worded is not present in the transcript. | escalation override: kept",
+   "context_excerpt": "hopefully we can figure out something in between in the United States uh before the birth rate drops too low",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "OWNS"
+  },
+  "pred_20261001202820_f45bbb86de75": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly asserts that shutting down foreign aid could cause damage to the United States' diplomatic and strategic global position, using their own voice without attribution.",
+   "context_excerpt": "could also be damage on an international scale because he's done basically the same thing with an executive order ... shutting down any foreign aid that requires dollar transfers ... we've seen the US Global position diplomatically and strategically basically Frozen",
+   "revised_claim": ""
+  },
+  "pred_20261001203044_3bae40774fe6": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly asserts that Trump's designation of Mexican cartels as terrorist groups will cause an unprecedented surge in legal migration via asylum claims, speaking in their own voice without attributing the forecast to anyone else.",
+   "context_excerpt": "what Trump has done with this designation is designate 130 million Mexicans and 50 million Central Americans as automatically qualifying for US immigration protection ... what Trump has done now is generated the largest influence of legal migration of the Asylum Clause",
+   "revised_claim": ""
+  },
+  "pred_20261001203358_f9336ceda670": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly forecasts that the Trump Administration will introduce a series of secondary sanctions targeting Iranian oil, using their own voice (e.g., \"you should expect to see the Trump Administration come up with a series of secondary sanctions...\"). This is an original prediction, not a quotation or report of someone else's view.",
+   "context_excerpt": "there are two things that you should expect to see number one you should expect to see the Trump Administration come up with a series of secondary sanctions to Target Iranian oil on a broader scale",
+   "revised_claim": ""
+  },
+  "pred_20261001203733_44fd6f3a00ae": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states that \"the Russians would never accept\" a deal with a 20\u2011year NATO pause, expressing the forecast in their own voice.",
+   "context_excerpt": "what has been floated from the Trump Camp is an armistice ... now from the Ukrainian point of view ... this is a deal that the Russians would never accept because they don't have 20 years and they don't need to just get Ukraine they need to get the rest of the entire Western periphery",
+   "revised_claim": ""
+  },
+  "pred_20261001203840_3c433876f1c2": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states the forecast in their own voice, using first\u2011person plural (\u201cwe\u201d), not quoting or reporting another source. The claim matches the wording in the transcript.",
+   "context_excerpt": "and so this is a country that while its demographics are bad uh it is developing a series of Technologies to cope with it which is something that we going to need ourselves in the future",
+   "revised_claim": ""
+  },
+  "pred_20261001204342_fe8343188137": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states the forecast in their own voice, saying that the government could be ousted by Christina Freeland with a simple vote, which matches the stored claim about the government likely falling.",
+   "context_excerpt": "the ball is in Miss freeland's Court uh if she decides that she wants to oust the government she can do it with a simple vote",
+   "revised_claim": ""
+  },
+  "pred_20261001204526_261cb412d1ee": {
+   "status": "judged",
+   "found": "match",
+   "origin": "KEEP-REVISED",
+   "borderline": false,
+   "reason": "The speaker asserts in his own voice that Hezbollah is already functionally gone because of Syria's collapse and Israeli actions. The stored claim misstates this as a future prediction ('will be functionally eliminated'), so the claim needs revision to match the source.",
+   "context_excerpt": "but as a functional organization Hezbollah is functionally gone at this point",
+   "revised_claim": "Hezbollah, the militant group founded and sponsored by Iran but managed by Syrians, is functionally eliminated due to the collapse of Syria and Israeli efforts to gut its leadership."
+  },
+  "pred_20261001204724_068c711b6c9f": {
+   "status": "judged",
+   "found": "match",
+   "origin": "PAST-FACT",
+   "borderline": false,
+   "reason": "The source text states that the TSMC facility is already 94% coherent, describing a present fact rather than a future forecast. The claim in the prediction implies a future change ('will begin operating at higher recovery rates'), which is not supported by the context.",
+   "context_excerpt": "what the tsmc facility is now 94% coherent so it is an important technological jump",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "PAST-FACT"
+  },
+  "pred_20261001205040_d385b1c141f2": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker, Peter Zion, directly asserts in his own voice that Chihuahua city is poised to become a major hub for advanced manufacturing\u2014including aerospace and mid\u2011tier semiconductors\u2014as the U.S. looks for alternatives to a declining Chinese industrial system.",
+   "context_excerpt": "as the Chinese system breaks down ... we will have to find Alternatives ... places like Chihuahua city ... to help compensate for the coming shortage ... while they do things like Automotive ... they also do a lot of Aerospace and I'd argue that the facilities here are in many ways more technologically advanced than what Airbus uses in most of Europe ... they also design mid\u2011tier semiconductors ... Chihuahua city not only has the highest productivity output per hour of input of Labor in Mexico ...",
+   "revised_claim": ""
+  },
+  "pred_20261001205238_4516edac12d3": {
+   "status": "judged",
+   "found": "match",
+   "origin": "NOT-FOUND",
+   "borderline": false,
+   "reason": "The transcript only describes past actions and the Biden Administration's current 'surgical' approach to tech barriers; it does not contain a forward\u2011looking statement that the administration will continue to enforce strict technological barriers against China. The stored claim is an inferred prediction not present in the source text.",
+   "context_excerpt": "",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "PAST-FACT"
+  },
+  "pred_20261001205440_17485271ffcb": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states that the replicator initiative is supposed to be operational by the end of calendar year 2027 in their own narrative voice, not as a quote, report, or past fact.",
+   "context_excerpt": "the US Navy is working on something called the replicator initiative ... replicator is supposed to be operational by the end of calendar year 2027 that's not that far away",
+   "revised_claim": ""
+  },
+  "pred_20261001205536_dceec237bce8": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly asserts the claim in their own narration: \"the United States has not just simply turned sharply isolationist and protectionist on both sides of the political aisle\".",
+   "context_excerpt": "the United States has not just simply turned sharply isolationist and protectionist on both sides of the political aisle",
+   "revised_claim": ""
+  },
+  "pred_20261001205645_75f57192d39c": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly asserts the forecast in their own voice: \"the United States needs to double the size of the industrial plant\". It is not quoted, reported, or a past fact.",
+   "context_excerpt": "But, in the world we're moving into, the United States needs to double the size of the industrial plant, and we are seeing that in Texas on a very daily basis.",
+   "revised_claim": ""
+  },
+  "pred_20261001205812_f07be4de34aa": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The source text only discusses past coups in Africa and attributes them to former Russian diplomats, but it does not contain a forward\u2011looking forecast that the number of coups will remain high. The specific claim about future coup frequency is not present in the transcript. | escalation override: kept",
+   "context_excerpt": "",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "OWNS"
+  },
+  "pred_20261001210019_40b64d0ae1f2": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states in their own voice that if Ukraine decided to pursue nuclear weapons, they would have a deliverable device within six months (\"I have no doubt that within 6 months they would at least have a device probably a deliverable weapon\"). This is an unhedged, first\u2011person forecast, so it qualifies as an owned claim to keep.",
+   "context_excerpt": "if the decision was made in Kiev to throw the switch and get started on this I have no doubt that within 6 months they would at least have a device probably a deliverable weapon",
+   "revised_claim": ""
+  },
+  "pred_20261001210050_167b97f065b6": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker (Peter Zion) directly asserts that China's demographic decline is far more advanced than Japan's and that the collapse of people under age 50 is worse in China today than in Japan. The stored claim adds an inaccurate detail about the year 2024, which is not mentioned in the source.",
+   "context_excerpt": "the demographic decline is way more advanced ... than it ever was in Japan 20 years ago ... in fact you could argue that in terms of the collapse of numbers of people under age 50 it's actually much worse today in China than it is in Japan even now",
+   "revised_claim": "China's demographic decline is more advanced than Japan's was in the 1990s, and the collapse of people under age 50 is currently much worse in China than it is in Japan."
+  },
+  "pred_20261001210237_7805013b778e": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The transcript provides a present estimate of the Chinese banking sector's NPL ratio (\"by most internal estimates China's total NPL ratio for the entire banking sector is somewhere between ...\"). This is a factual statement about current conditions, not a forward\u2011looking prediction, so it does not belong on a prediction\u2011tracking site. | escalation override: kept",
+   "context_excerpt": "by most internal estimates China's total npl ratio for the entire banking sector is somewhere between",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "OWNS"
+  },
+  "pred_20261001210924_6d07a7338890": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states, in their own voice, that the US president has the authority to suspend all raw crude exports if an oil shock makes prices untenable. This is not a reported or quoted statement, nor is it a past fact.",
+   "context_excerpt": "if we ever get to the point that there is an oil shock that drives prices to a point that the American president finds untenable the US president courtesy of powers granted back in 2015 has the authority to summarily suspend all exports of raw crude",
+   "revised_claim": ""
+  },
+  "pred_20261001211000_8a7994cf61d5": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states the forward\u2011looking forecast in their own voice: \"the challenge moving forward is we're now looking at a situation where the security situation in Mexico is going to degrade massively... we\u2019ve got a civil war going on among the cartels... and security in the country is the responsibility of the military...\" This matches the stored claim and is not a report of someone else\u2019s view.",
+   "context_excerpt": "the challenge moving forward is we're now looking at a situation where the security situation in Mexico is going to degrade massively we've got a civil war going on among the caloa cartel which used to be the most powerful one in the country and we have now Security in the country is responsibility of the military which is c",
+   "revised_claim": ""
+  },
+  "pred_20261001211135_c9f96bb7e247": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly predicts that the Argentine currency will fall by 80% within the next few months, using first\u2011person language (\u201cwe\u2019ll probably see that\u201d). This is an original forecast, not a report of someone else\u2019s view.",
+   "context_excerpt": "if the currency falls by 80% then the United States is holding Argentine pesos that are now worth 20 cents on the dollar. And judging by black market rates, we'll probably see that in the next few months.",
+   "revised_claim": ""
+  },
+  "pred_20261001211323_4a8be7750649": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly asserts in their own voice that the Trump administration would be sending prototype Tomahawk missiles, which are not yet ready, implying they will not send them. This matches the stored prediction and is not a quotation or report of another source.",
+   "context_excerpt": "Now the Americans are at the prototype stage of putting tomahawks onto trucks... Problem is it's not ready. It's only at the prototype stage. So, if the Trump administration was to do this, they would be sending the Ukrainians prototype weapons that haven't been through the full testing regimen.",
+   "revised_claim": ""
+  },
+  "pred_20261001211741_66a5b7a305f6": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker (Peter Zin) directly states the forecast in his own voice, not quoting or attributing it to anyone else. It is a forward\u2011looking claim about Germany\u2019s demographic and fiscal situation over the next ten years, so it should be kept.",
+   "context_excerpt": "The country that has paid for everything to this point has been Germany primarily and Germany over the next 10 years uh will basically age into an old folks home and convolescence can't pay a lot of income.",
+   "revised_claim": ""
+  },
+  "pred_20261001212105_c6e1401cf61a": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker, Peter Zion, directly states in his own voice that as manufacturing costs rise and globalization increases, 3D printing will find more niches where it is the applicable technology. This is an original, first\u2011person forecast, not a quotation or report of someone else\u2019s view.",
+   "context_excerpt": "And while it will undoubtedly as the cost of manufactured products go up, as globalization kicks in, it will obviously find more and more niches where it's the applicable technology, but it will always be coming from behind when it comes to mass application because of that speed issue.",
+   "revised_claim": ""
+  },
+  "pred_20261001212222_bc2974e39f30": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states their own forecast in first\u2011person voice: \"if in December real elections actually happen, I see no reason why that shouldn't happen again,\" indicating they expect the military to relinquish power after elections, matching the stored claim.",
+   "context_excerpt": "That's what happened about 12\u201113 years ago ... if in December real elections actually happen, I see no reason why that shouldn't happen again.",
+   "revised_claim": ""
+  },
+  "pred_20261001212252_993998a806b4": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states the forecast in their own voice: \"We will see places like uh Nigeria and maybe even Pakistan fall into that category,\" which matches the stored claim.",
+   "context_excerpt": "We\u2019re seeing Nepal and Madagascar. We\u2019re seeing Yemen. We will see places like uh Nigeria and maybe even Pakistan fall into that category.",
+   "revised_claim": ""
+  },
+  "pred_20261001212448_32090fbb9810": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker (Peter Zeihan) directly states his own assessment that a Korea\u2011Japan alliance against China is unlikely, providing reasons in his own voice.",
+   "context_excerpt": "Uh however, I don't see it as very likely. Uh the Koreans ... they hate the Japanese so much. ... the Japanese have carried out a few genocides ... and if there's one country in the world that the Koreans would not want to deal with, it would be Japan.",
+   "revised_claim": ""
+  },
+  "pred_20261001212611_706d924346cc": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states that Japan has turned the world\u2019s largest nuclear plant back on and argues that this will give Japan more energy options and security in a future where energy trade is less reliable. This is a forward\u2011looking claim expressed in the speaker\u2019s own voice, not attributed to anyone else.",
+   "context_excerpt": "the Japanese just turned back on the world's largest nuclear power plant... that is now coming back in a very big way. If you fast forward a few months, few years into a world that is more disconnected, where energy trade is not nearly as reliable, all of a sudden the Japanese have a lot more options than other countries.",
+   "revised_claim": ""
+  },
+  "pred_20261001212820_1aa47f181e2b": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly forecasts that Europe will see at least four (likely up to eight) new nuclear powers in the coming years, which aligns with the stored claim that Poland and several other European countries will become nuclear powers as a result of building nuclear plants. This is the speaker's own prediction, not a reported or quoted statement.",
+   "context_excerpt": "over the course of the next few years, we're going to have at least four, probably closer to eight new nuclear powers in Europe",
+   "revised_claim": ""
+  },
+  "pred_20261001213204_1d7fe896bcd0": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker is attributing the forecast to Donald Trump ('Trump has now publicly said...'), not asserting it in his own voice. | escalation override: kept",
+   "context_excerpt": "Trump has now publicly said that strikes on Venezuela onshore are imminent. Uh in fact, they might have happened by the time you see this video.",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "OWNS"
+  },
+  "pred_20261001213249_e098ef273a52": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker, Peter Zin, directly states in his own voice that deglobalization and a great global depression were inevitable and that the 2025\u20112035 decade would be when this breakdown occurs. This is an unhedged, first\u2011person forecast, so the claim should be kept.",
+   "context_excerpt": "I have always said that the decade from 2025 to 2035 was the decade where that was all going to break down. We were always going to have deglobalization. We were always going to have a great depression on a global scale.",
+   "revised_claim": ""
+  },
+  "pred_20261001213426_e042d81ef2ad": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker, Peter Zeihan, directly states the forward\u2011looking claim in his own voice: \"This calendar year 2026, the Americans, the Mexicans and the Canadians renegotiate the NAFTA 2 treaty.\" This is an original assertion, not a report of someone else\u2019s view, so it should be kept.",
+   "context_excerpt": "This calendar year 2026, the Americans, the Mexicans and the Canadians renegotiate the NAFTA 2 treaty.",
+   "revised_claim": ""
+  },
+  "pred_20261001213628_010da4749112": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states the forward\u2011looking forecast in their own voice: \u201cWithin a decade pretty much everything they have that\u2019s not ground based is going to be gone.\u201d This is not a quotation, report, or past fact, so it should be kept.",
+   "context_excerpt": "They're losing their space capability. Within a decade pretty much everything they have that's not ground based is going to be gone.",
+   "revised_claim": ""
+  },
+  "pred_20261001213803_218e8189d507": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly asserts that the United States will apply broad\u2011spectrum pressure to destabilize Cuba, increase pressure on Brazil, and actively intervene in Honduras, indicating a forward\u2011looking forecast in their own voice.",
+   "context_excerpt": "What I'm saying is there's going to be broadspectrum pressure on the entire Cuban system to break it. In a world where the United States is taking a more active role in the region, Brazil is going to have to find some way to basically make the Americans happy, and we now have the United States actively intervening in the politics of a Central American country like Honduras.",
+   "revised_claim": ""
+  },
+  "pred_20261001213950_a01186585b32": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker (Peter Zin) directly states in first\u2011person that the Oruronokco belt\u2019s production will eventually fall to zero because Venezuela lacks skilled labor, capital, rule of law and infrastructure, matching the stored claim.",
+   "context_excerpt": "\u2026remove the skilled labor, remove the capital access, remove the rule of law, remove the physical pipeline linking it to the world's largest consumer market\u2026 And I think the most likely outcome is that this is going to eventually fall down to zero because they're simply not going to be able to maintain it.",
+   "revised_claim": ""
+  },
+  "pred_20261001214202_b25781d05e12": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states in their own voice that, even if China were testing in violation of norms and treaties, the alleged test occurred 5\u20116 years ago, making immediate implications unlikely. This matches the stored claim and is not a quotation or report of someone else.",
+   "context_excerpt": "if the Chinese are testing in violation of norms and treaties, then obviously that's a big deal for any number of reasons. But this was from 5-6 years ago, so it's difficult to see an immediate implication of it.",
+   "revised_claim": ""
+  },
+  "pred_20261001215421_23e43e429e7f": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker (Peter Zeihan) directly states the claim in his own narration, not as a quotation or report of someone else.",
+   "context_excerpt": "The shadow fleet is over a thousand ships and there are not enough port facilities in the world to take them all.",
+   "revised_claim": ""
+  },
+  "pred_20261001215621_ae4e6f566d2a": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states the forecast in their own voice: \"the intent is by at some point in calendar year 2027 for annual production to exceed 10,000 units.\" This is not a quotation, report, or past fact, so it should be kept.",
+   "context_excerpt": "the intent is by at some point in calendar year 2027 for annual production to exceed 10,000 units.",
+   "revised_claim": ""
+  },
+  "pred_20261001215749_43cdd08bcc43": {
+   "status": "judged",
+   "found": "match",
+   "origin": "KEEP-REVISED",
+   "borderline": false,
+   "reason": "The speaker, Peter Zeihan, discusses how Panama\u2019s legal action against Chinese\u2011run ports demonstrates that China\u2019s strategy in the Western Hemisphere can be undermined by legal measures. He does not explicitly state a definitive forecast that China\u2019s influence will be \u2018significantly reduced\u2019; the stored claim overstates his wording. Therefore the claim is revised to reflect his actual analysis.",
+   "context_excerpt": "\"China's entire position in the Western Hemisphere is based on one very stupid assumption... This is a great example of showing how it all falls apart with nothing more than a little bit of legal action.\"",
+   "revised_claim": "Legal and diplomatic actions such as Panama's takeover of Chinese\u2011run ports will erode China\u2019s influence in the Western Hemisphere."
+  },
+  "pred_20261001215921_5af6090e19a1": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker (Peter Zion) directly states the claim in his own voice: \"So if the drugs aren't ready today, it's already too late.\" This is not a quotation, report, or past fact, but an original assertion by the speaker.",
+   "context_excerpt": "So if the drugs aren't ready today, it's already too late.",
+   "revised_claim": ""
+  },
+  "pred_20261001220125_8f27dc3d692a": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states the forecast in their own voice: \"And if Germany goes, that is the entirety of the American ability to project power to the Middle East,\" which matches the stored claim.",
+   "context_excerpt": "And that just leaves Germany. And if Germany goes, that is the entirety of the American ability to project power to the Middle East.",
+   "revised_claim": ""
+  },
+  "pred_20261001220439_8df8dc0aecb4": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker, Peter Zeihan, directly states in his own voice that the frequency of super\u2011typhoons hitting Guam is expected to increase as conditions evolve (implied climate change), which matches the stored claim.",
+   "context_excerpt": "the weather is basically pummeling it over and over and over again, and with the direction things are evolving, that will probably happen more and more often.",
+   "revised_claim": ""
+  },
+  "pred_20261001220459_6f5401b6f9d8": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker is describing actions the United States has already taken (going after Iranian vessels far from the Persian Gulf) rather than forecasting a future expansion. This is a present/past observation, not a forward\u2011looking claim. | escalation override: kept",
+   "context_excerpt": "the United States widened that conflict and started going after Iranian vessels that were nowhere near the Persian Gulf, and they took in a tanker, a large one, 2 million barrel capacity, off the coast of Sri Lanka, which is, you know, 3, 4,000 miles away from the Persian Gulf.",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "OWNS"
+  },
+  "pred_20261001220851_43a11bdcda8b": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states in their own narration that the business community has gotten fed up and is starting to change its mind, which matches the stored claim. This is a forward\u2011looking observation expressed in the speaker's voice, not a report of someone else's view.",
+   "context_excerpt": "What has evolved over the last 14 months is that the business community has kind of gotten fed up with what's going on and is starting to change its mind.",
+   "revised_claim": ""
+  },
+  "pred_20261001221222_ac1916d8afcb": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker, Peter Zeihan, directly states the forecast in his own voice: \u201cSo, in the short term, we're talking about a million barrels per day of refining capacity offline.\u201d This is an unhedged, first\u2011person assertion, not a report of someone else\u2019s claim.",
+   "context_excerpt": "So, in the short term, we're talking about a million barrels per day of refining capacity offline.",
+   "revised_claim": ""
+  },
+  "pred_20261001221504_090a01ee7f27": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker, Peter Zeihan, directly states that the USS Tripoli will arrive in the Persian Gulf within the next day or two (\u224848\u202fhours), that the USS Boxer will not be in the area for about three weeks, and that together this will amount to roughly 8,000 troops in the region. This is an unhedged, first\u2011person forecast, not a report of someone else\u2019s claim.",
+   "context_excerpt": "It will probably arrive in the vicinity of the Persian Gulf in the next day or two. It will not be in area for probably close to 3 weeks. Collectively, in 3 weeks, this means we have about 8,000 troops in the region.",
+   "revised_claim": ""
+  },
+  "pred_20261001215500_2tTqjF_0": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states the forecast in their own voice, saying \u201cWell, the tide may be turning\u2026 in the last week, we've had three communications between the White House and the Kremlin,\u201d which matches the stored claim.",
+   "context_excerpt": "Well, the tide may be turning. Uh in the last week, we've had three communications between the White House and the Kremlin.",
+   "revised_claim": ""
+  },
+  "pred_20261001222253_278379ba31c9": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker, Peter Zeihan, directly states the forward\u2011looking forecast in his own voice: \"at current rates of population growth and immigration, they anticipate they'll probably hit that 10 million number between 2035 and 2040.\" This is an original assertion, not a quotation or report of someone else.",
+   "context_excerpt": "at current rates of population growth and immigration, they anticipate they'll probably hit that 10 million number between 2035 and 2040",
+   "revised_claim": ""
+  },
+  "pred_20261001222334_4183f12cd5fd": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": true,
+   "reason": "The speaker is describing current reduced refinery runs and attributing them to lack of feedstock from Gulf disruptions in their own voice. The stored claim adds a future element ('will continue') that is not explicitly stated in the transcript, so the claim is slightly overstated.",
+   "context_excerpt": "we are seeing reduced refinery runs across Europe and across East and Southern Asia. ... The refineries aren't slowing down operations because there's no demand. They're slowing down operations because there's no feedstock.",
+   "revised_claim": "Refinery runs across Europe and East and Southern Asia are reduced because of lack of feedstock from Gulf disruptions.",
+   "escalated": true,
+   "tower_origin": "KEEP-REVISED"
+  },
+  "pred_20261001222448_c1384ce37d04": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "Peter Zeihan directly states his own forecast that the Trump administration will begin a strategy to take advantage of the Iranian economic blockade by the end of the week, which matches the stored claim.",
+   "context_excerpt": "And if there is going to be something that the Trump administration is going to do to take advantage of that, we get the beginnings of that strategy by the end of this week.",
+   "revised_claim": ""
+  },
+  "pred_20261001222646_217f96990eaf": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states in their own voice that Ukraine cannot achieve control of its airspace and that any ground assault would be under a hail of glide bombs, matching the stored claim.",
+   "context_excerpt": "there is no way that Ukrainians are anywhere close to getting any degree of control over their airspace. And as long as that happens, then if they do the Ukrainians do manage to launch a ground assault, they're going to be doing so under a hail of glide bombs because they can't really do much about it.",
+   "revised_claim": ""
+  },
+  "pred_20261001223114_3cf4fba3fde0": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states the relationship in their own voice: \"How this usually happens is when you've got this sort of disruption, prices go through the roof because there just isn\u2019t any throughput.\" This is an unqualified assertion by the speaker, not a quotation or report of someone else, so it should be kept.",
+   "context_excerpt": "How this usually happens is when you've got this sort of disruption, prices go through the roof because there just isn't any throughput.",
+   "revised_claim": ""
+  },
+  "pred_20261001223221_8c49cde5e94f": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker is describing an action that has already been taken (they have regularized the installation of aerial drones on naval drones) and notes the drones are now becoming carriers, which is a factual statement about the present/past, not a forward\u2011looking prediction. | escalation override: kept",
+   "context_excerpt": "the Ukrainians have now regularized the installment of aerial drones on naval drones. ... now they're becoming drone carriers as opposed to just suicide drones.",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "KEEP-REVISED"
+  },
+  "pred_20261001223550_e854e438ae13": {
+   "status": "judged",
+   "found": "match",
+   "origin": "PAST-FACT",
+   "borderline": false,
+   "reason": "The source text only describes the current situation\u2014Spain\u2019s population has increased by about 5\u202fmillion to roughly 47\u202fmillion and the average age has stabilized in the mid\u201140s. It does not contain a forward\u2011looking prediction that this trend will continue, so the claim is not a forecast present in the source.",
+   "context_excerpt": "Spain has seen its population increase by about 5 million to roughly 47 million today, and its average age has kind of stabilized in the mid-40s.",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "PAST-FACT"
+  },
+  "pred_20261001223625_616c29b63463": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker, Peter Zeihan, directly states the claim in his own voice without attribution, making it his own forecast.",
+   "context_excerpt": "Basically, we no longer have enough people to reach 50 in China to even theoretically repopulate a country of 400 million people, much less the supposedly the 1.2 billion that China says it has.",
+   "revised_claim": ""
+  },
+  "pred_20261001223744_a1d1726070cf": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly estimates that a 1\u2011GW space\u2011based data center would need roughly 500 Starship launches, stating it in their own voice without attribution.",
+   "context_excerpt": "Now you're talking about ... 200 Starship trips. ... So now we're basically conservatively up to 500 ... 500 Starship launches.",
+   "revised_claim": ""
+  },
+  "pred_20261001223917_85ebf34d6056": {
+   "status": "judged",
+   "found": "match",
+   "origin": "REPORTED",
+   "borderline": false,
+   "reason": "The speaker is relaying what South Koreans claim they will do ('when the Koreans say they're going to be producing millions of drones a year within few years'), not asserting the forecast themselves.",
+   "context_excerpt": "So, when the Koreans say they're going to be producing millions of drones a year within few years. I tend to believe them because they have a lot of the base industrial plan",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "REPORTED"
+  },
+  "pred_20261001224411_92c8412b2570": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker uses first\u2011person language ('I think') and directly states their own forecast that the debate will give Harris a bit more momentum but probably will not move her two or three points in the polls.",
+   "context_excerpt": "I think this will probably give Harris a little bit more momentum that had tapped out after the convention, but it's probably not going to move her two or three points.",
+   "revised_claim": ""
+  },
+  "pred_20261001224636_9128f43c0b10": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly asserts that Vice President Kamala Harris would be considerably less deferential to Netanyahu on Israel\u2011Palestine policy than President Biden, which matches the stored claim.",
+   "context_excerpt": "very hard for Harris to talk about that ... because she's the vice president sitting with Biden still running the policy and Biden ... being very deferential ... to nanyu. I think that K Harris would try to be considerably less so and would focus much more on ... the abrogation of human rights of the Palestinians",
+   "revised_claim": ""
+  },
+  "pred_20261001224944_627f6ce9ea21": {
+   "status": "judged",
+   "found": "match",
+   "origin": "NOT-FOUND",
+   "borderline": false,
+   "reason": "The speaker never asserts that Biden will step down. The transcript only reports inbound questions about a possible step\u2011down and discusses pressure, but does not contain a forward\u2011looking claim that Biden will likely leave the race.",
+   "context_excerpt": "",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "REPORTED"
+  },
+  "pred_20261001225017_fdadca3d67b3": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWN",
+   "borderline": false,
+   "reason": "The speaker (Ian Bremer) directly states that a diplomatic agreement is unlikely in the near term, which matches part of the claim. However, the claim adds speculation about the war expanding north with Hezbollah and intensifying in Rafah, which is not present in the transcript. Therefore the stored claim misstates the speaker's forecast and needs revision.",
+   "context_excerpt": "there is no agreement ... unlikely in the near term ... neither the Israelis or Hamas are coming to one",
+   "revised_claim": "A diplomatic agreement is unlikely in the near term, and the conflict is expected to continue intensifying in Gaza."
+  },
+  "pred_20261001225221_3fce5cb247ca": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states that the ICC report puts the hard right in Israel in a stronger position because the prime minister needs that support to maintain his leadership, which matches the stored claim and is expressed in the speaker's own voice.",
+   "context_excerpt": "it also puts the hard right in Israel in a stronger position because that's what the PM needs to maintain his leadership.",
+   "revised_claim": ""
+  },
+  "pred_20261001230106_f801fc3a53a1": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly speculates that continued unilateral Israeli actions could lead to international isolation, mentioning possible visa restrictions and boycotts (Eurovision, FIFA). This is expressed in the speaker's own voice, not reported or quoted.",
+   "context_excerpt": "you could easily see visa restrictions that would make it harder for the Israelis to travel to Europe, for example. ... there\u2019s been talk about potentially kicking Israel out of FIFA and European states saying they\u2019ll boycott Eurovision if Israel stays in.",
+   "revised_claim": ""
+  },
+  "pred_20261001230227_796f061dcfaa": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states the prediction in his own voice: \u201cThe United States is not going to break from Israel.\u201d This is an unqualified assertion, not a report of someone else\u2019s view.",
+   "context_excerpt": "The United States is not going to break from Israel.",
+   "revised_claim": ""
+  },
+  "pred_20261001230641_88d1009191b7": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states the forecast in their own voice: \u201cBut for light and specifically heavy rare earths, we're talking about probably 5 years or more.\u201d This matches the stored claim.",
+   "context_excerpt": "But for light and specifically heavy rare earths, we're talking about probably 5 years or more.",
+   "revised_claim": ""
+  },
+  "pred_20261001231423_aba29bf1ffce": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The transcript only describes past behavior\u2014oil prices fell after the Iranian strikes because production and export capabilities were untouched\u2014and does not contain a forward\u2011looking statement that oil prices will remain stable. The claim is not directly present in the source text. | escalation override: kept",
+   "context_excerpt": "",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "OWNS"
+  },
+  "pred_20261001231826_6487cfbd9880": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly speculates in their own voice that a tactical nuclear strike by Russia is more plausible now, providing a forward\u2011looking probability estimate. This is an original forecast, not a reported or quoted statement.",
+   "context_excerpt": "it's also more plausible that Russia might think about a tactical nuclear strike. And I don't think that's likely, thankfully. But, it's certainly more likely than it was on Friday. So, is it 5% now? Is it 10%? It's a lot higher than we would like it to be.",
+   "revised_claim": ""
+  },
+  "pred_20261001224528_CLtxVA_0": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker, Peter Zeihan, directly states the forward\u2011looking forecast in his own voice: \u201cIf we ever get into a real hot fight with the Russians, expect to see dozens of those every week.\u201d",
+   "context_excerpt": "If we ever get into a real hot fight with the Russians, expect to see dozens of those every week. This is different. This is sponsoring the creation of terror cells across the west.",
+   "revised_claim": ""
+  },
+  "pred_20261001230035_NNEi3R_0": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states the forecast in their own voice: \"I bet they're going to mostly going to be gone within a week or two.\" This is a forward\u2011looking claim made by the speaker, not a report of someone else's view.",
+   "context_excerpt": "I bet they're going to mostly going to be gone within a week or two.",
+   "revised_claim": ""
+  },
+  "pred_20261001233458__vghW__0": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states the forecast in their own voice (\u201cthey want to work with this transition government \u2026 I expect they will be announcing diplomatic engagement efforts \u2026\u201d). The stored claim adds \u201cto create democratic institutions,\u201d which is not present in the source text, so the claim needs revision rather than removal.",
+   "context_excerpt": "but the United States \u2026 they want to work with this transition government \u2026 I expect they will be announcing diplomatic engagement efforts to create deals on oil exploitation as well as demands for a fight against the Narco cartels.",
+   "revised_claim": "The United States will work with a transition government in Venezuela and will announce diplomatic engagement efforts, including deals on oil exploitation and actions against narco\u2011cartels."
+  },
+  "pred_20261001233611_QS9sas_0": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "Ian Bremmer directly states the forecast in his own voice, asserting that military strikes against Iran are looking increasingly imminent.",
+   "context_excerpt": "Hi everybody, Ian Bremmer here in a quick take to kick off your week. Want to talk about Iran where military strikes are looking increasingly imminent.",
+   "revised_claim": ""
+  },
+  "pred_20261001232407_b97a5e906695": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states that Europe will need to create an independent strategy for self\u2011defense, national security, political stability and democracy, and that it must do so outside the United States and even defend itself against the United States. This is a forward\u2011looking claim expressed in the speaker\u2019s own voice, not a report of someone else\u2019s view.",
+   "context_excerpt": "they understand that the Europeans are going to have to create an independent strategy for their own self\u2011defense, for their national security, for their political stability, for their democracies. ... they have to do that outside of the United States. In fact, they have to do that and defend themselves ... against the United States.",
+   "revised_claim": ""
+  },
+  "pred_20261001232559_5d8b7c8a965f": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states their own forecast ('I suspect he will...') that Trump will end the war by throwing Zelensky under the bus and supporting Russian election demands after a ceasefire, which matches the stored claim.",
+   "context_excerpt": "I suspect he will um in the near term after already calling for elections uh in a second phase after a ceasefire again a core Russian demand. ... Trump ... can ... throw Z under the bus and ... that's what Vance is doing.",
+   "revised_claim": ""
+  },
+  "pred_20261001232913_27b089eb38c9": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker (Ian Bremer) directly describes Trump's past use of tariffs, visa shutdowns, and diplomatic pressure and extrapolates that Trump will keep using these tools on other countries, which matches the stored prediction. This is the speaker\u2019s own forward\u2011looking assertion, not a quotation or report of someone else\u2019s view.",
+   "context_excerpt": "the response by president Trump was immediately 25% maybe 50% tariffs and shut off visas and shut down diplomatic engagement... I see this happening with Mexico ... they are ... showing Trump look at what we can accomplish ...",
+   "revised_claim": ""
+  },
+  "pred_20261001232939_12a2695a51c2": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly asserts that the United States will secure many geopolitical wins over the coming year, describing it in their own voice without attributing it to anyone else.",
+   "context_excerpt": "the United States is in a particularly strong position ... it's going to be very hard for them not to Kiss the Ring not to provide big wins for the Americans so lots of wins for Trump and that that's what we're going to see over the course of the coming year",
+   "revised_claim": ""
+  },
+  "pred_20261001233322_d8e1c27aac1b": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The prediction appears in the speaker's own narrative as an unqualified assessment ('it looks like they are preparing to send troops into Syria directly in the next 24 to 48 hours to shore up Assad'), not quoted or attributed to another source.",
+   "context_excerpt": "the Russians have sacked senior soldiers in charge of operations on the ground and it looks like they are preparing to send troops into Syria directly in the next 24 to 48 hours to shore up Assad",
+   "revised_claim": ""
+  },
+  "pred_20261001233524_4db5988079c0": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker (Ian Bremer) is stating in his own voice that American diplomacy resulted in a slightly more restrained Israeli strike. The stored claim misstates this as a future prediction (\u201cwill lead to\u201d), while the transcript describes a past outcome. Therefore the claim should be revised to match the source.",
+   "context_excerpt": "in response for that and American diplomacy the Israelis ended up I would argue with a slightly more restrained strike against Iran",
+   "revised_claim": "The Biden administration's diplomacy resulted in a slightly more restrained Israeli strike against Iran."
+  },
+  "pred_20261001234130_7d7ffbce0f59": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states the forecast in their own voice: \"the Russians are going to try their damnedest to continue to change the facts on the ground to their advantage \u2026 to get a better outcome.\" This is an original assertion, not a quotation or report of someone else.",
+   "context_excerpt": "the Russians are going to try their damnedest to continue to change the facts on the ground to their advantage um to get a better outcome.",
+   "revised_claim": ""
+  },
+  "pred_20261001234717_963c798d879f": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker (Ian Bremer) directly states that European leaders are pursuing policies to make the EU stronger, more competitive, and less bureaucratic in response to internal challenges and the shift in U.S. policy under Trump, which matches the stored claim.",
+   "context_excerpt": "These policies are made and they're meant to make Europe stronger not weaker. They are meant to be about more competitiveness... They're meant to reduce a level of over bureaucratization and red tape... there is a recognition that there's a problem but the European belief in that solution is that Europe and therefore the EU should be stronger.",
+   "revised_claim": ""
+  },
+  "pred_20261001234950_214f645e3541": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker Ian Bremer directly states the forecast in his own voice: \"You are not going to be putting that kind of military capacity in place and you're certainly not going to be making that kind of an ultimatum as Trump unless you're planning on using it.\" This matches the stored claim and is a forward\u2011looking statement.",
+   "context_excerpt": "You are not going to be putting that kind of military capacity in place and you're certainly not going to be making that kind of an ultimatum as Trump unless you're planning on using it.",
+   "revised_claim": ""
+  },
+  "pred_20261001235559_74369ceb7b05": {
+   "status": "judged",
+   "found": "match",
+   "origin": "PAST-FACT",
+   "borderline": false,
+   "reason": "The passage describes current or past support from South American populations for actions against Maduro, without making a forward\u2011looking prediction that they will continue to support removal of Maduro and a new government.",
+   "context_excerpt": "What we've seen is that most of the countries across South America have populations that have been very supportive in these actions because Maduro was seen as driving lots of instability.",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "PAST-FACT"
+  },
+  "pred_20261002000043_1a486e7fd648": {
+   "status": "judged",
+   "found": "match",
+   "origin": "REPORTED",
+   "borderline": false,
+   "reason": "The speaker (Ian Bremmer) is describing President Trump's desire to declare victory, not asserting his own forecast that the United States will actually do so. This is a relayed intention rather than a personal prediction.",
+   "context_excerpt": "So he now wants to declare victory quickly and look for an off\u2011ramp.",
+   "revised_claim": ""
+  },
+  "pred_20261002000122_df887085a098": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker states that the UAE is withdrawing from OPEC as current news, not as a future forecast. It describes a present event rather than a forward\u2011looking prediction. | escalation override: kept",
+   "context_excerpt": "Hi everybody, Ian Bremmer here and a quick take, big news today as the United Arab Emirates withdraws from OPEC.",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "KEEP-REVISED"
+  },
+  "pred_20261002000442_86820a291a43": {
+   "status": "judged",
+   "found": "match",
+   "origin": "NOT-FOUND",
+   "borderline": false,
+   "reason": "The transcript only poses a question about whether the regime can survive a fourth\u2011generation leader; it does not contain a statement by the speaker that the Kim family will definitely continue to rule for another generation.",
+   "context_excerpt": "",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "REPORTED"
+  },
+  "pred_20261002000616_ef6529588879": {
+   "status": "judged",
+   "found": "match",
+   "origin": "KEEP-REVISED",
+   "borderline": false,
+   "reason": "The speaker directly states the forecast in their own voice: \"...we're going to have about 12,000 additional troops in region by then that can be used ... as ground forces.\" The stored claim incorrectly adds the year 2026, which is not present in the source.",
+   "context_excerpt": "and the third aircraft carrier strike group coming in by April 15, 16 now. ... and that's the USS Bush. Uh we're going to have about 12,000 additional troops in region by then that can be used um as ground forces.",
+   "revised_claim": "The United States will deploy about 12,000 additional troops to the region by April\u202f15\u201116 to be used as ground forces."
+  },
+  "pred_20261002000907_c64ac028d6aa": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states the claim in their own voice without quotation marks or attribution, indicating an original assertion.",
+   "context_excerpt": "The reason why we're in a G0 world today is because the United States is unilaterally withdrawing from its global leadership and that is a big deal.",
+   "revised_claim": ""
+  },
+  "pred_20261002001256_c706f08dbd81": {
+   "status": "judged",
+   "found": "match",
+   "origin": "NOT-FOUND",
+   "borderline": false,
+   "reason": "The transcript does not contain a statement by Ian Bremmer asserting that the Strait of Hormuz will be reopened by Friday. He only notes that a signing ceremony is currently scheduled for Friday and expresses uncertainty about whether the reopening will occur then.",
+   "context_excerpt": "",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "REPORTED"
+  },
+  "pred_20261002001313_93e55ac0f99c": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker explicitly says, in their own voice, that more populism on both sides and anti\u2011establishment sentiment will be the way to secure the 2028 Democratic and Republican nominations, which matches the stored claim.",
+   "context_excerpt": "More populism in the United States on the left and the right more anti\u2011establishment sentiment I think is going to be the way to get the nomination for the Dems and the Republicans in 2028.",
+   "revised_claim": ""
+  },
+  "pred_20261002001450_a0a871ba9a48": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states, in their own voice, that the United States will keep striking Iran until Iran accepts longer\u2011term economic costs and acknowledges it cannot control the Strait of Hormuz. This is an unhedged, first\u2011person forecast, not a quotation or report of someone else\u2019s view.",
+   "context_excerpt": "if I keep beating the Iranians up and I force them to accept more and longer term economic costs and pain they will eventually come to the table and recognize that no they don't get to control this straight ... as long as there's more military capabilities coming down the pike as there will be that you're going to continue to have a US fight against Iran.",
+   "revised_claim": ""
+  },
+  "pred_20261002001659_38c6b89b0cca": {
+   "status": "judged",
+   "found": "match",
+   "origin": "REPORTED",
+   "borderline": false,
+   "reason": "The passage reports observations about Russia's economy and cites the Russian Central Bank's warning; it is not the speaker's own forward\u2011looking forecast but a description of others' statements.",
+   "context_excerpt": "Russia's economy is increasingly geared toward sustaining the war, yet growth is slowing. Labor shortages are rising and even the Russian Central Bank is now warning of a weaker outlook.",
+   "revised_claim": ""
+  },
+  "pred_20261002002110_62a4bd205dcb": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states the prediction in their own voice, not attributing it to anyone else. The wording in the claim matches the speaker's statement about resistance and the likely choice of China in the global south.",
+   "context_excerpt": "In the global south, many countries, if forced to choose between the US and China, again, they will resist it, but if forced to choose, they would choose China.",
+   "revised_claim": ""
+  },
+  "pred_20261002000954_wP1C0__0": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "Ian Bremmer directly states the forecast in his own voice, saying that the U.S. is drawing down inventories and that \u201cthis means that shortages are coming soon,\u201d linking it to the blockade and high prices.",
+   "context_excerpt": "The United States is drawing down its inventories of oil and refined oil as quickly as we've seen at any point since the 1970s... this means that shortages are coming soon. And there's very little that can be done when you have demand at these prices and you don't have adequate supply.",
+   "revised_claim": ""
+  },
+  "pred_20261002002337_cd9c3b350c09": {
+   "status": "judged",
+   "found": "match",
+   "origin": "PAST-FACT",
+   "borderline": false,
+   "reason": "The statement is advice about how to invest in children, not a forward\u2011looking prediction about a future event or outcome. It does not constitute a forecast, so it should be removed from the prediction\u2011tracking site.",
+   "context_excerpt": "",
+   "revised_claim": ""
+  },
+  "pred_20261002002536_c932b1c63dae": {
+   "status": "judged",
+   "found": "match",
+   "origin": "PAST-FACT",
+   "borderline": false,
+   "reason": "The source text only reports that Morgan Stanley is currently allowing wealth advisors to pitch Bitcoin ETFs, which is a present fact, not a forward\u2011looking forecast made by the speaker. The stored claim is a prediction about a future regulatory shift, which is not present in the transcript.",
+   "context_excerpt": "this one Morgan Stanley tells wealth advisors they can pitch Bitcoin ETFs in a first for a bank big Bank uh fascinating right",
+   "revised_claim": ""
+  },
+  "pred_20261002002557_70cd4a41d930": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker uses first\u2011person language (\u201cI think\u2026\u201d) to make a forward\u2011looking statement that we are about to enter a universe with billions of DOWs that will act as autonomous agents, directly matching the stored claim.",
+   "context_excerpt": "so I think that we're about to enter into a universe where we have billions of dows and what we defined as a dow in the first generation and what you're talking about as autonomous agents which is also the phrase we use at Abra basically become the same thing",
+   "revised_claim": ""
+  },
+  "pred_20261002002744_78dee2ad6673": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly advises that sunscreen should be used even for brief daily activities like walking to the car or getting coffee, expressing this in their own voice rather than reporting someone else\u2019s view.",
+   "context_excerpt": "maybe a total of an hour in the day typically getting to my car walking to get a cup of coffee or something like that ... should I be thinking about a sunscreen all the time every day even if I'm not ... I would say on a daily basis it's a good habit to add sunscreen",
+   "revised_claim": ""
+  },
+  "pred_20261002002938_a2598d539890": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states the forward\u2011looking forecast in their own voice: \"... it's over 200 billion ... and then when you focus more anti\u2011aging it's around 80\u202fbillion and it's supposed to grow to I believe 150 \u2026 in 2032...\" This is an original assertion, not a quotation or report of someone else.",
+   "context_excerpt": "Skin Care is a massive industry ... it's over 200 billion ... and then when you focus more anti\u2011aging it's around 80\u202fbillion and it's supposed to grow to I believe 150 \u2026 in 2032 so it's definitely growing enough fast space.",
+   "revised_claim": ""
+  },
+  "pred_20261002003115_21d88980aa4a": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly speculates about fully digital, photorealistic human characters being used in movies and wonders whether they could ever be as popular as real human actors. This is the speaker's own forward\u2011looking speculation, not a reported or quoted statement. The stored claim is a close paraphrase, though it frames the idea as a more confident prediction; the core idea is present in the speaker's own words.",
+   "context_excerpt": "the disruption of the hegemony of Hollywood is coming because ... we're going to create my own stars and starlets, ... they're going to be fully digital, ... Only that they are photorealistic human characters that would obviate the need for actors at some point in the future. ... I wonder if they would ever become as popular as real human being actors.",
+   "revised_claim": "Fully digital, photorealistic celebrities could be created for AI\u2011driven movies, and they might one day become as popular as real human actors."
+  },
+  "pred_20261002003150_05ab54f46fb5": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states the prediction in their own voice using first\u2011person phrasing (\u201cI\u2019m just thinking, if we were being invaded by aliens, we would not require congressional hearings to establish that fact.\u201d). This is an unhedged, self\u2011asserted claim.",
+   "context_excerpt": "I'm just thinking, if we were being invaded by aliens, we would not require congressional hearings to establish that fact.",
+   "revised_claim": ""
+  },
+  "pred_20261002003323_c41906a379f4": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states in first\u2011person that \u201cwithin the next three years we\u2019ll definitely have robots piloting homes,\u201d which is an unhedged personal forecast.",
+   "context_excerpt": "all I would say within the next three years we'll definitely have robots piloting homes",
+   "revised_claim": ""
+  },
+  "pred_20261002003545_803ffa4b3d7b": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker describes Bitcoin as already having become an election\u2011year issue for many voters, which is a statement of current fact rather than a forward\u2011looking prediction. The claim about continued adoption is not explicitly forecasted in the transcript. | escalation override: kept",
+   "context_excerpt": "how surreptitiously Bitcoin really is got into the hands of 50 to 60 million Americans and uh has become an election year issue in fact for many voters yeah for many voters it is the election issue",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "OWNS"
+  },
+  "pred_20261002003912_f95a5a30eabd": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker uses first\u2011person language (\u201cI think \u2026 we\u2019re definitely not that far away\u201d) to assert that VR visual quality will soon match that seen in Ready Player One, which matches the stored claim.",
+   "context_excerpt": "I think in terms of getting to the visual quality we're definitely not that far away in terms of getting to all of the different senses that's going to take some time\u2026",
+   "revised_claim": ""
+  },
+  "pred_20261002004230_af37fd567f82": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The provided transcript does not contain the phrase or any statement indicating that the speaker plans to investigate ProFY more rigorously in humans. The stored excerpt cannot be located in the given context. | escalation override: kept",
+   "context_excerpt": "",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "OWNS"
+  },
+  "pred_20261002004401_cfd708ea5197": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states the forecast in their own voice: \"now uh Optimus is starting to work in Tesla's factories ... with a $10,000 price tag\". This is not a quotation, report, or past fact, but an asserted forward\u2011looking claim by the speaker.",
+   "context_excerpt": "now uh Optimus is starting to work in Tesla's factories so um I think they have and with a $10,000 price tag",
+   "revised_claim": ""
+  },
+  "pred_20261002004619_5754e97cba9b": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The transcript contains statements that science is moving faster and many technologies are emerging, but it does not contain an explicit forward\u2011looking prediction that the rate of discovery will continue to accelerate and cause exponential advancements. The claim is not directly stated in the speaker's own voice. | escalation override: kept",
+   "context_excerpt": "",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "OWNS"
+  },
+  "pred_20261002004701_0cc6dfebb002": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly asserts that quantum computers give a significant speedup for quantum simulations compared to classical computers, using first\u2011person narration and no attribution to others.",
+   "context_excerpt": "why would you build a quantum computer where well there are quantum mechanical systems you want to simulate and it turns out that yes in fact you get a a significant speed up running Quantum simulations on quantum computers versus classical right",
+   "revised_claim": ""
+  },
+  "pred_20261002004822_525f1cead41b": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker is describing what the life\u2011support pod is currently doing (it is already producing more urine and showing better health after four days), not forecasting a future capability. Therefore the statement is a present observation, not a forward\u2011looking prediction. | escalation override: kept",
+   "context_excerpt": "after four days that thing which is full of sensor technology that's measuring the kidney that we put in there is making more urine then when we took it out of the kadaba it's in Better Health than it was",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "OWNS"
+  },
+  "pred_20261002004956_a98607e3fad3": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker explicitly states in first\u2011person that the ubiquity of drones will cause tanks, artillery and mortars to become obsolete, matching the stored claim.",
+   "context_excerpt": "now you cannot walk during the day or the night because there's a traffic jams of your drones and enemy drones for both sides on top and it's essentially a death zone so the ubiquity of drones means in my view that tanks and artillery and mortars go away as weapons of war",
+   "revised_claim": ""
+  },
+  "pred_20261002005027_69936525d97e": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker is speculating about how intelligence may have evolved in the past, not making a forward\u2011looking prediction about future events. Therefore it is a past/hypothetical claim, which should be removed. | escalation override: kept",
+   "context_excerpt": "Something I'd like to formalize in the coming years on the side is, you know, how how did intelligence potentially evolve as a byproduct of this concept of thermodynamic dissipative adaptation, which is a concept from Professor named Jeremy England from MIT...",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "OWNS"
+  },
+  "pred_20261002005155_89b82df8f612": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states the forecast in their own voice (first\u2011person) that within the next one to two years XR capabilities will be in devices weighing 100\u202fgrams or less.",
+   "context_excerpt": "within the next one to two years what we're going to find is that these kind of capabilities are going to move into 100 grams and less devices that will look a lot more like glasses than the headsets that we have seen today",
+   "revised_claim": ""
+  },
+  "pred_20261002005402_e06faff12120": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states that Stable Diffusion\u202f3 is the best\u2011performing image model and that it combines Transformer architecture with diffusion models. The stored claim misstates the tense (\"will be\" vs. \"is\"), so we keep the claim with a revised wording.",
+   "context_excerpt": "open ai's Innovation there were two major things there was the Transformer architecture the language models and diffusion that drive the media models they combine the two together so our new image model stable diffusion 3 which is the best performing image model combines those together as well",
+   "revised_claim": "Stable Diffusion\u202f3 is the best\u2011performing image model and combines Transformer architecture with diffusion models."
+  },
+  "pred_1790961078_17": {
+   "status": "judged",
+   "found": "match",
+   "origin": "KEEP-REVISED",
+   "borderline": false,
+   "reason": "The speaker (David) directly states a forward\u2011looking forecast: \u201cAnd by the September meeting, 100% probability of a rate increase.\u201d This is an original assertion, not a reported or quoted statement. However, the stored claim adds an unsupported detail about a 25\u2011basis\u2011point rise, which is not mentioned in the transcript. The claim should be revised to match the speaker\u2019s actual words.",
+   "context_excerpt": "And by the September meeting, 100% probability of a rate increase.",
+   "revised_claim": "By the September meeting, there is a 100% probability of a rate increase."
+  },
+  "pred_1790961078_29": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker (David) directly states the forecast in his own voice: \u201cThe US is expected to release billions in frozen assets.\u201d This is an unqualified forward\u2011looking claim made by the speaker, not a quotation or report of someone else\u2019s view.",
+   "context_excerpt": "The US is expected to release billions in frozen assets.",
+   "revised_claim": ""
+  },
+  "pred_1790961078_39": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker David McAlvany directly states the forecast in his own voice: \u201cOil will not return to a sub $11, $12 barrel for a long, long time. I\u2019m long oil.\u201d This is an unhedged, first\u2011person assertion, so it should be kept.",
+   "context_excerpt": "Oil will not return to a sub $11, $12 barrel for a long, long time. I\u2019m long oil.",
+   "revised_claim": ""
+  },
+  "pred_1790961078_51": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states their own forecast that gold could reach around $8,000 per ounce by late 2027\u20112028, using first\u2011person language and no attribution to another source.",
+   "context_excerpt": "as a base case I would say this leg is likely at least to be comparable to the last ... starting from approximately 1,050 per ounce gold ... that would take us to around 8,000 per ounce gold by somewhere in the ballpark of late 2027 2028",
+   "revised_claim": ""
+  },
+  "pred_1790961078_58": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker uses first\u2011person language ('I think') to forecast the gold/silver ratio, indicating an original personal prediction.",
+   "context_excerpt": "\u2026 it has since returned to 85 to1 this week by the middle of next year. I think it will be in the mid60s on the ratio.",
+   "revised_claim": ""
+  }
+ },
+ "counts": {
+  "OWNS": 165,
+  "NOT-FOUND": 5,
+  "PAST-FACT": 6,
+  "REPORTED": 4,
+  "KEEP-REVISED": 8,
+  "OWN": 1
+ }
+}

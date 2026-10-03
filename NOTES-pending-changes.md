@@ -10,9 +10,14 @@
 - M0 milestone: ONE Zeihan claim end-to-end via CLI (preset ontology, 5 YAML specialists, 2-3 rounds,
   Graphiti+Ollama, schema-valid verdict.json; no Zep). Acceptance criteria in ROADMAP.md.
 - QA-flagged risks: Graphiti search-tool parity vs ZepToolsService; Ollama fleet model quirks; UI deferred.
-- NEXT (user go pending): Fable implements M0 in a veracity-panel fork.
+- NEXT (user go pending): Fable implements M0 in a veracity-panel fork. DECISION: M0 runs laptop-NATIVE Neo4j
+  (Community Edition zip, no Docker on this laptop per user). Graph DB can migrate to tower1 later.
 
-## 0. Panel/predictor rule (USER RULE, must implement in verdict logic)
+## 6. WHISPER NODE (DESKTOP-TJ1RMNK, 100.124.236.23) — staged, awaiting user go
+- 8x RTX 3080 10GB (PCIe gen2), i3-9100, 16GB RAM, new D: drive added, three models loaded on it.
+- Role: Whisper transcription node for the ~200 caption-less/blocked sources; then MC swarm accelerator (8 parallel 7B-14B) + parallel deep-QA judging.
+- Model plan: large-v3-turbo int8 x7 (default) + large-v3 on one card (hard-audio escalation); distil-large-v3 for English bulk. faster-whisper/CTranslate2. DEPLOYMENT NOTE: Whisper is installed and running on GPU 0 of the box, model stays LOADED permanently — never unload it.
+- User RELEASED the node for the processing flow (2026-10-03): use it for Whisper transcription of blocked sources, MC swarm acceleration, and parallel deep-QA judging. Whisper on GPU 0 stays loaded permanently — never unload.
 - A predictor can sit on panels, but CANNOT panel-vote on their own predictions.
 - Predictors: Zeihan, Doomberg, Diamandis, Bremmer + one more shortly.
 - In the testing stage: when judging a prediction authored by X, exclude any

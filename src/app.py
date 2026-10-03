@@ -2,7 +2,9 @@
 
 from __future__ import annotations
 
+import json
 import os
+from datetime import datetime
 from pathlib import Path
 from typing import Any
 
@@ -30,6 +32,38 @@ _jinja_env = Environment(
 )
 
 # Category colors for badges
+def _condense(claim):
+    """Condense a long claim into a headline-style sentence (mirror of render.py)."""
+    if not claim or len(claim) <= 120:
+        return claim
+    cutoff = claim[:140]
+    for sep in ['. ', '! ', '? ']:
+        idx = cutoff.rfind(sep)
+        if idx > 60:
+            return claim[:idx + 1]
+    idx = cutoff.rfind(', ')
+    if idx > 60:
+        return claim[:idx] + '…'
+    idx = claim[:130].rfind(' ')
+    if idx > 60:
+        return claim[:idx] + '…'
+    return claim[:120] + '…'
+
+
+def _source_label(url):
+    if not url:
+        return 'Source'
+    u = url.lower()
+    if 'youtube.com' in u or 'youtu.be' in u:
+        return 'YouTube'
+    if 'doomberg' in u:
+        return 'Doomberg'
+    return 'Source'
+
+
+_jinja_env.filters['condense'] = _condense
+_jinja_env.filters['source_label'] = _source_label
+
 CATEGORY_COLORS: dict[str, str] = {
     "finance": "#10b981",
     "energy": "#f59e0b",
@@ -41,7 +75,7 @@ CATEGORY_COLORS: dict[str, str] = {
 }
 
 # The 3 tracked individuals (in column order)
-TRACKED_NAMES: list[str] = ["Peter Zeihan", "Doomberg", "Peter Diamandis", "Ian Bremmer"]
+TRACKED_NAMES: list[str] = ["Peter Zeihan", "Doomberg", "Peter Diamandis", "Ian Bremmer", "David McAlvany"]
 
 
 def get_store() -> Store:
@@ -87,7 +121,7 @@ async def index(request: Request):
         p for p in predictions
         if p.get("individual_name") in tracked_names_set and p.get("verdict") is None
     ]
-    outstanding.sort(key=lambda p: p.get("date", ""), reverse=True)
+    outstanding.sort(key=lambda p: p.get("date", ""))  # oldest first = QA confirmation queue
 
     # Top 5 most recent outstanding PER PERSON
     rows_by_person: dict[str, list] = {}
@@ -97,7 +131,7 @@ async def index(request: Request):
         person_preds = [p for p in outstanding if p.get("individual_name") == name]
         rows_by_person[name] = person_preds[:5]
         all_person = [p for p in predictions if p.get("individual_name") == name]
-        all_person.sort(key=lambda p: p.get("date", ""), reverse=True)
+        all_person.sort(key=lambda p: p.get("date", ""))  # oldest first
         all_preds_by_person[name] = all_person
 
     # Total tracked predictions count (for stats bar)
@@ -172,3 +206,61 @@ if __name__ == "__main__":
     import uvicorn
 
     uvicorn.run(app, host="0.0.0.0", port=8000)
+
+
+# ---- User mark / critique writeback ----
+MARKS_LOG = BASE_DIR / "data" / "user_marks.json"
+
+
+def _apply_mark(pred_id: str, agrees: bool, note: str = "") -> bool:
+    """Apply a Marty mark to predictions.json (read-modify-write + log)."""
+    with open(DATA_FILE, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    hit = False
+    for p in data["predictions"]:
+        if p.get("id") == pred_id:
+            p["marty_agrees"] = agrees
+            p["marty_note"] = note or ("MartyPredicts: Right" if agrees else "MartyPredicts: Wrong")
+            p["marty_at"] = datetime.now().date().isoformat()
+            if p.get("mc_status") in (None, "none"):
+                p["mc_status"] = "queued"  # auto-enqueue the Monte Carlo swarm
+            hit = True
+            break
+    if hit:
+        with open(DATA_FILE, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+        log = json.load(open(MARKS_LOG, encoding="utf-8")) if MARKS_LOG.exists() else []
+        log.append({"id": pred_id, "agrees": agrees, "note": note,
+                    "at": datetime.now().isoformat()})
+        MARKS_LOG.write_text(json.dumps(log, indent=2), encoding="utf-8")
+    return hit
+
+
+def _apply_critique(pred_id: str, text: str) -> bool:
+    with open(DATA_FILE, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    hit = False
+    for p in data["predictions"]:
+        if p.get("id") == pred_id:
+            crits = p.setdefault("critiques", [])
+            crits.append({"text": text, "at": datetime.now().isoformat()})
+            hit = True
+            break
+    if hit:
+        with open(DATA_FILE, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+    return hit
+
+
+@app.post("/api/marty")
+async def api_marty(request: Request):
+    body = await request.json()
+    ok = _apply_mark(body.get("id", ""), bool(body.get("agrees")), body.get("note", ""))
+    return JSONResponse({"ok": ok})
+
+
+@app.post("/api/critique")
+async def api_critique(request: Request):
+    body = await request.json()
+    ok = _apply_critique(body.get("id", ""), body.get("text", ""))
+    return JSONResponse({"ok": ok})

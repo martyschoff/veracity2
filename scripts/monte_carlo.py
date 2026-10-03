@@ -17,6 +17,12 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from src.pipeline import PRODUCER_ENDPOINTS, call_llm, load_data, save_data
 
+# Swarm vote endpoints: nimo128 + 3080 box 7B (parallel workers)
+SWARM_ENDPOINTS = [
+    *PRODUCER_ENDPOINTS,
+    {"url": "http://100.124.236.23:11434/v1", "key": None, "model": "qwen2.5-coder:7b"},
+]
+
 N_DEFAULT = 40
 DATA = Path(__file__).resolve().parent.parent / "data" / "predictions.json"
 
@@ -55,9 +61,11 @@ def persona_vote(persona: str, claim: str, made_date: str) -> dict | None:
         "\"reason\": \"max 20 words\"}. 'yes' = the prediction happened or is on track to happen. "
         "'no' = it failed or will not happen. 'unclear' = genuinely undeterminable."
     )
-    raw = call_llm(system, f"Prediction: {claim}", max_tokens=200, endpoints=PRODUCER_ENDPOINTS)
+    ep = SWARM_ENDPOINTS[hash(persona) % len(SWARM_ENDPOINTS)]
+    raw = call_llm(system, f"Prediction: {claim}", max_tokens=300, endpoints=[ep])
     if not raw:
         return None
+    raw = re.sub(r"^```(?:json)?|```$", "", raw.strip(), flags=re.MULTILINE).strip()
     m = re.search(r"\{.*\}", raw, re.DOTALL)
     if not m:
         return None
@@ -79,13 +87,17 @@ def run(n: int = N_DEFAULT):
     personas = build_personas(n)
     print(f"{len(queue)} prediction(s) queued; {len(personas)} personas each")
     for pred in queue:
+        import concurrent.futures
         votes = []
-        for i, persona in enumerate(personas):
-            v = persona_vote(persona, pred["claim"], pred.get("date", "unknown"))
-            if v:
-                votes.append(v)
-            if (i + 1) % 10 == 0:
-                print(f"  {i+1}/{len(personas)} personas voted ({len(votes)} valid)")
+        with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+            futs = {pool.submit(persona_vote, persona, pred["claim"], pred.get("date", "unknown")): i
+                    for i, persona in enumerate(personas)}
+            for done, fut in enumerate(concurrent.futures.as_completed(futs), 1):
+                v = fut.result()
+                if v:
+                    votes.append(v)
+                if done % 10 == 0:
+                    print(f"  {done}/{len(personas)} personas voted ({len(votes)} valid)", flush=True)
         yes = sum(1 for v in votes if v["verdict"] == "yes")
         no = sum(1 for v in votes if v["verdict"] == "no")
         unc = sum(1 for v in votes if v["verdict"] == "unclear")
