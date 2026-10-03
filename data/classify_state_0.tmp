@@ -1,5 +1,5 @@
 {
- "batch_idx": 84,
+ "batch_idx": 87,
  "results": {
   "0": {
    "0": {
@@ -1623,6 +1623,64 @@
     "claim": "The Earth will warm by 6 degrees Celsius by the end of the century under current trends, assuming deglobalization occurs and low-carbon fuels become unavailable.",
     "category": "other",
     "reason": "Climate change projection with conditional assumptions."
+   }
+  },
+  "84": {
+   "0": {
+    "pred_id": "pred_20261001210050_3f8c93226f58",
+    "class": "PREDICTION",
+    "claim": "China's industrial capacity will exacerbate deflation if the government adds more capacity as part of a stimulus program.",
+    "category": "finance",
+    "reason": "Forward-looking claim about economic deflation due to over-supply from industrial capacity expansion."
+   },
+   "1": {
+    "pred_id": "pred_20261001210111_fdaca04beafa",
+    "class": "PREDICTION",
+    "claim": "Israel will target Iran's oil sector, specifically the island of Qal'eh, to devastate Iran's entire oil export capacity.",
+    "category": "geopolitics",
+    "reason": "Prediction of military action impacting global oil exports."
+   },
+   "2": {
+    "pred_id": "pred_20261001210111_986f5c0038f8",
+    "class": "PREDICTION",
+    "claim": "If Iran and Saudi Arabia fight, oil prices could rise to $300 per barrel globally, with a functional ceiling of $60-$70 in the U.S.",
+    "category": "energy",
+    "reason": "Forecast of oil price spikes due to regional conflict."
+   },
+   "3": {
+    "pred_id": "pred_20261001210218_dc9f4ecee62e",
+    "class": "PREDICTION",
+    "claim": "The United States is invested in rebuilding the Benguela railway in Angola and it will likely be completed within a couple of years.",
+    "category": "other",
+    "reason": "Prediction of infrastructure project completion."
+   },
+   "4": {
+    "pred_id": "pred_20261001210218_9420b5942ac6",
+    "class": "PREDICTION",
+    "claim": "Angola's strategic infrastructure project, including the rehabilitated railway, could shift mining export routes from the Indian Ocean Basin toward the Atlantic, making it closer to the United States and Europe rather than China.",
+    "category": "energy",
+    "reason": "Prediction of trade route shifts affecting global supply chains."
+   },
+   "5": {
+    "pred_id": "pred_20261001210227_0fea2fcce997",
+    "class": "PREDICTION",
+    "claim": "If the Spruce Pine mines are significantly damaged and cannot resume production within one to two months, it could lead to a severe disruption in the global supply of high-grade silicon crucibles used in semiconductor manufacturing, potentially limiting global semiconductor production by more than a third.",
+    "category": "other",
+    "reason": "Prediction of semiconductor supply chain disruption due to mining damage."
+   },
+   "6": {
+    "pred_id": "pred_20261001210237_7805013b778e",
+    "class": "SELF-REPORT",
+    "claim": "The Chinese banking sector's nonperforming loan (NPL) ratio is between 5.5% and 6%, which indicates systemic instability in the financial system.",
+    "category": "finance",
+    "reason": "Describes current NPL ratio as evidence of instability, not a forward-looking claim."
+   },
+   "7": {
+    "pred_id": "pred_20261001210237_b20b012caca1",
+    "class": "PREDICTION",
+    "claim": "The Chinese economy will not achieve its GDP growth target of 5% for the year, reflecting a prolonged economic downturn.",
+    "category": "finance",
+    "reason": "Prediction of GDP growth shortfall indicating economic decline."
    }
   }
  },

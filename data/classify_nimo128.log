@@ -12,3 +12,37 @@ s0: 5/57 batches, 8.6 min
 s0: 10/57 batches, 19.0 min
 2026-10-02 22:09:41,248 [INFO] HTTP Request: POST http://100.84.167.88:11434/v1/chat/completions "HTTP/1.1 200 OK"
 2026-10-02 22:11:33,489 [INFO] HTTP Request: POST http://100.84.167.88:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-02 22:15:26,727 [INFO] HTTP Request: POST http://100.84.167.88:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-02 22:19:08,265 [INFO] HTTP Request: POST http://100.84.167.88:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-02 22:20:43,663 [INFO] HTTP Request: POST http://100.84.167.88:11434/v1/chat/completions "HTTP/1.1 200 OK"
+s0: 15/57 batches, 31.9 min
+2026-10-02 22:24:26,875 [INFO] HTTP Request: POST http://100.84.167.88:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-02 22:26:17,388 [INFO] HTTP Request: POST http://100.84.167.88:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-02 22:29:44,785 [INFO] HTTP Request: POST http://100.84.167.88:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-02 22:31:25,667 [INFO] HTTP Request: POST http://100.84.167.88:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-02 22:34:45,170 [INFO] HTTP Request: POST http://100.84.167.88:11434/v1/chat/completions "HTTP/1.1 200 OK"
+s0: 20/57 batches, 45.9 min
+2026-10-02 22:36:27,737 [INFO] HTTP Request: POST http://100.84.167.88:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-02 22:42:08,791 [INFO] HTTP Request: POST http://100.84.167.88:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-02 22:43:45,377 [INFO] HTTP Request: POST http://100.84.167.88:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-02 22:45:45,369 [INFO] HTTP Request: POST http://100.84.167.88:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-02 22:47:24,778 [INFO] HTTP Request: POST http://100.84.167.88:11434/v1/chat/completions "HTTP/1.1 200 OK"
+s0: 25/57 batches, 58.6 min
+2026-10-02 22:52:59,234 [INFO] HTTP Request: POST http://100.84.167.88:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-02 22:54:45,131 [INFO] HTTP Request: POST http://100.84.167.88:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-02 22:58:25,688 [INFO] HTTP Request: POST http://100.84.167.88:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-02 23:00:16,306 [INFO] HTTP Request: POST http://100.84.167.88:11434/v1/chat/completions "HTTP/1.1 200 OK"
+Traceback (most recent call last):
+  File "C:\Users\schof\veracity2\scripts\classify_worker.py", line 134, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\schof\veracity2\scripts\classify_worker.py", line 125, in main
+    save_state(st, spath)
+    ~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\schof\veracity2\scripts\classify_worker.py", line 62, in save_state
+    tmp.replace(path)
+    ~~~~~~~~~~~^^^^^^
+  File "C:\Users\schof\AppData\Local\hermes\tools\python-3.14.7+20260901-win32-x64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Access is denied: 'C:\\Users\\schof\\veracity2\\data\\classify_state_0.tmp' -> 'C:\\Users\\schof\\veracity2\\data\\classify_state_0.json'

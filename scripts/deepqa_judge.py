@@ -1,10 +1,10 @@
-"""Deep QA judge: for thin-excerpt predictions with a fetched full transcript,
+"""Deep QA judge: for thin-excerpt predictions with a fetched full source,
 re-judge own-voice vs reported/quoted/third-party/past-fact.
 
-Run only after deepqa_fetch shards are done. Single process, nimo128 primary,
-tower1 gpt-oss:120b escalation for borderline removals.
-State: data/deepqa_judge_state.json
+Shardable: python deepqa_judge.py --shard K [--stride N]. Per-shard state files
+data/deepqa_judge_state_<K>.json; merged by deepqa_apply.py.
 """
+import hashlib
 import json
 import re
 import sys
@@ -17,7 +17,7 @@ from src.pipeline import call_llm  # noqa: E402
 BASE = Path(__file__).resolve().parent.parent
 DATA = BASE / "data"
 CACHE = Path(r"C:/Users/schof/AppData/Local/hermes/cache/web")
-STATE = DATA / "deepqa_judge_state.json"
+NONYT = DATA / "deepqa_nonyt"
 
 NIMO = {"url": "http://100.84.167.88:11434/v1/chat/completions", "key": None, "model": "qwen3:32b"}
 TOWER = {"url": "http://tower1.tail5b3b50.ts.net:11434/v1/chat/completions", "key": None,
@@ -85,28 +85,48 @@ def parse_json(s):
 
 
 def main():
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--shard", type=int, default=0)
+    ap.add_argument("--stride", type=int, default=2)
+    a = ap.parse_args()
+    STATE = DATA / f"deepqa_judge_state_{a.shard}.json"
+    primary, secondary = (TOWER, NIMO) if a.shard == 0 else (NIMO, TOWER)
+
     preds = json.load(open(DATA / "predictions.json", encoding="utf-8"))["predictions"]
-    st = load_state()
+    preds = [p for p in preds if p["individual_name"] in
+             {"Peter Zeihan", "Doomberg", "Peter Diamandis", "Ian Bremmer", "David McAlvany"}]
     targets = [p for p in preds if len(p.get("transcript_excerpt") or "") < 200]
-    print(f"targets={len(targets)} already_judged={len(st['judged'])}", flush=True)
+    targets = targets[a.shard::a.stride]
+    st = json.load(open(STATE, encoding="utf-8")) if STATE.exists() else {"judged": {}, "counts": {}}
+    print(f"s{a.shard} targets={len(targets)} already={len(st['judged'])}", flush=True)
     for n, p in enumerate(targets):
         pid = p["id"]
-        if pid in st["judged"]:
+        prev = st["judged"].get(pid)
+        if prev and prev.get("status") == "judged":
             continue
         m = re.search(r"v=([\w-]{11})", p.get("source_url") or "")
-        if not m:
-            st["judged"][pid] = {"status": "no_yt_id", "origin": "SKIP"}
-            continue
-        f = CACHE / f"ytdlp-{m.group(1)}.md"
+        if m:
+            f = CACHE / f"ytdlp-{m.group(1)}.md"
+        else:
+            h = hashlib.md5((p.get("source_url") or "").encode()).hexdigest()[:12]
+            f = NONYT / f"{h}.txt"
         if not f.exists():
-            st["judged"][pid] = {"status": "not_fetched", "origin": "SKIP"}
-            continue
+            continue  # fetch still running; retry on later pass
         md = f.read_text(encoding="utf-8", errors="replace")
-        if "[no-track]" in md or "## Transcript" not in md:
-            st["judged"][pid] = {"status": md.split("## Transcript")[1][:20] if "## Transcript" in md else "bad",
-                                 "origin": "SKIP"}
+        if "## Transcript" in md:
+            body = md.split("## Transcript", 1)[1][:60000]
+            if "[no-track]" in body:
+                st["judged"][pid] = {"status": "no_track", "origin": "SKIP"}
+                continue
+        elif md.startswith("URL:"):
+            body = md.split("\n\n", 1)[1][:60000]
+            if len(body) < 1500:
+                st["judged"][pid] = {"status": "thin_article", "origin": "SKIP"}
+                continue
+        else:
+            st["judged"][pid] = {"status": "bad_cache", "origin": "SKIP"}
             continue
-        body = md.split("## Transcript", 1)[1][:60000]
         ctx = find_context(body, p["claim"], p.get("transcript_excerpt") or "")
         if not ctx or len(ctx) < 100:
             ctx = body[:3500]
@@ -118,7 +138,7 @@ def main():
                 f"CONTEXT:\n{ctx}")
         res = None
         for attempt in range(3):
-            resp = call_llm(SYSTEM, user, max_tokens=2500, endpoints=[NIMO])
+            resp = call_llm(SYSTEM, user, max_tokens=2500, endpoints=[primary])
             res = parse_json(resp or "")
             if res and res.get("origin"):
                 break
@@ -137,22 +157,21 @@ def main():
             resp2 = call_llm(SYSTEM, user + "\n\nNOTE: a first judge said "
                              f"{entry['origin']}. Decide independently; be conservative about "
                              "removal: only remove if you are CONFIDENT the claim is not owned.",
-                             max_tokens=2500, endpoints=[TOWER])
+                             max_tokens=2500, endpoints=[secondary])
             res2 = parse_json(resp2 or "")
             if res2 and res2.get("origin"):
                 entry["escalated"] = True
                 entry["tower_origin"] = str(res2.get("origin", "")).upper().strip()
                 if entry["origin"] in INVALID and entry["tower_origin"] not in INVALID:
-                    entry["origin"] = "OWNS"  # tower overrides removal
-                    entry["reason"] += " | tower override: kept"
+                    entry["origin"] = "OWNS"  # second judge overrides removal
+                    entry["reason"] += " | escalation override: kept"
         st["judged"][pid] = entry
         st["counts"][entry["origin"]] = st["counts"].get(entry["origin"], 0) + 1
         if (n + 1) % 10 == 0:
-            st["_saved_at"] = time.strftime("%H:%M:%S")
             STATE.write_text(json.dumps(st, indent=1), encoding="utf-8")
-            print(f"{n+1}/{len(targets)} counts={st['counts']}", flush=True)
+            print(f"s{a.shard} {n+1}/{len(targets)} counts={st['counts']}", flush=True)
     STATE.write_text(json.dumps(st, indent=1), encoding="utf-8")
-    print("JUDGE DONE", st["counts"], flush=True)
+    print(f"s{a.shard} JUDGE DONE", st["counts"], flush=True)
 
 
 if __name__ == "__main__":

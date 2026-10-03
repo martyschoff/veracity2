@@ -1,0 +1,1108 @@
+{
+ "batch_idx": 0,
+ "results": {
+  "141": {
+   "0": {
+    "pred_id": "pred_20261001235916_b39463632dde",
+    "class": "PREDICTION",
+    "claim": "The US ground troops are not likely to arrive until April 6th or 7th, and will be sent for military planning.",
+    "category": "geopolitics",
+    "reason": "Forecasts a specific timeline for military troop deployment, a geopolitical event."
+   },
+   "1": {
+    "pred_id": "pred_20261001235940_6cbe1dcebd0c",
+    "class": "PREDICTION",
+    "claim": "The Strait of Hormuz will remain impassable for global shipping for an extended period, as Iran has the willingness and capacity to use drones to disrupt it, and the US lacks the naval capability to escort ships through the strait anytime soon.",
+    "category": "energy",
+    "reason": "Predicts prolonged disruption of a critical energy/shipping chokepoint, impacting global trade and energy security."
+   },
+   "2": {
+    "pred_id": "pred_20261002000043_1a486e7fd648",
+    "class": "PREDICTION",
+    "claim": "The United States will declare victory in the Iran war quickly and look for an off-ramp.",
+    "category": "geopolitics",
+    "reason": "Forecasts a strategic U.S. policy outcome in an ongoing geopolitical conflict."
+   },
+   "3": {
+    "pred_id": "pred_20261002000043_9aff86b0e656",
+    "class": "PREDICTION",
+    "claim": "The Strait of Hormuz will remain closed or unsafe for shipping, leading to significant economic disruption.",
+    "category": "energy",
+    "reason": "Predicts economic consequences from sustained closure of a key energy shipping route."
+   },
+   "4": {
+    "pred_id": "pred_20261002000056_1b3e72ed7a93",
+    "class": "PREDICTION",
+    "claim": "The war in Iran will continue for at least one month and possibly two months, during which time the current Iranian regime will likely remain in control and be able to repress its people and support limited strikes on regional infrastructure and civilians.",
+    "category": "geopolitics",
+    "reason": "Forecasts conflict duration and regime stability in a geopolitical context."
+   },
+   "5": {
+    "pred_id": "pred_20261002000100_6e2ebe5e9a9d",
+    "class": "PREDICTION",
+    "claim": "The tariffs paid for by foreign countries will substantially replace the modern-day system of income tax.",
+    "category": "finance",
+    "reason": "Predicts a structural shift in tax policy with economic implications."
+   },
+   "6": {
+    "pred_id": "pred_20261002000112_212de78d76bf",
+    "class": "PREDICTION",
+    "claim": "The Trump administration will consider taking control of Kharg Island to pressure the Iranian regime without committing large numbers of boots on the ground.",
+    "category": "geopolitics",
+    "reason": "Forecasts a potential U.S. geopolitical strategy in a regional conflict."
+   },
+   "7": {
+    "pred_id": "pred_20261002000112_b5f38c8002df",
+    "class": "PREDICTION",
+    "claim": "The US wants to maintain oil exports from Iran to keep gas prices low and to avoid giving the Iranian regime large amounts of cash for rebuilding their program.",
+    "category": "energy",
+    "reason": "Predicts U.S. policy decisions affecting energy markets and geopolitical strategy."
+   }
+  },
+  "142": {
+   "0": {
+    "pred_id": "pred_20261002000122_df887085a098",
+    "class": "PREDICTION",
+    "claim": "The United Arab Emirates will withdraw from OPEC.",
+    "category": "energy",
+    "reason": "Forward-looking geopolitical claim about a state's OPEC membership, testable as right/wrong."
+   },
+   "1": {
+    "pred_id": "pred_20261002000213_3d70e7cff797",
+    "class": "PREDICTION",
+    "claim": "The United States military is not going to launch an American or even an American-backed invasion of Cuba anytime soon.",
+    "category": "geopolitics",
+    "reason": "Testable forecast about a geopolitical/military action (or inaction)."
+   },
+   "2": {
+    "pred_id": "pred_20261002000229_78999e4b8759",
+    "class": "PREDICTION",
+    "claim": "The US-China relationship will remain quite stable in the near term... and the US and China are both acting in a way that avoids conflict for a significant amount of time.",
+    "category": "china",
+    "reason": "Forward-looking geopolitical assessment of US-China stability, testable over time."
+   },
+   "3": {
+    "pred_id": "pred_20261002000229_b6115e766e29",
+    "class": "PREDICTION",
+    "claim": "The Cuban government will announce a deal with the United States within the next few months that ends their 60-year communist regime in some way and allows for American investment and tourism.",
+    "category": "geopolitics",
+    "reason": "Testable forecast about a political regime change and economic policy shift."
+   },
+   "4": {
+    "pred_id": "pred_20261002000242_fbe2d4c42dff",
+    "class": "PREDICTION",
+    "claim": "Trump will meet with Xi Jinping in Beijing within a few weeks and announce a deal that includes reductions in tariffs on fentanyl-related items and possibly a new trade board.",
+    "category": "china",
+    "reason": "Predicts a specific diplomatic event and policy outcome between the US and China."
+   },
+   "5": {
+    "pred_id": "pred_20261002000242_f6157aa3a99d",
+    "class": "PREDICTION",
+    "claim": "Xi Jinping will make a direct ask to Trump about changing American policy on Taiwan, specifically seeking a rejection of decades of strategic ambiguity regarding Taiwanese sovereignty.",
+    "category": "china",
+    "reason": "Forecast of a specific diplomatic request in US-China-Taiwan relations, testable."
+   },
+   "6": {
+    "pred_id": "pred_20261002000347_f14f6d4ffc60",
+    "class": "PREDICTION",
+    "claim": "Trump will announce some kind of breakthrough with the Iranians this week or soon after",
+    "category": "geopolitics",
+    "reason": "Testable prediction about US-Iran diplomatic progress."
+   },
+   "7": {
+    "pred_id": "pred_20261002000347_d3122ea5d1c4",
+    "class": "PREDICTION",
+    "claim": "The deal, if reached, will not be implemented",
+    "category": "geopolitics",
+    "reason": "Forward-looking claim about the implementation status of a potential diplomatic agreement."
+   }
+  },
+  "144": {
+   "0": {
+    "pred_id": "pred_20261002000710_8055864cfed5",
+    "class": "PREDICTION",
+    "claim": "The war in Iran will accelerate the global transition to clean energy and reduce dependence on oil and gas.",
+    "category": "energy",
+    "reason": "Forward-looking claim about geopolitical and energy market outcomes linked to war in Iran."
+   },
+   "1": {
+    "pred_id": "pred_20261002000758_d0d9b2382440",
+    "class": "PREDICTION",
+    "claim": "Putin may launch more devastating attacks against Kiev and try to utterly destroy larger and larger numbers of civilians",
+    "category": "geopolitics",
+    "reason": "Forward-looking claim about potential escalation in the Ukraine conflict."
+   },
+   "2": {
+    "pred_id": "pred_20261002000852_5326ed3a4e84",
+    "class": "PREDICTION",
+    "claim": "The war between Russia and Ukraine will shift further in favor of Ukraine due to their technological advantages, particularly in drone warfare.",
+    "category": "ukraine",
+    "reason": "Testable forecast about military outcomes in the Russia-Ukraine war."
+   },
+   "3": {
+    "pred_id": "pred_20261002000858_720c79dac5fe",
+    "class": "PREDICTION",
+    "claim": "US gas prices are climbing steadily towards $5 a gallon",
+    "category": "finance",
+    "reason": "Economic prediction about energy prices."
+   },
+   "4": {
+    "pred_id": "pred_20261002000858_79cd5c5d2e24",
+    "class": "PREDICTION",
+    "claim": "The odds of a global recession are going up",
+    "category": "finance",
+    "reason": "Economic forecast about global recession probability."
+   },
+   "5": {
+    "pred_id": "pred_20261002000907_c64ac028d6aa",
+    "class": "SELF-REPORT",
+    "claim": "The United States is unilaterally withdrawing from its global leadership, and this is the reason why we're in a G0 world today.",
+    "category": "geopolitics",
+    "reason": "Descriptive analysis of current global power dynamics, not a forward-looking claim."
+   },
+   "6": {
+    "pred_id": "pred_20261002000917_1b5fae110904",
+    "class": "PREDICTION",
+    "claim": "Maria Machado, the Nobel Peace Prize winner and most popular candidate in any open election today, will return to Venezuela in the coming months.",
+    "category": "geopolitics",
+    "reason": "Testable forecast about political figure's actions in Venezuela."
+   },
+   "7": {
+    "pred_id": "pred_20261002001017_826fb6b0a428",
+    "class": "PREDICTION",
+    "claim": "The US military will continue to increase its AI spending, with at least $75 billion allocated since 2016 and likely much more in classified efforts.",
+    "category": "ai",
+    "reason": "Forward-looking claim about defense spending on AI technologies."
+   }
+  },
+  "145": {
+   "0": {
+    "pred_id": "pred_20261002001017_f789bcc027d2",
+    "class": "PREDICTION",
+    "claim": "AI-driven military systems will become more autonomous and remove humans from the kill chain, leading to potential loss of humanity in decision-making.",
+    "category": "geopolitics",
+    "reason": "Forward-looking claim about autonomous military systems and their geopolitical implications."
+   },
+   "1": {
+    "pred_id": "pred_20261002001025_4ebc401a2da0",
+    "class": "PREDICTION",
+    "claim": "Oil prices will continue to get higher and shortages will come soon as a result of the conflict",
+    "category": "energy",
+    "reason": "Forecast of rising oil prices and shortages due to conflict."
+   },
+   "2": {
+    "pred_id": "pred_20261002001037_e99836afa5e9",
+    "class": "PREDICTION",
+    "claim": "There is a growing likelihood that the war will restart, with a possibility of military strikes being initiated by the United States if negotiations fail.",
+    "category": "geopolitics",
+    "reason": "Prediction of renewed war and U.S. military action based on negotiation outcomes."
+   },
+   "3": {
+    "pred_id": "pred_20261002001247_b505825e0781",
+    "class": "PREDICTION",
+    "claim": "The political influence of wealthy individuals like Elon Musk will lead to growing public anger towards elites and wealthy classes, particularly if they are perceived as using their wealth to rig systems.",
+    "category": "geopolitics",
+    "reason": "Forward-looking claim about societal and political trends linked to wealth inequality."
+   },
+   "4": {
+    "pred_id": "pred_20261002001256_c706f08dbd81",
+    "class": "PREDICTION",
+    "claim": "The Strait of Hormuz will be reopened by Friday, the date set for the signing ceremony.",
+    "category": "geopolitics",
+    "reason": "Specific prediction about the reopening of a strategic geopolitical location."
+   },
+   "5": {
+    "pred_id": "pred_20261002001304_e3e291b46c7f",
+    "class": "PREDICTION",
+    "claim": "FIFA will make as much as $13 billion on the 2026 World Cup",
+    "category": "finance",
+    "reason": "Financial forecast about revenue from a global event."
+   },
+   "6": {
+    "pred_id": "pred_20261002001304_a6fa3ebc6a7e",
+    "class": "SELF-REPORT",
+    "claim": "The cheapest ticket for a group stage match in Miami will be $960",
+    "category": "other",
+    "reason": "Descriptive statement about current ticket pricing, not a forecast."
+   },
+   "7": {
+    "pred_id": "pred_20261002001313_f259c3728259",
+    "class": "PREDICTION",
+    "claim": "The Democratic Party will embrace a candidate with significant personal flaws, like Graham Platner, to secure a key Senate seat in the short term.",
+    "category": "geopolitics",
+    "reason": "Prediction about political strategy and party actions in a geopolitical context."
+   }
+  },
+  "147": {
+   "0": {
+    "pred_id": "pred_20261002001457_d5839b6dfdb1",
+    "class": "PREDICTION",
+    "claim": "Hezbollah will not disarm and will continue to resist Israeli forces in southern Lebanon.",
+    "category": "geopolitics",
+    "reason": "Forward-looking claim about Hezbollah's future actions in a geopolitical conflict."
+   },
+   "1": {
+    "pred_id": "pred_20261002001457_7f83bb4eede1",
+    "class": "SELF-REPORT",
+    "claim": "The Lebanese government is unable to assert authority over Hezbollah, which is more powerful than the state.",
+    "category": "geopolitics",
+    "reason": "Describes current state of power dynamics, not a future prediction."
+   },
+   "2": {
+    "pred_id": "pred_20261002001649_0751fda6e726",
+    "class": "PREDICTION",
+    "claim": "The United States will not be able to adequately protect American bases and essential Gulf infrastructure from Iranian strikes for at least 6 to 9 months, even with strong and coordinated effort.",
+    "category": "geopolitics",
+    "reason": "Forward-looking assessment of U.S. military capabilities."
+   },
+   "3": {
+    "pred_id": "pred_20261002001649_fa5411c3e209",
+    "class": "PREDICTION",
+    "claim": "Iran will continue to engage in strikes that will shut down at a minimum the Strait of Hormuz unless there is a ceasefire with additional financial support provided to Iran.",
+    "category": "geopolitics",
+    "reason": "Predicts future Iranian actions and their impact on global infrastructure."
+   },
+   "4": {
+    "pred_id": "pred_20261002001659_38c6b89b0cca",
+    "class": "SELF-REPORT",
+    "claim": "Russia's economy is increasingly geared toward sustaining the war, yet growth is slowing and the Russian Central Bank is now warning of a weaker outlook.",
+    "category": "finance",
+    "reason": "Describes current economic conditions and trends, not a future forecast."
+   },
+   "5": {
+    "pred_id": "pred_20261002001659_70dd19fe081f",
+    "class": "PREDICTION",
+    "claim": "Putin may expand gray zone tactics like cyber attacks, sabotage, military provocations, and other actions designed to intimidate the West without triggering full-scale war.",
+    "category": "geopolitics",
+    "reason": "Predicts future Russian strategic behavior."
+   },
+   "6": {
+    "pred_id": "pred_20261002001708_7b9ab8905090",
+    "class": "PREDICTION",
+    "claim": "Oil prices will spike and remain higher due to disruption in the Strait of Hormuz.",
+    "category": "energy",
+    "reason": "Forward-looking claim about energy market outcomes."
+   },
+   "7": {
+    "pred_id": "pred_20261002001719_f53afabbc84d",
+    "class": "SELF-REPORT",
+    "claim": "Lindsey Graham will continue to have significant influence over US foreign policy as a result of his close relationship with Trump.",
+    "category": "geopolitics",
+    "reason": "Assesses current political influence, not a future prediction."
+   }
+  },
+  "148": {
+   "0": {
+    "pred_id": "pred_20261002001731_726f86f79d58",
+    "class": "PREDICTION",
+    "claim": "Trump will focus more on individual European countries that he says are disloyal because they were not willing to support the Americans on the Iran war.",
+    "category": "geopolitics",
+    "reason": "Forward-looking geopolitical claim about Trump's actions toward European countries."
+   },
+   "1": {
+    "pred_id": "pred_20261002001731_47cc28fcaf6a",
+    "class": "PREDICTION",
+    "claim": "The Ukrainians are winning their war now, actually taking land back and causing more casualties than the Russians are causing to Ukraine.",
+    "category": "ukraine",
+    "reason": "Prediction about the outcome of the Ukraine war."
+   },
+   "2": {
+    "pred_id": "pred_20261002001835_9d160c7e35c0",
+    "class": "PREDICTION",
+    "claim": "The United States will celebrate its 300th birthday in the future, and historians may look back on the period around 2026 as either the beginning of a long decline or as a familiar chapter in American history.",
+    "category": "other",
+    "reason": "Forward-looking historical assessment of the U.S."
+   },
+   "3": {
+    "pred_id": "pred_20261002001953_9d738d665fdf",
+    "class": "PREDICTION",
+    "claim": "NASA's Artemis 2 mission sent four astronauts around the far side of the moon, and a technical feat that laid the groundwork for sending astronauts back to the lunar surface as soon as 2028",
+    "category": "other",
+    "reason": "Prediction about future space exploration milestones."
+   },
+   "4": {
+    "pred_id": "pred_20261002002004_2668f4cf52e4",
+    "class": "PREDICTION",
+    "claim": "Canadian Prime Minister Mark Carney will outlast Donald Trump politically and benefit from Trump's declining popularity.",
+    "category": "geopolitics",
+    "reason": "Prediction about political longevity and dynamics between leaders."
+   },
+   "5": {
+    "pred_id": "pred_20261002002110_415edb8207ee",
+    "class": "PREDICTION",
+    "claim": "The United States will push other countries to choose between aligning with the US or China on AI initiatives, and this division will be a consequential decision for global AI development.",
+    "category": "ai",
+    "reason": "Forecast of U.S.-China AI competition and global alignment."
+   },
+   "6": {
+    "pred_id": "pred_20261002002110_62a4bd205dcb",
+    "class": "PREDICTION",
+    "claim": "Countries will resist being forced to choose between the US and China on AI, particularly in the global south where many would choose China if forced to decide.",
+    "category": "ai",
+    "reason": "Prediction about global AI alignment dynamics."
+   },
+   "7": {
+    "pred_id": "pred_20261002002121_140b1900f656",
+    "class": "PREDICTION",
+    "claim": "The US and China will not maintain their current level of diplomatic engagement and economic cooperation, and the relationship will likely break down within the next year, certainly before the end of the Trump administration.",
+    "category": "china",
+    "reason": "Forecast of U.S.-China diplomatic/economic relations breakdown."
+   }
+  },
+  "150": {
+   "0": {
+    "pred_id": "pred_20261002002348_344ca8975cec",
+    "class": "PREDICTION",
+    "claim": "Surgical robots will have seen 50-50 million cases in their lifetime because they share all of their knowledge across every surgery done.",
+    "category": "health",
+    "reason": "Forward-looking claim about surgical robots' capabilities and knowledge sharing, testable as right/wrong."
+   },
+   "1": {
+    "pred_id": "pred_20261002002348_40bd45406ade",
+    "class": "PREDICTION",
+    "claim": "Robotic surgery will become so advanced that we won't even need it, as Nano parts will be repairing organs.",
+    "category": "health",
+    "reason": "Future medical technology prediction about nano parts replacing robotic surgery, testable as right/wrong."
+   },
+   "2": {
+    "pred_id": "pred_20261002002415_5f7e95e1eb9d",
+    "class": "PREDICTION",
+    "claim": "By 2034, the world will be fundamentally different due to new emergences like AI, and predictions about the future are difficult because the world changes too rapidly.",
+    "category": "ai",
+    "reason": "Forward-looking assertion about AI-driven global transformation, testable as right/wrong."
+   },
+   "3": {
+    "pred_id": "pred_20261002002436_1b1af78cb548",
+    "class": "PERSONAL",
+    "claim": "The speaker will continue using the oral testosterone form (testosterone undecanoate) for six months to evaluate its effectiveness and potential benefits over injections.",
+    "category": "health",
+    "reason": "Personal health regimen and self-experimentation timeline."
+   },
+   "4": {
+    "pred_id": "pred_20261002002436_fef9fdaa84b9",
+    "class": "PERSONAL",
+    "claim": "The speaker's testosterone levels will remain within the range of 750 to 1100, with a peak around 1100, and will continue to monitor for side effects such as water retention or acne.",
+    "category": "health",
+    "reason": "Personal health metrics and monitoring plan."
+   },
+   "5": {
+    "pred_id": "pred_20261002002536_c932b1c63dae",
+    "class": "PREDICTION",
+    "claim": "The regulatory environment for Bitcoin will shift significantly, allowing major banks like Morgan Stanley to actively promote Bitcoin ETFs to clients.",
+    "category": "finance",
+    "reason": "Forward-looking claim about Bitcoin ETF regulatory changes and banking behavior, testable as right/wrong."
+   },
+   "6": {
+    "pred_id": "pred_20261002002536_56e60e58aae4",
+    "class": "PREDICTION",
+    "claim": "The US will pay more in interest on its national debt than it spends on its military.",
+    "category": "finance",
+    "reason": "Future financial comparison claim between debt interest and military spending, testable as right/wrong."
+   },
+   "7": {
+    "pred_id": "pred_20261002002546_7cf52eba8b65",
+    "class": "PREDICTION",
+    "claim": "AI will drive incredible breakthroughs that will help humanity achieve longevity escape velocity.",
+    "category": "health",
+    "reason": "Forward-looking assertion about AI's role in longevity advancements, testable as right/wrong."
+   }
+  },
+  "151": {
+   "0": {
+    "pred_id": "pred_20261002002546_53cd1b6e4d85",
+    "class": "SELF-REPORT",
+    "claim": "The chronic inflammation in the body is the underlying cause of chronic diseases like diabetes, obesity, heart disease, depression and anxiety.",
+    "category": "health",
+    "reason": "States a general health fact about inflammation as a cause of diseases, not a forward-looking claim."
+   },
+   "1": {
+    "pred_id": "pred_20261002002557_70cd4a41d930",
+    "class": "PREDICTION",
+    "claim": "AI will enable the creation of billions of decentralized autonomous organizations (Dows) that function as autonomous agents.",
+    "category": "ai",
+    "reason": "Forward-looking claim about future AI-driven organizational structures."
+   },
+   "2": {
+    "pred_id": "pred_20261002002557_afa97bf2efc1",
+    "class": "PREDICTION",
+    "claim": "AI agents will transact using cryptocurrency, including Bitcoin and stablecoins, for automated financial operations.",
+    "category": "finance",
+    "reason": "Predicts future AI-crypto transaction systems."
+   },
+   "3": {
+    "pred_id": "pred_20261002002607_aad0f9da3594",
+    "class": "SELF-REPORT",
+    "claim": "People who eat a cup of beans a day live about four years longer.",
+    "category": "health",
+    "reason": "States a general health observation, not a prediction."
+   },
+   "4": {
+    "pred_id": "pred_20261002002607_df1c82b70b36",
+    "class": "SELF-REPORT",
+    "claim": "The average American eats about 240 pounds of meat a year, while people in blue zones eat about 20 pounds a year.",
+    "category": "health",
+    "reason": "Factual dietary comparison, not a prediction."
+   },
+   "5": {
+    "pred_id": "pred_20261002002735_3950bc9de3e0",
+    "class": "SELF-REPORT",
+    "claim": "People who can articulate their sense of purpose live about seven years longer than those who are rudderless in life.",
+    "category": "health",
+    "reason": "States a general health observation about purpose and longevity."
+   },
+   "6": {
+    "pred_id": "pred_20261002002735_8a6be5e20149",
+    "class": "SELF-REPORT",
+    "claim": "Optimists live up to 15% longer than pessimists.",
+    "category": "health",
+    "reason": "General health claim about optimism and lifespan."
+   },
+   "7": {
+    "pred_id": "pred_20261002002744_78dee2ad6673",
+    "class": "ADVICE",
+    "claim": "Sunscreen should be applied even during short daily exposures such as walking to the car or getting coffee.",
+    "category": "health",
+    "reason": "Direct advice on sunscreen usage."
+   }
+  },
+  "153": {
+   "0": {
+    "pred_id": "pred_20261002003115_f22be71e21dd",
+    "class": "PREDICTION",
+    "claim": "AI will eventually create photorealistic human characters that could obviate the need for actors.",
+    "category": "ai",
+    "reason": "Forward-looking claim about AI's impact on the entertainment industry, testable as right/wrong."
+   },
+   "1": {
+    "pred_id": "pred_20261002003115_21d88980aa4a",
+    "class": "PREDICTION",
+    "claim": "AI-driven movies will likely feature fully digital celebrities that could become as popular as real human actors.",
+    "category": "ai",
+    "reason": "Predicts future popularity of AI-generated characters in entertainment, testable."
+   },
+   "2": {
+    "pred_id": "pred_20261002003124_41fd5460fc5c",
+    "class": "PREDICTION",
+    "claim": "By 2040, somewhere between 1 to 10 billion humanoid robots will be on the planet.",
+    "category": "ai",
+    "reason": "Specific numerical forecast about robot proliferation by 2040, testable."
+   },
+   "3": {
+    "pred_id": "pred_20261002003132_c8f5a1521389",
+    "class": "PREDICTION",
+    "claim": "AI will become more empathic than humans in most cases within the next decade.",
+    "category": "ai",
+    "reason": "Forward-looking assertion about AI's emotional capabilities, testable."
+   },
+   "4": {
+    "pred_id": "pred_20261002003132_0cd59f6c527d",
+    "class": "PREDICTION",
+    "claim": "We will be able to have one AI per person, or even a 100 or a thousand AIs per person, given how cheap they are.",
+    "category": "ai",
+    "reason": "Predicts future AI affordability and distribution, testable."
+   },
+   "5": {
+    "pred_id": "pred_20261002003145_677854379921",
+    "class": "PREDICTION",
+    "claim": "Large context windows and text-to-action capabilities will lead to AI agents that can read all information in an organization and act upon it, fundamentally changing decision-making processes.",
+    "category": "ai",
+    "reason": "Forecasts AI's role in organizational decision-making, testable."
+   },
+   "6": {
+    "pred_id": "pred_20261002003145_a41a922e5dcb",
+    "class": "PREDICTION",
+    "claim": "The organizational structure of companies will determine their success in the AI race, with small, agile teams outperforming large bureaucratic ones.",
+    "category": "ai",
+    "reason": "Predicts future business success factors in AI adoption, testable."
+   },
+   "7": {
+    "pred_id": "pred_20261002003150_05ab54f46fb5",
+    "class": "SELF-REPORT",
+    "claim": "If we were being invaded by aliens, we would not require congressional hearings to establish that fact.",
+    "category": "other",
+    "reason": "Hypothetical commentary on bureaucracy, not a testable prediction."
+   }
+  },
+  "154": {
+   "0": {
+    "pred_id": "pred_20261002003239_1c158ae9e11b",
+    "class": "PREDICTION",
+    "claim": "If we make intelligence available to everyone, there's no problem you can't solve.",
+    "category": "ai",
+    "reason": "Forward-looking claim about universal access to intelligence solving all problems, testable as right/wrong."
+   },
+   "1": {
+    "pred_id": "pred_20261002003239_2e2641bbcd52",
+    "class": "PREDICTION",
+    "claim": "The technology of intelligence and agents will become distributed and open, raising all boats instead of exacerbating gaps.",
+    "category": "ai",
+    "reason": "Forecast of distributed/open AI infrastructure improving global outcomes, testable."
+   },
+   "2": {
+    "pred_id": "pred_20261002003253_4ac354e87127",
+    "class": "PREDICTION",
+    "claim": "By 2024, governments and nations will have begun collaborative efforts to build high-quality, diverse datasets for AI models that represent humanity as a whole, including data from non-Western cultures.",
+    "category": "ai",
+    "reason": "Specific time-bound claim about global AI dataset collaboration, testable."
+   },
+   "3": {
+    "pred_id": "pred_20261002003253_703bb6e82574",
+    "class": "PREDICTION",
+    "claim": "There will be a significant shift toward open, collaborative infrastructure in AI development rather than competitive, unitary approaches, with open source AI becoming as good as or better than proprietary systems.",
+    "category": "ai",
+    "reason": "Prediction of open-source AI surpassing proprietary systems, testable over time."
+   },
+   "4": {
+    "pred_id": "pred_20261002003310_87dc583506fe",
+    "class": "PREDICTION",
+    "claim": "AI doctors will be available to everyone and will outperform most physicians within a few single-digit years.",
+    "category": "health",
+    "reason": "Forward-looking claim about AI medical performance, testable within a short timeframe."
+   },
+   "5": {
+    "pred_id": "pred_20261002003317_7008eeeb0039",
+    "class": "PREDICTION",
+    "claim": "AI automation will put 300 million full-time jobs at risk",
+    "category": "finance",
+    "reason": "Quantifiable prediction about job displacement due to AI, testable."
+   },
+   "6": {
+    "pred_id": "pred_20261002003323_c41906a379f4",
+    "class": "PREDICTION",
+    "claim": "Robots will be working in homes within the next three years",
+    "category": "other",
+    "reason": "Specific timeframe prediction about home robotics adoption, testable."
+   },
+   "7": {
+    "pred_id": "pred_20261002003323_abd047fee5f0",
+    "class": "PREDICTION",
+    "claim": "The cost of home robots will decrease significantly, with an order of magnitude pricing collapse",
+    "category": "other",
+    "reason": "Forecast of pricing collapse for home robots, testable over time."
+   }
+  },
+  "156": {
+   "0": {
+    "pred_id": "pred_20261002003714_a11ff265df06",
+    "class": "PREDICTION",
+    "claim": "Government adoption of Bitcoin, such as through ETFs and possibly direct government purchases, will drive increased access to Bitcoin for retail investors and improve its market position.",
+    "category": "finance",
+    "reason": "Forward-looking claim about Bitcoin's market position driven by institutional adoption."
+   },
+   "1": {
+    "pred_id": "pred_20261002003718_5032a07083dd",
+    "class": "SELF-REPORT",
+    "claim": "We are manufacturing about one humanoid robot per week in our facility in California.",
+    "category": "ai",
+    "reason": "Describes current production activity without future forecasting."
+   },
+   "2": {
+    "pred_id": "pred_20261002003749_42925ff7309e",
+    "class": "PREDICTION",
+    "claim": "Figure Robotics will have 10 billion robots on the planet by 2040.",
+    "category": "ai",
+    "reason": "Quantitative forecast about future robot deployment."
+   },
+   "3": {
+    "pred_id": "pred_20261002003749_a2e2797b939b",
+    "class": "PREDICTION",
+    "claim": "The cost of humanoid robots will decrease to sub-$20,000 per unit with high manufacturing volumes.",
+    "category": "ai",
+    "reason": "Price prediction tied to future manufacturing scale."
+   },
+   "4": {
+    "pred_id": "pred_20261002003846_f30fb25c13e4",
+    "class": "PREDICTION",
+    "claim": "Bitcoin should be north of 100 by now",
+    "category": "finance",
+    "reason": "Retroactive price forecast for Bitcoin as of 2024."
+   },
+   "5": {
+    "pred_id": "pred_20261002003852_e2ef564faa52",
+    "class": "PREDICTION",
+    "claim": "Within the next one or two years, XR devices will shrink to 100 grams or less and begin to look more like glasses than current headsets.",
+    "category": "ai",
+    "reason": "Future hardware design prediction for XR technology."
+   },
+   "6": {
+    "pred_id": "pred_20261002003904_df73fdabadbf",
+    "class": "SELF-REPORT",
+    "claim": "GPT search (e.g., GPT-4) is taking a bite out of Google's dominance in search.",
+    "category": "ai",
+    "reason": "Current assessment of market competition, not a future forecast."
+   },
+   "7": {
+    "pred_id": "pred_20261002003912_f95a5a30eabd",
+    "class": "PREDICTION",
+    "claim": "The visual quality of VR will be sufficient to match the level shown in Ready Player One within a relatively short timeframe.",
+    "category": "ai",
+    "reason": "Future capability prediction for VR technology."
+   }
+  },
+  "157": {
+   "0": {
+    "pred_id": "pred_20261002003912_f9df709f408d",
+    "class": "PREDICTION",
+    "claim": "VR technologies like full bodysuits are not yet mature and are too expensive and high friction for mass market adoption.",
+    "category": "technology",
+    "reason": "Forward-looking claim about VR market adoption"
+   },
+   "1": {
+    "pred_id": "pred_20261002004012_cd1eba00a60f",
+    "class": "PREDICTION",
+    "claim": "The Incinerator companies inside the Infiniti incubator will grow at over 100% annually and maintain those growth rates longer as the larger business matures.",
+    "category": "finance",
+    "reason": "Specific growth rate forecast for companies"
+   },
+   "2": {
+    "pred_id": "pred_20261002004012_122a367f1533",
+    "class": "PREDICTION",
+    "claim": "The company will maintain a 25%+ compound annual growth rate over decades, similar to legendary businesses like Apple and Amazon.",
+    "category": "finance",
+    "reason": "Long-term growth rate prediction"
+   },
+   "3": {
+    "pred_id": "pred_20261002004113_a439bc591db8",
+    "class": "PREDICTION",
+    "claim": "AI systems will be able to progress at a rate 10x or even 1 million times faster than current human capabilities, enabling them to simulate and test long-term outcomes in controlled environments like a metaverse.",
+    "category": "ai",
+    "reason": "Future AI capability forecast"
+   },
+   "4": {
+    "pred_id": "pred_20261002004122_c031ebc4ddcf",
+    "class": "PERSONAL",
+    "claim": "I see everything as algorithms around me, and I'm constantly trying different algorithms that I see and in environments how people behave what they say in certain scenarios and then I try those algorithms on and see how they feel and I'm constantly iterating and adapting them, and that's where a huge part of my life was focused after the seventh grade.",
+    "category": "other",
+    "reason": "Personal cognitive framework description"
+   },
+   "5": {
+    "pred_id": "pred_20261002004145_0c5cebd16bba",
+    "class": "PREDICTION",
+    "claim": "The average maximum life expectancy of humans living in the first world, if you do everything right, is about 94, with females potentially reaching 96 and males 92 or 93.",
+    "category": "health",
+    "reason": "Longevity forecast for first-world populations"
+   },
+   "6": {
+    "pred_id": "pred_20261002004230_af37fd567f82",
+    "class": "SELF-REPORT",
+    "claim": "The nasal spray ProFY will be investigated more rigorously in humans.",
+    "category": "health",
+    "reason": "Future research plan disclosure"
+   },
+   "7": {
+    "pred_id": "pred_20261002004230_ed4cd0fdca58",
+    "class": "PREDICTION",
+    "claim": "ProFY may be effective for preventing allergies by creating a barrier to allergens.",
+    "category": "health",
+    "reason": "Potential efficacy forecast for a product"
+   }
+  },
+  "159": {
+   "0": {
+    "pred_id": "pred_20261002004619_e69280e780fd",
+    "class": "SELF-REPORT",
+    "claim": "MIT's academic culture has transitioned from a focus on Nobel prizes to a greater emphasis on entrepreneurship, with professors increasingly interested in starting companies.",
+    "category": "other",
+    "reason": "Describes a historical/present shift in academic priorities, not a forward-looking forecast."
+   },
+   "1": {
+    "pred_id": "pred_20261002004628_33af7c9a883a",
+    "class": "ADVICE",
+    "claim": "Building muscle mass and strength is the number one thing to do in terms of reducing all-cause mortality.",
+    "category": "health",
+    "reason": "Exhortation to listeners to prioritize muscle-building for mortality reduction."
+   },
+   "2": {
+    "pred_id": "pred_20261002004628_65fcfb76b082",
+    "class": "SELF-REPORT",
+    "claim": "The bottom third of the population from a muscular perspective has a 50% increased mortality rate.",
+    "category": "health",
+    "reason": "States a statistical observation about current mortality rates linked to muscle mass."
+   },
+   "3": {
+    "pred_id": "pred_20261002004639_4f66b14d5fec",
+    "class": "PREDICTION",
+    "claim": "Every country in the world will participate in First Global with one team per country.",
+    "category": "other",
+    "reason": "Forward-looking assertion about future global participation in an event."
+   },
+   "4": {
+    "pred_id": "pred_20261002004639_e68d6cc29d4e",
+    "class": "PREDICTION",
+    "claim": "First Global will establish a universal pair of documents: a Declaration of Interdependence and a Bill of Responsibility, signed by all participating teams.",
+    "category": "other",
+    "reason": "Predicts a future institutional outcome of the event."
+   },
+   "5": {
+    "pred_id": "pred_20261002004655_ea1b270e01a3",
+    "class": "SELF-REPORT",
+    "claim": "The body's ability to absorb more than 100g of protein in a single meal is a myth that has been debunked.",
+    "category": "health",
+    "reason": "Corrects a prior belief based on recent research, not a forward-looking claim."
+   },
+   "6": {
+    "pred_id": "pred_20261002004655_e4d8ae0c40cb",
+    "class": "ADVICE",
+    "claim": "Taking creatine with warm water increases its bioavailability.",
+    "category": "health",
+    "reason": "Provides a method for optimizing creatine absorption."
+   },
+   "7": {
+    "pred_id": "pred_20261002004701_0cc6dfebb002",
+    "class": "PREDICTION",
+    "claim": "Quantum computers will provide a significant speedup for quantum simulations compared to classical computers.",
+    "category": "other",
+    "reason": "Forecast of future technological capability in quantum computing."
+   }
+  },
+  "160": {
+   "0": {
+    "pred_id": "pred_20261002004701_e8f45b0a79cf",
+    "class": "PREDICTION",
+    "claim": "The future of AI and quantum computing will involve building technologies that maximize intelligence per watt and uplevel everything.",
+    "category": "ai",
+    "reason": "Forward-looking claim about technological development in AI and quantum computing."
+   },
+   "1": {
+    "pred_id": "pred_20261002004749_f9b30db47d49",
+    "class": "PREDICTION",
+    "claim": "By the next time a pandemic hits this country, you won't have to see syringes and needles and large volumes and get fevers and muscle side effects.",
+    "category": "health",
+    "reason": "Prediction about future medical technology during pandemics."
+   },
+   "2": {
+    "pred_id": "pred_20261002004749_f4281c973299",
+    "class": "SELF-REPORT",
+    "claim": "Three or four major credible Pharma companies that realize this could be used for dengue fever and lots of other things in the developing world.",
+    "category": "health",
+    "reason": "Describes current awareness of pharmaceutical companies, not a future forecast."
+   },
+   "3": {
+    "pred_id": "pred_20261002004822_6e06fbfbc04d",
+    "class": "PREDICTION",
+    "claim": "The FDA will grant breakthrough status to the life support system for organs, allowing accelerated review and enabling the device to start supplying these things even to today's organs.",
+    "category": "health",
+    "reason": "Prediction about future regulatory action (FDA approval) for a medical device."
+   },
+   "4": {
+    "pred_id": "pred_20261002004822_525f1cead41b",
+    "class": "PREDICTION",
+    "claim": "The life support pod will be able to improve the health of kidneys, making them produce more urine than when they were taken out of the cadaver, and this will enable the kidneys to be preserved for longer periods.",
+    "category": "health",
+    "reason": "Forecast about future capabilities of a medical technology."
+   },
+   "5": {
+    "pred_id": "pred_20261002004830_d724d3fc55eb",
+    "class": "PREDICTION",
+    "claim": "Thermodynamic computing will become an inevitable and clear evolutionary step in computing, necessitating a complete rebuild of the computing stack.",
+    "category": "ai",
+    "reason": "Prediction about future evolution of computing technology."
+   },
+   "6": {
+    "pred_id": "pred_20261002004830_fc870f9984cb",
+    "class": "PREDICTION",
+    "claim": "Thermodynamic computing will enable significant speedups in simulating molecular dynamics, such as protein folding, by embedding the physics of biological processes into the native physics of the hardware.",
+    "category": "ai",
+    "reason": "Prediction about future computational capabilities in biological simulations."
+   },
+   "7": {
+    "pred_id": "pred_20261002004843_85fb0f93ac98",
+    "class": "SELF-REPORT",
+    "claim": "The average maximum life expectancy of humans living in the first world, if you do everything right, is about 94.",
+    "category": "health",
+    "reason": "Factual statement about current/existing life expectancy data, not a forecast."
+   }
+  },
+  "162": {
+   "0": {
+    "pred_id": "pred_20261002005048_18b3d0b54f5d",
+    "class": "SELF-REPORT",
+    "claim": "The company Ideal Lab was in the process of building rockets and landers for a private lunar mission, with plans to use various launch vehicles including Taurus, Taurus XL, Athena II, and a Russian Dener rocket.",
+    "category": "energy",
+    "reason": "Describes past/present actions (building rockets) without forward-looking testable claim."
+   },
+   "1": {
+    "pred_id": "pred_20261002005144_9244306e2258",
+    "class": "PREDICTION",
+    "claim": "We will build a new generation of wheelchairs and get CMS medicare and medicaid to say yes we recognize that there's a need for this and they're putting it on their list",
+    "category": "health",
+    "reason": "Forward-looking claim about CMS approval for new wheelchairs."
+   },
+   "2": {
+    "pred_id": "pred_20261002005144_fa9cb514298e",
+    "class": "PREDICTION",
+    "claim": "The Veterans Administration will accept 50 of these wheelchairs and donate two to each of the 25 VA hospitals that take care of our vets",
+    "category": "health",
+    "reason": "Future claim about VA accepting/donating wheelchairs."
+   },
+   "3": {
+    "pred_id": "pred_20261002005155_89b82df8f612",
+    "class": "PREDICTION",
+    "claim": "These XR capabilities will move into 100 grams and less devices within the next one to two years.",
+    "category": "ai",
+    "reason": "Testable future claim about XR device weight reduction."
+   },
+   "4": {
+    "pred_id": "pred_20261002005155_bb26ea62df2e",
+    "class": "PREDICTION",
+    "claim": "We will get to immersive degrees field of view capabilities within one or two more generations after current devices.",
+    "category": "ai",
+    "reason": "Future claim about immersive tech advancements."
+   },
+   "5": {
+    "pred_id": "pred_20261002005202_17c2c658b8d0",
+    "class": "SELF-REPORT",
+    "claim": "AI is much better than humans at seeing patterns and catching the minutia always on always paying attention.",
+    "category": "ai",
+    "reason": "Present assertion about AI capabilities, not a prediction."
+   },
+   "6": {
+    "pred_id": "pred_20261002005202_0567fc871a42",
+    "class": "SELF-REPORT",
+    "claim": "AI can mitigate cognitive biases that humans have, such as those demonstrated in parole hearings where judges' biological state affected decisions.",
+    "category": "ai",
+    "reason": "Present capability claim, not a forward-looking prediction."
+   },
+   "7": {
+    "pred_id": "pred_20261002005214_e7d601308f91",
+    "class": "PREDICTION",
+    "claim": "The systems will get so good that everyone in the world through their phone or what have you will have access to a essentially a poly polymath as in the historic polymaths of old",
+    "category": "ai",
+    "reason": "Future claim about universal access to polymath-level AI knowledge."
+   }
+  },
+  "163": {
+   "0": {
+    "pred_id": "pred_20261002005214_8110fe7e9187",
+    "class": "PREDICTION",
+    "claim": "We're heading toward like the trillion sensor economy where everything is knowable",
+    "category": "ai",
+    "reason": "Forward-looking claim about the future state of sensor technology and AI integration."
+   },
+   "1": {
+    "pred_id": "pred_20261002005227_5e3fe7a295a6",
+    "class": "PREDICTION",
+    "claim": "Luminar's lidar technology will reduce the cost of autonomous driving sensors from $100,000 down to under $1,000",
+    "category": "ai",
+    "reason": "Specific forecast about cost reduction in autonomous driving sensor technology."
+   },
+   "2": {
+    "pred_id": "pred_20261002005356_624eb000fa46",
+    "class": "PREDICTION",
+    "claim": "AlphaFold 3 will predict the structure and interactions of all life molecules, enabling simulation of how molecules interact with each other",
+    "category": "ai",
+    "reason": "Prediction about AI's future capability in molecular biology and simulation."
+   },
+   "3": {
+    "pred_id": "pred_20261002005356_cd6c7c311159",
+    "class": "PREDICTION",
+    "claim": "AI-driven humanoid robots will become more capable and frequent, with capabilities improving dramatically every month or two",
+    "category": "ai",
+    "reason": "Forward-looking claim about rapid advancement in AI robotics."
+   },
+   "4": {
+    "pred_id": "pred_20261002005402_e06faff12120",
+    "class": "PREDICTION",
+    "claim": "Stable Diffusion 3 will be the best performing image model by combining Transformer architecture and diffusion models",
+    "category": "ai",
+    "reason": "Prediction about the performance of an AI image generation model."
+   },
+   "5": {
+    "pred_id": "pred_20261002005402_8ddf347d34aa",
+    "class": "SELF-REPORT",
+    "claim": "By the time this presentation was made, 200 cats with hats could be generated per second using a distillation model",
+    "category": "ai",
+    "reason": "Describes a current technical capability at the time of the statement."
+   },
+   "6": {
+    "pred_id": "pred_20261002005431_2a79c6190b92",
+    "class": "PREDICTION",
+    "claim": "We will be in clinical trials with a half a dozen different Army based products within the next",
+    "category": "health",
+    "reason": "Forward-looking claim about entering clinical trials for medical products."
+   },
+   "7": {
+    "pred_id": "pred_20261002005431_c7c744a754d7",
+    "class": "PREDICTION",
+    "claim": "We're going to figure out how to make it practical to take all the miracles of science being generated in all the med schools and all the... and manufacture high-quantity, high-quality, reasonable price cells, tissues, and organs",
+    "category": "health",
+    "reason": "Prediction about future advancements in biotechnology and organ manufacturing."
+   }
+  },
+  "165": {
+   "0": {
+    "pred_id": "pred_1790961078_22",
+    "class": "PREDICTION",
+    "claim": "U.S. equities will continue to rally as long as financial conditions remain incredibly loose.",
+    "category": "finance",
+    "reason": "Forward-looking claim about stock market behavior under specific financial conditions, testable as right/wrong."
+   },
+   "1": {
+    "pred_id": "pred_1790961078_23",
+    "class": "PREDICTION",
+    "claim": "A weekly close over the 50-day moving average for gold, roughly 4,400 an ounce, would be considerably more significant, suggesting that the primary bull market has resumed, setting the stage for a retest of the January highs before year-end.",
+    "category": "finance",
+    "reason": "Specific forecast about gold price trends and market behavior, testable via price data."
+   },
+   "2": {
+    "pred_id": "pred_1790961078_24",
+    "class": "PREDICTION",
+    "claim": "If momentum finally shifts, retail investors won\u2019t simply be selling into an empty market. They\u2019ll be competing with professional money managers trying to exit the same crowded positions.",
+    "category": "finance",
+    "reason": "Predicts market behavior during a downturn, testable through market participation and price dynamics."
+   },
+   "3": {
+    "pred_id": "pred_1790961078_25",
+    "class": "PREDICTION",
+    "claim": "The Dow-to-gold ratio will continue its long-term compression towards the low-single digits, where it has repeatedly bottomed throughout history.",
+    "category": "finance",
+    "reason": "Forecast about a financial ratio's trajectory, testable via historical and future data."
+   },
+   "4": {
+    "pred_id": "pred_1790961078_27",
+    "class": "PREDICTION",
+    "claim": "The Federal Reserve Board will completely miss inflation and the rise in interest rates, as they did in the early 1980s when rates skyrocketed to close to 20%.",
+    "category": "finance",
+    "reason": "Prediction about central bank policy outcomes, testable via inflation and interest rate data."
+   },
+   "5": {
+    "pred_id": "pred_1790961078_28",
+    "class": "PREDICTION",
+    "claim": "Iran will be able to export oil and import goods of any kind during the 60-day ceasefire extension following the signing of the memorandum of understanding.",
+    "category": "geopolitics",
+    "reason": "Forecast about geopolitical trade dynamics under a specific agreement, testable via trade data and policy implementation."
+   },
+   "6": {
+    "pred_id": "pred_1790961078_29",
+    "class": "PREDICTION",
+    "claim": "The US is expected to release billions in frozen assets to Iran as part of the agreement.",
+    "category": "geopolitics",
+    "reason": "Prediction about a geopolitical financial action (asset unfreezing), testable via official announcements."
+   },
+   "7": {
+    "pred_id": "pred_1790961078_30",
+    "class": "PREDICTION",
+    "claim": "SpaceX will reach a market capitalization of over one trillion dollars.",
+    "category": "finance",
+    "reason": "Forward-looking claim about a company's valuation, testable via stock market data."
+   }
+  },
+  "166": {
+   "0": {
+    "pred_id": "pred_1790961078_31",
+    "class": "PREDICTION",
+    "claim": "Three companies coming public shortly could potentially raise $3 trillion in total market capitalization.",
+    "category": "finance",
+    "reason": "Forward-looking claim about market capitalization of companies going public."
+   },
+   "1": {
+    "pred_id": "pred_1790961078_32",
+    "class": "PREDICTION",
+    "claim": "By the end of 2026, global oil demand will be up by two million barrels per day, creating a deficit rather than the previously modeled surplus.",
+    "category": "energy",
+    "reason": "Specific forecast about global oil demand and its impact on market balance."
+   },
+   "2": {
+    "pred_id": "pred_1790961078_33",
+    "class": "PREDICTION",
+    "claim": "Following resolution of the Iran conflict, oil prices will surge to between $100 and $150 per barrel.",
+    "category": "energy",
+    "reason": "Forward-looking claim about oil price movement tied to geopolitical event resolution."
+   },
+   "3": {
+    "pred_id": "pred_1790961078_34",
+    "class": "PREDICTION",
+    "claim": "The US government's annualized interest expense will exceed $1 trillion due to refinancing a third of all US Treasury debt with elevated yields above the average interest cost of 3.37%.",
+    "category": "finance",
+    "reason": "Forecast about U.S. government debt servicing costs and refinancing dynamics."
+   },
+   "4": {
+    "pred_id": "pred_1790961078_37",
+    "class": "PREDICTION",
+    "claim": "The Federal Reserve will engage in massive monetization of Treasury debt in the years directly in front of us, filling the demand gap left by global players whose interests are no longer served by being U.S. creditors.",
+    "category": "finance",
+    "reason": "Prediction about Federal Reserve policy and global capital flows."
+   },
+   "5": {
+    "pred_id": "pred_1790961078_39",
+    "class": "PREDICTION",
+    "claim": "Oil will not return to a sub $11, $12 barrel for a long, long time",
+    "category": "energy",
+    "reason": "Long-term forecast about oil price floor, split from personal position 'I'm long oil'."
+   },
+   "6": {
+    "pred_id": "pred_1790961078_40",
+    "class": "PREDICTION",
+    "claim": "The Dow/gold ratio will come down to one or two or three to one, at which point David will be a buyer of stocks",
+    "category": "finance",
+    "reason": "Forecast about asset valuation ratio, split from personal investment behavior."
+   },
+   "7": {
+    "pred_id": "pred_1790961078_41",
+    "class": "PREDICTION",
+    "claim": "The stock market will experience a major bear market correction within the next decade due to current overvaluation levels.",
+    "category": "finance",
+    "reason": "Long-term market correction prediction based on valuation analysis."
+   }
+  },
+  "168": {
+   "0": {
+    "pred_id": "pred_1790961078_51",
+    "class": "PREDICTION",
+    "claim": "Gold could reach around 8,000 per ounce by late 2027 or 2028",
+    "category": "finance",
+    "reason": "Forward-looking market forecast about gold price with specific timeframe"
+   },
+   "1": {
+    "pred_id": "pred_1790961078_54",
+    "class": "PREDICTION",
+    "claim": "silver could reach $500 an ounce",
+    "category": "finance",
+    "reason": "Testable commodity price forecast"
+   },
+   "2": {
+    "pred_id": "pred_1790961078_55",
+    "class": "PREDICTION",
+    "claim": "silver is potentially not showing an inkling of stopping and could continue rising for at least a couple of days",
+    "category": "finance",
+    "reason": "Short-term price trajectory prediction"
+   },
+   "3": {
+    "pred_id": "pred_1790961078_56",
+    "class": "PREDICTION",
+    "claim": "Gold could break out of its current range and move into the 56-5700s in the next couple weeks, potentially signaling a continuation of its bullish trend",
+    "category": "finance",
+    "reason": "Specific price range and timeframe prediction"
+   },
+   "4": {
+    "pred_id": "pred_1790961078_57",
+    "class": "PREDICTION",
+    "claim": "If the dollar continues its current downward trend, it could fall below 95 again in the near future, which is defined as weeks or days",
+    "category": "finance",
+    "reason": "Currency value forecast with conditional statement"
+   },
+   "5": {
+    "pred_id": "pred_1790961078_58",
+    "class": "PREDICTION",
+    "claim": "I think it will be in the mid60s on the gold/silver ratio by the middle of next year",
+    "category": "finance",
+    "reason": "Commodity ratio forecast with specific timeframe"
+   },
+   "6": {
+    "pred_id": "pred_1790961078_60",
+    "class": "PREDICTION",
+    "claim": "Inflation will top out over 3.3 by December",
+    "category": "finance",
+    "reason": "Economic indicator forecast with specific value and timeframe"
+   },
+   "7": {
+    "pred_id": "pred_1790961078_61",
+    "class": "PREDICTION",
+    "claim": "Gold will hit $3,400",
+    "category": "finance",
+    "reason": "Price target with implied near-term timeframe"
+   }
+  }
+ },
+ "errors": []
+}

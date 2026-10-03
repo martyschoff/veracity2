@@ -1,5 +1,5 @@
 {
- "batch_idx": 64,
+ "batch_idx": 73,
  "results": {
   "1": {
    "0": {
@@ -869,6 +869,64 @@
     "claim": "Greece's bailout debt repayment is going to take decades to complete.",
     "category": "finance",
     "reason": "Forward-looking, testable claim about the timeline for Greece completing its bailout debt repayment."
+   }
+  },
+  "70": {
+   "0": {
+    "pred_id": "pred_20261001202812_f7a82541c3a0",
+    "class": "SELF-REPORT",
+    "claim": "If DeepSeek's announcements are true, the advanced chips used to create their AI model were custom-built to comply with U.S. sanctions and were 'dumbed down' versions of Nvidia's high-end chips.",
+    "category": "ai",
+    "reason": "Describes a past event (how the chips were designed and produced); conditional but not forward-looking."
+   },
+   "1": {
+    "pred_id": "pred_20261001202820_f45bbb86de75",
+    "class": "PREDICTION",
+    "claim": "The shutdown of foreign aid distribution will damage US diplomatic and strategic global position.",
+    "category": "geopolitics",
+    "reason": "Forward-looking claim that a policy action will produce a specific geopolitical outcome; testable by observing US diplomatic/strategic standing."
+   },
+   "2": {
+    "pred_id": "pred_20261001202832_cb47bb64f636",
+    "class": "PREDICTION",
+    "claim": "Mortgage rates in the United States will continue to rise due to fiscal policies and economic conditions.",
+    "category": "finance",
+    "reason": "Explicit forward-looking forecast ('will continue to rise') about a measurable economic indicator."
+   },
+   "3": {
+    "pred_id": "pred_20261001202952_89d696e17790",
+    "class": "PREDICTION",
+    "claim": "The next phase of U.S. foreign policy will lack strategic coherence, with erratic and kinetic actions becoming more common as the military becomes the tool of the moment rather than the tool of strategy.",
+    "category": "geopolitics",
+    "reason": "Forward-looking prediction about the character of future U.S. foreign policy; testable by observing subsequent actions."
+   },
+   "4": {
+    "pred_id": "pred_20261001203003_c77bfab2d002",
+    "class": "PREDICTION",
+    "claim": "If Western naval assets were used to limit the ability of Russians to leave the Black Sea or the Baltic Sea, then roughly two-thirds of what the Russians send out would be shut off within a day.",
+    "category": "ukraine",
+    "reason": "Conditional forward-looking claim about a specific measurable outcome (two-thirds shut off within a day) if a geopolitical action is taken."
+   },
+   "5": {
+    "pred_id": "pred_20261001203003_505925abe09e",
+    "class": "SELF-REPORT",
+    "claim": "Most countries are not ready for a world where military force is necessary to keep sea lanes open, as the current system of free seas predates World War II.",
+    "category": "geopolitics",
+    "reason": "Present-tense assessment of the current state of global preparedness; not a specific forward-looking forecast with a testable outcome."
+   },
+   "6": {
+    "pred_id": "pred_20261001203017_c20bf64fbad5",
+    "class": "SELF-REPORT",
+    "claim": "Home sales in China dropped by somewhere between 70 and 80%",
+    "category": "china",
+    "reason": "Describes a past/present statistical observation about Chinese home sales over the last 18 months; not forward-looking."
+   },
+   "7": {
+    "pred_id": "pred_20261001203044_3bae40774fe6",
+    "class": "PREDICTION",
+    "claim": "The designation of Mexican cartels as terrorist groups will lead to the largest influx of legal migration through asylum claims in American history.",
+    "category": "geopolitics",
+    "reason": "Forward-looking causal prediction ('will lead to') about a specific, measurable migration outcome; testable against asylum data."
    }
   }
  },

@@ -14,3 +14,42 @@ s1: 5/56 batches, 18.5 min
 2026-10-02 22:09:53,043 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 200 OK"
 2026-10-02 22:11:29,317 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 200 OK"
 2026-10-02 22:12:47,747 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-02 22:14:32,391 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 200 OK"
+s1: 10/56 batches, 25.7 min
+2026-10-02 22:16:22,094 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-02 22:18:01,560 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-02 22:19:13,205 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-02 22:21:41,542 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+s1 batch 46: FAILED
+2026-10-02 22:24:18,075 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2026-10-02 22:26:48,819 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+s1 batch 49: FAILED
+2026-10-02 22:28:38,061 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-02 22:31:06,791 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+s1 batch 55: FAILED
+2026-10-02 22:33:42,965 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2026-10-02 22:36:15,641 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+s1 batch 58: FAILED
+2026-10-02 22:38:03,532 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 200 OK"
+s1: 15/56 batches, 49.2 min
+2026-10-02 22:40:53,605 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+s1 batch 64: FAILED
+2026-10-02 22:43:38,345 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2026-10-02 22:46:16,987 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+s1 batch 67: FAILED
+2026-10-02 22:48:59,374 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2026-10-02 22:50:49,999 [INFO] HTTP Request: POST http://127.0.0.1:18434/v1/chat/completions "HTTP/1.1 200 OK"
+Traceback (most recent call last):
+  File "C:\Users\schof\veracity2\scripts\classify_worker.py", line 134, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\schof\veracity2\scripts\classify_worker.py", line 125, in main
+    save_state(st, spath)
+    ~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\schof\veracity2\scripts\classify_worker.py", line 62, in save_state
+    tmp.replace(path)
+    ~~~~~~~~~~~^^^^^^
+  File "C:\Users\schof\AppData\Local\hermes\tools\python-3.14.7+20260901-win32-x64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Access is denied: 'C:\\Users\\schof\\veracity2\\data\\classify_state_1.tmp' -> 'C:\\Users\\schof\\veracity2\\data\\classify_state_1.json'

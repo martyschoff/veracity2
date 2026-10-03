@@ -50,7 +50,8 @@ def fetch_one(vid):
         return "json_fail", ""
     caps = j.get("automatic_captions") or {}
     subs = j.get("subtitles") or {}
-    track = caps.get("en-orig") or caps.get("en") or caps.get("en-US") or (subs.get("en") or [None])[0]
+    track = ((subs.get("en") or [None])[0] or (caps.get("en-orig") or caps.get("en")
+            or caps.get("en-US") or [None])[0])
     date = j.get("upload_date") or ""
     date = f"{date[:4]}-{date[4:6]}-{date[6:]}" if date else ""
     title = (j.get("title") or "").replace("|", "-")

@@ -1,5 +1,5 @@
 {
- "batch_idx": 122,
+ "batch_idx": 170,
  "results": {
   "2": {
    "0": {
@@ -2319,6 +2319,934 @@
     "claim": "Harris will gain some momentum from the debate, but it will likely not move her 2 or 3 points in the polls",
     "category": "finance",
     "reason": "This is a forward-looking claim about world outcomes involving political polling and electoral dynamics that can be tested as right/wrong"
+   }
+  },
+  "122": {
+   "0": {
+    "pred_id": "pred_20261001224833_496a6c04e866",
+    "class": "PREDICTION",
+    "claim": "Biden will not step down as president despite concerns over his cognitive fitness and age.",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about Biden's political future and whether he will remain in office, which is testable as right/wrong later."
+   },
+   "1": {
+    "pred_id": "pred_20261001224833_d2603303f4c8",
+    "class": "PREDICTION",
+    "claim": "Kamala Harris is a likely candidate to replace Biden if needed, and she is at least as capable as Biden of winning the election.",
+    "category": "geopolitics",
+    "reason": "This makes a forward-looking claim about who might replace Biden and her electoral capabilities, which is testable later."
+   },
+   "2": {
+    "pred_id": "pred_20261001224944_627f6ce9ea21",
+    "class": "PREDICTION",
+    "claim": "Biden will likely step down from the presidential race due to the poor performance in the debate and increasing pressure from within the Democratic Party.",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about Biden's political future and whether he will remain in the race, which is testable as right/wrong later."
+   },
+   "3": {
+    "pred_id": "pred_20261001224955_de2b116b3b38",
+    "class": "PREDICTION",
+    "claim": "Russia can keep on keeping on in the war because the geopolitical and economic costs imposed by the West are not severe enough to force a significant change in Russia's strategy or behavior.",
+    "category": "ukraine",
+    "reason": "This makes a forward-looking claim about Russia's continued military strategy and behavior, which is testable later."
+   },
+   "4": {
+    "pred_id": "pred_20261001224955_2c104a9e246c",
+    "class": "PREDICTION",
+    "claim": "If Ukraine continues to receive support, it may eventually be prepared to negotiate with Russia, though this would require strong security guarantees and integration into European institutions.",
+    "category": "ukraine",
+    "reason": "This makes a forward-looking claim about Ukraine's potential future negotiations with Russia, which is testable later."
+   },
+   "5": {
+    "pred_id": "pred_20261001225005_6152220a1161",
+    "class": "PREDICTION",
+    "claim": "The United States will continue to experience a crisis in democracy, with significant challenges to the legitimacy of elections and deepening dysfunction among major political parties.",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about the state of American democracy, which is testable as right/wrong later."
+   },
+   "6": {
+    "pred_id": "pred_20261001225005_6762c70927e4",
+    "class": "PREDICTION",
+    "claim": "If Donald Trump loses the 2024 election, he will claim the system is rigged and that the Democratic Party has politicized legal cases against him to prevent his victory.",
+    "category": "geopolitics",
+    "reason": "This makes a forward-looking claim about Trump's likely behavior after losing an election, which is testable later."
+   },
+   "7": {
+    "pred_id": "pred_20261001225017_fdadca3d67b3",
+    "class": "PREDICTION",
+    "claim": "The conflict in the Middle East will not see a diplomatic agreement in the near term, and the war will likely expand into the north with Hezbollah or continue intensifying in Rafah and Gaza.",
+    "category": "geopolitics",
+    "reason": "This makes forward-looking claims about the future of Middle Eastern conflicts, which are testable later."
+   }
+  },
+  "125": {
+   "0": {
+    "pred_id": "pred_20261001230248_3fd503a8108b",
+    "class": "PREDICTION",
+    "claim": "The United States will not deploy boots on the ground in Venezuela.",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about US military involvement in Venezuela that can be tested as right or wrong. It makes a specific prediction about US policy action."
+   },
+   "1": {
+    "pred_id": "pred_20261001230337_d9796763c728",
+    "class": "PREDICTION",
+    "claim": "The United States will take military action against Venezuela, including strikes against cartels and potentially military assets, but not an invasion or sustained military engagement.",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about US military action in Venezuela that can be tested as right or wrong. It makes a specific prediction about the scope and nature of potential US military involvement."
+   },
+   "2": {
+    "pred_id": "pred_20261001230349_0848e6dcd53b",
+    "class": "PREDICTION",
+    "claim": "The United States will increasingly adopt state capitalist policies as a response to China's success in building national champions through state-driven economic strategies.",
+    "category": "finance",
+    "reason": "This is a forward-looking claim about US economic policy evolution that can be tested as right or wrong. It predicts a specific policy shift in response to international economic competition."
+   },
+   "3": {
+    "pred_id": "pred_20261001230349_be19fed3982b",
+    "class": "PREDICTION",
+    "claim": "The US political system's inability to maintain consistent long-term policies will hinder its success in implementing state capitalism.",
+    "category": "finance",
+    "reason": "This is a forward-looking claim about the effectiveness of US state capitalist policies that can be tested as right or wrong. It predicts an outcome based on current political dynamics."
+   },
+   "4": {
+    "pred_id": "pred_20261001230403_38b7b4e01ec3",
+    "class": "PREDICTION",
+    "claim": "The United States and Europe are talking about near Article 5 guarantees for Ukraine, similar to what the US provides in South Korea, meaning a collective military response if Russia attacks Ukraine.",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about NATO military commitments to Ukraine that can be tested as right or wrong. It predicts specific international security arrangements."
+   },
+   "5": {
+    "pred_id": "pred_20261001230532_36c3d5208e02",
+    "class": "PREDICTION",
+    "claim": "Putin will attempt to convince Trump that Ukraine's refusal to agree to peace negotiations is due to obstreperous Ukrainian leadership, rather than Russia's unwillingness to compromise.",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about Putin's diplomatic strategy and Trump's potential reception of it. It predicts specific political behavior and messaging."
+   },
+   "6": {
+    "pred_id": "pred_20261001230532_24666588711b",
+    "class": "PREDICTION",
+    "claim": "The European Union will play a more significant role in coordinating Ukraine's negotiating position with Trump compared to the United States, due to increased European military support for Ukraine.",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about international diplomatic dynamics and power shifts in Ukraine negotiations. It predicts a specific change in the balance of influence."
+   },
+   "7": {
+    "pred_id": "pred_20261001230620_94f360e3b308",
+    "class": "PREDICTION",
+    "claim": "The Trump administration will continue to undermine democratic institutions by removing non-partisan experts from key positions, such as the Director of CISA, and replacing them with political appointees loyal to the president.",
+    "category": "other",
+    "reason": "This is a forward-looking claim about US institutional policy that can be tested as right or wrong. It predicts specific actions by the Trump administration that would affect democratic governance."
+   }
+  },
+  "128": {
+   "0": {
+    "pred_id": "pred_20261001231844_2b8ba7801387",
+    "class": "PREDICTION",
+    "claim": "Trump will undo all US sanctions on Syria",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about what Trump will do regarding US sanctions on Syria, which is a world outcome that can be tested as right or wrong"
+   },
+   "1": {
+    "pred_id": "pred_20261001224528_CLtxVA_0",
+    "class": "PREDICTION",
+    "claim": "If we ever get into a real hot fight with the Russians, expect to see dozens of those [terrorist incidents] every week",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about the frequency of terrorist incidents during a hypothetical US-Russia conflict, which is a testable world outcome"
+   },
+   "2": {
+    "pred_id": "pred_20261001224544_IHETMh_0",
+    "class": "PREDICTION",
+    "claim": "The coordinated shift in messaging by far-right figures like Marjorie Taylor Greene, Tucker Carlson, Alex Jones, and others represents an organized effort by Russian agents to destabilize the Republican Party and influence U.S. politics",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about the influence of Russian agents on US politics through coordinated messaging, which is a testable world outcome"
+   },
+   "3": {
+    "pred_id": "pred_20261001224519_UkC4Ht_0",
+    "class": "PREDICTION",
+    "claim": "The United States will face a significant reduction in its ability to operate anti-air operations and anti-missile and anti-drone operations not just in theater, but on a global basis due to the loss of AWACS aircraft",
+    "category": "defense",
+    "reason": "This is a forward-looking claim about US military capabilities being reduced due to loss of AWACS aircraft, which is a testable world outcome"
+   },
+   "4": {
+    "pred_id": "pred_20261001224555_wHMXjZ_0",
+    "class": "PREDICTION",
+    "claim": "we should expect significantly more things like this and this kind",
+    "category": "finance",
+    "reason": "This is a forward-looking claim about future occurrences of similar legal settlements, which is a testable world outcome related to legal/financial behavior"
+   },
+   "5": {
+    "pred_id": "pred_20261001225155_CsySpg_0",
+    "class": "PREDICTION",
+    "claim": "The Iranians are losing access to places to put crude and are pulling tankers out of mothballs, parking them near Kharg Island, which is their primary export point in the northern extremes of the Persian Gulf, and loading them up to use as floating storage",
+    "category": "energy",
+    "reason": "This is a forward-looking claim about Iranian oil export strategies and access, which is a testable world outcome related to energy markets"
+   },
+   "6": {
+    "pred_id": "pred_20261001225204_HtiaWw_0",
+    "class": "PREDICTION",
+    "claim": "barring surprises, we will never hear from him again",
+    "category": "other",
+    "reason": "This is a forward-looking claim about a person's future actions/communications, which is a testable world outcome"
+   },
+   "7": {
+    "pred_id": "pred_20261001225133_q_7-T4_0",
+    "class": "PREDICTION",
+    "claim": "Finland will likely face an inevitable war with Russia in the future, given Russia's expansionist goals and Finland's strategic position",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about Finland facing war with Russia, which is a testable world outcome"
+   }
+  },
+  "131": {
+   "0": {
+    "pred_id": "pred_20261001235331_bc407bd63cc8",
+    "class": "PREDICTION",
+    "claim": "The Supreme Court will push back on Trump's use of AIPA for tariffs, limiting his ability to implement significant tariff relief in the near term.",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about a specific world outcome (Supreme Court action on tariffs) that can be tested as right or wrong. It forecasts a political/legal development affecting international trade policy."
+   },
+   "1": {
+    "pred_id": "pred_20261001233611_QS9sas_0",
+    "class": "PREDICTION",
+    "claim": "Military strikes against Iran are looking increasingly imminent.",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about a specific world outcome (military strikes) that can be tested as right or wrong. It forecasts geopolitical military action."
+   },
+   "2": {
+    "pred_id": "pred_20261001232010_be3b3cdbf0be",
+    "class": "PREDICTION",
+    "claim": "The US-Canada relationship will become more transactional rather than built on trust and shared values.",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about a specific world outcome (US-Canada relationship dynamics) that can be tested as right or wrong. It forecasts international diplomatic relations changes."
+   },
+   "3": {
+    "pred_id": "pred_20261001232146_3d7bcafe9e72",
+    "class": "PREDICTION",
+    "claim": "Trump will not succeed in ending the Russia-Ukraine War within a reasonable timeframe, and may walk away from the effort, potentially engaging with Iran and North Korea to find alternative arrangements.",
+    "category": "ukraine",
+    "reason": "This is a forward-looking claim about specific world outcomes (ending war, diplomatic engagement) that can be tested as right or wrong. It forecasts geopolitical military and diplomatic developments."
+   },
+   "4": {
+    "pred_id": "pred_20261001232157_f6e72a2ce842",
+    "class": "PREDICTION",
+    "claim": "The US will continue to become much more kleptocratic beyond Trump and there is nothing that will stop that, which is a serious problem long term in terms of reputational capital for the United States.",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about a specific world outcome (US becoming more kleptocratic) that can be tested as right or wrong. It forecasts long-term political/ethical deterioration of US governance."
+   },
+   "5": {
+    "pred_id": "pred_20261001232157_c7a6a54e8a25",
+    "class": "PREDICTION",
+    "claim": "Trump will face significant pushback on authoritarian impulses, and it is far less likely that the US is slipping into dictatorship.",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about a specific world outcome (US political system trajectory) that can be tested as right or wrong. It forecasts political developments in US governance."
+   },
+   "6": {
+    "pred_id": "pred_20261001232203_52b56ebb9b3b",
+    "class": "PREDICTION",
+    "claim": "Harvard will continue to do research and teach with fewer resources and faculty, and there will be costs paid by faculty, students, and staff as a result of the administration's actions.",
+    "category": "other",
+    "reason": "This is a forward-looking claim about a specific world outcome (Harvard's resource situation) that can be tested as right or wrong. It forecasts institutional changes at a specific university."
+   },
+   "7": {
+    "pred_id": "pred_20261001232215_ca38351c60c0",
+    "class": "PREDICTION",
+    "claim": "The United States will continue to impose significant tariffs on global trade, creating a return to a 1930s-style tariff environment with the U.S. and China in a trade embargo-like situation.",
+    "category": "finance",
+    "reason": "This is a forward-looking claim about specific world outcomes (US tariff policy, global trade environment) that can be tested as right or wrong. It forecasts international economic policy developments."
+   }
+  },
+  "134": {
+   "0": {
+    "pred_id": "pred_20261001232709_603c77ae97ff",
+    "class": "PREDICTION",
+    "claim": "The United States and Russia are in negotiations that could lead to a grand bargain or deal over Ukraine's head, potentially excluding European interests.",
+    "category": "geopolitics",
+    "reason": "This claim forecasts future diplomatic developments between US, Russia, and Ukraine, involving potential negotiations and outcomes that can be tested for accuracy."
+   },
+   "1": {
+    "pred_id": "pred_20261001232717_e05d9715446d",
+    "class": "SELF-REPORT",
+    "claim": "The level of tension here is extremely high and the level of trust has been reduced.",
+    "category": "geopolitics",
+    "reason": "This describes the current state of affairs rather than making a forward-looking prediction about world outcomes."
+   },
+   "2": {
+    "pred_id": "pred_20261001232847_1045d17e39e8",
+    "class": "PREDICTION",
+    "claim": "Canada will stand up to Trump and not fold, with Canadian political leaders from both the Conservative and Liberal parties opposing the trade war and calling for a strong response.",
+    "category": "geopolitics",
+    "reason": "This predicts future Canadian political behavior and response to US trade actions, which is testable."
+   },
+   "3": {
+    "pred_id": "pred_20261001232847_29a8dd2ccb83",
+    "class": "PREDICTION",
+    "claim": "The US-Canada trade conflict will not result in a permanent trade war, but will cause significant economic pain for both sides, with more suffering for Canadians.",
+    "category": "finance",
+    "reason": "This makes a forecast about future economic consequences of trade conflict between US and Canada."
+   },
+   "4": {
+    "pred_id": "pred_20261001232913_27b089eb38c9",
+    "class": "PREDICTION",
+    "claim": "Trump will continue to use tariffs and diplomatic pressure as tools to get other countries to comply with his demands, particularly on migration and trade.",
+    "category": "geopolitics",
+    "reason": "This predicts future behavior of a political figure regarding international relations and policy tools."
+   },
+   "5": {
+    "pred_id": "pred_20261001232913_5154fd547eba",
+    "class": "PREDICTION",
+    "claim": "The US-China relationship will likely worsen before it improves under a Trump administration.",
+    "category": "geopolitics",
+    "reason": "This forecasts future trajectory of international relations between two major powers."
+   },
+   "6": {
+    "pred_id": "pred_20261001232922_5fab3dab533c",
+    "class": "PREDICTION",
+    "claim": "Saudi Arabia will align with the US to reduce oil prices toward $70 from current levels around $80",
+    "category": "energy",
+    "reason": "This predicts future oil market dynamics and geopolitical alignment affecting energy prices."
+   },
+   "7": {
+    "pred_id": "pred_20261001232927_eea66fcdb6a7",
+    "class": "PREDICTION",
+    "claim": "There will be a summit meeting between Donald Trump and Xi Jinping in the early days of Trump's second term.",
+    "category": "geopolitics",
+    "reason": "This makes a specific forecast about future diplomatic engagement between two world leaders."
+   }
+  },
+  "137": {
+   "0": {
+    "pred_id": "pred_20261001233548_d9aa98834db9",
+    "class": "PREDICTION",
+    "claim": "The United States' policy towards Israel in the region will continue to appear weak and out of step with most of its allies, particularly as the Israeli government shows little sign of being influenced by U.S. pressure.",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about U.S. foreign policy and its relationship with Israel and allies, which can be tested for accuracy."
+   },
+   "1": {
+    "pred_id": "pred_20261001233639_ba0862bee224",
+    "class": "PREDICTION",
+    "claim": "Iran's capacity to escalate in response to Israeli strikes is far greater than that of Hezbollah, Hamas, or other regional proxy organizations, and they could disrupt oil tanker traffic through the Strait of Hormuz, potentially driving global oil prices to $150 per barrel.",
+    "category": "energy",
+    "reason": "This makes a specific forecast about Iran's military capabilities and their potential impact on global oil prices, which is testable."
+   },
+   "2": {
+    "pred_id": "pred_20261001233639_adc52df39701",
+    "class": "PREDICTION",
+    "claim": "The United States' foreign policy orientation toward Israel and the Middle East, particularly regarding the conflict in Gaza, Lebanon, and Iran, could significantly differ under a Trump or Harris administration.",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about how different presidential candidates will shape U.S. foreign policy in the Middle East."
+   },
+   "3": {
+    "pred_id": "pred_20261001234107_97bda1f17ba7",
+    "class": "PREDICTION",
+    "claim": "The United States will continue to outperform its allies and adversaries economically in the short term, but long-term competitiveness may decline due to internal political instability and self-harm.",
+    "category": "finance",
+    "reason": "This makes a testable prediction about future economic performance relative to other countries."
+   },
+   "4": {
+    "pred_id": "pred_20261001234130_7d7ffbce0f59",
+    "class": "PREDICTION",
+    "claim": "The Russians will continue to try their damnedest to change the facts on the ground to their advantage and get a better outcome.",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about Russian foreign policy behavior in ongoing conflicts."
+   },
+   "5": {
+    "pred_id": "pred_20261001234200_72fe0b4faab9",
+    "class": "PREDICTION",
+    "claim": "The Department of Justice will conduct an active investigation into the Epstein files, including figures like Reed Hoffman, Larry Summers, and Bill Clinton, which will delay and limit public disclosure of information in the files.",
+    "category": "other",
+    "reason": "This makes a testable prediction about future DOJ actions and their impact on information disclosure."
+   },
+   "6": {
+    "pred_id": "pred_20261001234200_b586d852853c",
+    "class": "SELF-REPORT",
+    "claim": "Trump's recent political losses in elections across New Jersey, New York, Virginia, and California indicate a decline in his influence and support within MAGA.",
+    "category": "other",
+    "reason": "This describes past electoral outcomes and their implications for Trump's support, which is not a forward-looking world forecast."
+   },
+   "7": {
+    "pred_id": "pred_20261001234348_6774b8e4ef08",
+    "class": "PREDICTION",
+    "claim": "The United States will extend permissioning and intelligence sharing, including for targeting, to Ukraine, allowing them to engage in more effective targeting of Russia's energy infrastructure.",
+    "category": "geopolitics",
+    "reason": "This makes a forward-looking claim about U.S. foreign policy decisions toward Ukraine and their military implications."
+   }
+  },
+  "140": {
+   "0": {
+    "pred_id": "pred_20261001235126_5dcd85331962",
+    "class": "PREDICTION",
+    "claim": "The Supreme Court will rule on the constitutionality of the president's ability to impose tariffs for any reason on any country at any time.",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about a future Supreme Court ruling that will determine the constitutionality of presidential tariff powers, which is a testable prediction about world outcomes."
+   },
+   "1": {
+    "pred_id": "pred_20261001235550_ebf8491c2575",
+    "class": "PREDICTION",
+    "claim": "Europeans are not a state, they don't operate like a state, and the Germans aren't going to spend for the rest of Europe.",
+    "category": "geopolitics",
+    "reason": "This makes a forward-looking claim about German fiscal behavior toward other European countries, which is a testable prediction about geopolitical/economic world outcomes."
+   },
+   "2": {
+    "pred_id": "pred_20261001235559_74369ceb7b05",
+    "class": "PREDICTION",
+    "claim": "Most South American countries will continue to support the removal of Maduro and the new government in Venezuela.",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about continued regional political support for Venezuelan regime change, which is a testable prediction about world outcomes."
+   },
+   "3": {
+    "pred_id": "pred_20261001235559_ad7016586e81",
+    "class": "PREDICTION",
+    "claim": "The economy of Venezuela will improve and attract more foreign investment, particularly in oil and mining sectors.",
+    "category": "geopolitics",
+    "reason": "This makes a forward-looking claim about Venezuela's economic improvement and foreign investment attraction, which is a testable prediction about world outcomes."
+   },
+   "4": {
+    "pred_id": "pred_20261001235712_dce8a41815dc",
+    "class": "PREDICTION",
+    "claim": "The United States will continue to have athletes who express diverse and potentially critical opinions about the country, which is a hallmark of democracy.",
+    "category": "other",
+    "reason": "This makes a forward-looking claim about continued U.S. athletic expression patterns as a democratic hallmark, which is a testable prediction about world outcomes."
+   },
+   "5": {
+    "pred_id": "pred_20261001235730_bb397e1b1356",
+    "class": "PREDICTION",
+    "claim": "President Trump will take military action against Iran, potentially including direct strikes on Iranian leadership or even assassination of the Supreme Leader.",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about potential U.S. military action against Iran and specific targeting of Iranian leadership, which is a testable prediction about world outcomes."
+   },
+   "6": {
+    "pred_id": "pred_20261001235730_09a433f71c91",
+    "class": "PREDICTION",
+    "claim": "Oil prices will spike if Trump takes military action against Iran, particularly if he targets the Supreme Leader.",
+    "category": "energy",
+    "reason": "This makes a forward-looking claim about oil price movements in response to potential military action, which is a testable prediction about world outcomes."
+   },
+   "7": {
+    "pred_id": "pred_20261001235916_c33e3d32b535",
+    "class": "PREDICTION",
+    "claim": "Trump will give a big speech on Friday at the FII summit in Miami and make a big announcement about how to extend some form of talks with the existing regime in Iran.",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about Trump's specific political actions and announcements regarding Iran negotiations, which is a testable prediction about world outcomes."
+   }
+  },
+  "143": {
+   "0": {
+    "pred_id": "pred_20261002000442_9314dd6b995c",
+    "class": "PREDICTION",
+    "claim": "North Korea will continue to maintain its nuclear weapons program despite international pressure.",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about North Korea's nuclear program that can be tested as right or wrong later. It makes a specific prediction about future world outcomes."
+   },
+   "1": {
+    "pred_id": "pred_20261002000442_86820a291a43",
+    "class": "PREDICTION",
+    "claim": "The Kim family will continue to rule North Korea for at least one more generation.",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about the political future of North Korea that can be tested as right or wrong later. It makes a specific prediction about world outcomes."
+   },
+   "2": {
+    "pred_id": "pred_20261002000453_2743ff477be4",
+    "class": "PREDICTION",
+    "claim": "Hungary will elect a new prime minister who is not aligned with Orb\u00e1n's illiberal nationalism and will work more closely with the European Union, Ukraine, and NATO.",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about Hungarian political developments that can be tested as right or wrong later. It makes a specific prediction about world outcomes."
+   },
+   "3": {
+    "pred_id": "pred_20261002000453_4469a2ed17a8",
+    "class": "PREDICTION",
+    "claim": "The Hungarian people will see improvements in governance and reduced kleptocracy under the new government led by Peter Magyar.",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about governance improvements in Hungary that can be tested as right or wrong later. It makes a specific prediction about world outcomes."
+   },
+   "4": {
+    "pred_id": "pred_20261002000457_5889a49a7823",
+    "class": "PREDICTION",
+    "claim": "The dollar will not be dethroned unless there is a solid backup plan.",
+    "category": "finance",
+    "reason": "This is a forward-looking claim about the future status of the US dollar in global finance that can be tested as right or wrong later. It makes a specific prediction about world outcomes."
+   },
+   "5": {
+    "pred_id": "pred_20261002000603_e7eac481203a",
+    "class": "PREDICTION",
+    "claim": "American troops will still be deployed in the region and a third aircraft carrier strike group will arrive within a week.",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about US military deployment that can be tested as right or wrong later. It makes a specific prediction about world outcomes."
+   },
+   "6": {
+    "pred_id": "pred_20261002000616_ef6529588879",
+    "class": "PREDICTION",
+    "claim": "The United States will deploy approximately 12,000 additional troops to the region by April 15-16, 2026, to be used as ground forces.",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about US military deployment that can be tested as right or wrong later. It makes a specific prediction about world outcomes."
+   },
+   "7": {
+    "pred_id": "pred_20261002000616_94b3361dd119",
+    "class": "PREDICTION",
+    "claim": "The Iranians will not make good on negotiations and will continue to block the Strait of Hormuz, leading to significant economic escalation.",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about Iranian behavior and its economic consequences that can be tested as right or wrong later. It makes a specific prediction about world outcomes."
+   }
+  },
+  "146": {
+   "0": {
+    "pred_id": "pred_20261002001313_93e55ac0f99c",
+    "class": "PREDICTION",
+    "claim": "More populism on the left and right and increased anti-establishment sentiment will define the 2028 Democratic and Republican nominations.",
+    "category": "politics",
+    "reason": "This is a forward-looking claim about future political nominations and electoral outcomes that can be tested as right or wrong."
+   },
+   "1": {
+    "pred_id": "pred_20261002001420_cd1a144bf8a5",
+    "class": "PREDICTION",
+    "claim": "The midterm elections will happen, they will be free and mostly fair, and there will be no fraud, national guard deployment to voting places, or false flag attacks suspending elections.",
+    "category": "politics",
+    "reason": "This is a forward-looking claim about future election outcomes and security conditions that can be tested as right or wrong."
+   },
+   "2": {
+    "pred_id": "pred_20261002001420_675c45cf07a9",
+    "class": "PREDICTION",
+    "claim": "Trump will be less effective domestically after midterms due to age, loss of House control, and political constraints, leading to a falloff in his ability to push through policy initiatives without public pushback.",
+    "category": "politics",
+    "reason": "This is a forward-looking claim about Trump's future effectiveness and policy outcomes that can be tested as right or wrong."
+   },
+   "3": {
+    "pred_id": "pred_20261002001427_423a272401ea",
+    "class": "PREDICTION",
+    "claim": "Britain's Office for Budget Responsibility estimates a long-run hit to GDP of about 4% due to Brexit.",
+    "category": "finance",
+    "reason": "This is a forward-looking claim about future economic impacts of Brexit that can be tested as right or wrong."
+   },
+   "4": {
+    "pred_id": "pred_20261002001427_483a1d86eda5",
+    "class": "PREDICTION",
+    "claim": "Other economists put the loss at 6 to 8% of GDP per person due to Brexit.",
+    "category": "finance",
+    "reason": "This is a forward-looking claim about future economic impacts of Brexit that can be tested as right or wrong."
+   },
+   "5": {
+    "pred_id": "pred_20261002001439_57c4a57aba0b",
+    "class": "PREDICTION",
+    "claim": "Trump is willing to support a tougher stance against Moscow and work with the Europeans and Ukrainians if it suits his pragmatic interests.",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about Trump's future foreign policy behavior that can be tested as right or wrong."
+   },
+   "6": {
+    "pred_id": "pred_20261002001450_a0a871ba9a48",
+    "class": "PREDICTION",
+    "claim": "The United States will continue to engage in military strikes against Iran until Iran agrees to accept longer-term economic costs and pain, and recognizes that it does not get to control the Strait of Hormuz.",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about future US military actions and foreign policy outcomes that can be tested as right or wrong."
+   },
+   "7": {
+    "pred_id": "pred_20261002001450_765248570540",
+    "class": "PREDICTION",
+    "claim": "President Trump is willing to endure high oil prices and potential economic costs until the end of the year in order to force Iran to back down.",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about Trump's future willingness to accept economic costs for foreign policy objectives that can be tested as right or wrong."
+   }
+  },
+  "149": {
+   "0": {
+    "pred_id": "pred_20261002002130_485e2d094963",
+    "class": "PREDICTION",
+    "claim": "Trump will eventually accept a deal that clearly looks like a loss regarding the Strait of Hormuz",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about Trump's future actions regarding a geopolitical situation (Strait of Hormuz) that can be tested as right or wrong"
+   },
+   "1": {
+    "pred_id": "pred_20261001234729_nHGigu_0",
+    "class": "SELF-REPORT",
+    "claim": "The United States and Israel went into this war together, with Israel pushing for it quite a bit and quite hard",
+    "category": "geopolitics",
+    "reason": "This describes past events that the speaker observed or experienced, not a forward-looking prediction about world outcomes"
+   },
+   "2": {
+    "pred_id": "pred_20261002000954_wP1C0__0",
+    "class": "PREDICTION",
+    "claim": "Shortages are coming soon in the United States due to the ongoing blockade and high oil prices",
+    "category": "finance",
+    "reason": "This is a forward-looking claim about future shortages in the US economy that can be tested as right or wrong"
+   },
+   "3": {
+    "pred_id": "pred_20261002001135_y0wUFa_0",
+    "class": "PREDICTION",
+    "claim": "Andy Burnham will not do much better than Keir Starmer and the Labour Party is plummeting in the polls",
+    "category": "geopolitics",
+    "reason": "This makes a forward-looking claim about political outcomes (polling results and political performance) that can be tested"
+   },
+   "4": {
+    "pred_id": "pred_20261002002211_b4df2bdaf52d",
+    "class": "PREDICTION",
+    "claim": "The AfD will eventually be included in a national government by 2029",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about future political inclusion of a German party that can be tested as right or wrong"
+   },
+   "5": {
+    "pred_id": "pred_20261002002211_4948098ee0ac",
+    "class": "PREDICTION",
+    "claim": "The AFD's rise in Germany will weaken German governance and lead to increasing frustration among the German people",
+    "category": "geopolitics",
+    "reason": "This makes forward-looking claims about future German political governance and public sentiment that can be tested"
+   },
+   "6": {
+    "pred_id": "pred_20261002002337_d0a0e5ec64ed",
+    "class": "ADVICE",
+    "claim": "Children should be exposed to different ideas, technologies, and possibilities like AI and nanotechnology to help them think about what is possible",
+    "category": "other",
+    "reason": "This is telling listeners what they should do (expose children to certain technologies) rather than making a world-outcome forecast"
+   },
+   "7": {
+    "pred_id": "pred_20261002002337_cd9c3b350c09",
+    "class": "ADVICE",
+    "claim": "The best investments you make in children are exposing them to different ideas, different people, and taking them to work to see how you work",
+    "category": "other",
+    "reason": "This is giving advice about what parents should do with their children rather than making a world-outcome prediction"
+   }
+  },
+  "152": {
+   "0": {
+    "pred_id": "pred_20261002002749_1bb5f34b42c4",
+    "class": "PREDICTION",
+    "claim": "you'll have to rename your podcast off to Mars shots",
+    "category": "other",
+    "reason": "The claim predicts a future renaming of a podcast due to human presence on Mars, which is a forward-looking statement about world outcomes (media/entertainment industry changes) that can be tested as right/wrong later."
+   },
+   "1": {
+    "pred_id": "pred_20261002002758_5e08a1a85adc",
+    "class": "SELF-REPORT",
+    "claim": "we can detect the you know penetration up to the dermal layer that's the layer that contains the fiber blast that produce collagen gives like the firmness and the structure of the skin",
+    "category": "health",
+    "reason": "This describes observed or tested effects of a peptide on skin penetration, which is about personal/medical product efficacy rather than world outcomes. It's reporting on what was detected."
+   },
+   "2": {
+    "pred_id": "pred_20261002002911_f303b2adcca7",
+    "class": "PREDICTION",
+    "claim": "Psychedelic therapy will be legal for therapeutic reasons in California within the next few years",
+    "category": "health",
+    "reason": "This is a forward-looking claim about legal changes regarding psychedelic therapy in California, which is testable as right/wrong later and relates to world outcomes in health/legislation."
+   },
+   "3": {
+    "pred_id": "pred_20261002002927_697fcc506831",
+    "class": "PREDICTION",
+    "claim": "a new creatine product called 'create' will become widely available and popular due to its gummy form, which is easier to consume and tastes good",
+    "category": "health",
+    "reason": "This predicts future market adoption of a specific health product, which is testable as right/wrong later and constitutes a world outcome forecast about consumer behavior and industry trends."
+   },
+   "4": {
+    "pred_id": "pred_20261002002927_4c017c452e4d",
+    "class": "PREDICTION",
+    "claim": "The adoption of mitochondrial support strategies, such as low-dose thyroid hormone supplementation starting in the 40s or 50s, will increase among individuals seeking to prevent cognitive dysfunction",
+    "category": "health",
+    "reason": "This makes a forward-looking prediction about future trends in health practices and adoption rates for specific supplements, which is testable as right/wrong later."
+   },
+   "5": {
+    "pred_id": "pred_20261002002938_a2598d539890",
+    "class": "PREDICTION",
+    "claim": "The skin aging industry is expected to grow significantly, reaching $150 billion by 2032",
+    "category": "health",
+    "reason": "This predicts a future financial outcome for the skin aging industry, which is testable as right/wrong later and constitutes a world outcome forecast in the health/finance sector."
+   },
+   "6": {
+    "pred_id": "pred_20261002002938_aea26250fa89",
+    "class": "SELF-REPORT",
+    "claim": "it is one of the few products I've used consistently you know twice a day for four years no1 has this ability of decreasing up to 40% the load of sess and cells that's amazing",
+    "category": "health",
+    "reason": "This describes personal experience with a product and its effects, which is about personal health regimen rather than world outcomes. It's reporting on what was observed personally."
+   },
+   "7": {
+    "pred_id": "pred_20261002002950_4580a4987f8e",
+    "class": "PREDICTION",
+    "claim": "industries with pricing power and highly regulated sectors can replace human work with AI, leading to supernormal margins and margin expansion",
+    "category": "ai",
+    "reason": "This predicts future economic outcomes related to AI adoption in specific industries, which is testable as right/wrong later and constitutes a world outcome forecast about technology's impact on markets."
+   }
+  },
+  "155": {
+   "0": {
+    "pred_id": "pred_20261002003423_a0edd8811d1f",
+    "class": "PREDICTION",
+    "claim": "The Federal Reserve will likely start lowering interest rates quickly over the next few months.",
+    "category": "finance",
+    "reason": "This is a forward-looking claim about future Federal Reserve policy decisions regarding interest rates, which is testable and verifiable."
+   },
+   "1": {
+    "pred_id": "pred_20261002003514_e599b0bc1528",
+    "class": "PREDICTION",
+    "claim": "By 2034, automated logistics will enable near zero-cost and instantaneous delivery of packages.",
+    "category": "other",
+    "reason": "This is a forward-looking claim about future technological development in logistics that can be tested for accuracy."
+   },
+   "2": {
+    "pred_id": "pred_20261002003520_939c2875d58f",
+    "class": "SELF-REPORT",
+    "claim": "If you go out into the middle of nowhere and work on something that winds up not being important, the world never comes to where you are, or you're just 10 years too early or five years too early.",
+    "category": "other",
+    "reason": "This is a personal reflection about past experiences and observations rather than a forward-looking claim about world outcomes."
+   },
+   "3": {
+    "pred_id": "pred_20261002003537_6c481fc67142",
+    "class": "PREDICTION",
+    "claim": "By 2034, zipline will be operating in every city on Earth, enabling people to order whatever they need in 5 minutes or less through automated logistics.",
+    "category": "other",
+    "reason": "This is a forward-looking claim about future company operations and delivery capabilities that can be tested."
+   },
+   "4": {
+    "pred_id": "pred_20261002003537_abb242e591e5",
+    "class": "PREDICTION",
+    "claim": "Automated logistics will become 10 times faster, dramatically less expensive, and zero emission compared to current delivery methods.",
+    "category": "other",
+    "reason": "This is a forward-looking claim about future technological improvements in logistics that can be tested."
+   },
+   "5": {
+    "pred_id": "pred_20261002003545_803ffa4b3d7b",
+    "class": "PREDICTION",
+    "claim": "Bitcoin will continue to gain adoption and become an election-year issue for many voters.",
+    "category": "finance",
+    "reason": "This is a forward-looking claim about future Bitcoin adoption trends and their political implications that can be tested."
+   },
+   "6": {
+    "pred_id": "pred_20261002003702_97fc5e6e7e6e",
+    "class": "PREDICTION",
+    "claim": "The percentage of your holdings that you should put in Bitcoin goes up as you get younger.",
+    "category": "finance",
+    "reason": "This is a forward-looking claim about optimal investment allocation strategies based on age and Bitcoin adoption."
+   },
+   "7": {
+    "pred_id": "pred_20261002003702_51ed4dbc59e7",
+    "class": "PREDICTION",
+    "claim": "Bitcoin is less risky now than it was eight years ago.",
+    "category": "finance",
+    "reason": "This is a forward-looking claim about the relative risk level of Bitcoin that can be tested against historical data."
+   }
+  },
+  "158": {
+   "0": {
+    "pred_id": "pred_20261002004258_0862423193e8",
+    "class": "SELF-REPORT",
+    "claim": "The ancient Maya civilization collapsed due to a combination of overpopulation, resource depletion, and climatic stress, specifically droughts that triggered social unrest and warfare.",
+    "category": "other",
+    "reason": "This is a historical analysis of the Maya civilization's collapse, describing past events and causes without making any forward-looking claims about world outcomes."
+   },
+   "1": {
+    "pred_id": "pred_20261002004312_0a5f38817f50",
+    "class": "PREDICTION",
+    "claim": "The company will transition from a superconductor prototype to building chips on Silicon at room temperature.",
+    "category": "ai",
+    "reason": "This is a forward-looking claim about the company's future technological development and product transition, which can be tested as right or wrong."
+   },
+   "2": {
+    "pred_id": "pred_20261002004312_c4e25ae5bcbf",
+    "class": "PREDICTION",
+    "claim": "The concept of a thermodynamic computer will be partially open-sourced to allow broader community involvement.",
+    "category": "ai",
+    "reason": "This is a forward-looking claim about the future openness and community involvement in a technological concept, which can be tested as right or wrong."
+   },
+   "3": {
+    "pred_id": "pred_20261002004401_cfd708ea5197",
+    "class": "PREDICTION",
+    "claim": "Optimus humanoid robots will be deployed in Tesla's factories and have a price tag of $10,000.",
+    "category": "ai",
+    "reason": "This is a forward-looking claim about the deployment and pricing of robots, which can be tested as right or wrong."
+   },
+   "4": {
+    "pred_id": "pred_20261002004417_b164878a4e75",
+    "class": "PERSONAL",
+    "claim": "I want to see where Starship takes me into the cosmos.",
+    "category": "other",
+    "reason": "This is a personal statement about the speaker's own intentions and desires regarding space travel, not a forecast about world outcomes."
+   },
+   "5": {
+    "pred_id": "pred_20261002004417_4e0fb1b239ab",
+    "class": "PERSONAL",
+    "claim": "I want to upload myself.",
+    "category": "health",
+    "reason": "This is a personal statement about the speaker's own intentions and desires regarding self-uploading, not a forecast about world outcomes."
+   },
+   "6": {
+    "pred_id": "pred_20261002004435_cda5344b013b",
+    "class": "PREDICTION",
+    "claim": "The grocery industry will continue to evolve significantly due to innovations like Whole Foods Market, Walmart, and Costco.",
+    "category": "finance",
+    "reason": "This is a forward-looking claim about the evolution of the grocery industry, which can be tested as right or wrong."
+   },
+   "7": {
+    "pred_id": "pred_20261002004619_5754e97cba9b",
+    "class": "PREDICTION",
+    "claim": "The rate of scientific discovery and access to tools will continue to accelerate, leading to exponential technological advancements in biotech, AI, robotics, 3D printing, and new material sciences.",
+    "category": "ai",
+    "reason": "This is a forward-looking claim about the acceleration of scientific discovery and technological advancement, which can be tested as right or wrong."
+   }
+  },
+  "161": {
+   "0": {
+    "pred_id": "pred_20261002004956_a98607e3fad3",
+    "class": "PREDICTION",
+    "claim": "The ubiquity of drones will make tanks, artillery, and mortars obsolete as weapons of war.",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about future military technology and warfare outcomes that can be tested as right or wrong"
+   },
+   "1": {
+    "pred_id": "pred_20261002004956_e1b532fad803",
+    "class": "PREDICTION",
+    "claim": "Countries will develop defensive drone capabilities that make it impossible to invade an adjacent country.",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about future military capabilities and geopolitical outcomes that can be tested as right or wrong"
+   },
+   "2": {
+    "pred_id": "pred_20261002005002_a2b5bbc06de3",
+    "class": "PREDICTION",
+    "claim": "By the end of the year, we could be at 300 million in revenue.",
+    "category": "finance",
+    "reason": "This is a forward-looking financial claim about future company revenue that can be tested as right or wrong"
+   },
+   "3": {
+    "pred_id": "pred_20261002005018_279de880506c",
+    "class": "PREDICTION",
+    "claim": "Within 5 years, they will have developed a method to manufacture high-quality, reasonable-price cells, tissues, and organs using induced pluripotent stem cells from the patient recipient.",
+    "category": "health",
+    "reason": "This is a forward-looking claim about future medical technology and healthcare breakthroughs that can be tested as right or wrong"
+   },
+   "4": {
+    "pred_id": "pred_20261002005018_a39676a9a39b",
+    "class": "PREDICTION",
+    "claim": "By the time they are ready to present their devices to the FDA for approval, regulatory strategies will need to be completely restructured to accommodate this new type of medical product manufacturing.",
+    "category": "health",
+    "reason": "This is a forward-looking claim about future regulatory changes in healthcare that can be tested as right or wrong"
+   },
+   "5": {
+    "pred_id": "pred_20261002005027_69936525d97e",
+    "class": "PREDICTION",
+    "claim": "Intelligence may have evolved as a byproduct of thermodynamic dissipative adaptation, where complex systems self-organize to dissipate more heat over time.",
+    "category": "other",
+    "reason": "This is a forward-looking scientific claim about the evolution of intelligence that can be tested as right or wrong"
+   },
+   "6": {
+    "pred_id": "pred_20261002005027_0ad60c248554",
+    "class": "PREDICTION",
+    "claim": "The process of thermodynamic dissipative adaptation is fundamental to the creation of complex systems and should be continued to avoid self-obliteration.",
+    "category": "other",
+    "reason": "This is a forward-looking claim about future human survival and system evolution that can be tested as right or wrong"
+   },
+   "7": {
+    "pred_id": "pred_20261002005048_d2406202c3b6",
+    "class": "PREDICTION",
+    "claim": "The idea of building a lunar lander and going to the moon was so compelling that it could be executed with a fully funded private mission.",
+    "category": "space",
+    "reason": "This is a forward-looking claim about future space exploration capabilities that can be tested as right or wrong"
+   }
+  },
+  "164": {
+   "0": {
+    "pred_id": "pred_20261002005438_12bce86b20b6",
+    "class": "PREDICTION",
+    "claim": "We'll get superintelligence with a probability of about 50% between 5 and 20 years.",
+    "category": "ai",
+    "reason": "This is a forward-looking claim about when superintelligence will be achieved, which is testable as right/wrong later. It forecasts a world outcome (development of superintelligence) with a specific timeframe and probability."
+   },
+   "1": {
+    "pred_id": "pred_20261002005534_f1a5823c9f2e",
+    "class": "PREDICTION",
+    "claim": "AI models will be able to discover new physics, chemistry, and biology at an accelerated pace",
+    "category": "ai",
+    "reason": "This is a forward-looking claim about future capabilities of AI models in scientific discovery, which is testable as right/wrong later. It forecasts a world outcome (accelerated scientific breakthroughs) based on current AI performance."
+   },
+   "2": {
+    "pred_id": "pred_1790961078_10",
+    "class": "PREDICTION",
+    "claim": "The Treasury would need to artificially suppress interest rates to manage the debt of $40 trillion",
+    "category": "finance",
+    "reason": "This is a forward-looking claim about future monetary policy actions by the Treasury to manage debt, which is testable as right/wrong later. It forecasts a world outcome (interest rate suppression) as a necessary action."
+   },
+   "3": {
+    "pred_id": "pred_1790961078_13",
+    "class": "PREDICTION",
+    "claim": "Japanese interest rates will rise to about 2.5% by the end of 2026",
+    "category": "finance",
+    "reason": "This is a forward-looking claim about future Japanese interest rates, which is testable as right/wrong later. It forecasts a specific world outcome (interest rate level) with a defined timeframe."
+   },
+   "4": {
+    "pred_id": "pred_1790961078_14",
+    "class": "PREDICTION",
+    "claim": "The US Treasury will sell Treasuries to support the yen and prevent interest rates from rising",
+    "category": "finance",
+    "reason": "This is a forward-looking claim about future Treasury actions, which is testable as right/wrong later. It forecasts a world outcome (Treasury selling of bonds) as a mechanism to influence interest rates."
+   },
+   "5": {
+    "pred_id": "pred_1790961078_15",
+    "class": "PREDICTION",
+    "claim": "The Dow/gold Ratio will reach 1:1 at some point in the future",
+    "category": "finance",
+    "reason": "This is a forward-looking claim about a future financial ratio, which is testable as right/wrong later. It forecasts a specific world outcome (ratio reaching 1:1) without a defined timeframe."
+   },
+   "6": {
+    "pred_id": "pred_1790961078_17",
+    "class": "PREDICTION",
+    "claim": "Interest rates will rise at least 25 basis points by the September meeting, with a 100% probability of a rate increase",
+    "category": "finance",
+    "reason": "This is a forward-looking claim about future interest rate changes with specific probability, which is testable as right/wrong later. It forecasts a world outcome (rate increase) with a defined timeframe and certainty level."
+   },
+   "7": {
+    "pred_id": "pred_1790961078_18",
+    "class": "PREDICTION",
+    "claim": "The U.S. deficit-to-GDP ratio will reach 7.8% in 2026, and could rise to 3.5-4 trillion dollars if a recession occurs",
+    "category": "finance",
+    "reason": "This is a forward-looking claim about future US fiscal metrics with specific projections, which is testable as right/wrong later. It forecasts world outcomes (deficit levels) with defined timeframes and conditional scenarios."
+   }
+  },
+  "167": {
+   "0": {
+    "pred_id": "pred_1790961078_42",
+    "class": "PREDICTION",
+    "claim": "The total amount of borrowed capital in the market (margin debt + leveraged ETFs + hedge fund borrowing) will exceed $9 trillion.",
+    "category": "finance",
+    "reason": "This is a forward-looking claim about future market conditions that can be tested for accuracy. It forecasts a specific monetary threshold for borrowed capital in financial markets."
+   },
+   "1": {
+    "pred_id": "pred_1790961078_43",
+    "class": "PREDICTION",
+    "claim": "The US government will run a fiscal deficit of approximately $2.4 trillion for the current fiscal year, assuming no recession occurs.",
+    "category": "finance",
+    "reason": "This is a forward-looking claim about future government fiscal behavior that can be tested later. It makes a specific prediction about future fiscal deficit levels."
+   },
+   "2": {
+    "pred_id": "pred_1790961078_44",
+    "class": "PREDICTION",
+    "claim": "Consumer sentiment in April 2026 will be at its lowest level since 1952, reflecting growing negativity about the economic outlook.",
+    "category": "finance",
+    "reason": "This is a forward-looking claim about future consumer sentiment levels that can be tested. It predicts a specific historical low point for consumer sentiment."
+   },
+   "3": {
+    "pred_id": "pred_1790961078_45",
+    "class": "PREDICTION",
+    "claim": "Central banks will continue to acquire gold at a pace well above the last 10-year trend, in the range of six to eight hundred tons per year, potentially returning to a thousand tons per year.",
+    "category": "finance",
+    "reason": "This is a forward-looking claim about future central bank gold acquisition behavior that can be tested. It forecasts specific quantities and trends in gold purchases."
+   },
+   "4": {
+    "pred_id": "pred_1790961078_46",
+    "class": "PREDICTION",
+    "claim": "The petroyuan will gain market share and displace the petrodollar as the dominant currency for oil transactions.",
+    "category": "geopolitics",
+    "reason": "This is a forward-looking claim about future currency dominance in oil transactions that can be tested. It predicts a shift in global financial power dynamics."
+   },
+   "5": {
+    "pred_id": "pred_1790961078_48",
+    "class": "PREDICTION",
+    "claim": "When this correction is over, we'll have set the stage for $6,000 gold, $8,000 gold, ultimately over $10,000 gold.",
+    "category": "finance",
+    "reason": "This is a forward-looking claim about future gold prices that can be tested. It makes specific price predictions for gold in the future."
+   },
+   "6": {
+    "pred_id": "pred_1790961078_49",
+    "class": "PREDICTION",
+    "claim": "If oil remains elevated for a longer period of time, stocks are, in that case, at the front edge of an extended bear market.",
+    "category": "finance",
+    "reason": "This is a forward-looking claim about future stock market behavior that can be tested. It predicts market conditions based on oil price scenarios."
+   },
+   "7": {
+    "pred_id": "pred_1790961078_50",
+    "class": "PREDICTION",
+    "claim": "The dollar will come under acute pressure if oil remains elevated for a longer period of time, similar to what happened in the 1970s.",
+    "category": "finance",
+    "reason": "This is a forward-looking claim about future dollar strength that can be tested. It predicts currency market behavior based on oil price scenarios and historical precedent."
    }
   }
  },

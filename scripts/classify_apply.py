@@ -22,6 +22,10 @@ def main():
         st = json.load(open(DATA / f"classify_state_{k}.json", encoding="utf-8"))
         for b, out in st["results"].items():
             merged[int(b)] = out
+    for f in sorted(DATA.glob("classify_state_steal_*.json")):
+        st = json.load(open(f, encoding="utf-8"))
+        for b, out in st["results"].items():
+            merged[int(b)] = out
     missing = [b for b in range(nb) if b not in merged]
     if missing:
         print(f"MISSING batches: {missing[:20]}... total {len(missing)}")
