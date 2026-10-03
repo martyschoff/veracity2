@@ -787,7 +787,7 @@
       "marty_agrees": false,
       "marty_note": "MartyPredicts: Wrong",
       "mc_status": "done",
-      "mc_result": "NO (38% of 24 decided, 16 unclear)",
+      "mc_result": "WRONG (38% of 24 decided, 16 unclear)",
       "mc_split": 38
     },
     {
@@ -807,7 +807,7 @@
       "marty_agrees": false,
       "marty_note": "MartyPredicts: Wrong",
       "mc_status": "done",
-      "mc_result": "NO (0% of 10 decided, 30 unclear)",
+      "mc_result": "WRONG (0% of 10 decided, 30 unclear)",
       "mc_split": 0
     },
     {
@@ -20612,9 +20612,9 @@
       "testing_since": "2026-10-02",
       "judgements": [],
       "marty_agrees": true,
-      "marty_note": "MartyPredicts: Correct",
+      "marty_note": "MartyPredicts: Right",
       "mc_status": "done",
-      "mc_result": "NO (0% of 22 decided, 18 unclear)",
+      "mc_result": "WRONG (0% of 22 decided, 18 unclear)",
       "mc_split": 0
     },
     {

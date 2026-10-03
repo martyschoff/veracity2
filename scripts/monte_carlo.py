@@ -95,7 +95,7 @@ def run(n: int = N_DEFAULT):
             pred["mc_result"] = "undetermined (all unclear)"
             continue
         pct_yes = round(100 * yes / decided)
-        direction = "YES" if pct_yes >= 50 else "NO"
+        direction = "RIGHT" if pct_yes >= 50 else "WRONG"
         split = min(pct_yes, 100 - pct_yes)
         pred["mc_status"] = "done"
         pred["mc_result"] = f"{direction} ({pct_yes}% of {decided} decided, {unc} unclear)"
