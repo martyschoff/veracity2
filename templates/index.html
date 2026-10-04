@@ -359,7 +359,7 @@
                     <div class="pred-date">{{ row.date }}{% if row.stated_count and row.stated_count > 1 %} <span class="chip-x">×{{ row.stated_count }}</span>{% endif %}</div>
                     <a class="pred-claim" href="{{ row.source_url }}" target="_blank" rel="noopener">{{ row.claim | condense }} ↗</a>
                     <div>
-                        <div class="verdict-box">Panel Judgement: {{ row.verdict | upper if row.verdict else 'TBD' }}</div>
+                        <div class="verdict-box" {% if not row.verdict and row.judgements %}style="color:#f59e0b"{% endif %}>Panel Judgement: {{ row.verdict | upper if row.verdict else ('ALMOST' if row.judgements else 'TBD') }}</div>
                         {% if row.marty_agrees is defined and row.marty_agrees is not none %}
                         <div class="marty-badge {{ 'marty-agrees' if row.marty_agrees else 'marty-disagrees' }}">{{ row.marty_note if row.marty_note else ('MartyPredicts: Right' if row.marty_agrees else 'MartyPredicts: Wrong') }}</div>
                         {% endif %}
@@ -502,8 +502,11 @@
             grid.innerHTML = filtered.map(function(p) {
                 var cat = p.category || 'other';
                 var color = colors[cat] || '#6b7280';
-                var verdict = p.verdict || 'TBD';
-                var verdictColor = verdict === 'correct' ? '#22c55e' : verdict === 'wrong' ? '#ef4444' : 'var(--text-muted)';
+                var verdict = p.verdict || '';
+                var hasVotes = (p.judgements || []).length > 0;
+                if (!verdict && hasVotes) verdict = 'ALMOST';
+                if (!verdict) verdict = 'TBD';
+                var verdictColor = verdict === 'correct' ? '#22c55e' : verdict === 'wrong' ? '#ef4444' : verdict === 'ALMOST' ? '#f59e0b' : 'var(--text-muted)';
                 var martyr = '';
                 if (p.marty_agrees === true) martyr = '<div class="marty-badge marty-agrees">' + (p.marty_note || 'MartyPredicts: Right') + '</div>';
                 else if (p.marty_agrees === false) martyr = '<div class="marty-badge marty-disagrees">' + (p.marty_note || 'MartyPredicts: Wrong') + '</div>';

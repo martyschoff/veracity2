@@ -682,6 +682,18 @@
       "publication": false,
       "weight_subjective": 1.0,
       "weight_objective": 1.0
+    },
+    {
+      "name": "Sam Altman",
+      "handle": "saltman",
+      "sources": [
+        "https://blog.samaltman.com"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
     }
   ],
   "predictions": [
@@ -20151,12 +20163,12 @@
     },
     {
       "id": "pred_20261002005438_12bce86b20b6",
-      "individual_name": "Peter Diamandis",
+      "individual_name": "Geoffrey Hinton",
       "date": "2024-05-03",
       "category": "ai",
       "claim": "We'll get superintelligence with a probability of about 50% between 5 and 20 years.",
       "source_url": "https://www.youtube.com/watch?v=pGNweUleVVE",
-      "transcript_excerpt": "my current opinion is we'll get superintelligence with a probably to 50% in between 5 and 20 years",
+      "transcript_excerpt": "Q: 'Jeff, how far out are you able to see?' — 'So my current opinion is we'll get superintelligence with a probably of 50% in between 5 and 20 years... it more or less fits in with Ray's perspective from a long time ago, which surprises me.'",
       "verdict": null,
       "created_at": "2026-10-02T00:54:38",
       "measurement_type": "quantitative",
@@ -20169,7 +20181,24 @@
         }
       ],
       "stated_count": 2,
-      "deep_qa": "OWNS"
+      "deep_qa": "OWNS",
+      "test_eligible_at": "2029-05-03",
+      "judgements": [
+        {
+          "panelist": "Sam Altman",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "Altman has publicly stated superintelligence/AGI has already arrived ('the takeoff has started'), confirming Hinton's 5-20y window is running far ahead of schedule — 1 vote.",
+          "source": "Sam Altman public statements, 2025-2026"
+        },
+        {
+          "panelist": "LLM panelist (qwen3:32b, nimo128)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "Altman's 2026 'takeoff has begun' statement suggests strong progress toward AGI but does not confirm superintelligence or validate the 50% probability; the 5-20y window remains open.",
+          "source": "panel judgment run 2026-10-04"
+        }
+      ]
     },
     {
       "id": "pred_20261002005534_f1a5823c9f2e",
