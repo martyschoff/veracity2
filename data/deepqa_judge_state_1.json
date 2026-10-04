@@ -5,7 +5,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is presented in the speaker's own voice, directly stating the 2-4 nm global chip range and coolant topography design as current facts, while explicitly contrasting China's 4-5 nm limitations due to export restrictions. The stored claim accurately reflects this analysis.",
+   "reason": "The prediction is asserted in the speaker's own voice without hedging or attribution to others. The context explicitly states that the 2-4 nm chips with coolant topography are 'in the rest of the world' and contrasts this with China's 4-5 nm ceiling due to export restrictions, directly supporting the claim.",
    "context_excerpt": "Right now in the rest of the world, the high-end chips are in the 2 to 4 nm range and we are now starting to get chips that were designed with coolant topography in mind.",
    "revised_claim": ""
   },
@@ -14,18 +14,18 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction originates from Dubber's own analysis in his own voice, discussing the 'tipping point in the Middle East' and oil price pressures. The $150 oil claim is not explicitly stated in the context (he mentions prices approaching 'demand destruction territory' at ~$110), but the 'Mad Max style great reset' and Middle East tipping point are his own assertions. The stored claim misstates the oil price target.",
-   "context_excerpt": "So the obvious reasons are one of the primary new arteries to egress oil out of the Middle East was the East West pipeline... the real risk we see... the speed with which the Houthis are rolling up Saudiback Yemen government territory is extraordinarily risky for the entire Middle East as we know it today.",
-   "revised_claim": "A Middle East tipping point is coming with oil prices approaching demand destruction levels, driven by pipeline disruptions and geopolitical instability."
+   "reason": "The speaker (Dubber) directly asserts the forecast in his own voice, using phrases like 'we are starting to see prices manifest that', 'the real risk we see', and 'the speed with which the Houthis are rolling up Saudi-backed Yemen government territory is extraordinarily risky'. The context shows him analyzing the situation and projecting outcomes ($150 oil, Middle East tipping point) as his own conclusions, not as third-party reports or quotes.",
+   "context_excerpt": "So what do I mean by that? In many ways, the Arab Gulf state governments um exist in their current form solely because of the full faith and credit of the US military. Um to mix a financial metaphor with a military one. and the the the militaries that exist there don't want to fight. The people don't support the leaders... the real risk we see and this has not really been articulated except in sort of the more extreme alternative versions of the internet that we follow... the speed with which the Houthis are rolling up Saudi-backed Yemen government territory is extraordinarily risky for the entire Middle East as we know it today.",
+   "revised_claim": ""
   },
   "pred_diamandis_d635b663": {
    "status": "judged",
    "found": "match",
-   "origin": "KEEP-REVISED",
+   "origin": "REPORTED",
    "borderline": true,
-   "reason": "The context excerpt explicitly states '30% of knowledge work automated' but does not include the 'by end of 2026' time frame present in the stored prediction. The claim appears in the speaker's own voice (e.g., 'AI agents are changing business forever'), but the stored prediction adds a specific timeline not mentioned in the context. The revised claim should omit the 2026 deadline to align with the source text.",
+   "reason": "The context mentions '30% of knowledge work automated' but does not specify a timeframe (2026) or explicitly attribute this as a forecast. The prediction adds the 'by end of 2026' claim and 'shift has begun' which are not present in the context. The stored excerpt is a fragment that lacks temporal specificity, making it unclear whether the 30% figure is a forecast or present observation.",
    "context_excerpt": "AI agents are changing business forever, 30% of knowledge work automated",
-   "revised_claim": "AI agents will automate 30% of knowledge work. The shift has already begun.",
+   "revised_claim": "AI agents are automating 30% of knowledge work.",
    "escalated": true,
    "tower_origin": "NOT-FOUND"
   },
@@ -34,7 +34,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is phrased in first-person conditional ('If we're right...') within the author's own analytical voice, directly tied to their assessment of Carney's policy shifts and energy market dynamics. The context excerpt confirms this ownership without attribution to external sources.",
+   "reason": "The prediction is phrased in first-person conditional ('If we're right...') and presented as the author's own analytical conclusion based on their analysis of Carney's actions and energy market dynamics. The text does not attribute the claim to external sources or use quotation marks.",
    "context_excerpt": "If we're right, a pipeline construction boom is coming to Canada.",
    "revised_claim": ""
   },
@@ -43,7 +43,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is stated in the speaker's own voice ('Best estimates is that there's going to be another 20% collapse this year') without attribution to others or quotation marks. The context confirms this is Peter Zeihan's direct forecast.",
+   "reason": "The forecast is presented in first-person analysis ('Best estimates is that there's going to be another 20% collapse this year') without attribution to external sources. The speaker directly asserts the prediction as his own conclusion based on prior analysis.",
    "context_excerpt": "Best estimates is that there's going to be another 20% collapse this year.",
    "revised_claim": ""
   },
@@ -52,7 +52,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker directly states the conditional prediction ('if they do decide... that would really reverberate') in their own analytical voice without attribution to others. The claim matches the stored excerpt verbatim and is presented as the speaker's own assessment of potential future economic impacts.",
+   "reason": "The speaker directly asserts the conditional forecast in their own voice ('if they do decide... that would really reverberate'), with no attribution to external sources or quotation marks. The stored claim accurately reflects this conditional prediction.",
    "context_excerpt": "the Canadians, if they do decide to target things like the manufacturing sector, that would really reverberate in places like Michigan and swing states",
    "revised_claim": ""
   },
@@ -61,7 +61,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is explicitly stated in the speaker's own voice as a direct forecast ('So, in summary, the Russians probably won't have a space program by the end of the year'), with no attribution to others or quotation marks. The context supports this as the speaker's own analysis.",
+   "reason": "The prediction is presented in the speaker's own voice as a summary conclusion ('So, in summary, the Russians probably won't have a space program by the end of the year'). The context shows this is the speaker's own analysis, not a quote or report of others' claims.",
    "context_excerpt": "So, in summary, the Russians probably won't have a space program by the end of the year.",
    "revised_claim": ""
   },
@@ -70,7 +70,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker directly asserts the forecast in their own voice ('We're looking at losing all of that...'), with the 5M+2M barrels figure explicitly stated in the context. The claim matches the source text without misstatement.",
+   "reason": "The prediction is stated in the speaker's own voice with direct claims about losing 5M barrels/day (Russia) and 2M barrels/day (Iran) as the year progresses. The context excerpt confirms this exact wording and framing.",
    "context_excerpt": "But at its peak, it was about 5 million barrels a day of raw crude plus some other 2 million barrels a day from Iran. We're looking at losing all of that uh as this year draws on.",
    "revised_claim": ""
   },
@@ -79,7 +79,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is stated directly by the speaker in their own voice, describing current storage levels as 'less than half of the normal' and 'the lowest it's ever been going into a winter.' The context excerpt confirms this as the speaker's own analysis.",
+   "reason": "The speaker directly states the storage level claim in their own voice without attribution to others. The prediction matches the context's explicit assertion about European winter gas storage being 'less than half of the normal' and 'lowest it's ever been.'",
    "context_excerpt": "Right now the winter storage for the Europeans for gas is less than half of the normal. It's the lowest it's ever been going into a winter.",
    "revised_claim": ""
   },
@@ -88,8 +88,8 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The claim is presented in the speaker's own voice ('we are looking at...') as a direct forecast based on analysis of the U.S. icebreaker fleet's current state and geopolitical constraints. The context excerpt confirms this unattributed, first-person assertion.",
-   "context_excerpt": "we are looking at a period for at least the next 30 years where the United States does not have a military presence on the waters in the Arctic whenever there's ice.",
+   "reason": "The claim is presented in the speaker's own voice ('we are looking at...') without attribution to others, hedging, or quotation marks. The context excerpt directly supports the prediction as stated.",
+   "context_excerpt": "we are looking at a period for at least the next 30 years where the United States does not have a military presence on the waters in the Arctic whenever there's ice",
    "revised_claim": ""
   },
   "pred_20261001161810_856653": {
@@ -97,7 +97,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The claim is presented in the author's own voice as a direct forecast of future consequences if Trump's bill becomes law. The context excerpt uses 'will' to assert this outcome without attribution to external sources.",
+   "reason": "The prediction is presented as the author's own analysis in the first-person narrative ('Perhaps out of a mix of ideology...'), directly linking Trump's budget agenda to California's financial strain. The stored claim accurately reflects the context's wording and intent.",
    "context_excerpt": "Perhaps out of a mix of ideology and future electoral competitiveness, Trump\u2019s budget agenda will put California in the proverbial hurt locker if his Big Beautiful Bill becomes law.",
    "revised_claim": ""
   },
@@ -106,7 +106,7 @@
    "found": "match",
    "origin": "REPORTED",
    "borderline": false,
-   "reason": "The claim is presented as part of a policy document ('Bettering Human Lives') published by Liberty Energy, which is attributed to Chris Wright. The article explicitly frames this as Wright's policy positions, not the author's own assertions.",
+   "reason": "The claim appears verbatim as the 6th 'Key Takeaway' in a policy document published by Liberty Energy, which is being reported on by the article. The article attributes the statement to the policy document rather than asserting it independently.",
    "context_excerpt": "6. Global demand for oil, natural gas, and coal are all at record levels and rising \u2013 no energy transition has begun.",
    "revised_claim": "",
    "escalated": true,
@@ -115,31 +115,29 @@
   "pred_20261001162124_359935": {
    "status": "judged",
    "found": "match",
-   "origin": "REPORTED",
+   "origin": "OWNS",
    "borderline": false,
-   "reason": "The article reports on current events (panic buying and shortages) already occurring in Australia due to the war in Iran, not forecasting a future outcome. The prediction's future tense misrepresents the article's description of present/past causality.",
-   "context_excerpt": "fear of supply disruptions due to the escalating war in the Middle East has led to a doubling of fuel demand in some regions resulting in localised shortages.",
-   "revised_claim": "Australia is experiencing localized fuel shortages in rural regions due to panic buying driven by fear of supply disruptions from the war in Iran.",
-   "escalated": true,
-   "tower_origin": "PAST-FACT"
+   "reason": "The prediction is directly attributed to Prime Minister Albanese in his own voice, stating current shortages caused by panic buying. The stored claim misstates the tense ('will experience' vs. 'had led to'), requiring revision.",
+   "context_excerpt": "Prime Minister Anthony Albanese on Thursday urged Australians to avoid panic buying of petrol and diesel, which he said had led to shortages in some rural regions...",
+   "revised_claim": "Australia is experiencing localized fuel shortages in rural regions due to panic buying driven by fear of supply disruptions from the war in Iran."
   },
   "pred_20261001162343_481252": {
    "status": "judged",
    "found": "match",
    "origin": "REPORTED",
    "borderline": false,
-   "reason": "The prediction is attributed to Marcus Baker (Marsh) in the context, not asserted in the article's own voice. The claim matches the upper bound of the range he reported (0.75%), but the article frames it as his analysis rather than an independent assertion.",
-   "context_excerpt": "War risk insurance prices have risen from about 0.25 to 0.3 per cent of a ship\u2019s value in early November to between 0.5 and 0.75 per cent this week, Marcus Baker, head of marine and cargo for broker Marsh, told the Financial Times...",
-   "revised_claim": "",
+   "reason": "The claim is attributed to Marcus Baker of Marsh in a quoted statement ('...Marcus Baker...told the Financial Times...'), making it a reported forecast from an external source. The stored prediction incorrectly frames this as a future claim ('will rise'), but the context shows the increase is already occurring ('...jumped...this week').",
+   "context_excerpt": "The cost of war risk insurance for ships sailing through the Black Sea \u2014 a critical trade zone for commodities such as grain and oil \u2014 jumped after attacks by Ukrainian special forces on infrastructure including Russia\u2019s Novorossiysk port. War risk insurance prices have risen from about 0.25 to 0.3 per cent of a ship\u2019s value in early November to between 0.5 and 0.75 per cent this week, Marcus Baker, head of marine and cargo for broker Marsh, told the Financial Times...",
+   "revised_claim": "The cost of war risk insurance for ships sailing through the Black Sea has risen to between 0.5 and 0.75% of a ship's value as of this week.",
    "escalated": true,
-   "tower_origin": "NOT-FOUND"
+   "tower_origin": "PAST-FACT"
   },
   "pred_20261001162421_652980": {
    "status": "judged",
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is directly quoted from ExxonMobil's CEO Darren Woods in first-person language during an earnings call, with no hedging or attribution to third parties. The context excerpt confirms the claim is stated in the speaker's own voice.",
+   "reason": "The prediction is directly stated in the first-person voice of ExxonMobil's CEO during a quarterly earnings call, using 'we expect' to assert the company's own forward-looking plan. The context excerpt confirms the claim is made in own voice without hedging or attribution to third parties.",
    "context_excerpt": "This year, we expect about a quarter of our wells will use our new patented proppant, and roughly 50% of new wells by the end of 2026.",
    "revised_claim": ""
   },
@@ -148,28 +146,26 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is presented in the author's own voice as a direct forecast ('A resolution either way now seems imminent...'), with no attribution to external sources or quotation marks. The context excerpt confirms this as the author's own analysis.",
+   "reason": "The prediction is presented as the author's own analysis ('In our view...') and directly stated in the final sentence of the text without attribution to external sources. The claim is unambiguously owned by the speaker.",
    "context_excerpt": "A resolution either way now seems imminent, and decades of geopolitical trajectory could reach a climax in the coming weeks.",
    "revised_claim": ""
   },
   "pred_20261001162745_328919": {
    "status": "judged",
    "found": "match",
-   "origin": "QUOTED",
+   "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is based on a direct quote from Valero Energy's official announcement in the context. The stored claim accurately summarizes the quoted statement.",
+   "reason": "The prediction is Valero Energy's own stated intent, directly quoted in the context. The stored claim misstates the timeline as 'early 2026' while the source specifies 'end of April 2026'.",
    "context_excerpt": "Valero Energy Corporation (NYSE: VLO, \u2018Valero\u2019) announced today that its subsidiary, Valero Refining Company-California, has submitted notice to the California Energy Commission of its current intent to idle, restructure, or cease refining operations at Valero\u2019s Benicia Refinery by the end of April 2026.",
-   "revised_claim": "",
-   "escalated": true,
-   "tower_origin": "REPORTED"
+   "revised_claim": "Valero Energy will close its Benicia refinery by the end of April 2026."
   },
   "pred_20261001162955_719843": {
    "status": "judged",
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction claim is directly stated in the article's own voice, describing the US export controls' stated intent to 'degrade China\u2019s ability to manufacture advanced chips' and the likelihood of enraging Beijing. The context excerpt confirms this as the author's own analysis, not a quote or third-party attribution.",
-   "context_excerpt": "The US Department of Commerce introduced a sweeping package of export controls... designed to weaken China\u2019s domestic semiconductor ecosystem and undermine the country\u2019s ability to manufacture advanced chips locally. \u2018They're the strongest controls ever enacted by the US to degrade the PRC\u2019s ability to make the most advanced chips that they\u2019re using in their military modernization,\u2019 Commerce Secretary Gina Raimondo said... The measures are likely to enrage Beijing...",
+   "reason": "The prediction is presented as the author's own analysis in the article's third-person narrative, not as a direct quote or attribution to another source. The claim 'The measures are likely to enrage Beijing' is explicitly stated in the context as the author's own assertion.",
+   "context_excerpt": "The measures are likely to enrage Beijing, which has given tens of billions of dollars\u2019 worth of subsidies and tax breaks to semiconductor firms in the hopes of building out its own chips sector.",
    "revised_claim": ""
   },
   "pred_20261001163054_705056": {
@@ -177,28 +173,26 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is asserted in the author's own voice, analyzing Germany's energy policies and China's competitive advantages as direct causes for the automotive sector's decline. The context explicitly states 'Germany is just beginning to face the consequences... the Chinese are pressing their advantages to the maximum' and 'automotive sector withers into irrelevance,' aligning with the claim's wording and causal logic.",
-   "context_excerpt": "The latter is the global capital of green energy virtue-strutting and is about to feign shock when its energy-hungry domestic automotive sector withers into irrelevance.",
+   "reason": "The prediction is presented as the author's own analysis, using phrases like 'the latter is the global capital of green energy virtue-strutting and is about to feign shock when its energy-hungry domestic automotive sector withers into irrelevance' and 'Germany is just beginning to face the consequences of a lost energy decade.' The text explicitly attributes the forecast to the author's own evaluation of energy policy failures and Chinese competition, not to quoted sources or third-party claims.",
+   "context_excerpt": "The latter is the global capital of green energy virtue-strutting and is about to feign shock when its energy-hungry domestic automotive sector withers into irrelevance. ... Germany is just beginning to face the consequences of a lost energy decade. Across all the dimensions that matter to the automotive sector\u2014whether energy, labor flexibility, or willingness to usurp intellectual property norms\u2014the Chinese are pressing their advantages to the maximum.",
    "revised_claim": ""
   },
   "pred_20261001163920_946298": {
    "status": "judged",
    "found": "match",
-   "origin": "QUOTED",
+   "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is a direct quote from Phillips 66's April 1, 2024 press release, as reported in the article. The claim is embedded within quoted company language ('The Rodeo Renewable Energy Complex is on track...'), making it a quoted statement rather than the author's own assertion.",
+   "reason": "The prediction is directly stated in a Phillips 66 press release quoted in the article, using the company's own forward-looking language ('on track to increase'). The context excerpt confirms the claim is made by the company in its own voice.",
    "context_excerpt": "The Rodeo Renewable Energy Complex is on track to increase production rates to more than 800 million gallons per year (50,000 BPD) of renewable fuels by the end of the second quarter",
-   "revised_claim": "",
-   "escalated": true,
-   "tower_origin": "QUOTED"
+   "revised_claim": ""
   },
   "pred_20261001181054_263281b5e6b6": {
    "status": "judged",
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker directly asserts 'at the moment Israel is getting the last word' as their own analysis, unattributed and unhedged. The claim about Israel having a 'leg up over Iran' is also explicitly stated in the context ('has leg up over a country like say Iran'). The prediction matches the speaker's own voice and analysis.",
-   "context_excerpt": "at the moment Israel is getting the last word the question is at what point does everything quiet down enough",
+   "reason": "The speaker directly asserts 'at the moment Israel is getting the last word' as their own analysis, contrasting Israel's tactical advantage with Iran's inability to retaliate. The claim is presented in first-person narrative without attribution to others or quotation marks.",
+   "context_excerpt": "at the moment Israel is getting the last word",
    "revised_claim": ""
   },
   "pred_20261001181440_4367a05da4cb": {
@@ -206,8 +200,8 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is presented in the speaker's own voice as a direct conclusion based on analysis of Mexico's oil production/refinery limitations. The key phrase 'Mexico has now become...dependent upon oil politics of the Eastern Hemisphere' is stated as an analytical claim, not attributed to others or presented as a quote.",
-   "context_excerpt": "Mexico has now become the one country in the Western Hemisphere that might actually be dependent upon oil politics of the Eastern Hemisphere",
+   "reason": "The prediction is directly asserted by the speaker in their own voice, analyzing Mexico's oil dependency as a conclusion from the preceding analysis. The context excerpt explicitly states the claim without attribution to external sources or quotation marks.",
+   "context_excerpt": "Mexico has now become the one country in the Western Hemisphere that might actually be dependent upon oil politics of the Eastern Hemisphere for the United States which is slowly retooling all of its refineries to run on its own crude this has become a bit of a headache uh but one that can be dealt with especially since the United States has the capital to change its refineries to run on its own crude Mexico doesn't have that kind of resources...",
    "revised_claim": ""
   },
   "pred_20261001181624_c696021e60b2": {
@@ -215,27 +209,27 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The claim 'Global calorie production will drop by a third' is explicitly stated in the speaker's own voice ('we're looking at...') without attribution to others or quotation marks. The context directly supports this as the speaker's own forecast.",
-   "context_excerpt": "we're looking at global calorie production probably dropping by a third.",
+   "reason": "The claim 'global calorie production will drop by a third' is directly stated in the speaker's own voice ('we're looking at...') without attribution to others, quotes, or hedging. The context confirms this is the speaker's forecast.",
+   "context_excerpt": "Uh that's all of them. That's not enough. Uh we're looking at global calorie production probably dropping by a third. Mhm, you know, that's that's a lot of starvation.",
    "revised_claim": ""
   },
   "pred_20261001181644_86fed4d9e209": {
    "status": "judged",
    "found": "match",
-   "origin": "OWNS",
+   "origin": "PAST-FACT",
    "borderline": false,
-   "reason": "The prediction is presented as a claim from the 'environmental community' ('there's been a little bit of hand ringing in the environmental community that something like 75 to 80%...'), not as the speaker's own assertion. The speaker frames it as others' reaction rather than their own analysis. | escalation override: kept",
+   "reason": "The context explicitly states that '75 to 80% of the investment from the inflation reduction act has gone into red States' (past tense), not a future prediction. The stored claim misrepresents this as a forward-looking forecast ('will disproportionately flow'), making it incompatible with the source text which describes current/past allocation.",
    "context_excerpt": "there's been a little bit of hand ringing in the environmental community that something like 75 to 80% of the investment from the inflation reduction act has gone into red States not purple states",
-   "revised_claim": "",
+   "revised_claim": "The Inflation Reduction Act investments in green energy have disproportionately flowed to red states rather than purple states, with 75-80% of funding going to red states.",
    "escalated": true,
-   "tower_origin": "OWNS"
+   "tower_origin": "PAST-FACT"
   },
   "pred_20261001181806_55f613746aed": {
    "status": "judged",
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is presented in the speaker's own voice with direct forecasting ('we're going to have a situation...'), not attributed to others or quoted material. The context excerpt confirms the claim's origin as the speaker's own assertion.",
+   "reason": "The prediction is directly stated in the speaker's own voice, forecasting Cuba's sponsors becoming unavailable within 10 years. The context excerpt confirms this as the speaker's unattributed analysis.",
    "context_excerpt": "sooner or later probably uh within the next 10 years we're going to have a situation where the available sponsors are no longer available",
    "revised_claim": ""
   },
@@ -244,7 +238,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker explicitly states 'I think in March' and frames the timeline as their own assertion, not quoting others or reporting external claims. The context confirms the prediction is made in first-person voice with no hedging or attribution to third parties.",
+   "reason": "The prediction is made in the speaker's own voice, describing their belief about the Baltic states' electrical system switch. The stored claim aligns directly with the context excerpt where the speaker states 'basically everything's going to go down one day next year I think in March.'",
    "context_excerpt": "basically everything's going to go down one day next year I think in March and then it's going to come back up",
    "revised_claim": ""
   },
@@ -253,7 +247,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker directly asserts the forecast in their own voice, stating 'this is a country whose time has not yet come... which does not unfortunately appear to be on the horizon.' The prediction is explicitly framed as the speaker's own analysis, not attributed to others or quoted material.",
+   "reason": "The prediction claim is directly stated in the speaker's own voice, asserting that political resolution 'does not unfortunately appear to be on the horizon' and that the country 'will not [come] until we can have some sort of political resolution.' This matches the stored excerpt verbatim and aligns with the prediction's wording.",
    "context_excerpt": "this is a country whose time has not yet come and will not until we can have some sort of political uh resolution which does not unfortunately appear to be on the horizon",
    "revised_claim": ""
   },
@@ -262,7 +256,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is stated in first-person ('we're going to find out') as a direct forecast about Modi's government facing a crisis over Bangladesh refugees, with no attribution to others or quotation marks. The context excerpt confirms the claim is made in the speaker's own voice.",
+   "reason": "The prediction is stated in the speaker's own voice ('we're going to find out...') without attribution to others, and directly forecasts a future test of the Modi government's crisis management. The context excerpt confirms this as the speaker's own analysis.",
    "context_excerpt": "we're going to find out real soon what the Modi Government is made of when it comes to an international issue that actually matters to it right on its own border",
    "revised_claim": ""
   },
@@ -271,27 +265,25 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker directly asserts the demographic crisis and its economic implications in his own voice, with no attribution to others or hedging language. The stored claim accurately reflects his stated forecast.",
+   "reason": "The speaker directly asserts the demographic crisis and its economic implications in first-person analysis ('we have discovered', 'they're not going to rebound'), with no attribution to external sources or quotation marks.",
    "context_excerpt": "the demographic situation in China has gone from bad to horrific...they're not going to rebound they no longer have enough people to generate a rebound so foreign sales are all they have",
    "revised_claim": ""
   },
   "pred_20261001182507_eea4649e7def": {
    "status": "judged",
    "found": "match",
-   "origin": "REPORTED",
+   "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker attributes the goal of numerical parity to China itself ('their goal'), not asserting it as their own forecast. This is a direct statement about China's stated objective, not an unhedged prediction from the speaker's own voice.",
-   "context_excerpt": "The Chinese only have a couple hundred deliverable nuclear weapons. They're in the process of building that force out and their goal is to reach some form of at least numerical parity over the course of the next 15 years.",
-   "revised_claim": "",
-   "escalated": true,
-   "tower_origin": "REPORTED"
+   "reason": "The speaker directly states China's goal in their own analytical voice ('their goal is to reach...'), not quoting or attributing to third parties. The claim is forward-looking and aligns with the stored prediction.",
+   "context_excerpt": "the Chinese only have a couple hundred deliverable nuclear weapons. They're in the process of building that force out and their goal is to reach some form of at least numerical parity over the course of the next 15 years.",
+   "revised_claim": ""
   },
   "pred_20261001182624_57911d4f28b1": {
    "status": "judged",
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker directly asserts in first-person narrative that 'the Europeans have found themselves motivated to massively expand their defense spending' due to the Ukraine war, matching the prediction's claim. The context excerpt confirms this unattributed, forward-looking assertion is presented as the speaker's own analysis.",
+   "reason": "The speaker directly asserts in their own voice that 'the Europeans have found themselves motivated to massively expand their defense spending' as a direct result of the Ukraine war. This matches the stored prediction claim and is presented as an analysis/forecast, not a quoted statement or third-party view.",
    "context_excerpt": "the Europeans have found themselves motivated to massively expand their defense spending",
    "revised_claim": ""
   },
@@ -300,7 +292,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is stated in the speaker's own voice ('we're going to see') without attribution to others, quotes, or hedging. The stored claim matches the context verbatim.",
+   "reason": "The prediction is stated in first-person plural ('we're going to see') and directly attributed to the speaker's analysis without attribution to external sources. The context excerpt matches the stored claim verbatim.",
    "context_excerpt": "so over the course of the next two or 3 years we're going to see a mass deployment of American weapon systems off the Chinese Coast that are perfect for boxing the Chinese in",
    "revised_claim": ""
   },
@@ -309,7 +301,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is presented in the speaker's own analytical voice, not as a direct quote or third-party report. The context explicitly states the speaker's interpretation of Pessan's 'different tone' suggesting 'room for compromise,' aligning with the stored claim.",
+   "reason": "The speaker directly attributes the 'different tone' and 'room for compromise' to Pessan's own actions, using first-person analysis ('he's doing it...') and speculative language ('suggests there might be...') consistent with own-voice forecasting. The context excerpt matches the stored prediction's wording verbatim.",
    "context_excerpt": "he's doing it with a much different tone that suggests there might be a little bit room for compromise here",
    "revised_claim": ""
   },
@@ -318,8 +310,8 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is stated in the speaker's own voice, directly asserting that an open convention would occur if Biden steps down. The context explicitly includes the phrase 'if he does that we will have what's called an open convention' as the speaker's own analysis.",
-   "context_excerpt": "if he does that we will have what's called an open convention",
+   "reason": "The speaker directly asserts the forecast in their own voice, stating 'if he does that we will have what's called an open convention' as a causal consequence of Biden stepping down. This is an unhedged first-person claim about future electoral process mechanics.",
+   "context_excerpt": "if he does that we will have what's called an open convention but that is not a slam dunk",
    "revised_claim": ""
   },
   "pred_20261001183342_1e7ed420e242": {
@@ -327,7 +319,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is expressed in the speaker's own voice ('they can help various European countries establish their own production...') without attribution to others or quotation marks. The claim about South Korea's potential actions aligns directly with the context's forward-looking analysis.",
+   "reason": "The prediction is stated in the speaker's own voice as a forward-looking analysis ('they can help... working against the Russians'), grounded in the context of South Korea's arms capabilities and geopolitical dynamics. The claim aligns directly with the context excerpt.",
    "context_excerpt": "they can help various European countries establish their own production and then they can have two three four different production sites basically working against the Russians",
    "revised_claim": ""
   },
@@ -336,25 +328,25 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is stated in first-person ('we're going to see') by the speaker, directly forecasting Venezuela's transition to oil importer. The stored claim contains a minor typo ('erres' instead of 'ranks'), but the meaning is identical.",
+   "reason": "The prediction is stated in first-person ('we're going to see...') by the speaker analyzing Venezuela's oil situation. The context excerpt confirms the exact wording (with 'erres' typo) and no attribution to external sources.",
    "context_excerpt": "we're going to see Venezuela fall into the erres of being oil importer within a year maybe a year and a half",
-   "revised_claim": "Venezuela will fall into the ranks of oil importers within a year, maybe a year and a half"
+   "revised_claim": "Venezuela will fall into the ranks of oil importers within a year, maybe a year and a half."
   },
   "pred_20261001184450_cad356f92e44": {
    "status": "judged",
    "found": "match",
-   "origin": "OWNS-REVISED",
+   "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker asserts 'it is unlikely that Trump will go to jail' as their own analysis, citing nonviolent crime and first-time offender context. The stored claim 'will not go to jail' misrepresents the hedged 'unlikely' phrasing in the source. The context excerpt confirms the origin is the speaker's own voice.",
+   "reason": "The prediction is stated in the speaker's own voice using hedged language ('unlikely'), but the context shows it's their direct analysis of the situation. The claim matches the stored excerpt verbatim.",
    "context_excerpt": "it is unlikely that Trump will go to jail the this was a nonviolent crime and he's A firsttime Thon feels weird to say that uh so we're looking at probably some form of probation now",
-   "revised_claim": "it is unlikely that Donald Trump will go to jail for the conviction of 34 felonies"
+   "revised_claim": ""
   },
   "pred_20261001184824_6b65f26392a1": {
    "status": "judged",
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is stated in the speaker's own voice ('we were going to have elections later this year'), directly asserting a forward-looking claim about Iran's electoral timeline. The context excerpt confirms this as unattributed, first-person narration.",
+   "reason": "The prediction is stated in the speaker's own voice ('we were going to have elections later this year'), directly asserting the claim without attribution to others. The context excerpt confirms this as the speaker's own assertion.",
    "context_excerpt": "we were going to have elections later this year so if somebody in the regime wouldn't him gone there's much simpler ways to do so",
    "revised_claim": ""
   },
@@ -363,7 +355,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker directly asserts in their own voice that Shahed drones are 'popping up in Wars throughout the Middle East and in Africa,' and explains Iran's industrial expansion enabling 'wider market' sales. This matches the prediction's claim about Iran's ongoing expansion of drone exports to regional conflicts.",
+   "reason": "The prediction is directly asserted in the speaker's own voice, describing Iran's ongoing expansion of drone production and exports to regional conflicts. The context confirms this as the speaker's analysis, not a quote or third-party claim.",
    "context_excerpt": "we're seeing things like the Shahed drones that have become famous in Ukraine for attacking Power Systems uh popping up in Wars throughout the Middle East and in Africa",
    "revised_claim": ""
   },
@@ -372,7 +364,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is stated in first-person ('I estimate') by the speaker, directly asserting the claim as their own analysis. The context excerpt matches the stored claim verbatim and attributes it to the speaker's own voice.",
+   "reason": "The speaker explicitly states 'I estimate' followed by the claim, indicating it is their own assertion in first-person voice. The context excerpt directly matches the stored prediction claim.",
    "context_excerpt": "I estimate that the United States needs to roughly double the size of its industrial plant and just from that we need 50% more electricity",
    "revised_claim": ""
   },
@@ -381,8 +373,8 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker directly asserts the prediction in their own voice, stating 'if Russia and Ukraine can have them, you know that it's just a matter of choice before countries... will be everywhere' and explicitly mentions the 5-year timeframe. The context excerpt confirms the claim is presented as the speaker's own forecast.",
-   "context_excerpt": "And if Russia and Ukraine can have them, you know that it's just a matter of choice before countries like Korea, both of them, Japan, Taiwan, China, Thailand, Vietnam, Singapore, Malaysia, Australia, Canada, pretty much every country in NATO... Anyway, the point is there's a long list of countries where this is no longer a technical barrier.",
+   "reason": "The speaker directly asserts the prediction in their own voice ('within 5 years, they will be everywhere') and provides reasoning (technical accessibility, examples of Russia/Ukraine's development) to support it. The claim is not attributed to others, quoted, or hedged.",
+   "context_excerpt": "And if Russia and Ukraine can have them, you know that it's just a matter of choice before countries like Korea, both of them, Japan, Taiwan, China, Thailand, Vietnam, Singapore, Malaysia, Australia, Canada, pretty much every country in NATO, Brazil, Argentina, um, Algeria, Israel, obviously... Anyway, the point is there's a long list of countries where this is no longer a technical barrier. And within 5 years, they will be everywhere.",
    "revised_claim": ""
   },
   "pred_20261001192618_d406fc966ee0": {
@@ -390,7 +382,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is explicitly stated in the speaker's own voice using 'we're going to be seeing' and directly matches the stored claim. The context excerpt confirms this as a first-person forecast about pricing separation in agriculture automation.",
+   "reason": "The prediction is directly stated by the speaker in their own voice, describing a future separation in agricultural pricing based on automation feasibility. The context excerpt contains the exact wording of the claim.",
    "context_excerpt": "And one of the things we're going to be seeing over the remainder of this year is a separation in terms of pricing between the parts of agriculture where maybe a degree of automation can help and those where it really can't.",
    "revised_claim": ""
   },
@@ -399,7 +391,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is presented in the speaker's own voice as a direct assertion ('Armenia is dead as a state') without attribution to others. The context excerpt matches the stored prediction verbatim and contains no hedging or quotation indicators.",
+   "reason": "The prediction is explicitly stated in the speaker's own voice as a direct conclusion ('the bottom line here is that if this is successful... Armenia is dead as a state'), with no attribution to third parties or quotation marks. The stored claim accurately reflects this unambiguous assertion.",
    "context_excerpt": "And then the bottom line here is that if this is successful, if this corridor actually happens, Armenia is dead as a state. So they can't let this happen anyway.",
    "revised_claim": ""
   },
@@ -408,7 +400,7 @@
    "found": "match",
    "origin": "REPORTED",
    "borderline": false,
-   "reason": "The claim is attributed to Trump's announcement and the Europeans' agreement, not stated as the speaker's own assertion. The phrasing 'Trump has announced and the Europeans have said' clearly indicates the forecast is reported from others.",
+   "reason": "The claim is presented as part of an agreement between Trump and the Europeans ('Trump has announced and the Europeans have said...'), making it a reported forecast rather than the speaker's own assertion. The speaker critiques its feasibility but does not frame it as their own claim.",
    "context_excerpt": "Trump has announced and the Europeans have said that yes, this is broadly what we agreed to that over the next 3 years the Europeans will buy 3/4 of a trillion dollars in American energy products.",
    "revised_claim": "",
    "escalated": true,
@@ -419,8 +411,8 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is stated in the speaker's own voice with direct assertions like 'we're getting an ever winding band... becoming unlivable' and 'more and more territory... is simply going to be unlivable.' The context excerpt confirms the claim is unhedged and attributed to the speaker's analysis.",
-   "context_excerpt": "And so we're getting an ever winding band that is becoming unlivable. some version of that is in our future unless and until we develop better defensive technologies. [...] the combination of less manpower to establish that buffer combined with an insufficient defensive envelope [...] means that more and more territory across the planet is simply going to be unlivable because of conflict.",
+   "reason": "The prediction is presented in the speaker's own voice, analyzing current trends in manpower shortages and drone technology to forecast future unlivable zones. The context excerpt directly supports this claim.",
+   "context_excerpt": "we're getting an ever winding band that is becoming unlivable. some version of that is in our future unless and until we develop better defensive technologies.",
    "revised_claim": ""
   },
   "pred_20261001193807_853d0664f9f7": {
@@ -428,8 +420,8 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker directly asserts the claim in their own voice, stating 'new business construction spend... has basically gone flat' and 'nobody wants to start a new project because nobody knows what the rules of the game are.' This is an unhedged first-person analysis of current conditions and their implications for future investment.",
-   "context_excerpt": "New business construction spend in the United States has basically gone flat. Nobody wants to start a new project because nobody knows what the rules of the game are.",
+   "reason": "The speaker directly states 'new business construction spend in the United States has basically gone flat. Nobody wants to start a new project because nobody knows what the rules of the game are' as their own analysis, not quoting or reporting others. The claim about future investment trends is implied through current observations and causal reasoning about tariff uncertainty.",
+   "context_excerpt": "new business construction spend in the United States has basically gone flat. Nobody wants to start a new project because nobody knows what the rules of the game are",
    "revised_claim": ""
   },
   "pred_20261001194209_c423a1bc4ba0": {
@@ -437,7 +429,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is presented as the speaker's own strategic advice ('The smart play is...') and directly aligns with the stored claim about building alternative infrastructure. The context excerpt explicitly states this as the speaker's own analysis, not a quote or report of others' views.",
+   "reason": "The prediction is presented as the speaker's own strategic advice ('the smart play is...') without attribution to others. The context explicitly states this as the speaker's analysis of necessary infrastructure development for trade resilience.",
    "context_excerpt": "The smart play is if you're going to pick a trade fight, the first thing you do is start building up the alternative infrastructure that you need when stuff on the other side goes away.",
    "revised_claim": ""
   },
@@ -446,8 +438,8 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker directly asserts the prediction in their own voice ('you're going to lose that ship') using first-person analysis of current technological trends and the Ukraine war example. The claim is forward-looking and unattributed to others.",
-   "context_excerpt": "if you have a conventional military warship that requires to be within 100 say miles of the coast you're going to lose that ship",
+   "reason": "The speaker (Peter Zion) directly asserts the claim in his own voice, using the Ukraine conflict as evidence. The prediction is framed as a current reality ('at the moment in Ukraine, 100 miles is absolutely the death zone') but is presented as a forward-looking forecast based on technological trends. The stored claim aligns with his own analysis.",
+   "context_excerpt": "at the moment in Ukraine, 100 miles is absolutely the death zone for any Russian vehicles. Uh basically if it can be seen it can be targeted and it can be targeted with weapons that you might not be able to detect until they've blown up the size of your vessel.",
    "revised_claim": ""
   },
   "pred_20261001194453_07d59df348b9": {
@@ -455,8 +447,8 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is stated in the speaker's own voice using first-person ('we') and direct assertions about current military capacity and preparation timelines. The context excerpt explicitly states 'we don't have a large military force in Iraq any longer' and 'we're talking about some months of prep,' matching the prediction's wording and framing.",
-   "context_excerpt": "At this heartbeat, we don't have a large military force in Iraq any longer. So, if we want to do a ground invasion, we're talking about some months of prep.",
+   "reason": "The prediction is stated in the speaker's own voice using 'we' and direct assertions about U.S. military capacity. The context excerpt confirms this as the speaker's own analysis, not a quotation or report of others' views.",
+   "context_excerpt": "The United States lacks the capacity to force that issue even if it does get involved. Now, in this heartbeat, the United States does not have any carriers stationed in the Persian Gulf somewhere on the way. At this heartbeat, we don't have a large military force in Iraq any longer. So, if we want to do a ground invasion, we're talking about some months of prep.",
    "revised_claim": ""
   },
   "pred_20261001194710_1555b3d51955": {
@@ -464,7 +456,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker (Peter Z) directly asserts the claim in his own voice, stating 'the courts generally give a very wide latitude to any administration when it comes to issues of federal law enforcement.' This is an unhedged, first-person analysis of judicial behavior, not a quote, report of others' views, or past fact.",
+   "reason": "The speaker directly asserts the claim in their own voice without hedging or attribution to others. The context excerpt confirms the statement is presented as the speaker's own analysis.",
    "context_excerpt": "the courts generally give a very wide latitude to any administration when it comes to issues of federal law enforcement",
    "revised_claim": ""
   },
@@ -473,7 +465,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is stated in the speaker's own voice when they say 'after a few weeks of basically seeing trade between the two countries go to zero.' This directly supports the claim about a significant decline in trade volume due to the trade war.",
+   "reason": "The prediction claim is based on the host's own narration about past trade war effects ('after a few weeks of basically seeing trade between the two countries go to zero'), not a forward-looking forecast. The context describes historical outcomes, not a prediction of future decline.",
    "context_excerpt": "after a few weeks of basically seeing trade between the two countries go to zero",
    "revised_claim": ""
   },
@@ -482,8 +474,8 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker directly states 'If it lasts through the summer, I would be very, very, very surprised,' using first-person language to assert their own forecast about Syria's future state. This is an unhedged, self-attributed prediction with no indication of quoting others or reporting external analysis.",
-   "context_excerpt": "And if it lasts through the summer, I would be very, very, very surprised.",
+   "reason": "The speaker directly asserts the forecast in their own voice ('I would be very, very, very surprised') and frames it as a personal assessment of Syria's trajectory. The claim matches the stored prediction verbatim, and the context excerpt confirms it is unattributed to others.",
+   "context_excerpt": "If it lasts through the summer, I would be very, very, very surprised.",
    "revised_claim": ""
   },
   "pred_20261001195104_a63bed389216": {
@@ -491,7 +483,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is stated in the speaker's own voice, directly asserting that oil transport systems face danger under de-globalization. The context excerpt confirms this as the speaker's own analysis.",
+   "reason": "The prediction is stated directly in the speaker's own voice with no attribution to external sources or quotation marks. The context excerpt confirms the claim is presented as an unhedged forecast about oil producers' challenges under de-globalization.",
    "context_excerpt": "oil requires a significant transnational trans oceanic transport system. And any system where del globalization is no longer a thing and no one is providing security on the water that is in danger.",
    "revised_claim": ""
   },
@@ -500,7 +492,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker directly asserts the prediction in their own voice, using historical analysis to argue that subduing Yemen in 30 days is impossible. The claim is unhedged and presented as a conclusion from the speaker's reasoning.",
+   "reason": "The prediction is stated in the speaker's own voice as a direct assertion: 'If after 2500 years, no one has functionally subdued Yemen, it wasn't going to happen in 30 days by air.' This matches the stored claim and is presented as the speaker's analysis, not a quote or report of others' views.",
    "context_excerpt": "Trump gives the US military 30 days to get results. Well, shocker. If after 2500 years, no one has functionally subdued Yemen, it wasn't going to happen in 30 days by air.",
    "revised_claim": ""
   },
@@ -509,7 +501,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker directly asserts the prediction in their own voice ('we're going to see the Germans go from a net payer of Europe to a net payee') without attribution to others or hedging language. The context excerpt confirms the claim is unambiguously the speaker's own forecast.",
+   "reason": "The prediction is explicitly stated in first-person voice ('we're going to see') without attribution to others, directly matching the stored claim. The context excerpt confirms the origin.",
    "context_excerpt": "Germany is just a couple of years behind Italy. So, we're going to see the Germans go from a net payer of Europe to a net payee.",
    "revised_claim": ""
   },
@@ -518,7 +510,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is directly asserted by the speaker in their own voice without attribution to others, hedging, or quotation marks.",
+   "reason": "The speaker directly states 'Trump will be gone one way or another within four years' as a forward-looking assertion in their own analysis, without attribution to others or quotation marks.",
    "context_excerpt": "Now, in the case of the United States, there's a used by date here. Trump will be gone one way or another within four years.",
    "revised_claim": ""
   },
@@ -527,16 +519,16 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is explicitly stated in the speaker's own voice, with no attribution to others or quotation marks. The context excerpt directly supports the stored claim.",
-   "context_excerpt": "Also, we have significantly slower economic growth in places like Michigan and Indiana already from the car tariffs that are already in place and if the Trump administration does what it says it's planning on doing on May 2, those car tariffs expand to cover car parts which will trigger a manufacturing recession in roughly 25 states.",
+   "reason": "The prediction is stated in the speaker's own voice as a direct forecast ('will trigger a manufacturing recession in roughly 25 states'), not as a quote, report of others' views, or past event. The context excerpt confirms the exact wording of the stored claim.",
+   "context_excerpt": "if the Trump administration does what it says it's planning on doing on May 2, those car tariffs expand to cover car parts which will trigger a manufacturing recession in roughly 25 states.",
    "revised_claim": ""
   },
   "pred_20261001195827_cf0c1d23451f": {
    "status": "judged",
    "found": "match",
-   "origin": "KEEP-REVISED",
+   "origin": "OWNS",
    "borderline": false,
-   "reason": "The stored claim adds 'aluminum' to the prediction, but the context only discusses steel. The original statement in the context is about doubling the industrial plant for steel, not aluminum. The revised claim should omit 'aluminum' to match the source text.",
+   "reason": "The prediction is directly stated by Peter Zeihan in his own voice. The stored claim adds 'steel and aluminum' to the context excerpt, which only mentions steel in the original text. The core assertion about doubling the industrial plant is present in the context, but the misstatement about aluminum requires revision.",
    "context_excerpt": "The United States needs to roughly double the size of its industrial plant.",
    "revised_claim": "The United States needs to roughly double the size of its industrial plant to meet demand for steel."
   },
@@ -545,8 +537,8 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker directly asserts the prediction in first-person ('I don't want to say... but the pace of the application is going to slow considerably'), indicating ownership of the forecast. The context excerpt matches the stored prediction verbatim.",
-   "context_excerpt": "But now we have a 145% tariff on all of those batteries as well. So, I don't want to say that that's going to stop cold, but the pace of the application is going to slow considerably",
+   "reason": "The prediction is stated in first-person ('I don't want to say...') and directly attributes the claim to the speaker's analysis. The context excerpt matches the stored prediction verbatim, with no indication of attribution to others or quotation marks.",
+   "context_excerpt": "But now we have a 145% tariff on all of those batteries as well. So, I don't want to say that that's going to stop cold, but the pace of the application is going to slow considerably because the Chinese dominate that space...",
    "revised_claim": ""
   },
   "pred_20261001200705_a329b6d00a5c": {
@@ -554,7 +546,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker (Peter Zeihan) directly asserts the forecast in his own voice, stating 'he would undoubtedly veto it' and 'it would have to pass by a veto-proof majority.' The prediction is not attributed to others, quoted, or hedged.",
+   "reason": "The prediction is stated in the speaker's own voice with direct assertions ('he would undoubtedly veto it') and hypothetical phrasing ('if it were to pass'), indicating ownership of the claim. The context excerpt directly supports the stored claim without attribution to others or quotation marks.",
    "context_excerpt": "If it were to pass, however, it would still then have to pass the president's desk, and he would undoubtedly veto it. So, it would have to pass by a veto-proof majority.",
    "revised_claim": ""
   },
@@ -563,7 +555,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker directly asserts the prediction in their own voice, using phrases like 'you're going through... that's going to last at least another decade' and 'it's a one-shot deal.' The claim is unhedged and presented as their own analysis, not attributed to others or quoted material.",
+   "reason": "The speaker directly asserts the 25-year consumption boom prediction in their own voice ('you're going through... that's going to last at least another decade') without hedging or attribution to others. The demographic and immigration context supports this as their own analysis.",
    "context_excerpt": "you're going through basically a 25-year consumption boom in Spain that's going to last at least another decade",
    "revised_claim": ""
   },
@@ -571,59 +563,57 @@
    "status": "judged",
    "found": "match",
    "origin": "OWNS",
-   "borderline": true,
-   "reason": "The speaker explicitly states 'now that costs 50% more' in their own voice, but the context only mentions a 25% tariff on aluminum. The 50% figure appears to be a miscalculation or inference not directly supported by the context, which only references a 25% tariff. The claim is in the speaker's own voice (first-person narration) but misstates the tariff rate.",
-   "context_excerpt": "uh, we have a 25% tariff on imported aluminum and steel",
-   "revised_claim": "The cost of aluminum from Canada will increase by 25% due to new tariffs.",
-   "escalated": true,
-   "tower_origin": "NOT-FOUND"
+   "borderline": false,
+   "reason": "The speaker directly states the 25% tariff on all Canadian trade and an additional 25% on aluminum, which mathematically results in a 50% cost increase. The prediction claim accurately reflects this calculation in the speaker's own voice.",
+   "context_excerpt": "we have a 25% tariff on all trade coming from Canada... on top of a 25% tariff on imported aluminum and steel",
+   "revised_claim": ""
   },
   "pred_20261001201047_c098b904daa5": {
    "status": "judged",
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is stated in the speaker's own voice with direct assertions like 'we won't have to wait too long' and 'this is definitely going to take advantage.' The claim is presented as the speaker's analysis, not attributed to others or quoted material.",
-   "context_excerpt": "So we won't have to wait too long. This is definitely going to take advantage of that when we get our next big wave, which will probably happen as soon as the migrants can figure out how to navigate the new system, which historically speaking takes about a year or two.",
-   "revised_claim": ""
+   "reason": "The claim is asserted in the speaker's own voice with forward-looking language ('will probably happen') and is framed as a direct analysis of policy consequences. The context excerpt confirms the prediction is made unattributed and without quotation marks.",
+   "context_excerpt": "This is definitely going to take advantage of that when we get our next big wave, which will probably happen as soon as the migrants can figure out how to navigate the new system, which historically speaking takes about a year or two.",
+   "revised_claim": "The next big wave of illegal migrants will probably happen as soon as the migrants can figure out how to navigate the new system, which historically speaking takes about a year or two."
   },
   "pred_20261001201109_0771c162254e": {
    "status": "judged",
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker directly asserts the need for a new ground strike jet in their own voice ('we will also need a new ground strike jet') and attributes it to the limitations of the NGAD and F-35's range. The context excerpt confirms this is the speaker's own claim, not a report or quote.",
-   "context_excerpt": "we will also need a new ground strike jet. And that is an entirely new program that is going to have its own cost structure",
-   "revised_claim": ""
+   "reason": "The speaker directly asserts the need for a new ground strike jet in their own voice ('we will also need a new ground strike jet'), based on their analysis of the NGAD's limitations and the F-35's range. The stored claim misnames 'F-47' (context refers to 'ENGAD/NGAD'), requiring revision.",
+   "context_excerpt": "And until we know that range, it's really hard to know if this is going to give us some of the advantages of the F-16 and the F-22 or weigh us down with some of the restrictions of the F-35... we will also need a new ground strike jet. And that is an entirely new program that is going to have its own cost structure.",
+   "revised_claim": "The U.S. will need to develop a new ground strike jet due to limitations of the NGAD (Next Generation Air Dominance) and its inability to effectively conduct deep strike missions."
   },
   "pred_20261001201432_530a47a31550": {
    "status": "judged",
    "found": "match",
-   "origin": "OWNS",
+   "origin": "REPORTED",
    "borderline": false,
-   "reason": "The prediction is attributed to the Russians' stated demands in negotiations. The speaker describes 'we're already seeing the early stages of the Russians setting up their propaganda to attempt to roll it back to at least 1989,' which directly reports the Russians' actions/claims rather than asserting a first-person forecast. The stored claim mischaracterizes the context by framing this as a future 'will attempt' prediction when the source text describes ongoing actions. | escalation override: kept",
+   "reason": "The prediction is presented as the Russian delegation's stated position in negotiations ('they want to roll back...'), not as the speaker's own assertion. The context explicitly attributes the forecast to Russian actions/claims ('we're already seeing the early stages of the Russians setting up their propaganda').",
    "context_excerpt": "they want to roll back uh everything that has to do with NATO and Ukraine to at least 2007 uh basically predating any meaningful engagement between NATO and Kiev and we're already seeing the early stages of the Russians setting up their propaganda to attempt to roll it back to at least 1989",
-   "revised_claim": "The Russian delegation is attempting to use historical negotiations from the 1990s to justify rolling back NATO and Ukraine agreements to at least 2007, or even 1989, as part of their current negotiations strategy.",
+   "revised_claim": "",
    "escalated": true,
-   "tower_origin": "OWNS"
+   "tower_origin": "REPORTED"
   },
   "pred_20261001201517_0df17e5b128c": {
    "status": "judged",
    "found": "match",
-   "origin": "OWNS",
+   "origin": "PAST-FACT",
    "borderline": false,
-   "reason": "The claim describes an already-implemented 20% tariff as a present fact ('we now have'), not a future prediction. The stored prediction incorrectly frames it as a forecast when the context confirms it is current policy. | escalation override: kept",
+   "reason": "The claim describes tariffs as already existing ('we now have 20% tariffs') and their impact as a current/present-tense observation ('the case for investment in China drops'), not a forward-looking forecast. The stored prediction incorrectly frames this as a future action.",
    "context_excerpt": "we now have 20% tariffs from the United States on the Chinese system and with every incremental step up, the case for investment in China drops",
    "revised_claim": "",
    "escalated": true,
-   "tower_origin": "KEEP-REVISED"
+   "tower_origin": "PAST-FACT"
   },
   "pred_20261001203413_JlRNLC_0": {
    "status": "judged",
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker directly attributes the claim to the Ukrainian government's own reporting ('the Ukrainian government... has been reporting a tripling'), with no indication of attribution to third parties or quotation. The claim is presented as the Ukrainian government's own assertion.",
+   "reason": "The Ukrainian government is directly stated as the source of the 'tripling' claim in the context. The speaker (Peter Z) explicitly says 'the Ukrainian government... has been reporting a tripling' without hedging or attribution to third parties. This matches the 'OWNS' criteria where the entity (Ukrainian government) asserts the forecast in their own voice through the speaker's narration.",
    "context_excerpt": "the Ukrainian government over the last roughly five maybe even six weeks down has been reporting a tripling uh in terms of the tolls inflicted upon Russian Artillery",
    "revised_claim": ""
   },
@@ -632,26 +622,28 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is stated in the speaker's own voice using present-tense narration ('is in the process of liquidating'), with no indication it is quoting others or describing past events. The context excerpt directly supports this as the speaker's current assertion.",
+   "reason": "The speaker directly states 'Biden Administration is in the process of liquidating the Northeast gas Al Reserve' in their own voice, with no attribution to third parties or quotation marks. The context confirms this is an active assertion by the speaker.",
    "context_excerpt": "the Biden Administration is in the process of liquidating the Northeast gas Al Reserve",
    "revised_claim": ""
   },
   "pred_20261001201833_0f6de7b8418b": {
    "status": "judged",
    "found": "match",
-   "origin": "OWNS",
+   "origin": "NOT-FOUND",
    "borderline": false,
-   "reason": "The prediction is stated in the speaker's own voice, describing their analysis of the Russian intelligence system's role in maintaining control and shaping policy. The context explicitly states the system is 'very much in use today' and attributes its functions (surveillance, disinformation, population control) directly to the speaker's analysis, not to quoted or reported sources.",
-   "context_excerpt": "in order to keep their populations from doing the partisans in the wrong direction the Russians maintain what is arguably the world's most advanced and penetrating internal intelligence system... to monitor the population to spread disinformation to keep the population turned against itself... and at the end of the day sewing information that can shape policy and it's very much in use today",
-   "revised_claim": ""
+   "reason": "The prediction claim contains a forward-looking assertion about the Russian intelligence system 'remaining' a key tool in the future. However, the context only discusses the system's current use ('it's very much in use today') without explicitly stating or implying a future continuation. The stored claim extrapolates beyond the present-tense description in the source text.",
+   "context_excerpt": "the Russians maintain what is arguably the world's most advanced and penetrating internal intelligence system... monitor the population to spread disinformation... keep the population turned against itself... and at the end of the day sewing information that can shape policy and it's very much in use today",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "PAST-FACT"
   },
   "pred_20261001201928_9035e2b10bf4": {
    "status": "judged",
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is directly asserted by the speaker in their own voice, explaining the US's lack of information about the Congo disease due to specific policy actions (gutting the epidemic intelligence service and severing WHO ties). The stored claim aligns with the context's unattributed, first-person narration.",
-   "context_excerpt": "normally this is where Department of Health and Human Services would come in... but RFK Jr who is our new HHS secretary gutted the epidemic intelligence service... the second organization we'd rely on is the World Health Organization but one of the first things the Trump Administration was sever all contacts with the who... we in the united states are in the complete dark and we are relying on other countries to come up with information and choose to share it out of the goodness on their own Hearts",
+   "reason": "The prediction claim is directly stated in the context by the speaker, who attributes the US's lack of information to cuts to the epidemic intelligence service and severed ties with WHO. The stored excerpt matches the context's wording verbatim.",
+   "context_excerpt": "we in the united states are in the complete dark and we are relying on other countries to come up with information and choose to share it out of the goodness on their own Hearts",
    "revised_claim": ""
   },
   "pred_20261001202101_3366c4b3cf4c": {
@@ -659,7 +651,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is stated directly by the speaker in their own voice without attribution to others or quotation marks. The context excerpt confirms the claim is made unambiguously by the speaker.",
+   "reason": "The prediction is asserted directly by the speaker using future-tense phrasing ('is going to be') and first-person perspective ('our'), with no attribution to external sources or quotation marks. The context explicitly states the claim as the speaker's own forecast.",
    "context_excerpt": "Mexico is going to be our top trading partner in pretty much every economic sector for at least the next 50 years",
    "revised_claim": ""
   },
@@ -668,16 +660,16 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is asserted directly by the speaker in their own voice ('we solved'), with no attribution to others or quotation marks. The context excerpt confirms the claim's wording and timeframe verbatim.",
+   "reason": "The speaker directly asserts the timeline ('the problem we solved in 6 months to a year') as a future outcome contingent on global action ('once that happens... spare refining capacity... will spring up'). The stored claim misstates the tense (past vs. future) and pronoun ('we' vs. 'they'), but the core forecast is present in the speaker's own voice.",
    "context_excerpt": "once that happens all of this spare refining capacity around the world will spring up and the problem we solved in 6 months to a year",
-   "revised_claim": ""
+   "revised_claim": "Once the US and other countries start utilizing their existing rare earth processing capacity, the problem of rare earth supply will be solved in 6 months to a year."
   },
   "pred_20261001202320_956b0a5d181c": {
    "status": "judged",
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is explicitly stated in the speaker's own voice ('I have no doubt that...') and directly attributes the future increase in illegal migration to Trump's border policies. The context excerpt confirms this forward-looking claim without hedging or attribution to others.",
+   "reason": "The prediction is asserted in first-person ('I have no doubt') and directly attributes the claim to the speaker's own analysis of Trump's policies. The context excerpt confirms this is the speaker's own forecast, not a report or quote.",
    "context_excerpt": "I have no doubt that 20 30 years from now when we look back at this period Donald Trump will go down in history as the greatest support of illegal migration in American history",
    "revised_claim": ""
   },
@@ -686,7 +678,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker directly asserts in their own voice that New Zealand's demographic structure is young enough to allow rehabilitation of birth rates through policy interventions. The context excerpt shows this as an unhedged statement of analysis, not attributed to others or framed as a quote.",
+   "reason": "The speaker directly asserts in their own voice that New Zealand's demographic structure is young and allows for rehabilitation of birth rates through policy interventions. The claim is explicitly stated without attribution to others or quotation marks.",
    "context_excerpt": "for New Zealand France the United States and the Scandinavian countries the demographic structures are much younger and so there's plenty of chance to rehabilitate",
    "revised_claim": ""
   },
@@ -695,8 +687,8 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is directly asserted by the speaker in their own voice using the phrase 'expect a lot more erratic and kinetic American foreign policy...' with no hedging or attribution to others. The context excerpt confirms this exact wording.",
-   "context_excerpt": "between now and then expect a lot more erratic and kinetic American foreign policy as the military becomes the tool of the moment rather than the tool of strategy",
+   "reason": "The prediction is directly asserted in the speaker's own voice using 'expect' and is not attributed to others, quoted, or hedged. The context excerpt matches the stored claim verbatim.",
+   "context_excerpt": "expect a lot more erratic and kinetic American foreign policy as the military becomes the tool of the moment rather than the tool of strategy",
    "revised_claim": ""
   },
   "pred_20261001203044_a461b9aa3f53": {
@@ -704,8 +696,8 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The claim is directly asserted in the speaker's own voice ('Donald Trump has made sure...') without attribution to others, quotes, or hedging. The context excerpt matches the stored claim's core assertion about Trump's inner circle lacking competence.",
-   "context_excerpt": "Donald Trump has made sure that there is no one in his inner circle who is capable and competent in the issues that really matter",
+   "reason": "The speaker directly asserts the claim in their own voice ('Donald Trump has made sure that there is no one in his inner circle...') without hedging or attribution to others. The prediction claim matches the stored excerpt verbatim.",
+   "context_excerpt": "the reason for this is very simple Donald Trump has made sure that there is no one in his inner circle who is capable and competent in the issues that really matter",
    "revised_claim": ""
   },
   "pred_20261001203517_446636614e69": {
@@ -713,7 +705,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is stated in first-person ('I'd say') and directly attributed to the speaker's analysis of demographic collapse and economic factors. The context excerpt confirms the claim is made in the speaker's own voice without attribution to others.",
+   "reason": "The speaker directly asserts the prediction in their own voice without attribution to others. The context excerpt confirms the claim is stated as the speaker's own analysis.",
    "context_excerpt": "there's no way that the Chinese state will last very long I'd say a decade or less at this point",
    "revised_claim": ""
   },
@@ -722,7 +714,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The claim is directly asserted by the speaker in first-person analysis, with no attribution to third parties or hedging language. The context excerpt confirms the prediction is stated in the speaker's own voice.",
+   "reason": "The speaker directly asserts the demographic decline timeline and eclipse prediction in first-person analysis without attribution to others. The context excerpt matches the stored claim verbatim.",
    "context_excerpt": "Thailand is already significantly aging demographically so probably only has about 30 years left before it's in a German style demographic decline",
    "revised_claim": ""
   },
@@ -731,16 +723,16 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is presented as a conditional timeline ('if that is successful then you can have your first mass run...') directly stated by the speaker in their own analysis. The claim aligns with the context's own-voice forecast about custom AI chip production timelines.",
-   "context_excerpt": "if that is successful then you can have your first mass run of the chips enough to generate enough chips for a single server Farm by the end of 20 27",
-   "revised_claim": ""
+   "reason": "The prediction is stated in the speaker's own voice with a conditional ('if that is successful'), but the stored claim removes the condition and presents it as a certainty. The context explicitly ties the 2027 mass production to the success of the 2025 prototype.",
+   "context_excerpt": "if you want to design a chip that is for large language models and AI systems... we're hoping to have a functional prototype by the end of calendar year 2025 if that is successful then you can have your first mass run of the chips enough to generate enough chips for a single server Farm by the end of 20 27",
+   "revised_claim": "The first mass production of custom-designed chips for AI systems will occur by the end of 2027 if the functional prototype developed by 2025 is successful."
   },
   "pred_20261001204407_c53d7a95e126": {
    "status": "judged",
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is stated in the speaker's own voice with 'probably' as a hedge, but the claim is directly attributed to the speaker's analysis. The context excerpt confirms the forecast is made by the speaker without attribution to others.",
+   "reason": "The prediction is stated in the speaker's own voice with 'probably' and 'so' indicating personal analysis. The context shows the speaker is forecasting the U.S. withdrawal as his own conclusion based on operational factors, not quoting others or hedging.",
    "context_excerpt": "so probably with over the course of the next year the American Americans will be gone completely",
    "revised_claim": ""
   },
@@ -749,25 +741,27 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker directly asserts the prediction in their own voice ('we're going to see this Cascade... it's probably not going to take any more than a few weeks'), with no attribution to others. The stored claim accurately reflects this forward-looking assertion.",
-   "context_excerpt": "we're going to see this Cascade of strategic collapses of the Russian position throughout the entire Middle Eastern theater throughout the entire African theor and it's probably not going to take any more than a few weeks to mons so stay tuned get some popcorn there's going to be a show",
-   "revised_claim": ""
+   "reason": "The speaker directly asserts the prediction in their own voice ('we're going to see this Cascade... within a few weeks'), using unattributed, unhedged language. The stored claim misstates 'mons' (likely a typo for 'months'), but the core forecast aligns with the context.",
+   "context_excerpt": "we're going to see this Cascade of strategic collapses of the Russian position throughout the entire Middle Eastern theater throughout the entire African theor and it's probably not going to take any more than a few weeks to mons",
+   "revised_claim": "The Russian military presence in Syria will likely withdraw within a few weeks, leading to the collapse of Russian strategic positions in the Middle East and Africa."
   },
   "pred_20261001204905_7466a181334a": {
    "status": "judged",
    "found": "match",
    "origin": "OWNS",
-   "borderline": false,
-   "reason": "The prediction is stated in the speaker's own voice as a direct forecast of Trump's policy consequences. The context excerpt confirms the claim's wording and ownership.",
+   "borderline": true,
+   "reason": "The prediction claim states a specific $1,000 annual cost increase, but the context excerpt contains a garbled figure ('about a, us a year'). The speaker's own analysis (first-person narration) supports the tariff claim, but the stored claim misstates the exact cost figure. The core prediction about tariffs is valid, but the numerical detail is ambiguous in the source.",
    "context_excerpt": "it would increase the average cost of living for the average American every man with child by about a, us a year",
-   "revised_claim": ""
+   "revised_claim": "The incoming Trump administration will implement sharp tariffs on Chinese merchandise exports to the United States, which will increase the average cost of living for the average American family by about [unclear amount] per year.",
+   "escalated": true,
+   "tower_origin": "OWNS"
   },
   "pred_20261001205104_70021bd5bf14": {
    "status": "judged",
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker directly asserts the prediction in their own voice, analyzing historical context and Brexit's impact to conclude British agriculture will face two futures. The claim matches the context excerpt verbatim.",
+   "reason": "The speaker directly asserts the forecast in their own voice, analyzing historical context and current implications of Brexit to conclude the two possible futures for British agriculture. The claim is presented as an unhedged conclusion ('regardless of how you look at this...') with no attribution to others.",
    "context_excerpt": "so regardless of how you look at this the future of British agriculture is one of two things purely domestic high cost low quality or gone because they're importing food from somewhere else",
    "revised_claim": ""
   },
@@ -776,7 +770,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is stated in the speaker's own voice ('we're looking at a complete demographic collapse...') without attribution to others, hedging, or quotation marks. The context excerpt confirms this direct assertion.",
+   "reason": "The prediction is stated in first-person perspective ('we're looking at') without attribution to external sources, and the context provides direct supporting data (birth rates, population projections) to ground the claim as the speaker's own analysis.",
    "context_excerpt": "that means that we're looking at a complete demographic collapse of the Chinese system within 10 years",
    "revised_claim": ""
   },
@@ -785,7 +779,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is stated in first-person ('we're going to be seeing...') by the speaker Peter Zion, directly asserting the claim as his own analysis. The context excerpt confirms the exact wording and ownership.",
+   "reason": "The speaker (Peter Zion) directly asserts the prediction in first-person language ('we're going to be seeing...') based on his own analysis of demographic and economic factors. The context excerpt matches the stored claim verbatim and is presented as his own conclusion without attribution to others.",
    "context_excerpt": "we're going to be seeing the end of the Chinese system and probably of the Chinese state within 10 years",
    "revised_claim": ""
   },
@@ -794,8 +788,8 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is stated in first-person voice ('we're going to have to wait... we will have another president') by the speaker Peter Zion, with no attribution to others or quotation marks. The stored claim matches the context verbatim.",
-   "context_excerpt": "we're going to have to wait another 20 or 30 years for all of this to shake out and then hopefully at the end of that period we will have another president similar to Herbert Walker Bush",
+   "reason": "The prediction is expressed in the speaker's own voice ('we're going to have to wait...') without attribution to others or quotation marks. The context confirms this is the speaker's direct forecast.",
+   "context_excerpt": "we're going to have to wait another 20 or 30 years for all of this to shake out and then hopefully at the end of that period we will have another president similar to Herbert Walker Bush who is willing to ask us that question again and maybe this next time we'll choose to answer",
    "revised_claim": ""
   },
   "pred_20261001205706_30a69bd64b26": {
@@ -803,7 +797,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker directly asserts the claim in their own voice, stating that NAFTA is 'locked in by an act of Congress' and 'the single most important foreign policy priority.' The context excerpt matches the stored prediction verbatim and contains no hedging or attribution to others.",
+   "reason": "The speaker directly asserts the claim in their own voice, stating 'I think NAFTA is fine' and 'that is the single most important foreign policy priority.' The context excerpt confirms this as the speaker's own analysis, not a report or quote.",
    "context_excerpt": "so no matter who becomes president next I think NAFTA is fine and honestly that is the single most important foreign policy priority the United States has",
    "revised_claim": ""
   },
@@ -812,25 +806,27 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is presented in the speaker's own voice with forward-looking language ('entirely possible', 'very well may be down for the count') and technical analysis of infrastructure/fuel issues. The context excerpt directly supports the stored claim without attribution to external sources.",
-   "context_excerpt": "the lights went out and they never came back on and now the hurricane is hit and it's entirely possible that they're not going to come out in a sustained manner again",
+   "reason": "The prediction is stated in the speaker's own voice with direct claims about the grid's likely sustained failure post-hurricane, citing fuel shortages and infrastructure decay as causes. The context excerpt confirms this unattributed forecast.",
+   "context_excerpt": "the hurricane is hit and it's entirely possible that they're not going to come out in a sustained manner again uh energizing electrical system that's had this degree of damage without a steady supply of fuel inputs is nearly impossible",
    "revised_claim": ""
   },
   "pred_20261001210028_0d0ef9a3ef46": {
    "status": "judged",
    "found": "match",
-   "origin": "OWNS",
+   "origin": "REPORTED",
    "borderline": false,
-   "reason": "The speaker (Peter Zion) directly states the prediction in his own voice, using first-person narration ('they're indicating that they're willing to put...') to assert Saudi Arabia's potential actions. The claim is not attributed to third parties, quoted, or hedged as hypothetical.",
+   "reason": "The claim attributes the forecast to Saudi Arabia's stated intentions ('they're indicating that they're willing to put...'), rather than the speaker asserting it as their own prediction. The phrasing 'they're indicating' clearly frames this as a reported claim.",
    "context_excerpt": "they're indicating that they're willing to put a lot more oil on the market maybe as many as 3 million barrels a day",
-   "revised_claim": ""
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "REPORTED"
   },
   "pred_20261001210050_3f8c93226f58": {
    "status": "judged",
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is stated in the speaker's own voice as a direct analysis of hypothetical outcomes ('if the Chinese were to add... all that's going to do is...'). The context shows the speaker making this claim unattributed and without hedging, asserting it as their own forecast.",
+   "reason": "The prediction is stated directly in the speaker's own voice without attribution to others. The context excerpt confirms the claim is made unambiguously by the speaker as their own analysis.",
    "context_excerpt": "if the Chinese were to add more industrial capacity now as part of a stimulus prog program all that's going to do is exacerbate the over Supply and now there's nowhere for it to go",
    "revised_claim": ""
   },
@@ -839,7 +835,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker directly asserts the prediction in their own voice ('by their own statistics they're not going to hit their 5% of GDP growth for the year'), with no attribution to others or quotation marks. The claim is explicitly stated as a forecast based on the speaker's analysis.",
+   "reason": "The host directly asserts the claim in their own voice ('by their own statistics they're not going to hit their 5% of GDP growth for the year'), without hedging or attribution to others. While the host later critiques Chinese data reliability, the core prediction is presented as their own analysis.",
    "context_excerpt": "by their own statistics they're not going to hit their 5% of GDP growth for the year",
    "revised_claim": ""
   },
@@ -848,7 +844,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is stated in the speaker's own voice, directly linking sanctions to the shutdown of the Moscow Stock Exchange. The context excerpt confirms this unattributed assertion.",
+   "reason": "The speaker directly asserts the claim in their own voice, stating that sanctions 'basically shut down the Moscow Stock Exchange' due to loss of currency liquidity. The prediction's wording aligns with the context excerpt.",
    "context_excerpt": "the sanctions that hit basically shut down the Moscow Stock Exchange because without currency to constantly cheering through uh any sort of International Exchange becomes impossible",
    "revised_claim": ""
   },
@@ -857,18 +853,16 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is framed as an analytical scenario rather than a direct assertion. The speaker explains the method ('This is how you knock off...') and suggests a possible outcome ('probably will only take that amount of time'), but does not present it as their own forecast or an unambiguous claim. The context attributes the analysis to the speaker's speculative reasoning, not as a confirmed plan or own prediction. | escalation override: kept",
+   "reason": "The prediction is stated in the speaker's own voice as a direct forecast ('This is how you knock off a Latin American government in a weekend...'), with no attribution to third parties or quotation marks. The context confirms the claim is presented as the speaker's own analysis.",
    "context_excerpt": "This is how you knock off a Latin American government in a weekend and it probably will only take that amount of time.",
-   "revised_claim": "",
-   "escalated": true,
-   "tower_origin": "OWNS"
+   "revised_claim": ""
   },
   "pred_20261001211303_5d439ed785ed": {
    "status": "judged",
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is stated in the speaker's own voice ('All I can tell you for certain...') and directly aligns with the stored claim. The context excerpt confirms the claim is the speaker's own analysis, not a quote or report of others' statements.",
+   "reason": "The prediction is stated in the speaker's own voice as a direct conclusion ('All I can tell you for certain is that unless and until Congress starts acting like Congress...') based on analysis of the War Powers Act and current administration behavior. The context explicitly supports this as the speaker's own forecast.",
    "context_excerpt": "All I can tell you for certain is that unless and until Congress starts acting like Congress, the Trump administration has full leave to do whatever it wants legally.",
    "revised_claim": ""
   },
@@ -877,18 +871,18 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is directly stated in the speaker's own voice, using first-person phrasing ('we are in a fundamentally new chapter... Americans have decided...') to assert the claim about U.S. policy and Russia as a testing ground. The context excerpt matches the stored prediction verbatim.",
-   "context_excerpt": "if it does happen, well then we are in a fundamentally new chapter and the Americans have decided to use the Russians as a testing ground and that is a very different sort of political commitment.",
+   "reason": "The speaker directly asserts the prediction in their own voice, stating that sending Tomahawks would represent a 'fundamentally new chapter' and that the U.S. would be 'using the Russians as a testing ground.' The context excerpt confirms this is the speaker's own analysis, not a quote or third-party claim.",
+   "context_excerpt": "if that decision was made that we are in a fundamentally new position, not just with this administration's risk tolerance, but with the war overall. So I would argue that this is not something that is going to happen. Uh if it does happen, well then we are in a fundamentally new chapter and the Americans have decided to use the Russians as a testing ground and that is a very different sort of political commitment.",
    "revised_claim": ""
   },
   "pred_20261001211903_40e0f6d1aff1": {
    "status": "judged",
    "found": "match",
-   "origin": "PAST-FACT",
-   "borderline": false,
-   "reason": "The context only states that Argentina 'already has the second most successful shale industry in the world' as a present fact. The prediction adds a forward-looking claim about 'continuing to develop' and 'maintaining' this status, which is not asserted or implied in the source text. The stored claim misrepresents the source as a forecast when it is purely descriptive of current conditions.",
+   "origin": "OWNS",
+   "borderline": true,
+   "reason": "The context explicitly states 'Argentina already has the second most successful shale industry in the world' as a present fact, but the stored prediction adds a forward-looking 'will continue to develop' and 'maintain' not present in the source. The claim misstates the original statement by introducing future continuation.",
    "context_excerpt": "Argentina already has the second most successful shale industry in the world.",
-   "revised_claim": "",
+   "revised_claim": "Argentina already has the second most successful shale industry in the world.",
    "escalated": true,
    "tower_origin": "NOT-FOUND"
   },
@@ -897,7 +891,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is asserted in the speaker's own voice, describing the global supply chain complexity for high-end chips and its implications under deglobalization. The context excerpt directly supports the claim without attribution to third parties or quotation marks.",
+   "reason": "The prediction is directly stated in the speaker's own voice, describing the complex global supply chain for high-end chips and the consequences of deglobalization. The context excerpt confirms this as the speaker's own analysis.",
    "context_excerpt": "the ability to make the high-end processing chips that Taiwan is famous for uh requires uh a 100,000 steps, 30,000 pieces, 9,000 companies, and they're scattered around the world.",
    "revised_claim": ""
   },
@@ -906,7 +900,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is presented in the speaker's own voice with direct forward-looking language ('That, at the soonest, will be at the end of calendar year 2026'). The context shows no attribution to third parties, quotes, or hedging that would classify it as REPORTED/QUOTED. The claim matches the stored excerpt verbatim.",
+   "reason": "The prediction is stated in first-person narrative by Peter Zeihan as his own assertion ('That, at the soonest, will be at the end of calendar year 2026'), with no attribution to others or quotation marks. The context excerpt confirms the claim is directly made by the speaker.",
    "context_excerpt": "That, at the soonest, will be at the end of calendar year 2026.",
    "revised_claim": ""
   },
@@ -915,7 +909,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker (Peter Zeihan) directly states the book release date in his own voice with 'My fifth book... comes out around probably New Year's 2026-2027.' The claim is unattributed to others and presented as his own assertion, even with the hedging 'probably.' The context confirms this is his own forecast.",
+   "reason": "The prediction is stated in first-person voice by Peter Zeihan himself, with no attribution to others or quotation marks. The context excerpt confirms the claim is made directly by the speaker.",
    "context_excerpt": "My fifth book, Acceptable Range, comes out around probably New Year's 2026-2027.",
    "revised_claim": ""
   },
@@ -924,7 +918,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is the speaker's own analysis, not a quote or report of others. The context explicitly states 'you would need to import... at least 100 million people' as the speaker's conclusion about China's feasibility, directly supporting the stored claim.",
+   "reason": "The claim is presented in the speaker's own voice, analyzing demographic and geographic constraints to argue why China cannot replicate the UAE's imported workforce model. The context excerpt explicitly states the 100 million-person requirement as the speaker's own analysis.",
    "context_excerpt": "you would need to import bare minimum, jeez, at least 100 million people in order to make a system like that work.",
    "revised_claim": ""
   },
@@ -933,16 +927,16 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker directly makes the prediction in their own voice, analyzing the consequences of removing tankers from the shadow fleet. The stored claim misstates the price effect ('dries up the price' vs. 'increased prices'), requiring revision.",
+   "reason": "The prediction is presented in the speaker's own voice as a direct causal analysis ('So, what happens when you remove a thousand tankers...'), not attributed to others, quoted, or hedged. The context explicitly states this as the speaker's own conclusion.",
    "context_excerpt": "So, what happens when you remove a thousand tankers from the fleet? Well, all of a sudden, you go into a severe tanker shortage, which dries up the price of crude for everyone.",
-   "revised_claim": "The shadow fleet will experience a significant reduction in functionality due to Ukrainian attacks, leading to a severe tanker shortage and increased crude oil prices globally."
+   "revised_claim": ""
   },
   "pred_20261001212831_03f4812e42b8": {
    "status": "judged",
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker directly states the prediction in their own voice using phrases like 'the idea is that uh Mexico will now have a 50% tariff...' without attributing it to others. The context confirms this is the speaker's own analysis of the Mexican Congress's actions.",
+   "reason": "The speaker directly states the 50% tariff claim as the 'idea' of the Mexican bill in their own voice, without attribution to others or quotation marks. The context excerpt confirms the claim is presented as the speaker's own analysis of the bill's content.",
    "context_excerpt": "the idea is that uh Mexico will now have a 50% tariff on uh all products or almost all products that are coming from any country that it does not have a free trade agreement with.",
    "revised_claim": ""
   },
@@ -951,18 +945,16 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker analyzes Ukrainian actions against Novosis port and CPC buoy but does not assert this as their own prediction. The claim is framed as an analysis of potential consequences ('if the Ukrainians can keep this up') rather than a direct first-person forecast. The language remains third-person observational. | escalation override: kept",
-   "context_excerpt": "So you're talking about uh just from CPC roughly 1.4 four million barrels a day is under a degree of threat and then another million barrels a day of purely Russian crude. So if the Ukrainians can keep this up and it is kind of the next target in their crosshairs, uh that is a significant reduction in potential flows.",
-   "revised_claim": "",
-   "escalated": true,
-   "tower_origin": "OWNS"
+   "reason": "The speaker directly forecasts the targeting of Novarosis and the CPC buoy, stating the resulting reduction in oil exports (1.4M b/d CPC, 1M b/d Russian crude) as their own analysis. The context excerpt confirms this is the speaker's own projection, not a quote or report of others' views.",
+   "context_excerpt": "So you're talking about uh just from CPC roughly 1.4 four million barrels a day is under a degree of threat and then another million barrels a day of purely Russian crude.",
+   "revised_claim": ""
   },
   "pred_20261001213303_64662da45c1a": {
    "status": "judged",
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is stated in the speaker's own voice ('bright side I can tell you') with first-person phrasing ('we can try again'), indicating ownership of the claim. The context excerpt directly matches the stored claim.",
+   "reason": "The prediction is stated in the speaker's own voice with 'I can tell you' and 'we' phrasing, directly asserting the claim as their analysis. The context excerpt matches the stored claim verbatim.",
    "context_excerpt": "About the only bright side I can tell you is that if we do get a Kessler in low Earth orbit, everything will probably deorbit in under a decade, and then we can try again.",
    "revised_claim": ""
   },
@@ -971,7 +963,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is stated in the speaker's own voice as a factual assertion about Canada's policy change. The context excerpt directly supports the claim with specific numbers and tariff rate.",
+   "reason": "The prediction is stated in the speaker's own voice as a forward-looking claim about Canadian policy ('The Canadians will allow...'), without attribution to external sources or quotation marks. The context excerpt confirms the claim's wording and origin.",
    "context_excerpt": "The Canadians will allow instead of having 100% tariff on all Chinese vehicles, they'll allow about 50,000 in this coming year at [snorts] a much lower tariff rate, something like 6% and then ramping that over 5 years to 70,000.",
    "revised_claim": ""
   },
@@ -980,8 +972,8 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is stated in the speaker's own voice, analyzing why the US wouldn't react intensely to a Venezuela drone attack due to Miami's lack of military criticality. The context excerpt confirms this is the speaker's own analysis, not a quote or report of others' views.",
-   "context_excerpt": "And, you know, we all have our opinions about Miami, but I don't think any of us like, \"Oh, Miami, that's militarily critical.\" Yeah. No. So, you know, blowing up some hotels on South Beach is not the sort of thing that the United States is going to be intensely concerned about.",
+   "reason": "The prediction is stated in the speaker's own voice (first-person analysis) with no hedging or attribution to others. The context excerpt directly supports the claim about Miami's lack of military criticality and U.S. reaction.",
+   "context_excerpt": "And even if there was, uh, the first city that you're going to hit, the only one of size that you're going to hit is Miami. And, you know, we all have our opinions about Miami, but I don't think any of us like, \"Oh, Miami, that's militarily critical.\" Yeah. No. So, you know, blowing up some hotels on South Beach is not the sort of thing that the United States is going to be intensely concerned about.",
    "revised_claim": ""
   },
   "pred_20261001213815_6a3156ef3c01": {
@@ -989,7 +981,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is presented as the speaker's own conclusion ('the bottom line is') in the final sentence of the context, with no attribution to external sources or quotation marks.",
+   "reason": "The claim is presented as the speaker's own conclusion ('But the bottom line is that...') without attribution to others. The context excerpt directly matches the stored prediction and is stated in the speaker's own voice.",
    "context_excerpt": "But the bottom line is that the European military complex is becoming more capable of supporting the war as the Russian military complex is becoming less capable.",
    "revised_claim": ""
   },
@@ -998,8 +990,8 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker directly asserts the conditional forecast in first-person ('I might have a better forecast for you'), with no attribution to others or quotation marks. The stored claim accurately reflects this statement.",
-   "context_excerpt": "if Donald Trump were to stop issuing new tariffs and stop changing the tariffs already in play, I might have a better forecast for you.",
+   "reason": "The speaker directly asserts the conditional forecast in first-person ('I might have a better forecast for you'), with no hedging or attribution to others. The stored claim accurately reflects this statement.",
+   "context_excerpt": "if Donald Trump were to stop issuing new tariffs and stop changing the tariffs already in play, I might have a better forecast for you",
    "revised_claim": ""
   },
   "pred_20261001214219_9e97c204f6c2": {
@@ -1007,7 +999,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is stated in the speaker's own voice as a direct forecast ('another 100 or 200 is expected to come'), not attributed to others or quoted. The context explicitly frames this as a forward-looking claim.",
+   "reason": "The prediction is stated in the speaker's own voice as a direct assertion ('another 100 or 200 is expected to come'), with no attribution to external sources or hedging language. The context excerpt confirms the claim verbatim.",
    "context_excerpt": "It's the first batch, another 100 or 200 is expected to come in the next several days to weeks.",
    "revised_claim": ""
   },
@@ -1016,7 +1008,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is explicitly stated in first-person ('I would expect') and directly matches the stored claim. The context excerpt confirms the speaker is making a forward-looking forecast in their own voice without attribution to others.",
+   "reason": "The prediction is expressed in the speaker's own voice using 'I would expect,' directly forecasting Gulf states' actions without attribution to others. The stored claim aligns with the context's wording.",
    "context_excerpt": "I would expect the Arab states of the Persian Gulf to start spending just immense amounts of cash in Ukraine to massively expand their capacity to build counter uh drone weaponry interceptors.",
    "revised_claim": ""
   },
@@ -1025,7 +1017,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is presented in the speaker's own voice, analyzing current dynamics (US demands, Arctic resource tensions) to forecast renewed EU membership debates in Iceland and Norway. The context excerpt directly supports this as the speaker's own analysis, not a quote or report of others' statements.",
+   "reason": "The prediction is presented in the speaker's own voice ('we're seeing...'), directly stating the claim about Norway and Iceland considering EU membership for the first time due to U.S. security threats. The context excerpt confirms this as the speaker's own analysis, not a quote or report of others' statements.",
    "context_excerpt": "Uh and so what we're seeing in both Norway and Iceland now is a renewed debate, especially at the parliamentary level, about joining for the first time uh the European Union.",
    "revised_claim": ""
   },
@@ -1034,8 +1026,8 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction claim is directly stated by the speaker in their own voice without attribution to others, quotes, or hedging. The context excerpt confirms the exact wording as presented in the prediction.",
-   "context_excerpt": "The Iranians can produce about the same number of Shahed drones in a week as the United States can produce PAC-3 interceptors in a year.",
+   "reason": "The speaker directly asserts the claim in their own voice without attribution or quotation marks. The context excerpt confirms the exact wording of the prediction as stated in the transcript.",
+   "context_excerpt": "the Iranians can produce about the same number of Shahed drones in a week as the United States can produce PAC-3 interceptors in a year.",
    "revised_claim": ""
   },
   "pred_20261001215931_f10277780a33": {
@@ -1043,8 +1035,8 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is presented in the speaker's own voice, analyzing the current situation and forecasting consequences if the conflict continues. The context excerpt directly supports the claim with the same numerical data and causal logic.",
-   "context_excerpt": "So, we've now had three full days where in excess 15 to 20 million barrels a day of crude has not shipped. And if you take 15 to 20% of the world's crude supply offline day after day after day after day, you eventually will get an energy crisis...",
+   "reason": "The prediction is stated in first-person voice ('we've now had three full days...') and directly attributes the 15-20 million barrels/day disruption to the current conflict. The context excerpt confirms this as the speaker's own analysis.",
+   "context_excerpt": "we've now had three full days where in excess 15 to 20 million barrels a day of crude has not shipped.",
    "revised_claim": ""
   },
   "pred_20261001220255_6d5d320dd6b3": {
@@ -1052,8 +1044,8 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is asserted in the speaker's own voice with direct statements like 'the California energy shortage that is coming, that is imminent' and 'we're looking at significant product shortages.' The context provides unattributed analysis of supply chain impacts and explicitly claims the shortage is imminent, matching the stored prediction.",
-   "context_excerpt": "Now, the California energy shortage that is coming, that is imminent... we're looking at significant product shortages, but more importantly, higher prices for the West Coast specifically.",
+   "reason": "The prediction is stated in the speaker's own voice with direct assertions about California's imminent energy shortage due to Persian Gulf supply shutdown and refining constraints. The context excerpt confirms this as the speaker's own analysis.",
+   "context_excerpt": "it's this week that the last of the pre-war tankers crossed the last little bit of the Pacific to come to California ports. Now, the California energy shortage that is coming, that is imminent",
    "revised_claim": ""
   },
   "pred_20261001220449_ce7b5640e39e": {
@@ -1061,8 +1053,8 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is stated in the speaker's own voice ('going to be slimmed down very quickly') as a direct forecast about the new government's actions, not attributed to others or quoted material. The context explicitly supports this claim as the speaker's analysis.",
-   "context_excerpt": "Those embassies are going to be slimmed down very quickly.",
+   "reason": "The prediction is stated in the speaker's own voice ('Those embassies are going to be slimmed down very quickly') without attribution to others. The context shows Zeihan is forecasting this outcome based on Orb\u00e1n's removal and Hungary's new government.",
+   "context_excerpt": "he helps transform the embassies for Moscow and Beijing in Budapest into giant intel hubs complete with espionage teams and signals monitoring. Uh, anyway, so as a rule, the European Union doesn't much care for Orb\u00e1n and is glad to see him gone. Uh, but let's talk about how he stayed in power for so long so you can get an idea of what's next. Uh, the problem is is under Orb\u00e1n, not only is Hungary a bit of a pariah in European circles, uh, actively working against how most Europeans define their security because of the Ukraine war, uh, he also, cuz he could put cronies everywhere, turned Hungary into by far the most corrupt state in the European Union. And if you know anything about the Balkans like Romania and Bulgaria, you know, that that's a strong statement. So, basically people had had enough and they showed up in droves. We almost had 80% turnout uh, and Fidesz did not turn out to be the largest party anymore. Now, it /think",
    "revised_claim": ""
   },
   "pred_20261001220509_7397c32fcc9d": {
@@ -1070,28 +1062,26 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker directly asserts the prediction in their own voice, stating 'we're seeing airlines... all canceling flights... the next few months.' This matches the stored claim and is not attributed to others, quoted, or past-fact.",
-   "context_excerpt": "we're seeing airlines in China and Japan and Australia and New Zealand and Philippines and Vietnam and India uh all canceling flights, not just for like the next few weeks, but the next few months.",
+   "reason": "The speaker directly asserts the prediction in their own voice ('we're seeing airlines... all canceling flights... next few months') without attribution or quotation marks. The claim is explicitly tied to the speaker's analysis of jet fuel shortages.",
+   "context_excerpt": "So, that means that we're already seeing airlines in China and Japan and Australia and New Zealand and Philippines and Vietnam and India uh all canceling flights, not just for like the next few weeks, but the next few months.",
    "revised_claim": ""
   },
   "pred_20261001221124_7954f88a4d5e": {
    "status": "judged",
    "found": "match",
    "origin": "OWNS",
-   "borderline": true,
-   "reason": "The prediction in the stored claim is phrased as a forward-looking assertion, but the context only describes current enforcement actions by Iran (e.g., 'They have maintained control...'). The speaker (Zeihan) is reporting present behavior, not making a future prediction. The stored claim mischaracterizes the context's descriptive statement as a forecast.",
-   "context_excerpt": "The Iranians are absolutely impressing their view on how the area works.",
-   "revised_claim": "The Strait of Hormuz is currently under Iranian control and enforcement, with Iran maintaining restrictions on passage during the ceasefire.",
-   "escalated": true,
-   "tower_origin": "PAST-FACT"
+   "borderline": false,
+   "reason": "The prediction claim is directly supported by the speaker's own analysis in the context. The stored excerpt ('The Iranians are absolutely impressing their view on how the area works') is part of the speaker's unattributed narration describing Iran's enforcement of the Strait of Hormuz under the ceasefire. The context explicitly states Iran maintains control through restrictions (bribes, escorts), aligning with the prediction claim.",
+   "context_excerpt": "The Iranians are proceeding on their understanding of the ceasefire, which is their point 10 points are fine. So, they have upped their oil exports. They have maintained control of the Strait of Hormuz. They are not letting anyone through, even now under the ceasefire, unless these people apply, declare their cargo, pay a bribe of about a dollar per barrel or 2 million dollars per ship, roughly, and then get partially escorted through. The Iranians have already enforced that in the ceasefire environment on April 8th. The Iranians are absolutely impressing their view on how the area works.",
+   "revised_claim": ""
   },
   "pred_20261001221333_f46e0719fcff": {
    "status": "judged",
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker directly asserts the claim in their own voice, stating 'the rest of the world combined does not have the naval force to even pretend to enforce' and elaborating on the limitations of global navies. The stored claim accurately reflects this unattributed, first-person analysis.",
-   "context_excerpt": "the rest of the world combined does not have the naval force to even pretend to enforce",
+   "reason": "The claim is explicitly stated in the speaker's own voice, analyzing the volume, type, and number of ships as insufficient for the task. The context directly supports this self-asserted forecast.",
+   "context_excerpt": "So, just a the volume of ships, the type of ships, the number of ships uh just isn't appropriate for this specific task.",
    "revised_claim": ""
   },
   "pred_20261001221515_7a2f062b508c": {
@@ -1099,7 +1089,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker directly asserts the forecast in their own voice, stating 'political decisions have consequences, and one of these means that Ebola may be coming to a town near you, which is nasty.' This is an unhedged first-person claim grounded in their analysis of U.S. preparedness failures.",
+   "reason": "The speaker directly asserts 'political decisions have consequences, and one of these means that Ebola may be coming to a town near you' in their own voice, linking it to U.S. policy failures. This matches the stored claim and is not attributed to others, quoted, or past-fact.",
    "context_excerpt": "political decisions have consequences, and one of these means that Ebola may be coming to a town near you, which is nasty.",
    "revised_claim": ""
   },
@@ -1108,7 +1098,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker directly states 'I am in the process of migrating my services over to patreon' in first-person, making it an unambiguous self-asserted claim with no hedging or attribution to others.",
+   "reason": "The speaker explicitly states the forecast in first-person ('I am in the process...') without hedging or attribution to others.",
    "context_excerpt": "I am in the process of migrating my services over to patreon",
    "revised_claim": ""
   },
@@ -1117,7 +1107,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker is describing the terms of the plebiscite proposal, not asserting the prediction in their own voice. The claim is presented as a conditional outcome of the plebiscite, not as the speaker's own forecast. | escalation override: kept",
+   "reason": "The prediction is presented as a condition of the plebiscite ('is supposed to automatically withdraw'), not as the speaker's own assertion. The speaker is describing the terms of the proposal, not making a forecast in their own voice. | escalation override: kept",
    "context_excerpt": "if the country hits 10 million people, then Switzerland is supposed to automatically withdraw from all freedom of movement treaties it has with the European Union",
    "revised_claim": "",
    "escalated": true,
@@ -1128,7 +1118,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is presented in the speaker's own voice as a conditional forecast ('if their truce holds... the Russians really have nowhere to go'), directly aligning with the stored claim. The context excerpt confirms this as the speaker's own analysis.",
+   "reason": "The prediction is presented in the speaker's own voice as a conditional forecast ('if their truce holds... the Russians really have nowhere to go'), directly matching the stored claim. The context excerpt confirms this is the speaker's analysis, not a quote or report of others' views.",
    "context_excerpt": "But if their truce holds and they can keep up the attacks, the Russians really have nowhere to go.",
    "revised_claim": ""
   },
@@ -1137,7 +1127,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is stated in the speaker's own voice with direct causal language ('due to Ukrainian drone attacks...unjammable by Russian defenses') and unattributed first-person analysis ('the Russian position...is really falling apart'). The context excerpt confirms this is the speaker's own assertion, not a quote or report of others' claims.",
+   "reason": "The prediction is stated in the speaker's own voice with no attribution to others. The context excerpt directly supports the claim about drones causing the Russian position to collapse.",
    "context_excerpt": "And now that those are being produced in the hundreds per day, uh the Russian position across the entire southern parts of the occupied territories is really falling apart.",
    "revised_claim": ""
   },
@@ -1146,8 +1136,8 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker directly asserts the claim in their own voice, stating that Ukrainian attacks on supply routes will outpace Chinese truck deliveries, causing the Russian logistical effort to crumble. The context excerpt confirms this analysis is presented as the speaker's own conclusion, not a quote or report of others' views.",
-   "context_excerpt": "Now, we're in a situation where the Ukrainians have set up kill zones where they're probably going to be able to wipe out those supply trucks faster than the Chinese can make them. And that is a serious volume issue that the Russians are going to have a hard time dealing with.",
+   "reason": "The speaker directly asserts the forecast in their own voice, stating 'the entire Russian logistical effort for the southern front crumbles' and 'Ukrainians... wipe out those supply trucks faster than the Chinese can make them' as causal analysis. The stored claim accurately reflects this unattributed forward-looking assertion.",
+   "context_excerpt": "You do that a few times and the entire Russian logistical effort for the southern front crumbles... we're in a situation where the Ukrainians have set up kill zones where they're probably going to be able to wipe out those supply trucks faster than the Chinese can make them.",
    "revised_claim": ""
   },
   "pred_20261001223123_6a8e0565ca97": {
@@ -1155,9 +1145,9 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": true,
-   "reason": "The prediction is framed as the speaker's own analysis ('either they cooperate with the Turks to a degree or they have nothing'), but the stored claim adds the specific phrase 'establish formal diplomatic relations with Turkey' which is not explicitly stated in the context. The context only implies the necessity of cooperation without specifying formal relations.",
+   "reason": "The prediction claims the government will 'attempt to establish formal diplomatic relations with Turkey,' but the context only states cooperation 'to a degree' is necessary. The stored claim adds specificity (formal relations) not explicitly stated in the context, which focuses on pragmatic cooperation rather than formal diplomatic steps.",
    "context_excerpt": "So, really the bottom line is either they cooperate with the Turks to a degree or they have nothing.",
-   "revised_claim": "The new Armenian government will need to cooperate with Turkey to a degree, as this is necessary for their survival and economic stability.",
+   "revised_claim": "The new Armenian government will need to cooperate with Turkey to a degree to ensure survival and economic stability.",
    "escalated": true,
    "tower_origin": "OWNS"
   },
@@ -1166,7 +1156,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker uses first-person plural ('we're') to assert the prediction about canister evolution and extended range within a month or two. The context excerpt directly supports this own-voice forecast without attribution to others or quotation marks.",
+   "reason": "The speaker directly forecasts future evolution ('we're probably going to see within a month or two') in their own voice, not quoting others or describing past events. The context confirms this is the speaker's own assertion about upcoming developments.",
    "context_excerpt": "That's something we're probably going to see within a month or two.",
    "revised_claim": ""
   },
@@ -1175,7 +1165,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker explicitly states their own doubt ('I am dubious') about the Houthis' capability, directly linking it to supply chain/logistical constraints discussed in the context. The claim is made in first-person and aligns with the analysis provided.",
+   "reason": "The speaker directly expresses skepticism about Yemen's ability to conduct attacks ('I am dubious if the Yemenis are going to be able to do anything') based on their own analysis of supply chain/logistical constraints, which aligns with the stored claim. The context supports this as the speaker's own voice.",
    "context_excerpt": "So, at the moment, the fact that 24 hours has gone by and there hasn't been an attack, uh I am not exactly calling but I am dubious if the Yemenis are going to be able to do anything.",
    "revised_claim": ""
   },
@@ -1184,7 +1174,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is directly asserted by the speaker in first-person analysis ('they're probably going to drop by that much again...'), with no attribution to external sources or quotation marks. The context explicitly grounds the claim in the speaker's own demographic analysis.",
+   "reason": "The prediction is asserted in the speaker's own voice ('they're probably going to drop by that much again'), directly referencing the 25% population decline for the listed countries. The context excerpt confirms this exact phrasing as the speaker's own analysis.",
    "context_excerpt": "As a result, we've already seen the populations of Estonia, Latvia, Lithuania, Romania, and Bulgaria drop by over a fifth, about a quarter actually, since the post-Cold War era began, and they're probably going to drop by that much again over the next 10 to 15 years.",
    "revised_claim": ""
   },
@@ -1193,7 +1183,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is asserted in first-person by Peter Zeihan ('we're in a situation where the seas are getting higher...') without attribution to others, hedging, or quotation marks. The stored claim accurately reflects his direct statement.",
+   "reason": "The speaker (Peter Zeihan) directly asserts the claim in first-person narration without attribution to others, stating 'we're in a situation where the seas are getting higher and the storms are getting a little bit more intense.' This matches the prediction's wording and is presented as his own analysis.",
    "context_excerpt": "the reason I'm bringing up this is because we're in a situation where the seas are getting higher and the storms are getting a little bit more intense, probably related as well",
    "revised_claim": ""
   },
@@ -1202,7 +1192,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker directly asserts the prediction as their own conclusion based on the technological analysis provided. The context excerpt shows the claim is made in first-person synthesis of the discussed factors.",
+   "reason": "The prediction is directly asserted by the speaker in their own voice ('You put it all together and by 2030, the Korean military is going to look very, very different'). The context shows the speaker synthesizing their analysis of technological trends to make this claim, with no indication of quoting others or hedging.",
    "context_excerpt": "You put it all together and by 2030, the Korean military is going to look very, very different.",
    "revised_claim": ""
   },
@@ -1211,27 +1201,27 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker explicitly states 'I think this election is very much open over the next couple months' in their own voice, directly matching the stored claim's meaning. The context excerpt confirms this is a first-person assertion, not a report or quote.",
+   "reason": "The speaker explicitly states 'I think this election is very much open over the next couple months' in their own voice, directly matching the stored prediction claim. The context shows this is the speaker's personal analysis, not a report or quote.",
    "context_excerpt": "I think this election is very much open over the next couple months.",
    "revised_claim": ""
   },
   "pred_20261001224646_0f0d4f31137f": {
    "status": "judged",
    "found": "match",
-   "origin": "OWNS",
+   "origin": "REPORTED",
    "borderline": false,
-   "reason": "The claim is based on a direct statement from the Iranian Permanent Mission in the UN ('Special operations in kind'), which the speaker explicitly attributes to them. The speaker does not assert this as their own forecast but rather reports it as the mission's position. The prediction's wording ('There is a significant chance') is not present in the speaker's own voice but is derived from the quoted statement. | escalation override: kept",
-   "context_excerpt": "the Iranian permanent mission in the UN will say said Special Operations you know in kind um which implies uh not military targets uh but perhaps civilian government targets um in Israel",
+   "reason": "The prediction is attributed to the Iranian Permanent Mission in the UN via Ian Bremer's reporting ('the Iranian permanent mission in the UN will say said Special Operations...'). The speaker does not assert this forecast in their own voice but relays it as an external statement.",
+   "context_excerpt": "the Iranian permanent mission in the UN will say said Special Operations you know in kind um which implies uh not military targets uh but perhaps civilian government targets um in Israel uh this clearly has the potential to spill over into broader conflict between Iran and Israel",
    "revised_claim": "",
    "escalated": true,
-   "tower_origin": "OWNS"
+   "tower_origin": "REPORTED"
   },
   "pred_20261001224955_de2b116b3b38": {
    "status": "judged",
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is directly stated in the speaker's own voice ('the reality there is that Russia can keep on keeping on as a consequence') and aligns with their analysis of Western sanctions being insufficient to force strategic change. The context excerpt confirms this as the speaker's own conclusion.",
+   "reason": "The prediction is stated in the speaker's own voice ('the reality there is that Russia can keep on keeping on as a consequence'), directly concluding from the preceding analysis of Western sanctions' limitations. The context excerpt confirms this is the speaker's own analysis, not a report or quote.",
    "context_excerpt": "the reality there is that Russia can keep on keeping on as a consequence",
    "revised_claim": ""
   },
@@ -1240,7 +1230,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is presented in the speaker's own voice as a direct assessment ('Probably not') of Netanyahu's willingness to accept a weakened governance position. The context confirms this is the speaker's own analysis, not a quote or report of others' views.",
+   "reason": "The prediction is the speaker's own analysis ('Probably not') about Netanyahu's likely position, not a quote or report of others' views. The context excerpt directly supports this as the speaker's own assertion.",
    "context_excerpt": "Is the Israeli prime minister willing to do that, willing to accept what's going to be a much weaker, governance position for him and his country going forward? Probably not.",
    "revised_claim": ""
   },
@@ -1249,9 +1239,9 @@
    "found": "match",
    "origin": "PAST-FACT",
    "borderline": false,
-   "reason": "The context excerpt describes a past event (first budget surplus in over a decade) but contains no forward-looking claim about 'continued' surplus. The prediction misrepresents the source by implying a forecast where only a historical observation exists.",
-   "context_excerpt": "We've had a first budget surplus that Argentina has enjoyed in over a decade",
-   "revised_claim": "Argentina has experienced its first budget surplus in over a decade under Milei's administration.",
+   "reason": "The context excerpt describes a past event (first budget surplus in over a decade) but does not make any forward-looking claim about 'continued' surplus. The prediction's claim about future continuation is not substantiated in the source text, which only references a completed past achievement.",
+   "context_excerpt": "We've had a first budget surplus that Argentina has enjoyed in over a decade.",
+   "revised_claim": "",
    "escalated": true,
    "tower_origin": "NOT-FOUND"
   },
@@ -1260,7 +1250,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is stated directly by the speaker in their own voice, with no attribution to others or quotation marks. The claim is clearly a forward-looking forecast made by the speaker.",
+   "reason": "The prediction is stated directly by the speaker in their own voice, with the claim 'I expect that sanctions, tariffs, and other executive orders are going to be expanded on the back of this 27-year ruling in the coming days and weeks.' This is an unhedged, first-person assertion of a future action, meeting the criteria for 'OWNS'.",
    "context_excerpt": "I expect that sanctions, tariffs, and other executive orders are going to be expanded on the back of this 27-year ruling um sentencing in the coming days and weeks.",
    "revised_claim": ""
   },
@@ -1269,7 +1259,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is explicitly stated in the speaker's own voice ('So three months... the war keeps going') as a forward-looking claim based on their analysis of military/economic factors. The context shows this is the speaker's own conclusion, not a quote or report of others' views.",
+   "reason": "The prediction is stated in the speaker's own voice as a direct forecast ('the war keeps going') based on their analysis of military/economic factors. The context excerpt confirms this is the speaker's unattributed conclusion.",
    "context_excerpt": "So three months, six months, nine months, 12 months going forward, the war keeps going.",
    "revised_claim": ""
   },
@@ -1278,8 +1268,8 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is explicitly framed as the speaker's own forecast using first-person language ('I see coming before 2028 globally is AI') and is directly followed by their analysis of AI's impact on white-collar workers. The context excerpt confirms the claim is made in the speaker's own voice without attribution to others.",
-   "context_excerpt": "that's a serious problem and it's a particular problem if people start feeling that the economy is not working so well and here I think the next few years are very interesting because one of the biggest trends that I see coming before 2028 globally is AI and I see it everybody sees it that's not news but the fact that AI is going to take jobs away from white collar workers that means populism economic Populism here is not going to be driven primarily by the undereducated manufacturing bluecollar working men, but rather the white collar professional class advanced degrees.",
+   "reason": "The speaker directly asserts the AI trend forecast as their own analysis using 'I see coming' and elaborates on the specific demographic implications without attribution to others.",
+   "context_excerpt": "the next few years are very interesting because one of the biggest trends that I see coming before 2028 globally is AI and I see it everybody sees it that's not news but the fact that AI is going to take jobs away from white collar workers that means populism economic Populism here is not going to be driven primarily by the undereducated manufacturing bluecollar working men, but rather the white collar professional class advanced degrees.",
    "revised_claim": ""
   },
   "pred_20261001231448_26b994e377c9": {
@@ -1287,7 +1277,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker explicitly frames the claim as 'reporting that' the Iranians are seeking negotiations, indicating it is relayed from external news rather than their own assertion. The context excerpt confirms this framing. | escalation override: kept",
+   "reason": "The prediction is framed as a third-person report of 'big news today' rather than the speaker's own assertion. The host uses 'reporting that' to attribute the claim to external sources, not his own voice. | escalation override: kept",
    "context_excerpt": "The big news today reporting that the Iranians um are urgently seeking um to engage in negotiations and a ceasefire",
    "revised_claim": "",
    "escalated": true,
@@ -1297,19 +1287,17 @@
    "status": "judged",
    "found": "match",
    "origin": "OWNS",
-   "borderline": true,
-   "reason": "The prediction is framed as a conditional analysis by the speaker ('If Trump was willing to do that...'), which aligns with their own voice. However, the stored claim generalizes the actor to 'the U.S. and Europe' while the context specifically names Trump. This creates a discrepancy requiring revision.",
+   "borderline": false,
+   "reason": "The prediction is presented as the speaker's own conditional forecast ('If Trump was willing to do that, there'd be a reasonable chance...'), using speculative language in first-person analysis. The claim matches the context excerpt verbatim and is not attributed to others, quoted, or past-fact.",
    "context_excerpt": "If Trump was willing to do that, there'd be a reasonable chance that Putin would accept at least a first-phase 30-day ceasefire, then you see where you get.",
-   "revised_claim": "A ceasefire between Russia and Ukraine could be possible within 30 days if Trump and Europe press Russia to accept a ceasefire without preconditions.",
-   "escalated": true,
-   "tower_origin": "OWNS"
+   "revised_claim": ""
   },
   "pred_20261001225204_HtiaWw_0": {
    "status": "judged",
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction 'barring surprises, we will never hear from him again' is directly asserted by Peter Zeihan in his own voice in the context. The phrasing matches verbatim and is presented as an unhedged forecast without attribution to others.",
+   "reason": "The prediction is directly stated in the speaker's own voice without attribution to others. The phrase 'barring surprises, we will never hear from him again' is an unhedged assertion by Peter Zeihan about the arrested individual.",
    "context_excerpt": "He was arrested on the 28th of April and barring surprises, we will never hear from him again.",
    "revised_claim": ""
   },
@@ -1318,7 +1306,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is stated in the speaker's own voice ('President Trump and President Xi going to meet in South Korea uh for several hours') without hedging or attribution to others. The context excerpt directly supports this claim as presented in the prediction.",
+   "reason": "The prediction is directly stated in the speaker's own voice (Ian Bremmer) using future tense ('going to meet') without attribution to others. The context excerpt confirms this as Bremmer's own assertion about the meeting's timing and purpose.",
    "context_excerpt": "President Trump and President Xi going to meet in South Korea uh for several hours. Uh, this is a much anticipated meeting.",
    "revised_claim": ""
   },
@@ -1327,7 +1315,7 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is explicitly stated in the speaker's own voice using 'I expect' and directly matches the stored claim. The context excerpt confirms the forecast is made by the speaker as their own analysis.",
+   "reason": "The prediction is explicitly stated in first-person ('I expect...') by the speaker, who directly forecasts U.S. diplomatic engagement efforts and demands against narco cartels in Venezuela. The stored claim matches the context verbatim.",
    "context_excerpt": "I expect uh they will be announcing diplomatic engagement efforts to create deals on oil exploitation uh as well as uh demands uh for uh a fight against uh the Narco cartels.",
    "revised_claim": ""
   },
@@ -1336,8 +1324,8 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The claim is expressed in first-person ('I also see'/'I think') and directly attributes the forecast to the speaker's own analysis. The context excerpt confirms this is the speaker's own voice without attribution to others.",
-   "context_excerpt": "And I also see significant pushback on authoritarian impulses and I think it's far less likely that the US is slipping into dictatorship.",
+   "reason": "The claim is expressed in first-person ownership ('I also see... I think...') and directly matches the prediction's wording. The context excerpt confirms the speaker's own voice asserting the forecast.",
+   "context_excerpt": "I also see significant push back on authoritarian impulses and I think it's far less likely that the US is slipping into dictatorship.",
    "revised_claim": ""
   },
   "pred_20261001232414_dbaddd481caf": {
@@ -1345,62 +1333,309 @@
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The prediction is stated in the speaker's own voice, analyzing the difficulty of achieving a broader ceasefire between the US, Ukraine, and Russia. The context excerpt directly supports this claim without attribution to others or quotation marks.",
+   "reason": "The prediction is stated in the speaker's own voice ('are going to be far more difficult and they're probably not going to hold'), analyzing the dynamics between the US, Russia, and Ukraine. The context excerpt directly supports this as the speaker's own forecast.",
    "context_excerpt": "the working level conversations between the US and Russia, between the US and Ukraine are going to be far more difficult and they're probably not going to hold",
    "revised_claim": ""
   },
   "pred_20261001232610_d77a65f45806": {
-   "status": "judged",
-   "found": "match",
-   "origin": "OWNS",
-   "borderline": false,
-   "reason": "The prediction is presented in the speaker's own voice as a conditional claim ('if it turns out that the Europeans are going to spend... then Trump can pivot'). The context excerpt directly supports this phrasing without attribution to third parties or quotation marks.",
-   "context_excerpt": "if it turns out that the Europeans are going to spend a lot more on defense over the coming weeks and make those commitments, a lot more to the Ukrainians... then Trump can pivot",
-   "revised_claim": ""
+   "status": "llm_fail",
+   "origin": "SKIP",
+   "found": "match"
   },
   "pred_20261001232913_5154fd547eba": {
    "status": "judged",
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker explicitly states the prediction in their own voice using 'my bet at this point' and direct phrasing ('probably going to get worse before it gets better'), with no attribution to others or quotation marks.",
+   "reason": "The prediction is stated in first-person voice ('my bet') and directly forecasts a worsening US-China relationship under Trump, aligning with the stored claim. The context excerpt confirms the speaker's own assertion.",
    "context_excerpt": "What does that mean for us China relationship probably going to get worse before it gets better that would be my bet at this point",
    "revised_claim": ""
   },
   "pred_20261001233139_4d64a78bddd9": {
    "status": "judged",
    "found": "match",
-   "origin": "OWNS",
+   "origin": "REPORTED",
    "borderline": false,
-   "reason": "The prediction is directly attributed to Trump's own statements ('he wants it back') and the context explicitly frames it as his claim ('President elect Trump... the US should take the Panama Canal... now he wants it back'). The claim is presented in unambiguous first-person terms from the speaker's perspective.",
-   "context_excerpt": "President elect Trump... the US should take the Panama Canal... President Jimmy Carter foolishly gave it away and now he wants it back",
-   "revised_claim": ""
+   "reason": "The prediction is attributed to Donald Trump's statements, not the speaker's own assertion. The context explicitly frames the claim as Trump's position ('he wants it back'), which the speaker is reporting rather than asserting directly.",
+   "context_excerpt": "President elect Trump... he wants it back",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "REPORTED"
   },
   "pred_20261001233339_02ed94a73390": {
-   "status": "judged",
-   "found": "match",
-   "origin": "OWNS",
-   "borderline": false,
-   "reason": "The prediction is presented as the speaker's own analysis ('I do think we're going to see...') with explicit examples of global alignment and causal reasoning about Trump's power dynamics. The stored claim accurately reflects this first-person forecast.",
-   "context_excerpt": "I do think we're going to see a lot of wins in the near term from countries all around the world because the alternative is problematic and when you look at you know the G7 the G20 uh NATO uh it is different from last time around in a few ways um first of all um that you now have a number of countries that are ideologically aligned with Trump and there's going to be more in the near term",
-   "revised_claim": ""
+   "status": "llm_fail",
+   "origin": "SKIP",
+   "found": "match"
   },
   "pred_20261001233533_999765ccf090": {
    "status": "judged",
    "found": "match",
    "origin": "OWNS",
    "borderline": false,
-   "reason": "The speaker (Ian Bremer) explicitly states 'I don't see that changing particularly...' in first-person analysis, directly asserting the prediction as his own view. The context excerpt confirms this is his own forecast, not a quote or reported claim.",
+   "reason": "The speaker (Ian Bremer) directly asserts the prediction in first-person ('I don't see that changing...') without hedging or attribution to others. The claim matches the stored excerpt verbatim and is explicitly forward-looking.",
    "context_excerpt": "I don't see that changing particularly, whether we have a Harris or a Trump presidency. I don't see that changing whether we have a Xi or a Xi presidency in China.",
    "revised_claim": ""
+  },
+  "pred_20261001234435_d3fe3361b670": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The prediction is stated directly in the speaker's own voice (Ian Bremmer) without quotation marks or attribution to others. The claim matches the context verbatim and is presented as an unqualified forecast.",
+   "context_excerpt": "Hi everybody, Ian Bremmer here, and big elections in New York City, where Zohran Mamdani is almost certainly going to win as mayor",
+   "revised_claim": ""
+  },
+  "pred_20261001234717_6a2776d336fd": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The prediction is directly asserted by the speaker in their own analysis, not attributed to others or quoted. The context explicitly states 'That is changing' regarding European perception of U.S. strategy, aligning with the claim about increased assertiveness.",
+   "context_excerpt": "that has mattered for the Europeans, but the Europeans have not yet seen the United States as a principal threat or principal adversary. That is changing.",
+   "revised_claim": ""
+  },
+  "pred_20261001235012_0372f783d301": {
+   "status": "llm_fail",
+   "origin": "SKIP",
+   "found": "match"
+  },
+  "pred_20261001235730_09a433f71c91": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states the prediction in their own voice ('oil's going to spike...') with conditional phrasing ('if he goes after the Supreme Leader'), and follows it with 'I think should give them some level of pause' to reinforce ownership. No quotation marks, attribution to others, or hedging language (e.g., 'some analysts believe') are present.",
+   "context_excerpt": "if if he goes after the Supreme Leader, oil's going to spike at least for a bit and perhaps for longer than that. that that I think should give them some level of pause.",
+   "revised_claim": ""
+  },
+  "pred_20261002000056_1b3e72ed7a93": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The prediction is explicitly stated in first-person ('I think') and directly forecasts the regime's future actions over a 1-2 month timeframe. The context excerpt confirms the speaker's ownership of the claim.",
+   "context_excerpt": "I think that at the end of the day, in a month's time, in two months' time, this is still a regime, um, that is likely to be able to repress its people.",
+   "revised_claim": ""
+  },
+  "pred_20261002000213_3d70e7cff797": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The prediction is presented as a direct assertion by the speaker in their own voice, without quotation marks or attribution to others. The context excerpt confirms this ownership.",
+   "context_excerpt": "The United States military is not going to launch an American or even an American-backed invasion of Cuba anytime soon.",
+   "revised_claim": ""
+  },
+  "pred_20261002000453_4469a2ed17a8": {
+   "status": "judged",
+   "found": "match",
+   "origin": "NOT-FOUND",
+   "borderline": false,
+   "reason": "The prediction claim about future improvements in governance and reduced kleptocracy under Magyar is not explicitly stated in the context. The context only describes Magyar's break with Orb\u00e1n due to past corruption but does not assert a forecast about future governance outcomes.",
+   "context_excerpt": "He actually comes from the Fidesz party, which is Orb\u00e1n's own party, and he broke with Orb\u00e1n because of the extraordinary corruption, the personalized kleptocracy.",
+   "revised_claim": "",
+   "escalated": true,
+   "tower_origin": "NOT-FOUND"
+  },
+  "pred_20261002000710_8055864cfed5": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The prediction is stated in first-person future tense ('we'll look back and see') by the speaker, directly asserting their own forecast about the war's long-term impact on energy transition. The context excerpt confirms this as the speaker's own claim.",
+   "context_excerpt": "And, you know, frankly, in 5 years time we'll look back and see that President Trump has done more through the war in Iran to advance a transition to a post carbon energy agenda than any American president in history.",
+   "revised_claim": ""
+  },
+  "pred_20261002000917_1b5fae110904": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The prediction is expressed in the speaker's own voice ('I wouldn't surprise me at all...'), directly stating a personal assessment of Maria Machado's potential return. The context excerpt confirms this as the speaker's own analysis, not a quote or third-party report.",
+   "context_excerpt": "I wouldn't surprise me at all if Maria Machado were to return to Venezuela herself in the coming months",
+   "revised_claim": ""
+  },
+  "pred_20261002001304_e3e291b46c7f": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The prediction is stated in the speaker's own voice with 'FIFA projects it will make...' as direct assertion, not attributed to others or quoted material. The context excerpt confirms this exact wording.",
+   "context_excerpt": "FIFA, the wildly corrupt organization behind the tournament, projects it will make as much as $13 billion on the 2026 World Cup.",
+   "revised_claim": ""
+  },
+  "pred_20261002001427_423a272401ea": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The speaker directly states the OBR's estimate in their own voice without attribution to others. The context excerpt confirms the claim is presented as the OBR's own forecast.",
+   "context_excerpt": "The UK's Office for Budget Responsibility, yes, that's a thing, estimates a long-run hit to GDP of about 4%.",
+   "revised_claim": ""
+  },
+  "pred_20261002001450_765248570540": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The claim is presented as Trump's own statements in his conversations with advisers ('he's prepared to take pain if oil prices are high to the end of the year so be it the Iranians have to back down'), directly attributed to him in the author's narrative without hedging or third-party attribution.",
+   "context_excerpt": "Trump in his conversations with his own advisers has been saying he's prepared to take pain if oil prices are high to the end of the year so be it the Iranians have to back down",
+   "revised_claim": ""
+  },
+  "pred_20261002001708_7b9ab8905090": {
+   "status": "judged",
+   "found": "match",
+   "origin": "PAST-FACT",
+   "borderline": true,
+   "reason": "The context describes current price spikes as a result of ongoing disruption in the Strait of Hormuz, but does not explicitly state that prices will 'remain higher' in the future. The prediction claim adds a forward-looking assertion ('will spike and remain higher') not directly supported by the context, which focuses on present effects and potential future scenarios without a definitive forecast.",
+   "context_excerpt": "prices have risen, of course, on the back of this. Oil prices are spiking.",
+   "revised_claim": "Oil prices are spiking due to disruption in the Strait of Hormuz.",
+   "escalated": true,
+   "tower_origin": "PAST-FACT"
+  },
+  "pred_20261002002121_140b1900f656": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The prediction is stated in the speaker's own voice using 'I think' and 'I certainly think,' directly asserting the forecast. The stored claim aligns precisely with the context excerpt.",
+   "context_excerpt": "I think the ability to continue to do that is eroding fast and will probably break in the next year, certainly before the end of the Trump administration.",
+   "revised_claim": ""
+  },
+  "pred_20261002001135_y0wUFa_0": {
+   "status": "judged",
+   "found": "match",
+   "origin": "OWNS",
+   "borderline": false,
+   "reason": "The prediction is stated in Ian Bremmer's own voice with 'I don't expect' and 'I would at least provide a few counterpoints,' directly asserting the claim about Burnham and Labour's polling. The context excerpt confirms this origin.",
+   "context_excerpt": "I don't expect that Andy Burnham is going to do all that much better. The policies that he supports on the fiscal side are going to be pretty aligned. ... the Labour Party is plummeting in the polls.",
+   "revised_claim": ""
+  },
+  "pred_20261002002348_40bd45406ade": {
+   "status": "llm_fail",
+   "origin": "SKIP",
+   "found": "match"
+  },
+  "pred_20261002002536_56e60e58aae4": {
+   "status": "llm_fail",
+   "origin": "SKIP",
+   "found": "match"
+  },
+  "pred_20261002002607_aad0f9da3594": {
+   "status": "llm_fail",
+   "origin": "SKIP",
+   "found": "match"
+  },
+  "pred_20261002002749_1bb5f34b42c4": {
+   "status": "llm_fail",
+   "origin": "SKIP",
+   "found": "match"
+  },
+  "pred_20261002002938_aea26250fa89": {
+   "status": "llm_fail",
+   "origin": "SKIP",
+   "found": "match"
+  },
+  "pred_20261002003124_41fd5460fc5c": {
+   "status": "llm_fail",
+   "origin": "SKIP",
+   "found": "match"
+  },
+  "pred_20261002003239_1c158ae9e11b": {
+   "status": "llm_fail",
+   "origin": "SKIP",
+   "found": "match"
+  },
+  "pred_20261002003323_abd047fee5f0": {
+   "status": "llm_fail",
+   "origin": "SKIP",
+   "found": "match"
+  },
+  "pred_20261002003718_5032a07083dd": {
+   "status": "llm_fail",
+   "origin": "SKIP",
+   "found": "match"
+  },
+  "pred_20261002003912_f9df709f408d": {
+   "status": "llm_fail",
+   "origin": "SKIP",
+   "found": "match"
+  },
+  "pred_20261002004230_ed4cd0fdca58": {
+   "status": "llm_fail",
+   "origin": "SKIP",
+   "found": "match"
+  },
+  "pred_20261002004417_b164878a4e75": {
+   "status": "llm_fail",
+   "origin": "SKIP",
+   "found": "match"
+  },
+  "pred_20261002004628_33af7c9a883a": {
+   "status": "llm_fail",
+   "origin": "SKIP",
+   "found": "match"
+  },
+  "pred_20261002004701_e8f45b0a79cf": {
+   "status": "llm_fail",
+   "origin": "SKIP",
+   "found": "match"
+  },
+  "pred_20261002004830_d724d3fc55eb": {
+   "status": "llm_fail",
+   "origin": "SKIP",
+   "found": "match"
+  },
+  "pred_20261002004956_e1b532fad803": {
+   "status": "llm_fail",
+   "origin": "SKIP",
+   "found": "match"
+  },
+  "pred_20261002005027_0ad60c248554": {
+   "status": "llm_fail",
+   "origin": "SKIP",
+   "found": "match"
+  },
+  "pred_20261002005155_bb26ea62df2e": {
+   "status": "llm_fail",
+   "origin": "SKIP",
+   "found": "match"
+  },
+  "pred_20261002005402_8ddf347d34aa": {
+   "status": "llm_fail",
+   "origin": "SKIP",
+   "found": "match"
+  },
+  "pred_1790961078_22": {
+   "status": "llm_fail",
+   "origin": "SKIP",
+   "found": "match"
+  },
+  "pred_1790961078_30": {
+   "status": "llm_fail",
+   "origin": "SKIP",
+   "found": "match"
+  },
+  "pred_1790961078_43": {
+   "status": "llm_fail",
+   "origin": "SKIP",
+   "found": "match"
+  },
+  "pred_1790961078_54": {
+   "status": "llm_fail",
+   "origin": "SKIP",
+   "found": "match"
+  },
+  "pred_1790961078_61": {
+   "status": "llm_fail",
+   "origin": "SKIP",
+   "found": "match"
   }
  },
  "counts": {
-  "OWNS": 138,
-  "KEEP-REVISED": 2,
-  "REPORTED": 5,
-  "QUOTED": 2,
-  "OWNS-REVISED": 1,
-  "PAST-FACT": 2
+  "OWNS": 148,
+  "REPORTED": 8,
+  "PAST-FACT": 4,
+  "NOT-FOUND": 2
  }
 }

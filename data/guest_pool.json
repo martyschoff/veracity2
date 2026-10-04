@@ -1,1547 +1,1808 @@
 [
-  {
-    "speaker": "Jack Gamble",
-    "claim": "Data centers being built will become useless within a couple of years, probably sooner, because AI usage for inference will shift to local hardware.",
-    "date": "2026-09-02",
-    "source_url": "https://mcalvany.com/weekly-commentary/the-ai-bubbles-circular-financing-problem-with-jack-gamble/",
-    "note": "QA: Jack Gamble own voice, misattributed to David McAlvany",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Anthropic document (quoted by Diamandis)",
-    "claim": "More than 80% of code merges into AI codebases will be written by AI itself within 2 years.",
-    "date": "2026-06-08",
-    "source_url": "https://www.youtube.com/watch?v=P2HJEz3oqLs",
-    "note": "QA: paraphrase of Anthropic paper quote, not Diamandis own prediction",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Naveen Jain",
-    "claim": "People who live a life of purpose tend to live 10 to 15 years longer than those who do not have a purpose in life.",
-    "date": "2024-09-29",
-    "source_url": "https://www.youtube.com/watch?v=NIA2BztpIKE",
-    "note": "Strict ownership: Naveen Jain own voice; Peter Diamandis assent only (\"100%\", \"absolutely\") - not adopted",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Naveen Jain",
-    "claim": "Getting at least 1.5 to 2 hours of REM sleep and at least 1.5 hours of deep sleep per night is important for health.",
-    "date": "2024-09-29",
-    "source_url": "https://www.youtube.com/watch?v=NIA2BztpIKE",
-    "note": "Strict ownership: Naveen Jain own voice; Peter Diamandis assent only (\"100%\", \"absolutely\") - not adopted",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Chris Wright (reported)",
-    "claim": "Energy Secretary Chris Wright has said about 35 to 40 million barrels of extra oil will be returned this year and next in the form of premiums.",
-    "date": "2026-08-09",
-    "source_url": "https://newsletter.doomberg.com/p/endangered-specious",
-    "note": "QA: reported third-party statement / current fact, not Doomberg own prediction",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "News fact (not a prediction)",
-    "claim": "In July, for the third straight month, Venezuelan oil exports surpassed 1 million barrels per day, up from half that threshold as recently as December.",
-    "date": "2026-08-09",
-    "source_url": "https://newsletter.doomberg.com/p/endangered-specious",
-    "note": "QA: reported third-party statement / current fact, not Doomberg own prediction",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "China will conquer semiconductors just as it has conquered EVs and solar.",
-    "date": "2024-12-16",
-    "source_url": "https://newsletter.doomberg.com/p/chip-shot",
-    "note": "origin resweep removal: Excerpt is from a substack article, not a video transcript where speaker would be directly quoted",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "We could double the human lifespan and cure all disease within the next 10 years.",
-    "date": "2026-09-13",
-    "source_url": "https://www.youtube.com/watch?v=H5ZLorBJCDk",
-    "note": "origin resweep removal: Claim is attributed to 'we' in the excerpt, but no speaker is identified as making the statement - appears to be a general statement about future capabilities rather than a specifi",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Scott Bessent",
-    "claim": "The Trump administration will provide financial support to Argentina's struggling economy, including loans to the central bank and purchases of Argentine government debt.",
-    "date": "2025-09-28",
-    "source_url": "https://newsletter.doomberg.com/p/energy-bind",
-    "note": "origin resweep removal: Excerpt quotes Treasury Secretary Scott Bessent directly, indicating a third party speaker",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Pentagon officials",
-    "claim": "The US military will prioritize protecting the homeland and Western Hemisphere over countering adversaries such as China and Russia, marking a major shift from previous administrations.",
-    "date": "2025-09-10",
-    "source_url": "https://newsletter.doomberg.com/p/mosaic-theory",
-    "note": "origin resweep removal: Excerpt quotes Pentagon officials directly, indicating a third party speaker",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Chevron Corporation",
-    "claim": "Chevron Corporation will relocate its headquarters from San Ramon, California to Houston, Texas before the end of the year.",
-    "date": "2024-08-30",
-    "source_url": "https://newsletter.doomberg.com/p/bay-watch",
-    "note": "origin resweep removal: The excerpt directly quotes Chevron Corporation's announcement, not Doomberg's own words.",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Richmond City Council",
-    "claim": "The tax measure in Richmond could generate as much as $90 million per year for the city if approved by voters.",
-    "date": "2024-08-30",
-    "source_url": "https://newsletter.doomberg.com/p/bay-watch",
-    "note": "origin resweep removal: The excerpt directly quotes the Richmond City Council, not Doomberg's own words.",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "International Energy Agency",
-    "claim": "The world faces a 'staggering' surplus of oil equating to millions of barrels a day by the end of the decade, as oil companies increase production, undermining the ability of Opec+ to manage crude prices.",
-    "date": "2024-06-16",
-    "source_url": "https://newsletter.doomberg.com/p/wishcasting",
-    "note": "origin resweep removal: The excerpt directly quotes the International Energy Agency, not Doomberg's own words.",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "IEA",
-    "claim": "Oil companies may want to make sure their business strategies and plans are prepared for the changes taking place, as demand is forecast to peak before 2030.",
-    "date": "2024-06-16",
-    "source_url": "https://newsletter.doomberg.com/p/wishcasting",
-    "note": "origin resweep removal: The excerpt directly quotes the IEA's annual report, not Doomberg's own words.",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "The US nuclear industry will face significant challenges from environmental activists and policy uncertainty.",
-    "date": "2024-06-08",
-    "source_url": "https://newsletter.doomberg.com/p/be-like-ike",
-    "note": "origin resweep removal: Excerpt contains repetitive filler text, no substantive claim made",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "Today's video will be 7 days from there",
-    "date": "2024-10-01",
-    "source_url": "https://www.youtube.com/watch?v=MeBUuHOKCvo",
-    "note": "origin resweep removal: Excerpt shows speaker only confirming timing, not making a substantive claim",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "The Ukrainians will launch a large number of the new drone missiles (Lenisa) in attacks against Russian rail networks and ammunition depots within 150 miles of the Ukrainian border in the north, northeast, and east of Ukraine.",
-    "date": "2024-09-23",
-    "source_url": "https://www.youtube.com/watch?v=pBfxY3b3R1g",
-    "note": "origin resweep removal: The excerpt shows Zeihan discussing Ukrainian actions but doesn't clearly state the specific claim about drone missile attacks on Russian rail networks - appears to be describing p",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "Germany will have to bring in 2 to 2.5 million people under age 30 every year for the next 20 years just to hold their demographic position.",
-    "date": "2024-09-20",
-    "source_url": "https://www.youtube.com/watch?v=RWZ553deROY",
-    "note": "origin resweep removal: The excerpt discusses demographic trends and Canada's situation but doesn't contain the specific claim about Germany needing to bring in 2-2.5 million people annually - appears to ",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "The European Union will create a common air defense space.",
-    "date": "2024-07-24",
-    "source_url": "https://www.youtube.com/watch?v=SrWd485faGM",
-    "note": "origin resweep removal: Claim is presented as 'her assertion' - third party attribution",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "The manufacturing sector will be affected first by the tariff policies due to the ease of relocating supply chains outside the country with tariff structures.",
-    "date": "2025-10-01",
-    "source_url": "https://www.youtube.com/watch?v=kSx6G-lw534",
-    "note": "origin resweep removal: Claim about economic correction not attributed to Peter Zeihan",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "Israel will continue to escalate its military actions in the Persian Gulf region, potentially targeting other hostile groups or states if they become more adversarial towards Israel.",
-    "date": "2025-09-23",
-    "source_url": "https://www.youtube.com/watch?v=xiL_TDQF0VY",
-    "note": "origin resweep removal: Claim appears to be about Israeli escalation but excerpt shows Zeihan discussing US allies and policy, not his own claim",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "The US dollar will drop by about 10 to 15% in the time since the current date.",
-    "date": "2025-05-06",
-    "source_url": "https://www.youtube.com/watch?v=yaiILtkgFqA",
-    "note": "origin resweep removal: Excerpt shows speaker discussing capital flow but doesn't clearly articulate the specific dollar drop claim",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "There will be a significant drop in capital flight into the US financial markets.",
-    "date": "2025-05-06",
-    "source_url": "https://www.youtube.com/watch?v=yaiILtkgFqA",
-    "note": "origin resweep removal: Excerpt shows speaker discussing capital flight but doesn't clearly articulate the specific drop percentage claim",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Putin",
-    "claim": "Putin will implement a partial ceasefire that involves not attacking energy infrastructure, but will violate that承诺 less than 3 hours after the phone call with Trump.",
-    "date": "2025-03-26",
-    "source_url": "https://www.youtube.com/watch?v=QtAx8fbvG48",
-    "note": "origin resweep removal: The excerpt shows Zeihan describing what Putin said in a quote, not making his own claim about when Putin will violate a ceasefire.",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "The young adult generation in Iran, who have lived through one state failure after another for the last 15 years, will make very interesting political and personal decisions as the system fails.",
-    "date": "2025-02-20",
-    "source_url": "https://www.youtube.com/watch?v=1Nn5PnUobDA",
-    "note": "origin resweep removal: Excerpt shows Zeihan discussing potential violence but does not contain the substantive claim about Iranian youth making decisions.",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "The Chinese system will crash around the Zoomer generation of citizens who have visceral memories of how the system crashed around them.",
-    "date": "2025-02-20",
-    "source_url": "https://www.youtube.com/watch?v=1Nn5PnUobDA",
-    "note": "origin resweep removal: Excerpt discusses Chinese system failure and decision-making but doesn't contain the specific claim about Zoomer generation.",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "Donald Trump's executive orders will lead to a significant erosion of his political capital due to the pace and nature of his actions.",
-    "date": "2025-02-06",
-    "source_url": "https://www.youtube.com/watch?v=2H5T_cvHlM8",
-    "note": "origin resweep removal: Excerpt shows Zeihan only expressing personal opinion about entertainment value, not making a substantive claim about Trump's political capital erosion",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "The United States will likely return to a more interventionist foreign policy style similar to 'Dollar Diplomacy' in the aftermath of reconstruction, where powerful individuals driven by various motives (economic, corporate, etc.) will interface with the world and call for military support when needed.",
-    "date": "2025-02-03",
-    "source_url": "https://www.youtube.com/watch?v=mw6aCEoGZp8",
-    "note": "origin resweep removal: Excerpt shows Zeihan discussing changes in military view and Republican Party stance, but doesn't directly articulate the claim about Dollar Diplomacy return",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "Most real estate in China is worth maybe 10 cents on the dollar",
-    "date": "2025-01-31",
-    "source_url": "https://www.youtube.com/watch?v=a2AJvCPcNUE",
-    "note": "origin resweep removal: The excerpt discusses ownership networks and selling properties but does not contain the specific claim about real estate being worth 10 cents on the dollar - this appears to be a ",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "The West Antarctic ice sheet will probably already have collapsed by the time technology exists to exploit Greenland's ice.",
-    "date": "2025-01-30",
-    "source_url": "https://www.youtube.com/watch?v=BA2T1LNok0Y",
-    "note": "origin resweep removal: The excerpt discusses permafrost and Greenland ice but does not contain the specific claim about West Antarctic ice sheet collapsing by the time technology exists to exploit Greenl",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "The state of New Mexico will successfully implement a policy providing state-covered child care for all residents, costing approximately $600 million per year, and this policy will positively impact New Mexico's demographic profile and workforce participation.",
-    "date": "2025-11-28",
-    "source_url": "https://www.youtube.com/watch?v=W408HYFcLbw",
-    "note": "origin resweep removal: The excerpt shows Peter Zeihan discussing the feasibility and cost of a policy, but does not clearly articulate his own claim about success or impact.",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "The United States and Israel will not target Iran's energy sector, specifically Kharg Island, which is the economic node that makes Iran possible in the modern age where 90% of their oil exports flow through.",
-    "date": "2026-02-28",
-    "source_url": "https://www.youtube.com/watch?v=KFwYJP8eExk",
-    "note": "origin resweep removal: Claim about U.S. and Israel not targeting Iran's energy sector is presented as a statement about the operation, but speaker is discussing War Powers Act violation rather than makin",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "If the U.S. military targets Iran's drone production capacity, specifically for the Shaheds, it would end Russia's ability to use these weapons in the Ukraine war.",
-    "date": "2026-02-28",
-    "source_url": "https://www.youtube.com/watch?v=KFwYJP8eExk",
-    "note": "origin resweep removal: Speaker discusses US military using drones and mentions Shaheds but doesn't directly make the claim about ending Russia's ability to use these weapons in Ukraine war",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Cain",
-    "claim": "The number of Iranian launchers has been reduced by somewhere between 60 and 80%, which is great.",
-    "date": "2026-03-05",
-    "source_url": "https://www.youtube.com/watch?v=M5gHHXiib3o",
-    "note": "origin resweep removal: The claim is attributed to 'Cain' who is identified as the chief of staff, not Peter Zeihan himself.",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "The United States will produce 2,000 F-10 drones under license from Ukraine by 2029.",
-    "date": "2026-07-10",
-    "source_url": "https://www.youtube.com/watch?v=eDeBB7kbO9U",
-    "note": "origin resweep removal: The excerpt shows Zeihan discussing a Ukrainian drone deal but doesn't actually make the claim about U.S. production of 2,000 F-10 drones - he's discussing what has been ordered an",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "Korean exports will likely decrease significantly in the midterm as the global AI supply chain becomes less integrated and more geographically distributed.",
-    "date": "2026-07-09",
-    "source_url": "https://www.youtube.com/watch?v=yo5YM0QJqi0",
-    "note": "origin resweep removal: The excerpt discusses value-added points and U.S. dominance in design but doesn't directly make the claim about Korean exports decreasing - this appears to be a response to a quest",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "The United States government will restrict oil exports in order to keep prices under control as the international system loses energy.",
-    "date": "2026-07-06",
-    "source_url": "https://www.youtube.com/watch?v=rIf5WuqhuFw",
-    "note": "origin resweep removal: Excerpt shows Peter Zeihan only assenting to a claim made by someone else ('Absolutely, absolutely, absolutely. The question is how.')",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "Within a couple of months, the Trump administration will decide which option it will pursue regarding energy export restrictions.",
-    "date": "2026-07-06",
-    "source_url": "https://www.youtube.com/watch?v=rIf5WuqhuFw",
-    "note": "origin resweep removal: Excerpt shows Peter Zeihan only assenting to a claim made by someone else ('We'll probably find out within a couple of months...')",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "The Ukrainians will systematically destroy infrastructure within 700 miles of their borders that gives Russia economic wherewithal, particularly targeting facilities serving Kazakh needs.",
-    "date": "2026-07-03",
-    "source_url": "https://www.youtube.com/watch?v=xl6TgTRHDAg",
-    "note": "origin resweep removal: Excerpt shows Peter Zeihan only assenting to a claim made by someone else ('What the Ukrainians are doing is basically systematically destroying...')",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "The far right will gain significant political ground in France following the upcoming parliamentary elections.",
-    "date": "2024-07-08",
-    "source_url": "https://www.youtube.com/watch?v=nfcZsnk9R0I",
-    "note": "origin resweep removal: Excerpt quotes a statement from the far right's gains without attribution to Ian Bremmer, suggesting it's third-party information.",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Benny Gantz",
-    "claim": "The Israeli government, led by Bibi and the far right, is moving further from any plausible breakthrough agreement than it was even a few weeks prior.",
-    "date": "2024-06-10",
-    "source_url": "https://www.youtube.com/watch?v=Gw92Rn0XAZg",
-    "note": "origin resweep removal: Claim attributed to Benny Gantz, not Ian Bremmer",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Modi",
-    "claim": "Prime Minister Modi will win over 400 seats in India's elections, resulting in a supermajority.",
-    "date": "2024-05-23",
-    "source_url": "https://www.youtube.com/watch?v=M0536Q2tCxA",
-    "note": "origin resweep removal: Claim attributed to Prime Minister Modi, not Ian Bremmer",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "American CEOs",
-    "claim": "The Chinese will continue to use their control over critical minerals and rare earths as a strategic weapon against the U.S.",
-    "date": "2025-07-21",
-    "source_url": "https://www.youtube.com/watch?v=vwZiRkvBUcs",
-    "note": "origin resweep removal: Excerpt quotes American CEOs at Mar-a-Lago, not Ian Bremmer himself making the claim about Chinese strategic use of rare earths.",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Dan Bongino",
-    "claim": "Dan Bongino will resign from his position and become publicly vocal about the Epstein files.",
-    "date": "2025-07-14",
-    "source_url": "https://www.youtube.com/watch?v=TFyt804sGds",
-    "note": "origin resweep removal: Excerpt refers to Dan Bongino's potential resignation and actions, but does not contain Bremmer making the claim directly; it's about what Bongino might do.",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "Elon Musk will create a new political party called the America Party.",
-    "date": "2025-07-07",
-    "source_url": "https://www.youtube.com/watch?v=l0-wSwA75vs",
-    "note": "origin resweep removal: Claim about Elon Musk's poll and party is presented as a hypothetical scenario, not a direct claim by Ian Bremmer.",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "If Elon Musk invests $25 million each and gives it to 10 different safe seats in the House, he could potentially get 10 people to switch parties and form a new small coalition.",
-    "date": "2025-07-07",
-    "source_url": "https://www.youtube.com/watch?v=l0-wSwA75vs",
-    "note": "origin resweep removal: Claim about Elon Musk investing and forming coalition is presented as a hypothetical scenario, not a direct claim by Ian Bremmer.",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Taichi Sanai",
-    "claim": "Taichi Sanai will become the first female prime minister in Japan's history",
-    "date": "2025-10-21",
-    "source_url": "https://www.youtube.com/watch?v=CeurHGRGaIs",
-    "note": "origin resweep removal: The excerpt shows a quotation attributed to someone else ('Taichi Sanai has become...') rather than Ian Bremmer articulating the claim himself",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "Trump will impose 100% tariffs on Chinese goods by November 1st, 2025",
-    "date": "2025-10-14",
-    "source_url": "https://www.youtube.com/watch?v=CJOvSiWLPos",
-    "note": "origin resweep removal: The excerpt shows Ian Bremmer discussing Trump's potential actions but does not directly state the claim; it's more of an inference from context rather than a direct assertion",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "Trump's response to the murder of Rob Reiner and his wife will damage his political support among moderate voters in the upcoming election cycle.",
-    "date": "2025-12-16",
-    "source_url": "https://www.youtube.com/watch?v=Cku10B_nURI",
-    "note": "origin resweep removal: The excerpt describes a scenario involving the murder of Rob Reiner and his wife, but does not contain Ian Bremmer's own claim about Trump's response; it appears to be describing e",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "The United States will run a country of some 30 million people under Trump's leadership",
-    "date": "2026-01-09",
-    "source_url": "https://www.youtube.com/watch?v=PjJeHs11I20",
-    "note": "origin resweep removal: The excerpt is a rhetorical question posed by Ian Bremmer rather than a substantive claim he is making.",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "The USMCA trade agreement will not be renegotiated in the coming year and will instead be continuously postponed.",
-    "date": "2025-05-07",
-    "source_url": "https://www.youtube.com/watch?v=M6soZybuL48",
-    "note": "origin resweep removal: Excerpt shows speaker discussing USMCA but doesn't directly articulate the claim about renegotiation - appears to be responding to or referencing another topic",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "America will embrace the slow food movement",
-    "date": "2025-05-05",
-    "source_url": "https://www.youtube.com/watch?v=blslh7C8oys",
-    "note": "origin resweep removal: Excerpt shows speaker making a joke about fast food and Trump's McDonald's experience, not directly articulating the claim about America embracing slow food movement",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Trump",
-    "claim": "The US government will collect money from tariffs and redistribute it to the average American through tax breaks and direct payments to help offset inflation and rising prices.",
-    "date": "2025-04-07",
-    "source_url": "https://www.youtube.com/watch?v=2u5R05RbQMQ",
-    "note": "origin resweep removal: Quoted excerpt shows speaker is describing Trump's own policy statements, not his own claims",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Michael Waltz",
-    "claim": "The Trump administration will proceed with imminent attacks by the United States on the Houthis in Yemen",
-    "date": "2025-03-25",
-    "source_url": "https://www.youtube.com/watch?v=4PxUePweBwM",
-    "note": "origin resweep removal: The claim is presented as something that happened in a Signal chat, with the national security advisor inviting others to discuss imminent attacks - not Ian Bremmer's own statement",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Trump",
-    "claim": "President Trump will propose taking over the Gaza Strip and turning it into the Riviera of the Middle East.",
-    "date": "2025-02-15",
-    "source_url": "https://www.youtube.com/watch?v=ckckHnwHkfI",
-    "note": "origin resweep removal: Claim appears to be about Trump's actions during a press conference, not his own articulation of the claim - excerpt references 'President Trump' and 'Trump stuns the world'",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "The United States will take over Gaza and develop it into a new Riviera on the Mediterranean, with an investment of at least $20 billion.",
-    "date": "2025-02-10",
-    "source_url": "https://www.youtube.com/watch?v=rvWdXWf7W1Q",
-    "note": "origin resweep removal: Excerpt shows Bremmer discussing Trump's hypothetical Gaza playbook, not making the claim himself",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "Trump will make an announcement regarding Gaza development by himself if other regional states refuse to participate.",
-    "date": "2025-02-10",
-    "source_url": "https://www.youtube.com/watch?v=rvWdXWf7W1Q",
-    "note": "origin resweep removal: Bremmer describes what he believes Trump's strategy might be, but doesn't assert it as his own claim",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "Trump will impose 10% tariffs across the board on Chinese goods starting February 1, 2025",
-    "date": "2025-01-24",
-    "source_url": "https://www.youtube.com/watch?v=dfXxO4zWFk8",
-    "note": "origin resweep removal: Excerpt shows Bremmer reporting on what he expects will happen, not asserting it as his own claim",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Ian Bremmer",
-    "claim": "Mamani will become mayor of New York City in January.",
-    "date": "2025-11-21",
-    "source_url": "https://www.youtube.com/watch?v=9bSq1oUKl0c",
-    "note": "origin resweep removal: The excerpt shows Ian Bremmer stating that Mamani will become mayor, but this appears to be a factual announcement rather than his own substantive claim - the speaker is referring ",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "Notre Dame will automatically qualify for the college football championship tournament if they are ranked in the top 12 next year.",
-    "date": "2025-12-08",
-    "source_url": "https://www.youtube.com/watch?v=xWobgBGksEw",
-    "note": "origin resweep removal: Excerpt shows Ian Bremmer discussing Notre Dame's rules and strategy but doesn't contain the substantive claim about automatic qualification",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Trump",
-    "claim": "The United States will impose 100% tariffs on Canadian exports if Canada enters into a trade deal with China.",
-    "date": "2026-01-27",
-    "source_url": "https://www.youtube.com/watch?v=NXtThw7glYU",
-    "note": "origin resweep removal: Claim attributed to Trump, not Ian Bremmer",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Mark Carney",
-    "claim": "The US-led global order has ended, and there will be a vacuum in global leadership.",
-    "date": "2026-01-21",
-    "source_url": "https://www.youtube.com/watch?v=vzizGMSMPic",
-    "note": "origin resweep removal: Claim attributed to Mark Carney, not Ian Bremmer",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Marco Rubio",
-    "claim": "A deal between the U.S. and Cuba could resemble the 2015 opening by President Obama, except Trump would treat the economics as the end goal, not a step toward political change.",
-    "date": "2026-04-24",
-    "source_url": "https://www.youtube.com/watch?v=bmJnSKd6CTc",
-    "note": "origin resweep removal: Claim attributed to Marco Rubio, not Ian Bremmer",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Ian Bremmer",
-    "claim": "The ceasefire will last for at least two weeks.",
-    "date": "2026-04-08",
-    "source_url": "https://www.youtube.com/watch?v=c3se_stoj8Y",
-    "note": "origin resweep removal: Claim about ceasefire lasting at least two weeks is presented as a prediction about Trump's actions, but the excerpt shows Ian Bremmer discussing Trump's escalation and climb-down ",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Trump",
-    "claim": "China is rising and the United States is in decline, but this is due to Biden's policies, not Trump's.",
-    "date": "2026-05-15",
-    "source_url": "https://www.youtube.com/watch?v=Z1F1bb5uMt0",
-    "note": "origin resweep removal: The claim is attributed to Trump's statement, not Ian Bremmer's own view.",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Bill Gates",
-    "claim": "The US government will not slow down AI development despite support from over a thousand employees of frontier AI companies.",
-    "date": "2026-08-31",
-    "source_url": "https://www.youtube.com/watch?v=zIu5fxLlK3w",
-    "note": "origin resweep removal: The excerpt quotes Bill Gates and describes employees' concerns, not Ian Bremmer's own claim about US government action.",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Donald Trump",
-    "claim": "The United States will implement 50% tariffs on cars, trucks, auto parts, and steel starting January 1st.",
-    "date": "2026-08-24",
-    "source_url": "https://www.youtube.com/watch?v=XvZtLb03Pkw",
-    "note": "origin resweep removal: The excerpt attributes the claim to 'the United States President Trump' and describes his tweet, not Ian Bremmer's own statement.",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Michael",
-    "claim": "The cultural shift around psychedelics will continue, making therapeutic use more mainstream in the United States.",
-    "date": "2024-09-21",
-    "source_url": "https://www.youtube.com/watch?v=YkHm03ffnK8",
-    "note": "origin resweep removal: Claim attributed to Michael (not Peter) and Peter only references him as someone who helps orchestrate cultural change.",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Neil deGrasse Tyson",
-    "claim": "Robotically built AI autonomous colonies in space, such as those envisioned by Gerard K. O'Neal, will be constructed within the next 30 years.",
-    "date": "2024-09-18",
-    "source_url": "https://www.youtube.com/watch?v=Lv5nSJx0TXo",
-    "note": "origin resweep removal: Peter references Neil deGrasse Tyson's opinion but doesn't articulate the claim about O'Neal's colonies.",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Elon Musk",
-    "claim": "The cost of Mars missions will be funded primarily through private ventures, such as Starlink, rather than traditional government funding.",
-    "date": "2024-09-18",
-    "source_url": "https://www.youtube.com/watch?v=Lv5nSJx0TXo",
-    "note": "origin resweep removal: Peter references Elon Musk's Starlink venture but doesn't articulate the claim about funding Mars missions through private ventures.",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Dan Buettner",
-    "claim": "Given current progress and technological acceleration, people who are 63 years old (as of 2024-08-10) could potentially live to 101.",
-    "date": "2024-08-10",
-    "source_url": "https://www.youtube.com/watch?v=_BqcBJX5Xwg",
-    "note": "origin resweep removal: Excerpt shows Peter Diamandis responding to a question about Dan Buettner's claim, not making his own claim",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "RFK Jr. will become a presidential candidate and speak publicly about Bitcoin in a way that significantly impacts the political discourse around crypto regulation.",
-    "date": "2024-08-08",
-    "source_url": "https://www.youtube.com/watch?v=cfJW3WCZwgU",
-    "note": "origin resweep removal: The claim about RFK Jr. becoming a presidential candidate is presented as an assertion by Peter Diamandis about what others have said or done, not his own prediction",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "If Trump is elected, he will fire Gary Gensler, chairman of the SEC, within his first day in office.",
-    "date": "2024-08-08",
-    "source_url": "https://www.youtube.com/watch?v=cfJW3WCZwgU",
-    "note": "origin resweep removal: The claim about firing Gary Gensler is presented as a quote from someone else (presumably Trump) rather than Peter Diamandis's own prediction",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Cathie Wood",
-    "claim": "Elon Musk's xAI will leverage Tesla's data collection capabilities to become a competitive player in the AI wars.",
-    "date": "2024-08-03",
-    "source_url": "https://www.youtube.com/watch?v=yeaO6rjFNNo",
-    "note": "origin resweep removal: Claim attributed to Peter's guest (Cathie Wood) via 'we think' and 'our bull case'",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Cathie Wood",
-    "claim": "Proprietary data from Tesla and other companies will be one of the biggest competitive advantages in AI development.",
-    "date": "2024-08-03",
-    "source_url": "https://www.youtube.com/watch?v=yeaO6rjFNNo",
-    "note": "origin resweep removal: Claim attributed to Peter's guest (Cathie Wood) via 'we think' and 'our base'",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Cathie Wood",
-    "claim": "By 2030, Bitcoin will reach a price of $650,000 to $1.5 million per coin.",
-    "date": "2024-08-01",
-    "source_url": "https://www.youtube.com/watch?v=lnUpyE-k7Zk",
-    "note": "origin resweep removal: Claim attributed to Peter's guest (Cathie Wood) via 'our bull case' and 'our base'",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Cathie Wood",
-    "claim": "Tesla's Robo taxi will launch within the next 18 months to maybe two years.",
-    "date": "2024-07-30",
-    "source_url": "https://www.youtube.com/watch?v=1t-LuKyn4XQ",
-    "note": "origin resweep removal: Claim attributed to Peter's guest (Cathie Wood) via 'our confidence' and 'we think'",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Dave Asprey",
-    "claim": "A psychedelic called ketamine will be used as an optional add-on in personal development programs to enhance brain plasticity and reset old patterns.",
-    "date": "2024-07-29",
-    "source_url": "https://www.youtube.com/watch?v=SbU4XaTMbaQ",
-    "note": "origin resweep removal: Claim attributed to Peter's guest (Dave Asprey) via 'we're using' and 'we're going to use'",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "Gen AI workloads will continue to eat more and more compute internally at Google.",
-    "date": "2024-07-05",
-    "source_url": "https://www.youtube.com/watch?v=AbfMIHGjDqw",
-    "note": "origin resweep removal: The excerpt shows Peter Diamandis describing Google's computing infrastructure and GPU development but doesn't directly articulate the specific claim about Gen AI workloads eating ",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "There will be different nodes of the tech tree that need development imminently, using physics that's not quantum mechanical, and these will be more useful for Gen AI.",
-    "date": "2024-07-05",
-    "source_url": "https://www.youtube.com/watch?v=AbfMIHGjDqw",
-    "note": "origin resweep removal: The excerpt shows Peter Diamandis discussing quantum computing nodes and physics but doesn't directly articulate the specific claim about different tech tree nodes being needed for",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "David McAlvany",
-    "claim": "Gold will rise significantly when it enters the market, and we think it could go much higher than current levels.",
-    "date": "2026-07-22",
-    "source_url": "https://mcalvany.com/weekly-commentary/the-old-market-order-is-breaking-what-it-means-for-gold/",
-    "note": "origin resweep removal: Excerpt shows David McAlvany asking a question 'how high do we think gold might go when it does go?' rather than making a substantive claim himself - this is a question being posed",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Pierre",
-    "claim": "Gold could ultimately reach 17,250 an ounce, with the Dow-to-gold ratio compressing to 2-to-1.",
-    "date": "2026-07-01",
-    "source_url": "https://mcalvany.com/weekly-commentary/increasing-use-of-chinese-yuan-is-bullish-for-gold/",
-    "note": "origin resweep removal: Claim is attributed to Pierre, not David McAlvany",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Deutsche Bank",
-    "claim": "Gold can rise to $8,000 over the next five years.",
-    "date": "2026-05-06",
-    "source_url": "https://mcalvany.com/weekly-commentary/central-banks-gobble-up-gold-retail-buyers-yawn/",
-    "note": "origin resweep removal: Claim is attributed to Deutsche Bank, not David McAlvany",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "unattributed/third-party",
-    "claim": "The U.S. dollar's dominance as a global reserve currency will decline significantly, with countries like China and India moving away from holding U.S. Treasuries.",
-    "date": "2026-05-13",
-    "source_url": "https://mcalvany.com/weekly-commentary/the-new-unofficial-global-gold-standard/",
-    "note": "origin resweep removal: Claim appears to be about oil reserves depletion, not dollar dominance as stated in claim",
-    "removed_at": "2026-10-02"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "Japan's population has been shrinking for the last 20 years due to demographic failure",
-    "date": "2026-09-23",
-    "source_url": "https://www.youtube.com/watch?v=2qG5nrkkz1E",
-    "class": "SELF-REPORT",
-    "reason": "Describes a past/factual demographic trend in Japan, not a forward-looking claim.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "The rest of the year will get really interesting due to this prize court initiative.",
-    "date": "2026-09-21",
-    "source_url": "https://www.youtube.com/watch?v=yBLbtMFgI-k",
-    "class": "UNCLEAR",
-    "reason": "'Really interesting' is not a specific, testable outcome. Cannot be judged right or wrong.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Ian Bremmer",
-    "claim": "The United States has been diminished as a global disrupter compared to where it was 12-18 months ago",
-    "date": "2026-09-21",
-    "source_url": "https://www.youtube.com/watch?v=bhtfC7iqbdo",
-    "class": "SELF-REPORT",
-    "reason": "The claim describes a current assessment of the US's geopolitical influence, not a forward-looking prediction.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Ian Bremmer",
-    "claim": "Anthropic, the AI company, revealed that it had blocked several users of its popular platform Claude from using its models to conduct research that could have helped develop dangerous biological weapons.",
-    "date": "2026-09-18",
-    "source_url": "https://www.youtube.com/watch?v=Fehm0E4RbzU",
-    "class": "SELF-REPORT",
-    "reason": "The claim reports a past action by Anthropic, not a forward-looking assertion.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Doomberg",
-    "claim": "National Gas has moved into the advanced engineering design phase for a 350-mile hydrogen pipeline linking St Fergus in northeast Scotland to Teesside on England's east coast, the gas transmission system operator said in a statement Sept. 17.",
-    "date": "2026-09-29",
-    "source_url": "https://newsletter.doomberg.com/p/going-with-the-flow",
-    "class": "SELF-REPORT",
-    "reason": "The claim describes a current project phase, not a forward-looking prediction.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Doomberg",
-    "claim": "National Gas plans to develop a 1,500-mile national hydrogen network connecting major industrial clusters and hydrogen production centers",
-    "date": "2026-09-29",
-    "source_url": "https://newsletter.doomberg.com/p/going-with-the-flow",
-    "class": "SELF-REPORT",
-    "reason": "The claim outlines a planned project phase, but the statement is about current planning, not a testable future outcome.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Doomberg",
-    "claim": "German Chancellor Friedrich Merz intends to keep pretending he has a mandate to lead, at least for now",
-    "date": "2026-09-22",
-    "source_url": "https://newsletter.doomberg.com/p/escalation-clauses",
-    "class": "SELF-REPORT",
-    "reason": "The claim describes a current political behavior, not a forward-looking assertion.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Doomberg",
-    "claim": "French President Emmanuel Macron's approval rating has fallen to a low of 16%",
-    "date": "2026-09-22",
-    "source_url": "https://newsletter.doomberg.com/p/escalation-clauses",
-    "class": "SELF-REPORT",
-    "reason": "Reporting a current/past observed fact about Macron's approval rating; not forward-looking.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Doomberg",
-    "claim": "Alberta Premier Danielle Smith will face significant political challenges in balancing natural gas exports with local consumer needs as she navigates a separatist referendum, trade war with the US, and growing demand from data-center builders.",
-    "date": "2026-09-16",
-    "source_url": "https://newsletter.doomberg.com/p/value-trap",
-    "class": "SELF-REPORT",
-    "reason": "Describes the current political and economic situation Smith is navigating; 'will face significant challenges' is vague analytical observation rather than a specific testable forecast.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Doomberg",
-    "claim": "The UK's position on the Falkland Islands will remain unwavering, with the islands continuing to be British as 'that is the overwhelming position of the Islanders.'",
-    "date": "2026-09-09",
-    "source_url": "https://newsletter.doomberg.com/p/falkland-around",
-    "class": "SELF-REPORT",
-    "reason": "Relaying a statement made by Ed Miliband about current official UK policy; not Doomberg's own forward-looking forecast.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Doomberg",
-    "claim": "The Caspian Pipeline Consortium (CPC) pipeline can currently carry roughly 1.4 million barrels per day (bpd) of oil to the Russian border and on to the Port of Novorossiysk on the coast of the Black Sea.",
-    "date": "2026-08-18",
-    "source_url": "https://newsletter.doomberg.com/p/over-target",
-    "class": "SELF-REPORT",
-    "reason": "This is describing a current factual state of a pipeline system, not a forward-looking prediction about world outcomes.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Doomberg",
-    "claim": "Recent studies estimate that up to 90 percent of sanctioned goods still reaching Russia transit through China.",
-    "date": "2026-07-31",
-    "source_url": "https://newsletter.doomberg.com/p/geopolitical-checkers",
-    "class": "SELF-REPORT",
-    "reason": "This is reporting a current factual estimate about trade routes, not a forward-looking prediction.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Doomberg",
-    "claim": "Russia imports approximately 12% of its peak summer gasoline demand through imports.",
-    "date": "2026-07-10",
-    "source_url": "https://newsletter.doomberg.com/p/sources-and-methods",
-    "class": "SELF-REPORT",
-    "reason": "Descriptive statement about current import levels, not a forward-looking claim.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "Housing prices in China are worth less today than they were at the start of the boom in 2005.",
-    "date": "2026-09-06",
-    "source_url": "https://www.youtube.com/watch?v=TU7KVw9j060",
-    "class": "SELF-REPORT",
-    "reason": "Present-tense factual statement citing official statistics about current housing valuations relative to 2005. Not forward-looking; describes an observed current condition.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Doomberg",
-    "claim": "Zero Energy Poverty by 2050 is a superior goal compared to Net Zero 2050.",
-    "date": "2024-11-17",
-    "source_url": "https://newsletter.doomberg.com/p/in-praise-of-chris-wright",
-    "class": "PERSONAL-POSITION",
-    "reason": "Opinion on policy goals without testable world-outcome forecast.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Doomberg",
-    "claim": "Alberta and Ottawa have signed a sweeping new energy accord that includes a pledge from Prime Minister Mark Carney’s government to shelve its oil and gas emissions cap, suspend clean power rules, and back a major indigenous-owned pipeline to get oil to Asian markets.",
-    "date": "2025-12-03",
-    "source_url": "https://newsletter.doomberg.com/p/alberta-unstuck",
-    "class": "SELF-REPORT",
-    "reason": "This describes an event that has already occurred (the signing of an accord) rather than making a forward-looking prediction.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Doomberg",
-    "claim": "The privately financed, indigenous co-owned bitumen pipeline will be capable of moving more than one million barrels per day to a deep-water port on the Pacific coast.",
-    "date": "2025-12-03",
-    "source_url": "https://newsletter.doomberg.com/p/alberta-unstuck",
-    "class": "SELF-REPORT",
-    "reason": "This describes a factual capacity of a pipeline that has already been constructed or is in development, not a forward-looking prediction.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Doomberg",
-    "claim": "The new EU oil price cap will be set at $47.60 per barrel",
-    "date": "2025-07-25",
-    "source_url": "https://newsletter.doomberg.com/p/paint-by-number",
-    "class": "SELF-REPORT",
-    "reason": "Describes a current policy decision already made by the EU (the excerpt confirms it 'is temporarily set at $47.60'). Not a forward-looking forecast but a report of an enacted policy.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Doomberg",
-    "claim": "China has made significant progress in building its home-grown semiconductor industry, perhaps even to the point of self-sufficiency.",
-    "date": "2024-12-16",
-    "source_url": "https://newsletter.doomberg.com/p/is-the-chip-war-already-lost",
-    "class": "SELF-REPORT",
-    "reason": "Present-tense observation about the current state of China's semiconductor industry; not forward-looking.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "Israel is currently getting the last word and has a leg up over Iran in this confrontation",
-    "date": "2024-09-25",
-    "source_url": "https://www.youtube.com/watch?v=2voHfoTp4A0",
-    "class": "SELF-REPORT",
-    "reason": "Present-tense observation ('at the moment') describing the current state of the confrontation, not a forward-looking forecast.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "The Inflation Reduction Act investments in green energy will disproportionately flow to red states rather than purple states, with 75-80% of funding going to red states.",
-    "date": "2024-09-03",
-    "source_url": "https://www.youtube.com/watch?v=kBYggyc1hDI",
-    "class": "SELF-REPORT",
-    "reason": "The excerpt uses 'has gone into red States' (present perfect), indicating Zeihan is reporting on funding that has already been allocated, not forecasting a future outcome.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "A significant percentage of Mexican agricultural operations are now paying protection money to cartels, with a tenth to 15 percent of the tea industry in Mexico paying protection money.",
-    "date": "2024-08-16",
-    "source_url": "https://www.youtube.com/watch?v=CYlv4RWHhNc",
-    "class": "SELF-REPORT",
-    "reason": "Describes current events without a forward-looking forecast.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "The United States has rested and recuperated from the war on terror, and its military isn't doing much from a military point of view right now—there are no occupations, there are no hot deployments.",
-    "date": "2024-07-26",
-    "source_url": "https://www.youtube.com/watch?v=AfYQzbEVDR8",
-    "class": "SELF-REPORT",
-    "reason": "This describes past/present military activity and situation, not a forward-looking prediction",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "The polls currently being conducted are not predictive of the 2024 U.S. presidential election outcome due to methodological flaws and the absence of third-party candidates in polling data.",
-    "date": "2024-07-19",
-    "source_url": "https://www.youtube.com/watch?v=_KSQ5xKc4oM",
-    "class": "SELF-REPORT",
-    "reason": "Analyzes current polling limitations without asserting a testable future outcome.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "The European Union was originally designed to promote democracy, create greater economic integration, and prevent democratic backsliding, but now, with a hot war on the doorstep, the nature of the challenge has changed and the tools that have been used to achieve success in the past no longer exist.",
-    "date": "2024-07-16",
-    "source_url": "https://www.youtube.com/watch?v=dVlGWzR93mo",
-    "class": "SELF-REPORT",
-    "reason": "Describes the historical design of the EU and the current changed nature of the challenge; present/past analytical observation rather than a specific testable future outcome.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "The Indian government will have to form a coalition government after failing to secure a two-thirds majority in the upcoming election.",
-    "date": "2024-06-10",
-    "source_url": "https://www.youtube.com/watch?v=GAkE8WsbcQo",
-    "class": "SELF-REPORT",
-    "reason": "The excerpt ('they came at it under 50%') makes clear the election already occurred (results announced June 4, 2024; this is dated June 10). He is describing a past result and its immediate, near-cert",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "The Russians are now targeting civilian areas with large bombs (Fab 1500, Fab 2500, Fab 3000) that have 6 to 10 to 20 times the explosive capacity of most U.S. bombs and are causing damage that will require months to over a year to rebuild.",
-    "date": "2024-06-06",
-    "source_url": "https://www.youtube.com/watch?v=qc2fVPuvrVw",
-    "class": "SELF-REPORT",
-    "reason": "Present-tense description of ongoing Russian bombing tactics and their effects; not a forward-looking forecast about a future world outcome.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "The American economic system will be damaged longterm by the five things that Peter Zeihan is most concerned about in his Worry List",
-    "date": "2024-06-03",
-    "source_url": "https://www.youtube.com/watch?v=q2Jao5fuU6A",
-    "class": "PROMO",
-    "reason": "The excerpt is clearly a webinar promotion ('anyone who signs up will of course be able to attend the webinar...'). The 'claim' is a vague, self-referential teaser with no specific, testable forecast.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "The highest end chips we have right now are rapidly approaching one nanometer and require 30,000 pieces and 100,000 manufacturing supply chain steps in 9,000 companies, with over half of these things being single point failures.",
-    "date": "2025-09-08",
-    "source_url": "https://www.youtube.com/watch?v=ucjOgpSrER0",
-    "class": "SELF-REPORT",
-    "reason": "Describes current semiconductor manufacturing complexity, not a future forecast.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "The military will need to recruit from a broader pool of backgrounds and skill sets, including women, Black, Hispanic, and gay individuals, to avoid losing wars due to a shrinking pool of straight white males.",
-    "date": "2025-08-13",
-    "source_url": "https://www.youtube.com/watch?v=LCI0pxGStqo",
-    "class": "ADVICE",
-    "reason": "This is giving advice about military recruitment policy and serving as an exhortation to not limit certain groups from serving, rather than making a world-outcome prediction.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "The United States does not have the military capacity to force regime change in Iran, and any ground invasion would require months of preparation.",
-    "date": "2025-06-26",
-    "source_url": "https://www.youtube.com/watch?v=VKWdcZ09Kak",
-    "class": "SELF-REPORT",
-    "reason": "Describes current military limitations and logistical realities.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "The Sinaloa cartel, which was the largest drug trafficking organization on the planet, has been experiencing a slow motion disintegration since the capture of El Chapo under the Obama administration.",
-    "date": "2025-06-13",
-    "source_url": "https://www.youtube.com/watch?v=5buWjvOYLLM",
-    "class": "SELF-REPORT",
-    "reason": "This describes past events that the speaker observed or is reporting on - the capture of El Chapo and subsequent organizational changes. It's not a forward-looking prediction but rather a description ",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "The shift from cocaine to fentanyl production has led to hundreds of small independent crime organizations rather than a few large cartels.",
-    "date": "2025-06-13",
-    "source_url": "https://www.youtube.com/watch?v=5buWjvOYLLM",
-    "class": "SELF-REPORT",
-    "reason": "This describes an observed phenomenon or trend that the speaker is reporting on - how drug production methods have changed and affected criminal organization structures. It's not a forward-looking pre",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "The US needs to increase processing capacity on the continent by a factor of 20 to support reindustrialization.",
-    "date": "2025-05-30",
-    "source_url": "https://www.youtube.com/watch?v=0DG2vS6DcOM",
-    "class": "SELF-REPORT",
-    "reason": "Describes a current requirement/analytical observation about what is needed for reindustrialization; not a forward-looking testable prediction about what will happen, nor directed advice to the listen",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "The relationship between India and the United States has reached its worst point in the last 30 years due to Trump administration's involvement in the India-Pakistan peace talks.",
-    "date": "2025-05-28",
-    "source_url": "https://www.youtube.com/watch?v=AW-dbnYmQ74",
-    "class": "SELF-REPORT",
-    "reason": "Present-tense observation describing the current state of U.S.-India relations; not a forward-looking prediction.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "The Trump administration's handling of the India-Pakistan conflict has reversed years of effort to improve U.S.-India relations and move away from reliance on Pakistan.",
-    "date": "2025-05-28",
-    "source_url": "https://www.youtube.com/watch?v=AW-dbnYmQ74",
-    "class": "SELF-REPORT",
-    "reason": "Describes a past/present outcome (reversal of prior diplomatic work); not a forward-looking testable forecast.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "The Russians want to close down the Office of Net Assessment at the Pentagon, which has been critical for long-term military planning and thinking forward.",
-    "date": "2025-03-22",
-    "source_url": "https://www.youtube.com/watch?v=aoZq4sAE1YQ",
-    "class": "SELF-REPORT",
-    "reason": "The excerpt reveals the office was already closed on March 14th; the speaker is reporting a past event and the Russians' reaction to it, not making a forward-looking forecast.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "Christian ultranationalists in the US administration are aligned with Russian interests and support Russia's actions in Ukraine, even if they conflict with traditional Western values.",
-    "date": "2025-03-20",
-    "source_url": "https://www.youtube.com/watch?v=GRyXhfu_ZUE",
-    "class": "SELF-REPORT",
-    "reason": "Present-tense analytical characterization of the current administration's alignment; describes an observed state of affairs rather than forecasting a future outcome.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "The Russian government is actively encouraging Christian ultranationalist groups in the US and Europe as part of their broader propaganda efforts.",
-    "date": "2025-03-20",
-    "source_url": "https://www.youtube.com/watch?v=GRyXhfu_ZUE",
-    "class": "SELF-REPORT",
-    "reason": "Present-tense description of ongoing Russian propaganda activity the speaker has observed; not a forward-looking testable forecast.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "The Ukrainian government has been reporting a tripling of casualties inflicted upon Russian artillery in the last five to six weeks.",
-    "date": "2024-07-29",
-    "source_url": "https://www.youtube.com/watch?v=JlRNLCq4HWE",
-    "class": "SELF-REPORT",
-    "reason": "This is a report about what the Ukrainian government has been saying, not a forecast about future world outcomes. It's describing past/present events observed by the speaker.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "The Republican Party is in a period of flux and transformation, with the Trump-aligned faction pushing for significant changes to the party's traditional positions on social issues.",
-    "date": "2024-07-18",
-    "source_url": "https://www.youtube.com/watch?v=-YUndZPV20g",
-    "class": "SELF-REPORT",
-    "reason": "This describes the current state and observed trends within the Republican Party, not a forward-looking prediction about world outcomes.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "Iran has been 6 months away from having an active nuclear weapon for 25 years",
-    "date": "2024-05-20",
-    "source_url": "https://www.youtube.com/watch?v=W0H9JU7T1XM",
-    "class": "SELF-REPORT",
-    "reason": "This describes a past/present situation regarding Iran's nuclear program, not a forward-looking prediction about world outcomes.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "The Russians have been successful in recent times with their penetration of the US government, and Tulsi Gabard, who was referred to as a 'nashal,' is now being called 'NVa chika' because she's now in a position where she can actually operate within the White House almost with impunity and change the information that is in front of the president.",
-    "date": "2025-03-17",
-    "source_url": "https://www.youtube.com/watch?v=rBgoNFd2LC0",
-    "class": "SELF-REPORT",
-    "reason": "Describes past/current Russian influence on a political figure, not a forward-looking claim.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "The Russian intelligence services have been effective at manipulating American political figures and institutions, evidenced by their ability to influence policy outcomes that align with Russian interests.",
-    "date": "2025-03-17",
-    "source_url": "https://www.youtube.com/watch?v=rBgoNFd2LC0",
-    "class": "SELF-REPORT",
-    "reason": "Observation of past influence, not a testable future prediction.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "The Senate has basically abdicated responsibility and confirmed the least qualified cabinet in American history, with all appointees getting through quickly and easily.",
-    "date": "2025-03-13",
-    "source_url": "https://www.youtube.com/watch?v=IY_ToG_Dr0k",
-    "class": "SELF-REPORT",
-    "reason": "This describes past events observed by the speaker about Senate actions and confirmations, not a forward-looking world outcome forecast.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "American policy changes both at home and abroad are being driven by something beyond conventional theory or policy incompetence",
-    "date": "2025-03-05",
-    "source_url": "https://www.youtube.com/watch?v=DymaE4kWnXI",
-    "class": "SELF-REPORT",
-    "reason": "Analyzes current policy dynamics without forecasting future outcomes.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "The Russian educational system collapsed and the technical educational system collapsed actually before the Soviet Union collapsed and was never rebuilt post-Soviet, resulting in only a low single digit million number of people who could even theoretically leave the country with relevant skill sets.",
-    "date": "2025-02-18",
-    "source_url": "https://www.youtube.com/watch?v=FQEa7t-Jjgo",
-    "class": "SELF-REPORT",
-    "reason": "This describes past/factual conditions about Russia's educational system rather than making a forward-looking prediction.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "Donald Trump's inner circle lacks competence in key issues, leading to policy decisions that contradict his public statements.",
-    "date": "2025-01-29",
-    "source_url": "https://www.youtube.com/watch?v=C8ufCG-gIFs",
-    "class": "SELF-REPORT",
-    "reason": "This is a statement about Trump's inner circle's competence, which is a personal assessment rather than a forecast about world outcomes. It describes an observed situation rather than predicting futur",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "The United States needs to expand its electrical grid by at least half and potentially double it in key areas like the Rocky Mountains, the South, and Texas within five years.",
-    "date": "2025-01-22",
-    "source_url": "https://www.youtube.com/watch?v=uxSVDZGfGIU",
-    "class": "ADVICE",
-    "reason": "Recommendation for infrastructure action, not a testable world-outcome forecast.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "Jared Kushner's business connections in the region played a key role in enabling the recent peace agreement.",
-    "date": "2025-10-21",
-    "source_url": "https://www.youtube.com/watch?v=ogcck-68i5A",
-    "class": "SELF-REPORT",
-    "reason": "This describes past events and observations about Kushner's influence on a peace agreement, not a forward-looking prediction.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "My fifth book, Acceptable Range, comes out around probably New Year's 2026-2027",
-    "date": "2025-11-07",
-    "source_url": "https://www.youtube.com/watch?v=a9QppzLsFTI",
-    "class": "PROMO",
-    "reason": "This is promoting the speaker's own book publication date and is not a forward-looking claim about world outcomes.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "General Kellogg will leave the administration, leaving Steve Witkoff as the primary figure handling Ukraine portfolio.",
-    "date": "2025-12-02",
-    "source_url": "https://www.youtube.com/watch?v=4G-uE63XENw",
-    "class": "SELF-REPORT",
-    "reason": "This describes a past or present event (person leaving office) rather than a forward-looking prediction about world outcomes.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "The change before that, the Sha that only dated back to 1925. So of the six changes in continuity, we've had two in the last roughly century. This would argue that Iran is having a real problem adapting to the industrial revolution.",
-    "date": "2026-01-08",
-    "source_url": "https://www.youtube.com/watch?v=XCK1wmdicHA",
-    "class": "SELF-REPORT",
-    "reason": "This is describing past historical patterns and observations about Iran's adaptation to industrialization, not a forward-looking prediction.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "The Chinese will continue to ship war material into Iran through the Persian Gulf, despite U.S. naval presence, unless the Trump administration takes action to block Chinese vessels from docking or trading.",
-    "date": "2026-03-07",
-    "source_url": "https://www.youtube.com/watch?v=Ta0Y5SqcJyc",
-    "class": "UNCLEAR",
-    "reason": "missing in LLM batch response",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "The next generation down, Gen X, it's my generation. There just aren't enough of us to really move the needle even if we all could work an extra 5 years.",
-    "date": "2026-03-03",
-    "source_url": "https://www.youtube.com/watch?v=-lt9p7Df5MI",
-    "class": "PERSONAL",
-    "reason": "This is about the speaker's own generation and personal perspective on demographic trends, not a world outcome forecast.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "I am in the process of migrating my services over to patreon",
-    "date": "2024-10-18",
-    "source_url": "https://www.youtube.com/watch?v=vx-lg-7yVrk",
-    "class": "SELF-REPORT",
-    "reason": "This describes a past/present action the speaker is taking, not a forward-looking world outcome",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Zeihan",
-    "claim": "The financial transfer from Alberta to the rest of Canada has decreased in relative terms over the last 20 years due to increased immigration in Canada.",
-    "date": "2026-06-03",
-    "source_url": "https://www.youtube.com/watch?v=Et0mwzZj-_o",
-    "class": "SELF-REPORT",
-    "reason": "This is describing a past/ongoing economic situation rather than making a forward-looking prediction. It's reporting on historical trends.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Ian Bremmer",
-    "claim": "The level of tension here is extremely high and the level of trust has been reduced",
-    "date": "2025-02-14",
-    "source_url": "https://www.youtube.com/watch?v=KGJd2lxZovA",
-    "class": "SELF-REPORT",
-    "reason": "This describes the current state of affairs rather than making a forward-looking prediction about world outcomes.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Ian Bremmer",
-    "claim": "Trump's recent political losses in elections across New Jersey, New York, Virginia, and California indicate a decline in his influence and support within MAGA.",
-    "date": "2025-11-17",
-    "source_url": "https://www.youtube.com/watch?v=47mymgbAs1I",
-    "class": "SELF-REPORT",
-    "reason": "This describes past electoral outcomes and their implications for Trump's support, which is not a forward-looking world forecast.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Ian Bremmer",
-    "claim": "The United States is unilaterally withdrawing from its global leadership, and this is the reason why we're in a G0 world today.",
-    "date": "2026-05-15",
-    "source_url": "https://www.youtube.com/watch?v=Z1F1bb5uMt0",
-    "class": "SELF-REPORT",
-    "reason": "Descriptive analysis of current global power dynamics, not a forward-looking claim.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Ian Bremmer",
-    "claim": "The cheapest ticket for a group stage match in Miami will be $960",
-    "date": "2026-06-12",
-    "source_url": "https://www.youtube.com/watch?v=mTYDaaMFZhE",
-    "class": "SELF-REPORT",
-    "reason": "Descriptive statement about current ticket pricing, not a forecast.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Ian Bremmer",
-    "claim": "The Lebanese government is unable to assert authority over Hezbollah, which is more powerful than the state.",
-    "date": "2026-07-24",
-    "source_url": "https://www.youtube.com/watch?v=WMXj690zq28",
-    "class": "SELF-REPORT",
-    "reason": "Describes current state of power dynamics, not a future prediction.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Ian Bremmer",
-    "claim": "Russia's economy is increasingly geared toward sustaining the war, yet growth is slowing and the Russian Central Bank is now warning of a weaker outlook.",
-    "date": "2026-07-17",
-    "source_url": "https://www.youtube.com/watch?v=UpQwi4G9wXo",
-    "class": "SELF-REPORT",
-    "reason": "Describes current economic conditions and trends, not a future forecast.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Ian Bremmer",
-    "claim": "Lindsey Graham will continue to have significant influence over US foreign policy as a result of his close relationship with Trump.",
-    "date": "2026-07-13",
-    "source_url": "https://www.youtube.com/watch?v=v9llyU7WhHc",
-    "class": "SELF-REPORT",
-    "reason": "Assesses current political influence, not a future prediction.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Ian Bremmer",
-    "claim": "The United States and Israel went into this war together, with Israel pushing for it quite a bit and quite hard.",
-    "date": "2026-03-17",
-    "source_url": "https://www.youtube.com/watch?v=nHGigudjDtE",
-    "class": "SELF-REPORT",
-    "reason": "This describes past events that the speaker observed or experienced, not a forward-looking prediction about world outcomes",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Diamandis",
-    "claim": "Children should be exposed to different ideas, technologies, and possibilities like AI and nanotechnology to help them think about what is possible.",
-    "date": "2024-10-01",
-    "source_url": "https://www.youtube.com/watch?v=y6aq6TVhueQ",
-    "class": "ADVICE",
-    "reason": "This is telling listeners what they should do (expose children to certain technologies) rather than making a world-outcome forecast",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Diamandis",
-    "claim": "The best investments you make in children are exposing them to different ideas, different people, and taking them to work to see how you work.",
-    "date": "2024-10-01",
-    "source_url": "https://www.youtube.com/watch?v=y6aq6TVhueQ",
-    "class": "ADVICE",
-    "reason": "This is giving advice about what parents should do with their children rather than making a world-outcome prediction",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Diamandis",
-    "claim": "The speaker will continue using the oral testosterone form (testosterone undecanoate) for six months to evaluate its effectiveness and potential benefits over injections.",
-    "date": "2024-09-29",
-    "source_url": "https://www.youtube.com/watch?v=srMWi1HVUeQ",
-    "class": "PERSONAL",
-    "reason": "Personal health regimen and self-experimentation timeline.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Diamandis",
-    "claim": "The speaker's testosterone levels will remain within the range of 750 to 1100, with a peak around 1100, and will continue to monitor for side effects such as water retention or acne.",
-    "date": "2024-09-29",
-    "source_url": "https://www.youtube.com/watch?v=srMWi1HVUeQ",
-    "class": "PERSONAL",
-    "reason": "Personal health metrics and monitoring plan.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Diamandis",
-    "claim": "The chronic inflammation in the body is the underlying cause of chronic diseases like diabetes, obesity, heart disease, depression and anxiety.",
-    "date": "2024-09-26",
-    "source_url": "https://www.youtube.com/watch?v=Br7OLJeVNf0",
-    "class": "SELF-REPORT",
-    "reason": "States a general health fact about inflammation as a cause of diseases, not a forward-looking claim.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Diamandis",
-    "claim": "People who eat a cup of beans a day live about four years longer.",
-    "date": "2024-09-25",
-    "source_url": "https://www.youtube.com/watch?v=3s0Wo9RhPAU",
-    "class": "SELF-REPORT",
-    "reason": "States a general health observation, not a prediction.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Diamandis",
-    "claim": "The average American eats about 240 pounds of meat a year, while people in blue zones eat about 20 pounds a year.",
-    "date": "2024-09-25",
-    "source_url": "https://www.youtube.com/watch?v=3s0Wo9RhPAU",
-    "class": "SELF-REPORT",
-    "reason": "Factual dietary comparison, not a prediction.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Diamandis",
-    "claim": "People who can articulate their sense of purpose live about seven years longer than those who are rudderless in life.",
-    "date": "2024-09-23",
-    "source_url": "https://www.youtube.com/watch?v=M_mUOMjEhjg",
-    "class": "SELF-REPORT",
-    "reason": "States a general health observation about purpose and longevity.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Diamandis",
-    "claim": "Optimists live up to 15% longer than pessimists.",
-    "date": "2024-09-23",
-    "source_url": "https://www.youtube.com/watch?v=M_mUOMjEhjg",
-    "class": "SELF-REPORT",
-    "reason": "General health claim about optimism and lifespan.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Diamandis",
-    "claim": "Sunscreen should be applied even during short daily exposures such as walking to the car or getting coffee.",
-    "date": "2024-09-23",
-    "source_url": "https://www.youtube.com/watch?v=DqZkS_A7lHM",
-    "class": "ADVICE",
-    "reason": "Direct advice on sunscreen usage.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Diamandis",
-    "claim": "The OS1 peptide is effective in penetrating the skin barrier and reaching the dermal layer.",
-    "date": "2024-09-22",
-    "source_url": "https://www.youtube.com/watch?v=-LCrXhzWb1w",
-    "class": "SELF-REPORT",
-    "reason": "This describes observed or tested effects of a peptide on skin penetration, which is about personal/medical product efficacy rather than world outcomes. It's reporting on what was detected.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Diamandis",
-    "claim": "The peptide compound OS1 can decrease up to 40% the load of senescent cells in skin.",
-    "date": "2024-09-19",
-    "source_url": "https://www.youtube.com/watch?v=VsO4fNU7438",
-    "class": "SELF-REPORT",
-    "reason": "This describes personal experience with a product and its effects, which is about personal health regimen rather than world outcomes. It's reporting on what was observed personally.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Diamandis",
-    "claim": "If we were being invaded by aliens, we would not require congressional hearings to establish that fact.",
-    "date": "2024-09-14",
-    "source_url": "https://www.youtube.com/watch?v=sCaHzMhfSJw",
-    "class": "SELF-REPORT",
-    "reason": "Hypothetical commentary on bureaucracy, not a testable prediction.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Diamandis",
-    "claim": "If you go out into the middle of nowhere and work on something that winds up not being important, the world never comes to where you are, or you're just 10 years too early or five years too early.",
-    "date": "2024-08-30",
-    "source_url": "https://www.youtube.com/watch?v=2_NFbEcFnic",
-    "class": "SELF-REPORT",
-    "reason": "This is a personal reflection about past experiences and observations rather than a forward-looking claim about world outcomes.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Diamandis",
-    "claim": "We are manufacturing about one humanoid robot per week in our facility in California.",
-    "date": "2024-08-22",
-    "source_url": "https://www.youtube.com/watch?v=dLGX93jT3rM",
-    "class": "SELF-REPORT",
-    "reason": "Describes current production activity without future forecasting.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Diamandis",
-    "claim": "GPT search (e.g., GPT-4) is taking a bite out of Google's dominance in search.",
-    "date": "2024-08-16",
-    "source_url": "https://www.youtube.com/watch?v=Pfmphk_Ny1o",
-    "class": "SELF-REPORT",
-    "reason": "Current assessment of market competition, not a future forecast.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Diamandis",
-    "claim": "I see everything as algorithms around me, and I'm constantly trying different algorithms that I see and in environments how people behave what they say in certain scenarios and then I try those algorithms on and see how they feel and I'm constantly iterating and adapting them, and that's where a huge part of my life was focused after the seventh grade.",
-    "date": "2024-08-12",
-    "source_url": "https://www.youtube.com/watch?v=rem02CJ8Jow",
-    "class": "PERSONAL",
-    "reason": "Personal cognitive framework description",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Diamandis",
-    "claim": "The nasal spray ProFY will be investigated more rigorously in humans.",
-    "date": "2024-08-09",
-    "source_url": "https://www.youtube.com/watch?v=sybIEu2wjgI",
-    "class": "SELF-REPORT",
-    "reason": "Future research plan disclosure",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Diamandis",
-    "claim": "The ancient Maya civilization collapsed due to a combination of overpopulation, resource depletion, and climatic stress, specifically droughts that triggered social unrest and warfare.",
-    "date": "2024-08-08",
-    "source_url": "https://www.youtube.com/watch?v=WuJ5lVAQ7UI",
-    "class": "SELF-REPORT",
-    "reason": "This is a historical analysis of the Maya civilization's collapse, describing past events and causes without making any forward-looking claims about world outcomes.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Diamandis",
-    "claim": "I want to see where Starship takes me into the cosmos.",
-    "date": "2024-08-02",
-    "source_url": "https://www.youtube.com/watch?v=JkMDu65J4Do",
-    "class": "PERSONAL",
-    "reason": "This is a personal statement about the speaker's own intentions and desires regarding space travel, not a forecast about world outcomes.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Diamandis",
-    "claim": "I want to upload myself.",
-    "date": "2024-08-02",
-    "source_url": "https://www.youtube.com/watch?v=JkMDu65J4Do",
-    "class": "PERSONAL",
-    "reason": "This is a personal statement about the speaker's own intentions and desires regarding self-uploading, not a forecast about world outcomes.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Diamandis",
-    "claim": "MIT's academic culture has transitioned from a focus on Nobel prizes to a greater emphasis on entrepreneurship, with professors increasingly interested in starting companies.",
-    "date": "2024-07-25",
-    "source_url": "https://www.youtube.com/watch?v=HpxB4_NjVHU",
-    "class": "SELF-REPORT",
-    "reason": "Describes a historical/present shift in academic priorities, not a forward-looking forecast.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Diamandis",
-    "claim": "Building muscle mass and strength is the number one thing to do in terms of reducing all-cause mortality.",
-    "date": "2024-07-18",
-    "source_url": "https://www.youtube.com/watch?v=ZYOetdjlnKQ",
-    "class": "ADVICE",
-    "reason": "Exhortation to listeners to prioritize muscle-building for mortality reduction.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Diamandis",
-    "claim": "The bottom third of the population from a muscular perspective has a 50% increased mortality rate.",
-    "date": "2024-07-18",
-    "source_url": "https://www.youtube.com/watch?v=ZYOetdjlnKQ",
-    "class": "SELF-REPORT",
-    "reason": "States a statistical observation about current mortality rates linked to muscle mass.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Diamandis",
-    "claim": "The body's ability to absorb more than 100g of protein in a single meal is a myth that has been debunked.",
-    "date": "2024-07-11",
-    "source_url": "https://www.youtube.com/watch?v=q2x5c3fH9uU",
-    "class": "SELF-REPORT",
-    "reason": "Corrects a prior belief based on recent research, not a forward-looking claim.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Diamandis",
-    "claim": "Taking creatine with warm water increases its bioavailability.",
-    "date": "2024-07-11",
-    "source_url": "https://www.youtube.com/watch?v=q2x5c3fH9uU",
-    "class": "ADVICE",
-    "reason": "Provides a method for optimizing creatine absorption.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Diamandis",
-    "claim": "Three or four major credible Pharma companies that realize this could be used for dengue fever and lots of other things in the developing world.",
-    "date": "2024-07-07",
-    "source_url": "https://www.youtube.com/watch?v=3kIyrcdhSuE",
-    "class": "SELF-REPORT",
-    "reason": "Describes current awareness of pharmaceutical companies, not a future forecast.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Diamandis",
-    "claim": "The average maximum life expectancy of humans living in the first world, if you do everything right, is about 94.",
-    "date": "2024-06-27",
-    "source_url": "https://www.youtube.com/watch?v=vji6pMKMtAI",
-    "class": "SELF-REPORT",
-    "reason": "Factual statement about current/existing life expectancy data, not a forecast.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Diamandis",
-    "claim": "The company Ideal Lab was in the process of building rockets and landers for a private lunar mission, with plans to use various launch vehicles including Taurus, Taurus XL, Athena II, and a Russian Dener rocket.",
-    "date": "2024-06-13",
-    "source_url": "https://www.youtube.com/watch?v=-Zv1eXcX2pc",
-    "class": "SELF-REPORT",
-    "reason": "Describes past/present actions (building rockets) without forward-looking testable claim.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Diamandis",
-    "claim": "AI is much better than humans at seeing patterns and catching the minutia always on always paying attention.",
-    "date": "2024-06-04",
-    "source_url": "https://www.youtube.com/watch?v=qcJ-oiS6YtY",
-    "class": "SELF-REPORT",
-    "reason": "Present assertion about AI capabilities, not a prediction.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Diamandis",
-    "claim": "AI can mitigate cognitive biases that humans have, such as those demonstrated in parole hearings where judges' biological state affected decisions.",
-    "date": "2024-06-04",
-    "source_url": "https://www.youtube.com/watch?v=qcJ-oiS6YtY",
-    "class": "SELF-REPORT",
-    "reason": "Present capability claim, not a forward-looking prediction.",
-    "removed_at": "2026-10-03"
-  },
-  {
-    "speaker": "Peter Diamandis",
-    "claim": "By the time this presentation was made, 200 cats with hats could be generated per second using a distillation model.",
-    "date": "2024-05-10",
-    "source_url": "https://www.youtube.com/watch?v=8B3akaUg--s",
-    "class": "SELF-REPORT",
-    "reason": "Describes a current technical capability at the time of the statement.",
-    "removed_at": "2026-10-03"
-  }
+ {
+  "speaker": "Jack Gamble",
+  "claim": "Data centers being built will become useless within a couple of years, probably sooner, because AI usage for inference will shift to local hardware.",
+  "date": "2026-09-02",
+  "source_url": "https://mcalvany.com/weekly-commentary/the-ai-bubbles-circular-financing-problem-with-jack-gamble/",
+  "note": "QA: Jack Gamble own voice, misattributed to David McAlvany",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Anthropic document (quoted by Diamandis)",
+  "claim": "More than 80% of code merges into AI codebases will be written by AI itself within 2 years.",
+  "date": "2026-06-08",
+  "source_url": "https://www.youtube.com/watch?v=P2HJEz3oqLs",
+  "note": "QA: paraphrase of Anthropic paper quote, not Diamandis own prediction",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Naveen Jain",
+  "claim": "People who live a life of purpose tend to live 10 to 15 years longer than those who do not have a purpose in life.",
+  "date": "2024-09-29",
+  "source_url": "https://www.youtube.com/watch?v=NIA2BztpIKE",
+  "note": "Strict ownership: Naveen Jain own voice; Peter Diamandis assent only (\"100%\", \"absolutely\") - not adopted",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Naveen Jain",
+  "claim": "Getting at least 1.5 to 2 hours of REM sleep and at least 1.5 hours of deep sleep per night is important for health.",
+  "date": "2024-09-29",
+  "source_url": "https://www.youtube.com/watch?v=NIA2BztpIKE",
+  "note": "Strict ownership: Naveen Jain own voice; Peter Diamandis assent only (\"100%\", \"absolutely\") - not adopted",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Chris Wright (reported)",
+  "claim": "Energy Secretary Chris Wright has said about 35 to 40 million barrels of extra oil will be returned this year and next in the form of premiums.",
+  "date": "2026-08-09",
+  "source_url": "https://newsletter.doomberg.com/p/endangered-specious",
+  "note": "QA: reported third-party statement / current fact, not Doomberg own prediction",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "News fact (not a prediction)",
+  "claim": "In July, for the third straight month, Venezuelan oil exports surpassed 1 million barrels per day, up from half that threshold as recently as December.",
+  "date": "2026-08-09",
+  "source_url": "https://newsletter.doomberg.com/p/endangered-specious",
+  "note": "QA: reported third-party statement / current fact, not Doomberg own prediction",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "China will conquer semiconductors just as it has conquered EVs and solar.",
+  "date": "2024-12-16",
+  "source_url": "https://newsletter.doomberg.com/p/chip-shot",
+  "note": "origin resweep removal: Excerpt is from a substack article, not a video transcript where speaker would be directly quoted",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "We could double the human lifespan and cure all disease within the next 10 years.",
+  "date": "2026-09-13",
+  "source_url": "https://www.youtube.com/watch?v=H5ZLorBJCDk",
+  "note": "origin resweep removal: Claim is attributed to 'we' in the excerpt, but no speaker is identified as making the statement - appears to be a general statement about future capabilities rather than a specifi",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Scott Bessent",
+  "claim": "The Trump administration will provide financial support to Argentina's struggling economy, including loans to the central bank and purchases of Argentine government debt.",
+  "date": "2025-09-28",
+  "source_url": "https://newsletter.doomberg.com/p/energy-bind",
+  "note": "origin resweep removal: Excerpt quotes Treasury Secretary Scott Bessent directly, indicating a third party speaker",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Pentagon officials",
+  "claim": "The US military will prioritize protecting the homeland and Western Hemisphere over countering adversaries such as China and Russia, marking a major shift from previous administrations.",
+  "date": "2025-09-10",
+  "source_url": "https://newsletter.doomberg.com/p/mosaic-theory",
+  "note": "origin resweep removal: Excerpt quotes Pentagon officials directly, indicating a third party speaker",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Chevron Corporation",
+  "claim": "Chevron Corporation will relocate its headquarters from San Ramon, California to Houston, Texas before the end of the year.",
+  "date": "2024-08-30",
+  "source_url": "https://newsletter.doomberg.com/p/bay-watch",
+  "note": "origin resweep removal: The excerpt directly quotes Chevron Corporation's announcement, not Doomberg's own words.",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Richmond City Council",
+  "claim": "The tax measure in Richmond could generate as much as $90 million per year for the city if approved by voters.",
+  "date": "2024-08-30",
+  "source_url": "https://newsletter.doomberg.com/p/bay-watch",
+  "note": "origin resweep removal: The excerpt directly quotes the Richmond City Council, not Doomberg's own words.",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "International Energy Agency",
+  "claim": "The world faces a 'staggering' surplus of oil equating to millions of barrels a day by the end of the decade, as oil companies increase production, undermining the ability of Opec+ to manage crude prices.",
+  "date": "2024-06-16",
+  "source_url": "https://newsletter.doomberg.com/p/wishcasting",
+  "note": "origin resweep removal: The excerpt directly quotes the International Energy Agency, not Doomberg's own words.",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "IEA",
+  "claim": "Oil companies may want to make sure their business strategies and plans are prepared for the changes taking place, as demand is forecast to peak before 2030.",
+  "date": "2024-06-16",
+  "source_url": "https://newsletter.doomberg.com/p/wishcasting",
+  "note": "origin resweep removal: The excerpt directly quotes the IEA's annual report, not Doomberg's own words.",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "The US nuclear industry will face significant challenges from environmental activists and policy uncertainty.",
+  "date": "2024-06-08",
+  "source_url": "https://newsletter.doomberg.com/p/be-like-ike",
+  "note": "origin resweep removal: Excerpt contains repetitive filler text, no substantive claim made",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "Today's video will be 7 days from there",
+  "date": "2024-10-01",
+  "source_url": "https://www.youtube.com/watch?v=MeBUuHOKCvo",
+  "note": "origin resweep removal: Excerpt shows speaker only confirming timing, not making a substantive claim",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "The Ukrainians will launch a large number of the new drone missiles (Lenisa) in attacks against Russian rail networks and ammunition depots within 150 miles of the Ukrainian border in the north, northeast, and east of Ukraine.",
+  "date": "2024-09-23",
+  "source_url": "https://www.youtube.com/watch?v=pBfxY3b3R1g",
+  "note": "origin resweep removal: The excerpt shows Zeihan discussing Ukrainian actions but doesn't clearly state the specific claim about drone missile attacks on Russian rail networks - appears to be describing p",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "Germany will have to bring in 2 to 2.5 million people under age 30 every year for the next 20 years just to hold their demographic position.",
+  "date": "2024-09-20",
+  "source_url": "https://www.youtube.com/watch?v=RWZ553deROY",
+  "note": "origin resweep removal: The excerpt discusses demographic trends and Canada's situation but doesn't contain the specific claim about Germany needing to bring in 2-2.5 million people annually - appears to ",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "The European Union will create a common air defense space.",
+  "date": "2024-07-24",
+  "source_url": "https://www.youtube.com/watch?v=SrWd485faGM",
+  "note": "origin resweep removal: Claim is presented as 'her assertion' - third party attribution",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The manufacturing sector will be affected first by the tariff policies due to the ease of relocating supply chains outside the country with tariff structures.",
+  "date": "2025-10-01",
+  "source_url": "https://www.youtube.com/watch?v=kSx6G-lw534",
+  "note": "origin resweep removal: Claim about economic correction not attributed to Peter Zeihan",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "Israel will continue to escalate its military actions in the Persian Gulf region, potentially targeting other hostile groups or states if they become more adversarial towards Israel.",
+  "date": "2025-09-23",
+  "source_url": "https://www.youtube.com/watch?v=xiL_TDQF0VY",
+  "note": "origin resweep removal: Claim appears to be about Israeli escalation but excerpt shows Zeihan discussing US allies and policy, not his own claim",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "The US dollar will drop by about 10 to 15% in the time since the current date.",
+  "date": "2025-05-06",
+  "source_url": "https://www.youtube.com/watch?v=yaiILtkgFqA",
+  "note": "origin resweep removal: Excerpt shows speaker discussing capital flow but doesn't clearly articulate the specific dollar drop claim",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "There will be a significant drop in capital flight into the US financial markets.",
+  "date": "2025-05-06",
+  "source_url": "https://www.youtube.com/watch?v=yaiILtkgFqA",
+  "note": "origin resweep removal: Excerpt shows speaker discussing capital flight but doesn't clearly articulate the specific drop percentage claim",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Putin",
+  "claim": "Putin will implement a partial ceasefire that involves not attacking energy infrastructure, but will violate that承诺 less than 3 hours after the phone call with Trump.",
+  "date": "2025-03-26",
+  "source_url": "https://www.youtube.com/watch?v=QtAx8fbvG48",
+  "note": "origin resweep removal: The excerpt shows Zeihan describing what Putin said in a quote, not making his own claim about when Putin will violate a ceasefire.",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "The young adult generation in Iran, who have lived through one state failure after another for the last 15 years, will make very interesting political and personal decisions as the system fails.",
+  "date": "2025-02-20",
+  "source_url": "https://www.youtube.com/watch?v=1Nn5PnUobDA",
+  "note": "origin resweep removal: Excerpt shows Zeihan discussing potential violence but does not contain the substantive claim about Iranian youth making decisions.",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "The Chinese system will crash around the Zoomer generation of citizens who have visceral memories of how the system crashed around them.",
+  "date": "2025-02-20",
+  "source_url": "https://www.youtube.com/watch?v=1Nn5PnUobDA",
+  "note": "origin resweep removal: Excerpt discusses Chinese system failure and decision-making but doesn't contain the specific claim about Zoomer generation.",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "Donald Trump's executive orders will lead to a significant erosion of his political capital due to the pace and nature of his actions.",
+  "date": "2025-02-06",
+  "source_url": "https://www.youtube.com/watch?v=2H5T_cvHlM8",
+  "note": "origin resweep removal: Excerpt shows Zeihan only expressing personal opinion about entertainment value, not making a substantive claim about Trump's political capital erosion",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "The United States will likely return to a more interventionist foreign policy style similar to 'Dollar Diplomacy' in the aftermath of reconstruction, where powerful individuals driven by various motives (economic, corporate, etc.) will interface with the world and call for military support when needed.",
+  "date": "2025-02-03",
+  "source_url": "https://www.youtube.com/watch?v=mw6aCEoGZp8",
+  "note": "origin resweep removal: Excerpt shows Zeihan discussing changes in military view and Republican Party stance, but doesn't directly articulate the claim about Dollar Diplomacy return",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "Most real estate in China is worth maybe 10 cents on the dollar",
+  "date": "2025-01-31",
+  "source_url": "https://www.youtube.com/watch?v=a2AJvCPcNUE",
+  "note": "origin resweep removal: The excerpt discusses ownership networks and selling properties but does not contain the specific claim about real estate being worth 10 cents on the dollar - this appears to be a ",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "The West Antarctic ice sheet will probably already have collapsed by the time technology exists to exploit Greenland's ice.",
+  "date": "2025-01-30",
+  "source_url": "https://www.youtube.com/watch?v=BA2T1LNok0Y",
+  "note": "origin resweep removal: The excerpt discusses permafrost and Greenland ice but does not contain the specific claim about West Antarctic ice sheet collapsing by the time technology exists to exploit Greenl",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The state of New Mexico will successfully implement a policy providing state-covered child care for all residents, costing approximately $600 million per year, and this policy will positively impact New Mexico's demographic profile and workforce participation.",
+  "date": "2025-11-28",
+  "source_url": "https://www.youtube.com/watch?v=W408HYFcLbw",
+  "note": "origin resweep removal: The excerpt shows Peter Zeihan discussing the feasibility and cost of a policy, but does not clearly articulate his own claim about success or impact.",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "The United States and Israel will not target Iran's energy sector, specifically Kharg Island, which is the economic node that makes Iran possible in the modern age where 90% of their oil exports flow through.",
+  "date": "2026-02-28",
+  "source_url": "https://www.youtube.com/watch?v=KFwYJP8eExk",
+  "note": "origin resweep removal: Claim about U.S. and Israel not targeting Iran's energy sector is presented as a statement about the operation, but speaker is discussing War Powers Act violation rather than makin",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "If the U.S. military targets Iran's drone production capacity, specifically for the Shaheds, it would end Russia's ability to use these weapons in the Ukraine war.",
+  "date": "2026-02-28",
+  "source_url": "https://www.youtube.com/watch?v=KFwYJP8eExk",
+  "note": "origin resweep removal: Speaker discusses US military using drones and mentions Shaheds but doesn't directly make the claim about ending Russia's ability to use these weapons in Ukraine war",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Cain",
+  "claim": "The number of Iranian launchers has been reduced by somewhere between 60 and 80%, which is great.",
+  "date": "2026-03-05",
+  "source_url": "https://www.youtube.com/watch?v=M5gHHXiib3o",
+  "note": "origin resweep removal: The claim is attributed to 'Cain' who is identified as the chief of staff, not Peter Zeihan himself.",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "The United States will produce 2,000 F-10 drones under license from Ukraine by 2029.",
+  "date": "2026-07-10",
+  "source_url": "https://www.youtube.com/watch?v=eDeBB7kbO9U",
+  "note": "origin resweep removal: The excerpt shows Zeihan discussing a Ukrainian drone deal but doesn't actually make the claim about U.S. production of 2,000 F-10 drones - he's discussing what has been ordered an",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "Korean exports will likely decrease significantly in the midterm as the global AI supply chain becomes less integrated and more geographically distributed.",
+  "date": "2026-07-09",
+  "source_url": "https://www.youtube.com/watch?v=yo5YM0QJqi0",
+  "note": "origin resweep removal: The excerpt discusses value-added points and U.S. dominance in design but doesn't directly make the claim about Korean exports decreasing - this appears to be a response to a quest",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "The United States government will restrict oil exports in order to keep prices under control as the international system loses energy.",
+  "date": "2026-07-06",
+  "source_url": "https://www.youtube.com/watch?v=rIf5WuqhuFw",
+  "note": "origin resweep removal: Excerpt shows Peter Zeihan only assenting to a claim made by someone else ('Absolutely, absolutely, absolutely. The question is how.')",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "Within a couple of months, the Trump administration will decide which option it will pursue regarding energy export restrictions.",
+  "date": "2026-07-06",
+  "source_url": "https://www.youtube.com/watch?v=rIf5WuqhuFw",
+  "note": "origin resweep removal: Excerpt shows Peter Zeihan only assenting to a claim made by someone else ('We'll probably find out within a couple of months...')",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "The Ukrainians will systematically destroy infrastructure within 700 miles of their borders that gives Russia economic wherewithal, particularly targeting facilities serving Kazakh needs.",
+  "date": "2026-07-03",
+  "source_url": "https://www.youtube.com/watch?v=xl6TgTRHDAg",
+  "note": "origin resweep removal: Excerpt shows Peter Zeihan only assenting to a claim made by someone else ('What the Ukrainians are doing is basically systematically destroying...')",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "The far right will gain significant political ground in France following the upcoming parliamentary elections.",
+  "date": "2024-07-08",
+  "source_url": "https://www.youtube.com/watch?v=nfcZsnk9R0I",
+  "note": "origin resweep removal: Excerpt quotes a statement from the far right's gains without attribution to Ian Bremmer, suggesting it's third-party information.",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Benny Gantz",
+  "claim": "The Israeli government, led by Bibi and the far right, is moving further from any plausible breakthrough agreement than it was even a few weeks prior.",
+  "date": "2024-06-10",
+  "source_url": "https://www.youtube.com/watch?v=Gw92Rn0XAZg",
+  "note": "origin resweep removal: Claim attributed to Benny Gantz, not Ian Bremmer",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Modi",
+  "claim": "Prime Minister Modi will win over 400 seats in India's elections, resulting in a supermajority.",
+  "date": "2024-05-23",
+  "source_url": "https://www.youtube.com/watch?v=M0536Q2tCxA",
+  "note": "origin resweep removal: Claim attributed to Prime Minister Modi, not Ian Bremmer",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "American CEOs",
+  "claim": "The Chinese will continue to use their control over critical minerals and rare earths as a strategic weapon against the U.S.",
+  "date": "2025-07-21",
+  "source_url": "https://www.youtube.com/watch?v=vwZiRkvBUcs",
+  "note": "origin resweep removal: Excerpt quotes American CEOs at Mar-a-Lago, not Ian Bremmer himself making the claim about Chinese strategic use of rare earths.",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Dan Bongino",
+  "claim": "Dan Bongino will resign from his position and become publicly vocal about the Epstein files.",
+  "date": "2025-07-14",
+  "source_url": "https://www.youtube.com/watch?v=TFyt804sGds",
+  "note": "origin resweep removal: Excerpt refers to Dan Bongino's potential resignation and actions, but does not contain Bremmer making the claim directly; it's about what Bongino might do.",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "Elon Musk will create a new political party called the America Party.",
+  "date": "2025-07-07",
+  "source_url": "https://www.youtube.com/watch?v=l0-wSwA75vs",
+  "note": "origin resweep removal: Claim about Elon Musk's poll and party is presented as a hypothetical scenario, not a direct claim by Ian Bremmer.",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "If Elon Musk invests $25 million each and gives it to 10 different safe seats in the House, he could potentially get 10 people to switch parties and form a new small coalition.",
+  "date": "2025-07-07",
+  "source_url": "https://www.youtube.com/watch?v=l0-wSwA75vs",
+  "note": "origin resweep removal: Claim about Elon Musk investing and forming coalition is presented as a hypothetical scenario, not a direct claim by Ian Bremmer.",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Taichi Sanai",
+  "claim": "Taichi Sanai will become the first female prime minister in Japan's history",
+  "date": "2025-10-21",
+  "source_url": "https://www.youtube.com/watch?v=CeurHGRGaIs",
+  "note": "origin resweep removal: The excerpt shows a quotation attributed to someone else ('Taichi Sanai has become...') rather than Ian Bremmer articulating the claim himself",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "Trump will impose 100% tariffs on Chinese goods by November 1st, 2025",
+  "date": "2025-10-14",
+  "source_url": "https://www.youtube.com/watch?v=CJOvSiWLPos",
+  "note": "origin resweep removal: The excerpt shows Ian Bremmer discussing Trump's potential actions but does not directly state the claim; it's more of an inference from context rather than a direct assertion",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "Trump's response to the murder of Rob Reiner and his wife will damage his political support among moderate voters in the upcoming election cycle.",
+  "date": "2025-12-16",
+  "source_url": "https://www.youtube.com/watch?v=Cku10B_nURI",
+  "note": "origin resweep removal: The excerpt describes a scenario involving the murder of Rob Reiner and his wife, but does not contain Ian Bremmer's own claim about Trump's response; it appears to be describing e",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "The United States will run a country of some 30 million people under Trump's leadership",
+  "date": "2026-01-09",
+  "source_url": "https://www.youtube.com/watch?v=PjJeHs11I20",
+  "note": "origin resweep removal: The excerpt is a rhetorical question posed by Ian Bremmer rather than a substantive claim he is making.",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "The USMCA trade agreement will not be renegotiated in the coming year and will instead be continuously postponed.",
+  "date": "2025-05-07",
+  "source_url": "https://www.youtube.com/watch?v=M6soZybuL48",
+  "note": "origin resweep removal: Excerpt shows speaker discussing USMCA but doesn't directly articulate the claim about renegotiation - appears to be responding to or referencing another topic",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "America will embrace the slow food movement",
+  "date": "2025-05-05",
+  "source_url": "https://www.youtube.com/watch?v=blslh7C8oys",
+  "note": "origin resweep removal: Excerpt shows speaker making a joke about fast food and Trump's McDonald's experience, not directly articulating the claim about America embracing slow food movement",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Trump",
+  "claim": "The US government will collect money from tariffs and redistribute it to the average American through tax breaks and direct payments to help offset inflation and rising prices.",
+  "date": "2025-04-07",
+  "source_url": "https://www.youtube.com/watch?v=2u5R05RbQMQ",
+  "note": "origin resweep removal: Quoted excerpt shows speaker is describing Trump's own policy statements, not his own claims",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Michael Waltz",
+  "claim": "The Trump administration will proceed with imminent attacks by the United States on the Houthis in Yemen",
+  "date": "2025-03-25",
+  "source_url": "https://www.youtube.com/watch?v=4PxUePweBwM",
+  "note": "origin resweep removal: The claim is presented as something that happened in a Signal chat, with the national security advisor inviting others to discuss imminent attacks - not Ian Bremmer's own statement",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Trump",
+  "claim": "President Trump will propose taking over the Gaza Strip and turning it into the Riviera of the Middle East.",
+  "date": "2025-02-15",
+  "source_url": "https://www.youtube.com/watch?v=ckckHnwHkfI",
+  "note": "origin resweep removal: Claim appears to be about Trump's actions during a press conference, not his own articulation of the claim - excerpt references 'President Trump' and 'Trump stuns the world'",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "The United States will take over Gaza and develop it into a new Riviera on the Mediterranean, with an investment of at least $20 billion.",
+  "date": "2025-02-10",
+  "source_url": "https://www.youtube.com/watch?v=rvWdXWf7W1Q",
+  "note": "origin resweep removal: Excerpt shows Bremmer discussing Trump's hypothetical Gaza playbook, not making the claim himself",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "Trump will make an announcement regarding Gaza development by himself if other regional states refuse to participate.",
+  "date": "2025-02-10",
+  "source_url": "https://www.youtube.com/watch?v=rvWdXWf7W1Q",
+  "note": "origin resweep removal: Bremmer describes what he believes Trump's strategy might be, but doesn't assert it as his own claim",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "Trump will impose 10% tariffs across the board on Chinese goods starting February 1, 2025",
+  "date": "2025-01-24",
+  "source_url": "https://www.youtube.com/watch?v=dfXxO4zWFk8",
+  "note": "origin resweep removal: Excerpt shows Bremmer reporting on what he expects will happen, not asserting it as his own claim",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Ian Bremmer",
+  "claim": "Mamani will become mayor of New York City in January.",
+  "date": "2025-11-21",
+  "source_url": "https://www.youtube.com/watch?v=9bSq1oUKl0c",
+  "note": "origin resweep removal: The excerpt shows Ian Bremmer stating that Mamani will become mayor, but this appears to be a factual announcement rather than his own substantive claim - the speaker is referring ",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "Notre Dame will automatically qualify for the college football championship tournament if they are ranked in the top 12 next year.",
+  "date": "2025-12-08",
+  "source_url": "https://www.youtube.com/watch?v=xWobgBGksEw",
+  "note": "origin resweep removal: Excerpt shows Ian Bremmer discussing Notre Dame's rules and strategy but doesn't contain the substantive claim about automatic qualification",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Trump",
+  "claim": "The United States will impose 100% tariffs on Canadian exports if Canada enters into a trade deal with China.",
+  "date": "2026-01-27",
+  "source_url": "https://www.youtube.com/watch?v=NXtThw7glYU",
+  "note": "origin resweep removal: Claim attributed to Trump, not Ian Bremmer",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Mark Carney",
+  "claim": "The US-led global order has ended, and there will be a vacuum in global leadership.",
+  "date": "2026-01-21",
+  "source_url": "https://www.youtube.com/watch?v=vzizGMSMPic",
+  "note": "origin resweep removal: Claim attributed to Mark Carney, not Ian Bremmer",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Marco Rubio",
+  "claim": "A deal between the U.S. and Cuba could resemble the 2015 opening by President Obama, except Trump would treat the economics as the end goal, not a step toward political change.",
+  "date": "2026-04-24",
+  "source_url": "https://www.youtube.com/watch?v=bmJnSKd6CTc",
+  "note": "origin resweep removal: Claim attributed to Marco Rubio, not Ian Bremmer",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Ian Bremmer",
+  "claim": "The ceasefire will last for at least two weeks.",
+  "date": "2026-04-08",
+  "source_url": "https://www.youtube.com/watch?v=c3se_stoj8Y",
+  "note": "origin resweep removal: Claim about ceasefire lasting at least two weeks is presented as a prediction about Trump's actions, but the excerpt shows Ian Bremmer discussing Trump's escalation and climb-down ",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Trump",
+  "claim": "China is rising and the United States is in decline, but this is due to Biden's policies, not Trump's.",
+  "date": "2026-05-15",
+  "source_url": "https://www.youtube.com/watch?v=Z1F1bb5uMt0",
+  "note": "origin resweep removal: The claim is attributed to Trump's statement, not Ian Bremmer's own view.",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Bill Gates",
+  "claim": "The US government will not slow down AI development despite support from over a thousand employees of frontier AI companies.",
+  "date": "2026-08-31",
+  "source_url": "https://www.youtube.com/watch?v=zIu5fxLlK3w",
+  "note": "origin resweep removal: The excerpt quotes Bill Gates and describes employees' concerns, not Ian Bremmer's own claim about US government action.",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Donald Trump",
+  "claim": "The United States will implement 50% tariffs on cars, trucks, auto parts, and steel starting January 1st.",
+  "date": "2026-08-24",
+  "source_url": "https://www.youtube.com/watch?v=XvZtLb03Pkw",
+  "note": "origin resweep removal: The excerpt attributes the claim to 'the United States President Trump' and describes his tweet, not Ian Bremmer's own statement.",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Michael",
+  "claim": "The cultural shift around psychedelics will continue, making therapeutic use more mainstream in the United States.",
+  "date": "2024-09-21",
+  "source_url": "https://www.youtube.com/watch?v=YkHm03ffnK8",
+  "note": "origin resweep removal: Claim attributed to Michael (not Peter) and Peter only references him as someone who helps orchestrate cultural change.",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Neil deGrasse Tyson",
+  "claim": "Robotically built AI autonomous colonies in space, such as those envisioned by Gerard K. O'Neal, will be constructed within the next 30 years.",
+  "date": "2024-09-18",
+  "source_url": "https://www.youtube.com/watch?v=Lv5nSJx0TXo",
+  "note": "origin resweep removal: Peter references Neil deGrasse Tyson's opinion but doesn't articulate the claim about O'Neal's colonies.",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Elon Musk",
+  "claim": "The cost of Mars missions will be funded primarily through private ventures, such as Starlink, rather than traditional government funding.",
+  "date": "2024-09-18",
+  "source_url": "https://www.youtube.com/watch?v=Lv5nSJx0TXo",
+  "note": "origin resweep removal: Peter references Elon Musk's Starlink venture but doesn't articulate the claim about funding Mars missions through private ventures.",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Dan Buettner",
+  "claim": "Given current progress and technological acceleration, people who are 63 years old (as of 2024-08-10) could potentially live to 101.",
+  "date": "2024-08-10",
+  "source_url": "https://www.youtube.com/watch?v=_BqcBJX5Xwg",
+  "note": "origin resweep removal: Excerpt shows Peter Diamandis responding to a question about Dan Buettner's claim, not making his own claim",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "RFK Jr. will become a presidential candidate and speak publicly about Bitcoin in a way that significantly impacts the political discourse around crypto regulation.",
+  "date": "2024-08-08",
+  "source_url": "https://www.youtube.com/watch?v=cfJW3WCZwgU",
+  "note": "origin resweep removal: The claim about RFK Jr. becoming a presidential candidate is presented as an assertion by Peter Diamandis about what others have said or done, not his own prediction",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "If Trump is elected, he will fire Gary Gensler, chairman of the SEC, within his first day in office.",
+  "date": "2024-08-08",
+  "source_url": "https://www.youtube.com/watch?v=cfJW3WCZwgU",
+  "note": "origin resweep removal: The claim about firing Gary Gensler is presented as a quote from someone else (presumably Trump) rather than Peter Diamandis's own prediction",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Cathie Wood",
+  "claim": "Elon Musk's xAI will leverage Tesla's data collection capabilities to become a competitive player in the AI wars.",
+  "date": "2024-08-03",
+  "source_url": "https://www.youtube.com/watch?v=yeaO6rjFNNo",
+  "note": "origin resweep removal: Claim attributed to Peter's guest (Cathie Wood) via 'we think' and 'our bull case'",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Cathie Wood",
+  "claim": "Proprietary data from Tesla and other companies will be one of the biggest competitive advantages in AI development.",
+  "date": "2024-08-03",
+  "source_url": "https://www.youtube.com/watch?v=yeaO6rjFNNo",
+  "note": "origin resweep removal: Claim attributed to Peter's guest (Cathie Wood) via 'we think' and 'our base'",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Cathie Wood",
+  "claim": "By 2030, Bitcoin will reach a price of $650,000 to $1.5 million per coin.",
+  "date": "2024-08-01",
+  "source_url": "https://www.youtube.com/watch?v=lnUpyE-k7Zk",
+  "note": "origin resweep removal: Claim attributed to Peter's guest (Cathie Wood) via 'our bull case' and 'our base'",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Cathie Wood",
+  "claim": "Tesla's Robo taxi will launch within the next 18 months to maybe two years.",
+  "date": "2024-07-30",
+  "source_url": "https://www.youtube.com/watch?v=1t-LuKyn4XQ",
+  "note": "origin resweep removal: Claim attributed to Peter's guest (Cathie Wood) via 'our confidence' and 'we think'",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Dave Asprey",
+  "claim": "A psychedelic called ketamine will be used as an optional add-on in personal development programs to enhance brain plasticity and reset old patterns.",
+  "date": "2024-07-29",
+  "source_url": "https://www.youtube.com/watch?v=SbU4XaTMbaQ",
+  "note": "origin resweep removal: Claim attributed to Peter's guest (Dave Asprey) via 'we're using' and 'we're going to use'",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "Gen AI workloads will continue to eat more and more compute internally at Google.",
+  "date": "2024-07-05",
+  "source_url": "https://www.youtube.com/watch?v=AbfMIHGjDqw",
+  "note": "origin resweep removal: The excerpt shows Peter Diamandis describing Google's computing infrastructure and GPU development but doesn't directly articulate the specific claim about Gen AI workloads eating ",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "There will be different nodes of the tech tree that need development imminently, using physics that's not quantum mechanical, and these will be more useful for Gen AI.",
+  "date": "2024-07-05",
+  "source_url": "https://www.youtube.com/watch?v=AbfMIHGjDqw",
+  "note": "origin resweep removal: The excerpt shows Peter Diamandis discussing quantum computing nodes and physics but doesn't directly articulate the specific claim about different tech tree nodes being needed for",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "David McAlvany",
+  "claim": "Gold will rise significantly when it enters the market, and we think it could go much higher than current levels.",
+  "date": "2026-07-22",
+  "source_url": "https://mcalvany.com/weekly-commentary/the-old-market-order-is-breaking-what-it-means-for-gold/",
+  "note": "origin resweep removal: Excerpt shows David McAlvany asking a question 'how high do we think gold might go when it does go?' rather than making a substantive claim himself - this is a question being posed",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Pierre",
+  "claim": "Gold could ultimately reach 17,250 an ounce, with the Dow-to-gold ratio compressing to 2-to-1.",
+  "date": "2026-07-01",
+  "source_url": "https://mcalvany.com/weekly-commentary/increasing-use-of-chinese-yuan-is-bullish-for-gold/",
+  "note": "origin resweep removal: Claim is attributed to Pierre, not David McAlvany",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Deutsche Bank",
+  "claim": "Gold can rise to $8,000 over the next five years.",
+  "date": "2026-05-06",
+  "source_url": "https://mcalvany.com/weekly-commentary/central-banks-gobble-up-gold-retail-buyers-yawn/",
+  "note": "origin resweep removal: Claim is attributed to Deutsche Bank, not David McAlvany",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "unattributed/third-party",
+  "claim": "The U.S. dollar's dominance as a global reserve currency will decline significantly, with countries like China and India moving away from holding U.S. Treasuries.",
+  "date": "2026-05-13",
+  "source_url": "https://mcalvany.com/weekly-commentary/the-new-unofficial-global-gold-standard/",
+  "note": "origin resweep removal: Claim appears to be about oil reserves depletion, not dollar dominance as stated in claim",
+  "removed_at": "2026-10-02"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "Japan's population has been shrinking for the last 20 years due to demographic failure",
+  "date": "2026-09-23",
+  "source_url": "https://www.youtube.com/watch?v=2qG5nrkkz1E",
+  "class": "SELF-REPORT",
+  "reason": "Describes a past/factual demographic trend in Japan, not a forward-looking claim.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The rest of the year will get really interesting due to this prize court initiative.",
+  "date": "2026-09-21",
+  "source_url": "https://www.youtube.com/watch?v=yBLbtMFgI-k",
+  "class": "UNCLEAR",
+  "reason": "'Really interesting' is not a specific, testable outcome. Cannot be judged right or wrong.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Ian Bremmer",
+  "claim": "The United States has been diminished as a global disrupter compared to where it was 12-18 months ago",
+  "date": "2026-09-21",
+  "source_url": "https://www.youtube.com/watch?v=bhtfC7iqbdo",
+  "class": "SELF-REPORT",
+  "reason": "The claim describes a current assessment of the US's geopolitical influence, not a forward-looking prediction.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Ian Bremmer",
+  "claim": "Anthropic, the AI company, revealed that it had blocked several users of its popular platform Claude from using its models to conduct research that could have helped develop dangerous biological weapons.",
+  "date": "2026-09-18",
+  "source_url": "https://www.youtube.com/watch?v=Fehm0E4RbzU",
+  "class": "SELF-REPORT",
+  "reason": "The claim reports a past action by Anthropic, not a forward-looking assertion.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Doomberg",
+  "claim": "National Gas has moved into the advanced engineering design phase for a 350-mile hydrogen pipeline linking St Fergus in northeast Scotland to Teesside on England's east coast, the gas transmission system operator said in a statement Sept. 17.",
+  "date": "2026-09-29",
+  "source_url": "https://newsletter.doomberg.com/p/going-with-the-flow",
+  "class": "SELF-REPORT",
+  "reason": "The claim describes a current project phase, not a forward-looking prediction.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Doomberg",
+  "claim": "National Gas plans to develop a 1,500-mile national hydrogen network connecting major industrial clusters and hydrogen production centers",
+  "date": "2026-09-29",
+  "source_url": "https://newsletter.doomberg.com/p/going-with-the-flow",
+  "class": "SELF-REPORT",
+  "reason": "The claim outlines a planned project phase, but the statement is about current planning, not a testable future outcome.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Doomberg",
+  "claim": "German Chancellor Friedrich Merz intends to keep pretending he has a mandate to lead, at least for now",
+  "date": "2026-09-22",
+  "source_url": "https://newsletter.doomberg.com/p/escalation-clauses",
+  "class": "SELF-REPORT",
+  "reason": "The claim describes a current political behavior, not a forward-looking assertion.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Doomberg",
+  "claim": "French President Emmanuel Macron's approval rating has fallen to a low of 16%",
+  "date": "2026-09-22",
+  "source_url": "https://newsletter.doomberg.com/p/escalation-clauses",
+  "class": "SELF-REPORT",
+  "reason": "Reporting a current/past observed fact about Macron's approval rating; not forward-looking.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Doomberg",
+  "claim": "Alberta Premier Danielle Smith will face significant political challenges in balancing natural gas exports with local consumer needs as she navigates a separatist referendum, trade war with the US, and growing demand from data-center builders.",
+  "date": "2026-09-16",
+  "source_url": "https://newsletter.doomberg.com/p/value-trap",
+  "class": "SELF-REPORT",
+  "reason": "Describes the current political and economic situation Smith is navigating; 'will face significant challenges' is vague analytical observation rather than a specific testable forecast.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Doomberg",
+  "claim": "The UK's position on the Falkland Islands will remain unwavering, with the islands continuing to be British as 'that is the overwhelming position of the Islanders.'",
+  "date": "2026-09-09",
+  "source_url": "https://newsletter.doomberg.com/p/falkland-around",
+  "class": "SELF-REPORT",
+  "reason": "Relaying a statement made by Ed Miliband about current official UK policy; not Doomberg's own forward-looking forecast.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Doomberg",
+  "claim": "The Caspian Pipeline Consortium (CPC) pipeline can currently carry roughly 1.4 million barrels per day (bpd) of oil to the Russian border and on to the Port of Novorossiysk on the coast of the Black Sea.",
+  "date": "2026-08-18",
+  "source_url": "https://newsletter.doomberg.com/p/over-target",
+  "class": "SELF-REPORT",
+  "reason": "This is describing a current factual state of a pipeline system, not a forward-looking prediction about world outcomes.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Doomberg",
+  "claim": "Recent studies estimate that up to 90 percent of sanctioned goods still reaching Russia transit through China.",
+  "date": "2026-07-31",
+  "source_url": "https://newsletter.doomberg.com/p/geopolitical-checkers",
+  "class": "SELF-REPORT",
+  "reason": "This is reporting a current factual estimate about trade routes, not a forward-looking prediction.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Doomberg",
+  "claim": "Russia imports approximately 12% of its peak summer gasoline demand through imports.",
+  "date": "2026-07-10",
+  "source_url": "https://newsletter.doomberg.com/p/sources-and-methods",
+  "class": "SELF-REPORT",
+  "reason": "Descriptive statement about current import levels, not a forward-looking claim.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "Housing prices in China are worth less today than they were at the start of the boom in 2005.",
+  "date": "2026-09-06",
+  "source_url": "https://www.youtube.com/watch?v=TU7KVw9j060",
+  "class": "SELF-REPORT",
+  "reason": "Present-tense factual statement citing official statistics about current housing valuations relative to 2005. Not forward-looking; describes an observed current condition.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Doomberg",
+  "claim": "Zero Energy Poverty by 2050 is a superior goal compared to Net Zero 2050.",
+  "date": "2024-11-17",
+  "source_url": "https://newsletter.doomberg.com/p/in-praise-of-chris-wright",
+  "class": "PERSONAL-POSITION",
+  "reason": "Opinion on policy goals without testable world-outcome forecast.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Doomberg",
+  "claim": "Alberta and Ottawa have signed a sweeping new energy accord that includes a pledge from Prime Minister Mark Carney’s government to shelve its oil and gas emissions cap, suspend clean power rules, and back a major indigenous-owned pipeline to get oil to Asian markets.",
+  "date": "2025-12-03",
+  "source_url": "https://newsletter.doomberg.com/p/alberta-unstuck",
+  "class": "SELF-REPORT",
+  "reason": "This describes an event that has already occurred (the signing of an accord) rather than making a forward-looking prediction.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Doomberg",
+  "claim": "The privately financed, indigenous co-owned bitumen pipeline will be capable of moving more than one million barrels per day to a deep-water port on the Pacific coast.",
+  "date": "2025-12-03",
+  "source_url": "https://newsletter.doomberg.com/p/alberta-unstuck",
+  "class": "SELF-REPORT",
+  "reason": "This describes a factual capacity of a pipeline that has already been constructed or is in development, not a forward-looking prediction.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Doomberg",
+  "claim": "The new EU oil price cap will be set at $47.60 per barrel",
+  "date": "2025-07-25",
+  "source_url": "https://newsletter.doomberg.com/p/paint-by-number",
+  "class": "SELF-REPORT",
+  "reason": "Describes a current policy decision already made by the EU (the excerpt confirms it 'is temporarily set at $47.60'). Not a forward-looking forecast but a report of an enacted policy.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Doomberg",
+  "claim": "China has made significant progress in building its home-grown semiconductor industry, perhaps even to the point of self-sufficiency.",
+  "date": "2024-12-16",
+  "source_url": "https://newsletter.doomberg.com/p/is-the-chip-war-already-lost",
+  "class": "SELF-REPORT",
+  "reason": "Present-tense observation about the current state of China's semiconductor industry; not forward-looking.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "Israel is currently getting the last word and has a leg up over Iran in this confrontation",
+  "date": "2024-09-25",
+  "source_url": "https://www.youtube.com/watch?v=2voHfoTp4A0",
+  "class": "SELF-REPORT",
+  "reason": "Present-tense observation ('at the moment') describing the current state of the confrontation, not a forward-looking forecast.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The Inflation Reduction Act investments in green energy will disproportionately flow to red states rather than purple states, with 75-80% of funding going to red states.",
+  "date": "2024-09-03",
+  "source_url": "https://www.youtube.com/watch?v=kBYggyc1hDI",
+  "class": "SELF-REPORT",
+  "reason": "The excerpt uses 'has gone into red States' (present perfect), indicating Zeihan is reporting on funding that has already been allocated, not forecasting a future outcome.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "A significant percentage of Mexican agricultural operations are now paying protection money to cartels, with a tenth to 15 percent of the tea industry in Mexico paying protection money.",
+  "date": "2024-08-16",
+  "source_url": "https://www.youtube.com/watch?v=CYlv4RWHhNc",
+  "class": "SELF-REPORT",
+  "reason": "Describes current events without a forward-looking forecast.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The United States has rested and recuperated from the war on terror, and its military isn't doing much from a military point of view right now—there are no occupations, there are no hot deployments.",
+  "date": "2024-07-26",
+  "source_url": "https://www.youtube.com/watch?v=AfYQzbEVDR8",
+  "class": "SELF-REPORT",
+  "reason": "This describes past/present military activity and situation, not a forward-looking prediction",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The polls currently being conducted are not predictive of the 2024 U.S. presidential election outcome due to methodological flaws and the absence of third-party candidates in polling data.",
+  "date": "2024-07-19",
+  "source_url": "https://www.youtube.com/watch?v=_KSQ5xKc4oM",
+  "class": "SELF-REPORT",
+  "reason": "Analyzes current polling limitations without asserting a testable future outcome.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The European Union was originally designed to promote democracy, create greater economic integration, and prevent democratic backsliding, but now, with a hot war on the doorstep, the nature of the challenge has changed and the tools that have been used to achieve success in the past no longer exist.",
+  "date": "2024-07-16",
+  "source_url": "https://www.youtube.com/watch?v=dVlGWzR93mo",
+  "class": "SELF-REPORT",
+  "reason": "Describes the historical design of the EU and the current changed nature of the challenge; present/past analytical observation rather than a specific testable future outcome.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The Indian government will have to form a coalition government after failing to secure a two-thirds majority in the upcoming election.",
+  "date": "2024-06-10",
+  "source_url": "https://www.youtube.com/watch?v=GAkE8WsbcQo",
+  "class": "SELF-REPORT",
+  "reason": "The excerpt ('they came at it under 50%') makes clear the election already occurred (results announced June 4, 2024; this is dated June 10). He is describing a past result and its immediate, near-cert",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The Russians are now targeting civilian areas with large bombs (Fab 1500, Fab 2500, Fab 3000) that have 6 to 10 to 20 times the explosive capacity of most U.S. bombs and are causing damage that will require months to over a year to rebuild.",
+  "date": "2024-06-06",
+  "source_url": "https://www.youtube.com/watch?v=qc2fVPuvrVw",
+  "class": "SELF-REPORT",
+  "reason": "Present-tense description of ongoing Russian bombing tactics and their effects; not a forward-looking forecast about a future world outcome.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The American economic system will be damaged longterm by the five things that Peter Zeihan is most concerned about in his Worry List",
+  "date": "2024-06-03",
+  "source_url": "https://www.youtube.com/watch?v=q2Jao5fuU6A",
+  "class": "PROMO",
+  "reason": "The excerpt is clearly a webinar promotion ('anyone who signs up will of course be able to attend the webinar...'). The 'claim' is a vague, self-referential teaser with no specific, testable forecast.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The highest end chips we have right now are rapidly approaching one nanometer and require 30,000 pieces and 100,000 manufacturing supply chain steps in 9,000 companies, with over half of these things being single point failures.",
+  "date": "2025-09-08",
+  "source_url": "https://www.youtube.com/watch?v=ucjOgpSrER0",
+  "class": "SELF-REPORT",
+  "reason": "Describes current semiconductor manufacturing complexity, not a future forecast.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The military will need to recruit from a broader pool of backgrounds and skill sets, including women, Black, Hispanic, and gay individuals, to avoid losing wars due to a shrinking pool of straight white males.",
+  "date": "2025-08-13",
+  "source_url": "https://www.youtube.com/watch?v=LCI0pxGStqo",
+  "class": "ADVICE",
+  "reason": "This is giving advice about military recruitment policy and serving as an exhortation to not limit certain groups from serving, rather than making a world-outcome prediction.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The United States does not have the military capacity to force regime change in Iran, and any ground invasion would require months of preparation.",
+  "date": "2025-06-26",
+  "source_url": "https://www.youtube.com/watch?v=VKWdcZ09Kak",
+  "class": "SELF-REPORT",
+  "reason": "Describes current military limitations and logistical realities.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The Sinaloa cartel, which was the largest drug trafficking organization on the planet, has been experiencing a slow motion disintegration since the capture of El Chapo under the Obama administration.",
+  "date": "2025-06-13",
+  "source_url": "https://www.youtube.com/watch?v=5buWjvOYLLM",
+  "class": "SELF-REPORT",
+  "reason": "This describes past events that the speaker observed or is reporting on - the capture of El Chapo and subsequent organizational changes. It's not a forward-looking prediction but rather a description ",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The shift from cocaine to fentanyl production has led to hundreds of small independent crime organizations rather than a few large cartels.",
+  "date": "2025-06-13",
+  "source_url": "https://www.youtube.com/watch?v=5buWjvOYLLM",
+  "class": "SELF-REPORT",
+  "reason": "This describes an observed phenomenon or trend that the speaker is reporting on - how drug production methods have changed and affected criminal organization structures. It's not a forward-looking pre",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The US needs to increase processing capacity on the continent by a factor of 20 to support reindustrialization.",
+  "date": "2025-05-30",
+  "source_url": "https://www.youtube.com/watch?v=0DG2vS6DcOM",
+  "class": "SELF-REPORT",
+  "reason": "Describes a current requirement/analytical observation about what is needed for reindustrialization; not a forward-looking testable prediction about what will happen, nor directed advice to the listen",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The relationship between India and the United States has reached its worst point in the last 30 years due to Trump administration's involvement in the India-Pakistan peace talks.",
+  "date": "2025-05-28",
+  "source_url": "https://www.youtube.com/watch?v=AW-dbnYmQ74",
+  "class": "SELF-REPORT",
+  "reason": "Present-tense observation describing the current state of U.S.-India relations; not a forward-looking prediction.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The Trump administration's handling of the India-Pakistan conflict has reversed years of effort to improve U.S.-India relations and move away from reliance on Pakistan.",
+  "date": "2025-05-28",
+  "source_url": "https://www.youtube.com/watch?v=AW-dbnYmQ74",
+  "class": "SELF-REPORT",
+  "reason": "Describes a past/present outcome (reversal of prior diplomatic work); not a forward-looking testable forecast.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The Russians want to close down the Office of Net Assessment at the Pentagon, which has been critical for long-term military planning and thinking forward.",
+  "date": "2025-03-22",
+  "source_url": "https://www.youtube.com/watch?v=aoZq4sAE1YQ",
+  "class": "SELF-REPORT",
+  "reason": "The excerpt reveals the office was already closed on March 14th; the speaker is reporting a past event and the Russians' reaction to it, not making a forward-looking forecast.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "Christian ultranationalists in the US administration are aligned with Russian interests and support Russia's actions in Ukraine, even if they conflict with traditional Western values.",
+  "date": "2025-03-20",
+  "source_url": "https://www.youtube.com/watch?v=GRyXhfu_ZUE",
+  "class": "SELF-REPORT",
+  "reason": "Present-tense analytical characterization of the current administration's alignment; describes an observed state of affairs rather than forecasting a future outcome.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The Russian government is actively encouraging Christian ultranationalist groups in the US and Europe as part of their broader propaganda efforts.",
+  "date": "2025-03-20",
+  "source_url": "https://www.youtube.com/watch?v=GRyXhfu_ZUE",
+  "class": "SELF-REPORT",
+  "reason": "Present-tense description of ongoing Russian propaganda activity the speaker has observed; not a forward-looking testable forecast.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The Ukrainian government has been reporting a tripling of casualties inflicted upon Russian artillery in the last five to six weeks.",
+  "date": "2024-07-29",
+  "source_url": "https://www.youtube.com/watch?v=JlRNLCq4HWE",
+  "class": "SELF-REPORT",
+  "reason": "This is a report about what the Ukrainian government has been saying, not a forecast about future world outcomes. It's describing past/present events observed by the speaker.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The Republican Party is in a period of flux and transformation, with the Trump-aligned faction pushing for significant changes to the party's traditional positions on social issues.",
+  "date": "2024-07-18",
+  "source_url": "https://www.youtube.com/watch?v=-YUndZPV20g",
+  "class": "SELF-REPORT",
+  "reason": "This describes the current state and observed trends within the Republican Party, not a forward-looking prediction about world outcomes.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "Iran has been 6 months away from having an active nuclear weapon for 25 years",
+  "date": "2024-05-20",
+  "source_url": "https://www.youtube.com/watch?v=W0H9JU7T1XM",
+  "class": "SELF-REPORT",
+  "reason": "This describes a past/present situation regarding Iran's nuclear program, not a forward-looking prediction about world outcomes.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The Russians have been successful in recent times with their penetration of the US government, and Tulsi Gabard, who was referred to as a 'nashal,' is now being called 'NVa chika' because she's now in a position where she can actually operate within the White House almost with impunity and change the information that is in front of the president.",
+  "date": "2025-03-17",
+  "source_url": "https://www.youtube.com/watch?v=rBgoNFd2LC0",
+  "class": "SELF-REPORT",
+  "reason": "Describes past/current Russian influence on a political figure, not a forward-looking claim.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The Russian intelligence services have been effective at manipulating American political figures and institutions, evidenced by their ability to influence policy outcomes that align with Russian interests.",
+  "date": "2025-03-17",
+  "source_url": "https://www.youtube.com/watch?v=rBgoNFd2LC0",
+  "class": "SELF-REPORT",
+  "reason": "Observation of past influence, not a testable future prediction.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The Senate has basically abdicated responsibility and confirmed the least qualified cabinet in American history, with all appointees getting through quickly and easily.",
+  "date": "2025-03-13",
+  "source_url": "https://www.youtube.com/watch?v=IY_ToG_Dr0k",
+  "class": "SELF-REPORT",
+  "reason": "This describes past events observed by the speaker about Senate actions and confirmations, not a forward-looking world outcome forecast.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "American policy changes both at home and abroad are being driven by something beyond conventional theory or policy incompetence",
+  "date": "2025-03-05",
+  "source_url": "https://www.youtube.com/watch?v=DymaE4kWnXI",
+  "class": "SELF-REPORT",
+  "reason": "Analyzes current policy dynamics without forecasting future outcomes.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The Russian educational system collapsed and the technical educational system collapsed actually before the Soviet Union collapsed and was never rebuilt post-Soviet, resulting in only a low single digit million number of people who could even theoretically leave the country with relevant skill sets.",
+  "date": "2025-02-18",
+  "source_url": "https://www.youtube.com/watch?v=FQEa7t-Jjgo",
+  "class": "SELF-REPORT",
+  "reason": "This describes past/factual conditions about Russia's educational system rather than making a forward-looking prediction.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "Donald Trump's inner circle lacks competence in key issues, leading to policy decisions that contradict his public statements.",
+  "date": "2025-01-29",
+  "source_url": "https://www.youtube.com/watch?v=C8ufCG-gIFs",
+  "class": "SELF-REPORT",
+  "reason": "This is a statement about Trump's inner circle's competence, which is a personal assessment rather than a forecast about world outcomes. It describes an observed situation rather than predicting futur",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The United States needs to expand its electrical grid by at least half and potentially double it in key areas like the Rocky Mountains, the South, and Texas within five years.",
+  "date": "2025-01-22",
+  "source_url": "https://www.youtube.com/watch?v=uxSVDZGfGIU",
+  "class": "ADVICE",
+  "reason": "Recommendation for infrastructure action, not a testable world-outcome forecast.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "Jared Kushner's business connections in the region played a key role in enabling the recent peace agreement.",
+  "date": "2025-10-21",
+  "source_url": "https://www.youtube.com/watch?v=ogcck-68i5A",
+  "class": "SELF-REPORT",
+  "reason": "This describes past events and observations about Kushner's influence on a peace agreement, not a forward-looking prediction.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "My fifth book, Acceptable Range, comes out around probably New Year's 2026-2027",
+  "date": "2025-11-07",
+  "source_url": "https://www.youtube.com/watch?v=a9QppzLsFTI",
+  "class": "PROMO",
+  "reason": "This is promoting the speaker's own book publication date and is not a forward-looking claim about world outcomes.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "General Kellogg will leave the administration, leaving Steve Witkoff as the primary figure handling Ukraine portfolio.",
+  "date": "2025-12-02",
+  "source_url": "https://www.youtube.com/watch?v=4G-uE63XENw",
+  "class": "SELF-REPORT",
+  "reason": "This describes a past or present event (person leaving office) rather than a forward-looking prediction about world outcomes.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The change before that, the Sha that only dated back to 1925. So of the six changes in continuity, we've had two in the last roughly century. This would argue that Iran is having a real problem adapting to the industrial revolution.",
+  "date": "2026-01-08",
+  "source_url": "https://www.youtube.com/watch?v=XCK1wmdicHA",
+  "class": "SELF-REPORT",
+  "reason": "This is describing past historical patterns and observations about Iran's adaptation to industrialization, not a forward-looking prediction.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The Chinese will continue to ship war material into Iran through the Persian Gulf, despite U.S. naval presence, unless the Trump administration takes action to block Chinese vessels from docking or trading.",
+  "date": "2026-03-07",
+  "source_url": "https://www.youtube.com/watch?v=Ta0Y5SqcJyc",
+  "class": "UNCLEAR",
+  "reason": "missing in LLM batch response",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The next generation down, Gen X, it's my generation. There just aren't enough of us to really move the needle even if we all could work an extra 5 years.",
+  "date": "2026-03-03",
+  "source_url": "https://www.youtube.com/watch?v=-lt9p7Df5MI",
+  "class": "PERSONAL",
+  "reason": "This is about the speaker's own generation and personal perspective on demographic trends, not a world outcome forecast.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "I am in the process of migrating my services over to patreon",
+  "date": "2024-10-18",
+  "source_url": "https://www.youtube.com/watch?v=vx-lg-7yVrk",
+  "class": "SELF-REPORT",
+  "reason": "This describes a past/present action the speaker is taking, not a forward-looking world outcome",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The financial transfer from Alberta to the rest of Canada has decreased in relative terms over the last 20 years due to increased immigration in Canada.",
+  "date": "2026-06-03",
+  "source_url": "https://www.youtube.com/watch?v=Et0mwzZj-_o",
+  "class": "SELF-REPORT",
+  "reason": "This is describing a past/ongoing economic situation rather than making a forward-looking prediction. It's reporting on historical trends.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Ian Bremmer",
+  "claim": "The level of tension here is extremely high and the level of trust has been reduced",
+  "date": "2025-02-14",
+  "source_url": "https://www.youtube.com/watch?v=KGJd2lxZovA",
+  "class": "SELF-REPORT",
+  "reason": "This describes the current state of affairs rather than making a forward-looking prediction about world outcomes.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Ian Bremmer",
+  "claim": "Trump's recent political losses in elections across New Jersey, New York, Virginia, and California indicate a decline in his influence and support within MAGA.",
+  "date": "2025-11-17",
+  "source_url": "https://www.youtube.com/watch?v=47mymgbAs1I",
+  "class": "SELF-REPORT",
+  "reason": "This describes past electoral outcomes and their implications for Trump's support, which is not a forward-looking world forecast.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Ian Bremmer",
+  "claim": "The United States is unilaterally withdrawing from its global leadership, and this is the reason why we're in a G0 world today.",
+  "date": "2026-05-15",
+  "source_url": "https://www.youtube.com/watch?v=Z1F1bb5uMt0",
+  "class": "SELF-REPORT",
+  "reason": "Descriptive analysis of current global power dynamics, not a forward-looking claim.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Ian Bremmer",
+  "claim": "The cheapest ticket for a group stage match in Miami will be $960",
+  "date": "2026-06-12",
+  "source_url": "https://www.youtube.com/watch?v=mTYDaaMFZhE",
+  "class": "SELF-REPORT",
+  "reason": "Descriptive statement about current ticket pricing, not a forecast.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Ian Bremmer",
+  "claim": "The Lebanese government is unable to assert authority over Hezbollah, which is more powerful than the state.",
+  "date": "2026-07-24",
+  "source_url": "https://www.youtube.com/watch?v=WMXj690zq28",
+  "class": "SELF-REPORT",
+  "reason": "Describes current state of power dynamics, not a future prediction.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Ian Bremmer",
+  "claim": "Russia's economy is increasingly geared toward sustaining the war, yet growth is slowing and the Russian Central Bank is now warning of a weaker outlook.",
+  "date": "2026-07-17",
+  "source_url": "https://www.youtube.com/watch?v=UpQwi4G9wXo",
+  "class": "SELF-REPORT",
+  "reason": "Describes current economic conditions and trends, not a future forecast.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Ian Bremmer",
+  "claim": "Lindsey Graham will continue to have significant influence over US foreign policy as a result of his close relationship with Trump.",
+  "date": "2026-07-13",
+  "source_url": "https://www.youtube.com/watch?v=v9llyU7WhHc",
+  "class": "SELF-REPORT",
+  "reason": "Assesses current political influence, not a future prediction.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Ian Bremmer",
+  "claim": "The United States and Israel went into this war together, with Israel pushing for it quite a bit and quite hard.",
+  "date": "2026-03-17",
+  "source_url": "https://www.youtube.com/watch?v=nHGigudjDtE",
+  "class": "SELF-REPORT",
+  "reason": "This describes past events that the speaker observed or experienced, not a forward-looking prediction about world outcomes",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "Children should be exposed to different ideas, technologies, and possibilities like AI and nanotechnology to help them think about what is possible.",
+  "date": "2024-10-01",
+  "source_url": "https://www.youtube.com/watch?v=y6aq6TVhueQ",
+  "class": "ADVICE",
+  "reason": "This is telling listeners what they should do (expose children to certain technologies) rather than making a world-outcome forecast",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "The best investments you make in children are exposing them to different ideas, different people, and taking them to work to see how you work.",
+  "date": "2024-10-01",
+  "source_url": "https://www.youtube.com/watch?v=y6aq6TVhueQ",
+  "class": "ADVICE",
+  "reason": "This is giving advice about what parents should do with their children rather than making a world-outcome prediction",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "The speaker will continue using the oral testosterone form (testosterone undecanoate) for six months to evaluate its effectiveness and potential benefits over injections.",
+  "date": "2024-09-29",
+  "source_url": "https://www.youtube.com/watch?v=srMWi1HVUeQ",
+  "class": "PERSONAL",
+  "reason": "Personal health regimen and self-experimentation timeline.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "The speaker's testosterone levels will remain within the range of 750 to 1100, with a peak around 1100, and will continue to monitor for side effects such as water retention or acne.",
+  "date": "2024-09-29",
+  "source_url": "https://www.youtube.com/watch?v=srMWi1HVUeQ",
+  "class": "PERSONAL",
+  "reason": "Personal health metrics and monitoring plan.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "The chronic inflammation in the body is the underlying cause of chronic diseases like diabetes, obesity, heart disease, depression and anxiety.",
+  "date": "2024-09-26",
+  "source_url": "https://www.youtube.com/watch?v=Br7OLJeVNf0",
+  "class": "SELF-REPORT",
+  "reason": "States a general health fact about inflammation as a cause of diseases, not a forward-looking claim.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "People who eat a cup of beans a day live about four years longer.",
+  "date": "2024-09-25",
+  "source_url": "https://www.youtube.com/watch?v=3s0Wo9RhPAU",
+  "class": "SELF-REPORT",
+  "reason": "States a general health observation, not a prediction.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "The average American eats about 240 pounds of meat a year, while people in blue zones eat about 20 pounds a year.",
+  "date": "2024-09-25",
+  "source_url": "https://www.youtube.com/watch?v=3s0Wo9RhPAU",
+  "class": "SELF-REPORT",
+  "reason": "Factual dietary comparison, not a prediction.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "People who can articulate their sense of purpose live about seven years longer than those who are rudderless in life.",
+  "date": "2024-09-23",
+  "source_url": "https://www.youtube.com/watch?v=M_mUOMjEhjg",
+  "class": "SELF-REPORT",
+  "reason": "States a general health observation about purpose and longevity.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "Optimists live up to 15% longer than pessimists.",
+  "date": "2024-09-23",
+  "source_url": "https://www.youtube.com/watch?v=M_mUOMjEhjg",
+  "class": "SELF-REPORT",
+  "reason": "General health claim about optimism and lifespan.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "Sunscreen should be applied even during short daily exposures such as walking to the car or getting coffee.",
+  "date": "2024-09-23",
+  "source_url": "https://www.youtube.com/watch?v=DqZkS_A7lHM",
+  "class": "ADVICE",
+  "reason": "Direct advice on sunscreen usage.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "The OS1 peptide is effective in penetrating the skin barrier and reaching the dermal layer.",
+  "date": "2024-09-22",
+  "source_url": "https://www.youtube.com/watch?v=-LCrXhzWb1w",
+  "class": "SELF-REPORT",
+  "reason": "This describes observed or tested effects of a peptide on skin penetration, which is about personal/medical product efficacy rather than world outcomes. It's reporting on what was detected.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "The peptide compound OS1 can decrease up to 40% the load of senescent cells in skin.",
+  "date": "2024-09-19",
+  "source_url": "https://www.youtube.com/watch?v=VsO4fNU7438",
+  "class": "SELF-REPORT",
+  "reason": "This describes personal experience with a product and its effects, which is about personal health regimen rather than world outcomes. It's reporting on what was observed personally.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "If we were being invaded by aliens, we would not require congressional hearings to establish that fact.",
+  "date": "2024-09-14",
+  "source_url": "https://www.youtube.com/watch?v=sCaHzMhfSJw",
+  "class": "SELF-REPORT",
+  "reason": "Hypothetical commentary on bureaucracy, not a testable prediction.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "If you go out into the middle of nowhere and work on something that winds up not being important, the world never comes to where you are, or you're just 10 years too early or five years too early.",
+  "date": "2024-08-30",
+  "source_url": "https://www.youtube.com/watch?v=2_NFbEcFnic",
+  "class": "SELF-REPORT",
+  "reason": "This is a personal reflection about past experiences and observations rather than a forward-looking claim about world outcomes.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "We are manufacturing about one humanoid robot per week in our facility in California.",
+  "date": "2024-08-22",
+  "source_url": "https://www.youtube.com/watch?v=dLGX93jT3rM",
+  "class": "SELF-REPORT",
+  "reason": "Describes current production activity without future forecasting.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "GPT search (e.g., GPT-4) is taking a bite out of Google's dominance in search.",
+  "date": "2024-08-16",
+  "source_url": "https://www.youtube.com/watch?v=Pfmphk_Ny1o",
+  "class": "SELF-REPORT",
+  "reason": "Current assessment of market competition, not a future forecast.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "I see everything as algorithms around me, and I'm constantly trying different algorithms that I see and in environments how people behave what they say in certain scenarios and then I try those algorithms on and see how they feel and I'm constantly iterating and adapting them, and that's where a huge part of my life was focused after the seventh grade.",
+  "date": "2024-08-12",
+  "source_url": "https://www.youtube.com/watch?v=rem02CJ8Jow",
+  "class": "PERSONAL",
+  "reason": "Personal cognitive framework description",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "The nasal spray ProFY will be investigated more rigorously in humans.",
+  "date": "2024-08-09",
+  "source_url": "https://www.youtube.com/watch?v=sybIEu2wjgI",
+  "class": "SELF-REPORT",
+  "reason": "Future research plan disclosure",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "The ancient Maya civilization collapsed due to a combination of overpopulation, resource depletion, and climatic stress, specifically droughts that triggered social unrest and warfare.",
+  "date": "2024-08-08",
+  "source_url": "https://www.youtube.com/watch?v=WuJ5lVAQ7UI",
+  "class": "SELF-REPORT",
+  "reason": "This is a historical analysis of the Maya civilization's collapse, describing past events and causes without making any forward-looking claims about world outcomes.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "I want to see where Starship takes me into the cosmos.",
+  "date": "2024-08-02",
+  "source_url": "https://www.youtube.com/watch?v=JkMDu65J4Do",
+  "class": "PERSONAL",
+  "reason": "This is a personal statement about the speaker's own intentions and desires regarding space travel, not a forecast about world outcomes.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "I want to upload myself.",
+  "date": "2024-08-02",
+  "source_url": "https://www.youtube.com/watch?v=JkMDu65J4Do",
+  "class": "PERSONAL",
+  "reason": "This is a personal statement about the speaker's own intentions and desires regarding self-uploading, not a forecast about world outcomes.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "MIT's academic culture has transitioned from a focus on Nobel prizes to a greater emphasis on entrepreneurship, with professors increasingly interested in starting companies.",
+  "date": "2024-07-25",
+  "source_url": "https://www.youtube.com/watch?v=HpxB4_NjVHU",
+  "class": "SELF-REPORT",
+  "reason": "Describes a historical/present shift in academic priorities, not a forward-looking forecast.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "Building muscle mass and strength is the number one thing to do in terms of reducing all-cause mortality.",
+  "date": "2024-07-18",
+  "source_url": "https://www.youtube.com/watch?v=ZYOetdjlnKQ",
+  "class": "ADVICE",
+  "reason": "Exhortation to listeners to prioritize muscle-building for mortality reduction.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "The bottom third of the population from a muscular perspective has a 50% increased mortality rate.",
+  "date": "2024-07-18",
+  "source_url": "https://www.youtube.com/watch?v=ZYOetdjlnKQ",
+  "class": "SELF-REPORT",
+  "reason": "States a statistical observation about current mortality rates linked to muscle mass.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "The body's ability to absorb more than 100g of protein in a single meal is a myth that has been debunked.",
+  "date": "2024-07-11",
+  "source_url": "https://www.youtube.com/watch?v=q2x5c3fH9uU",
+  "class": "SELF-REPORT",
+  "reason": "Corrects a prior belief based on recent research, not a forward-looking claim.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "Taking creatine with warm water increases its bioavailability.",
+  "date": "2024-07-11",
+  "source_url": "https://www.youtube.com/watch?v=q2x5c3fH9uU",
+  "class": "ADVICE",
+  "reason": "Provides a method for optimizing creatine absorption.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "Three or four major credible Pharma companies that realize this could be used for dengue fever and lots of other things in the developing world.",
+  "date": "2024-07-07",
+  "source_url": "https://www.youtube.com/watch?v=3kIyrcdhSuE",
+  "class": "SELF-REPORT",
+  "reason": "Describes current awareness of pharmaceutical companies, not a future forecast.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "The average maximum life expectancy of humans living in the first world, if you do everything right, is about 94.",
+  "date": "2024-06-27",
+  "source_url": "https://www.youtube.com/watch?v=vji6pMKMtAI",
+  "class": "SELF-REPORT",
+  "reason": "Factual statement about current/existing life expectancy data, not a forecast.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "The company Ideal Lab was in the process of building rockets and landers for a private lunar mission, with plans to use various launch vehicles including Taurus, Taurus XL, Athena II, and a Russian Dener rocket.",
+  "date": "2024-06-13",
+  "source_url": "https://www.youtube.com/watch?v=-Zv1eXcX2pc",
+  "class": "SELF-REPORT",
+  "reason": "Describes past/present actions (building rockets) without forward-looking testable claim.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "AI is much better than humans at seeing patterns and catching the minutia always on always paying attention.",
+  "date": "2024-06-04",
+  "source_url": "https://www.youtube.com/watch?v=qcJ-oiS6YtY",
+  "class": "SELF-REPORT",
+  "reason": "Present assertion about AI capabilities, not a prediction.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "AI can mitigate cognitive biases that humans have, such as those demonstrated in parole hearings where judges' biological state affected decisions.",
+  "date": "2024-06-04",
+  "source_url": "https://www.youtube.com/watch?v=qcJ-oiS6YtY",
+  "class": "SELF-REPORT",
+  "reason": "Present capability claim, not a forward-looking prediction.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "By the time this presentation was made, 200 cats with hats could be generated per second using a distillation model.",
+  "date": "2024-05-10",
+  "source_url": "https://www.youtube.com/watch?v=8B3akaUg--s",
+  "class": "SELF-REPORT",
+  "reason": "Describes a current technical capability at the time of the statement.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Doomberg",
+  "claim": "Gold is signaling a massive regime change in global finance.",
+  "date": "2026-05-14",
+  "source_url": "https://www.youtube.com/watch?v=c6z64C7aGmo",
+  "class": "NOT-FOUND",
+  "reason": "The provided context contains a discussion about geopolitics, wars, and global power shifts, but there is no mention of gold or any claim that gold is signaling a massive regime change in global finance. Therefore the prediction cannot be located in the source text.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "AI agents will automate 30% of knowledge work by end of 2026. The shift has already begun.",
+  "date": "2026-05-16",
+  "source_url": "https://www.youtube.com/watch?v=ChHnxi2JyHE",
+  "class": "REPORTED",
+  "reason": "The context mentions '30% of knowledge work automated' but does not specify a timeframe (2026) or explicitly attribute this as a forecast. The prediction adds the 'by end of 2026' claim and 'shift has begun' which are not present in the context. The stored excerpt is a fragment that lacks temporal s",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Doomberg",
+  "claim": "The UK government will take emergency control of British Steel's last remaining blast furnace operations in Scunthorpe.",
+  "date": "2025-04-23",
+  "source_url": "https://newsletter.doomberg.com/p/let-ed-run-it",
+  "class": "PAST-FACT",
+  "reason": "The claim predicts a future emergency takeover, but the context reports that the UK government has already taken effective control of the blast furnace operations, describing a past event rather than a forward‑looking forecast.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Doomberg",
+  "claim": "Global demand for oil, natural gas, and coal are all at record levels and rising – no energy transition has begun.",
+  "date": "2024-11-17",
+  "source_url": "https://newsletter.doomberg.com/p/in-praise-of-chris-wright",
+  "class": "REPORTED",
+  "reason": "The claim appears verbatim as the 6th 'Key Takeaway' in a policy document published by Liberty Energy, which is being reported on by the article. The article attributes the statement to the policy document rather than asserting it independently.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Doomberg",
+  "claim": "The cost of war risk insurance for ships sailing through the Black Sea will rise to at least 0.75% of a ship's value.",
+  "date": "2025-12-11",
+  "source_url": "https://newsletter.doomberg.com/p/yesterdays-war",
+  "class": "REPORTED",
+  "reason": "The claim is attributed to Marcus Baker of Marsh in a quoted statement ('...Marcus Baker...told the Financial Times...'), making it a reported forecast from an external source. The stored prediction incorrectly frames this as a future claim ('will rise'), but the context shows the increase is alread",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The Inflation Reduction Act investments in green energy will disproportionately flow to red states rather than purple states, with 75-80% of funding going to red states.",
+  "date": "2024-09-03",
+  "source_url": "https://www.youtube.com/watch?v=kBYggyc1hDI",
+  "class": "PAST-FACT",
+  "reason": "The context explicitly states that '75 to 80% of the investment from the inflation reduction act has gone into red States' (past tense), not a future prediction. The stored claim misrepresents this as a forward-looking forecast ('will disproportionately flow'), making it incompatible with the source",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The European Union will buy $750 billion in American energy products over 3 years.",
+  "date": "2025-08-11",
+  "source_url": "https://www.youtube.com/watch?v=6fQRjD8bCNg",
+  "class": "REPORTED",
+  "reason": "The claim is presented as part of an agreement between Trump and the Europeans ('Trump has announced and the Europeans have said...'), making it a reported forecast rather than the speaker's own assertion. The speaker critiques its feasibility but does not frame it as their own claim.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "If Taiwan is invaded, the United States will respond militarily in kind, with military options being the goto response.",
+  "date": "2025-06-11",
+  "source_url": "https://www.youtube.com/watch?v=a1tAGoynS8U",
+  "class": "REPORTED",
+  "reason": "The speaker attributes the forecast to Defense Secretary Pete Hegsath ('defense secretary Pete Hegsath has said... If Taiwan is invaded, of course the United States will respond in kind...'), so it is not the speaker's own claim.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The Russian Federation will attempt to use historical negotiations from the 1990s to justify rolling back NATO and Ukraine agreements to at least 2007, or even 1989.",
+  "date": "2025-03-23",
+  "source_url": "https://www.youtube.com/watch?v=L8_VYVE2epk",
+  "class": "REPORTED",
+  "reason": "The prediction is presented as the Russian delegation's stated position in negotiations ('they want to roll back...'), not as the speaker's own assertion. The context explicitly attributes the forecast to Russian actions/claims ('we're already seeing the early stages of the Russians setting up their",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The United States will impose 20% tariffs on China, and this will lead to a decline in investment in China",
+  "date": "2025-03-20",
+  "source_url": "https://www.youtube.com/watch?v=CTX2RLKZyqY",
+  "class": "PAST-FACT",
+  "reason": "The claim describes tariffs as already existing ('we now have 20% tariffs') and their impact as a current/present-tense observation ('the case for investment in China drops'), not a forward-looking forecast. The stored prediction incorrectly frames this as a future action.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The Russian intelligence system will remain a key tool for maintaining control over occupied populations and shaping policy through disinformation and surveillance.",
+  "date": "2025-03-14",
+  "source_url": "https://www.youtube.com/watch?v=Ce0rodtWEuc",
+  "class": "NOT-FOUND",
+  "reason": "The prediction claim contains a forward-looking assertion about the Russian intelligence system 'remaining' a key tool in the future. However, the context only discusses the system's current use ('it's very much in use today') without explicitly stating or implying a future continuation. The stored ",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "TSMC's facilities in Arizona will begin operating at higher recovery rates, specifically 94% coherent, which represents an important technological jump.",
+  "date": "2024-12-09",
+  "source_url": "https://www.youtube.com/watch?v=sDIpSPflMQo",
+  "class": "PAST-FACT",
+  "reason": "The source text states that the TSMC facility is already 94% coherent, describing a present fact rather than a future forecast. The claim in the prediction implies a future change ('will begin operating at higher recovery rates'), which is not supported by the context.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The Biden Administration will continue to enforce strict technological barriers against China, particularly in advanced semiconductor manufacturing, through targeted sector sanctions and international cooperation.",
+  "date": "2024-11-22",
+  "source_url": "https://www.youtube.com/watch?v=GkuxNg-j6uI",
+  "class": "NOT-FOUND",
+  "reason": "The transcript only describes past actions and the Biden Administration's current 'surgical' approach to tech barriers; it does not contain a forward‑looking statement that the administration will continue to enforce strict technological barriers against China. The stored claim is an inferred predic",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "Saudi Arabia may put up to 3 million barrels of oil per day on the market to drive prices down and grab market share.",
+  "date": "2024-10-25",
+  "source_url": "https://www.youtube.com/watch?v=c6xGgzs2szQ",
+  "class": "REPORTED",
+  "reason": "The claim attributes the forecast to Saudi Arabia's stated intentions ('they're indicating that they're willing to put...'), rather than the speaker asserting it as their own prediction. The phrasing 'they're indicating' clearly frames this as a reported claim.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "Spain will continue to experience demographic stabilization through immigration, with its population increasing by about 5 million to roughly 47 million today and its average age stabilizing in the mid-40s.",
+  "date": "2026-07-30",
+  "source_url": "https://www.youtube.com/watch?v=QJxKnIYmBxc",
+  "class": "PAST-FACT",
+  "reason": "The source text only describes the current situation—Spain’s population has increased by about 5 million to roughly 47 million and the average age has stabilized in the mid‑40s. It does not contain a forward‑looking prediction that this trend will continue, so the claim is not a forecast present in ",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The Koreans will be producing millions of drones a year within few years",
+  "date": "2026-07-16",
+  "source_url": "https://www.youtube.com/watch?v=7JFzDkpkxGQ",
+  "class": "REPORTED",
+  "reason": "The speaker is relaying what South Koreans claim they will do ('when the Koreans say they're going to be producing millions of drones a year within few years'), not asserting the forecast themselves.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Ian Bremmer",
+  "claim": "There is a significant chance that Iran will retaliate with 'special operations in kind,' which implies civilian government targets in Israel, potentially leading to broader conflict between Iran and Israel.",
+  "date": "2024-07-31",
+  "source_url": "https://www.youtube.com/watch?v=v-3do4toa4o",
+  "class": "REPORTED",
+  "reason": "The prediction is attributed to the Iranian Permanent Mission in the UN via Ian Bremer's reporting ('the Iranian permanent mission in the UN will say said Special Operations...'). The speaker does not assert this forecast in their own voice but relays it as an external statement.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Ian Bremmer",
+  "claim": "Biden will likely step down from the presidential race due to the poor performance in the debate and increasing pressure from within the Democratic Party.",
+  "date": "2024-06-28",
+  "source_url": "https://www.youtube.com/watch?v=-xABj0wKiBU",
+  "class": "NOT-FOUND",
+  "reason": "The speaker never asserts that Biden will step down. The transcript only reports inbound questions about a possible step‑down and discusses pressure, but does not contain a forward‑looking claim that Biden will likely leave the race.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Ian Bremmer",
+  "claim": "Milei's economic reforms will lead to continued budget surplus in Argentina.",
+  "date": "2024-05-06",
+  "source_url": "https://www.youtube.com/watch?v=xXshizAYApQ",
+  "class": "PAST-FACT",
+  "reason": "The context excerpt describes a past event (first budget surplus in over a decade) but does not make any forward-looking claim about 'continued' surplus. The prediction's claim about future continuation is not substantiated in the source text, which only references a completed past achievement.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Ian Bremmer",
+  "claim": "The United States will take control of the Panama Canal",
+  "date": "2024-12-23",
+  "source_url": "https://www.youtube.com/watch?v=cSLyBylRG6k",
+  "class": "REPORTED",
+  "reason": "The prediction is attributed to Donald Trump's statements, not the speaker's own assertion. The context explicitly frames the claim as Trump's position ('he wants it back'), which the speaker is reporting rather than asserting directly.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Ian Bremmer",
+  "claim": "Most South American countries will continue to support the removal of Maduro and the new government in Venezuela.",
+  "date": "2026-02-10",
+  "source_url": "https://www.youtube.com/watch?v=kaLd_fyHWEc",
+  "class": "PAST-FACT",
+  "reason": "The passage describes current or past support from South American populations for actions against Maduro, without making a forward‑looking prediction that they will continue to support removal of Maduro and a new government.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Ian Bremmer",
+  "claim": "The United States will declare victory in the Iran war quickly and look for an off-ramp.",
+  "date": "2026-03-10",
+  "source_url": "https://www.youtube.com/watch?v=a_ME1g2U7NI",
+  "class": "REPORTED",
+  "reason": "The speaker (Ian Bremmer) is describing President Trump's desire to declare victory, not asserting his own forecast that the United States will actually do so. This is a relayed intention rather than a personal prediction.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Ian Bremmer",
+  "claim": "The Kim family will continue to rule North Korea for at least one more generation.",
+  "date": "2026-04-17",
+  "source_url": "https://www.youtube.com/watch?v=xtxzSDXZM1c",
+  "class": "NOT-FOUND",
+  "reason": "The transcript only poses a question about whether the regime can survive a fourth‑generation leader; it does not contain a statement by the speaker that the Kim family will definitely continue to rule for another generation.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Ian Bremmer",
+  "claim": "The Hungarian people will see improvements in governance and reduced kleptocracy under the new government led by Peter Magyar.",
+  "date": "2026-04-13",
+  "source_url": "https://www.youtube.com/watch?v=Dmx5OWtTn2g",
+  "class": "NOT-FOUND",
+  "reason": "The prediction claim about future improvements in governance and reduced kleptocracy under Magyar is not explicitly stated in the context. The context only describes Magyar's break with Orbán due to past corruption but does not assert a forecast about future governance outcomes.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Ian Bremmer",
+  "claim": "The Strait of Hormuz will be reopened by Friday, the date set for the signing ceremony.",
+  "date": "2026-06-15",
+  "source_url": "https://www.youtube.com/watch?v=dUwnKWL5D2A",
+  "class": "NOT-FOUND",
+  "reason": "The transcript does not contain a statement by Ian Bremmer asserting that the Strait of Hormuz will be reopened by Friday. He only notes that a signing ceremony is currently scheduled for Friday and expresses uncertainty about whether the reopening will occur then.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Ian Bremmer",
+  "claim": "Russia's economy is increasingly geared toward sustaining the war, yet growth is slowing and the Russian Central Bank is now warning of a weaker outlook.",
+  "date": "2026-07-17",
+  "source_url": "https://www.youtube.com/watch?v=UpQwi4G9wXo",
+  "class": "REPORTED",
+  "reason": "The passage reports observations about Russia's economy and cites the Russian Central Bank's warning; it is not the speaker's own forward‑looking forecast but a description of others' statements.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Ian Bremmer",
+  "claim": "Oil prices will spike and remain higher due to disruption in the Strait of Hormuz.",
+  "date": "2026-07-14",
+  "source_url": "https://www.youtube.com/watch?v=_BDADmMULhg",
+  "class": "PAST-FACT",
+  "reason": "The context describes current price spikes as a result of ongoing disruption in the Strait of Hormuz, but does not explicitly state that prices will 'remain higher' in the future. The prediction claim adds a forward-looking assertion ('will spike and remain higher') not directly supported by the con",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "The best investments you make in children are exposing them to different ideas, different people, and taking them to work to see how you work.",
+  "date": "2024-10-01",
+  "source_url": "https://www.youtube.com/watch?v=y6aq6TVhueQ",
+  "class": "PAST-FACT",
+  "reason": "The statement is advice about how to invest in children, not a forward‑looking prediction about a future event or outcome. It does not constitute a forecast, so it should be removed from the prediction‑tracking site.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "The regulatory environment for Bitcoin will shift significantly, allowing major banks like Morgan Stanley to actively promote Bitcoin ETFs to clients.",
+  "date": "2024-09-27",
+  "source_url": "https://www.youtube.com/watch?v=Emcpi2rFgZ8",
+  "class": "PAST-FACT",
+  "reason": "The source text only reports that Morgan Stanley is currently allowing wealth advisors to pitch Bitcoin ETFs, which is a present fact, not a forward‑looking forecast made by the speaker. The stored claim is a prediction about a future regulatory shift, which is not present in the transcript.",
+  "removed_at": "2026-10-03"
+ }
 ]

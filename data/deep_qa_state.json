@@ -1,5 +1,5 @@
 {
- "stage": "A",
+ "stage": "B_applied",
  "batch_idx": 3,
  "results": [
   {
@@ -195,5 +195,17 @@
    "reason": "Forward-looking claim about US-China geopolitical strategy and meeting outcomes."
   }
  ],
- "errors": []
+ "errors": [],
+ "counts": {
+  "OWNS": 313,
+  "UNJUDGED-KEPT": 1001,
+  "NOT-FOUND": 7,
+  "REPORTED": 12,
+  "PAST-FACT": 10,
+  "KEEP-REVISED": 8,
+  "OWN": 1
+ },
+ "removed": 29,
+ "pool_size": 210,
+ "kept": 1323
 }
