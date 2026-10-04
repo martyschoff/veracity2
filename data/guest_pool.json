@@ -1804,5 +1804,338 @@
   "class": "PAST-FACT",
   "reason": "The source text only reports that Morgan Stanley is currently allowing wealth advisors to pitch Bitcoin ETFs, which is a present fact, not a forward‑looking forecast made by the speaker. The stored claim is a prediction about a future regulatory shift, which is not present in the transcript.",
   "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Doomberg",
+  "claim": "German Chancellor Friedrich Merz intends to keep pretending he has a mandate to lead, at least for now",
+  "date": "2026-09-22",
+  "source_url": "https://newsletter.doomberg.com/p/escalation-clauses",
+  "class": "REPORTED",
+  "reason": "The prediction claim attributes the 'pretending he has a mandate' phrasing to the author's interpretation of Merz's actions, not a direct quote or first-person assertion from Merz. The context shows Merz 'vowed to stay in office to press ahead with reforms' (his own statement), but the 'pretending' ",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Doomberg",
+  "claim": "Zero Energy Poverty by 2050 is a superior goal compared to Net Zero 2050.",
+  "date": "2024-11-17",
+  "source_url": "https://newsletter.doomberg.com/p/in-praise-of-chris-wright",
+  "class": "REPORTED",
+  "reason": "The claim is presented as the 10th 'Key Takeaway' from Liberty Energy's policy document, which is explicitly attributed to Wright's company. The article frames this as part of Wright's policy positions but does not assert it in its own voice.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Doomberg",
+  "claim": "China will pull back from its current sphere of influence in the Western Hemisphere, effectively returning it to American dominance.",
+  "date": "2025-09-10",
+  "source_url": "https://newsletter.doomberg.com/p/mosaic-theory",
+  "class": "REPORTED",
+  "reason": "The prediction is framed as a speculative 'what if' question posed by the author, not an owned assertion. The context excerpt explicitly uses conditional phrasing ('What if...') and presents the scenario as a hypothetical for analysis, not a direct claim.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Doomberg",
+  "claim": "Huawei's Ascend 910D AI chip will surpass Nvidia's H100 processor performance.",
+  "date": "2025-05-06",
+  "source_url": "https://newsletter.doomberg.com/p/on-the-ascend",
+  "class": "REPORTED",
+  "reason": "The claim is explicitly attributed to Huawei via 'Huawei claims...' in the context, indicating the author is reporting an external entity's forecast rather than asserting it themselves.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Doomberg",
+  "claim": "A demo project charging trains at Pueblo and plugging into the grid at Denver’s Cherokee power station could be ready by 2026.",
+  "date": "2025-01-03",
+  "source_url": "https://newsletter.doomberg.com/p/freighthopping",
+  "class": "QUOTED",
+  "reason": "The prediction is presented in quotation marks as a direct statement from SunTrain, Gov. Polis, and others, not in the author's own voice. The context excerpt confirms this attribution.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Doomberg",
+  "claim": "In 2035, freight line haul locomotives with engine build dates of 2035 or newer will need to be operated in a zero-emission configuration in California.",
+  "date": "2024-06-12",
+  "source_url": "https://newsletter.doomberg.com/p/low-carb-diet",
+  "class": "QUOTED",
+  "reason": "The prediction is presented as a direct quote from the CARB executive officer describing the regulation's intent. The context explicitly frames the claim as part of CARB's proposed rule, quoted within the article.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "Hurricane Helene will cause storm surges in excess of 15 feet, possibly reaching 20 feet, in the Florida Big Bend area.",
+  "date": "2024-09-27",
+  "source_url": "https://www.youtube.com/watch?v=Wr-1PgxbQeA",
+  "class": "REPORTED",
+  "reason": "The speaker uses 'they're expecting' to describe the storm surge forecast, indicating the claim is attributed to unspecified third parties (likely meteorological authorities) rather than asserted in their own voice. The context excerpt confirms this phrasing.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The Navy's Replicator Initiative will be online in prototype form within two years from the upload date (2024-08-19).",
+  "date": "2024-08-19",
+  "source_url": "https://www.youtube.com/watch?v=BEnA9ixpuKk",
+  "class": "REPORTED",
+  "reason": "The claim is attributed to 'the Navy' via 'according to the Navy', indicating it is a reported statement rather than the speaker's own assertion. The context explicitly frames the timeline as the Navy's stated goal.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "India will continue to face high tariffs from the United States, potentially rising above 50% due to deteriorating relations with Russia.",
+  "date": "2025-08-26",
+  "source_url": "https://www.youtube.com/watch?v=9dhViZjP9BQ",
+  "class": "REPORTED",
+  "reason": "The prediction is explicitly attributed to Trump's statement ('Trump has said it's probably going to go up'), not the speaker's own assertion. The speaker is reporting someone else's forecast.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "If countries join BRICS, they will face an additional 10% tariff on all trade with the United States.",
+  "date": "2025-07-15",
+  "source_url": "https://www.youtube.com/watch?v=LSNDs13EkL0",
+  "class": "REPORTED",
+  "reason": "The claim is presented as a direct statement from Donald Trump ('Donald Trump today said...'), which is attributed to him but not asserted in the speaker's own voice. The source text reports Trump's forecast rather than making it independently.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The Trump administration will implement a two-tiered tariff system where 20% tariffs are applied to standard trade from Vietnam and 40% tariffs are applied to transshipment trade originating from China through Vietnam.",
+  "date": "2025-07-11",
+  "source_url": "https://www.youtube.com/watch?v=V3jRuaHNeOo",
+  "class": "REPORTED",
+  "reason": "The speaker describes the Trump administration's actions ('seems to be doing') and evaluates proposed tariff numbers ('20%... 40%'), but does not assert these as their own claims. The prediction is framed as an analysis of what the administration is implementing, not as a first-person forecast.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The United States will not invest $600 billion in Saudi Arabia as a condition for continued security support.",
+  "date": "2025-06-10",
+  "source_url": "https://www.youtube.com/watch?v=JHM8BlDNtaA",
+  "class": "QUOTED",
+  "reason": "The prediction claim misstates the direction of investment. The context excerpt shows Donald Trump explicitly stating that Saudi Arabia must invest $600 billion in the U.S. as a condition for U.S. involvement, not the U.S. investing in Saudi Arabia. The stored claim reverses this relationship, makin",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "Turkey will become the dominant power in Eurasia in the not-too-distant future under the leadership of Ederan.",
+  "date": "2025-06-05",
+  "source_url": "https://www.youtube.com/watch?v=PfKoTHwE72E",
+  "class": "REPORTED",
+  "reason": "The prediction attributes dominance to 'Turkey' under Ederan, but the context states Eran is hoping to be the 'dominant personality' in Eurasia. The claim misrepresents the source by conflating personal ambition with national power projection. While the context implies Turkey's strategic position, i",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "Iran has been 6 months away from having an active nuclear weapon for 25 years",
+  "date": "2024-05-20",
+  "source_url": "https://www.youtube.com/watch?v=W0H9JU7T1XM",
+  "class": "REPORTED",
+  "reason": "The prediction is presented as 'supposedly' Iran has been 6 months away from a nuke for 25 years, indicating the speaker is relaying others' claims (intelligence agencies, media narratives) rather than asserting it as their own analysis. The host explicitly critiques these claims as overblown.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The PKK will disarm and dissolve its military arm, becoming a political party.",
+  "date": "2025-03-12",
+  "source_url": "https://www.youtube.com/watch?v=Zop0Yx6ZY5s",
+  "class": "REPORTED",
+  "reason": "The prediction is attributed to Abdullah Ocalan's statements, not the speaker's own assertion. The speaker reports Ocalan's call for disarmament, but does not claim it as their own forecast.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The lithium extraction from Arkansas could lead to a significant increase in global lithium supplies, potentially enough to supply global needs for a factor of 9.",
+  "date": "2024-11-12",
+  "source_url": "https://www.youtube.com/watch?v=cGi56c_AoK0",
+  "class": "REPORTED",
+  "reason": "The claim is attributed to 'they think' in the context, indicating it is a reported forecast from others (likely experts/analysts) rather than the speaker's own assertion. The phrasing 'they think that there's more than enough lithium there...' clearly frames this as a third-party analysis.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "Countries in the BRICS alliance have no interest in creating an alternative to the US dollar system.",
+  "date": "2024-11-07",
+  "source_url": "https://www.youtube.com/watch?v=h23tNmqjdRs",
+  "class": "REPORTED",
+  "reason": "The claim is based on statements attributed to the South African, Indian, and Chinese delegations at the BRICS Summit, not the speaker's own assertion. The speaker explicitly frames these as the delegations' positions ('they said they have no interest').",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "Exxon Mobil's use of petroleum coke as proppant will increase well output by 10 to 30% in some wells.",
+  "date": "2025-11-19",
+  "source_url": "https://www.youtube.com/watch?v=cythBGQJ4Us",
+  "class": "PAST-FACT",
+  "reason": "The context states that Exxon 'has seen their numbers increase by 10 to 20 to maybe even 30% in some wells,' describing a past result rather than a forward-looking forecast. The prediction claim ('will increase') misrepresents the context's past-tense observation as a future prediction.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "Less than 1% of the world's lithium will come out of Bolivia despite having arguably the best deposits on the planet.",
+  "date": "2025-11-02",
+  "source_url": "https://www.youtube.com/watch?v=Aocv_p0Gs8k",
+  "class": "PAST-FACT",
+  "reason": "The context excerpt states a current factual observation ('comes out') about Bolivia's lithium production, not a forward-looking prediction. The stored claim incorrectly frames this as a future forecast ('will come out'), misrepresenting the nature of the statement in the source text.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The conflict will last four to five weeks.",
+  "date": "2026-03-04",
+  "source_url": "https://www.youtube.com/watch?v=eaiVWS0p5jU",
+  "class": "REPORTED",
+  "reason": "The prediction is attributed to Secretary of State Rubio via the speaker's narration ('he expected'), making it a reported forecast rather than an original claim.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "Cuba will experience rolling blackouts that last more than 20 hours a day, even in Havana.",
+  "date": "2026-05-22",
+  "source_url": "https://www.youtube.com/watch?v=8Jy4HBYixz8",
+  "class": "PAST-FACT",
+  "reason": "The context describes current rolling blackouts in Cuba ('we are seeing...'), not a future prediction. The stored claim uses future tense ('will experience'), but the text only reports ongoing present conditions with no explicit forward-looking claim.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "The United States will not send significant military assets to NATO in the event of a war, including carriers, carrier aircraft, precision munitions, logistical supply, or limited satellite support.",
+  "date": "2026-06-26",
+  "source_url": "https://www.youtube.com/watch?v=9c1uWPc-DFc",
+  "class": "REPORTED",
+  "reason": "The prediction is attributed to Pete Hegseth (US Defense Secretary) through Peter Zeihan's narration, not asserted in Zeihan's own voice. The context explicitly states this is Hegseth's official position ('Hegseth says that the United States wants to operate...').",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "Armenia will seek assistance from the United States to secure nuclear fuel for its aging nuclear power plant.",
+  "date": "2026-06-11",
+  "source_url": "https://www.youtube.com/watch?v=09jlDRGlK4s",
+  "class": "REPORTED",
+  "reason": "The prediction is based on a statement attributed to J.D. Vance (\"we will provide nuclear fuel to your facility\") rather than Peter Zeihan's own assertion. The context explicitly frames this as a U.S. offer, not Armenia's active pursuit. The stored claim misrepresents the source by implying Armenia ",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Ian Bremmer",
+  "claim": "If Donald Trump loses the 2024 election, he will claim the system is rigged and that the Democratic Party has politicized legal cases against him to prevent his victory.",
+  "date": "2024-06-17",
+  "source_url": "https://www.youtube.com/watch?v=gsdNZzgOGf8",
+  "class": "REPORTED",
+  "reason": "The prediction is presented as Trump's stated position ('Trump's view... is that the indictments... are politicized by the Democratic Party') and his ongoing narrative ('if he loses, it's obviously rigged'). The speaker (Ian Bremmer) is analyzing and reporting Trump's claims, not asserting them in h",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Ian Bremmer",
+  "claim": "Trump will suspend federal funding for Harvard and all international students' visas, including those in the middle of their degrees.",
+  "date": "2025-05-27",
+  "source_url": "https://www.youtube.com/watch?v=occ80F13gXI",
+  "class": "REPORTED",
+  "reason": "The prediction is framed as Trump's own decision ('has decided') but is presented in third-person narration by Ian Bremmer, who is reporting Trump's actions rather than quoting him directly. The context explicitly attributes the claims to Trump through Bremmer's reporting ('He's also saying...'), ma",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Zeihan",
+  "claim": "There will be a $300 billion investment fund as a restitution program to pay for the damage the United States inflicted during the most recent war with Iran.",
+  "date": "2026-06-19",
+  "source_url": "https://www.youtube.com/watch?v=pAeunYjlMzY",
+  "class": "REPORTED",
+  "reason": "The prediction is presented as part of a deal's terms described by the speaker, not as his own assertion. The text uses 'there will be' to describe the deal's components, which are relayed as reported information about an alleged agreement, not as a personal forecast.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Ian Bremmer",
+  "claim": "The United States will continue to impose significant tariffs on global trade, creating a return to a 1930s-style tariff environment with the U.S. and China in a trade embargo-like situation.",
+  "date": "2025-04-14",
+  "source_url": "https://www.youtube.com/watch?v=EXETOHvRMj4",
+  "class": "REPORTED",
+  "reason": "The context describes the current trade environment as 'already bringing us squarely back to the 1930s' but does not assert that the U.S. will *continue* imposing tariffs in the future. The prediction claim adds a forward-looking assertion ('will continue') not explicitly stated in the source, which",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Ian Bremmer",
+  "claim": "A 30-day ceasefire will be accepted by Ukraine and the United States, with no conditions, and this will be presented to Putin for his response.",
+  "date": "2025-03-11",
+  "source_url": "https://www.youtube.com/watch?v=q9ui9dXHBmA",
+  "class": "PAST-FACT",
+  "reason": "The context describes Ukraine and the US announcing acceptance of the ceasefire terms as a past action ('announcing acceptance'), not a future prediction. The prediction claim mischaracterizes this as a forward-looking forecast when the text only describes an already-announced agreement.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Ian Bremmer",
+  "claim": "Crude oil prices will decrease by about 6% if the escalation cycle between Iran and Israel ends.",
+  "date": "2024-10-28",
+  "source_url": "https://www.youtube.com/watch?v=U0YV6a8FH_Y",
+  "class": "PAST-FACT",
+  "reason": "The prediction frames a conditional ('will decrease if...') but the context explicitly states the oil price drop and escalation cycle end as completed events ('Crude oil down about 6% today... this is the end of this escalation cycle'). The speaker analyzes the current situation rather than forecast",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Ian Bremmer",
+  "claim": "Other economists put the loss at 6 to 8% of GDP per person due to Brexit.",
+  "date": "2026-07-31",
+  "source_url": "https://www.youtube.com/watch?v=0Ns_N8fVv9I",
+  "class": "REPORTED",
+  "reason": "The statement 'Other economists put the loss at 6 to 8% of GDP per person' is presented in third-person narration describing economists' analysis, not as a direct claim from the speaker. The stored claim adds 'due to Brexit,' which is implied by context but not explicitly stated in the quoted senten",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Ian Bremmer",
+  "claim": "Hezbollah will not disarm and will continue to resist Israeli forces in southern Lebanon.",
+  "date": "2026-07-24",
+  "source_url": "https://www.youtube.com/watch?v=WMXj690zq28",
+  "class": "REPORTED",
+  "reason": "The prediction is attributed to Hezbollah ('Hezbollah says it's not giving up their weapons') rather than asserted directly by the speaker. The context excerpt confirms this attribution without first-person claims or unhedged forecasts from the speaker.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "Optimists live up to 15% longer than pessimists.",
+  "date": "2024-09-23",
+  "source_url": "https://www.youtube.com/watch?v=M_mUOMjEhjg",
+  "class": "REPORTED",
+  "reason": "The speaker cites a study of 69,000 women and 1,500 men showing optimists live 'as much as 15% longer,' but attributes this finding to external research rather than asserting it as their own claim. The phrasing 'there's a pretty amazing study' indicates the claim is reported from others.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "The Federal Reserve will likely start lowering interest rates quickly over the next few months.",
+  "date": "2024-09-02",
+  "source_url": "https://www.youtube.com/watch?v=1P5lnNaVB0Q",
+  "class": "REPORTED",
+  "reason": "The prediction is explicitly attributed to 'a lot of people' in the context, indicating it is a reported forecast rather than the speaker's own assertion. The stored claim matches the wording in the context.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "The grocery industry will continue to evolve significantly due to innovations like Whole Foods Market, Walmart, and Costco.",
+  "date": "2024-08-01",
+  "source_url": "https://www.youtube.com/watch?v=jaqN-kFKJkc",
+  "class": "PAST-FACT",
+  "reason": "The context excerpt describes past changes in the grocery industry over 'the last 40 or 50 years' due to these companies, but does not contain any forward-looking claims about future evolution. The stored prediction's 'will continue to evolve' is not substantiated in the source text, which only disc",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "By the end of the year, we could be at 300 million in revenue.",
+  "date": "2024-06-20",
+  "source_url": "https://www.youtube.com/watch?v=nmGsjDTL2UI",
+  "class": "NOT-FOUND",
+  "reason": "The context only mentions Invisible Technologies has 'almost $300 million in just four years' (past/present fact) but contains no forward-looking statement about reaching 300 million by end of year. The prediction claim cannot be verified in the provided text.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "Peter Diamandis",
+  "claim": "We will build a new generation of wheelchairs and get CMS medicare and medicaid to say yes we recognize that there's a need for this and they're putting it on their list",
+  "date": "2024-06-07",
+  "source_url": "https://www.youtube.com/watch?v=gvZVs6BjHmY",
+  "class": "PAST-FACT",
+  "reason": "The context excerpt explicitly states the achievement ('we just recently in January... got CMS medicare and medicaid to say yes') as a completed past action, not a future prediction. The stored claim misrepresents this as a future forecast.",
+  "removed_at": "2026-10-03"
+ },
+ {
+  "speaker": "David McAlvany",
+  "claim": "Consumer sentiment in April 2026 will be at its lowest level since 1952, reflecting growing negativity about the economic outlook.",
+  "date": "2026-04-15",
+  "source_url": "https://mcalvany.com/weekly-commentary/being-set-up-for-the-next-big-short-moment/",
+  "class": "NOT-FOUND",
+  "reason": "The context discusses April 2026 consumer sentiment numbers (47.6) as actual results, not a forecast. The stored prediction claims this number will be a record low, but the context only confirms it as a past result, not a forward-looking assertion. The origin of the prediction itself is not present ",
+  "removed_at": "2026-10-03"
  }
 ]

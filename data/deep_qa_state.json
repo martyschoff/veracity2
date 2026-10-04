@@ -197,15 +197,16 @@
  ],
  "errors": [],
  "counts": {
-  "OWNS": 313,
-  "UNJUDGED-KEPT": 1001,
-  "NOT-FOUND": 7,
-  "REPORTED": 12,
-  "PAST-FACT": 10,
-  "KEEP-REVISED": 8,
-  "OWN": 1
+  "OWNS": 643,
+  "UNJUDGED-KEPT": 632,
+  "REPORTED": 25,
+  "QUOTED": 3,
+  "KEEP-REVISED": 10,
+  "PAST-FACT": 7,
+  "OWN": 1,
+  "NOT-FOUND": 2
  },
- "removed": 29,
- "pool_size": 210,
- "kept": 1323
+ "removed": 37,
+ "pool_size": 247,
+ "kept": 1286
 }

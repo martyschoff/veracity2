@@ -20,7 +20,7 @@ def main():
     d = json.load(open(PRED_FILE, encoding="utf-8"))
     preds = d["predictions"]
     judged = {}
-    for k in range(2):
+    for k in range(4):
         stf = DATA / f"deepqa_judge_state_{k}.json"
         if not stf.exists():
             print(f"MISSING state {stf}")
