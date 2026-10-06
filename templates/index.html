@@ -298,6 +298,7 @@
             box-shadow: 0 4px 12px rgba(0,0,0,0.3); line-height: 1.4;
         }
         .badge:hover .tooltip { display: block; }
+        .year-btn.year-active { background: var(--accent-bg, rgba(249,115,22,0.2)); color: #f97316; border-color: #f97316; }
         .empty-cell { color: var(--text-muted); font-size: 0.8rem; }
         .empty { text-align: center; padding: 40px; color: var(--text-muted); }
     </style>
@@ -305,8 +306,13 @@
 <body>
     <div class="header">
         <div>
-            <h1>Seer Score <span id="app-version"></span><span>2</span></h1>
+            <h1>SeerScore.AI <span id="app-version" style="font-size:0.6em;color:var(--text-muted);font-weight:400;"></span></h1>
             <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 4px;">Predictions vs Reality Tracker</p>
+        </div>
+        <div class="year-switch" style="position:absolute;left:50%;transform:translateX(-50%);display:flex;gap:8px;">
+            <button class="filter-btn year-btn" data-year="2024" onclick="setYear('2024')">2024</button>
+            <button class="filter-btn year-btn" data-year="2025" onclick="setYear('2025')">2025</button>
+            <button class="filter-btn year-btn" data-year="2026" onclick="setYear('2026')">2026</button>
         </div>
         <div class="controls">
             <button class="filter-btn objective-on" id="btn-objective" onclick="toggleFilter('objective')">● Objective</button>
@@ -562,6 +568,8 @@
             document.getElementById('detail-overlay').classList.add('open');
         }
         var showImplicit = localStorage.getItem('showImplicit') === '1';
+        function getGridYear() { return localStorage.getItem('gridYear') || '2026'; }
+        function setYear(y) { localStorage.setItem('gridYear', y); location.reload(); }
         function getRangeYears() { return parseInt(localStorage.getItem('timeRange') || '10', 10); }
         function setRange(v) { localStorage.setItem('timeRange', v); location.reload(); }
         function dateCutoff() {
@@ -570,8 +578,14 @@
         }
         function dateOK(dateStr) { return (dateStr || '') >= dateCutoff(); }
         function applyRangeFilter() {
+            var gy = getGridYear();
+            document.querySelectorAll('.year-btn').forEach(function(b) {
+                b.classList.toggle('year-active', b.getAttribute('data-year') === gy);
+            });
             document.querySelectorAll('.pred-entry[data-date]').forEach(function(el) {
-                el.style.display = dateOK(el.getAttribute('data-date')) ? '' : 'none';
+                var d = el.getAttribute('data-date') || '';
+                var ok = dateOK(d) && (gy === 'all' || d.slice(0, 4) === gy);
+                el.style.display = ok ? '' : 'none';
             });
             var sel = document.getElementById('range-select');
             if (sel) sel.value = String(getRangeYears());

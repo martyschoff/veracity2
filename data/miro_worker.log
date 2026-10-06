@@ -39,3 +39,24 @@ ValueError: No embedding data received
 2026-10-06 13:48:41 pred_20261001163700_663715 FAILED
 2026-10-06 14:23:45 miro worker started (nimo via proxy; 7-GPU pool skipped)
 2026-10-06 14:24:27 miro worker started (nimo via proxy; 7-GPU pool skipped)
+2026-10-06 17:17:38 miro worker started (nimo via proxy; 7-GPU pool skipped)
+2026-10-06 17:40:40 starting Neo4j
+2026-10-06 17:40:59 neo4j http up
+2026-10-06 17:41:01 starting LLM proxy
+2026-10-06 17:41:05 adjudicating pred_1790961078_51: Gold could reach around 8,000 per ounce by late 2027 or 2028
+2026-10-06 17:43:22 runner exit 1: sed = self._options.post_parser(parsed)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\schof\veracity-panel\backend\.venv\Lib\site-packages\openai\resources\embeddings.py", line 235, in parser
+    raise ValueError("No embedding data received")
+ValueError: No embedding data received
+
+2026-10-06 17:43:22 pred_1790961078_51 FAILED
+2026-10-06 17:44:22 adjudicating pred_1790961078_51: Gold could reach around 8,000 per ounce by late 2027 or 2028
+2026-10-06 17:46:14 runner exit 1: sed = self._options.post_parser(parsed)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\schof\veracity-panel\backend\.venv\Lib\site-packages\openai\resources\embeddings.py", line 235, in parser
+    raise ValueError("No embedding data received")
+ValueError: No embedding data received
+
+2026-10-06 17:46:14 pred_1790961078_51 FAILED
+2026-10-06 17:47:14 adjudicating pred_20261001163700_663715: Three Mile Island nuclear plant will go back into service in 2028.

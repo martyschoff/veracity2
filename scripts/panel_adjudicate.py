@@ -3,7 +3,7 @@ predictions using the 4-GPU qwen3:8b pool (nimo as escalation).
 
   python scripts/panel_adjudicate.py --person Doomberg --year 2024
 """
-import argparse, json, random, subprocess, time
+import argparse, json, random, re, subprocess, time
 from pathlib import Path
 
 BASE = Path(r'C:/Users/schof/veracity2')
