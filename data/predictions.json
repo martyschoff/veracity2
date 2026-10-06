@@ -4999,8 +4999,8 @@
       "marty_agrees": true,
       "marty_note": "MartyPredicts: Right (graded in app during downtime; re-applied by agent)",
       "marty_at": "2026-10-06",
-      "mc_status": "queued",
-      "mc_result": null,
+      "mc_status": "done",
+      "mc_result": "WRONG (0% of 34 decided, 0 unclear)",
       "mc_split": 0
     },
     {
