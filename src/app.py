@@ -122,7 +122,7 @@ async def index(request: Request):
         if p.get("individual_name") in tracked_names_set and p.get("verdict") is None
     ]
     outstanding = [p for p in predictions if not p.get("gate_status")]
-    outstanding.sort(key=lambda p: p.get("date", ""))  # oldest first = QA confirmation queue
+    outstanding.sort(key=lambda p: p.get("date", ""), reverse=True)  # newest first
 
     # Top 5 most recent outstanding PER PERSON
     def _deeplink(p):
@@ -146,7 +146,7 @@ async def index(request: Request):
             p["source_url"] = _deeplink(p)
         rows_by_person[name] = person_preds  # QA workbench: show ALL, no top-5 cap
         all_person = [p for p in predictions if p.get("individual_name") == name]
-        all_person.sort(key=lambda p: p.get("date", ""))  # oldest first
+        all_person.sort(key=lambda p: p.get("date", ""), reverse=True)  # newest first
         for p in all_person:
             p["source_url"] = _deeplink(p)
         all_preds_by_person[name] = all_person

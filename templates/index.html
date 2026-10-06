@@ -310,6 +310,7 @@
             <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 4px;">Predictions vs Reality Tracker</p>
         </div>
         <div class="year-switch" style="position:absolute;left:50%;transform:translateX(-50%);display:flex;gap:8px;">
+            <button class="filter-btn year-btn" data-year="all" onclick="setYear('all')">ALL</button>
             <button class="filter-btn year-btn" data-year="2024" onclick="setYear('2024')">2024</button>
             <button class="filter-btn year-btn" data-year="2025" onclick="setYear('2025')">2025</button>
             <button class="filter-btn year-btn" data-year="2026" onclick="setYear('2026')">2026</button>
@@ -440,22 +441,20 @@
                 var countEl = document.getElementById('count-' + idx);
                 if (countEl) countEl.textContent = visible.length + ' total';
             });
-            // Show only first 5 visible entries per column
+            // Filter entries: measurement-type toggles + time range + year switcher (no cap)
+            var gy = getGridYear();
             var columns = document.querySelectorAll('.pred-column');
             columns.forEach(function(col) {
                 var entries = col.querySelectorAll('.pred-entry');
-                var shown = 0;
                 entries.forEach(function(el) {
                     var mtype = el.getAttribute('data-mtype') || 'subjective';
                     var show = false;
                     if (filters.objective && mtype === 'quantitative') show = true;
                     if (filters.subjective && mtype === 'subjective') show = true;
-                    if (show && shown < 5) {
-                        el.style.display = '';
-                        shown++;
-                    } else {
-                        el.style.display = 'none';
-                    }
+                    var d = el.getAttribute('data-date') || '';
+                    if (show && !dateOK(d)) show = false;
+                    if (show && !(gy === 'all' || d.slice(0, 4) === gy)) show = false;
+                    el.style.display = show ? '' : 'none';
                 });
             });
         }
@@ -570,7 +569,7 @@
             document.getElementById('detail-overlay').classList.add('open');
         }
         var showImplicit = localStorage.getItem('showImplicit') === '1';
-        function getGridYear() { return localStorage.getItem('gridYear') || '2026'; }
+        function getGridYear() { return localStorage.getItem('gridYear') || 'all'; }
         function setYear(y) { localStorage.setItem('gridYear', y); location.reload(); }
         function getRangeYears() { return parseInt(localStorage.getItem('timeRange') || '10', 10); }
         function setRange(v) { localStorage.setItem('timeRange', v); location.reload(); }
