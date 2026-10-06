@@ -34,10 +34,19 @@ outstanding = [p for p in predictions if p.get('individual_name') in tns and p.g
 outstanding.sort(key=lambda p: p.get('date', ''), reverse=True)
 
 # ALL predictions per person for the grid (JS handles top-5 + filtering)
+def _deeplink(p):
+    u = p.get('source_url') or ''
+    t = p.get('t_seconds')
+    if t is not None and 'youtube.com' in u and 't=' not in u:
+        u += ('&' if '?' in u else '?') + 't=' + str(max(0, int(t) - 15))  # 15s of lead-in context
+    return u
+
 rows_by_person = {}
 for name in TRACKED_NAMES:
     person_preds = [p for p in outstanding if p.get('individual_name') == name]
     person_preds.sort(key=lambda p: p.get('date', ''), reverse=True)
+    for p in person_preds:
+        p['source_url'] = _deeplink(p)
     rows_by_person[name] = person_preds
 
 # ALL predictions per person (for the full list view)
@@ -45,6 +54,8 @@ all_preds_by_person = {}
 for name in TRACKED_NAMES:
     person_preds = [p for p in predictions if p.get('individual_name') == name]
     person_preds.sort(key=lambda p: p.get('date', ''), reverse=True)
+    for p in person_preds:
+        p['source_url'] = _deeplink(p)
     all_preds_by_person[name] = person_preds
 
 total = len([p for p in predictions if p.get('individual_name') in tns])

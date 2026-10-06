@@ -100,7 +100,7 @@
         }
         .detail-grid {
             display: grid;
-            grid-template-columns: repeat(5, 1fr);
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
             gap: 12px;
         }
         .detail-card {
@@ -144,7 +144,7 @@
         }
         .grid-row {
             display: grid;
-            grid-template-columns: repeat(5, 1fr);
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
             min-width: 800px;
         }
         .grid-row:not(:last-child) { border-bottom: 1px solid var(--border); }
@@ -156,7 +156,7 @@
         [data-theme="light"] .header-row .grid-cell { background: rgba(0,0,0,0.02); }
         .pred-columns {
             display: grid;
-            grid-template-columns: repeat(5, 1fr);
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
             min-width: 800px;
         }
         .pred-column {
@@ -274,6 +274,7 @@
         .qa-wrong:hover { background: rgba(239,68,68,0.15); }
         .qa-done { font-size: 0.7rem; color: var(--text-muted); }
         .qa-note { flex: 1; padding: 3px 8px; border-radius: 6px; font-size: 0.7rem; background: transparent; border: 1px solid var(--border); color: var(--foreground); }
+        .ts-chip { display: inline-block; font-size: 0.65rem; font-weight: 700; color: #22c55e; background: rgba(34,197,94,0.1); border: 1px solid rgba(34,197,94,0.4); border-radius: 5px; padding: 1px 7px; margin-bottom: 4px; cursor: pointer; }
         .dc-critique { font-size: 0.68rem; color: #94a3b8; margin-top: 6px; padding: 4px 8px; background: rgba(148,163,184,0.08); border-radius: 6px; }
         .mc-badge {
             display: inline-block; padding: 2px 10px; border-radius: 6px;
@@ -313,6 +314,7 @@
             <button class="settings-btn" onclick="toggleSettings()">⚙ Settings</button>
             <div class="settings-dropdown" id="settings-dropdown">
                 <label><input type="checkbox" onchange="toggleTheme(this.checked)"> Light mode</label>
+                <label><input type="checkbox" onchange="toggleImplicit()" id="implicit-toggle"> Smuggled queue</label>
             </div>
         </div>
     </div>
@@ -351,6 +353,13 @@
             {% endfor %}
         </div>
         <div class="pred-columns">
+            <div id="implicit-column" class="pred-column" style="display:none;">
+                <div class="ind-header" style="border-color:#f59e0b;">
+                    <span style="color:#f59e0b;font-weight:800;">⚖️ SMUGGLED</span>
+                    <span id="implicit-count" class="ind-count" style="background:rgba(245,158,11,0.15);color:#f59e0b;">0</span>
+                </div>
+                <div id="implicit-list"></div>
+            </div>
             {% for ind in tracked_individuals %}
             <div class="pred-column">
                 {% set person_rows = rows_by_person.get(ind.name, []) %}
@@ -532,7 +541,8 @@
                 var critHtml = crits.map(function(c){ return '<div class="dc-critique">💬 ' + c.text + '</div>'; }).join('');
                 return '<div class="detail-card">'
                     + '<div class="dc-date">' + (p.date || '') + (occ.length > 0 ? ' <span class="chip-x">×' + (occ.length + 1) + '</span>' : '') + '</div>'
-                    + '<a class="dc-claim" href="' + p.source_url + '" target="_blank" rel="noopener" style="color:#f97316;text-decoration:none;cursor:pointer;">' + condense(p.claim || '') + ' ↗</a>'
+                    + (tsChip(p) ? '<span class="ts-chip">▶ ' + tsChip(p) + '</span>' : '')
+                    + '<a class="dc-claim" href="' + deepLink(p) + '" target="_blank" rel="noopener" style="color:#f97316;text-decoration:none;cursor:pointer;">' + condense(p.claim || '') + ' ↗</a>'
                     + '<span class="dc-cat" style="background:' + color + '">' + cat + '</span>'
                     + '<div><div class="verdict-box" style="color:' + verdictColor + '">Panel Judgement: ' + verdict.toUpperCase() + '</div>' + martyr + '</div>'
                     + critHtml
@@ -541,6 +551,62 @@
                     + '</div>';
             }).join('');
             document.getElementById('detail-overlay').classList.add('open');
+        }
+        var showImplicit = localStorage.getItem('showImplicit') === '1';
+        function toggleImplicit() {
+            showImplicit = !showImplicit;
+            localStorage.setItem('showImplicit', showImplicit ? '1' : '0');
+            renderImplicitColumn();
+        }
+        function fmtTime(t) {
+            if (t == null) return '';
+            var m = Math.floor(t / 60), s = Math.floor(t) % 60;
+            return m + ':' + (s < 10 ? '0' : '') + s;
+        }
+        function renderImplicitColumn() {
+            var col = document.getElementById('implicit-column');
+            if (!col) return;
+            col.style.display = showImplicit ? '' : 'none';
+            if (!showImplicit) return;
+            fetch('/api/implicit').then(function(r){ return r.json(); }).then(function(j){
+                var list = document.getElementById('implicit-list');
+                var items = j.entries || [];
+                document.getElementById('implicit-count').textContent = items.length;
+                list.innerHTML = items.map(function(e) {
+                    var href = e.source_url || '#';
+                    if (e.t_seconds != null && href.indexOf('youtube.com') > -1) {
+                        href += (href.indexOf('?') > -1 ? '&' : '?') + 't=' + Math.max(0, Math.floor(e.t_seconds) - 15);
+                    }
+                    return '<div class="detail-card" style="border-color:rgba(245,158,11,0.4);">'
+                        + '<div class="dc-date">' + (e.date || '') + ' <span class="chip-x">' + e.gate_type + '</span></div>'
+                        + '<div style="font-size:0.72rem;color:var(--text-muted);margin:4px 0;">"' + e.claim.slice(0, 140) + '"</div>'
+                        + (e.implicit_forecast ? '<div style="font-size:0.72rem;color:#f59e0b;margin:4px 0;">→ ' + e.implicit_forecast.slice(0, 160) + '</div>' : '')
+                        + '<a href="' + href + '" target="_blank" rel="noopener" style="color:#f97316;font-size:0.68rem;">source ↗</a>'
+                        + '<div class="qa-controls">'
+                        + '<button class="qa-btn qa-right" onclick=\'resolveImplicit("' + e.id + '","move")\'>Move</button>'
+                        + '<button class="qa-btn qa-wrong" onclick=\'resolveImplicit("' + e.id + '","delete")\'>Delete</button>'
+                        + '<button class="qa-btn" style="color:var(--text-muted);border-color:var(--border);" onclick=\'resolveImplicit("' + e.id + '","keep")\'>Keep</button>'
+                        + '</div></div>';
+                }).join('');
+            });
+        }
+        function resolveImplicit(id, action) {
+            fetch('/api/implicit', {method:'POST', headers:{'Content-Type':'application/json'},
+                body: JSON.stringify({id: id, action: action})})
+                .then(function(r){ return r.json(); })
+                .then(function(j){ if (j.ok) renderImplicitColumn(); });
+        }
+        function tsChip(p) {
+            if (p.t_seconds == null) return '';
+            var t = Math.floor(p.t_seconds), m = Math.floor(t / 60), s = t % 60;
+            return m + ':' + (s < 10 ? '0' : '') + s;
+        }
+        function deepLink(p) {
+            var u = p.source_url || '#';
+            if (p.t_seconds != null && u.indexOf('youtube.com') > -1 && u.indexOf('t=') === -1) {
+                u += (u.indexOf('?') > -1 ? '&' : '?') + 't=' + Math.max(0, Math.floor(p.t_seconds) - 15);
+            }
+            return u;
         }
         function markMarty(id, agrees, ev) {
             if (ev) ev.stopPropagation();
@@ -578,6 +644,9 @@
         document.addEventListener('keydown', function(e) {
             if (e.key === 'Escape') hideDetail();
         });
+            var tgl = document.getElementById('implicit-toggle');
+        if (tgl) tgl.checked = showImplicit;
+        renderImplicitColumn();
     </script>
 </body>
 </html>

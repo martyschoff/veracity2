@@ -121,17 +121,29 @@ async def index(request: Request):
         p for p in predictions
         if p.get("individual_name") in tracked_names_set and p.get("verdict") is None
     ]
+    outstanding = [p for p in predictions if not p.get("gate_status")]
     outstanding.sort(key=lambda p: p.get("date", ""))  # oldest first = QA confirmation queue
 
     # Top 5 most recent outstanding PER PERSON
+    def _deeplink(p):
+        u = p.get("source_url") or ""
+        t = p.get("t_seconds")
+        if t is not None and "youtube.com" in u and "t=" not in u:
+            u += ("&" if "?" in u else "?") + "t=" + str(max(0, int(t) - 15))  # 15s lead-in
+        return u
+
     rows_by_person: dict[str, list] = {}
     all_preds_by_person: dict[str, list] = {}
     for ind in tracked_individuals:
         name = ind["name"]
         person_preds = [p for p in outstanding if p.get("individual_name") == name]
+        for p in person_preds:
+            p["source_url"] = _deeplink(p)
         rows_by_person[name] = person_preds[:5]
         all_person = [p for p in predictions if p.get("individual_name") == name]
         all_person.sort(key=lambda p: p.get("date", ""))  # oldest first
+        for p in all_person:
+            p["source_url"] = _deeplink(p)
         all_preds_by_person[name] = all_person
 
     # Total tracked predictions count (for stats bar)
@@ -250,6 +262,50 @@ def _apply_critique(pred_id: str, text: str) -> bool:
         with open(DATA_FILE, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
     return hit
+
+
+IMPLICIT_QUEUE = BASE_DIR / "data" / "implicit_queue.json"
+
+
+def _resolve_implicit(qid: str, action: str):
+    q = json.load(open(IMPLICIT_QUEUE, encoding="utf-8")) if IMPLICIT_QUEUE.exists() else []
+    entry = next((e for e in q if e["id"] == qid), None)
+    if not entry:
+        return False
+    d = json.load(open(DATA_FILE, encoding="utf-8"))
+    pred = next((p for p in d["predictions"] if p["id"] == qid), None)
+    if action == "move":
+        entry["status"] = "moved"
+        if pred:
+            pred["gate_status"] = "promoted"  # back on the grid as a real prediction
+            if entry.get("implicit_forecast"):
+                pred["claim"] = entry["implicit_forecast"]
+            pred["origin"] = "implicit-forecast"
+    elif action == "keep":
+        entry["status"] = "kept"
+        if pred:
+            pred["gate_status"] = "kept"  # parked off-grid
+    elif action == "delete":
+        entry["status"] = "deleted"
+        if pred:
+            pred["removed"] = True
+    IMPLICIT_QUEUE.write_text(json.dumps(q, indent=2), encoding="utf-8")
+    with open(DATA_FILE, "w", encoding="utf-8") as f:
+        json.dump(d, f, indent=2, ensure_ascii=False)
+    return True
+
+
+@app.post("/api/implicit")
+async def api_implicit(request: Request):
+    body = await request.json()
+    ok = _resolve_implicit(body.get("id", ""), body.get("action", ""))
+    return JSONResponse({"ok": ok})
+
+
+@app.get("/api/implicit")
+async def api_implicit_list():
+    q = json.load(open(IMPLICIT_QUEUE, encoding="utf-8")) if IMPLICIT_QUEUE.exists() else []
+    return JSONResponse({"entries": [e for e in q if e.get("status") == "pending"]})
 
 
 @app.post("/api/marty")
