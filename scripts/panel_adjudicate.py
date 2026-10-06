@@ -21,7 +21,7 @@ It is now late 2026. Judge ONLY whether the prediction has been proven correct, 
 CRITICAL: if the prediction's target date is still in the future, it has NOT failed merely because it hasn't happened yet.
 - "correct" ONLY with positive evidence the event occurred or is clearly on track
 - "incorrect" ONLY with positive evidence it failed OR its deadline passed unmet
-- "unclear" if the deadline hasn't arrived and evidence is inconclusive
+- "unclear" ONLY when the deadline hasn't arrived AND you have no basis to judge the trajectory (no knowledge of the subject's progress). If you know the subject well enough to say whether it's on track, vote that instead - a 2028 target judged in 2026 with visible progress is "correct", with visible slippage is "incorrect".
 Answer STRICTLY as JSON: {{"vote": "correct"|"incorrect"|"unclear", "reasoning": "1-2 sentences"}}"""
 
 ROLES = {
@@ -50,10 +50,14 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--person', required=True)
     ap.add_argument('--year', default=None)
+    ap.add_argument('--force', action='store_true', help='re-adjudicate: clear existing unclear-heavy votes')
     args = ap.parse_args()
 
     d = json.load(open(BASE / 'data' / 'predictions.json', encoding='utf-8'))
-    ind_w = {i['name']: i.get('panel_weight', 1.0) for i in d['individuals']}
+    NON_VOTERS = {'FactCheck.org', 'AP Fact Check', 'Google Fact Check Explorer', 'Wall Street Journal',
+                  'NHK World', 'Warsaw Voice', 'Notes from Poland', 'Jerusalem Post', 'UnHerd',
+                  'Bloomberg Surveillance', 'Miles Franklin', 'MiroFish'}
+    ind_w = {i['name']: i.get('panel_weight', 1.0) for i in d['individuals'] if i['name'] not in NON_VOTERS}
     import datetime
     today = datetime.date.today().isoformat()
     def due(p):
@@ -61,6 +65,16 @@ def main():
             return p['test_eligible_at'] <= today
         m = re.search(r'\b(20[2-9]\d)\b', p.get('claim', ''))
         return not m or m.group(1) <= today[:4]
+    if args.force:
+        cleared = 0
+        for p in d['predictions']:
+            if p['individual_name'] == args.person and (p.get('judgements') or []) and not p.get('verdict'):
+                unc = sum(1 for v in p['judgements'] if v['verdict'] == 'unclear')
+                if unc >= len(p['judgements']) - 1:  # all/most unclear = garbage run
+                    p['judgements'] = []
+                    cleared += 1
+        json.dump(d, open(BASE / 'data' / 'predictions.json', 'w', encoding='utf-8'), indent=2, ensure_ascii=False)
+        print(f'force: cleared {cleared} unclear-heavy prediction vote sets', flush=True)
     targets = [p for p in d['predictions']
                if p['individual_name'] == args.person and not p.get('removed')
                and not p.get('gate_status') and due(p)
