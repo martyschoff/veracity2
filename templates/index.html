@@ -629,6 +629,10 @@
             var u = p.source_url || '#';
             if (p.t_seconds != null && u.indexOf('youtube.com') > -1 && u.indexOf('t=') === -1) {
                 u += (u.indexOf('?') > -1 ? '&' : '?') + 't=' + Math.max(0, Math.floor(p.t_seconds) - 15);
+            } else if (p.t_seconds == null && u.indexOf('#') === -1 && u.indexOf('http') === 0) {
+                var src = (p.transcript_excerpt || p.claim || '');
+                var words = src.split(/\s+/).filter(Boolean).slice(0, 10);
+                if (words.length >= 4) u += '#:~:text=' + encodeURIComponent(words.join(' '));
             }
             return u;
         }

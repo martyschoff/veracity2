@@ -39,6 +39,12 @@ def _deeplink(p):
     t = p.get('t_seconds')
     if t is not None and 'youtube.com' in u and 't=' not in u:
         u += ('&' if '?' in u else '?') + 't=' + str(max(0, int(t) - 15))  # 15s of lead-in context
+    elif t is None and '#' not in u and not u.lower().startswith('mailto'):
+        # articles: scroll-to-text fragment anchored on the excerpt
+        anchor_src = (p.get('transcript_excerpt') or p.get('claim') or '')
+        words = [w for w in anchor_src.split() if w][:10]
+        if len(words) >= 4:
+            u += '#:~:text=' + '%20'.join(words)
     return u
 
 rows_by_person = {}
