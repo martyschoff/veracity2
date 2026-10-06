@@ -1114,23 +1114,6 @@
       "t_seconds": 178
     },
     {
-      "id": "pred_20261001134922_000",
-      "individual_name": "Ian Bremmer",
-      "date": "2026-09-23",
-      "category": "geopolitics",
-      "claim": "The US and China are setting up their upcoming meeting to go well because President Trump is looking short-term and Xi Jinping is looking long-term, with Trump focused on immediate electoral benefits like TikTok control and soybean purchases, while Xi focuses on 5-10-20 year strategic goals.",
-      "source_url": "https://www.youtube.com/watch?v=K-cdYtuEn4A",
-      "transcript_excerpt": "This meeting is set up to go well, but it's set up to go well in part because President Trump is looking short-term and Xi Jinping is looking long-term. Very different from, say, conflict over Russia-Ukraine... But in the case of the US and China, over the last year, Trump's top priority with Xi Jinping has been getting control of TikTok, because he wants to make sure that he has that data and algorithm in upcoming elections.",
-      "verdict": null,
-      "created_at": "2026-10-01T13:49:22.528146",
-      "measurement_type": "subjective",
-      "test_status": "eligible",
-      "testing_since": "2026-10-01",
-      "judgements": [],
-      "t_seconds": 71,
-      "gate_status": "horizon"
-    },
-    {
       "id": "pred_20261001134922_001",
       "individual_name": "Ian Bremmer",
       "date": "2026-09-23",
@@ -2274,23 +2257,6 @@
       "testing_since": "2026-10-01",
       "judgements": [],
       "deep_qa": "OWNS"
-    },
-    {
-      "id": "pred_20261001160615_366857",
-      "individual_name": "Peter Zeihan",
-      "date": "2026-08-12",
-      "category": "geopolitics",
-      "claim": "The United States will not have a military presence on the waters in the Arctic whenever there's ice for at least the next 30 years.",
-      "source_url": "https://www.youtube.com/watch?v=8TurVo3H0HI",
-      "transcript_excerpt": "We are looking at a period for at least the next 30 years where the United States does not have a military presence on the waters in the Arctic whenever there's ice.",
-      "verdict": null,
-      "created_at": "2026-10-01T16:06:15.366866",
-      "measurement_type": "quantitative",
-      "test_status": "eligible",
-      "testing_since": "2026-10-01",
-      "judgements": [],
-      "deep_qa": "OWNS",
-      "gate_status": "horizon"
     },
     {
       "id": "pred_20261001160615_366878",
@@ -3458,23 +3424,6 @@
       "gate_status": "queued"
     },
     {
-      "id": "pred_20261001162924_598311",
-      "individual_name": "Doomberg",
-      "date": "2025-01-24",
-      "category": "energy",
-      "claim": "President Trump's executive order on Alaska's resources will serve as a litmus test for whether the long-delayed 50-year-old project will actually be completed.",
-      "source_url": "https://newsletter.doomberg.com/p/whiplash",
-      "transcript_excerpt": "Embedded within it is yet another attempt to get a notorious 50-year-old project over the finish line. Whether it actually gets done will be a powerful litmus test.",
-      "verdict": null,
-      "created_at": "2026-10-01T16:29:24.598314",
-      "measurement_type": "subjective",
-      "test_status": "eligible",
-      "testing_since": "2026-10-01",
-      "judgements": [],
-      "deep_qa": "OWNS",
-      "gate_status": "horizon"
-    },
-    {
       "id": "pred_20261001162955_719808",
       "individual_name": "Doomberg",
       "date": "2024-12-16",
@@ -3829,20 +3778,6 @@
       "t_seconds": 353
     },
     {
-      "id": "pred_20261001181047_733614ad7a9b",
-      "individual_name": "Peter Zeihan",
-      "date": "2024-09-26",
-      "category": "china",
-      "claim": "The Chinese system will collapse within the next 30 years, leading to significant capital flight toward the United States.",
-      "source_url": "https://www.youtube.com/watch?v=SZ3ij6fVJmk",
-      "transcript_excerpt": "we're almost certainly going to see the collapse of the Chinese system in the end of the Euro Zone uh systems that are far more indebted than the United States and as we have seen with every country that has had a debt crisis in the last 70 years when the money moves because it doesn't want to be there anymore it almost always comes to the United States so we are looking at absolutely Mythic level",
-      "verdict": null,
-      "created_at": "2026-10-01T18:10:47",
-      "measurement_type": "quantitative",
-      "t_seconds": 373,
-      "gate_status": "horizon"
-    },
-    {
       "id": "pred_20261001181054_0ca63cb03634",
       "individual_name": "Peter Zeihan",
       "date": "2024-09-25",
@@ -3883,21 +3818,6 @@
       "created_at": "2026-10-01T18:12:03",
       "measurement_type": "subjective",
       "t_seconds": 415
-    },
-    {
-      "id": "pred_20261001181220_6547513e24cc",
-      "individual_name": "Peter Zeihan",
-      "date": "2024-09-20",
-      "category": "other",
-      "claim": "Canada will face significant demographic changes in 20 or 30 years due to current immigration policies.",
-      "source_url": "https://www.youtube.com/watch?v=RWZ553deROY",
-      "transcript_excerpt": "Canada knew that they were on a German style demographic implosion 30 years ago and then under the Harper government and then later under the trau government the decision was made to open the floodgates and become an immigrant country and so you've probably had I mean they don't they don't count the statistics the same way we do in the United States you probably had 3 to four million immigrants come in and become Canadians in that time period... Native Canadians to use a charge term still have a very very low birth rate so there's no replacement coming on and so you have a very different social fabric developing",
-      "verdict": null,
-      "created_at": "2026-10-01T18:12:20",
-      "measurement_type": "quantitative",
-      "deep_qa": "OWNS",
-      "t_seconds": 93,
-      "gate_status": "horizon"
     },
     {
       "id": "pred_20261001181237_5daf5bf87265",
@@ -4651,20 +4571,6 @@
       "deep_qa": "OWNS"
     },
     {
-      "id": "pred_20261001182507_eea4649e7def",
-      "individual_name": "Peter Zeihan",
-      "date": "2024-07-30",
-      "category": "geopolitics",
-      "claim": "China will reach numerical parity with the US in deliverable nuclear weapons within the next 15 years.",
-      "source_url": "https://www.youtube.com/watch?v=R7gXACxy604",
-      "transcript_excerpt": "the Chinese only have a couple hundred deliverable nuclear weapons. They're in the process of building that force out and their goal is to reach some form of at least numerical parity over the course of the next 15 years.",
-      "verdict": null,
-      "created_at": "2026-10-01T18:25:07",
-      "measurement_type": "quantitative",
-      "deep_qa": "OWNS",
-      "gate_status": "horizon"
-    },
-    {
       "id": "pred_20261001182606_095ccb952c86",
       "individual_name": "Peter Zeihan",
       "date": "2024-07-26",
@@ -4701,21 +4607,6 @@
       "deep_qa": "OWNS",
       "t_seconds": 196,
       "gate_status": "queued"
-    },
-    {
-      "id": "pred_20261001182617_05ccfd074534",
-      "individual_name": "Peter Zeihan",
-      "date": "2024-07-25",
-      "category": "geopolitics",
-      "claim": "The Ultra Orthodox population in Israel will grow rapidly and, within the next 25 years, they will be neck and neck in terms of voting power with traditional secular Jews.",
-      "source_url": "https://www.youtube.com/watch?v=XDxWbKho9zs",
-      "transcript_excerpt": "their numbers are growing very rapidly and we're going to need hit a position within the next 25 years where they are going to be neck and‑neck in terms of voting power with the traditional secular Jews",
-      "verdict": null,
-      "created_at": "2026-10-01T18:26:17",
-      "measurement_type": "quantitative",
-      "deep_qa": "OWNS",
-      "t_seconds": 191,
-      "gate_status": "horizon"
     },
     {
       "id": "pred_20261001182617_479ef4971ee4",
@@ -5707,30 +5598,6 @@
       "t_seconds": 239
     },
     {
-      "id": "pred_20261001185042_cebc252fbb50",
-      "individual_name": "Peter Zeihan",
-      "date": "2024-05-09",
-      "category": "other",
-      "claim": "The United States will not face a Korean or German style demographic crisis within the next 40 years",
-      "source_url": "https://www.youtube.com/watch?v=qDIiURFyaic",
-      "transcript_excerpt": "if you look at the data and we'll throw a chart up here you'll see that the United States has been kind of hovering around that 2 2.1 area for the last 40 years... we're not going to be facing a Korean or a German style problem within the next 40 years and probably closer to 50",
-      "verdict": null,
-      "created_at": "2026-10-01T18:50:42",
-      "measurement_type": "quantitative",
-      "occurrences": [
-        {
-          "date": "2024-05-09",
-          "url": "https://www.youtube.com/watch?v=qDIiURFyaic",
-          "claim": "The US birth rate will remain below replacement level of 2.1",
-          "id": "pred_20261001185042_1e03c077c081"
-        }
-      ],
-      "stated_count": 2,
-      "deep_qa": "OWNS",
-      "t_seconds": 186,
-      "gate_status": "horizon"
-    },
-    {
       "id": "pred_20261001185053_8f59a244cc6a",
       "individual_name": "Peter Zeihan",
       "date": "2024-05-08",
@@ -5775,30 +5642,6 @@
       "deep_qa": "OWNS",
       "t_seconds": 15,
       "gate_status": "queued"
-    },
-    {
-      "id": "pred_20261001185112_b08c100f15f7",
-      "individual_name": "Peter Zeihan",
-      "date": "2024-05-06",
-      "category": "geopolitics",
-      "claim": "The Chinese Navy will be able to have a carrier that can stand up to an American Carrier that's 50 years old in the next decade or two.",
-      "source_url": "https://www.youtube.com/watch?v=wGhlwvMQcp4",
-      "transcript_excerpt": "if they keep up their current Pace they will be able to have a carrier that can stand up to an American Carrier that's 50 years old in the next decade or two not something that changes my forecast all that much",
-      "verdict": null,
-      "created_at": "2026-10-01T18:51:12",
-      "measurement_type": "quantitative",
-      "occurrences": [
-        {
-          "date": "2024-05-06",
-          "url": "https://www.youtube.com/watch?v=wGhlwvMQcp4",
-          "claim": "If China keeps up their current pace, they will be able to build a carrier that can rival the operational capability of the Nimitz class super carriers.",
-          "id": "pred_20261001185112_62f38b232e8a"
-        }
-      ],
-      "stated_count": 2,
-      "deep_qa": "OWNS",
-      "t_seconds": 319,
-      "gate_status": "horizon"
     },
     {
       "id": "pred_20261001185124_faf0583c430f",
@@ -6639,29 +6482,6 @@
       "t_seconds": 142
     },
     {
-      "id": "pred_20261001193641_880c6c859bcb",
-      "individual_name": "Peter Zeihan",
-      "date": "2025-07-22",
-      "category": "finance",
-      "claim": "The 50% tariff on copper imports beginning August 1, 2025, will retard the entire U.S. copper production process, which takes 10 to 15 years from start to finish.",
-      "source_url": "https://www.youtube.com/watch?v=-CGCbO8xFNA",
-      "transcript_excerpt": "So, I know that we now have a 50% tariff courtesy of Donald Trump that is going to be coming to US copper imports uh beginning August 1. ... putting a 50% tariff on it on the front end retards that entire process. uh and from start to finish that entire process takes somewhere between 10 and 15 years.",
-      "verdict": null,
-      "created_at": "2026-10-01T19:36:41",
-      "measurement_type": "quantitative",
-      "occurrences": [
-        {
-          "date": "2025-07-24",
-          "url": "https://www.youtube.com/watch?v=l04pp_Ly638",
-          "claim": "If the United States invests in Ukraine's technological suite and development pipeline, the Ukrainian military will undergo a significant overhaul within a short timeframe.",
-          "id": "pred_20261001193616_24a01c92defd"
-        }
-      ],
-      "stated_count": 2,
-      "t_seconds": 6,
-      "gate_status": "horizon"
-    },
-    {
       "id": "pred_20261001193745_502966dbe854",
       "individual_name": "Peter Zeihan",
       "date": "2025-07-18",
@@ -7175,20 +6995,6 @@
       "gate_status": "queued"
     },
     {
-      "id": "pred_20261001194727_913937295045",
-      "individual_name": "Peter Zeihan",
-      "date": "2025-06-18",
-      "category": "ai",
-      "claim": "Within 10, 20, or 40 years, we do not know what the military technologies will look like, but when old technology comes up against new technology, things get really exciting really quickly — either the new stuff crashes and burns or the old stuff is destroyed and everyone has to rip up the playbook.",
-      "source_url": "https://www.youtube.com/watch?v=XcDy_oy0RGo",
-      "transcript_excerpt": "We don't know where this is going to go. We don't know what the military technologies are going to look like in 10, 20, 40 years. But we do know from previous periods that when the old technology comes up against the new technology, things get really exciting really quickly because either the new stuff crashes and burns because it's inappropriate and not ready or the old stuff is destroyed and eve",
-      "verdict": null,
-      "created_at": "2026-10-01T19:47:27",
-      "measurement_type": "subjective",
-      "t_seconds": 234,
-      "gate_status": "horizon"
-    },
-    {
       "id": "pred_20261001194847_93c12bf76258",
       "individual_name": "Peter Zeihan",
       "date": "2025-06-13",
@@ -7493,21 +7299,6 @@
       "t_seconds": 191
     },
     {
-      "id": "pred_20261001195230_9105ac934e7d",
-      "individual_name": "Peter Zeihan",
-      "date": "2025-05-26",
-      "category": "china",
-      "claim": "The Chinese government will not get more workers for another 25 years because the statistical system has been flawed for two decades and fixing it now will take time to reflect in workforce numbers.",
-      "source_url": "https://www.youtube.com/watch?v=EK8eLfbS3c4",
-      "transcript_excerpt": "And the result is a difference of at least 100 million people. uh which means if the Chinese want to fix this problem today they won't get more workers for another 25 years because first you have to encourage people to have more kids then they have to have more kids and then they have to grow up",
-      "verdict": null,
-      "created_at": "2026-10-01T19:52:30",
-      "measurement_type": "quantitative",
-      "deep_qa": "OWNS",
-      "t_seconds": 231,
-      "gate_status": "horizon"
-    },
-    {
       "id": "pred_20261001195230_2b7bccf2e571",
       "individual_name": "Peter Zeihan",
       "date": "2025-05-26",
@@ -7794,21 +7585,6 @@
       "t_seconds": 18
     },
     {
-      "id": "pred_20261001195818_62e6692d23e8",
-      "individual_name": "Peter Zeihan",
-      "date": "2025-05-08",
-      "category": "finance",
-      "claim": "Mortgage rates will significantly increase from their current level, which is already at a 20-year high.",
-      "source_url": "https://www.youtube.com/watch?v=BCIduTiPS-A",
-      "transcript_excerpt": "Right now mortgages are at about a 20-year high. Expect that to get significantly higher.",
-      "verdict": null,
-      "created_at": "2026-10-01T19:58:18",
-      "measurement_type": "quantitative",
-      "deep_qa": "OWNS",
-      "t_seconds": 215,
-      "gate_status": "horizon"
-    },
-    {
       "id": "pred_20261001195818_80b64abd2689",
       "individual_name": "Peter Zeihan",
       "date": "2025-05-08",
@@ -8044,20 +7820,6 @@
       ],
       "stated_count": 2,
       "deep_qa": "OWNS"
-    },
-    {
-      "id": "pred_20261001200620_820e92114952",
-      "individual_name": "Peter Zeihan",
-      "date": "2025-04-18",
-      "category": "finance",
-      "claim": "If no new tariff policy is introduced before a flight across the country, then the conversation about beginning the 12-to-20-year process to achieve Trump's goals can start.",
-      "source_url": "https://www.youtube.com/watch?v=bYok-YUJkwA",
-      "transcript_excerpt": "If I can take a flight across the country and we don't get a new tariff policy by the time we land, then we can start the conversation about how we can begin the 12-to-20-year process to achieve what Donald Trump really wants.",
-      "verdict": null,
-      "created_at": "2026-10-01T20:06:20",
-      "measurement_type": "quantitative",
-      "t_seconds": 290,
-      "gate_status": "horizon"
     },
     {
       "id": "pred_20261001200705_a329b6d00a5c",
@@ -9072,21 +8834,6 @@
       "t_seconds": 256
     },
     {
-      "id": "pred_20261001202101_3366c4b3cf4c",
-      "individual_name": "Peter Zeihan",
-      "date": "2025-03-06",
-      "category": "geopolitics",
-      "claim": "Mexico will become the top trading partner of the United States in pretty much every economic sector for at least the next 50 years.",
-      "source_url": "https://www.youtube.com/watch?v=9FzWfPg391c",
-      "transcript_excerpt": "Mexico is going to be our top trading partner in pretty much every economic sector for at least the next 50 years",
-      "verdict": null,
-      "created_at": "2026-10-01T20:21:01",
-      "measurement_type": "quantitative",
-      "deep_qa": "OWNS",
-      "t_seconds": 30,
-      "gate_status": "horizon"
-    },
-    {
       "id": "pred_20261001202101_84a213b2752e",
       "individual_name": "Peter Zeihan",
       "date": "2025-03-06",
@@ -9389,20 +9136,6 @@
       "t_seconds": 250
     },
     {
-      "id": "pred_20261001202629_3d4cac607cbb",
-      "individual_name": "Peter Zeihan",
-      "date": "2025-02-17",
-      "category": "health",
-      "claim": "If Russia is forced into a peace or battlefield defeat in Ukraine, the country's demographic collapse could occur 20-40 years earlier than projected.",
-      "source_url": "https://www.youtube.com/watch?v=taNg3U9Lv_E",
-      "transcript_excerpt": "if they get forced into a peace or a battlefield defeat that means that they've expended all of the cost of fighting a major war without getting many the benefits uh then you're looking at this happening 20 30 maybe even 40 years earlier",
-      "verdict": null,
-      "created_at": "2026-10-01T20:26:29",
-      "measurement_type": "quantitative",
-      "t_seconds": 410,
-      "gate_status": "horizon"
-    },
-    {
       "id": "pred_20261001202638_4fc03463d566",
       "individual_name": "Peter Zeihan",
       "date": "2025-02-14",
@@ -9650,20 +9383,6 @@
       "measurement_type": "subjective",
       "t_seconds": 151,
       "gate_status": "queued"
-    },
-    {
-      "id": "pred_20261001203154_658b210b29ac",
-      "individual_name": "Peter Zeihan",
-      "date": "2025-01-27",
-      "category": "finance",
-      "claim": "By the end of the next 10 to 15 years, the Millennial generation will have run the numbers and figure out how to balance the U.S. budget, which will result in Generation X paying for it.",
-      "source_url": "https://www.youtube.com/watch?v=PPIoulC3GoQ",
-      "transcript_excerpt": "so if you're an exer our time has finally arrived but it's only going to be a moment so make the most of it get your money where it's going to be protected because sooner or later the Millennials will figure this out and we will find a way to get the budget back into some degree of balance and it will be gen xit paying for it but not today",
-      "verdict": null,
-      "created_at": "2026-10-01T20:31:54",
-      "measurement_type": "quantitative",
-      "t_seconds": 659,
-      "gate_status": "horizon"
     },
     {
       "id": "pred_20261001203154_3511b645f0e6",
@@ -9937,21 +9656,6 @@
       "deep_qa": "OWNS",
       "t_seconds": 241,
       "gate_status": "queued"
-    },
-    {
-      "id": "pred_20261001203743_9d04c083d7fb",
-      "individual_name": "Peter Zeihan",
-      "date": "2025-01-15",
-      "category": "demographics",
-      "claim": "Thailand will be eclipsed by countries like Vietnam due to its demographic decline within about 30 years.",
-      "source_url": "https://www.youtube.com/watch?v=Egj9k4ksoxA",
-      "transcript_excerpt": "Thailand is already significantly aging demographically so probably only has about 30 years left before it's in a German style demographic decline",
-      "verdict": null,
-      "created_at": "2026-10-01T20:37:43",
-      "measurement_type": "quantitative",
-      "deep_qa": "OWNS",
-      "t_seconds": 97,
-      "gate_status": "horizon"
     },
     {
       "id": "pred_20261001203743_286cf9f14d0f",
@@ -12174,21 +11878,6 @@
       "measurement_type": "quantitative",
       "deep_qa": "OWNS",
       "t_seconds": 270
-    },
-    {
-      "id": "pred_20261001212222_bc2974e39f30",
-      "individual_name": "Peter Zeihan",
-      "date": "2025-11-17",
-      "category": "geopolitics",
-      "claim": "If real elections actually happen in December, the military dictatorship in Myanmar will likely give up power and transition to civilian rule, similar to what happened 12-13 years ago when the country moved away from military control.",
-      "source_url": "https://www.youtube.com/watch?v=-3HevnPmCOo",
-      "transcript_excerpt": "That's what happened about 12‑13 years ago ... if in December real elections actually happen, I see no reason why that shouldn't happen again.",
-      "verdict": null,
-      "created_at": "2026-10-01T21:22:22",
-      "measurement_type": "quantitative",
-      "deep_qa": "OWNS",
-      "t_seconds": 231,
-      "gate_status": "horizon"
     },
     {
       "id": "pred_20261001212222_3a1eb44859f9",
@@ -14581,29 +14270,6 @@
       "gate_status": "queued"
     },
     {
-      "id": "pred_20261001221205_f89a6126f9a4",
-      "individual_name": "Peter Zeihan",
-      "date": "2026-04-09",
-      "category": "geopolitics",
-      "claim": "The United States will significantly reduce its military global footprint and ability to project power beyond the Western Hemisphere within the next 10-20 years due to deliberate policies of ending basing agreements and fostering competition with allies.",
-      "source_url": "https://www.youtube.com/watch?v=0Vo_fVDRnzY",
-      "transcript_excerpt": "At a minimum, best case scenario, none of those fights happen, but it still means a massive reduction in America's military global footprint and its ability to project power beyond the Western Hemisphere. So, we [snorts] are at the beginning of the greatest collapse in strategic power that I have seen in my life. The only similar situation that comes even remotely close would be the Soviet collaps",
-      "verdict": null,
-      "created_at": "2026-10-01T22:12:05",
-      "measurement_type": "quantitative",
-      "occurrences": [
-        {
-          "date": "2026-05-19",
-          "url": "https://www.youtube.com/watch?v=lWvJU3YU9-U",
-          "claim": "The United States will be insulated from direct impacts of the Iran war on its power grid because it is a net exporter of all types of energy, including liquefied natural gas, and there is no direct link between the conflict and U.S. electricity generation.",
-          "id": "pred_20261001221944_21f791686423"
-        }
-      ],
-      "stated_count": 2,
-      "t_seconds": 339,
-      "gate_status": "horizon"
-    },
-    {
       "id": "pred_20261001221205_4e2b83d4e6ba",
       "individual_name": "Peter Zeihan",
       "date": "2026-04-09",
@@ -15884,20 +15550,6 @@
       "measurement_type": "quantitative"
     },
     {
-      "id": "pred_20261001223636_d3a10433e319",
-      "individual_name": "Peter Zeihan",
-      "date": "2026-07-24",
-      "category": "other",
-      "claim": "The populations of Estonia, Latvia, Lithuania, Romania, and Bulgaria will drop by another quarter (25%) over the next 10 to 15 years.",
-      "source_url": "https://www.youtube.com/watch?v=qvrj7_SMxao",
-      "transcript_excerpt": "As a result, we've already seen the populations of Estonia, Latvia, Lithuania, Romania, and Bulgaria drop by over a fifth, about a quarter actually, since the post-Cold War era began, and they're probably going to drop by that much again over the next 10 to 15 years.",
-      "verdict": null,
-      "created_at": "2026-10-01T22:36:36",
-      "measurement_type": "quantitative",
-      "deep_qa": "OWNS",
-      "gate_status": "horizon"
-    },
-    {
       "id": "pred_20261001223636_4c4e02cdaac8",
       "individual_name": "Peter Zeihan",
       "date": "2026-07-24",
@@ -16572,21 +16224,6 @@
       "measurement_type": "subjective",
       "deep_qa": "OWNS",
       "t_seconds": 330
-    },
-    {
-      "id": "pred_20261001230214_0014637e0375",
-      "individual_name": "Ian Bremmer",
-      "date": "2025-09-16",
-      "category": "finance",
-      "claim": "The United States will expand sanctions, tariffs, and other executive orders against Brazil in response to the 27-year sentence given to former President Bolsonaro.",
-      "source_url": "https://www.youtube.com/watch?v=f2ev81dBfP4",
-      "transcript_excerpt": "I expect that sanctions, tariffs, and other executive orders are going to be expanded on the back of this 27-year ruling um sentencing in the coming days and weeks.",
-      "verdict": null,
-      "created_at": "2026-10-01T23:02:14",
-      "measurement_type": "quantitative",
-      "deep_qa": "OWNS",
-      "t_seconds": 235,
-      "gate_status": "horizon"
     },
     {
       "id": "pred_20261001230214_43e60918221c",
@@ -18946,30 +18583,6 @@
       ],
       "stated_count": 2,
       "t_seconds": 264
-    },
-    {
-      "id": "pred_20261002000229_b6115e766e29",
-      "individual_name": "Ian Bremmer",
-      "date": "2026-04-23",
-      "category": "geopolitics",
-      "claim": "The Cuban government will announce a deal with the United States within the next few months that ends their 60-year communist regime in some way and allows for American investment and tourism.",
-      "source_url": "https://www.youtube.com/watch?v=dZquBezlHOo",
-      "transcript_excerpt": "I I think it's not in the next weeks, but I I expect in the next months this will be something that will be a win.",
-      "verdict": null,
-      "created_at": "2026-10-02T00:02:29",
-      "measurement_type": "subjective",
-      "occurrences": [
-        {
-          "date": "2026-05-04",
-          "url": "https://www.youtube.com/watch?v=8DB-529DFhg",
-          "claim": "The strait will remain closed and there will be no new traffic getting goods and oil and gas and plastics through the strait in the near term.",
-          "id": "pred_20261002001037_0afab4174529"
-        }
-      ],
-      "stated_count": 2,
-      "deep_qa": "OWNS",
-      "t_seconds": 475,
-      "gate_status": "horizon"
     },
     {
       "id": "pred_20261002000242_fbe2d4c42dff",
@@ -21472,46 +21085,6 @@
       "created_at": "2026-10-02T00:54:31",
       "measurement_type": "subjective",
       "gate_status": "queued"
-    },
-    {
-      "id": "pred_20261002005438_12bce86b20b6",
-      "individual_name": "Geoffrey Hinton",
-      "date": "2024-05-03",
-      "category": "ai",
-      "claim": "We'll get superintelligence with a probability of about 50% between 5 and 20 years.",
-      "source_url": "https://www.youtube.com/watch?v=pGNweUleVVE",
-      "transcript_excerpt": "Q: 'Jeff, how far out are you able to see?' — 'So my current opinion is we'll get superintelligence with a probably of 50% in between 5 and 20 years... it more or less fits in with Ray's perspective from a long time ago, which surprises me.'",
-      "verdict": null,
-      "created_at": "2026-10-02T00:54:38",
-      "measurement_type": "quantitative",
-      "occurrences": [
-        {
-          "date": "2024-05-03",
-          "url": "https://www.youtube.com/watch?v=pGNweUleVVE",
-          "claim": "AGI will be achieved by 2025.",
-          "id": "pred_20261002005438_5bc7fa5a1bc0"
-        }
-      ],
-      "stated_count": 2,
-      "deep_qa": "OWNS",
-      "test_eligible_at": "2029-05-03",
-      "judgements": [
-        {
-          "panelist": "Sam Altman",
-          "verdict": "correct",
-          "weight": 1.0,
-          "reasoning": "Altman has publicly stated superintelligence/AGI has already arrived ('the takeoff has started'), confirming Hinton's 5-20y window is running far ahead of schedule — 1 vote.",
-          "source": "Sam Altman public statements, 2025-2026"
-        },
-        {
-          "panelist": "LLM panelist (qwen3:32b, nimo128)",
-          "verdict": "unclear",
-          "weight": 1.0,
-          "reasoning": "Altman's 2026 'takeoff has begun' statement suggests strong progress toward AGI but does not confirm superintelligence or validate the 50% probability; the 5-20y window remains open.",
-          "source": "panel judgment run 2026-10-04"
-        }
-      ],
-      "gate_status": "horizon"
     },
     {
       "id": "pred_20261002005534_f1a5823c9f2e",
