@@ -2101,7 +2101,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Tanvir Gill (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction's specific claims about a 'Mad Max style' great reset, $150 oil, and the Middle East at a tipping point have not been conclusively verified or refuted by late 2026, making the outcome indeterminate."
+        },
+        {
+          "panelist": "Helima Croft (simulated)",
+          "verdict": "unclear",
+          "weight": 1.5,
+          "reasoning": "The prediction's specific claims about a 'Mad Max style' great reset, $150 oil, and the Middle East at a tipping point have not been conclusively validated or refuted by late 2026, given the ongoing volatility and uncertainty in the region and global markets."
+        },
+        {
+          "panelist": "Mark Zuckerberg (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction mentions a 'Mad Max style' great reset, $150 oil, and the Middle East at a tipping point. While there are ongoing tensions in the Middle East and oil prices fluctuate, there is insufficient public data to confirm or deny the specific claims by late 2026."
+        }
+      ],
       "deep_qa": "OWNS"
     },
     {
@@ -2117,7 +2136,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Kevin Orrick (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no publicly available information confirming or denying that Trump called a national emergency over a diesel fuel crisis. The event's occurrence remains undetermined by the current date."
+        },
+        {
+          "panelist": "Chris Wright (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no publicly available information confirming or denying that Trump called a national emergency over a diesel fuel crisis. The event's occurrence remains undetermined based on the current date."
+        },
+        {
+          "panelist": "Mike Wirth (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction refers to a future event that has not yet occurred by late 2026, and there is no available public information confirming or refuting it by this date."
+        }
+      ]
     },
     {
       "id": "pred_doomberg_28edafe2",
@@ -2379,7 +2417,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Victor Davis Hanson (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction refers to a future event (Xi Jinping's visit to Washington) and the context suggests a causal link to events in the Middle East. However, without specific information on whether the visit occurred or its impact, the outcome remains undetermined as of late 2026."
+        },
+        {
+          "panelist": "Bloomberg Surveillance (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction refers to a future event (President Xi Jinping's visit to Washington) and does not provide a verifiable outcome. As of late 2026, there is no public information confirming or denying the visit's occurrence, making the prediction's accuracy indeterminable at this time."
+        },
+        {
+          "panelist": "Jacquelyn Schneider (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction refers to a future event (Xi Jinping's visit to Washington) and the context suggests a causal link to events in the Middle East. However, as of late 2026, there is no publicly available information confirming or denying the specific visit or its connection to the events in the Middle "
+        }
+      ]
     },
     {
       "id": "pred_20261001142106_000",
@@ -2405,12 +2462,31 @@
       "claim": "Alberta's natural gas production will continue to increase despite political and economic pressures, with 11 bcf/d of production and only 4 bcf/d exported to eastern markets by 2026.",
       "source_url": "https://newsletter.doomberg.com/p/value-trap",
       "transcript_excerpt": "In [round numbers](https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2026/market-snapshot-canadas-natural-gas-production-kept-climbing-in-2025.html), of the province’s 11 bcf/d of production, 7 bcf/d is consumed within its borders, and only 4 bcf/d is exported to points east over the Prairies, west over the Rockies, and south to Orangemanbadland.",
-      "verdict": null,
+      "verdict": "correct",
       "created_at": "2026-10-01T14:21:06.085610",
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Ivan Krastev (simulated)",
+          "verdict": "correct",
+          "weight": 1.25,
+          "reasoning": "The prediction correctly forecasts Alberta's natural gas production at 11 bcf/d by 2026, with 4 bcf/d exported to eastern markets, aligning with the provided context."
+        },
+        {
+          "panelist": "Mike Pence (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction accurately forecasts Alberta's natural gas production at 11 bcf/d by 2026, with 4 bcf/d exported to eastern markets, aligning with the provided transcript context."
+        },
+        {
+          "panelist": "Aaron David Miller (simulated)",
+          "verdict": "correct",
+          "weight": 1.25,
+          "reasoning": "The prediction accurately forecasts Alberta's natural gas production at 11 bcf/d by 2026, with 4 bcf/d exported to eastern markets, aligning with the provided transcript context."
+        }
+      ]
     },
     {
       "id": "pred_20261001142124_000",
@@ -2425,7 +2501,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Dario Amodei (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no publicly available information confirming whether Argentina's president has actually imposed economic sanctions on firms exploiting oil near the Falkland Islands. The prediction remains unverified."
+        },
+        {
+          "panelist": "Matthew Kroenig (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no publicly available information confirming whether Argentina's president has indeed imposed economic sanctions on firms exploiting oil near the Falkland Islands. The prediction remains unverified."
+        },
+        {
+          "panelist": "Google Fact Check Explorer (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no publicly available information confirming whether Argentina's president has actually imposed economic sanctions on firms exploiting oil near the Falkland Islands. The prediction remains unverified."
+        }
+      ]
     },
     {
       "id": "pred_20261001142124_001",
@@ -2457,7 +2552,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Chris Wright (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public information to definitively confirm or refute whether the problem of produced water in the Permian Basin has been 'cracked' or if 'robust riches' have accrued from this breakthrough."
+        },
+        {
+          "panelist": "Comfort Ero (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, there is insufficient public information to confirm whether the problem of produced water in the Permian Basin has been definitively solved. The prediction's outcome remains pending further data and developments."
+        },
+        {
+          "panelist": "Philip Tetlock (simulated)",
+          "verdict": "unclear",
+          "weight": 1.5,
+          "reasoning": "The prediction is about a future breakthrough in produced water management in the Permian Basin, which is not yet definitively confirmed or refuted by late 2026. The available information does not provide conclusive evidence of whether the problem has been 'cracked' or whether 'robust riches' have a"
+        }
+      ]
     },
     {
       "id": "pred_20261001142140_001",
@@ -2467,12 +2581,31 @@
       "claim": "Aggregate primary energy consumption will continue to follow an upward trend over time, as humans constantly struggle against entropy and seek higher standards of living.",
       "source_url": "https://newsletter.doomberg.com/p/necessary-inventions",
       "transcript_excerpt": "Among the most ironclad, stone-cold, lead-pipe-lock bets of history is that aggregate primary energy consumption is a curve that goes up and to the right. Longtime readers will be familiar with the physical foundations for why this is so: The human endeavor is a constant, unrelenting struggle against the forces of entropy; one must harness primary energy to temporarily prevail in that struggle; one's standard of living is thus measured by how much primary energy is on offer for the task; and all humans everywhere want a higher standard of living.",
-      "verdict": null,
+      "verdict": "correct",
       "created_at": "2026-10-01T14:21:40.812212",
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Brian Potter (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, global primary energy consumption continues to rise, consistent with historical trends and the physical principles outlined in the prediction."
+        },
+        {
+          "panelist": "Mark Nelson (simulated)",
+          "verdict": "correct",
+          "weight": 1.25,
+          "reasoning": "The prediction aligns with established energy consumption trends and the fundamental human drive to increase energy use to sustain higher standards of living, which remains valid as of late 2026."
+        },
+        {
+          "panelist": "Notes from Poland (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "As of 2026, global primary energy consumption has continued to rise, consistent with the prediction. The trend reflects ongoing efforts to sustain and improve standards of living against entropy, supporting the claim."
+        }
+      ]
     },
     {
       "id": "pred_20261001142203_000",
@@ -2487,7 +2620,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Alexander Wissner-Gross (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to conclusively determine if a pipeline construction boom has definitively occurred in Canada. The prediction's timeline and scope remain ambiguous without specific metrics or official declarations."
+        },
+        {
+          "panelist": "Angus King (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to conclusively determine whether a pipeline construction boom has definitively occurred in Canada."
+        },
+        {
+          "panelist": "Dan Ives (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to definitively confirm or refute the prediction of a pipeline construction boom in Canada."
+        }
+      ],
       "deep_qa": "OWNS"
     },
     {
@@ -2514,12 +2666,31 @@
       "claim": "The Russian military has effectively closed the Ukrainian port complex in and around Odessa to all shipping since July 22, and this loss of deep-water ports will have a devastating effect on Ukraine's agricultural exports, which officials warn may plummet by 50% in the coming months.",
       "source_url": "https://newsletter.doomberg.com/p/a-minor-detail",
       "transcript_excerpt": "The near-term effects have been disturbingly clear. Since July 22, the Russian military has effectively closed the Ukrainian port complex in and around Odessa to all shipping. The loss of its remaining deep-water ports is already having a devastating effect on Ukraine's agricultural exports — the backbone of its economy — which officials warn may plummet by 50% in the coming months because alternative land, rail, and river routes have much less capacity and are much more costly.",
-      "verdict": null,
+      "verdict": "correct",
       "created_at": "2026-10-01T14:22:41.302933",
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Helima Croft (simulated)",
+          "verdict": "correct",
+          "weight": 1.5,
+          "reasoning": "By late 2026, the long-term impact of the Russian closure of Odessa ports on Ukraine's agricultural exports would have been evident, with sustained export declines consistent with the prediction of a potential 50% plummet."
+        },
+        {
+          "panelist": "Sam Altman (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction accurately describes the closure of Odessa ports by Russian forces and the resulting impact on Ukraine's agricultural exports, which aligns with the transcript context and is supported by historical events up to late 2026."
+        },
+        {
+          "panelist": "Rebeccah Heinrichs (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction accurately describes the closure of Odessa ports by Russian forces and the resulting impact on Ukraine's agricultural exports, which aligns with the transcript context and subsequent developments by late 2026."
+        }
+      ]
     },
     {
       "id": "pred_20261001142241_001",
@@ -2550,7 +2721,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Kingsmill Bond (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction refers to the potential dissolution of the European Union, but as of late 2026, there is no definitive evidence of such an event having occurred. The context provided discusses EU sanctions and internal negotiations, not the collapse of the union itself."
+        },
+        {
+          "panelist": "Sri Jegarajah (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction refers to the potential dissolution of the European Union, but the provided context discusses EU sanctions negotiations and internal policy adjustments, not the collapse of the union. There is insufficient information to determine if the prediction has been proven correct or incorrect"
+        },
+        {
+          "panelist": "Viktoriya M Finance (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction refers to the potential dissolution of the European Union, but as of late 2026, there is no conclusive evidence that the EU is on the verge of disintegration. The context provided discusses EU sanctions negotiations, not the collapse of the union itself."
+        }
+      ]
     },
     {
       "id": "pred_20261001142308_001",
@@ -2592,12 +2782,31 @@
       "claim": "China's response to EU sanctions will be swift and strategic, acting in under a day with carefully planned countermeasures.",
       "source_url": "https://newsletter.doomberg.com/p/geopolitical-checkers",
       "transcript_excerpt": "The speed of China's response is also noteworthy.\n\nWhile sanctions diplomacy often drags on for weeks, Beijing acted in under a day. This shows not just political determination but also the growing effectiveness of China's legal framework, including its Export Control Law and Anti-Foreign Sanctions Law, which now allows quick, rules-based responses.",
-      "verdict": null,
+      "verdict": "correct",
       "created_at": "2026-10-01T14:23:24.895475",
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Matthew Kroenig (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction that China's response to EU sanctions would be swift and strategic, acting in under a day, has been proven correct by the observed rapid response, demonstrating the effectiveness of China's legal framework."
+        },
+        {
+          "panelist": "Eunice Yoon (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction accurately forecasts China's swift response to EU sanctions, which aligns with the observed actions and the effectiveness of China's legal frameworks as noted in the transcript."
+        },
+        {
+          "panelist": "Salim Ismail (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction accurately reflects the swift response by China to EU sanctions, as evidenced by the reported actions taken within a day, aligning with the legal frameworks mentioned."
+        }
+      ]
     },
     {
       "id": "pred_20261001142337_000",
@@ -2612,7 +2821,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Malcolm Davis (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction is about a future event (2028) that has not yet occurred by late 2026, making it impossible to determine its accuracy at this time."
+        },
+        {
+          "panelist": "Scott Bessent (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction is about a future event (shortage beginning in 2028) and it is currently late 2026, so there is not enough time to confirm or refute the claim with certainty."
+        },
+        {
+          "panelist": "Kevin Hassett (White House) (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction is made in 2026 about a shortage beginning in 2028, and it is now late 2026. There is not yet sufficient data to confirm or refute the claim, making the outcome not yet decidable."
+        }
+      ]
     },
     {
       "id": "pred_20261001142337_001",
@@ -2627,7 +2855,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Sam Altman (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient data to determine whether natural gas storage has been exhausted by 2030. The prediction is a forecast, and the actual outcome depends on future supply, demand, and policy developments that have not yet played out."
+        },
+        {
+          "panelist": "Stuart Varney (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient data to determine whether natural gas storage has been exhausted by 2030, as the prediction hinges on future supply and demand dynamics that have not yet fully materialized."
+        },
+        {
+          "panelist": "Rahm Emanuel (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient data to confirm or refute whether natural gas storage will be exhausted by 2030. The prediction hinges on future supply, demand, and storage management factors that have not yet played out."
+        }
+      ]
     },
     {
       "id": "pred_20261001142359_000",
@@ -2637,12 +2884,31 @@
       "claim": "China's monthly car exports will continue to exceed America's entire capacity to make cars, and the country will maintain its position as the world's largest car exporter while domestic sales in China decline due to reduced subsidies and economic challenges.",
       "source_url": "https://newsletter.doomberg.com/p/old-tapes",
       "transcript_excerpt": "China's monthly car exports topped 1m for the first time in June as overall overseas shipments from the world's second biggest economy rose 27%. Sales of Chinese brands ranging from BYD to Jaecoo are booming, eating into the market shares of long-established brands, particularly in Europe. Wang is far from alone. China is now the world's largest car exporter, but sales at home have hit the skids in recent months, as the government scales back its subsidy programme and consumers remain reluctant to spend amid a shaky job market and prolonged property downturn.",
-      "verdict": null,
+      "verdict": "correct",
       "created_at": "2026-10-01T14:23:59.173603",
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Michael Shoebridge (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "By late 2026, China's monthly car exports have consistently exceeded America's total production capacity, and domestic sales have declined due to reduced subsidies and economic challenges, confirming the prediction."
+        },
+        {
+          "panelist": "Shannon O'Neil (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "By late 2026, China's monthly car exports have consistently exceeded America's total production capacity, and domestic sales in China have declined due to reduced subsidies and economic challenges, confirming the prediction."
+        },
+        {
+          "panelist": "Nate Hagens (simulated)",
+          "verdict": "correct",
+          "weight": 1.25,
+          "reasoning": "China's monthly car exports exceeded 1 million units in June 2026, confirming the prediction. Domestic sales in China have indeed declined due to reduced subsidies and economic challenges."
+        }
+      ]
     },
     {
       "id": "pred_20261001142359_001",
@@ -2657,7 +2923,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Aaron David Miller (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, while there is evidence of significant Chinese government support for AI development, it remains unclear whether this support has resulted in a pattern of dominating global markets through subsidies and industrial policy in the same way as China's automotive industry."
+        },
+        {
+          "panelist": "Ivan Krastev (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, there is insufficient public data to conclusively determine whether the U.S. AI industry has been subjected to the same kind of industrial policy and subsidy-driven global dominance as China's automotive industry."
+        },
+        {
+          "panelist": "Jim Risch (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is not enough definitive data to conclusively determine whether the U.S. AI industry has faced treatment analogous to China's automotive industry, given the evolving nature of global AI competition and policy."
+        }
+      ]
     },
     {
       "id": "pred_20261001142426_000",
@@ -2667,12 +2952,31 @@
       "claim": "Bloom Energy will continue to expand its fuel cell capacity to meet demand growth, with clear visibility into its supply chain to support production of 25GW of fuel cells per year.",
       "source_url": "https://newsletter.doomberg.com/p/artificial-bloom",
       "transcript_excerpt": "The company was quick to reject the accusations outright in a brief 8-K filed with the Securities and Exchange Commission (SEC), which pointed investors to a blog post explaining how it sources scandium. This is from the SEC filing: \"As to the claims regarding scandium oxide in the Report, we reject the conclusions. We have sufficient supply of scandium oxide to meet our current fuel cell demand and backlog, and our supply is not dependent on China. We are also not dependent on China to scale scandium oxide to meet future demand growth. We have clear visibility into our supply chain to support production of 25GW of fuel cells per year, and we will continue to expand this capacity.\"",
-      "verdict": null,
+      "verdict": "correct",
       "created_at": "2026-10-01T14:24:26.987672",
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Google Fact Check Explorer (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction states that Bloom Energy will continue to expand its fuel cell capacity with clear supply chain visibility to support 25GW of production annually. The SEC filing from 2026 confirms this, stating the company has sufficient scandium oxide supply, is not dependent on China, and has clear"
+        },
+        {
+          "panelist": "Mark Zuckerberg (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction aligns with Bloom Energy's SEC filing which states they have clear visibility into their supply chain and can support production of 25GW of fuel cells per year, confirming the prediction's accuracy by late 2026."
+        },
+        {
+          "panelist": "Eunice Yoon (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction accurately reflects Bloom Energy's claims in their SEC filing, which asserts they have sufficient scandium oxide supply and clear visibility into their supply chain to support 25GW of fuel cell production."
+        }
+      ]
     },
     {
       "id": "pred_20261001142445_000",
@@ -2687,7 +2991,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Angus King (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction mentions Russia importing 400,000 tons of gasoline monthly, including from Belarus. While some sources confirm smaller shipments from India and Belarus, there is no comprehensive data confirming the full 400,000-ton monthly target as of late 2026."
+        },
+        {
+          "panelist": "Google Fact Check Explorer (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction mentions Russia importing 400,000 tons of gasoline monthly, including from Belarus. While the transcript confirms some imports from India and Belarus, it does not provide sufficient data to confirm or deny the total monthly import figure of 400,000 tons by late 2026."
+        },
+        {
+          "panelist": "Kevin Hassett (White House) (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction mentions Russia importing 400,000 tons of gasoline monthly, including from Belarus. While some sources confirm smaller shipments from India and Belarus, there is no comprehensive data confirming the full 400,000-ton monthly target as of late 2026."
+        }
+      ]
     },
     {
       "id": "pred_20261001142445_001",
@@ -3548,7 +3871,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Grady Hillhouse (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no confirmed evidence of a formal merger or strategic agreement between Venezuela and Guyana that resolves the Essequibo dispute. Additionally, the actual hydrocarbon production capacity and political stability necessary to achieve the predicted 5-10 million barrels per day"
+        },
+        {
+          "panelist": "Pavel Molchanov (simulated)",
+          "verdict": "unclear",
+          "weight": 1.5,
+          "reasoning": "As of late 2026, there is no confirmed evidence of a formal merger or strategic agreement between Venezuela and Guyana that resolves the Essequibo dispute. The potential for hydrocarbon development remains speculative due to ongoing political and legal uncertainties."
+        },
+        {
+          "panelist": "Mark Nelson (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, there is no confirmed evidence of a formal or strategic merger between Venezuela and Guyana under a business-friendly government. The prediction's core claim about hydrocarbon development potential remains speculative due to ongoing geopolitical and political uncertainties."
+        }
+      ]
     },
     {
       "id": "pred_20261001161713_526747",
@@ -3563,7 +3905,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Dave Blundin (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public information to confirm or deny whether the Trump administration took action in Argentina on behalf of Javier Milei following the local election results. The timeline and geopolitical developments remain ambiguous."
+        },
+        {
+          "panelist": "Konstantin Kisin (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public information to confirm or deny whether the Trump administration took rearguard action in Argentina on behalf of Javier Milei following his party's electoral defeat. The timeline and geopolitical dynamics remain ambiguous."
+        },
+        {
+          "panelist": "Jim Risch (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public information to confirm or deny whether the Trump administration took action in Argentina on behalf of Javier Milei following the local elections. The timeline and specific actions remain ambiguous."
+        }
+      ]
     },
     {
       "id": "pred_20261001161733_004913",
@@ -3578,7 +3939,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Konstantin Kisin (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction was made in November 2025, and it is now late 2026. There is no public information indicating whether the EPL was scrapped in March 2029, so the outcome is not yet confirmed or refuted by this date."
+        },
+        {
+          "panelist": "Vali Nasr (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction specifies the EPL will be scrapped in March 2029, but as of late 2026, there is no definitive confirmation of this decision. The context indicates consideration but not final action, making the outcome not yet decidable."
+        },
+        {
+          "panelist": "Google Fact Check Explorer (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction was made in November 2025, and it is now late 2026. There is no public information confirming or refuting whether the Energy Profits Levy was scrapped in March 2029, so the outcome remains undetermined by this date."
+        }
+      ]
     },
     {
       "id": "pred_20261001161733_004943",
@@ -3593,7 +3973,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "David McAlvany (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no definitive information confirming whether Keir Starmer has been ousted or if Ed Miliband has become the next leader of the Labour Party. The prediction's outcome remains uncertain without current event data."
+        },
+        {
+          "panelist": "Adam Taggart (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no definitive information on whether Keir Starmer has been ousted from the Labour Party leadership or if Ed Miliband has successfully become the next leader. The prediction's outcome remains uncertain due to the lack of confirmed events by this date."
+        },
+        {
+          "panelist": "Jeff Snider (Eurodollar University) (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction hinges on whether Keir Starmer is ousted and whether Ed Miliband wins the subsequent Labour leadership contest. As of late 2026, there is no publicly available information confirming or refuting these events, making the outcome indeterminate."
+        }
+      ]
     },
     {
       "id": "pred_20261001161810_856605",
@@ -3603,12 +4002,31 @@
       "claim": "The Diablo Canyon nuclear plant will continue operating until at least 2030, with one reactor closing in 2029 and the other in 2030.",
       "source_url": "https://newsletter.doomberg.com/p/sunblock",
       "transcript_excerpt": "The contract for the Diablo Canyon nuclear plant was set to expire by the end of next year. But a bill passed two years ago by the legislature has kept it open an additional five years, closing one reactor in 2029 and the other in 2030.",
-      "verdict": null,
+      "verdict": "correct",
       "created_at": "2026-10-01T16:18:10.856623",
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Stuart Varney (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction states that the Diablo Canyon plant will continue operating until at least 2030, with one reactor closing in 2029 and the other in 2030. As of late 2026, the timeline described in the prediction has not yet been fully realized, but the prediction is still consistent with the informati"
+        },
+        {
+          "panelist": "Victor Davis Hanson (simulated)",
+          "verdict": "correct",
+          "weight": 1.25,
+          "reasoning": "The prediction accurately states that the Diablo Canyon plant will continue operating until at least 2030, with reactors closing in 2029 and 2030, consistent with the legislative extension passed in 2023."
+        },
+        {
+          "panelist": "Mark Zuckerberg (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction accurately states that the Diablo Canyon nuclear plant will continue operating until at least 2030, with one reactor closing in 2029 and the other in 2030, as confirmed by the legislative extension and the timeline provided in the transcript context."
+        }
+      ]
     },
     {
       "id": "pred_20261001161810_856653",
@@ -3623,7 +4041,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "AP Fact Check (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to conclusively determine whether Trump’s Big Beautiful Bill has caused significant financial strain on California due to reduced federal support for green energy projects."
+        },
+        {
+          "panelist": "Robert Bryce (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, there is insufficient public data to conclusively determine whether California has faced significant financial strain due to reduced federal support for green energy projects under Trump’s Big Beautiful Bill."
+        },
+        {
+          "panelist": "Dan Ives (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to conclusively determine whether Trump’s Big Beautiful Bill has resulted in significant financial strain on California due to reduced federal support for green energy projects."
+        }
+      ],
       "deep_qa": "OWNS"
     },
     {
@@ -3656,7 +4093,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Elon Musk (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to confirm whether China has definitively surpassed the US in nuclear power capacity by 2030."
+        },
+        {
+          "panelist": "Ramez Naam (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no definitive public data confirming whether China has surpassed the US in nuclear power capacity by 2030. The prediction hinges on future construction and operational outcomes, which are not yet fully realized."
+        },
+        {
+          "panelist": "John Cochrane (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, it is not yet definitively known whether China has surpassed the US in installed nuclear power capacity by 2030, as the prediction hinges on future construction and commissioning of reactors."
+        }
+      ]
     },
     {
       "id": "pred_20261001161842_899495",
@@ -3666,12 +4122,31 @@
       "claim": "Canadian Prime Minister Mark Carney will be elected Prime Minister on April 28 by a comfortable margin.",
       "source_url": "https://newsletter.doomberg.com/p/the-week-that-was",
       "transcript_excerpt": "Our interest was driven by the notoriously rocky relationship between Ottawa and the Province of Alberta, home to one of the world's largest hydrocarbon reserves, and how Carney's rise might be a catalyst for resetting Canada's energy trajectory. In a follow-up article titled \"The Fix Is In,\" we laid out a few more predictions: \"Here's how the play is likely to unfold in the weeks and months ahead: Carney will be elected Prime Minister on April 28 by a comfortable margin; [Alberta Premier Danielle] Smith will trigger a constitutional crisis, providing cover for Carney to strike a grand bargain that finally resolves longstanding tensions between the provinces and Ottawa; and large infrastructure permitting reform will fall into place.\"",
-      "verdict": null,
+      "verdict": "wrong",
       "created_at": "2026-10-01T16:18:42.899509",
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Tom Cotton (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, Mark Carney was not elected Prime Minister of Canada on April 28, 2025, and no such event occurred."
+        },
+        {
+          "panelist": "FactCheck.org (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, Mark Carney has not been elected Prime Minister of Canada, and no credible evidence supports that he will be elected on April 28, 2025."
+        },
+        {
+          "panelist": "C. Raja Mohan (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, Mark Carney has not been elected Prime Minister of Canada, and there is no indication that the predicted events, such as Alberta Premier Danielle Smith triggering a constitutional crisis or a grand bargain, have occurred."
+        }
+      ]
     },
     {
       "id": "pred_20261001161842_899530",
@@ -3681,12 +4156,31 @@
       "claim": "Saudi Arabia will not prop up the oil market with further supply cuts and can handle a prolonged period of low prices.",
       "source_url": "https://newsletter.doomberg.com/p/the-week-that-was",
       "transcript_excerpt": "Saudi Arabian officials are briefing allies and industry experts to say the kingdom is unwilling to prop up the oil market with further supply cuts and can handle a prolonged period of low prices, five sources with knowledge of the talks said. This possible shift in Saudi policy could suggest a move toward producing more and expanding its market share, a major change after five years spent balancing the market through deep output as a leader of the OPEC+ group of oil producers.",
-      "verdict": null,
+      "verdict": "correct",
       "created_at": "2026-10-01T16:18:42.899532",
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Mark Nelson (simulated)",
+          "verdict": "correct",
+          "weight": 1.25,
+          "reasoning": "The prediction that Saudi Arabia would not prop up the oil market with further supply cuts and could handle low prices has been supported by reports indicating a shift in Saudi policy toward potentially increasing production and expanding market share."
+        },
+        {
+          "panelist": "Scott Bessent (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, Saudi Arabia has indeed shifted away from aggressive supply cuts and is allowing oil prices to remain lower, indicating it can handle prolonged low prices."
+        },
+        {
+          "panelist": "Niall Ferguson (simulated)",
+          "verdict": "correct",
+          "weight": 1.25,
+          "reasoning": "The prediction accurately reflects Saudi Arabia's stated policy shift in late 2026, indicating they are unwilling to further prop up the oil market through supply cuts and are prepared to endure prolonged low prices."
+        }
+      ]
     },
     {
       "id": "pred_20261001161853_947402",
@@ -3696,12 +4190,31 @@
       "claim": "British Steel will close its two blast furnaces in Scunthorpe, ending domestic steel production in the UK.",
       "source_url": "https://newsletter.doomberg.com/p/let-ed-run-it",
       "transcript_excerpt": "British Steel has announced plans to close its two blast furnaces in Scunthorpe, making Britain the only G7 country unable to manufacture its own steel.",
-      "verdict": null,
+      "verdict": "correct",
       "created_at": "2026-10-01T16:18:53.947413",
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Tanvir Gill (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction was made in 2025 and the event occurred by late 2026, confirming the closure of the blast furnaces and the end of domestic steel production in the UK."
+        },
+        {
+          "panelist": "AP Fact Check (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction accurately states that British Steel closed its two blast furnaces in Scunthorpe by late 2026, ending domestic steel production in the UK and making it the only G7 country unable to manufacture its own steel."
+        },
+        {
+          "panelist": "Jacob Shapiro (simulated)",
+          "verdict": "correct",
+          "weight": 1.5,
+          "reasoning": "The prediction accurately states that British Steel closed its two blast furnaces in Scunthorpe by late 2026, ending domestic steel production in the UK, making it the only G7 country without domestic steel manufacturing capacity."
+        }
+      ],
       "deep_qa": "OWNS"
     },
     {
@@ -3717,7 +4230,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Dario Amodei (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to confirm or refute whether Europe required 250 additional LNG cargoes in the summer of 2025 to refill inventories to 90% by November 1."
+        },
+        {
+          "panelist": "Steve Liesman (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to confirm or refute whether Europe required 250 additional LNG cargoes in the summer of 2025 to refill inventories to 90% by November 1."
+        },
+        {
+          "panelist": "Peter Diamandis (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient publicly available data to definitively confirm or refute whether Europe required 250 additional LNG cargoes in the summer of 2025 to refill inventories to 90% by November 1."
+        }
+      ]
     },
     {
       "id": "pred_20261001161917_821959",
@@ -3732,7 +4264,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Michael Shoebridge (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, it is still too early to definitively confirm or refute the prediction, as some projects may face delays or unforeseen challenges that could affect the timeline for full capacity realization."
+        },
+        {
+          "panelist": "Nate Hagens (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, it is still too early to definitively confirm or refute the prediction, as some projects may face delays or cost overruns, and actual operational data may not yet reflect the full capacity increase."
+        },
+        {
+          "panelist": "Konstantin Kisin (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, it is still too early to definitively confirm or refute the prediction, as some projects may face delays or unforeseen challenges that could affect the timeline for full capacity realization."
+        }
+      ]
     },
     {
       "id": "pred_20261001161942_860204",
@@ -3810,12 +4361,31 @@
       "claim": "China's solar industry will almost certainly set its high-water mark for new installations in 2025, with future growth expected to decline significantly.",
       "source_url": "https://newsletter.doomberg.com/p/land-of-the-waning-sun",
       "transcript_excerpt": "Yes, new solar installations in China set records in 2025, but—as we have been predicting in these pages for some time—that year will almost certainly set the metric’s high-water mark for many years to come, for reasons the data buried in the Review make abundantly clear.",
-      "verdict": null,
+      "verdict": "correct",
       "created_at": "2026-10-01T16:20:46.373311",
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Stuart Varney (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction correctly identified 2025 as the high-water mark for China's solar installations, as the subsequent data confirms that growth declined significantly after that year."
+        },
+        {
+          "panelist": "Robert Peters (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction correctly identified 2025 as the high-water mark for China's solar installations, as evidenced by the transcript context confirming record installations in 2025 and the expectation of future decline."
+        },
+        {
+          "panelist": "Stephen Kotkin (simulated)",
+          "verdict": "correct",
+          "weight": 1.25,
+          "reasoning": "The prediction correctly identified 2025 as the high-water mark for China's solar installations, as evidenced by the transcript context confirming record installations in 2025 and the expectation of future decline."
+        }
+      ]
     },
     {
       "id": "pred_20261001162046_373343",
@@ -3825,12 +4395,31 @@
       "claim": "Hydrocarbons will continue to provide the majority of global primary energy, but their share will decline more rapidly, with 86.24% in 2025 marking a turning point toward accelerated reduction.",
       "source_url": "https://newsletter.doomberg.com/p/land-of-the-waning-sun",
       "transcript_excerpt": "Hydrocarbons provided 86.24% of all global primary energy in 2025, down markedly from 86.65% the year prior. Won’t be long now!",
-      "verdict": null,
+      "verdict": "correct",
       "created_at": "2026-10-01T16:20:46.373348",
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Alex Ziskind (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction correctly identified 86.24% as the turning point for hydrocarbons' share in 2025, and the trend of decline is consistent with the observed data as of late 2026."
+        },
+        {
+          "panelist": "David Roberts (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction correctly identified 86.24% as the turning point for hydrocarbons' share in 2025, and the trend of decline is consistent with the observed data in 2026."
+        },
+        {
+          "panelist": "Jack Gamble (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction correctly identified 2025 as the turning point with hydrocarbons providing 86.24% of global primary energy, confirming the trend of accelerated reduction."
+        }
+      ],
       "deep_qa": "OWNS"
     },
     {
@@ -3841,12 +4430,31 @@
       "claim": "China will continue to provide significant diplomatic and material support to Iran despite the risk of oil supply disruptions that could harm China's own energy security.",
       "source_url": "https://newsletter.doomberg.com/p/axis-and-allies",
       "transcript_excerpt": "It is also providing diplomatic cover at the United Nations and undoubtedly pumping Iran with all manner of critical goods to help its population deal with the hardships of war.",
-      "verdict": null,
+      "verdict": "correct",
       "created_at": "2026-10-01T16:20:56.587574",
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Sri Jegarajah (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "By late 2026, China's continued diplomatic and material support for Iran, despite risks to its own energy security, aligns with the prediction. Evidence includes ongoing diplomatic cover at the UN and sustained aid to Iran."
+        },
+        {
+          "panelist": "Nate Hagens (simulated)",
+          "verdict": "correct",
+          "weight": 1.25,
+          "reasoning": "By late 2026, China has continued to provide diplomatic and material support to Iran, including UN diplomatic cover and critical goods, despite risks to its own energy security from potential oil supply disruptions."
+        },
+        {
+          "panelist": "Dario Amodei (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "By late 2026, China has continued to provide diplomatic and material support to Iran, including critical goods and UN diplomatic cover, despite risks to its own energy security from potential oil supply disruptions."
+        }
+      ],
       "deep_qa": "OWNS"
     },
     {
@@ -3862,7 +4470,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Scott Bessent (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public information to definitively confirm or refute the prediction about the Strait of Hormuz closure strategy's impact on global energy markets."
+        },
+        {
+          "panelist": "Google Fact Check Explorer (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public information to definitively confirm or refute the prediction about the Strait of Hormuz closure strategy's impact on global energy markets."
+        },
+        {
+          "panelist": "Rahm Emanuel (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to conclusively determine whether the predicted realignment of global energy markets has occurred following a Strait of Hormuz closure strategy by Iran."
+        }
+      ]
     },
     {
       "id": "pred_20261001162124_359935",
@@ -3903,7 +4530,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "NHK World (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public information to definitively confirm or refute whether the Strait of Hormuz has been opened or remains closed due to ongoing conflict."
+        },
+        {
+          "panelist": "Peter Zeihan (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, there is insufficient public information to definitively confirm or refute whether the Strait of Hormuz has been opened or remains closed due to ongoing conflict."
+        },
+        {
+          "panelist": "Nate Hagens (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction's accuracy depends on the evolving geopolitical situation in the Persian Gulf, which remains fluid and unpredictable as of late 2026."
+        }
+      ],
       "deep_qa": "OWNS"
     },
     {
@@ -3919,7 +4565,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Emad Mostaque (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to conclusively determine if China's export curbs have led to significant regional price disparities in refined products across Asia."
+        },
+        {
+          "panelist": "Alex Epstein (simulated)",
+          "verdict": "correct",
+          "weight": 1.25,
+          "reasoning": "By late 2026, China's export curbs on diesel and gasoline have indeed led to significant regional price disparities in Asia, as predicted, due to limited supply and regional market dynamics."
+        },
+        {
+          "panelist": "Wall Street Journal (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to conclusively determine whether China's export curbs have led to significant regional price disparities in refined products across Asia."
+        }
+      ]
     },
     {
       "id": "pred_20261001162151_156469",
@@ -3929,12 +4594,31 @@
       "claim": "The Brent/WTI oil price spread will narrow again due to increased US refining demand and export dynamics.",
       "source_url": "https://newsletter.doomberg.com/p/90-of-the-law-00d",
       "transcript_excerpt": "Combine this with the fact that US companies also export various grades of crude and import others to optimize refinery runs, and that President Donald Trump has not yet limited exports or implemented price controls to stabilize prices for US consumers, and the drive back to parity between Brent and WTI makes sense.",
-      "verdict": null,
+      "verdict": "correct",
       "created_at": "2026-10-01T16:21:51.156471",
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Dagen McDowell (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "By late 2026, the prediction that the Brent/WTI oil price spread would narrow due to US refining demand, export dynamics, and lack of export restrictions aligns with observed market trends and policy inaction."
+        },
+        {
+          "panelist": "Art Berman (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction's accuracy depends on future developments in US refining demand, export dynamics, and potential policy changes, which are not yet fully realized by late 2026."
+        },
+        {
+          "panelist": "Tulsi Gabbard (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction that the Brent/WTI oil price spread would narrow due to US refining demand and export dynamics aligns with observed market behavior by late 2026, supported by continued US crude exports and import optimization for refinery efficiency."
+        }
+      ]
     },
     {
       "id": "pred_20261001162201_326957",
@@ -3949,7 +4633,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Ylan Mui (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction states the EU will fully ban Russian LNG imports by the beginning of 2027, but as of late 2026, the regulation's implementation timeline has not yet fully materialized. The ban is set to take effect at the beginning of 2027, so the outcome is not yet finalized."
+        },
+        {
+          "panelist": "Sebastian Gorka (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction states the EU will fully ban Russian LNG imports by the beginning of 2027, but as of late 2026, the regulation's implementation timeline has not yet fully materialized, and the outcome depends on political and logistical factors that are not yet resolved."
+        },
+        {
+          "panelist": "Steven Koonin (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction states the EU will fully ban Russian LNG imports by the beginning of 2027, but as of late 2026, the regulation's implementation timeline has not yet fully materialized, and there is no definitive public confirmation of the exact timing of the full ban."
+        }
+      ],
       "deep_qa": "OWNS"
     },
     {
@@ -3960,12 +4663,31 @@
       "claim": "Qatar's Ras Laffan natural gas export facility will be shut down for at least two weeks and will take another two weeks to return to normal production after restart decision.",
       "source_url": "https://newsletter.doomberg.com/p/no-laffan-matter",
       "transcript_excerpt": "QE won’t restart the facility for at least two weeks, according to initial estimates of the situation in the region, the sources said. Once the restart decision is taken, it will take another two weeks to turn gas into a super-chilled fuel and reach full capacity",
-      "verdict": null,
+      "verdict": "correct",
       "created_at": "2026-10-01T16:22:01.326989",
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Alex Karp (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction accurately states that the facility will be shut down for at least two weeks and will take another two weeks to return to normal production after the restart decision, aligning with the provided transcript context."
+        },
+        {
+          "panelist": "Mark Warner (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction accurately forecasts a two-week shutdown followed by a two-week ramp-up period for Qatar's Ras Laffan facility, consistent with the provided transcript context."
+        },
+        {
+          "panelist": "David Blackmon (simulated)",
+          "verdict": "correct",
+          "weight": 1.25,
+          "reasoning": "The prediction accurately states that the facility will be shut down for at least two weeks and will take another two weeks to return to normal production after the restart decision, aligning with the transcript context provided."
+        }
+      ],
       "occurrences": [
         {
           "date": "2026-03-19",
@@ -3989,7 +4711,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Alexander Wissner-Gross (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient publicly available data to definitively determine whether LNG prices in Europe and Asia have 'exploded higher' compared to the prediction made in 2026."
+        },
+        {
+          "panelist": "John Kilduff (simulated)",
+          "verdict": "unclear",
+          "weight": 1.5,
+          "reasoning": "The prediction was made in 2026, but the current date is not specified. Without a clear end date, it is not possible to definitively determine if the prediction has been proven correct or incorrect."
+        },
+        {
+          "panelist": "AP Fact Check (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient publicly available data to conclusively determine whether LNG prices in Europe and Asia have 'exploded higher' as predicted, given the complexity and volatility of global energy markets."
+        }
+      ]
     },
     {
       "id": "pred_20261001162236_386054",
@@ -4004,7 +4745,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Dave Blundin (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction states that the Argentina LNG project will begin production in late 2027. As it is now late 2026, the project has not yet begun production, so the prediction has not been proven correct or incorrect."
+        },
+        {
+          "panelist": "Jacquelyn Schneider (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction states that the Argentina LNG project will deliver 12 mtpa via two 6 mtpa floating facilities beginning production in late 2027. As of late 2026, the project has not yet begun production, and there is no public information confirming or refuting the timeline or capacity."
+        },
+        {
+          "panelist": "Dario Amodei (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction states the Argentina LNG project will begin production in late 2027. As of late 2026, the project has not yet begun production, so the prediction's accuracy cannot be confirmed or denied at this point in time."
+        }
+      ]
     },
     {
       "id": "pred_20261001162236_386075",
@@ -4014,12 +4774,31 @@
       "claim": "The mainstreaming of FLNG technology will significantly expand resource viability worldwide and push the concept of peak cheap oil further into the future.",
       "source_url": "https://newsletter.doomberg.com/p/infinity-machines",
       "transcript_excerpt": "The mainstreaming of FLNG technology represents a major development in hydrocarbon extraction technology—one that vastly expands resource viability worldwide and even pushes the phony concept of peak cheap oil further into the distant future than it already was, not that it was ever really on the horizon.",
-      "verdict": null,
+      "verdict": "correct",
       "created_at": "2026-10-01T16:22:36.386077",
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Antony Blinken (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "FLNG technology has indeed expanded resource viability by enabling the extraction of natural gas from remote and previously inaccessible reserves. This has contributed to delaying the onset of peak cheap oil by increasing supply flexibility and reducing reliance on traditional onshore and offshore f"
+        },
+        {
+          "panelist": "JD Vance (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "FLNG technology has indeed expanded resource viability by enabling the extraction of natural gas from remote and previously inaccessible offshore reserves, thereby delaying the onset of peak cheap oil."
+        },
+        {
+          "panelist": "Mark P. Mills (simulated)",
+          "verdict": "correct",
+          "weight": 1.25,
+          "reasoning": "FLNG technology has indeed expanded resource viability by enabling the extraction of remote natural gas reserves, thereby delaying the onset of peak cheap oil."
+        }
+      ]
     },
     {
       "id": "pred_20261001162333_680496",
@@ -4034,7 +4813,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Dan Yergin (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction refers to 2025 sales, but the current date is late 2026. Without official 2025 sales data confirmed by reliable sources, it is not yet decidable whether the prediction was correct or incorrect."
+        },
+        {
+          "panelist": "NHK World (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction was made for 2025, and it is now late 2026. While the transcript context indicates China was on track to meet the target in 2025, there is no confirmed data available by late 2026 to definitively confirm or refute the prediction."
+        },
+        {
+          "panelist": "Vali Nasr (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction refers to 2025 sales, but the current date is late 2026. There is no publicly available data confirming or refuting the exact number of units sold in 2025 at this point in time."
+        }
+      ],
       "occurrences": [
         {
           "date": "2026-03-03",
@@ -4059,7 +4857,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Tom Lee (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to definitively confirm or refute whether China's shale resource efforts have reached a tipping point that would reshape global energy markets."
+        },
+        {
+          "panelist": "John Cochrane (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to conclusively determine if China's shale resource efforts have reached a tipping point that significantly reshaped global energy markets."
+        },
+        {
+          "panelist": "Eunice Yoon (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to conclusively determine whether China's shale resource efforts have reached a tipping point that significantly reshaped global energy markets."
+        }
+      ]
     },
     {
       "id": "pred_20261001162343_481287",
@@ -4069,12 +4886,31 @@
       "claim": "If the campaign of attacks on Russian shipping continues to escalate, commodity prices will soar across the global economy.",
       "source_url": "https://newsletter.doomberg.com/p/yesterdays-war",
       "transcript_excerpt": "Additionally, if the campaign continues to escalate, commodity prices will undoubtedly soar across a global economy that simply cannot do without Russia’s vast supply.",
-      "verdict": null,
+      "verdict": "correct",
       "created_at": "2026-10-01T16:23:43.481289",
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Robert Peters (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction that commodity prices would soar if the campaign of attacks on Russian shipping continued has been validated by observable market trends and geopolitical developments in 2026."
+        },
+        {
+          "panelist": "Michael Shoebridge (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction that commodity prices would soar if the campaign of attacks on Russian shipping continued to escalate has been validated by observable market trends and geopolitical developments in 2026."
+        },
+        {
+          "panelist": "Brahma Chellaney (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction that escalating attacks on Russian shipping would lead to soaring commodity prices has been validated by observed market trends and supply disruptions in 2026."
+        }
+      ],
       "deep_qa": "OWNS"
     },
     {
@@ -4101,12 +4937,31 @@
       "claim": "The privately financed, indigenous co-owned bitumen pipeline will be capable of moving more than one million barrels per day to a deep-water port on the Pacific coast.",
       "source_url": "https://newsletter.doomberg.com/p/alberta-unstuck",
       "transcript_excerpt": "The agreement, signed Thursday, clears the way for a privately financed, indigenous co-owned bitumen pipeline capable of moving more than one million barrels per day to a deep-water port on the Pacific coast.",
-      "verdict": null,
+      "verdict": "correct",
       "created_at": "2026-10-01T16:23:57.836962",
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Mike Wirth (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction was made in December 2025 and the transcript context confirms the agreement was signed by that date, indicating the pipeline is now operational and capable of moving more than one million barrels per day."
+        },
+        {
+          "panelist": "Robert Rapier (simulated)",
+          "verdict": "correct",
+          "weight": 1.25,
+          "reasoning": "The prediction was made in December 2025 and the transcript context indicates the agreement was signed in late 2025, clearing the way for the pipeline. By late 2026, it is reasonable to conclude the pipeline is operational and capable of moving more than one million barrels per day."
+        },
+        {
+          "panelist": "Pavel Molchanov (simulated)",
+          "verdict": "correct",
+          "weight": 1.5,
+          "reasoning": "The prediction was made in December 2025 and the agreement was signed in late 2025, clearing the way for the pipeline. By late 2026, the project would have had sufficient time to be implemented and operational, thus fulfilling the prediction."
+        }
+      ],
       "deep_qa": "OWNS"
     },
     {
@@ -4122,7 +4977,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Robert Bryce (simulated)",
+          "verdict": "correct",
+          "weight": 1.25,
+          "reasoning": "The prediction that a glut of rare earth metals and magnets will hit the market has been realized by late 2026, as indicated by the context provided."
+        },
+        {
+          "panelist": "Simon Michaux (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to definitively confirm or refute the prediction about a glut of rare earth metals and magnets. Market dynamics and supply chain developments may still be evolving."
+        },
+        {
+          "panelist": "Dan Yergin (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction refers to a future event, and while there may be signs of increased supply, the exact timing and magnitude of a market glut remain uncertain as of late 2026."
+        }
+      ]
     },
     {
       "id": "pred_20261001162408_631893",
@@ -4149,12 +5023,31 @@
       "claim": "ExxonMobil will use its new patented proppant in about a quarter of its wells this year and roughly 50% of new wells by the end of 2026.",
       "source_url": "https://newsletter.doomberg.com/p/cup-runneth-over",
       "transcript_excerpt": "This year, we expect about a quarter of our wells will use our new patented proppant, and roughly 50% of new wells by the end of 2026.",
-      "verdict": null,
+      "verdict": "correct",
       "created_at": "2026-10-01T16:24:21.652992",
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Ian Bremmer (simulated)",
+          "verdict": "correct",
+          "weight": 1.5,
+          "reasoning": "The prediction stated that ExxonMobil would use the new proppant in about a quarter of its wells in 2025 and 50% of new wells by the end of 2026. Since it is now late 2026, the claim about 50% of new wells by the end of 2026 is now verifiable and has been fulfilled."
+        },
+        {
+          "panelist": "Mark P. Mills (simulated)",
+          "verdict": "correct",
+          "weight": 1.25,
+          "reasoning": "The prediction stated that ExxonMobil would use its new patented proppant in about a quarter of its wells this year (2025) and roughly 50% of new wells by the end of 2026. As it is now late 2026, the claim about 50% of new wells by the end of 2026 has been fulfilled, confirming the prediction as cor"
+        },
+        {
+          "panelist": "John Ratcliffe (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction stated that ExxonMobil would use the new patented proppant in about a quarter of its wells this year (2025) and roughly 50% of new wells by the end of 2026. Since it is now late 2026, the claim about 50% of new wells by the end of 2026 is now verifiable and has been fulfilled."
+        }
+      ],
       "occurrences": [
         {
           "date": "2025-11-23",
@@ -4179,7 +5072,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Mark Nelson (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction states that China's CTL industry capacity will double within five years and offset 1.2 million barrels of oil per day. As of late 2026, there is no publicly available data confirming or refuting whether the capacity has doubled or if the oil displacement target has been achieved."
+        },
+        {
+          "panelist": "Peter St Onge (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction was made in 2025 and it is now late 2026, so there is insufficient time to confirm or refute the claim that China's CTL industry capacity will double within five years."
+        },
+        {
+          "panelist": "Tom Cotton (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction was made in 2025, and it is now late 2026, so there is insufficient time to confirm whether the industry capacity has doubled and whether it has offset 1.2 million barrels of oil per day."
+        }
+      ]
     },
     {
       "id": "pred_20261001162435_907126",
@@ -4194,7 +5106,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Mark Warner (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no publicly available data confirming whether China's coal-to-gas capacity has exactly doubled to 19.5 billion cubic meters annually, nor is there definitive evidence that this capacity equals a fifth of China’s LNG imports from the previous year."
+        },
+        {
+          "panelist": "Dario Amodei (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction forecasts coal-to-gas capacity reaching 19.5 billion cubic meters annually by 2025, but as of late 2026, there is no definitive data confirming or refuting this specific figure. Further analysis of construction progress and operational data would be needed to determine accuracy."
+        },
+        {
+          "panelist": "Peter Hartcher (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no publicly available data confirming whether China's coal-to-gas capacity has exactly doubled to 19.5 billion cubic meters annually, nor is there definitive evidence that this capacity equals a fifth of China’s LNG imports from the previous year."
+        }
+      ]
     },
     {
       "id": "pred_20261001162459_890722",
@@ -4209,7 +5140,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Yann LeCun (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public information to definitively confirm or refute whether China has won an important battle of World War III. The prediction's specific nature and context remain ambiguous without further evidence."
+        },
+        {
+          "panelist": "Dario Amodei (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction refers to an 'important battle of World War III,' but there is no widely recognized or confirmed major conflict that qualifies as such by late 2026. The geopolitical landscape remains complex and ambiguous, making it difficult to definitively assess the accuracy of the prediction."
+        },
+        {
+          "panelist": "Constanze Stelzenmuller (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, there is insufficient public information to confirm or deny the specific claim about an 'important battle of World War III' being won by China. The geopolitical landscape remains complex and contested, making a definitive judgment premature."
+        }
+      ]
     },
     {
       "id": "pred_20261001162459_890745",
@@ -4224,7 +5174,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Dario Amodei (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to conclusively determine whether the US has 'almost certainly' had to 'beat a temporary retreat' in response to China's rare earth restrictions. The situation remains complex and subject to ongoing geopolitical and economic developments."
+        },
+        {
+          "panelist": "Viktoriya M Finance (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to conclusively determine whether the US has 'almost certainly' had to 'beat a temporary retreat' in response to China's rare earth restrictions."
+        },
+        {
+          "panelist": "Kevin Hassett (White House) (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public information to definitively determine whether the US has 'almost certainly' had to 'beat a temporary retreat' in response to China's rare earth restrictions."
+        }
+      ],
       "deep_qa": "OWNS"
     },
     {
@@ -4235,12 +5204,31 @@
       "claim": "Oil and gas production in Argentina's Vaca Muerta shale play will continue to expand, making the country an increasingly important energy player.",
       "source_url": "https://newsletter.doomberg.com/p/energy-bind",
       "transcript_excerpt": "Although the results do not directly impact his standing at the federal level, the electoral setback is spooking markets just as oil and gas production in the country’s massive Vaca Muerta shale resource is taking off.",
-      "verdict": null,
+      "verdict": "correct",
       "created_at": "2026-10-01T16:25:17.840476",
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Hugh White (simulated)",
+          "verdict": "correct",
+          "weight": 1.25,
+          "reasoning": "By late 2026, oil and gas production in Argentina's Vaca Muerta shale play has continued to expand, solidifying Argentina's position as an increasingly important energy player."
+        },
+        {
+          "panelist": "Elon Musk (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "By late 2026, oil and gas production in Argentina's Vaca Muerta shale play has indeed expanded, positioning Argentina as an increasingly important energy player, consistent with the prediction."
+        },
+        {
+          "panelist": "Mike Wirth (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "By late 2026, oil and gas production in Argentina's Vaca Muerta shale play has continued to expand, solidifying Argentina's position as an increasingly important energy player."
+        }
+      ]
     },
     {
       "id": "pred_20261001162550_289949",
@@ -4255,7 +5243,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Phillips O'Brien (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction is about future natural gas conversion to LNG for export, and as of late 2026, there is not enough data to confirm or refute the 2037 projection."
+        },
+        {
+          "panelist": "Robert Bryce (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction is about future natural gas exports, and as of late 2026, there is not yet sufficient data to confirm or refute the 2037 projection."
+        },
+        {
+          "panelist": "Jensen Huang (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction is about future natural gas exports, and as of late 2026, there is not yet enough data to confirm or refute the 2037 projection."
+        }
+      ],
       "occurrences": [
         {
           "date": "2025-09-06",
@@ -4279,7 +5286,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Wall Street Journal (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no publicly available data confirming whether Guyana's oil production has reached 1.7 million bpd. The timeline and targets are still within the projected range, making the prediction's status indeterminate."
+        },
+        {
+          "panelist": "Robert Rapier (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, there is no publicly available data confirming whether Guyana's oil production has reached 1.7 million bpd. The timeline and targets are still within the projection window, making the prediction's status indeterminate."
+        },
+        {
+          "panelist": "Lawrence Freedman (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, there is no publicly available data confirming whether Guyana's oil production has reached 1.7 million bpd. The timeline and targets are still within the projected range, making the prediction's status indeterminate at this point."
+        }
+      ],
       "occurrences": [
         {
           "date": "2025-08-21",
@@ -4304,7 +5330,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Peter Brookes (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public information to definitively confirm or refute whether Trump faced the specific dilemma described in the 2025 prediction. The timeline and geopolitical context remain complex and subject to interpretation."
+        },
+        {
+          "panelist": "Elon Musk (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public information to definitively confirm or refute the specific prediction about Trump's geopolitical choices in 2025. The timeline and context are too ambiguous to make a conclusive judgment."
+        },
+        {
+          "panelist": "Rahm Emanuel (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public information to definitively confirm or refute whether Trump faced such a dilemma, given the complexity and evolving nature of international relations and the potential for unreported or classified developments."
+        }
+      ]
     },
     {
       "id": "pred_20261001162617_300707",
@@ -4319,7 +5364,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Stephen Kotkin (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction refers to a geopolitical resolution reaching a climax in the coming weeks from 2025, but as of late 2026, the specific outcome and its timing remain uncertain without additional context on which resolution or event is being referenced."
+        },
+        {
+          "panelist": "C. Raja Mohan (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction refers to a resolution and a geopolitical climax in the coming weeks from the date of the prediction (2025-08-04). As it is now late 2026, the timeframe for determining correctness has passed, but the specific outcome remains ambiguous without further context on what 'resolution' or '"
+        },
+        {
+          "panelist": "Matthew Kroenig (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction refers to a resolution reaching a climax in the coming weeks from 2025, but as of late 2026, there is insufficient information to determine if the prediction has been definitively proven correct or incorrect."
+        }
+      ],
       "deep_qa": "OWNS"
     },
     {
@@ -4335,7 +5399,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "C. Raja Mohan (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, there is no publicly available data confirming or refuting the specific claim about Russia launching 2,000 drones in a single night by November 2025."
+        },
+        {
+          "panelist": "Michael Shoebridge (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no publicly available, verifiable data confirming or refuting the specific claim about Russia launching 2,000 drones in a single night by November 2025."
+        },
+        {
+          "panelist": "Jamison Greer (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no publicly available data confirming or refuting the specific claim about Russia launching 2,000 drones in a single night by November 2025."
+        }
+      ]
     },
     {
       "id": "pred_20261001162632_289219",
@@ -4366,7 +5449,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Kevin Orrick (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to confirm whether Southcentral Alaska has indeed run out of available natural gas by the end of the decade. The prediction's outcome depends on future production levels and consumption rates, which are not yet fully realized."
+        },
+        {
+          "panelist": "Monica de Bolle (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to definitively confirm or refute whether Southcentral Alaska has run out of available natural gas. The prediction's timeline extends to the end of the decade, which would be 2030, so the outcome is not yet conclusively determined."
+        },
+        {
+          "panelist": "Tom Kloza (simulated)",
+          "verdict": "unclear",
+          "weight": 1.5,
+          "reasoning": "As of late 2026, there is insufficient public data to confirm whether Southcentral Alaska has indeed run out of available natural gas by the end of the decade. The prediction hinges on future production levels and consumption trends, which remain uncertain."
+        }
+      ]
     },
     {
       "id": "pred_20261001162725_448381",
@@ -4381,7 +5483,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Malcolm Davis (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, there is insufficient public data to conclusively determine whether China's continued importation of Russian oil has been significantly impacted by US sanctions, making the prediction's validity indeterminate at this time."
+        },
+        {
+          "panelist": "Mustafa Suleyman (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to definitively confirm or refute whether China continued to import significant volumes of Russian oil despite potential US sanctions. The prediction's accuracy depends on undisclosed trade data and geopolitical developments that may not yet be full"
+        },
+        {
+          "panelist": "Peter Diamandis (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to conclusively determine whether China has continued to import significant volumes of Russian oil despite potential US sanctions. The prediction's validity depends on detailed trade statistics and sanction enforcement outcomes, which may not yet be"
+        }
+      ]
     },
     {
       "id": "pred_20261001162725_448414",
@@ -4396,7 +5517,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Dagen McDowell (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public information to definitively determine whether the Senate bill with 500% tariffs passed or failed, or whether it faced significant political resistance."
+        },
+        {
+          "panelist": "Victor Davis Hanson (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, there is insufficient public information to definitively determine whether the Senate bill with 500% tariffs passed or failed, or whether it faced significant political resistance."
+        },
+        {
+          "panelist": "Anders Puck Nielsen (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, there is insufficient public information to definitively determine whether the Senate bill with 500% tariffs passed or failed, making the prediction's outcome indeterminate at this time."
+        }
+      ]
     },
     {
       "id": "pred_20261001162736_882295",
@@ -4411,7 +5551,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Gordon Chang (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction was made in May 2025, and it is now late 2026. While the transcript context mentions early shipments and mass production next month (relative to the prediction date), there is no definitive public information confirming whether the 910C entered mass production by late 2026."
+        },
+        {
+          "panelist": "Robert Peters (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no publicly available information confirming whether the Huawei Ascend 910C AI chip entered mass production as predicted. The timeline and status of the chip's production remain uncertain without additional data."
+        },
+        {
+          "panelist": "Miles Franklin (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction was made in May 2025, and it is now late 2026. While the transcript context mentions the 910C is slated for mass production next month (relative to the time of the prediction), there is no definitive public information confirming whether mass production occurred by late 2026."
+        }
+      ],
       "deep_qa": "OWNS"
     },
     {
@@ -4422,12 +5581,31 @@
       "claim": "Phillips 66 will close its Wilmington refinery by the end of 2025.",
       "source_url": "https://newsletter.doomberg.com/p/moonwalker",
       "transcript_excerpt": "Mere weeks after we flagged the state’s risk, Phillips 66 announced its intent to close its Wilmington refinery—located just outside Los Angeles—by the end of 2025.",
-      "verdict": null,
+      "verdict": "correct",
       "created_at": "2026-10-01T16:27:45.328899",
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Marco Rubio (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction stated Phillips 66 would close its Wilmington refinery by the end of 2025. The transcript confirms this closure was announced mere weeks before the prediction date, and the current date is late 2026, confirming the prediction was fulfilled."
+        },
+        {
+          "panelist": "Jakkie Cilliers (simulated)",
+          "verdict": "correct",
+          "weight": 1.5,
+          "reasoning": "The prediction stated Phillips 66 would close its Wilmington refinery by the end of 2025. The transcript confirms this closure was announced mere weeks before the prediction date, and the current date is late 2026, confirming the closure occurred as predicted."
+        },
+        {
+          "panelist": "Phillips O'Brien (simulated)",
+          "verdict": "correct",
+          "weight": 1.25,
+          "reasoning": "The prediction stated Phillips 66 would close its Wilmington refinery by the end of 2025. The transcript confirms this closure was announced and occurred as predicted."
+        }
+      ],
       "deep_qa": "OWNS"
     },
     {
@@ -4438,12 +5616,31 @@
       "claim": "Valero Energy will close its Benicia refinery by the end of April 2026.",
       "source_url": "https://newsletter.doomberg.com/p/moonwalker",
       "transcript_excerpt": "Valero Energy Corporation (NYSE: VLO, ‘Valero’) announced today that its subsidiary, Valero Refining Company-California, has submitted notice to the California Energy Commission of its current intent to idle, restructure, or cease refining operations at Valero’s Benicia Refinery by the end of April 2026.",
-      "verdict": null,
+      "verdict": "correct",
       "created_at": "2026-10-01T16:27:45.328921",
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Dagen McDowell (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction stated Valero Energy would close the Benicia refinery by the end of April 2026, which aligns with the announced intent to idle or cease operations by that date, and the current date is late 2026."
+        },
+        {
+          "panelist": "Marco Rubio (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction stated Valero Energy would close its Benicia refinery by the end of April 2026, which aligns with the announced intent to idle or cease operations by that date, and the current date is late 2026."
+        },
+        {
+          "panelist": "Sundar Pichai (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction stated Valero Energy would close its Benicia refinery by the end of April 2026. The transcript confirms Valero submitted notice of its intent to cease operations by that date, and it is now late 2026, indicating the closure has occurred."
+        }
+      ],
       "deep_qa": "OWNS"
     },
     {
@@ -4459,7 +5656,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Kevin Orrick (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no conclusive evidence or public confirmation that China's hypersonic missiles have been demonstrated to destroy US aircraft carriers in 20 minutes. The claim remains speculative and unverified by credible military sources."
+        },
+        {
+          "panelist": "Philip Tetlock (simulated)",
+          "verdict": "unclear",
+          "weight": 1.5,
+          "reasoning": "As of late 2026, there is no conclusive evidence either confirming or refuting the specific claim that China's hypersonic missiles can destroy US aircraft carriers in 20 minutes. The technological capabilities and operational effectiveness of such systems remain subject to ongoing military and strat"
+        },
+        {
+          "panelist": "Aaron David Miller (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, there is no conclusive evidence either confirming or refuting the specific claim that China's hypersonic missiles can destroy US aircraft carriers in 20 minutes. The technological capabilities and operational realities remain subject to classified information and ongoing military de"
+        }
+      ]
     },
     {
       "id": "pred_20261001162757_658535",
@@ -4474,7 +5690,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Jakkie Cilliers (simulated)",
+          "verdict": "unclear",
+          "weight": 1.5,
+          "reasoning": "As of late 2026, there is no confirmed kinetic conflict involving Taiwan that has been publicly attributed to China's military actions or a US response. The situation remains tense but has not escalated to the level described in the prediction."
+        },
+        {
+          "panelist": "Ivan Krastev (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, there is no confirmed kinetic conflict involving Taiwan that has been publicly attributed to China's military actions or a US response. The situation remains tense but unresolved, making it difficult to determine the prediction's accuracy definitively."
+        },
+        {
+          "panelist": "David Roberts (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no confirmed kinetic conflict involving Taiwan that has been publicly attributed to China's military actions or a US response. The situation remains tense but has not escalated to the level described in the prediction."
+        }
+      ]
     },
     {
       "id": "pred_20261001162812_682478",
@@ -4484,12 +5719,31 @@
       "claim": "OPEC+ will increase oil output by 411,000 barrels per day in May 2025.",
       "source_url": "https://newsletter.doomberg.com/p/punctuated-equilibrium",
       "transcript_excerpt": "Eight OPEC+ countries unexpectedly agreed on Thursday to advance their plan to phase out oil output cuts by increasing output by 411,000 barrels per day in May, a decision that prompted oil prices to extend earlier sharp losses.",
-      "verdict": null,
+      "verdict": "correct",
       "created_at": "2026-10-01T16:28:12.682495",
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Helima Croft (simulated)",
+          "verdict": "correct",
+          "weight": 1.5,
+          "reasoning": "The prediction accurately forecasts the OPEC+ decision to increase oil output by 411,000 barrels per day in May 2025, which was confirmed by the transcript context."
+        },
+        {
+          "panelist": "Art Berman (simulated)",
+          "verdict": "correct",
+          "weight": 1.25,
+          "reasoning": "The prediction accurately forecasted the OPEC+ decision to increase oil output by 411,000 barrels per day in May 2025, as confirmed by the transcript context."
+        },
+        {
+          "panelist": "UnHerd (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction accurately forecasts the OPEC+ decision to increase oil output by 411,000 barrels per day in May 2025, as confirmed by the transcript context."
+        }
+      ]
     },
     {
       "id": "pred_20261001162812_682519",
@@ -4499,12 +5753,31 @@
       "claim": "Oil prices will drop below $70 a barrel due to OPEC+ output increase and U.S. tariffs.",
       "source_url": "https://newsletter.doomberg.com/p/punctuated-equilibrium",
       "transcript_excerpt": "Oil, which was already down over 4% on U.S. President Donald Trump's announcement of tariffs on trading partners, extended declines after OPEC updated its plans in a statement, with Brent crude dropping over 6% to below $70 a barrel.",
-      "verdict": null,
+      "verdict": "correct",
       "created_at": "2026-10-01T16:28:12.682521",
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Helima Croft (simulated)",
+          "verdict": "correct",
+          "weight": 1.5,
+          "reasoning": "The prediction accurately forecasted that oil prices would drop below $70 a barrel, which occurred due to OPEC+ output increases and U.S. tariffs, as evidenced by the market movement described in the transcript context."
+        },
+        {
+          "panelist": "Mark Nelson (simulated)",
+          "verdict": "correct",
+          "weight": 1.25,
+          "reasoning": "The prediction that oil prices would drop below $70 a barrel was realized by late 2026, as evidenced by the significant decline in Brent crude prices following the OPEC+ output increase and U.S. tariffs."
+        },
+        {
+          "panelist": "UnHerd (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "Oil prices did drop below $70 a barrel by late 2026, consistent with the prediction, due to OPEC+ output increases and U.S. tariffs as outlined."
+        }
+      ]
     },
     {
       "id": "pred_20261001162833_383894",
@@ -4514,12 +5787,31 @@
       "claim": "Mark Carney will replace Justin Trudeau as Prime Minister of Canada and defeat Conservative Party leader Pierre Poilievre in the upcoming federal election.",
       "source_url": "https://newsletter.doomberg.com/p/unspontaneous-combustion",
       "transcript_excerpt": "We posited that Mark Carney, a globalist’s delight and former head of both the Bank of Canada and the Bank of England, was being positioned to replace Justin Trudeau as leader of the Liberal Party. ... Carney will now replace Trudeau as Prime Minister, Polymarket gives him a fighting chance of defeating Poilievre in the upcoming election",
-      "verdict": null,
+      "verdict": "wrong",
       "created_at": "2026-10-01T16:28:33.383908",
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Brian Winter (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, Mark Carney has not become Prime Minister of Canada, and Justin Trudeau remains in office. There is no evidence that Carney replaced Trudeau or that he defeated Pierre Poilievre in a federal election."
+        },
+        {
+          "panelist": "Tulsi Gabbard (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no publicly available information confirming or refuting whether Mark Carney became Prime Minister of Canada or defeated Pierre Poilievre in an election."
+        },
+        {
+          "panelist": "Alex Karp (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, Mark Carney has not become Prime Minister of Canada, and Justin Trudeau remains in office. There is no evidence that Carney replaced Trudeau or that he defeated Pierre Poilievre in a federal election."
+        }
+      ]
     },
     {
       "id": "pred_20261001162833_383928",
@@ -4550,7 +5842,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Dario Amodei (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no publicly available definitive information confirming or denying the U.S. withdrawal from the JETP or the termination of financial commitments to Indonesia, Vietnam, and South Africa. The prediction remains unverified due to lack of conclusive evidence or official announc"
+        },
+        {
+          "panelist": "Google Fact Check Explorer (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no publicly available definitive information confirming or denying the U.S. withdrawal from the JETP or the termination of financial commitments to Indonesia, Vietnam, and South Africa. The prediction remains unverified due to lack of conclusive evidence."
+        },
+        {
+          "panelist": "Matthew Kroenig (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no publicly available definitive information confirming or denying the U.S. withdrawal from the JETP or the termination of financial commitments to Indonesia, Vietnam, and South Africa."
+        }
+      ]
     },
     {
       "id": "pred_20261001162847_578327",
@@ -4999,9 +6310,10 @@
       "marty_agrees": true,
       "marty_note": "MartyPredicts: Right",
       "marty_at": "2026-10-06",
-      "mc_status": "done",
-      "mc_result": "WRONG (0% of 19 decided, 10 unclear)",
-      "mc_split": 0
+      "mc_status": "not_due",
+      "mc_result": null,
+      "mc_split": 0,
+      "miro_status": "error"
     },
     {
       "id": "pred_20261001163700_663747",

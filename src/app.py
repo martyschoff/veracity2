@@ -241,6 +241,8 @@ def _apply_mark(pred_id: str, agrees: bool, note: str = "") -> bool:
             p["marty_at"] = datetime.now().date().isoformat()
             if p.get("mc_status") in (None, "none"):
                 p["mc_status"] = "queued"  # auto-enqueue the Monte Carlo swarm
+            if p.get("miro_status") in (None, "none", "not_due"):
+                p["miro_status"] = "queued"  # auto-enqueue the MiroFish adjudication
             hit = True
             break
     if hit:

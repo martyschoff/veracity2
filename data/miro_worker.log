@@ -1,0 +1,30 @@
+2026-10-06 12:59:55 miro worker started (nimo via proxy; 7-GPU pool skipped)
+2026-10-06 12:59:57 starting Neo4j
+2026-10-06 13:00:29 starting LLM proxy
+2026-10-06 13:00:32 adjudicating pred_20261001163700_663715: Three Mile Island nuclear plant will go back into service in 2028.
+2026-10-06 13:00:33 runner exit 1: s\run_claim_adjudication.py", line 16, in <module>
+    from app.config import Config  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\schof\veracity-panel\backend\app\__init__.py", line 12, in <module>
+    from flask import Flask, request
+ModuleNotFoundError: No module named 'flask'
+
+2026-10-06 13:00:33 pred_20261001163700_663715 FAILED
+2026-10-06 13:27:35 starting Neo4j
+2026-10-06 13:28:05 adjudicating pred_20261001163700_663715: Three Mile Island nuclear plant will go back into service in 2028.
+2026-10-06 13:28:05 runner exit 1: s\run_claim_adjudication.py", line 16, in <module>
+    from app.config import Config  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\schof\veracity-panel\backend\app\__init__.py", line 12, in <module>
+    from flask import Flask, request
+ModuleNotFoundError: No module named 'flask'
+
+2026-10-06 13:28:05 pred_20261001163700_663715 FAILED
+2026-10-06 13:36:08 starting Neo4j
+2026-10-06 13:36:38 miro worker started (nimo via proxy; 7-GPU pool skipped)
+2026-10-06 13:36:40 starting Neo4j
+2026-10-06 13:37:10 adjudicating pred_20261001163700_663715: Three Mile Island nuclear plant will go back into service in 2028.
+2026-10-06 13:37:47 runner exit 1: iled to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 1225] The remote computer refused the network connection)
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [WinError 1225] The remote computer refused the network connection)
+
+2026-10-06 13:37:47 pred_20261001163700_663715 FAILED

@@ -9,6 +9,7 @@ For each prediction with mc_status == 'queued':
 Endpoints: nimo128 first (producer), local 27B fallback. Run after a Marty mark.
 Usage: python scripts/monte_carlo.py [--n 40]
 """
+import datetime
 import json
 import re
 import sys
@@ -91,7 +92,20 @@ def persona_vote(persona: str, claim: str, made_date: str) -> dict | None:
 
 def run(n: int = N_DEFAULT):
     data = load_data()
-    queue = [p for p in data["predictions"] if p.get("mc_status") == "queued"]
+    today = datetime.date.today().isoformat()
+    queue = []
+    for p in data["predictions"]:
+        if p.get("mc_status") != "queued":
+            continue
+        # Eligibility gate: swarm only judges predictions whose window has closed
+        # or whose stated year has arrived (matches the test_eligible_at framework)
+        year_m = re.search(r"\b(20[2-9]\d)\b", p.get("claim", ""))
+        due = (p.get("test_eligible_at") or (f"{year_m.group(1)}-12-31" if year_m else None))
+        if due and due > today:
+            p["mc_status"] = "not_due"
+            p["mc_result"] = None
+            continue
+        queue.append(p)
     if not queue:
         print("Monte Carlo queue is empty.")
         return
