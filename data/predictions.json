@@ -1071,6 +1071,606 @@
       "weight_subjective": 1.0,
       "weight_objective": 1.0,
       "panel_weight": 1.0
+    },
+    {
+      "name": "John Mearsheimer",
+      "handle": "jmearsheimer",
+      "sources": [
+        "https://www.youtube.com/results?search_query=john+mearsheimer"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Kiron Skinner",
+      "handle": "kskinner",
+      "sources": [
+        "https://www.hoover.org/fellows/kiron-k-skinner"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Matthew Kroenig",
+      "handle": "mkroenig",
+      "sources": [
+        "https://www.atlanticcouncil.org/expert/matthew-kroenig/"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Mark Galeotti",
+      "handle": "mgaleotti",
+      "sources": [
+        "https://www.youtube.com/results?search_query=mark+galeotti+russia"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Anders Puck Nielsen",
+      "handle": "anielsen",
+      "sources": [
+        "https://www.youtube.com/@AndersPuckNielsen"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Michael Kofman",
+      "handle": "mkofman",
+      "sources": [
+        "https://www.carnegieendowment.org/experts/33"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Ben Hodges",
+      "handle": "bhodges",
+      "sources": [
+        "https://www.youtube.com/results?search_query=ben+hodges+ukraine"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Phillips O'Brien",
+      "handle": "pobrien",
+      "sources": [
+        "https://phillipspobrien.substack.com/"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Konstantin Kisin",
+      "handle": "kkisin",
+      "sources": [
+        "https://www.youtube.com/@TRIGGERnometry"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Lawrence Freedman",
+      "handle": "lfreedman",
+      "sources": [
+        "https://samf.substack.com/"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Hugh White",
+      "handle": "hwhite",
+      "sources": [
+        "https://www.youtube.com/results?search_query=hugh+white+china"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Malcolm Davis",
+      "handle": "mdavis",
+      "sources": [
+        "https://www.aspistrategist.org.au/author/malcolm-davis/"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Michael Shoebridge",
+      "handle": "mshoebridge",
+      "sources": [
+        "https://www.youtube.com/results?search_query=michael+shoebridge"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "John Lee",
+      "handle": "jleepanel",
+      "sources": [
+        "https://www.hudson.org/experts/1171-john-lee"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Peter Hartcher",
+      "handle": "phartcher",
+      "sources": [
+        "https://www.smh.com.au/by/peter-hartcher-p53yvi"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Eunice Yoon",
+      "handle": "eyoon",
+      "sources": [
+        "https://www.cnbc.com/eunice-yoon/"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Sri Jegarajah",
+      "handle": "sjegarajah",
+      "sources": [
+        "https://www.cnbc.com/sri-jegarajah/"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Steve Liesman",
+      "handle": "sliesman",
+      "sources": [
+        "https://www.cnbc.com/steve-liesman/"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Ylan Mui",
+      "handle": "ymui",
+      "sources": [
+        "https://www.cnbc.com/ylan-mui/"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Tanvir Gill",
+      "handle": "tgill",
+      "sources": [
+        "https://www.cnbc.com/tanvir-gill/"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Trey Yingst",
+      "handle": "tyingst",
+      "sources": [
+        "https://www.foxbusiness.com/person/t/trey-yingst"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Bret Baier",
+      "handle": "bbaier",
+      "sources": [
+        "https://www.foxbusiness.com/person/b/bret-baier"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Gordon Chang",
+      "handle": "gchang",
+      "sources": [
+        "https://gordonchang.com/"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Rebeccah Heinrichs",
+      "handle": "rheinrichs",
+      "sources": [
+        "https://www.foxnews.com/person/h/rebeccah-heinrichs"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Benjamin Hall",
+      "handle": "bhall",
+      "sources": [
+        "https://www.foxnews.com/person/b/benjamin-hall"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Richard Engel",
+      "handle": "rengel",
+      "sources": [
+        "https://www.nbcnews.com/richard-engel"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Andrea Mitchell",
+      "handle": "amitchell",
+      "sources": [
+        "https://www.nbcnews.com/andrea-mitchell"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Lyse Doucet",
+      "handle": "ldoucet",
+      "sources": [
+        "https://www.bbc.com/lyse-doucet"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Sebastian Gorka",
+      "handle": "sgorka",
+      "sources": [
+        "https://americafirst.sebastiangorka.com/"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "John Sopel",
+      "handle": "jsopel",
+      "sources": [
+        "https://www.bbc.com/john-sopel"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Amy Zegart",
+      "handle": "azegart",
+      "sources": [
+        "https://www.hoover.org/fellows/amy-b-zegart"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Jacquelyn Schneider",
+      "handle": "jschneider",
+      "sources": [
+        "https://www.hoover.org/fellows/jacquelyn-schneider"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Michael Auslin",
+      "handle": "mauslin",
+      "sources": [
+        "https://www.hoover.org/fellows/michael-auslin"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Luke Coffey",
+      "handle": "lcoffey",
+      "sources": [
+        "https://www.heritage.org/staff/luke-coffey"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Brent Sadler",
+      "handle": "bsadler",
+      "sources": [
+        "https://www.heritage.org/staff/brent-d-sadler"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Robert Peters",
+      "handle": "rpeters",
+      "sources": [
+        "https://www.heritage.org/staff/robert-peters"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Peter Brookes",
+      "handle": "pbrookes",
+      "sources": [
+        "https://www.heritage.org/staff/peter-brookes"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Marco Rubio",
+      "handle": "mrubio",
+      "sources": [
+        "https://www.state.gov/secretary-marco-rubio"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Pete Hegseth",
+      "handle": "phegseth",
+      "sources": [
+        "https://www.defense.gov/biographies/pete-hegseth/"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "JD Vance",
+      "handle": "jvance",
+      "sources": [
+        "https://www.whitehouse.gov/administration/jd-vance/"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "John Ratcliffe",
+      "handle": "jratcliffe",
+      "sources": [
+        "https://www.cia.gov/"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Tulsi Gabbard",
+      "handle": "tgabbard",
+      "sources": [
+        "https://www.dni.gov/"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Mark Warner",
+      "handle": "mwarner",
+      "sources": [
+        "https://www.warner.senate.gov/"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Angus King",
+      "handle": "aking",
+      "sources": [
+        "https://www.king.senate.gov/"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Jim Risch",
+      "handle": "jrisch",
+      "sources": [
+        "https://www.risch.senate.gov/"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Tom Cotton",
+      "handle": "tcotton",
+      "sources": [
+        "https://www.cotton.senate.gov/"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Antony Blinken",
+      "handle": "ablinken",
+      "sources": [
+        "https://www.state.gov/"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Jake Sullivan",
+      "handle": "jsullivan",
+      "sources": [
+        "https://www.whitehouse.gov/nsc/"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Mike Pence",
+      "handle": "mpence",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mike_Pence"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Rahm Emanuel",
+      "handle": "remanuel",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rahm_Emanuel"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
     }
   ],
   "predictions": [
@@ -4267,7 +4867,13 @@
           "reasoning": "The prediction was made in 2024, and it is now 2026. While the expected return to service is 2028, there is no definitive information confirming or denying the status of the plant by 2026, making the outcome not yet decidable."
         }
       ],
-      "deep_qa": "OWNS"
+      "deep_qa": "OWNS",
+      "marty_agrees": true,
+      "marty_note": "MartyPredicts: Right (graded in app during downtime; re-applied by agent)",
+      "marty_at": "2026-10-06",
+      "mc_status": "done",
+      "mc_result": "WRONG (0% of 9 decided, 0 unclear)",
+      "mc_split": 0
     },
     {
       "id": "pred_20261001163700_663747",
