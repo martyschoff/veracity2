@@ -75,7 +75,7 @@
       ],
       "weight_subjective": 1.0,
       "weight_objective": 1.0,
-      "panel_weight": 1.0
+      "panel_weight": 1.25
     },
     {
       "name": "Viktoriya M Finance",
@@ -102,7 +102,7 @@
       "weight_subjective": 1.0,
       "weight_objective": 1.0,
       "is_predictor": true,
-      "panel_weight": 1.0
+      "panel_weight": 1.5
     },
     {
       "name": "Stephen Miller (White House)",
@@ -128,7 +128,7 @@
       ],
       "weight_subjective": 1.0,
       "weight_objective": 1.0,
-      "panel_weight": 1.0
+      "panel_weight": 1.25
     },
     {
       "name": "Niall Ferguson",
@@ -141,7 +141,7 @@
       ],
       "weight_subjective": 1.0,
       "weight_objective": 1.0,
-      "panel_weight": 1.0
+      "panel_weight": 1.25
     },
     {
       "name": "John Cochrane",
@@ -167,7 +167,7 @@
       ],
       "weight_subjective": 1.0,
       "weight_objective": 1.0,
-      "panel_weight": 1.0
+      "panel_weight": 1.25
     },
     {
       "name": "Victor Davis Hanson",
@@ -180,7 +180,7 @@
       ],
       "weight_subjective": 1.0,
       "weight_objective": 1.0,
-      "panel_weight": 1.0
+      "panel_weight": 1.25
     },
     {
       "name": "Kevin Hassett (White House)",
@@ -546,7 +546,7 @@
       "publication": false,
       "weight_subjective": 1.0,
       "weight_objective": 1.0,
-      "panel_weight": 1.0
+      "panel_weight": 1.5
     },
     {
       "name": "Peter St Onge",
@@ -1082,7 +1082,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.25
     },
     {
       "name": "Kiron Skinner",
@@ -1094,7 +1095,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Matthew Kroenig",
@@ -1106,7 +1108,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Mark Galeotti",
@@ -1118,7 +1121,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.25
     },
     {
       "name": "Anders Puck Nielsen",
@@ -1130,7 +1134,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.25
     },
     {
       "name": "Michael Kofman",
@@ -1142,7 +1147,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.25
     },
     {
       "name": "Ben Hodges",
@@ -1154,7 +1160,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.25
     },
     {
       "name": "Phillips O'Brien",
@@ -1166,7 +1173,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.25
     },
     {
       "name": "Konstantin Kisin",
@@ -1178,7 +1186,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Lawrence Freedman",
@@ -1190,7 +1199,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.25
     },
     {
       "name": "Hugh White",
@@ -1202,7 +1212,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.25
     },
     {
       "name": "Malcolm Davis",
@@ -1214,7 +1225,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.25
     },
     {
       "name": "Michael Shoebridge",
@@ -1226,7 +1238,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "John Lee",
@@ -1238,7 +1251,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Peter Hartcher",
@@ -1250,7 +1264,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Eunice Yoon",
@@ -1262,7 +1277,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Sri Jegarajah",
@@ -1274,7 +1290,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Steve Liesman",
@@ -1286,7 +1303,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Ylan Mui",
@@ -1298,7 +1316,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Tanvir Gill",
@@ -1310,7 +1329,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Gordon Chang",
@@ -1322,7 +1342,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Rebeccah Heinrichs",
@@ -1334,7 +1355,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Lyse Doucet",
@@ -1346,7 +1368,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Sebastian Gorka",
@@ -1358,7 +1381,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Amy Zegart",
@@ -1370,7 +1394,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.25
     },
     {
       "name": "Jacquelyn Schneider",
@@ -1382,7 +1407,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Michael Auslin",
@@ -1394,7 +1420,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.25
     },
     {
       "name": "Luke Coffey",
@@ -1406,7 +1433,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Brent Sadler",
@@ -1418,7 +1446,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Robert Peters",
@@ -1430,7 +1459,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Peter Brookes",
@@ -1442,7 +1472,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Marco Rubio",
@@ -1454,7 +1485,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Pete Hegseth",
@@ -1466,7 +1498,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "JD Vance",
@@ -1478,7 +1511,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "John Ratcliffe",
@@ -1490,7 +1524,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Tulsi Gabbard",
@@ -1502,7 +1537,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Mark Warner",
@@ -1514,7 +1550,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Angus King",
@@ -1526,7 +1563,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Jim Risch",
@@ -1538,7 +1576,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Tom Cotton",
@@ -1550,7 +1589,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Antony Blinken",
@@ -1562,7 +1602,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Jake Sullivan",
@@ -1574,7 +1615,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Mike Pence",
@@ -1586,7 +1628,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Rahm Emanuel",
@@ -1598,7 +1641,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Brian Winter",
@@ -1610,7 +1654,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.25
     },
     {
       "name": "Monica de Bolle",
@@ -1622,7 +1667,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Shannon O'Neil",
@@ -1634,7 +1680,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Jakkie Cilliers",
@@ -1646,7 +1693,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.5
     },
     {
       "name": "Comfort Ero",
@@ -1658,7 +1706,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.25
     },
     {
       "name": "Vali Nasr",
@@ -1670,7 +1719,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.25
     },
     {
       "name": "Aaron David Miller",
@@ -1682,7 +1732,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.25
     },
     {
       "name": "C. Raja Mohan",
@@ -1694,7 +1745,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.25
     },
     {
       "name": "Brahma Chellaney",
@@ -1706,7 +1758,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Ivan Krastev",
@@ -1718,7 +1771,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.25
     },
     {
       "name": "Constanze Stelzenmuller",
@@ -1730,7 +1784,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.25
     },
     {
       "name": "Philip Tetlock",
@@ -1742,7 +1797,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.5
     }
   ],
   "predictions": [
