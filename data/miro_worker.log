@@ -140,3 +140,11 @@ ValueError: No embedding data received
 
 2026-10-06 18:08:59 pred_20261001225017_fdadca3d67b3 FAILED
 2026-10-06 18:08:59 adjudicating pred_20261001184750_ffead3b69bde: China's shale oil extraction will not reach significant levels due to 
+2026-10-06 18:10:47 runner exit 1: sed = self._options.post_parser(parsed)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\schof\veracity-panel\backend\.venv\Lib\site-packages\openai\resources\embeddings.py", line 235, in parser
+    raise ValueError("No embedding data received")
+ValueError: No embedding data received
+
+2026-10-06 18:10:47 pred_20261001184750_ffead3b69bde FAILED
+2026-10-06 18:10:47 adjudicating pred_20261001225017_fdadca3d67b3: A diplomatic agreement is unlikely in the near term, and the conflict 

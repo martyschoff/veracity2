@@ -7,10 +7,9 @@ import argparse, json, random, re, subprocess, time
 from pathlib import Path
 
 BASE = Path(r'C:/Users/schof/veracity2')
-POOL = ['http://100.124.236.23:11435', 'http://100.124.236.23:11436',
-        'http://100.124.236.23:11437', 'http://100.124.236.23:11438']
+POOL = ['http://100.84.167.88:11434']  # nimo 32b only for judgment quality
 NIMO = 'http://100.84.167.88:11434'
-MODEL = 'qwen3:8b'
+MODEL = 'qwen3:32b'  # 8b pool proved too shallow: votes unclear on everything (2026-10-06)
 
 PROMPT = """You are simulating panelist {name} ({role}) — weight {weight}x — on a predictions adjudication panel.
 
