@@ -1,0 +1,20 @@
+Created `ENERGY_PANEL_REVIEW.md` with the full analysis. Key recommendations:
+
+**CUT (11 members):**
+- **Zero prediction density:** Stuart Varney, Charles Payne, Dagen McDowell, Grady Hillhouse, Brian Potter
+- **Low density + advocacy:** Andrew Bolt, Chris Kenny, Larry Kudlow  
+- **Redundancy:** Jim Cramer, Phil Flynn, Simon Michaux
+
+**ADD (10 members):**
+- **Must-add:** Anas Alhajji (Energy Outlook podcast), Arjun Murti (Super-Spiked), Josh Young (Bison Interests), Tracy Shuchart (commodities trader)
+- **Professional forecasters:** Amrita Sen (Energy Aspects), Javier Blas (Bloomberg), Ed Crooks (Wood Mackenzie)
+- **Grid/transition balance:** Jesse Jenkins (Princeton), Vaclav Smil, Michael Lynch
+
+**WEIGHTS:** Yes — proposed 3-tier scheme:
+| Tier | Weight | Who |
+|------|--------|-----|
+| A: Professional Forecasters | 1.5× | Kloza, Croft, Kilduff, Molchanov, Sen, Alhajji, Murti, Crooks, Lynch |
+| B: Specialist Analysts | 1.25× | Zeihan, Doomberg, Yergin, Hagens, Bryce, Berman, etc. |
+| C: Industry/Fact-checkers | 1.0× | Wright, Wirth, fact-check sources |
+
+The rationale: a professional forecaster who's paid to be right should outweigh a TV host's throwaway comment, but not so much that one voice dominates. The 1.0–1.5× range keeps it bounded.

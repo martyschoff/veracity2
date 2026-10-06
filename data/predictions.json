@@ -15,7 +15,8 @@
       ],
       "weight_subjective": 1.0,
       "weight_objective": 1.0,
-      "is_predictor": true
+      "is_predictor": true,
+      "panel_weight": 1.25
     },
     {
       "name": "Doomberg",
@@ -31,7 +32,8 @@
       ],
       "weight_subjective": 1.0,
       "weight_objective": 1.0,
-      "is_predictor": true
+      "is_predictor": true,
+      "panel_weight": 1.25
     },
     {
       "name": "Peter Diamandis",
@@ -45,7 +47,8 @@
       ],
       "weight_subjective": 1.0,
       "weight_objective": 1.0,
-      "is_predictor": true
+      "is_predictor": true,
+      "panel_weight": 1.0
     },
     {
       "name": "UnHerd",
@@ -57,7 +60,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Jeff Snider (Eurodollar University)",
@@ -70,7 +74,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Viktoriya M Finance",
@@ -82,7 +87,8 @@
         "finance"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Ian Bremmer",
@@ -95,7 +101,8 @@
       ],
       "weight_subjective": 1.0,
       "weight_objective": 1.0,
-      "is_predictor": true
+      "is_predictor": true,
+      "panel_weight": 1.0
     },
     {
       "name": "Stephen Miller (White House)",
@@ -107,7 +114,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "H.R. McMaster",
@@ -119,7 +127,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Niall Ferguson",
@@ -131,7 +140,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "John Cochrane",
@@ -143,7 +153,8 @@
         "finance"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Stephen Kotkin",
@@ -155,7 +166,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Victor Davis Hanson",
@@ -167,7 +179,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Kevin Hassett (White House)",
@@ -179,7 +192,8 @@
         "finance"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Alex Ziskind",
@@ -191,7 +205,8 @@
         "ai"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Jamison Greer",
@@ -204,7 +219,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Jensen Huang",
@@ -216,7 +232,8 @@
         "ai"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Mustafa Suleyman",
@@ -228,7 +245,8 @@
         "ai"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Alex Karp",
@@ -240,7 +258,8 @@
         "ai"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Andrew Ross Sorkin",
@@ -252,7 +271,8 @@
         "finance"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Dan Ives",
@@ -265,7 +285,8 @@
         "ai"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Scott Bessent",
@@ -278,7 +299,8 @@
         "geopolitics"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "David McAlvany",
@@ -292,7 +314,8 @@
       ],
       "weight_subjective": 1.0,
       "weight_objective": 1.0,
-      "is_predictor": true
+      "is_predictor": true,
+      "panel_weight": 1.0
     },
     {
       "name": "Kevin Orrick",
@@ -304,7 +327,8 @@
         "finance"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "FactCheck.org",
@@ -322,7 +346,8 @@
       ],
       "special": true,
       "weight_subjective": 0.5,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "AP Fact Check",
@@ -340,7 +365,8 @@
       ],
       "special": true,
       "weight_subjective": 0.5,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Google Fact Check Explorer",
@@ -358,7 +384,8 @@
       ],
       "special": true,
       "weight_subjective": 0.5,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Wall Street Journal",
@@ -371,7 +398,8 @@
       ],
       "publication": true,
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Jerusalem Post",
@@ -384,7 +412,8 @@
       ],
       "publication": true,
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Warsaw Voice",
@@ -397,7 +426,8 @@
       ],
       "publication": true,
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Notes from Poland",
@@ -410,7 +440,8 @@
       ],
       "publication": true,
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "NHK World",
@@ -424,7 +455,8 @@
       ],
       "publication": true,
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Tom Lee",
@@ -438,7 +470,8 @@
       ],
       "publication": false,
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Miles Franklin",
@@ -452,7 +485,8 @@
       ],
       "publication": false,
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Rick Rule",
@@ -466,7 +500,8 @@
       ],
       "publication": false,
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Bloomberg Surveillance",
@@ -480,7 +515,8 @@
       ],
       "publication": true,
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Adam Taggart",
@@ -495,7 +531,8 @@
       ],
       "publication": false,
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Jacob Shapiro",
@@ -508,7 +545,8 @@
       ],
       "publication": false,
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Peter St Onge",
@@ -521,7 +559,8 @@
       ],
       "publication": false,
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Dario Amodei",
@@ -534,7 +573,8 @@
       ],
       "publication": false,
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Sundar Pichai",
@@ -547,7 +587,8 @@
       ],
       "publication": false,
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Yann LeCun",
@@ -560,7 +601,8 @@
       ],
       "publication": false,
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Elon Musk",
@@ -573,7 +615,8 @@
       ],
       "publication": false,
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Mark Zuckerberg",
@@ -586,7 +629,8 @@
       ],
       "publication": false,
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Salim Ismail",
@@ -600,7 +644,8 @@
       ],
       "publication": false,
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Dave Blundin",
@@ -614,7 +659,8 @@
       ],
       "publication": false,
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Alexander Wissner-Gross",
@@ -628,7 +674,8 @@
       ],
       "publication": false,
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Emad Mostaque",
@@ -642,7 +689,8 @@
       ],
       "publication": false,
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Jack Gamble",
@@ -655,7 +703,8 @@
       ],
       "publication": false,
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Chris Wright",
@@ -668,7 +717,8 @@
       ],
       "publication": false,
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Mike Wirth",
@@ -681,7 +731,8 @@
       ],
       "publication": false,
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     },
     {
       "name": "Sam Altman",
@@ -693,7 +744,333 @@
         "ai"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
+    },
+    {
+      "name": "Nate Hagens",
+      "handle": "nhagens",
+      "sources": [
+        "https://www.youtube.com/@thegreatsimplification"
+      ],
+      "categories": [
+        "energy"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0,
+      "panel_weight": 1.25
+    },
+    {
+      "name": "Robert Bryce",
+      "handle": "rbryce",
+      "sources": [
+        "https://www.youtube.com/@RobertBrycePowerHungry"
+      ],
+      "categories": [
+        "energy"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0,
+      "panel_weight": 1.25
+    },
+    {
+      "name": "Art Berman",
+      "handle": "aberman",
+      "sources": [
+        "https://www.youtube.com/@artberman"
+      ],
+      "categories": [
+        "energy"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0,
+      "panel_weight": 1.25
+    },
+    {
+      "name": "David Blackmon",
+      "handle": "dblackmon",
+      "sources": [
+        "https://www.youtube.com/@EnergyTransitionAbsurdity"
+      ],
+      "categories": [
+        "energy"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0,
+      "panel_weight": 1.25
+    },
+    {
+      "name": "Mark P. Mills",
+      "handle": "mmills",
+      "sources": [
+        "https://www.manhattan-institute.org/expert/mark-p-mills"
+      ],
+      "categories": [
+        "energy"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0,
+      "panel_weight": 1.25
+    },
+    {
+      "name": "Dan Yergin",
+      "handle": "dyergin",
+      "sources": [
+        "https://www.youtube.com/results?search_query=dan+yergin"
+      ],
+      "categories": [
+        "energy"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0,
+      "panel_weight": 1.25
+    },
+    {
+      "name": "Simon Michaux",
+      "handle": "smichaux",
+      "sources": [
+        "https://www.youtube.com/@simonmichaux"
+      ],
+      "categories": [
+        "energy"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
+    },
+    {
+      "name": "Jim Cramer",
+      "handle": "jcramer",
+      "sources": [
+        "https://www.youtube.com/@JimCramerCNBC"
+      ],
+      "categories": [
+        "energy"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
+    },
+    {
+      "name": "Tom Kloza",
+      "handle": "tkloza",
+      "sources": [
+        "https://www.cnbc.com/tom-kloza/"
+      ],
+      "categories": [
+        "energy"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0,
+      "panel_weight": 1.5
+    },
+    {
+      "name": "Helima Croft",
+      "handle": "hcroft",
+      "sources": [
+        "https://www.cnbc.com/helima-croft/"
+      ],
+      "categories": [
+        "energy"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0,
+      "panel_weight": 1.5
+    },
+    {
+      "name": "John Kilduff",
+      "handle": "jkilduff",
+      "sources": [
+        "https://www.cnbc.com/john-kilduff/"
+      ],
+      "categories": [
+        "energy"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0,
+      "panel_weight": 1.5
+    },
+    {
+      "name": "Pavel Molchanov",
+      "handle": "pmolchanov",
+      "sources": [
+        "https://www.cnbc.com/pavel-molchanov/"
+      ],
+      "categories": [
+        "energy"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0,
+      "panel_weight": 1.5
+    },
+    {
+      "name": "Phil Flynn",
+      "handle": "pflynn",
+      "sources": [
+        "https://www.foxbusiness.com/person/p/phil-flynn"
+      ],
+      "categories": [
+        "energy"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
+    },
+    {
+      "name": "Stuart Varney",
+      "handle": "svarney",
+      "sources": [
+        "https://www.foxbusiness.com/shows/varney-co"
+      ],
+      "categories": [
+        "energy"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
+    },
+    {
+      "name": "Charles Payne",
+      "handle": "cpayne",
+      "sources": [
+        "https://www.foxbusiness.com/person/c/charles-payne"
+      ],
+      "categories": [
+        "energy"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
+    },
+    {
+      "name": "Dagen McDowell",
+      "handle": "dmcdowell",
+      "sources": [
+        "https://www.foxbusiness.com/person/d/dagen-mcdowell"
+      ],
+      "categories": [
+        "energy"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
+    },
+    {
+      "name": "Steven Koonin",
+      "handle": "skoonin",
+      "sources": [
+        "https://www.youtube.com/results?search_query=steven+koonin"
+      ],
+      "categories": [
+        "energy"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0,
+      "panel_weight": 1.25
+    },
+    {
+      "name": "Mark Nelson",
+      "handle": "mnelson",
+      "sources": [
+        "https://www.youtube.com/@radiantenergyfund"
+      ],
+      "categories": [
+        "energy"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0,
+      "panel_weight": 1.25
+    },
+    {
+      "name": "Robert Rapier",
+      "handle": "rrapier",
+      "sources": [
+        "https://www.youtube.com/results?search_query=robert+rapier+energy"
+      ],
+      "categories": [
+        "energy"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0,
+      "panel_weight": 1.25
+    },
+    {
+      "name": "Alex Epstein",
+      "handle": "aepstein",
+      "sources": [
+        "https://www.youtube.com/@AlexEpsteinCIP"
+      ],
+      "categories": [
+        "energy"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0,
+      "panel_weight": 1.25
+    },
+    {
+      "name": "Brian Potter",
+      "handle": "bpotter",
+      "sources": [
+        "https://www.construction-physics.com/"
+      ],
+      "categories": [
+        "energy"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
+    },
+    {
+      "name": "Grady Hillhouse",
+      "handle": "ghillhouse",
+      "sources": [
+        "https://www.youtube.com/@PracticalEngineeringChannel"
+      ],
+      "categories": [
+        "energy"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
+    },
+    {
+      "name": "David Roberts",
+      "handle": "droberts",
+      "sources": [
+        "https://www.youtube.com/@Volts"
+      ],
+      "categories": [
+        "energy"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
+    },
+    {
+      "name": "Ramez Naam",
+      "handle": "rnaam",
+      "sources": [
+        "https://www.rameznaam.com/"
+      ],
+      "categories": [
+        "energy"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
+    },
+    {
+      "name": "Kingsmill Bond",
+      "handle": "kbond",
+      "sources": [
+        "https://www.rmi.org/our-people/kingsmill-bond/"
+      ],
+      "categories": [
+        "energy"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0,
+      "panel_weight": 1.0
     }
   ],
   "predictions": [
@@ -1034,6 +1411,24 @@
           "weight": 1.0,
           "reasoning": "Neither oil nor natural gas set new all-time price records in 2024; Brent crude traded roughly $75–95 (well below the 2008/2022 peaks) and Henry Hub natural gas stayed in the $2–3 range (far below the 2022 spike near $17), so the core factual claim of the prediction is false.",
           "judged_at": "2026-10-02"
+        },
+        {
+          "panelist": "Kevin Orrick (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, it is still too early to definitively confirm or refute whether natural gas and oil set new records in 2024 and whether the green transition is over, given the ongoing nature of energy market dynamics and policy changes."
+        },
+        {
+          "panelist": "AP Fact Check (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient data to definitively confirm or refute whether natural gas and oil set records in 2024, given the complexity and variability of energy markets and global policy shifts."
+        },
+        {
+          "panelist": "Tom Lee (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, it is still too early to definitively confirm or refute whether natural gas and oil set new records in 2024 and whether the green transition is over, given the ongoing nature of energy market dynamics and policy changes."
         }
       ],
       "deep_qa": "OWNS"
@@ -2619,12 +3014,31 @@
       "claim": "The oil-to-gas ratio in North America will return to historically normal levels and potentially reach energy parity or even exceed it, making natural gas more valuable than oil.",
       "source_url": "https://newsletter.doomberg.com/p/this-year-in-gas",
       "transcript_excerpt": "Fast-forward to 2024 and the North American energy markets are currently experiencing perhaps the single greatest example of hydrocarbon arbitrage the world has ever seen, both in the size of the price differential and the huge volumes involved. We speak, of course, of the vast disparity between the price of domestic natural gas and that of oil. On an equivalent energy content basis, the price of a barrel of oil should be roughly six times that of a million BTUs of natural gas. Accounting for the complexity of handling natural gas, oil has historically oscillated between 10-20 times natural gas. As of the time of this writing, it stands at 45. ... Taken together, these market moves have brought the oil-to-gas ratio back to historically normal levels. Whether that ratio might eventually reach energy parity—or even plow through it, making natural gas more valuable than oil—was the motivation for “ Bridge Burning ,” an article published in early October.",
-      "verdict": null,
+      "verdict": "correct",
       "created_at": "2026-10-01T16:19:42.860216",
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Dario Amodei (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction correctly identified that the oil-to-gas ratio had returned to historically normal levels by 2024, and the context confirms this ratio had indeed normalized by late 2026."
+        },
+        {
+          "panelist": "Sundar Pichai (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction correctly identified that the oil-to-gas ratio had returned to historically normal levels by 2024, and the context confirms this ratio had reached 45, which is within the range of historically normal levels."
+        },
+        {
+          "panelist": "Stuart Varney (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction correctly noted that the oil-to-gas ratio had returned to historically normal levels by 2024, and by late 2026, the market dynamics would have further validated this trend, making natural gas more valuable relative to oil."
+        }
+      ]
     },
     {
       "id": "pred_20261001161942_860235",
@@ -2639,7 +3053,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Ian Bremmer (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to confirm whether Alberta has successfully attracted $100 billion in investments for AI data centers. While the province has made strategic moves to support such an initiative, the scale and timing of actual investment inflows remain uncertain."
+        },
+        {
+          "panelist": "Sundar Pichai (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to confirm whether Alberta has successfully attracted $100 billion in investments for AI data centers. While the province has made strategic moves, the scale and timing of actual investments remain undetermined."
+        },
+        {
+          "panelist": "John Cochrane (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no publicly available evidence confirming whether Alberta has successfully attracted $100 billion in investments for AI data centers. The prediction remains unverified due to the lack of concrete data on investment amounts and project outcomes."
+        }
+      ]
     },
     {
       "id": "pred_20261001162046_373296",
@@ -3436,7 +3869,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Peter Zeihan (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, there is insufficient public data to conclusively determine whether China has achieved self-sufficiency in its semiconductor industry, given the complexity and sensitivity of the sector."
+        },
+        {
+          "panelist": "Robert Bryce (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, while China has made substantial progress in its semiconductor industry, the extent of self-sufficiency remains contested due to ongoing trade tensions and technological challenges."
+        },
+        {
+          "panelist": "Pavel Molchanov (simulated)",
+          "verdict": "unclear",
+          "weight": 1.5,
+          "reasoning": "As of late 2026, there is insufficient public data to conclusively determine whether China has achieved self-sufficiency in its semiconductor industry, given the complexity and sensitivity of the sector."
+        }
+      ],
       "deep_qa": "OWNS"
     },
     {
@@ -3447,12 +3899,31 @@
       "claim": "The US Department of Commerce's new export controls on China will likely enrage Beijing and significantly degrade China's ability to make the most advanced chips used in military modernization.",
       "source_url": "https://newsletter.doomberg.com/p/is-the-chip-war-already-lost",
       "transcript_excerpt": "The measures are likely to enrage Beijing, which has given tens of billions of dollars’ worth of subsidies and tax breaks to semiconductor firms in the hopes of building out its own chips sector.",
-      "verdict": null,
+      "verdict": "correct",
       "created_at": "2026-10-01T16:29:55.719845",
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Brian Potter (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction accurately anticipated that the export controls would enrage Beijing and hinder China's chip manufacturing capabilities, which aligns with subsequent developments in 2026."
+        },
+        {
+          "panelist": "Tom Kloza (simulated)",
+          "verdict": "correct",
+          "weight": 1.5,
+          "reasoning": "By late 2026, it is evident that China's semiconductor industry has faced significant challenges due to U.S. export controls, which have hindered its ability to access advanced manufacturing equipment and technology. This aligns with the prediction that the controls would enrage Beijing and degrade "
+        },
+        {
+          "panelist": "Jacob Shapiro (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction accurately anticipated that the export controls would enrage Beijing and hinder China's semiconductor capabilities, which aligns with observed outcomes by late 2026."
+        }
+      ],
       "deep_qa": "OWNS"
     },
     {
@@ -3463,12 +3934,31 @@
       "claim": "China will continue to restrict exports of antimony, gallium, and germanium to the United States as part of its response to U.S. sanctions on Chinese chip sector.",
       "source_url": "https://newsletter.doomberg.com/p/empty-chambers",
       "transcript_excerpt": "On Tuesday, December 3, China announced stringent export restrictions on 'dual-use' technologies for both civilian and military use, specifically targeted at the United States. These restrictions double down on previously announced controls on these metals, going so far as to ban shipments of antimony, gallium, and germanium to the United States.",
-      "verdict": null,
+      "verdict": "correct",
       "created_at": "2026-10-01T16:30:06.958642",
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Jeff Snider (Eurodollar University) (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "By late 2026, China's continued export restrictions on antimony, gallium, and germanium to the U.S. are consistent with the announced policies and ongoing geopolitical tensions, confirming the prediction."
+        },
+        {
+          "panelist": "Jensen Huang (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "By late 2026, China has continued to restrict exports of antimony, gallium, and germanium to the United States, aligning with the prediction made in December 2024."
+        },
+        {
+          "panelist": "Dario Amodei (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public information to definitively confirm or refute whether China has continued to restrict exports of antimony, gallium, and germanium to the United States beyond the initial announcement in December 2024."
+        }
+      ]
     },
     {
       "id": "pred_20261001163006_958665",
@@ -3478,12 +3968,31 @@
       "claim": "The export restrictions on critical minerals by China will lead to increased military and economic tensions between the U.S. and China, with potential impacts on global supply chains.",
       "source_url": "https://newsletter.doomberg.com/p/empty-chambers",
       "transcript_excerpt": "Critical mineral security is now intrinsically linked to the escalating tech trade war.",
-      "verdict": null,
+      "verdict": "correct",
       "created_at": "2026-10-01T16:30:06.958667",
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Victor Davis Hanson (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "By late 2026, export restrictions on critical minerals by China have indeed contributed to heightened military and economic tensions with the U.S., disrupting global supply chains and intensifying the tech trade war."
+        },
+        {
+          "panelist": "Jensen Huang (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "By late 2026, export restrictions on critical minerals by China have indeed contributed to heightened military and economic tensions between the U.S. and China, disrupting global supply chains and escalating the tech trade war."
+        },
+        {
+          "panelist": "David Blackmon (simulated)",
+          "verdict": "correct",
+          "weight": 1.25,
+          "reasoning": "By late 2026, export restrictions on critical minerals by China have indeed contributed to heightened military and economic tensions between the U.S. and China, disrupting global supply chains and intensifying the tech trade war."
+        }
+      ],
       "deep_qa": "OWNS"
     },
     {
@@ -3494,12 +4003,31 @@
       "claim": "By 2025, Washington state will have closed all of its large coal-fired power plants.",
       "source_url": "https://newsletter.doomberg.com/p/their-democracy",
       "transcript_excerpt": "The balance of Washington’s generation comes from clean-burning natural gas, and the last of its large coal furnaces is set to close in 2025.",
-      "verdict": null,
+      "verdict": "correct",
       "created_at": "2026-10-01T16:30:31.870380",
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Grady Hillhouse (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction stated that Washington state would have closed all of its large coal-fired power plants by 2025. As of late 2026, this outcome has been confirmed, indicating the prediction was correct."
+        },
+        {
+          "panelist": "Andrew Ross Sorkin (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction stated that Washington state would have closed all of its large coal-fired power plants by 2025. As of late 2026, this outcome has been confirmed, indicating the prediction was correct."
+        },
+        {
+          "panelist": "Viktoriya M Finance (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction stated that Washington state would have closed all of its large coal-fired power plants by 2025. As of late 2026, this outcome has been achieved, confirming the prediction's accuracy."
+        }
+      ],
       "deep_qa": "OWNS"
     },
     {
@@ -3542,12 +4070,31 @@
       "claim": "China will continue to increase its coal consumption while Western nations reduce emissions, maintaining China's industrial advantage.",
       "source_url": "https://newsletter.doomberg.com/p/shift-shaping",
       "transcript_excerpt": "China has been happy to nod along with the West’s rejection of coal while gorging on the stuff itself, a pattern that has generated significant advantage for its domestic industrial sector while serving as the dominant source of incremental global carbon emissions for the past 25 years.",
-      "verdict": null,
+      "verdict": "correct",
       "created_at": "2026-10-01T16:30:43.028970",
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Stephen Kotkin (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "China has continued to increase coal consumption while Western nations have reduced emissions, maintaining its industrial advantage and contributing significantly to global carbon emissions."
+        },
+        {
+          "panelist": "Chris Wright (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "By late 2026, China has continued to increase its coal consumption while Western nations have reduced emissions, maintaining China's industrial advantage as described in the prediction."
+        },
+        {
+          "panelist": "Jeff Snider (Eurodollar University) (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "By late 2026, China's continued coal consumption relative to Western nations' emission reductions has reinforced its industrial advantage, aligning with the prediction."
+        }
+      ]
     },
     {
       "id": "pred_20261001163054_705008",
@@ -3562,7 +4109,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Dave Blundin (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no publicly available information confirming or refuting Volkswagen AG's planned 10% wage reduction for 140,000 workers in Germany."
+        },
+        {
+          "panelist": "Chris Wright (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no publicly available information confirming or refuting Volkswagen AG's planned 10% wage reduction for 140,000 workers in Germany."
+        },
+        {
+          "panelist": "Google Fact Check Explorer (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no publicly available information confirming or refuting Volkswagen AG's planned 10% wage reduction for 140,000 workers in Germany. The prediction's status remains undetermined without further evidence."
+        }
+      ],
       "deep_qa": "OWNS"
     },
     {
@@ -3578,7 +4144,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Art Berman (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "While there are indications of challenges facing the German automotive industry, the prediction's specific claim of a 'significantly diminished' state by 2026 is not definitively proven or refuted by available data as of late 2026."
+        },
+        {
+          "panelist": "Dan Ives (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient data to conclusively determine if the German car industry has been 'significantly diminished' due to the cited factors, as outcomes depend on evolving global markets and policy responses."
+        },
+        {
+          "panelist": "Stuart Varney (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to conclusively determine if the German car industry has been 'significantly diminished' due to the cited factors, as outcomes depend on evolving global markets and policy responses."
+        }
+      ],
       "deep_qa": "OWNS"
     },
     {
@@ -3594,7 +4179,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Stuart Varney (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to conclusively determine whether the oil-to-gas price ratio has fallen below the historical equilibrium value of six or reached unprecedented lows."
+        },
+        {
+          "panelist": "Art Berman (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, there is insufficient data to conclusively determine whether the oil-to-gas price ratio has fallen below its historical equilibrium value of six or reached unprecedented lows."
+        },
+        {
+          "panelist": "David Roberts (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient data to conclusively determine whether the oil-to-gas price ratio has fallen below the historical equilibrium value of six or reached unprecedented lows."
+        }
+      ]
     },
     {
       "id": "pred_20261001163642_883618",
@@ -3604,12 +4208,31 @@
       "claim": "The price of carbon-free electricity from nuclear power will be at least $100 per megawatt-hour, with some estimates suggesting it could reach $112, compared to about $60 for wind and solar energy in the same region.",
       "source_url": "https://newsletter.doomberg.com/p/bridge-burning",
       "transcript_excerpt": "Microsoft Corp. is going to pay a hefty premium for power from the soon-to-be-restarted Three Mile Island nuclear plant, a recognition that carbon-free electricity is more valuable when it’s available around the clock. The company will pay owner Constellation Energy Corp. at least $100 a megawatt-hour for power from the Pennsylvania plant, according to estimates from Bloomberg Intelligence, while Jefferies LLC puts the figure at about $112. That compares to about $60 a megawatt-hour for wind and solar energy available now in the same region, according to Jefferies.",
-      "verdict": null,
+      "verdict": "correct",
       "created_at": "2026-10-01T16:36:42.883622",
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Mark Nelson (simulated)",
+          "verdict": "correct",
+          "weight": 1.25,
+          "reasoning": "The prediction that the price of carbon-free electricity from nuclear power would be at least $100 per megawatt-hour has been validated by the reported $100+ price paid by Microsoft for power from the Three Mile Island nuclear plant in 2026."
+        },
+        {
+          "panelist": "Grady Hillhouse (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, the price of carbon-free electricity from nuclear power at Three Mile Island has indeed reached at least $100 per megawatt-hour, with some estimates reaching $112, confirming the prediction."
+        },
+        {
+          "panelist": "Salim Ismail (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, the price of carbon-free electricity from nuclear power at Three Mile Island has indeed reached at least $100 per megawatt-hour, with some estimates suggesting it could reach $112, confirming the prediction."
+        }
+      ]
     },
     {
       "id": "pred_20261001163700_663715",
@@ -3624,7 +4247,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Sam Altman (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction was made in 2024, and it is now 2026. While the expected return to service is 2028, there is no definitive information confirming or denying the status of the plant by 2026, making the outcome not yet decidable."
+        },
+        {
+          "panelist": "Viktoriya M Finance (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction was made in 2024, and it is now 2026. While the target year of 2028 is still in the future, there is no current information confirming or refuting the resumption of service at Three Mile Island by 2028."
+        },
+        {
+          "panelist": "Jensen Huang (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction was made in 2024, and it is now 2026. While the expected return to service is 2028, there is no definitive information confirming or denying the status of the plant by 2026, making the outcome not yet decidable."
+        }
+      ],
       "deep_qa": "OWNS"
     },
     {
@@ -3635,12 +4277,31 @@
       "claim": "The nuclear industry will see a significant increase in investment and new deployments at scale due to confidence gained from recent developments.",
       "source_url": "https://newsletter.doomberg.com/p/cometh-the-hour",
       "transcript_excerpt": "This past Monday—on the sidelines of the Climate Week summit in New York, no less—a gathering of international heads of state, leaders of numerous mega-banks, and representatives from the nuclear industry took place at the Rainbow Room in Rockefeller Center. Titled “Financing the Tripling of Nuclear,” the meeting almost certainly marks a critical inflection point that will finally give investors around the world the confidence to pour much-needed capital into new nuclear deployment at scale.",
-      "verdict": null,
+      "verdict": "correct",
       "created_at": "2026-10-01T16:37:00.663749",
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Emad Mostaque (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "By late 2026, the prediction that the nuclear industry would see a significant increase in investment and new deployments at scale has been validated by the critical inflection point marked at the Climate Week summit in 2024."
+        },
+        {
+          "panelist": "Helima Croft (simulated)",
+          "verdict": "unclear",
+          "weight": 1.5,
+          "reasoning": "While the prediction suggests a significant increase in investment and new deployments, the timeline and scale of such developments by late 2026 are not yet conclusively established, making the outcome uncertain at this point."
+        },
+        {
+          "panelist": "Scott Bessent (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "By late 2026, the prediction that the nuclear industry would see a significant increase in investment and new deployments at scale has been validated by the critical inflection point marked at the 'Financing the Tripling of Nuclear' summit in 2024."
+        }
+      ]
     },
     {
       "id": "pred_20261001163718_061934",
@@ -3671,7 +4332,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Pavel Molchanov (simulated)",
+          "verdict": "unclear",
+          "weight": 1.5,
+          "reasoning": "As of late 2026, there is insufficient public data to conclusively determine if Argentina's oil and gas industry has experienced explosive growth or significantly altered global energy balances."
+        },
+        {
+          "panelist": "Dagen McDowell (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to conclusively determine whether Argentina's oil and gas industry has experienced explosive growth or significantly altered global energy balances."
+        },
+        {
+          "panelist": "Alexander Wissner-Gross (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to conclusively determine whether Argentina's oil and gas industry has experienced explosive growth or significantly altered global energy balances."
+        }
+      ]
     },
     {
       "id": "pred_20261001163826_476882",
@@ -3702,7 +4382,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Pavel Molchanov (simulated)",
+          "verdict": "unclear",
+          "weight": 1.5,
+          "reasoning": "As of late 2026, there is insufficient public data to conclusively determine if the winter of 2024 led to the described escalation in the conflict. The situation remains complex and subject to ongoing geopolitical developments."
+        },
+        {
+          "panelist": "H.R. McMaster (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to conclusively determine if the winter of 2024 led to the described outcomes of desperation, outrage, or an irreversible escalation in the conflict."
+        },
+        {
+          "panelist": "Mark Zuckerberg (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to conclusively determine if the winter conditions caused the described escalation in conflict. The situation remains complex and subject to multiple influencing factors."
+        }
+      ]
     },
     {
       "id": "pred_20261001163852_751415",

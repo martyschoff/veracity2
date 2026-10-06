@@ -1,0 +1,11 @@
+We are building veracity2 (this repo): a predictions-vs-reality tracker that extracts dated, testable predictions from commentators' own YouTube shows/articles, classifies them (prediction vs prescription vs fact vs conditional via an LLM gate), and renders a QA grid where the owner marks each prediction right/wrong. Panel members also act as adjudicators (LLM panelists vote on verdicts; a 2-vote rule yields thumbs up/down).
+
+Our ENERGY panel currently has 32 members: Peter Zeihan, Doomberg, Chris Wright (US Energy Secretary), Mike Wirth (Chevron CEO), Nate Hagens, Robert Bryce, Art Berman, David Blackmon, Mark P. Mills, Dan Yergin, Simon Michaux, Andrew Bolt (Sky News AU), Chris Kenny (Sky News AU), Jim Cramer (CNBC), Tom Kloza (OPIS), Helima Croft (RBC), John Kilduff (Again Capital), Pavel Molchanov (Raymond James), Phil Flynn (Fox Business), Stuart Varney (Fox Business), Charles Payne (Fox Business), Larry Kudlow (Fox Business), Dagen McDowell (Fox Business), Steven Koonin, Mark Nelson, Robert Rapier, Alex Epstein, Brian Potter, Grady Hillhouse — plus 3 fact-checker sources (FactCheck.org, AP Fact Check, Google Fact Check Explorer).
+
+QUESTION 1: Who should be CUT from this energy panel and why? Consider: prediction density (do they actually make dated, testable claims?), independence vs pure advocacy, overlap/redundancy, ideological balance, and practical extractability (own-voice shows vs scattered guest appearances).
+
+QUESTION 2: Who should be ADDED instead? Name specific people with their own YouTube/media presence who make dated, testable energy predictions. Consider grid operators/engineers, commodities analysts, independent researchers.
+
+QUESTION 3: Should we apply WEIGHTS to individuals (e.g. higher weight for professional forecasters with track records, lower for political commentators)? If yes, propose a concrete weighting scheme with numeric values and justify each tier. If no, argue why flat weights are better.
+
+Be specific and opinionated. Write your full answer to the file ENERGY_PANEL_REVIEW.md in this repo (create it), structured as: Cut / Add / Weights sections with reasoning per person.
