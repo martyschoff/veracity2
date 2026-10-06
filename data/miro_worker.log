@@ -37,3 +37,5 @@ Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reas
 ValueError: No embedding data received
 
 2026-10-06 13:48:41 pred_20261001163700_663715 FAILED
+2026-10-06 14:23:45 miro worker started (nimo via proxy; 7-GPU pool skipped)
+2026-10-06 14:24:27 miro worker started (nimo via proxy; 7-GPU pool skipped)
