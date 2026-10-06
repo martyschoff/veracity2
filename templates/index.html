@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Veracity2 — Predictions vs Reality</title>
+    <title>Seer Score — Predictions vs Reality</title>
     <style>
         :root {
             --bg: #0f172a;
@@ -305,7 +305,7 @@
 <body>
     <div class="header">
         <div>
-            <h1>Veracity<span>2</span></h1>
+            <h1>Seer Score <span id="app-version"></span><span>2</span></h1>
             <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 4px;">Predictions vs Reality Tracker</p>
         </div>
         <div class="controls">
@@ -673,7 +673,11 @@
         document.addEventListener('keydown', function(e) {
             if (e.key === 'Escape') hideDetail();
         });
-            var tgl = document.getElementById('implicit-toggle');
+            fetch('/version.json').then(function(r){ return r.json(); }).then(function(j){
+            var el = document.getElementById('app-version');
+            if (el) el.textContent = 'v' + j.version.toFixed(2);
+        }).catch(function(){});
+        var tgl = document.getElementById('implicit-toggle');
         if (tgl) tgl.checked = showImplicit;
         applyRangeFilter();
         renderImplicitColumn();

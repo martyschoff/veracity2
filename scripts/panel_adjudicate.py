@@ -18,6 +18,10 @@ PREDICTION (made {date}): {claim}
 TRANSCRIPT CONTEXT: {excerpt}
 
 It is now late 2026. Judge ONLY whether the prediction has been proven correct, incorrect, or is not yet decidable by this date.
+CRITICAL: if the prediction's target date is still in the future, it has NOT failed merely because it hasn't happened yet.
+- "correct" ONLY with positive evidence the event occurred or is clearly on track
+- "incorrect" ONLY with positive evidence it failed OR its deadline passed unmet
+- "unclear" if the deadline hasn't arrived and evidence is inconclusive
 Answer STRICTLY as JSON: {{"vote": "correct"|"incorrect"|"unclear", "reasoning": "1-2 sentences"}}"""
 
 ROLES = {
@@ -50,9 +54,21 @@ def main():
 
     d = json.load(open(BASE / 'data' / 'predictions.json', encoding='utf-8'))
     ind_w = {i['name']: i.get('panel_weight', 1.0) for i in d['individuals']}
+    import datetime
+    today = datetime.date.today().isoformat()
+    def due(p):
+        if p.get('test_eligible_at'):
+            return p['test_eligible_at'] <= today
+        m = re.search(r'\b(20[2-9]\d)\b', p.get('claim', ''))
+        return not m or m.group(1) <= today[:4]
     targets = [p for p in d['predictions']
                if p['individual_name'] == args.person and not p.get('removed')
-               and not p.get('gate_status') and (args.year is None or p.get('date', '').startswith(args.year))]
+               and not p.get('gate_status') and due(p)
+               and (args.year is None or p.get('date', '').startswith(args.year))]
+    skipped = sum(1 for p in d['predictions'] if p['individual_name'] == args.person
+                  and not p.get('removed') and not p.get('gate_status') and not due(p))
+    if skipped:
+        print(f'{skipped} not-yet-due predictions skipped', flush=True)
     print(f'{len(targets)} predictions to adjudicate', flush=True)
 
     port_i = 0
@@ -63,7 +79,10 @@ def main():
         pool_names = [n for n in ind_w if n != args.person]
         panelists = random.sample(pool_names, min(3, len(pool_names)))
         votes = list(p.get('judgements') or [])
+        existing = {v['panelist'] for v in votes}
         for name in panelists:
+            if f'{name} (simulated)' in existing:
+                continue
             w = ind_w.get(name, 1.0)
             prompt = PROMPT.format(name=name, role=ROLES.get(w, 'energy specialist'),
                                    weight=w, date=p.get('date', ''), claim=p['claim'][:600],
@@ -84,8 +103,7 @@ def main():
             p['verdict'] = 'correct'
         elif score <= -2.0:
             p['verdict'] = 'wrong'
-        if (pi + 1) % 5 == 0:
-            json.dump(d, open(BASE / 'data' / 'predictions.json', 'w', encoding='utf-8'), indent=2, ensure_ascii=False)
+        json.dump(d, open(BASE / 'data' / 'predictions.json', 'w', encoding='utf-8'), indent=2, ensure_ascii=False)  # save every prediction
         print(f'{pi + 1}/{len(targets)} done | votes={len(votes)} score={round(score, 2)} verdict={p.get("verdict")}', flush=True)
     json.dump(d, open(BASE / 'data' / 'predictions.json', 'w', encoding='utf-8'), indent=2, ensure_ascii=False)
     print('ADJUDICATION_DONE', flush=True)

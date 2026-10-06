@@ -309,6 +309,12 @@ async def api_implicit(request: Request):
     return JSONResponse({"ok": ok})
 
 
+@app.get("/version.json")
+async def version_json():
+    vf = BASE_DIR / "data" / "version.json"
+    return JSONResponse(json.load(open(vf, encoding="utf-8")))
+
+
 @app.get("/api/implicit")
 async def api_implicit_list():
     q = json.load(open(IMPLICIT_QUEUE, encoding="utf-8")) if IMPLICIT_QUEUE.exists() else []

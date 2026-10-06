@@ -51,11 +51,21 @@ def ensure_services():
     if not up(7474):
         log('starting Neo4j')
         subprocess.Popen(
-            ['cmd', '/c', 'bin\\neo4j.bat console'],
-            cwd=r'C:/Users/schof/tools/neo4j-community-5.26.0',
+            ['bash', '-lc',
+             'export JAVA_HOME="C:/Users/schof/tools/jdk-21.0.12.1+1"; '
+             'export PATH="$JAVA_HOME/bin:$PATH"; '
+             'cd /c/Users/schof/tools/neo4j-community-5.26.0 && bin/neo4j.bat console'],
             stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
             creationflags=0x08000000)
-        time.sleep(30)
+        # wait for bolt to actually accept
+        for _ in range(20):
+            time.sleep(5)
+            try:
+                urllib.request.urlopen('http://127.0.0.1:7474', timeout=4)
+                log('neo4j http up')
+                break
+            except Exception:
+                continue
     if not up(8899):
         log('starting LLM proxy')
         subprocess.Popen(

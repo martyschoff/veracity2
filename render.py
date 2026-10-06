@@ -66,6 +66,13 @@ for name in TRACKED_NAMES:
 
 total = len([p for p in predictions if p.get('individual_name') in tns])
 
+# version: +0.01 per pass
+_vf = BASE / 'data' / 'version.json'
+_ver = json.load(open(_vf, encoding='utf-8'))
+VERSION = round(_ver['version'] + 0.01, 2)
+_ver['version'] = VERSION
+json.dump(_ver, open(_vf, 'w', encoding='utf-8'), indent=1)
+
 CC = {'finance':'#10b981','energy':'#f59e0b','ukraine':'#3b82f6','china':'#ef4444','ai':'#8b5cf6','geopolitics':'#6366f1','other':'#6b7280'}
 
 env = Environment(loader=FileSystemLoader(str(TEMPLATES_DIR)), autoescape=select_autoescape(['html']))
@@ -114,7 +121,7 @@ env.filters['source_label'] = source_label
 env.filters['condense'] = condense
 html = env.get_template('index.html').render(
     tracked_individuals=tracked, panelists=panelists, panelists_by_category=pbc,
-    rows_by_person=rows_by_person, all_preds_by_person=all_preds_by_person,
+    app_version=VERSION, rows_by_person=rows_by_person, all_preds_by_person=all_preds_by_person,
     total_tracked_preds=total, category_colors=CC,
 )
 

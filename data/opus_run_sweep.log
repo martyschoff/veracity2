@@ -1,0 +1,18 @@
+Created `VERDICT_SWEEP_REVIEW.md` with a prioritized list of improvements.
+
+**Key findings:**
+
+| Priority | Issue | TL;DR |
+|----------|-------|-------|
+| **P0.1** | Future-date bias | Prompt needs the same guard `monte_carlo.py` has — predictions not yet due get "incorrect" instead of "unclear" |
+| **P0.2** | Write race | All 3 scripts (panel, miro, swarm) clobber `predictions.json` — needs `filelock` |
+| **P0.3** | Vote dedup | Crash/restart can double-vote the same panelist |
+| **P0.4** | Infrequent saves | Saving every 5 predictions loses up to 15 votes on crash |
+| **P1.1** | Single-threaded | 4 GPUs sit 75% idle; `ThreadPoolExecutor` would give 3-4× speedup |
+| **P1.2** | Dead endpoints | One down GPU stalls its share for 2 min each; needs health checks |
+
+Recommended first fixes (small effort, high impact):
+1. Copy the future-date guard from `monte_carlo.py` into `PROMPT`
+2. Add vote deduplication before appending
+3. Save after every prediction, not every 5
+4. Respect `test_eligible_at` to skip not-yet-due predictions
