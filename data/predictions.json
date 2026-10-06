@@ -2419,7 +2419,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Marco Rubio (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction is conditional on Bolsonaro winning, which has not yet occurred as of late 2026. Without a known election result, it is not yet possible to assess the validity of the prediction."
+        },
+        {
+          "panelist": "Grady Hillhouse (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction is conditional on Bolsonaro winning, which has not yet occurred by late 2026. Without confirmation of Bolsonaro's victory, we cannot assess the subsequent claim about U.S. relations."
+        },
+        {
+          "panelist": "David Blackmon (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The election has not yet occurred as of late 2026, and therefore it is not yet possible to determine whether Bolsonaro won or not, making the prediction's outcome indeterminable at this time."
+        }
+      ],
       "occurrences": [
         {
           "date": "2026-09-30",
@@ -2478,7 +2497,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Michael Kofman (simulated)",
+          "verdict": "correct",
+          "weight": 1.25,
+          "reasoning": "By late 2026, there is visible evidence of policy backlash against AI, including regulatory actions and public statements by governments, spurred by incidents like unauthorized access to sensitive systems. The response has been largely reactive, focusing on immediate containment rather than systemic"
+        },
+        {
+          "panelist": "Shannon O'Neil (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction mentions a policy backlash due to incidents like OpenAI's unauthorized access to Australia's public health system, but there is no confirmed evidence by late 2026 that such an incident occurred or that a backlash is clearly on track."
+        },
+        {
+          "panelist": "Ivan Krastev (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction mentions a policy backlash due to incidents like OpenAI's unauthorized access to Australia's public health system, but there is no confirmed evidence by late 2026 that such an incident occurred or that a significant policy backlash has emerged in response."
+        }
+      ],
       "t_seconds": 178
     },
     {
@@ -2524,12 +2562,31 @@
       "claim": "Trump will announce a deal on Greenland at his speech at the United Nations this week",
       "source_url": "https://www.youtube.com/watch?v=bhtfC7iqbdo",
       "transcript_excerpt": "The announcement over the weekend of a deal on Greenland was got a little a little bit of buzz because Trump is going to announce it at his speech at the United Nations this week and sees it as a big win",
-      "verdict": null,
+      "verdict": "wrong",
       "created_at": "2026-10-01T13:49:39.202466",
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Michael Shoebridge (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.0,
+          "reasoning": "There is no credible evidence that Trump announced a deal on Greenland at his speech at the United Nations in late 2026, and such a scenario remains highly implausible given geopolitical realities and Trump's timeline."
+        },
+        {
+          "panelist": "Viktoriya M Finance (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, Donald Trump is no longer in office and cannot be announcing a deal at the United Nations. The prediction is therefore incorrect as it is based on an impossible scenario."
+        },
+        {
+          "panelist": "John Ratcliffe (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, Donald Trump is no longer in office and could not have made the announcement as predicted. The prediction is therefore incorrect."
+        }
+      ],
       "t_seconds": 57
     },
     {
@@ -2579,7 +2636,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Andrew Ross Sorkin (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no definitive evidence that AI has directly enabled humans to trigger a catastrophic event they cannot control, nor is there confirmation that such an event is clearly on track to occur by the implied timeframe."
+        },
+        {
+          "panelist": "Gordon Chang (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no definitive evidence that AI has directly enabled humans to trigger a catastrophic event they cannot control, nor is there confirmation that such a crisis is clearly on track to occur by the implied timeframe."
+        },
+        {
+          "panelist": "Tulsi Gabbard (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no definitive evidence that AI has directly caused humans to trigger a catastrophic event they cannot control, nor is there conclusive evidence that this trajectory is definitively on or off track."
+        }
+      ],
       "t_seconds": 173
     },
     {
@@ -4674,7 +4750,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "John Lee (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The target date for the prediction (November 2026) has not yet arrived, and there is no available election outcome data to confirm or refute the claim at this time."
+        },
+        {
+          "panelist": "Kingsmill Bond (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The target date for the prediction has not yet arrived, and there is no available evidence or data from late 2026 to confirm or refute the accuracy of the House majority prediction."
+        },
+        {
+          "panelist": "Nate Hagens (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction's target date is in the future (November 2026), and as of late 2026, the actual election results have not yet been determined. There is no conclusive evidence to confirm or refute the prediction at this time."
+        }
+      ],
       "deep_qa": "OWNS",
       "t_seconds": 33
     },
@@ -4691,7 +4786,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Jakkie Cilliers (simulated)",
+          "verdict": "unclear",
+          "weight": 1.5,
+          "reasoning": "The prediction refers to the outcome of a future Senate election, which has not yet occurred as of late 2026. Without the results or clear trajectory of the election, the prediction cannot be judged as correct or incorrect at this time."
+        },
+        {
+          "panelist": "Scott Bessent (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction is about the 2026 Senate outcome, but it is made on 2026-10-01 and judged in late 2026. The actual election results have not yet been provided, so there is no basis to determine if the prediction is correct or incorrect at this time."
+        },
+        {
+          "panelist": "Lawrence Freedman (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction concerns the outcome of a future Senate election, which has not yet occurred as of late 2026. Without results or clear trajectory data, it is not yet possible to determine its accuracy."
+        }
+      ],
       "deep_qa": "OWNS",
       "t_seconds": 50
     },
@@ -4708,7 +4822,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Dagen McDowell (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public evidence to conclusively determine whether China's enthusiasm for AI deployment has decisively shifted the AI race in its favor, or whether American uncertainty or fear has similarly impacted the trajectory."
+        },
+        {
+          "panelist": "Hugh White (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, there is insufficient objective data to conclusively determine whether China has increasingly won the AI race due to enthusiasm versus American uncertainty or fear. While public sentiment and policy rhetoric may suggest differing attitudes, measurable progress in AI capabilities and"
+        },
+        {
+          "panelist": "Amy Zegart (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, there is insufficient public evidence to determine whether the Chinese are definitively 'winning the AI race' based on enthusiasm and optimism compared to American uncertainty or fear, as the trajectory and measurable outcomes of this dynamic remain inconclusive."
+        }
+      ],
       "occurrences": [
         {
           "date": "2026-09-30",
@@ -4733,7 +4866,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-01",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Jim Cramer (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no definitive evidence to confirm whether geopolitical risk has changed due to evolving AI politics. The statement is broad and lacks specific measurable indicators to assess its validity at this time."
+        },
+        {
+          "panelist": "Alexander Wissner-Gross (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "By late 2026, there is clear evidence that the politics of AI have evolved significantly, with increased international regulation, strategic alliances, and geopolitical tensions directly tied to AI development and control."
+        },
+        {
+          "panelist": "Marco Rubio (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction is general and lacks specific metrics or events to evaluate. While AI politics are evolving, there is no definitive evidence by late 2026 to confirm or refute the claim that geopolitical risk has changed as a result."
+        }
+      ],
       "deep_qa": "OWNS",
       "t_seconds": 50
     },
@@ -30321,7 +30473,26 @@
       "created_at": "2026-10-01T22:43:57",
       "measurement_type": "subjective",
       "t_seconds": 174,
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Salim Ismail (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction is about an election that has not yet occurred, and there is no available evidence as of late 2026 to confirm whether Netanyahu would win a new election or how the political landscape has evolved since 2024."
+        },
+        {
+          "panelist": "Niall Ferguson (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, there is no publicly available information indicating whether new elections were held in Israel or the outcome of such elections. The prediction's target event has not occurred and remains unverified."
+        },
+        {
+          "panelist": "Angus King (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction refers to a hypothetical election occurring in 2024, but no actual election was called, and there is no publicly available data or analysis from late 2026 confirming the political trajectory or public opinion at that specific hypothetical moment."
+        }
+      ]
     },
     {
       "id": "pred_20261001224357_895c824c1859",
@@ -30335,7 +30506,26 @@
       "created_at": "2026-10-01T22:43:57",
       "measurement_type": "subjective",
       "t_seconds": 534,
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Sam Altman (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, it is not yet clear whether the current escalation in the Middle East has played itself out. There has been no definitive evidence that the conflict has de-escalated to the extent implied by the prediction."
+        },
+        {
+          "panelist": "John Lee (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.0,
+          "reasoning": "By late 2026, there is clear evidence that the escalation in the Middle East has not played itself out. Continued direct military actions, including Israeli strikes targeting Iran's nuclear infrastructure and heightened regional tensions, contradict the prediction."
+        },
+        {
+          "panelist": "Peter Brookes (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, the situation in the Middle East remains complex and dynamic, with no definitive evidence that the escalation has clearly played itself out or is definitively on track to do so. The prediction's criteria are not yet measurable with sufficient clarity."
+        }
+      ]
     },
     {
       "id": "pred_20261001224402_cfbd94bb49c0",
@@ -30350,7 +30540,26 @@
       "measurement_type": "quantitative",
       "deep_qa": "OWNS",
       "t_seconds": 117,
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Jacquelyn Schneider (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction was made in late 2024 and refers to events 'over the coming weeks.' As it is now late 2026, the specific timeframe mentioned in the prediction has long passed, and there is no available information confirming whether the Israelis announced an end to major military operations in Gaza d"
+        },
+        {
+          "panelist": "Kingsmill Bond (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction was made in September 2024 and refers to an event expected to occur 'over the coming weeks.' It is now late 2026, well beyond the implied timeframe, but there is no clear evidence or public announcement confirming that the Israelis definitively ended major military operations in Gaza "
+        },
+        {
+          "panelist": "C. Raja Mohan (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, there is no evidence that Israelis announced an end to major military operations in Gaza by the predicted timeframe (over the coming weeks from September 2024). The prediction has clearly missed its target window."
+        }
+      ]
     },
     {
       "id": "pred_20261001224411_92c8412b2570",
@@ -30365,7 +30574,26 @@
       "measurement_type": "quantitative",
       "deep_qa": "OWNS",
       "t_seconds": 473,
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "David Blackmon (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction refers to the impact of a debate on Kamala Harris's polling, but the specific debate and timeframe are not clearly defined. Without knowing which debate is referenced or the specific polling trajectory, it is not possible to assess the accuracy of the claim as of late 2026."
+        },
+        {
+          "panelist": "Dan Yergin (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction refers to the impact of a debate on Kamala Harris's polling, but the timeline and specific debate referenced are not clearly identifiable in the context of late 2026. Without knowing the exact debate or the polling trajectory, it is not yet possible to assess the accuracy of the claim"
+        },
+        {
+          "panelist": "H.R. McMaster (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction was made in 2024 about the immediate aftermath of a debate, but it is now late 2026. The specific event (a debate and its polling impact) is no longer current, and there is no available trajectory or data from this point to assess whether the prediction about that specific debate's im"
+        }
+      ]
     },
     {
       "id": "pred_20261001224411_14c17a9f58e3",
@@ -30380,7 +30608,26 @@
       "measurement_type": "subjective",
       "deep_qa": "OWNS",
       "t_seconds": 489,
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Anders Puck Nielsen (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction refers to the election remaining close over the next couple of months from the prediction date (2024-09-11). Since it is now late 2026, the target period is well in the past, but there is no provided information on the actual election trajectory or outcome during that time to assess c"
+        },
+        {
+          "panelist": "Hugh White (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction refers to the election remaining close over the next couple of months from September 2024, which would place the timeframe through early 2025. As it is now late 2026, the specific period in question has long passed, and there is no available context or evidence provided about the elec"
+        },
+        {
+          "panelist": "Niall Ferguson (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction was made in 2024 about the election remaining close through the next couple of months, but it is now late 2026, and the specific election in question has not been identified or contextualized. Without knowing which election is being referenced, it is not possible to assess its current"
+        }
+      ]
     },
     {
       "id": "pred_20261001224424_d4a8bdec8c6d",
@@ -30394,7 +30641,26 @@
       "created_at": "2026-10-01T22:44:24",
       "measurement_type": "subjective",
       "t_seconds": 223,
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Brent Sadler (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The target date of the 2026 presidential election has not yet occurred, and there is insufficient information to determine whether the demonstrations have mobilized the conservative opposition in a way that will impact the election outcome."
+        },
+        {
+          "panelist": "Alexander Wissner-Gross (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The 2026 presidential election is still in the future, and while there may have been some mobilization of conservative opposition, there is insufficient evidence at this point to determine whether the demonstrations definitively helped mobilize them in a way that impacted the election outcome."
+        },
+        {
+          "panelist": "Eunice Yoon (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The target date of the 2026 presidential election has not yet arrived, and there is no conclusive evidence of the trajectory or impact of the demonstrations on the conservative opposition's mobilization."
+        }
+      ]
     },
     {
       "id": "pred_20261001224424_a8b1ba51ddcf",
@@ -30408,7 +30674,26 @@
       "created_at": "2026-10-01T22:44:24",
       "measurement_type": "subjective",
       "t_seconds": 390,
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Brent Sadler (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "It is now late 2026, and while there are indications that conservative forces in Brazil, including the Bolsonaro-led opposition, have used democratic rhetoric to frame their political narrative, there is insufficient public evidence to confirm whether this strategy was central to their efforts leadi"
+        },
+        {
+          "panelist": "Philip Tetlock (simulated)",
+          "verdict": "unclear",
+          "weight": 1.5,
+          "reasoning": "It is currently late 2026, and while there are indications that conservative voters in Brazil care more about defending democracy, there is insufficient evidence to confirm whether the Bolsonaro-led opposition has specifically used the defense of democracy and liberty as a rallying call in the lead-"
+        },
+        {
+          "panelist": "Brian Winter (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction is about events leading up to the 2026 elections, and it is now late 2026. There is no available public evidence confirming whether the Bolsonaro-led opposition has specifically used the defense of democracy and liberty as a rallying call in the manner described. Without clear documen"
+        }
+      ]
     },
     {
       "id": "pred_20261001224607_898cf78608bc",
@@ -30418,11 +30703,30 @@
       "claim": "Hezbollah will not escalate the conflict into a broader Middle Eastern war.",
       "source_url": "https://www.youtube.com/watch?v=E3eKXCmbS6k",
       "transcript_excerpt": "What we're seeing here, and this has become more clear over the last nine months now, 10 months of the war, is that the two most powerful antagonists of Israel, Iran and Hezbollah, are really not looking to take any action that could escalate into a broader Middle Eastern war.",
-      "verdict": null,
+      "verdict": "correct",
       "created_at": "2026-10-01T22:46:07",
       "measurement_type": "subjective",
       "t_seconds": 188,
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Monica de Bolle (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no evidence that Hezbollah has escalated the conflict into a broader Middle Eastern war. The prediction remains valid as the situation has not crossed into the threshold of a wider regional conflict."
+        },
+        {
+          "panelist": "Robert Bryce (simulated)",
+          "verdict": "correct",
+          "weight": 1.25,
+          "reasoning": "By late 2026, there is no evidence of Hezbollah escalating the conflict into a broader Middle Eastern war. Both Iran and Hezbollah have continued to avoid actions that could trigger wider regional hostilities, consistent with the prediction."
+        },
+        {
+          "panelist": "Rick Rule (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no evidence that Hezbollah has escalated the conflict into a broader Middle Eastern war. The prediction remains valid as the anticipated escalation has not occurred."
+        }
+      ]
     },
     {
       "id": "pred_20261001224607_e1f1583b5215",
@@ -30436,7 +30740,26 @@
       "created_at": "2026-10-01T22:46:07",
       "measurement_type": "quantitative",
       "t_seconds": 433,
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Stuart Varney (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The target date for the Iron Beam system to become operational is still in the future (2025), and as of late 2026, it has not yet been deployed. There is no publicly available information confirming whether it has been successfully fielded or is on track to meet the stated performance metrics."
+        },
+        {
+          "panelist": "David Roberts (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction's target date (next year from 2024, i.e., 2025) has passed, but there is no publicly available, verifiable evidence confirming whether Iron Beam became operational or achieved the stated 95% interception rate. Without definitive confirmation or denial, the claim remains unclear."
+        },
+        {
+          "panelist": "Angus King (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The target date for the Iron Beam system to become operational is still in the future (2027), and as of late 2026, there is no publicly available confirmation of its operational status or performance metrics. Without definitive evidence of progress or failure, the prediction cannot be judged at this"
+        }
+      ]
     },
     {
       "id": "pred_20261001224619_bcf5826ff71f",
@@ -30451,7 +30774,26 @@
       "measurement_type": "subjective",
       "deep_qa": "OWNS",
       "t_seconds": 391,
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Malcolm Davis (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The 2024 U.S. presidential race has not yet occurred by late 2026, and there is no available information on the race's closeness or key states/districts at this point in time."
+        },
+        {
+          "panelist": "Mark P. Mills (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The 2024 U.S. presidential race has not yet occurred as of late 2026, and there is no available information on the race's closeness or the role of key states or districts at this point in time."
+        },
+        {
+          "panelist": "Robert Peters (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The 2024 U.S. presidential race has not yet occurred as of late 2026, and there is no available information on its actual outcome or trajectory to determine if the prediction is correct or incorrect."
+        }
+      ]
     },
     {
       "id": "pred_20261001224629_b90fd34875c6",
@@ -30461,12 +30803,31 @@
       "claim": "Ukraine will be able to hold Kursk region against Russian forces for only a few weeks before being forced out.",
       "source_url": "https://www.youtube.com/watch?v=BnOELrJYGxo",
       "transcript_excerpt": "can the ukrainians hold uh kers from the Russians hard to imagine that I expect that within the coming weeks they'll be forced out of that territory by the Russians",
-      "verdict": null,
+      "verdict": "wrong",
       "created_at": "2026-10-01T22:46:29",
       "measurement_type": "quantitative",
       "deep_qa": "OWNS",
       "t_seconds": 202,
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Jamison Greer (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.0,
+          "reasoning": "By late 2026, there is clear evidence that Ukrainian forces have maintained control of the Kursk region for significantly longer than a few weeks, indicating the prediction has been proven incorrect."
+        },
+        {
+          "panelist": "Phil Flynn (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.0,
+          "reasoning": "By late 2026, available evidence indicates that Ukrainian forces have maintained a significant presence in the Kursk region for much longer than a few weeks, contradicting the prediction that they would be forced out within that timeframe."
+        },
+        {
+          "panelist": "Monica de Bolle (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.0,
+          "reasoning": "By late 2026, it is clear that Ukrainian forces have not only held the Kursk region but have also established a stable defensive presence, contradicting the prediction that they would be forced out within a few weeks."
+        }
+      ]
     },
     {
       "id": "pred_20261001224629_d6c268571b46",
@@ -30476,11 +30837,30 @@
       "claim": "The conflict will likely freeze or cease through negotiations in the near future, regardless of the outcome of the U.S. presidential election in 2024.",
       "source_url": "https://www.youtube.com/watch?v=BnOELrJYGxo",
       "transcript_excerpt": "Whether Harris or Trump win the election in November, I think we are moving towards a similar outcome. In other words, both of these leaders would like to see an end to the fighting. Both of them would like to see a ceasefire.",
-      "verdict": null,
+      "verdict": "wrong",
       "created_at": "2026-10-01T22:46:29",
       "measurement_type": "subjective",
       "t_seconds": 402,
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "John Lee (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.0,
+          "reasoning": "By late 2026, available evidence indicates that the conflict has not frozen or ceased through negotiations. Efforts at a ceasefire have stalled, and hostilities have continued without a clear path to resolution."
+        },
+        {
+          "panelist": "C. Raja Mohan (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.25,
+          "reasoning": "By late 2026, there is clear evidence that the conflict has not frozen or ceased through negotiations. Despite both U.S. presidential candidates expressing support for a ceasefire, the fighting has continued without a significant or lasting diplomatic resolution."
+        },
+        {
+          "panelist": "Mark Nelson (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, there is no clear evidence that the conflict has frozen or ceased through negotiations, nor is there definitive information to suggest it is clearly on track or off track to do so by the implied near-future timeline. The prediction's status remains undetermined."
+        }
+      ]
     },
     {
       "id": "pred_20261001224636_9128f43c0b10",
@@ -30505,12 +30885,31 @@
       "claim": "The assassination of Ismail Haniyeh could lead to expanded terrorism and radicalism across the Palestinian region, including Gaza, West Bank, and Jordan.",
       "source_url": "https://www.youtube.com/watch?v=v-3do4toa4o",
       "transcript_excerpt": "the desire of average Palestinians to avenge uh this strike is going up Palestinians not just in Gaza but also in the West Bank and refugees in Jordan and more broadly across the region so likelihood that we see expanded terrorism expanded radicalism on the back of this uh is also going up",
-      "verdict": null,
+      "verdict": "correct",
       "created_at": "2026-10-01T22:46:46",
       "measurement_type": "subjective",
       "deep_qa": "OWNS",
       "t_seconds": 266,
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Peter Diamandis (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public information to definitively assess whether the assassination of Ismail Haniyeh has led to expanded terrorism and radicalism across the Palestinian region, including Gaza, West Bank, and Jordan."
+        },
+        {
+          "panelist": "David Roberts (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "By late 2026, there is clear evidence of increased terrorist activities and radicalization across Palestinian regions, including Gaza, the West Bank, and Jordan, directly linked to the rising desire for vengeance following Ismail Haniyeh's assassination."
+        },
+        {
+          "panelist": "Dario Amodei (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "By late 2026, there is clear evidence of increased terrorism and radicalization across Palestinian regions, including Gaza, the West Bank, and Jordan, following the assassination of Ismail Haniyeh."
+        }
+      ]
     },
     {
       "id": "pred_20261001224746_f75989102986",
@@ -30520,10 +30919,29 @@
       "claim": "The 2024 U.S. presidential election will be highly competitive and may result in significant Democratic gains in Congress.",
       "source_url": "https://www.youtube.com/watch?v=MUzstE0VXiQ",
       "transcript_excerpt": "I do believe that over the next month, the Democrats will not just dominate headlines, and they've done that a lot with Biden's unfitness, but also have energy and enthusiasm, and that they have not have and they haven't had for a very long time. That is certainly an advantage for them.",
-      "verdict": null,
+      "verdict": "wrong",
       "created_at": "2026-10-01T22:47:46",
       "measurement_type": "subjective",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "John Ratcliffe (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.0,
+          "reasoning": "The prediction was about the 2024 U.S. presidential election, which has already occurred. Available historical records confirm that the election was not marked by significant Democratic gains in Congress, and the race was not as competitive as predicted."
+        },
+        {
+          "panelist": "Rick Rule (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.0,
+          "reasoning": "The 2024 U.S. presidential election has already occurred, and the prediction that it would result in significant Democratic gains in Congress did not come to pass. The outcome showed Republican gains in the House and a tight Senate race, contradicting the prediction."
+        },
+        {
+          "panelist": "Marco Rubio (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.0,
+          "reasoning": "The 2024 U.S. presidential election has already occurred, and the prediction of significant Democratic gains in Congress did not materialize; Republican candidates retained or expanded their congressional majorities."
+        }
+      ]
     },
     {
       "id": "pred_20261001224800_94131ccfaf45",
@@ -30537,7 +30955,26 @@
       "created_at": "2026-10-01T22:48:00",
       "measurement_type": "subjective",
       "t_seconds": 100,
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Peter St Onge (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction's target date is still in the future, and there is no definitive evidence from late 2026 to determine whether the U.S. has or has not come together in unity following the event."
+        },
+        {
+          "panelist": "John Lee (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction's target date is still in the future, and there is no definitive evidence from late 2026 to determine whether the U.S. will or will not come together in unity by the original prediction date."
+        },
+        {
+          "panelist": "Elon Musk (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction's target date is still in the future, and there is no conclusive evidence from late 2026 about whether the U.S. has come together in unity or remains deeply divided as of the original prediction's timeline."
+        }
+      ]
     },
     {
       "id": "pred_20261001224800_66d0fbeae222",
@@ -30551,7 +30988,26 @@
       "created_at": "2026-10-01T22:48:00",
       "measurement_type": "subjective",
       "t_seconds": 359,
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Aaron David Miller (simulated)",
+          "verdict": "correct",
+          "weight": 1.25,
+          "reasoning": "By late 2026, there is clear evidence that the rhetoric around the 2024 election contributed to heightened polarization, with multiple instances of political violence being justified or sympathized with by a significant portion of Americans, as reflected in public opinion surveys and media analysis."
+        },
+        {
+          "panelist": "Rick Rule (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient evidence to determine whether the rhetoric surrounding the 2024 election definitively led to increased polarization or justified political violence in the eyes of a significant portion of Americans. The prediction's full implications may still unfold beyond thi"
+        },
+        {
+          "panelist": "Scott Bessent (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient evidence to determine whether the 2024 election rhetoric directly led to increased polarization justifying political violence. The prediction's target period has passed, but the causal link and its measurable impact remain unclear without definitive data or ana"
+        }
+      ]
     },
     {
       "id": "pred_20261001224811_610ac3cc0bfc",
@@ -30565,7 +31021,26 @@
       "created_at": "2026-10-01T22:48:11",
       "measurement_type": "subjective",
       "deep_qa": "OWNS",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Viktoriya M Finance (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no definitive evidence that the United States has experienced a significant increase in political violence and social instability directly attributable to the current polarized environment and erosion of democratic institutions. The trajectory remains unclear without more c"
+        },
+        {
+          "panelist": "Jake Sullivan (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no definitive evidence that the United States has experienced a clear and measurable increase in political violence and social instability directly attributable to the current polarized environment and erosion of democratic institutions. The trajectory remains uncertain wit"
+        },
+        {
+          "panelist": "Jensen Huang (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there are signs of continued political polarization and some erosion of democratic norms, but it is not yet clear whether these trends have definitively led to significantly increased political violence and social instability as predicted."
+        }
+      ]
     },
     {
       "id": "pred_20261001224811_6d46ca2486fb",
@@ -30625,7 +31100,26 @@
       ],
       "stated_count": 2,
       "t_seconds": 548,
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Helima Croft (simulated)",
+          "verdict": "unclear",
+          "weight": 1.5,
+          "reasoning": "The prediction was made in July 2024 and pertains to an electoral scenario that could unfold in the future. As of late 2026, there is no definitive evidence that Kamala Harris replaced Biden or that the election outcome is clearly on track or off track, and the ultimate target date (presumably 2028)"
+        },
+        {
+          "panelist": "Monica de Bolle (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction was made in 2024 about Kamala Harris's likelihood to replace Biden and her capability to win an election. As of late 2026, there is no publicly available evidence that Biden has been replaced or that a relevant election has occurred, and no clear trajectory can be assessed without fur"
+        },
+        {
+          "panelist": "H.R. McMaster (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction's target date is not yet in the past, and there is no available evidence from late 2026 regarding whether Kamala Harris replaced Biden or whether she was at least as capable of winning the election as he was."
+        }
+      ]
     },
     {
       "id": "pred_20261001224955_de2b116b3b38",
@@ -30688,7 +31182,7 @@
       "marty_note": "MartyPredicts: Wrong",
       "marty_at": "2026-10-06",
       "mc_status": "done",
-      "miro_status": "queued",
+      "miro_status": "error",
       "mc_result": "RIGHT (100% of 20 decided, 17 unclear)",
       "mc_split": 0
     },

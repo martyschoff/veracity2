@@ -508,8 +508,10 @@
             var colors = JSON.parse(document.getElementById('cat-colors').textContent);
             var preds = data[name] || [];
             // Apply current filters
+            var gy = getGridYear();
             var filtered = preds.filter(function(p) {
                 if (!dateOK(p.date)) return false;  // time-range setting
+                if (!(gy === 'all' || (p.date || '').slice(0, 4) === gy)) return false;  // year switcher
                 // If verdictFilter is set, only show that verdict
                 if (verdictFilter) {
                     return p.verdict === verdictFilter;

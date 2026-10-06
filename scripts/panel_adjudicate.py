@@ -100,7 +100,7 @@ def main():
             prompt = PROMPT.format(name=name, role=ROLES.get(w, 'energy specialist'),
                                    weight=w, date=p.get('date', ''), claim=p['claim'][:600],
                                    excerpt=(p.get('transcript_excerpt') or '')[:800])
-            res = ask(POOL[port_i % 4], prompt)
+            res = ask(POOL[port_i % len(POOL)], prompt)
             port_i += 1
             if res is None:  # escalate to nimo
                 res = ask(NIMO, prompt)

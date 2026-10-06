@@ -148,3 +148,75 @@ ValueError: No embedding data received
 
 2026-10-06 18:10:47 pred_20261001184750_ffead3b69bde FAILED
 2026-10-06 18:10:47 adjudicating pred_20261001225017_fdadca3d67b3: A diplomatic agreement is unlikely in the near term, and the conflict 
+2026-10-06 18:12:54 runner exit 1: sed = self._options.post_parser(parsed)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\schof\veracity-panel\backend\.venv\Lib\site-packages\openai\resources\embeddings.py", line 235, in parser
+    raise ValueError("No embedding data received")
+ValueError: No embedding data received
+
+2026-10-06 18:12:54 pred_20261001225017_fdadca3d67b3 FAILED
+2026-10-06 18:12:54 adjudicating pred_1790961078_51: Gold could reach around 8,000 per ounce by late 2027 or 2028
+2026-10-06 18:15:13 runner exit 1: sed = self._options.post_parser(parsed)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\schof\veracity-panel\backend\.venv\Lib\site-packages\openai\resources\embeddings.py", line 235, in parser
+    raise ValueError("No embedding data received")
+ValueError: No embedding data received
+
+2026-10-06 18:15:13 pred_1790961078_51 FAILED
+2026-10-06 18:16:13 adjudicating pred_1790961078_51: Gold could reach around 8,000 per ounce by late 2027 or 2028
+2026-10-06 18:18:30 runner exit 1: sed = self._options.post_parser(parsed)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\schof\veracity-panel\backend\.venv\Lib\site-packages\openai\resources\embeddings.py", line 235, in parser
+    raise ValueError("No embedding data received")
+ValueError: No embedding data received
+
+2026-10-06 18:18:30 pred_1790961078_51 FAILED
+2026-10-06 18:19:30 adjudicating pred_1790961078_51: Gold could reach around 8,000 per ounce by late 2027 or 2028
+2026-10-06 18:21:44 runner exit 1: sed = self._options.post_parser(parsed)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\schof\veracity-panel\backend\.venv\Lib\site-packages\openai\resources\embeddings.py", line 235, in parser
+    raise ValueError("No embedding data received")
+ValueError: No embedding data received
+
+2026-10-06 18:21:44 pred_1790961078_51 FAILED
+2026-10-06 18:22:45 adjudicating pred_1790961078_51: Gold could reach around 8,000 per ounce by late 2027 or 2028
+2026-10-06 18:25:07 runner exit 1: sed = self._options.post_parser(parsed)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\schof\veracity-panel\backend\.venv\Lib\site-packages\openai\resources\embeddings.py", line 235, in parser
+    raise ValueError("No embedding data received")
+ValueError: No embedding data received
+
+2026-10-06 18:25:07 pred_1790961078_51 FAILED
+2026-10-06 18:26:07 adjudicating pred_1790961078_51: Gold could reach around 8,000 per ounce by late 2027 or 2028
+2026-10-06 18:28:24 runner exit 1: sed = self._options.post_parser(parsed)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\schof\veracity-panel\backend\.venv\Lib\site-packages\openai\resources\embeddings.py", line 235, in parser
+    raise ValueError("No embedding data received")
+ValueError: No embedding data received
+
+2026-10-06 18:28:24 pred_1790961078_51 FAILED
+2026-10-06 18:29:24 adjudicating pred_1790961078_51: Gold could reach around 8,000 per ounce by late 2027 or 2028
+2026-10-06 18:31:38 runner exit 1: sed = self._options.post_parser(parsed)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\schof\veracity-panel\backend\.venv\Lib\site-packages\openai\resources\embeddings.py", line 235, in parser
+    raise ValueError("No embedding data received")
+ValueError: No embedding data received
+
+2026-10-06 18:31:38 pred_1790961078_51 FAILED
+2026-10-06 18:32:38 adjudicating pred_1790961078_51: Gold could reach around 8,000 per ounce by late 2027 or 2028
+2026-10-06 18:34:52 runner exit 1: sed = self._options.post_parser(parsed)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\schof\veracity-panel\backend\.venv\Lib\site-packages\openai\resources\embeddings.py", line 235, in parser
+    raise ValueError("No embedding data received")
+ValueError: No embedding data received
+
+2026-10-06 18:34:52 pred_1790961078_51 FAILED
+2026-10-06 18:35:52 adjudicating pred_1790961078_51: Gold could reach around 8,000 per ounce by late 2027 or 2028
+2026-10-06 18:38:07 runner exit 1: sed = self._options.post_parser(parsed)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\schof\veracity-panel\backend\.venv\Lib\site-packages\openai\resources\embeddings.py", line 235, in parser
+    raise ValueError("No embedding data received")
+ValueError: No embedding data received
+
+2026-10-06 18:38:07 pred_1790961078_51 FAILED
+2026-10-06 18:39:07 adjudicating pred_1790961078_51: Gold could reach around 8,000 per ounce by late 2027 or 2028
