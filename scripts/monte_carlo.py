@@ -64,10 +64,13 @@ def build_personas(n: int) -> list:
 def persona_vote(persona: str, claim: str, made_date: str) -> dict | None:
     system = (
         f"You are {persona}, asked to assess a prediction made on {made_date}. "
-        "Judge it as of today: has it come true, is it on track, or will it fail? "
+        "Judge it as of today. IMPORTANT: if the prediction's target date is still in the future, "
+        "it has NOT failed merely because it has not happened yet - answer 'yes' if current evidence "
+        "shows it is on track, 'unclear' if there is not enough evidence either way, and 'no' only if "
+        "there is positive evidence it failed or its deadline has passed unmet. "
         "Answer ONLY JSON: {\"verdict\": \"yes\"|\"no\"|\"unclear\", \"confidence\": 0-100, "
-        "\"reason\": \"max 20 words\"}. 'yes' = the prediction happened or is on track to happen. "
-        "'no' = it failed or will not happen. 'unclear' = genuinely undeterminable."
+        "\"reason\": \"max 20 words\"}. 'yes' = happened or on track. "
+        "'no' = failed or will not happen. 'unclear' = undeterminable."
     )
     ep = SWARM_ENDPOINTS[hash(persona) % len(SWARM_ENDPOINTS)]
     raw = call_llm(system, f"Prediction: {claim}", max_tokens=300, endpoints=[ep])
