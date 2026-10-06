@@ -1313,30 +1313,6 @@
       "weight_objective": 1.0
     },
     {
-      "name": "Trey Yingst",
-      "handle": "tyingst",
-      "sources": [
-        "https://www.foxbusiness.com/person/t/trey-yingst"
-      ],
-      "categories": [
-        "geopolitics"
-      ],
-      "weight_subjective": 1.0,
-      "weight_objective": 1.0
-    },
-    {
-      "name": "Bret Baier",
-      "handle": "bbaier",
-      "sources": [
-        "https://www.foxbusiness.com/person/b/bret-baier"
-      ],
-      "categories": [
-        "geopolitics"
-      ],
-      "weight_subjective": 1.0,
-      "weight_objective": 1.0
-    },
-    {
       "name": "Gordon Chang",
       "handle": "gchang",
       "sources": [
@@ -1361,42 +1337,6 @@
       "weight_objective": 1.0
     },
     {
-      "name": "Benjamin Hall",
-      "handle": "bhall",
-      "sources": [
-        "https://www.foxnews.com/person/b/benjamin-hall"
-      ],
-      "categories": [
-        "geopolitics"
-      ],
-      "weight_subjective": 1.0,
-      "weight_objective": 1.0
-    },
-    {
-      "name": "Richard Engel",
-      "handle": "rengel",
-      "sources": [
-        "https://www.nbcnews.com/richard-engel"
-      ],
-      "categories": [
-        "geopolitics"
-      ],
-      "weight_subjective": 1.0,
-      "weight_objective": 1.0
-    },
-    {
-      "name": "Andrea Mitchell",
-      "handle": "amitchell",
-      "sources": [
-        "https://www.nbcnews.com/andrea-mitchell"
-      ],
-      "categories": [
-        "geopolitics"
-      ],
-      "weight_subjective": 1.0,
-      "weight_objective": 1.0
-    },
-    {
       "name": "Lyse Doucet",
       "handle": "ldoucet",
       "sources": [
@@ -1413,18 +1353,6 @@
       "handle": "sgorka",
       "sources": [
         "https://americafirst.sebastiangorka.com/"
-      ],
-      "categories": [
-        "geopolitics"
-      ],
-      "weight_subjective": 1.0,
-      "weight_objective": 1.0
-    },
-    {
-      "name": "John Sopel",
-      "handle": "jsopel",
-      "sources": [
-        "https://www.bbc.com/john-sopel"
       ],
       "categories": [
         "geopolitics"
@@ -1665,6 +1593,150 @@
       "handle": "remanuel",
       "sources": [
         "https://en.wikipedia.org/wiki/Rahm_Emanuel"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Brian Winter",
+      "handle": "bwinter",
+      "sources": [
+        "https://www.americasquarterly.org/"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Monica de Bolle",
+      "handle": "mdebolle",
+      "sources": [
+        "https://www.piie.com/experts/monica-de-bolle"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Shannon O'Neil",
+      "handle": "soneil",
+      "sources": [
+        "https://www.cfr.org/expert/shannon-oneil"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Jakkie Cilliers",
+      "handle": "jcilliers",
+      "sources": [
+        "https://issafrica.org/about-us/issa-staff/jakkie-cilliers"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Comfort Ero",
+      "handle": "cero",
+      "sources": [
+        "https://www.crisisgroup.org/about/people/comfort-ero"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Vali Nasr",
+      "handle": "vnasr",
+      "sources": [
+        "https://sais.jhu.edu/faculty/vali-nasr"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Aaron David Miller",
+      "handle": "admiller",
+      "sources": [
+        "https://carnegieendowment.org/experts/14"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "C. Raja Mohan",
+      "handle": "cmohan",
+      "sources": [
+        "https://orfonline.org/"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Brahma Chellaney",
+      "handle": "bchellaney",
+      "sources": [
+        "https://chellaney.net/"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Ivan Krastev",
+      "handle": "ikrastev",
+      "sources": [
+        "https://www.cls-sofia.org/"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Constanze Stelzenmuller",
+      "handle": "cstelzenmuller",
+      "sources": [
+        "https://www.brookings.edu/people/constanze-stelzenmuller/"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
+    },
+    {
+      "name": "Philip Tetlock",
+      "handle": "ptetlock",
+      "sources": [
+        "https://www.goodjudgment.com/"
       ],
       "categories": [
         "geopolitics"
@@ -4871,8 +4943,8 @@
       "marty_agrees": true,
       "marty_note": "MartyPredicts: Right (graded in app during downtime; re-applied by agent)",
       "marty_at": "2026-10-06",
-      "mc_status": "done",
-      "mc_result": "WRONG (0% of 9 decided, 0 unclear)",
+      "mc_status": "queued",
+      "mc_result": null,
       "mc_split": 0
     },
     {

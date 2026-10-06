@@ -20,10 +20,13 @@ from src.pipeline import PRODUCER_ENDPOINTS, call_llm, load_data, save_data
 # Swarm vote endpoints: nimo128 + 3080 box 7B (parallel workers)
 SWARM_ENDPOINTS = [
     *PRODUCER_ENDPOINTS,
-    {"url": "http://100.124.236.23:11435/v1", "key": None, "model": "qwen3:8b"},
-    {"url": "http://100.124.236.23:11436/v1", "key": None, "model": "qwen3:8b"},
-    {"url": "http://100.124.236.23:11437/v1", "key": None, "model": "qwen3:8b"},
-    {"url": "http://100.124.236.23:11438/v1", "key": None, "model": "qwen3:8b"},
+    # 3080 pool parked at user request (2026-10-06); re-enable when cleared.
+    # NOTE: call_llm posts to ep['url'] verbatim - pool entries must use the FULL
+    # path http://100.124.236.23:1143N/v1/chat/completions (the /v1-only form 404s).
+    # {"url": "http://100.124.236.23:11435/v1", "key": None, "model": "qwen3:8b"},
+    # {"url": "http://100.124.236.23:11436/v1", "key": None, "model": "qwen3:8b"},
+    # {"url": "http://100.124.236.23:11437/v1", "key": None, "model": "qwen3:8b"},
+    # {"url": "http://100.124.236.23:11438/v1", "key": None, "model": "qwen3:8b"},
 ]
 
 N_DEFAULT = 40
