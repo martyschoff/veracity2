@@ -30,7 +30,7 @@ for p in panelists:
         pbc.setdefault(cat, []).append(p['name'])
 
 tns = set(TRACKED_NAMES)
-outstanding = [p for p in predictions if p.get('individual_name') in tns and p.get('verdict') is None]
+outstanding = [p for p in predictions if p.get('individual_name') in tns and p.get('verdict') is None and not p.get('gate_status')]
 outstanding.sort(key=lambda p: p.get('date', ''), reverse=True)
 
 # ALL predictions per person for the grid (JS handles top-5 + filtering)
