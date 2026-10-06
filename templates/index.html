@@ -319,7 +319,7 @@
                     <select id="range-select" onchange="setRange(this.value)" style="background:var(--card-bg);color:var(--foreground);border:1px solid var(--border);border-radius:6px;padding:2px 6px;">
                         <option value="3">3 years</option>
                         <option value="5">5 years</option>
-                        <option value="10">10 years</option>
+                        <option value="10" selected>10 years</option>
                     </select>
                 </label>
             </div>
@@ -375,7 +375,7 @@
                     <div class="pred-date">{{ row.date }}{% if row.stated_count and row.stated_count > 1 %} <span class="chip-x">×{{ row.stated_count }}</span>{% endif %}</div>
                     <a class="pred-claim" href="{{ row.source_url }}" target="_blank" rel="noopener">{{ row.claim | condense }} ↗</a>
                     <div>
-                        <div class="verdict-box" {% if not row.verdict and row.judgements %}style="color:#f59e0b"{% endif %}>Panel Judgement: {{ row.verdict | upper if row.verdict else ('ALMOST' if row.judgements else 'TBD') }}</div>
+                        <div class="verdict-box" {% if row.verdict == 'correct' %}style="background:rgba(34,197,94,0.18);color:#22c55e;border:1px solid rgba(34,197,94,0.5);"{% elif not row.verdict and row.judgements %}style="color:#f59e0b"{% endif %}>Panel Judgement: {{ row.verdict | upper if row.verdict else ('ALMOST' if row.judgements else 'TBD') }}</div>
                         {% if row.marty_agrees is defined and row.marty_agrees is not none %}
                         <div class="marty-badge {{ 'marty-agrees' if row.marty_agrees else 'marty-disagrees' }}">{{ row.marty_note if row.marty_note else ('MartyPredicts: Right' if row.marty_agrees else 'MartyPredicts: Wrong') }}</div>
                         {% endif %}
@@ -524,6 +524,7 @@
                 if (!verdict && hasVotes) verdict = 'ALMOST';
                 if (!verdict) verdict = 'TBD';
                 var verdictColor = verdict === 'correct' ? '#22c55e' : verdict === 'wrong' ? '#ef4444' : verdict === 'ALMOST' ? '#f59e0b' : 'var(--text-muted)';
+                var verdictBoxStyle = verdict === 'correct' ? 'background:rgba(34,197,94,0.18);border:1px solid rgba(34,197,94,0.5);' : '';
                 var martyr = '';
                 if (p.marty_agrees === true) martyr = '<div class="marty-badge marty-agrees">' + (p.marty_note || 'MartyPredicts: Right') + '</div>';
                 else if (p.marty_agrees === false) martyr = '<div class="marty-badge marty-disagrees">' + (p.marty_note || 'MartyPredicts: Wrong') + '</div>';
@@ -552,7 +553,7 @@
                     + (tsChip(p) ? '<span class="ts-chip">▶ ' + tsChip(p) + '</span>' : '')
                     + '<a class="dc-claim" href="' + deepLink(p) + '" target="_blank" rel="noopener" style="color:#f97316;text-decoration:none;cursor:pointer;">' + condense(p.claim || '') + ' ↗</a>'
                     + '<span class="dc-cat" style="background:' + color + '">' + cat + '</span>'
-                    + '<div><div class="verdict-box" style="color:' + verdictColor + '">Panel Judgement: ' + verdict.toUpperCase() + '</div>' + martyr + '</div>'
+                    + '<div><div class="verdict-box" style="color:' + verdictColor + ';' + (verdictBoxStyle || '') + '">Panel Judgement: ' + verdict.toUpperCase() + '</div>' + martyr + '</div>'
                     + critHtml
                     + occHtml
                     + qaControls
@@ -561,7 +562,7 @@
             document.getElementById('detail-overlay').classList.add('open');
         }
         var showImplicit = localStorage.getItem('showImplicit') === '1';
-        function getRangeYears() { return parseInt(localStorage.getItem('timeRange') || '3', 10); }
+        function getRangeYears() { return parseInt(localStorage.getItem('timeRange') || '10', 10); }
         function setRange(v) { localStorage.setItem('timeRange', v); location.reload(); }
         function dateCutoff() {
             var d = new Date(); d.setFullYear(d.getFullYear() - getRangeYears());

@@ -139,7 +139,7 @@ async def index(request: Request):
         person_preds = [p for p in outstanding if p.get("individual_name") == name]
         for p in person_preds:
             p["source_url"] = _deeplink(p)
-        rows_by_person[name] = person_preds[:5]
+        rows_by_person[name] = person_preds  # QA workbench: show ALL, no top-5 cap
         all_person = [p for p in predictions if p.get("individual_name") == name]
         all_person.sort(key=lambda p: p.get("date", ""))  # oldest first
         for p in all_person:
