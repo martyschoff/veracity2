@@ -16904,7 +16904,27 @@
       "created_at": "2026-10-01T20:20:53",
       "measurement_type": "subjective",
       "deep_qa": "OWNS",
-      "t_seconds": 237
+      "t_seconds": 237,
+      "judgements": [
+        {
+          "panelist": "Tanvir Gill (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient data to conclusively determine if New Zealand's dairy industry has grown at rates uniquely unattainable elsewhere, given the prediction was made in 2025 and long-term growth trends require more time to validate."
+        },
+        {
+          "panelist": "Rebeccah Heinrichs (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient data to conclusively determine if New Zealand's dairy industry has grown at rates uniquely unattainable elsewhere, given the prediction was made in early 2025 and global market dynamics can change rapidly."
+        },
+        {
+          "panelist": "Google Fact Check Explorer (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient global data to conclusively determine if New Zealand's dairy industry is growing at rates uniquely unattainable elsewhere, due to ongoing regional economic, environmental, and market dynamics."
+        }
+      ]
     },
     {
       "id": "pred_20261001202053_ea9adeb70862",
@@ -16917,7 +16937,27 @@
       "verdict": null,
       "created_at": "2026-10-01T20:20:53",
       "measurement_type": "subjective",
-      "t_seconds": 256
+      "t_seconds": 256,
+      "judgements": [
+        {
+          "panelist": "Anders Puck Nielsen (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, there is no conclusive evidence that China has dissolved as a functional economic entity. The demographic situation remains a significant concern, but its impact on the country's economic and political stability is still evolving and not yet definitive."
+        },
+        {
+          "panelist": "Doomberg (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, there is no conclusive evidence that China has dissolved as a functional economic entity. While demographic challenges persist, the country remains a major global economic power, and the prediction's extreme outcome has not been realized."
+        },
+        {
+          "panelist": "Matthew Kroenig (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no conclusive evidence that China has dissolved as a functional economic entity. While demographic challenges persist, the country remains a major global economic power, and the prediction's extreme outcome has not been realized."
+        }
+      ]
     },
     {
       "id": "pred_20261001202101_84a213b2752e",
@@ -16960,7 +17000,27 @@
       "created_at": "2026-10-01T20:22:34",
       "measurement_type": "quantitative",
       "deep_qa": "KEEP-REVISED",
-      "t_seconds": 41
+      "t_seconds": 41,
+      "judgements": [
+        {
+          "panelist": "Ylan Mui (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no confirmed evidence that Alberta and Saskatchewan have seceded from Canada or applied for U.S. statehood. The prediction remains unverified and subject to further developments."
+        },
+        {
+          "panelist": "Kevin Hassett (White House) (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no confirmed evidence that Alberta and Saskatchewan have seceded from Canada or applied for U.S. statehood. The prediction remains unverified and subject to further developments."
+        },
+        {
+          "panelist": "Emad Mostaque (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no confirmed evidence that Alberta and Saskatchewan have seceded from Canada or applied for U.S. statehood. The prediction remains unverified and subject to further developments."
+        }
+      ]
     },
     {
       "id": "pred_20261001202234_47eca012cf80",
@@ -16973,7 +17033,27 @@
       "verdict": null,
       "created_at": "2026-10-01T20:22:34",
       "measurement_type": "subjective",
-      "t_seconds": 371
+      "t_seconds": 371,
+      "judgements": [
+        {
+          "panelist": "Angus King (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction's outcome depends on future political and economic developments that have not yet materialized by late 2026, making it not yet decidable."
+        },
+        {
+          "panelist": "Jakkie Cilliers (simulated)",
+          "verdict": "unclear",
+          "weight": 1.5,
+          "reasoning": "The prediction's outcome depends on future political and economic developments that have not yet occurred by late 2026, making it premature to determine its accuracy."
+        },
+        {
+          "panelist": "Dario Amodei (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no evidence that Alberta and Saskatchewan have joined the U.S., making the prediction's outcome indeterminate. The political and economic implications discussed remain speculative without actual events to confirm or refute them."
+        }
+      ]
     },
     {
       "id": "pred_20261001202254_57e654f3e5b1",
@@ -16983,11 +17063,31 @@
       "claim": "Once the US and other countries start utilizing their existing rare earth processing capacity, the problem of rare earth supply will be solved in 6 months to a year.",
       "source_url": "https://www.youtube.com/watch?v=WzAgmP1KIk4",
       "transcript_excerpt": "once that happens all of this spare refining capacity around the world will spring up and the problem we solved in 6 months to a year",
-      "verdict": null,
+      "verdict": "wrong",
       "created_at": "2026-10-01T20:22:54",
       "measurement_type": "quantitative",
       "deep_qa": "OWNS",
-      "t_seconds": 256
+      "t_seconds": 256,
+      "judgements": [
+        {
+          "panelist": "Comfort Ero (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, it is not definitively clear whether the global rare earth supply issue has been resolved within 6 months to a year due to the utilization of existing processing capacity. The timeline and extent of capacity utilization remain subject to ongoing developments and data."
+        },
+        {
+          "panelist": "Robert Rapier (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, the rare earth supply issue has not been resolved within 6 months to a year, despite the expectation that existing processing capacity would address the problem quickly."
+        },
+        {
+          "panelist": "Grady Hillhouse (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, the rare earth supply issue has not been resolved within 6 months to a year, despite the existence of spare refining capacity."
+        }
+      ]
     },
     {
       "id": "pred_20261001202254_a995070d8e43",
@@ -17000,7 +17100,27 @@
       "verdict": null,
       "created_at": "2026-10-01T20:22:54",
       "measurement_type": "subjective",
-      "t_seconds": 252
+      "t_seconds": 252,
+      "judgements": [
+        {
+          "panelist": "Jensen Huang (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to conclusively determine if the Chinese rare earth processing industry has been disrupted or broken, or if global supply dynamics have shifted significantly enough to cause inflationary pressures."
+        },
+        {
+          "panelist": "Jake Sullivan (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to conclusively determine if the Chinese rare earth processing industry has been disrupted or broken, or if this has led to significant shifts in global supply dynamics and inflationary pressures."
+        },
+        {
+          "panelist": "Dave Blundin (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to conclusively determine if the Chinese rare earth processing industry has been disrupted or broken, or if this has led to significant global supply shifts and inflationary pressures."
+        }
+      ]
     },
     {
       "id": "pred_20261001202308_ef7b97df1258",
@@ -17014,7 +17134,27 @@
       "created_at": "2026-10-01T20:23:08",
       "measurement_type": "quantitative",
       "deep_qa": "OWNS",
-      "t_seconds": 75
+      "t_seconds": 75,
+      "judgements": [
+        {
+          "panelist": "Salim Ismail (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no conclusive evidence to confirm or refute the prediction of China's non-existence by the end of the century or the disappearance of the Han ethnicity. The prediction involves highly speculative claims that lack verifiable data."
+        },
+        {
+          "panelist": "Doomberg (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, there is no conclusive evidence to confirm or refute the prediction of China's collapse or the disappearance of the Han ethnicity by the end of the century. The prediction involves complex, long-term socio-economic and demographic trends that are not yet fully realized."
+        },
+        {
+          "panelist": "Brent Sadler (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no conclusive evidence to confirm or refute the prediction of China's non-existence by the end of the century or the disappearance of the Han ethnicity. The prediction involves highly speculative claims that have not been substantiated by observable outcomes."
+        }
+      ]
     },
     {
       "id": "pred_20261001202308_d257361c8aef",
@@ -17043,7 +17183,27 @@
       "created_at": "2026-10-01T20:23:20",
       "measurement_type": "quantitative",
       "deep_qa": "OWNS",
-      "t_seconds": 17
+      "t_seconds": 17,
+      "judgements": [
+        {
+          "panelist": "Emad Mostaque (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient publicly available data to definitively confirm or refute the exact number of undocumented immigrants or the precise impact of immigration policies on the U.S. ability to prepare for a post-Chinese trade world."
+        },
+        {
+          "panelist": "Jamison Greer (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to definitively confirm or refute the exact number of undocumented immigrants or the precise impact of policies on U.S. preparedness for a post-Chinese trade world."
+        },
+        {
+          "panelist": "Eunice Yoon (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to definitively confirm or refute the exact number of undocumented immigrants or the precise impact of policies on the U.S. ability to prepare for a post-Chinese trade world."
+        }
+      ]
     },
     {
       "id": "pred_20261001202320_956b0a5d181c",
@@ -17057,7 +17217,27 @@
       "created_at": "2026-10-01T20:23:20",
       "measurement_type": "quantitative",
       "deep_qa": "OWNS",
-      "t_seconds": 288
+      "t_seconds": 288,
+      "judgements": [
+        {
+          "panelist": "Pavel Molchanov (simulated)",
+          "verdict": "unclear",
+          "weight": 1.5,
+          "reasoning": "As of late 2026, there is insufficient data to conclusively determine whether illegal migration has increased significantly due to Trump's border policies, as the long-term effects of his policies are still unfolding."
+        },
+        {
+          "panelist": "Robert Bryce (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, there is insufficient data to conclusively determine whether Trump's border policies have significantly increased illegal migration. The long-term impacts of his policies on migration patterns remain subject to ongoing analysis and debate."
+        },
+        {
+          "panelist": "Robert Peters (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient data to conclusively determine if illegal migration has increased significantly due to Trump's border policies, as migration trends are influenced by multiple factors beyond policy changes."
+        }
+      ]
     },
     {
       "id": "pred_20261001202333_352175e28534",
@@ -17070,7 +17250,27 @@
       "verdict": null,
       "created_at": "2026-10-01T20:23:33",
       "measurement_type": "quantitative",
-      "t_seconds": 64
+      "t_seconds": 64,
+      "judgements": [
+        {
+          "panelist": "Jensen Huang (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction's outcome depends on complex economic and political factors that are not yet fully realized by late 2026, making it difficult to definitively assess its accuracy."
+        },
+        {
+          "panelist": "David McAlvany (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction's outcome depends on complex economic and political factors that have not yet fully played out by late 2026, making it difficult to definitively assess its accuracy."
+        },
+        {
+          "panelist": "Jack Gamble (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.0,
+          "reasoning": "Detroit has not collapsed, and Texas has not been significantly impacted by a 100% tariff on Canadian autos by late 2026, indicating the prediction was overly pessimistic and inaccurate."
+        }
+      ]
     },
     {
       "id": "pred_20261001202333_d740e0a15498",
@@ -17098,7 +17298,27 @@
       "verdict": null,
       "created_at": "2026-10-01T20:24:28",
       "measurement_type": "subjective",
-      "t_seconds": 487
+      "t_seconds": 487,
+      "judgements": [
+        {
+          "panelist": "Hugh White (simulated)",
+          "verdict": "correct",
+          "weight": 1.25,
+          "reasoning": "By late 2026, Trump's pressure on Arab states to relocate Palestinians has strained relations, creating an opportunity for Russia and Iran to reestablish influence in the Middle East, aligning with the prediction."
+        },
+        {
+          "panelist": "Ian Bremmer (simulated)",
+          "verdict": "unclear",
+          "weight": 1.5,
+          "reasoning": "As of late 2026, there is insufficient public information to conclusively determine whether Trump's actions have significantly strained relations with Jordan, Egypt, and Saudi Arabia or created a window for Russia and Iran to reestablish influence in the Middle East."
+        },
+        {
+          "panelist": "Niall Ferguson (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction's accuracy depends on whether Trump has indeed pressured Arab states to relocate Palestinians and whether this has created a window for Russia and Iran to reestablish influence, which remains uncertain by late 2026."
+        }
+      ]
     },
     {
       "id": "pred_20261001202428_362914e42fca",
@@ -17125,7 +17345,27 @@
       "verdict": null,
       "created_at": "2026-10-01T20:24:40",
       "measurement_type": "quantitative",
-      "t_seconds": 465
+      "t_seconds": 465,
+      "judgements": [
+        {
+          "panelist": "Dave Blundin (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no conclusive evidence that the United States has lost interest in NATO or that a war has occurred in the plains of Europe between Russia and central European nations."
+        },
+        {
+          "panelist": "Aaron David Miller (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, there is no definitive evidence that the United States has lost interest in NATO or that a war has occurred in the plains of Europe between Russia and central European nations. The situation remains complex and subject to ongoing geopolitical developments."
+        },
+        {
+          "panelist": "Dan Ives (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no conclusive evidence that the United States has lost interest in NATO or that a war has erupted in Europe between Russia and central European nations. The situation remains fluid and subject to geopolitical developments."
+        }
+      ]
     },
     {
       "id": "pred_20261001202440_6e50eb616125",
@@ -17138,7 +17378,27 @@
       "verdict": null,
       "created_at": "2026-10-01T20:24:40",
       "measurement_type": "quantitative",
-      "t_seconds": 528
+      "t_seconds": 528,
+      "judgements": [
+        {
+          "panelist": "Peter St Onge (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no publicly available evidence confirming that Sweden and Finland have nuclearized their weapon systems. The prediction's timeline and specific claims remain unverified."
+        },
+        {
+          "panelist": "John Mearsheimer (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, there is no widely confirmed evidence that Sweden or Finland have nuclearized their weapon systems. The prediction's timeline and specific claims remain unverified, making the outcome indeterminate at this point."
+        },
+        {
+          "panelist": "Mike Wirth (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no evidence that Sweden or Finland have nuclearized their weapon systems, nor has any country in Central Europe followed suit in a short period of time."
+        }
+      ]
     },
     {
       "id": "pred_20261001202500_95a91a0b5640",
@@ -17151,7 +17411,27 @@
       "verdict": null,
       "created_at": "2026-10-01T20:25:00",
       "measurement_type": "quantitative",
-      "t_seconds": 64
+      "t_seconds": 64,
+      "judgements": [
+        {
+          "panelist": "Mark Nelson (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction involves future actions and legal outcomes that cannot be definitively assessed as of late 2026 without concrete evidence of Trump's specific actions and their legal consequences."
+        },
+        {
+          "panelist": "Monica de Bolle (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public information to definitively confirm or refute whether Donald Trump attempted to bypass Congress to restructure the federal bureaucracy through executive orders and faced legal challenges."
+        },
+        {
+          "panelist": "Luke Coffey (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction refers to potential executive actions by Donald Trump, but as of late 2026, there is insufficient public information to definitively confirm or refute whether such actions were taken, challenged, or ruled upon by courts."
+        }
+      ]
     },
     {
       "id": "pred_20261001202500_d6534a2303ce",
@@ -17164,7 +17444,27 @@
       "verdict": null,
       "created_at": "2026-10-01T20:25:00",
       "measurement_type": "subjective",
-      "t_seconds": 320
+      "t_seconds": 320,
+      "judgements": [
+        {
+          "panelist": "David Roberts (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction's validity depends on assessing the relative power of the US president in international affairs versus domestic authority by 2026, which requires evaluating geopolitical dynamics and legal constraints that are not yet conclusively determined."
+        },
+        {
+          "panelist": "David McAlvany (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction's validity depends on assessing the relative power of the US president in international affairs versus domestic authority by 2026, which requires evaluating geopolitical dynamics and legal constraints that remain ambiguous at this time."
+        },
+        {
+          "panelist": "Peter St Onge (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction's validity depends on assessing the relative power of the US president in international affairs versus domestic authority by 2026, which requires evaluating geopolitical developments and legal constraints that are not yet fully observable."
+        }
+      ]
     },
     {
       "id": "pred_20261001202607_2240189d9931",
@@ -17177,7 +17477,27 @@
       "verdict": null,
       "created_at": "2026-10-01T20:26:07",
       "measurement_type": "quantitative",
-      "t_seconds": 59
+      "t_seconds": 59,
+      "judgements": [
+        {
+          "panelist": "Shannon O'Neil (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction's outcome depends on complex economic and political factors that have not yet fully played out by late 2026, making it difficult to definitively assess its accuracy."
+        },
+        {
+          "panelist": "Mike Wirth (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction's outcome depends on complex economic and political factors that have not yet fully played out by late 2026, making it difficult to definitively assess its accuracy."
+        },
+        {
+          "panelist": "Nate Hagens (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, there is insufficient public data to confirm whether a 50-65% tariff on all imports would have caused a dramatic shift in fuel availability. The impact of such a tariff would depend on complex factors including supply chain adjustments, alternative fuel sources, and international tr"
+        }
+      ]
     },
     {
       "id": "pred_20261001202607_c78a0dbcc9b7",
@@ -17219,7 +17539,27 @@
       "created_at": "2026-10-01T20:26:29",
       "measurement_type": "quantitative",
       "deep_qa": "OWNS",
-      "t_seconds": 250
+      "t_seconds": 250,
+      "judgements": [
+        {
+          "panelist": "Simon Michaux (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "While demographic trends in Russia have continued to show challenges, the exact pace of decline and its acceleration due to specific factors like warfare in Ukraine and generational replacement issues remain subject to ongoing data and analysis beyond late 2026."
+        },
+        {
+          "panelist": "Jim Risch (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient data to conclusively determine if the Russian demographic decline has accelerated beyond the initial prediction, given the ongoing conflict and uncertainty surrounding birth rates and population trends."
+        },
+        {
+          "panelist": "Elon Musk (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "While demographic decline in Russia is a well-documented trend, the specific claim about acceleration due to ongoing warfare in Ukraine and generational replacement issues remains subject to evolving data and policy responses, making it not yet decisively proven or disproven by late 2026."
+        }
+      ]
     },
     {
       "id": "pred_20261001202638_4fc03463d566",
@@ -17276,7 +17616,27 @@
       "verdict": null,
       "created_at": "2026-10-01T20:26:49",
       "measurement_type": "subjective",
-      "t_seconds": 341
+      "t_seconds": 341,
+      "judgements": [
+        {
+          "panelist": "Andrew Ross Sorkin (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public information to conclusively determine whether Turkey has shifted its focus from Syria to more core regional interests, given the complexity and evolving nature of regional dynamics."
+        },
+        {
+          "panelist": "Emad Mostaque (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public information to definitively confirm or refute whether Turkey has shifted its focus from Syria to more core regional interests. The geopolitical situation remains complex and subject to ongoing developments."
+        },
+        {
+          "panelist": "Robert Bryce (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, it is not definitively clear whether Turkey has shifted its focus from Syria to more core regional interests, given the ongoing complexities and evolving dynamics in the region."
+        }
+      ]
     },
     {
       "id": "pred_20261001202749_90aa5d32e94f",
@@ -17290,7 +17650,27 @@
       "created_at": "2026-10-01T20:27:49",
       "measurement_type": "quantitative",
       "deep_qa": "OWNS",
-      "t_seconds": 126
+      "t_seconds": 126,
+      "judgements": [
+        {
+          "panelist": "John Kilduff (simulated)",
+          "verdict": "unclear",
+          "weight": 1.5,
+          "reasoning": "As of late 2026, there is insufficient data to conclusively determine if the Chinese workforce has reached a point where it can no longer sustain economic growth, as the prediction hinges on future demographic trends that have not yet fully materialized."
+        },
+        {
+          "panelist": "H.R. McMaster (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction refers to a demographic shift that is already underway, but the full impact on economic growth by the late 2020s and 2030s is not yet fully observable by late 2026."
+        },
+        {
+          "panelist": "Jake Sullivan (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is not yet sufficient data to conclusively determine whether the Chinese workforce can no longer sustain economic growth by the late 2020s. The demographic trends mentioned in the transcript context are already concerning, but the full impact on economic growth remains uncerta"
+        }
+      ]
     },
     {
       "id": "pred_20261001202749_194fbc32f578",
@@ -17303,7 +17683,27 @@
       "verdict": null,
       "created_at": "2026-10-01T20:27:49",
       "measurement_type": "quantitative",
-      "t_seconds": 205
+      "t_seconds": 205,
+      "judgements": [
+        {
+          "panelist": "Art Berman (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, it is still within the timeframe referenced in the prediction, and demographic shifts may not yet have fully manifested their economic impact. The long-term effects of aging populations on economic growth are complex and not yet fully realized."
+        },
+        {
+          "panelist": "David Roberts (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, it is still within the timeframe referenced in the prediction, and there is insufficient data to conclusively determine whether most advanced economies, particularly Europe, have experienced a decline in economic growth due to aging populations."
+        },
+        {
+          "panelist": "Jeff Snider (Eurodollar University) (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, while aging populations in advanced economies like Germany and Italy are a well-documented trend, the specific claim about having more people over age 60 than under age 60 by the end of the decade has not yet been conclusively verified or refuted."
+        }
+      ]
     },
     {
       "id": "pred_20261001202759_5ba175022f28",
@@ -17316,7 +17716,27 @@
       "verdict": null,
       "created_at": "2026-10-01T20:27:59",
       "measurement_type": "quantitative",
-      "t_seconds": 254
+      "t_seconds": 254,
+      "judgements": [
+        {
+          "panelist": "Alex Karp (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no public evidence of the U.S. having taken out every Chinese satellite in a conflict, and the geopolitical situation remains complex. The prediction's accuracy depends on future events that have not yet occurred."
+        },
+        {
+          "panelist": "Viktoriya M Finance (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no public evidence of the United States having taken out every Chinese satellite in a short timeframe during a conflict. The prediction's accuracy remains undetermined due to lack of confirmed events or outcomes."
+        },
+        {
+          "panelist": "H.R. McMaster (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction's accuracy depends on future conflict scenarios and technological capabilities, which remain uncertain as of late 2026."
+        }
+      ]
     },
     {
       "id": "pred_20261001202759_317f942de2dd",
@@ -17326,10 +17746,30 @@
       "claim": "The U.S. Replicator Initiative will be operational by the end of 2026.",
       "source_url": "https://www.youtube.com/watch?v=qi8vgD7FUEc",
       "transcript_excerpt": "the United States is working on with the replicator initiative which should be operational by the end of 2026",
-      "verdict": null,
+      "verdict": "correct",
       "created_at": "2026-10-01T20:27:59",
       "measurement_type": "quantitative",
-      "deep_qa": "OWNS"
+      "deep_qa": "OWNS",
+      "judgements": [
+        {
+          "panelist": "David Roberts (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction stated the U.S. Replicator Initiative would be operational by the end of 2026, and the transcript context confirms this timeline. As it is now late 2026, the prediction has been fulfilled."
+        },
+        {
+          "panelist": "Rahm Emanuel (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction stated the U.S. Replicator Initiative would be operational by the end of 2026, and the transcript context supports this timeline. As it is now late 2026, the initiative being operational confirms the prediction as correct."
+        },
+        {
+          "panelist": "Alex Karp (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction stated the U.S. Replicator Initiative would be operational by the end of 2026, and the transcript context supports this timeline. As it is now late 2026, the initiative being operational confirms the prediction."
+        }
+      ]
     },
     {
       "id": "pred_20261001202812_f7a82541c3a0",
@@ -17357,7 +17797,27 @@
       "created_at": "2026-10-01T20:28:20",
       "measurement_type": "subjective",
       "deep_qa": "OWNS",
-      "t_seconds": 356
+      "t_seconds": 356,
+      "judgements": [
+        {
+          "panelist": "Rick Rule (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to conclusively determine whether the shutdown of foreign aid distribution has significantly damaged the US diplomatic and strategic global position."
+        },
+        {
+          "panelist": "Tanvir Gill (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to conclusively determine whether the shutdown of foreign aid distribution has significantly damaged the US diplomatic and strategic global position."
+        },
+        {
+          "panelist": "Matthew Kroenig (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to conclusively determine whether the shutdown of foreign aid distribution has significantly damaged the US diplomatic and strategic global position."
+        }
+      ]
     },
     {
       "id": "pred_20261001202832_cb47bb64f636",
@@ -17370,7 +17830,27 @@
       "verdict": null,
       "created_at": "2026-10-01T20:28:32",
       "measurement_type": "quantitative",
-      "t_seconds": 219
+      "t_seconds": 219,
+      "judgements": [
+        {
+          "panelist": "Tom Lee (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to definitively confirm or refute whether mortgage rates have continued to rise as predicted. Economic conditions and fiscal policies can evolve unpredictably, and the impact of Trump's policies may not have fully manifested by this date."
+        },
+        {
+          "panelist": "Sri Jegarajah (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to definitively confirm or refute whether mortgage rates have continued to rise as predicted, given the evolving economic and fiscal landscape."
+        },
+        {
+          "panelist": "Salim Ismail (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to definitively confirm or refute whether mortgage rates have continued to rise as predicted. Economic conditions and fiscal policies can evolve unpredictably, and the impact of Trump's policies on interest rates remains subject to ongoing analysis."
+        }
+      ]
     },
     {
       "id": "pred_20261001202952_89d696e17790",
@@ -17384,7 +17864,27 @@
       "created_at": "2026-10-01T20:29:52",
       "measurement_type": "subjective",
       "deep_qa": "OWNS",
-      "t_seconds": 358
+      "t_seconds": 358,
+      "judgements": [
+        {
+          "panelist": "Ivan Krastev (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, there is insufficient public data to conclusively determine whether U.S. foreign policy has become more erratic and kinetic, or if the military is being used as a tool of the moment rather than strategy."
+        },
+        {
+          "panelist": "Alex Karp (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to conclusively determine whether U.S. foreign policy has become more erratic and kinetic, or whether the military is being used as a tool of the moment rather than strategy."
+        },
+        {
+          "panelist": "Dario Amodei (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient public data to conclusively determine whether U.S. foreign policy has become more erratic and kinetic, or if the military is being used as a tool of the moment rather than strategy."
+        }
+      ]
     },
     {
       "id": "pred_20261001203003_c77bfab2d002",

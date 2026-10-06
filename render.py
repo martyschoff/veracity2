@@ -135,3 +135,7 @@ for name, preds in rows_by_person.items():
         c = r.get('category','')
         cl = str(r.get('claim',''))[:60]
         print(f'  {d} | {c} | {cl}')
+
+# publish version.json for the static site (fetches /version.json at runtime)
+import os as _os, shutil as _shutil
+_shutil.copy(str(BASE / 'data' / 'version.json'), _os.path.join(_os.path.dirname(OUT), 'version.json'))
