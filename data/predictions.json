@@ -1127,7 +1127,8 @@
       "test_status": "eligible",
       "testing_since": "2026-10-01",
       "judgements": [],
-      "t_seconds": 71
+      "t_seconds": 71,
+      "gate_status": "horizon"
     },
     {
       "id": "pred_20261001134922_001",
@@ -2288,7 +2289,8 @@
       "test_status": "eligible",
       "testing_since": "2026-10-01",
       "judgements": [],
-      "deep_qa": "OWNS"
+      "deep_qa": "OWNS",
+      "gate_status": "horizon"
     },
     {
       "id": "pred_20261001160615_366878",
@@ -3469,7 +3471,8 @@
       "test_status": "eligible",
       "testing_since": "2026-10-01",
       "judgements": [],
-      "deep_qa": "OWNS"
+      "deep_qa": "OWNS",
+      "gate_status": "horizon"
     },
     {
       "id": "pred_20261001162955_719808",
@@ -3836,7 +3839,8 @@
       "verdict": null,
       "created_at": "2026-10-01T18:10:47",
       "measurement_type": "quantitative",
-      "t_seconds": 373
+      "t_seconds": 373,
+      "gate_status": "horizon"
     },
     {
       "id": "pred_20261001181054_0ca63cb03634",
@@ -3892,7 +3896,8 @@
       "created_at": "2026-10-01T18:12:20",
       "measurement_type": "quantitative",
       "deep_qa": "OWNS",
-      "t_seconds": 93
+      "t_seconds": 93,
+      "gate_status": "horizon"
     },
     {
       "id": "pred_20261001181237_5daf5bf87265",
@@ -4656,7 +4661,8 @@
       "verdict": null,
       "created_at": "2026-10-01T18:25:07",
       "measurement_type": "quantitative",
-      "deep_qa": "OWNS"
+      "deep_qa": "OWNS",
+      "gate_status": "horizon"
     },
     {
       "id": "pred_20261001182606_095ccb952c86",
@@ -4708,7 +4714,8 @@
       "created_at": "2026-10-01T18:26:17",
       "measurement_type": "quantitative",
       "deep_qa": "OWNS",
-      "t_seconds": 191
+      "t_seconds": 191,
+      "gate_status": "horizon"
     },
     {
       "id": "pred_20261001182617_479ef4971ee4",
@@ -5720,7 +5727,8 @@
       ],
       "stated_count": 2,
       "deep_qa": "OWNS",
-      "t_seconds": 186
+      "t_seconds": 186,
+      "gate_status": "horizon"
     },
     {
       "id": "pred_20261001185053_8f59a244cc6a",
@@ -5789,7 +5797,8 @@
       ],
       "stated_count": 2,
       "deep_qa": "OWNS",
-      "t_seconds": 319
+      "t_seconds": 319,
+      "gate_status": "horizon"
     },
     {
       "id": "pred_20261001185124_faf0583c430f",
@@ -6649,7 +6658,8 @@
         }
       ],
       "stated_count": 2,
-      "t_seconds": 6
+      "t_seconds": 6,
+      "gate_status": "horizon"
     },
     {
       "id": "pred_20261001193745_502966dbe854",
@@ -7175,7 +7185,8 @@
       "verdict": null,
       "created_at": "2026-10-01T19:47:27",
       "measurement_type": "subjective",
-      "t_seconds": 234
+      "t_seconds": 234,
+      "gate_status": "horizon"
     },
     {
       "id": "pred_20261001194847_93c12bf76258",
@@ -7493,7 +7504,8 @@
       "created_at": "2026-10-01T19:52:30",
       "measurement_type": "quantitative",
       "deep_qa": "OWNS",
-      "t_seconds": 231
+      "t_seconds": 231,
+      "gate_status": "horizon"
     },
     {
       "id": "pred_20261001195230_2b7bccf2e571",
@@ -7793,7 +7805,8 @@
       "created_at": "2026-10-01T19:58:18",
       "measurement_type": "quantitative",
       "deep_qa": "OWNS",
-      "t_seconds": 215
+      "t_seconds": 215,
+      "gate_status": "horizon"
     },
     {
       "id": "pred_20261001195818_80b64abd2689",
@@ -8043,7 +8056,8 @@
       "verdict": null,
       "created_at": "2026-10-01T20:06:20",
       "measurement_type": "quantitative",
-      "t_seconds": 290
+      "t_seconds": 290,
+      "gate_status": "horizon"
     },
     {
       "id": "pred_20261001200705_a329b6d00a5c",
@@ -9069,7 +9083,8 @@
       "created_at": "2026-10-01T20:21:01",
       "measurement_type": "quantitative",
       "deep_qa": "OWNS",
-      "t_seconds": 30
+      "t_seconds": 30,
+      "gate_status": "horizon"
     },
     {
       "id": "pred_20261001202101_84a213b2752e",
@@ -9384,7 +9399,8 @@
       "verdict": null,
       "created_at": "2026-10-01T20:26:29",
       "measurement_type": "quantitative",
-      "t_seconds": 410
+      "t_seconds": 410,
+      "gate_status": "horizon"
     },
     {
       "id": "pred_20261001202638_4fc03463d566",
@@ -9646,7 +9662,8 @@
       "verdict": null,
       "created_at": "2026-10-01T20:31:54",
       "measurement_type": "quantitative",
-      "t_seconds": 659
+      "t_seconds": 659,
+      "gate_status": "horizon"
     },
     {
       "id": "pred_20261001203154_3511b645f0e6",
@@ -9933,7 +9950,8 @@
       "created_at": "2026-10-01T20:37:43",
       "measurement_type": "quantitative",
       "deep_qa": "OWNS",
-      "t_seconds": 97
+      "t_seconds": 97,
+      "gate_status": "horizon"
     },
     {
       "id": "pred_20261001203743_286cf9f14d0f",
@@ -12169,7 +12187,8 @@
       "created_at": "2026-10-01T21:22:22",
       "measurement_type": "quantitative",
       "deep_qa": "OWNS",
-      "t_seconds": 231
+      "t_seconds": 231,
+      "gate_status": "horizon"
     },
     {
       "id": "pred_20261001212222_3a1eb44859f9",
@@ -14581,7 +14600,8 @@
         }
       ],
       "stated_count": 2,
-      "t_seconds": 339
+      "t_seconds": 339,
+      "gate_status": "horizon"
     },
     {
       "id": "pred_20261001221205_4e2b83d4e6ba",
@@ -15874,7 +15894,8 @@
       "verdict": null,
       "created_at": "2026-10-01T22:36:36",
       "measurement_type": "quantitative",
-      "deep_qa": "OWNS"
+      "deep_qa": "OWNS",
+      "gate_status": "horizon"
     },
     {
       "id": "pred_20261001223636_4c4e02cdaac8",
@@ -16564,7 +16585,8 @@
       "created_at": "2026-10-01T23:02:14",
       "measurement_type": "quantitative",
       "deep_qa": "OWNS",
-      "t_seconds": 235
+      "t_seconds": 235,
+      "gate_status": "horizon"
     },
     {
       "id": "pred_20261001230214_43e60918221c",
@@ -18946,7 +18968,8 @@
       ],
       "stated_count": 2,
       "deep_qa": "OWNS",
-      "t_seconds": 475
+      "t_seconds": 475,
+      "gate_status": "horizon"
     },
     {
       "id": "pred_20261002000242_fbe2d4c42dff",
@@ -21487,7 +21510,8 @@
           "reasoning": "Altman's 2026 'takeoff has begun' statement suggests strong progress toward AGI but does not confirm superintelligence or validate the 50% probability; the 5-20y window remains open.",
           "source": "panel judgment run 2026-10-04"
         }
-      ]
+      ],
+      "gate_status": "horizon"
     },
     {
       "id": "pred_20261002005534_f1a5823c9f2e",

@@ -315,6 +315,13 @@
             <div class="settings-dropdown" id="settings-dropdown">
                 <label><input type="checkbox" onchange="toggleTheme(this.checked)"> Light mode</label>
                 <label><input type="checkbox" onchange="toggleImplicit()" id="implicit-toggle"> Smuggled queue</label>
+                <label style="display:flex;align-items:center;gap:6px;">Time range
+                    <select id="range-select" onchange="setRange(this.value)" style="background:var(--card-bg);color:var(--foreground);border:1px solid var(--border);border-radius:6px;padding:2px 6px;">
+                        <option value="3">3 years</option>
+                        <option value="5">5 years</option>
+                        <option value="10">10 years</option>
+                    </select>
+                </label>
             </div>
         </div>
     </div>
@@ -364,7 +371,7 @@
             <div class="pred-column">
                 {% set person_rows = rows_by_person.get(ind.name, []) %}
                 {% for row in person_rows %}
-                <div class="pred-entry" data-mtype="{{ row.measurement_type if row.measurement_type else 'subjective' }}">
+                <div class="pred-entry" data-date="{{ row.date }}" data-mtype="{{ row.measurement_type if row.measurement_type else 'subjective' }}">
                     <div class="pred-date">{{ row.date }}{% if row.stated_count and row.stated_count > 1 %} <span class="chip-x">×{{ row.stated_count }}</span>{% endif %}</div>
                     <a class="pred-claim" href="{{ row.source_url }}" target="_blank" rel="noopener">{{ row.claim | condense }} ↗</a>
                     <div>
@@ -496,6 +503,7 @@
             var preds = data[name] || [];
             // Apply current filters
             var filtered = preds.filter(function(p) {
+                if (!dateOK(p.date)) return false;  // time-range setting
                 // If verdictFilter is set, only show that verdict
                 if (verdictFilter) {
                     return p.verdict === verdictFilter;
@@ -553,6 +561,20 @@
             document.getElementById('detail-overlay').classList.add('open');
         }
         var showImplicit = localStorage.getItem('showImplicit') === '1';
+        function getRangeYears() { return parseInt(localStorage.getItem('timeRange') || '3', 10); }
+        function setRange(v) { localStorage.setItem('timeRange', v); location.reload(); }
+        function dateCutoff() {
+            var d = new Date(); d.setFullYear(d.getFullYear() - getRangeYears());
+            return d.toISOString().slice(0, 10);
+        }
+        function dateOK(dateStr) { return (dateStr || '') >= dateCutoff(); }
+        function applyRangeFilter() {
+            document.querySelectorAll('.pred-entry[data-date]').forEach(function(el) {
+                el.style.display = dateOK(el.getAttribute('data-date')) ? '' : 'none';
+            });
+            var sel = document.getElementById('range-select');
+            if (sel) sel.value = String(getRangeYears());
+        }
         function toggleImplicit() {
             showImplicit = !showImplicit;
             localStorage.setItem('showImplicit', showImplicit ? '1' : '0');
@@ -596,6 +618,7 @@
                 .then(function(r){ return r.json(); })
                 .then(function(j){ if (j.ok) renderImplicitColumn(); });
         }
+        function detailDateOK(p) { return dateOK(p.date); }
         function tsChip(p) {
             if (p.t_seconds == null) return '';
             var t = Math.floor(p.t_seconds), m = Math.floor(t / 60), s = t % 60;
@@ -646,6 +669,7 @@
         });
             var tgl = document.getElementById('implicit-toggle');
         if (tgl) tgl.checked = showImplicit;
+        applyRangeFilter();
         renderImplicitColumn();
     </script>
 </body>
