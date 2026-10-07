@@ -1922,6 +1922,20 @@
       "weight_subjective": 1.0,
       "weight_objective": 1.0,
       "profile": "Founder/Chairman Constellation Research; CNBC Squawk Box regular on AI capex, megacap valuations, IPOs. Frequent dated market calls (e.g. 'wait for the first dip', hyperscaler capex conservative). Weight 1.0 per owner."
+    },
+    {
+      "name": "Mohamed El-Erian",
+      "handle": "elerian",
+      "sources": [
+        "https://www.bloomberg.com/",
+        "https://www.ft.com/"
+      ],
+      "categories": [
+        "finance"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0,
+      "profile": "President Queens' College Cambridge, Allianz advisor, ex-PIMCO; FT/Bloomberg columnist, TV regular. Macro/finance calls. Weight 1.0 per owner."
     }
   ],
   "predictions": [
@@ -20363,7 +20377,11 @@
           "weight": 1.0,
           "reasoning": "As of late 2026, there is no publicly available definitive confirmation or denial of the specific 800 billion USD debt figure for China's local government refinance. While there have been reports of significant debt restructuring efforts, the exact scale and official confirmation of the prediction r"
         }
-      ]
+      ],
+      "marty_agrees": false,
+      "marty_note": "MartyPredicts: Wrong",
+      "marty_at": "2026-10-07",
+      "marty_verdict": "wrong"
     },
     {
       "id": "pred_20261001205315_85871f03c04b",

@@ -1,0 +1,8 @@
+I've reviewed the existing DelphiCursor implementation:
+
+- `delphicursor_worker.py` — processes queued predictions via Cursor CLI with timeouts and retries
+- `delphicursor_queue.py` — multi-factor escalation trigger to queue eligible claims  
+- `delphicursor_check.py` — status check utility
+- `index.html` — has the `delphicursor-badge` display with color-coded votes
+
+Your message was cut off before specifying the two remaining items. What are they?

@@ -1,0 +1,7 @@
+Continue the DelphiOpus implementation in this repo. scripts/delphicursor_worker.py, scripts/delphicursor_queue.py, scripts/delphicursor_check.py and the index.html display row already exist (done). FINISH ONLY these two remaining items:
+
+1. scripts/test_delphicursor.py - acceptance tests per the original spec (fixture has NO marty keys and includes adjudication_context; validator accepts valid/rejects bad vote/missing reasoning; single-instance lock second-start exits; enqueue roundtrip on a COPY of predictions.json in a temp dir, never the real file; py_compile all delphicursor files). Run it and make it pass.
+
+2. src/delphicursor_api.py - GET /api/delphicursor/queue (pending + last 5 verdicts from data/delphicursor_verdicts/) and POST /api/delphicursor/enqueue/<pred_id> (sets delphicursor_status='queued'). Then wire into src/app.py with plain routes (app.py already has mark endpoints - follow its style; import the helpers or inline them). app.py serves on :8765 - do NOT restart it, code only.
+
+STILL STRICT: do not submit/enqueue any real case, do not touch data/predictions.json except read-only, do not modify miro_worker.py, do not commit. Report files changed + test output.
