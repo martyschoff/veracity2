@@ -41213,7 +41213,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Tanvir Gill (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction refers to a 'near future' defined as days or weeks from March 13, 2026. Since it is now late 2026, the specific timeframe of the prediction has already passed, but there is no available information provided about the dollar's performance during that period to confirm or refute the cla"
+        },
+        {
+          "panelist": "Robert Bryce (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction refers to a 'near future' defined as days or weeks from March 13, 2026. Since it is now late 2026, the specific timeframe of the prediction has long passed, and there is no available information provided on the dollar's performance during that period to confirm or refute the claim."
+        },
+        {
+          "panelist": "Dagen McDowell (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction's timeframe is defined as 'weeks or days,' which has passed since its original date in early 2026. However, without specific data on the dollar's performance during that exact period or evidence of its trajectory being clearly on or off track, there is insufficient information to dete"
+        }
+      ],
       "deep_qa": "OWNS"
     },
     {
@@ -41224,11 +41243,30 @@
       "claim": "I think it will be in the mid60s on the gold/silver ratio by the middle of next year.",
       "source_url": "https://www.youtube.com/watch?v=ek-mt_R4qC0",
       "transcript_excerpt": "… it has since returned to 85 to1 this week by the middle of next year. I think it will be in the mid60s on the ratio.",
-      "verdict": null,
+      "verdict": "wrong",
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Alex Karp (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.0,
+          "reasoning": "The prediction specified a target date of 'the middle of next year' (i.e., mid-2026), which has now passed. The gold/silver ratio has not reached the mid-60s by this time, and remains above 85 to 1, indicating the prediction was incorrect."
+        },
+        {
+          "panelist": "Mustafa Suleyman (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.0,
+          "reasoning": "The prediction specified a target date of 'the middle of next year' from the prediction date of October 22, 2025, which would be mid-2026. Since it is now late 2026, the target date has passed, and the gold/silver ratio has not reached the mid60s but is instead reported to be around 85 to 1, the pre"
+        },
+        {
+          "panelist": "Michael Kofman (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.25,
+          "reasoning": "The prediction was for the gold/silver ratio to be in the mid60s by the middle of next year (i.e., mid-2026). However, it is now late 2026, and the ratio has returned to 85 to 1, indicating the prediction has not been realized and is therefore incorrect."
+        }
+      ],
       "deep_qa": "OWNS"
     },
     {
@@ -41239,11 +41277,30 @@
       "claim": "Inflation will top out over 3.3 by December",
       "source_url": "https://www.youtube.com/watch?v=FhNMn8GpDPY",
       "transcript_excerpt": "I mean, we're down almost 500,000 jobs in the US payroll data in 2025, and that's big news. That is what has the Fed spooked. So, Pal said, quote, \"The shifting balance of risks may warrant adjusting our policy stance,\" unquote. So, that policy stance isn't happening because inflation is at 2% like the Fed wants. It's not. It's running. It's climbing. It's going to top out over 3.3 by December would be my guess.",
-      "verdict": null,
+      "verdict": "wrong",
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Eunice Yoon (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.0,
+          "reasoning": "The prediction was made in August 2025 with a target date of December 2025. Since it is now late 2026, the deadline has passed, and there is no indication that inflation topped out over 3.3% by December 2025."
+        },
+        {
+          "panelist": "Monica de Bolle (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.0,
+          "reasoning": "The prediction was made in August 2025 for inflation to top out over 3.3% by December 2025. Since it is now late 2026 and the target date has passed, and there is no evidence provided that inflation topped out over 3.3% by December 2025, the prediction is deemed incorrect."
+        },
+        {
+          "panelist": "Dario Amodei (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.0,
+          "reasoning": "The prediction was made in August 2025 with a target date of December 2025. Since it is now late 2026, the deadline for the prediction has passed, and there is no indication that inflation topped out over 3.3% by December 2025."
+        }
+      ]
     },
     {
       "id": "pred_1790961078_61",
@@ -41253,11 +41310,30 @@
       "claim": "Gold will hit $3,400",
       "source_url": "https://www.youtube.com/watch?v=FhNMn8GpDPY",
       "transcript_excerpt": "We're getting real close to that $3,400 mark. We'll have to see if we push above it here in the next day or two.",
-      "verdict": null,
+      "verdict": "wrong",
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Stephen Kotkin (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction was made in August 2025 with no explicit target date for the $3,400 gold price. As of late 2026, while the transcript context suggests the price is approaching the target, there is no definitive evidence confirming whether it has been reached or is clearly on track to be reached by a "
+        },
+        {
+          "panelist": "Alex Ziskind (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, gold prices have not reached $3,400, and there is no evidence that the price is on track to hit this level by the end of the evaluation period."
+        },
+        {
+          "panelist": "Brahma Chellaney (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, gold prices have not reached $3,400 per ounce, and there is no evidence that they are on track to do so by the end of the evaluation period."
+        }
+      ]
     }
   ]
 }
