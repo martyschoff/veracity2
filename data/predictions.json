@@ -36474,7 +36474,7 @@
       "marty_verdict": "wrong",
       "mc_status": "queued",
       "miro_status": "queued",
-      "delphicursor_status": "failed_permanent"
+      "delphicursor_status": "queued"
     },
     {
       "id": "pred_20261002000858_720c79dac5fe",
