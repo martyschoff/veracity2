@@ -34738,7 +34738,7 @@
       "claim": "Zohran Mamdani is almost certainly going to win as mayor of New York City",
       "source_url": "https://www.youtube.com/watch?v=S6U0EuWSqgM",
       "transcript_excerpt": "Hi everybody, Ian Bremmer here, and big elections in New York City, where Zohran Mamdani is almost certainly going to win as mayor",
-      "verdict": "wrong",
+      "verdict": "correct",
       "created_at": "2026-10-01T23:44:35",
       "measurement_type": "quantitative",
       "deep_qa": "OWNS",
@@ -34762,7 +34762,9 @@
           "weight": 1.0,
           "reasoning": "As of late 2026, the 2025 prediction about Zohran Mamdani winning the New York City mayoral election cannot be verified, as the election had not yet occurred. There is no available evidence to confirm or refute the claim at this time."
         }
-      ]
+      ],
+      "verdict_source": "authoritative",
+      "verdict_note": "Panel hallucinated (asserted Mamdani lost the 2025 NYC mayoral race); BBC/NPR confirm he won Nov 4 2025. Authoritative source overrides panel."
     },
     {
       "id": "pred_20261001234435_35a02e14d391",
