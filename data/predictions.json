@@ -11125,7 +11125,7 @@
       "mc_result": "WRONG (33% of 3 decided, 33 unclear)",
       "mc_split": 33,
       "miro_result": {
-        "verdict": null,
+        "verdict": "refuted",
         "confidence": 0.65,
         "summary": "The claim that nickel demand will increase tenfold within 12 months due to the green transition is implausible. Specialists across multiple disciplines (demography, energy security, capital markets, trade supply chain) highlighted that mining expansion timelines (typically 5+ years), current global production constraints (~2.5 million metric tons annually), and logistical bottlenecks make such a drastic demand surge unfeasible in the short term. Energy security specialists emphasized the capital"
       }

@@ -120,7 +120,7 @@ def process(pred):
         target = next(x for x in data['predictions'] if x['id'] == pred['id'])
         target['miro_status'] = 'done'
         target['miro_result'] = {
-            'verdict': v.get('final_verdict') or v.get('verdict') or str(v)[:120],
+            'verdict': v.get('final_verdict') or v.get('verdict') or v.get('label') or str(v)[:120],
             'confidence': v.get('confidence'),
             'summary': str(v.get('summary') or v.get('rationale') or '')[:500],
         }
