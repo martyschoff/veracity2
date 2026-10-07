@@ -25,7 +25,7 @@ OUT = Path(__file__).resolve().parent.parent / "data" / "swarm400_state.json"
 
 # 7-GPU pool on big3080 (GPUs 1-7; GPU0 = whisper, never unloaded)
 POOL = [{"url": f"http://100.124.236.23:{p}/v1/chat/completions", "key": None, "model": "qwen3:8b"}
-        for p in range(11435, 11442)]
+        for p in (11434, 11435, 11436, 11437, 11438, 11439, 11440, 11441)]  # all 8 GPUs (owner cleared)
 
 
 def persona_vote(persona: str, claim: str, made_date: str) -> dict | None:
