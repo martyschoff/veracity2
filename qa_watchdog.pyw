@@ -13,4 +13,4 @@ while True:
         subprocess.Popen([PY, '-m', 'uvicorn', 'src.app:app', '--host', '127.0.0.1', '--port', '8765'],
                          cwd=r'C:/Users/schof/veracity2', env=ENV,
                          creationflags=0x08000000)  # CREATE_NO_WINDOW
-    time.sleep(60)
+    # single-pass: the scheduled task re-runs this every minute
