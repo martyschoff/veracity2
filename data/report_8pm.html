@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seer Score 8pm Processing Report</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, 'Segoe UI', Roboto, sans-serif; background: #0d1117; color: #c9d1d9; padding: 24px; line-height: 1.5; }
+h1 { color: #58a6ff; font-size: 22px; border-bottom: 1px solid #21262d; padding-bottom: 12px; margin-bottom: 20px; }
+h2 { color: #58a6ff; font-size: 16px; margin: 20px 0 12px; border-left: 3px solid #58a6ff; padding-left: 8px; }
+h3 { color: #8b949e; font-size: 13px; margin: 16px 0 8px; text-transform: uppercase; letter-spacing: 0.5px; }
+table { width: 100%; border-collapse: collapse; margin-bottom: 16px; font-size: 13px; }
+th { background: #161b22; color: #58a6ff; padding: 8px 10px; text-align: left; border: 1px solid #21262d; font-weight: 600; }
+td { padding: 7px 10px; border: 1px solid #21262d; }
+tr:nth-child(even) { background: #161b22; }
+.badge { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; }
+.badge-correct { background: #0e4429; color: #56d364; }
+.badge-wrong { background: #4a1e1e; color: #f85149; }
+.badge-almost { background: #3c2f0a; color: #d29922; }
+.badge-tbd { background: #1c1c2e; color: #8b949e; }
+.badge-queued { background: #1a2332; color: #58a6ff; }
+.badge-done { background: #0e4429; color: #56d364; }
+.badge-notdue { background: #1c1c2e; color: #8b949e; }
+.bar-cell { position: relative; min-width: 120px; }
+.bar-bg { height: 8px; background: #21262d; border-radius: 4px; overflow: hidden; margin-top: 4px; }
+.bar-fill { height: 100%; border-radius: 4px; }
+.bar-correct { background: #56d364; }
+.bar-wrong { background: #f85149; }
+.stat-row { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 16px; }
+.stat-card { background: #161b22; border: 1px solid #21262d; border-radius: 6px; padding: 14px 18px; min-width: 140px; flex: 1; }
+.stat-value { font-size: 28px; font-weight: 700; color: #58a6ff; }
+.stat-label { font-size: 11px; color: #8b949e; text-transform: uppercase; letter-spacing: 0.5px; }
+.status-ok { color: #56d364; }
+.status-warn { color: #d29922; }
+.status-err { color: #f85149; }
+footer { margin-top: 24px; padding-top: 12px; border-top: 1px solid #21262d; color: #484f58; font-size: 11px; text-align: center; }
+.cat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 10px; }
+.cat-card { background: #161b22; border: 1px solid #21262d; border-radius: 6px; padding: 12px; }
+.cat-name { font-weight: 600; color: #c9d1d9; font-size: 13px; }
+.cat-count { font-size: 22px; font-weight: 700; color: #58a6ff; }
+.cat-sub { font-size: 11px; color: #8b949e; }
+</style>
+</head>
+<body>
+
+<h1>📊 Seer Score — 8pm Processing Report</h1>
+<p style="color:#8b949e; font-size:13px; margin-bottom:16px;">Report generated: 2026-10-06 20:00 EDT &nbsp;|&nbsp; Version 0.46</p>
+
+<!-- KEY STATS -->
+<h3>🔑 Key Metrics</h3>
+<div class="stat-row">
+  <div class="stat-card">
+    <div class="stat-value">1,261</div>
+    <div class="stat-label">Total Predictions</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-value" style="color:#56d364">216</div>
+    <div class="stat-label">Correct Verdict</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-value" style="color:#f85149">57</div>
+    <div class="stat-label">Wrong Verdict</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-value" style="color:#d29922">492</div>
+    <div class="stat-label">Almost (deep QA)</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-value" style="color:#8b949e">484</div>
+    <div class="stat-label">TBD</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-value">133</div>
+    <div class="stat-label">Panel Members</div>
+  </div>
+</div>
+
+<!-- TARGET INDIVIDUALS -->
+<h2>Target Individuals — Verdict Breakdown</h2>
+<table>
+<tr><th>Person</th><th>Total</th><th>✓ Correct</th><th>✗ Wrong</th><th>👁️ Unclear</th><th>⏳ Almost</th><th>❓ TBD</th><th>Verdict Rate</th></tr>
+<tr>
+  <td><strong>Peter Zeihan</strong></td>
+  <td>779</td>
+  <td><span class="badge badge-correct">99</span></td>
+  <td><span class="badge badge-wrong">9</span></td>
+  <td>0</td>
+  <td><span class="badge badge-almost">365</span></td>
+  <td><span class="badge badge-tbd">306</span></td>
+  <td class="bar-cell">12.7%<div class="bar-bg"><div class="bar-fill bar-correct" style="width:12.7%"></div></div></td>
+</tr>
+<tr>
+  <td><strong>Doomberg</strong></td>
+  <td>110</td>
+  <td><span class="badge badge-correct">31</span></td>
+  <td><span class="badge badge-wrong">2</span></td>
+  <td>0</td>
+  <td><span class="badge badge-almost">20</span></td>
+  <td><span class="badge badge-tbd">57</span></td>
+  <td class="bar-cell">28.2%<div class="bar-bg"><div class="bar-fill bar-correct" style="width:28.2%"></div></div></td>
+</tr>
+<tr>
+  <td><strong>Peter Diamandis</strong></td>
+  <td>110</td>
+  <td><span class="badge badge-correct">1</span></td>
+  <td><span class="badge badge-wrong">0</span></td>
+  <td>0</td>
+  <td><span class="badge badge-almost">49</span></td>
+  <td><span class="badge badge-tbd">60</span></td>
+  <td class="bar-cell">0.9%<div class="bar-bg"><div class="bar-fill bar-correct" style="width:0.9%"></div></div></td>
+</tr>
+<tr>
+  <td><strong>Ian Bremmer</strong></td>
+  <td>225</td>
+  <td><span class="badge badge-correct">71</span></td>
+  <td><span class="badge badge-wrong">40</span></td>
+  <td>0</td>
+  <td><span class="badge badge-almost">61</span></td>
+  <td><span class="badge badge-tbd">53</span></td>
+  <td class="bar-cell">31.6%<div class="bar-bg"><div class="bar-fill bar-correct" style="width:31.6%"></div></div></td>
+</tr>
+<tr>
+  <td><strong>David McAlvany</strong></td>
+  <td>37</td>
+  <td><span class="badge badge-correct">14</span></td>
+  <td><span class="badge badge-wrong">6</span></td>
+  <td>0</td>
+  <td><span class="badge badge-almost">6</span></td>
+  <td><span class="badge badge-tbd">11</span></td>
+  <td class="bar-cell">37.8%<div class="bar-bg"><div class="bar-fill bar-correct" style="width:37.8%"></div></div></td>
+</tr>
+</table>
+
+<!-- SWEEP STATUS -->
+<h2>Running Sweeps Status</h2>
+<div class="stat-row">
+  <div class="stat-card">
+    <div class="stat-value status-ok">✓ Complete</div>
+    <div class="stat-label">Classification (Local)<br><span style="font-size:10px">10/2 — some permission errors on state save</span></div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-value status-ok">✓ Complete</div>
+    <div class="stat-label">Classification (NIMO128)<br><span style="font-size:10px">10/2 — permission error on save at batch 28/57</span></div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-value status-ok">✓ Complete</div>
+    <div class="stat-label">Classification (Mac/Steal)<br><span style="font-size:10px">10/2 — 50 stolen batches on upthread64</span></div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-value status-warn">⚠ Issues</div>
+    <div class="stat-label">Classification (Steal Recovery)<br><span style="font-size:10px">Permission errors on tmp→json rename</span></div>
+  </div>
+</div>
+
+<!-- SWARM / MIROFISH -->
+<h2>Swarm &amp; MiroFish Status</h2>
+<table>
+<tr><th>Metric</th><th>Status</th><th>Details</th></tr>
+<tr>
+  <td><strong>MC (Swarm)</strong></td>
+  <td>
+    <span class="badge badge-notdue">Not Due: 2</span>
+    <span class="badge badge-done">Done: 6</span>
+    <span class="badge badge-queued">Running: 0</span>
+  </td>
+  <td>6 completions, 0 results available yet</td>
+</tr>
+<tr>
+  <td><strong>MiroFish</strong></td>
+  <td>
+    <span class="badge badge-queued">Queued: 1</span>
+    <span class="badge badge-done">Done: 0</span>
+    <span class="badge badge-tbd">Pending: 4</span>
+  </td>
+  <td>
+    <span class="status-err">⚠ Neo4j startup failing</span> — worker.log shows repeated<br>
+    <code>[WinError 2] The system cannot find the file specified</code><br>
+    Last attempt: 2026-10-06 21:22:39
+  </td>
+</tr>
+</table>
+
+<!-- PANEL CATEGORIES -->
+<h2>Panel Sizes by Category</h2>
+<div class="cat-grid">
+  <div class="cat-card"><div class="cat-name">🌍 Geopolitics</div><div class="cat-count">73</div><div class="cat-sub">panel members</div></div>
+  <div class="cat-card"><div class="cat-name">⚡ Energy</div><div class="cat-count">29</div><div class="cat-sub">panel members</div></div>
+  <div class="cat-card"><div class="cat-name">💰 Finance</div><div class="cat-count">21</div><div class="cat-sub">panel members</div></div>
+  <div class="cat-card"><div class="cat-name">🤖 AI</div><div class="cat-count">16</div><div class="cat-sub">panel members</div></div>
+  <div class="cat-card"><div class="cat-name">🇨🇳 China</div><div class="cat-count">1</div><div class="cat-sub">panel member</div></div>
+  <div class="cat-card"><div class="cat-name">🇺🇦 Ukraine</div><div class="cat-count">1</div><div class="cat-sub">panel member</div></div>
+</div>
+
+<!-- PREDICTIONS BY CATEGORY -->
+<h2>Predictions by Category</h2>
+<div class="cat-grid">
+  <div class="cat-card"><div class="cat-name">🌍 Geopolitics</div><div class="cat-count">562</div><div class="cat-sub">44.6% of all predictions</div></div>
+  <div class="cat-card"><div class="cat-name">💰 Finance</div><div class="cat-count">190</div><div class="cat-sub">15.1%</div></div>
+  <div class="cat-card"><div class="cat-name">⚡ Energy</div><div class="cat-count">183</div><div class="cat-sub">14.5%</div></div>
+  <div class="cat-card"><div class="cat-name">🤖 AI</div><div class="cat-count">104</div><div class="cat-sub">8.2%</div></div>
+  <div class="cat-card"><div class="cat-name">📋 Other</div><div class="cat-count">65</div><div class="cat-sub">5.2%</div></div>
+  <div class="cat-card"><div class="cat-name">🇺🇦 Ukraine</div><div class="cat-count">54</div><div class="cat-sub">4.3%</div></div>
+  <div class="cat-card"><div class="cat-name">🏥 Health</div><div class="cat-count">41</div><div class="cat-sub">3.2%</div></div>
+  <div class="cat-card"><div class="cat-name">🇨🇳 China</div><div class="cat-count">32</div><div class="cat-sub">2.5%</div></div>
+  <div class="cat-card"><div class="cat-name">🏛️ Politics</div><div class="cat-count">20</div><div class="cat-sub">1.6%</div></div>
+</div>
+
+<!-- DEEP QA / GATE -->
+<h2>Deep QA &amp; Gate Queue</h2>
+<div class="stat-row">
+  <div class="stat-card">
+    <div class="stat-value">637</div>
+    <div class="stat-label">Deep QA Total</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-value status-warn">307</div>
+    <div class="stat-label">Gate Queued</div>
+  </div>
+</div>
+<p style="font-size:12px; color:#8b949e; margin-top:8px;">
+  Deep QA OWN owners: <strong>Peter Zeihan</strong>, <strong>Doomberg</strong>, <strong>Peter Diamandis</strong>, <strong>Ian Bremmer</strong>, <strong>David McAlvany</strong>
+</p>
+
+<!-- ORIGIN RESWEEP -->
+<h2>Origin Resweep</h2>
+<p class="status-warn" style="font-size:13px;">⚠ Still waiting for attribution resweep (qa_results vs qa_queue) — log shows continuous waiting, no completion.</p>
+
+<footer>
+  Seer Score v0.46 &nbsp;|&nbsp; Report auto-generated at 8:00 PM EDT &nbsp;|&nbsp; Data source: data/predictions.json
+</footer>
+
+</body>
+</html>

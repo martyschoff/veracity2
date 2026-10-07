@@ -2262,7 +2262,9 @@
       "marty_agrees": true,
       "marty_note": "MartyPredicts: Right",
       "marty_at": "2026-10-06",
-      "marty_verdict": "correct"
+      "marty_verdict": "correct",
+      "mc_status": "queued",
+      "miro_status": "queued"
     },
     {
       "id": "pred_20260930192307_f7bb161cb48f",
@@ -3150,7 +3152,9 @@
       "marty_agrees": false,
       "marty_note": "MartyPredicts: Wrong",
       "marty_at": "2026-10-06",
-      "marty_verdict": "wrong"
+      "marty_verdict": "wrong",
+      "mc_status": "queued",
+      "miro_status": "queued"
     },
     {
       "id": "pred_20261001142337_001",
@@ -3188,7 +3192,9 @@
       "marty_agrees": false,
       "marty_note": "MartyPredicts: Wrong",
       "marty_at": "2026-10-06",
-      "marty_verdict": "wrong"
+      "marty_verdict": "wrong",
+      "mc_status": "queued",
+      "miro_status": "queued"
     },
     {
       "id": "pred_20261001142359_000",
@@ -11035,11 +11041,12 @@
       ],
       "marty_agrees": false,
       "marty_note": "MartyPredicts: Wrong",
-      "marty_at": "2026-10-06",
-      "mc_status": "done",
-      "miro_status": "error",
+      "marty_at": "2026-10-07",
+      "mc_status": "queued",
+      "miro_status": "queued",
       "mc_result": "RIGHT (100% of 3 decided, 29 unclear)",
-      "mc_split": 0
+      "mc_split": 0,
+      "marty_verdict": "wrong"
     },
     {
       "id": "pred_20261001184806_815674644408",
@@ -36279,7 +36286,9 @@
       "marty_agrees": false,
       "marty_note": "MartyPredicts: Wrong",
       "marty_at": "2026-10-06",
-      "marty_verdict": "wrong"
+      "marty_verdict": "wrong",
+      "mc_status": "queued",
+      "miro_status": "queued"
     },
     {
       "id": "pred_20261002000858_720c79dac5fe",

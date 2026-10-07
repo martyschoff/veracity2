@@ -5,6 +5,10 @@ from __future__ import annotations
 import json
 import os
 from datetime import datetime
+
+# shared lock for predictions.json (matches scripts/data_lock.py)
+from filelock import FileLock
+from datetime import datetime
 from pathlib import Path
 from typing import Any
 
@@ -17,6 +21,7 @@ from src.store import Store
 # Paths
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_FILE = BASE_DIR / "data" / "predictions.json"
+_DATA_LOCK = FileLock(str(BASE_DIR / "data" / "predictions.json.lock"), timeout=60)
 TEMPLATES_DIR = BASE_DIR / "templates"
 
 # Ensure data dir exists
@@ -234,41 +239,46 @@ MARKS_LOG = BASE_DIR / "data" / "user_marks.json"
 
 
 def _apply_mark(pred_id: str, agrees: bool, note: str = "") -> bool:
-    """Apply a Marty mark to predictions.json (read-modify-write + log)."""
-    with open(DATA_FILE, "r", encoding="utf-8") as f:
-        data = json.load(f)
-    hit = False
-    for p in data["predictions"]:
-        if p.get("id") == pred_id:
-            p["marty_agrees"] = agrees
-            p["marty_note"] = note or ("MartyPredicts: Right" if agrees else "MartyPredicts: Wrong")
-            p["marty_at"] = datetime.now().date().isoformat()
-            p["marty_verdict"] = "correct" if agrees else "wrong"  # Marty's vote is FINAL, independent of panels
-            hit = True
-            break
-    if hit:
-        with open(DATA_FILE, "w", encoding="utf-8") as f:
-            json.dump(data, f, indent=2, ensure_ascii=False)
-        log = json.load(open(MARKS_LOG, encoding="utf-8")) if MARKS_LOG.exists() else []
-        log.append({"id": pred_id, "agrees": agrees, "note": note,
-                    "at": datetime.now().isoformat()})
-        MARKS_LOG.write_text(json.dumps(log, indent=2), encoding="utf-8")
+    """Apply a Marty mark to predictions.json (locked read-modify-write + log)."""
+    with _DATA_LOCK:
+        with open(DATA_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        hit = False
+        for p in data["predictions"]:
+            if p.get("id") == pred_id:
+                p["marty_agrees"] = agrees
+                p["marty_note"] = note or ("MartyPredicts: Right" if agrees else "MartyPredicts: Wrong")
+                p["marty_at"] = datetime.now().date().isoformat()
+                p["marty_verdict"] = "correct" if agrees else "wrong"  # Marty's vote is FINAL, independent of panels
+                if p.get("mc_status") in (None, "none", "not_due", "done"):
+                    p["mc_status"] = "queued"  # swarm runs for the record; never overrides Marty
+                if p.get("miro_status") in (None, "none", "error", "not_due"):
+                    p["miro_status"] = "queued"
+                hit = True
+                break
+        if hit:
+            with open(DATA_FILE, "w", encoding="utf-8") as f:
+                json.dump(data, f, indent=2, ensure_ascii=False)
+            log = json.load(open(MARKS_LOG, encoding="utf-8")) if MARKS_LOG.exists() else []
+            log.append({"id": pred_id, "agrees": agrees, "note": note,
+                        "at": datetime.now().isoformat()})
+            MARKS_LOG.write_text(json.dumps(log, indent=2), encoding="utf-8")
     return hit
 
 
 def _apply_critique(pred_id: str, text: str) -> bool:
-    with open(DATA_FILE, "r", encoding="utf-8") as f:
-        data = json.load(f)
-    hit = False
-    for p in data["predictions"]:
-        if p.get("id") == pred_id:
-            crits = p.setdefault("critiques", [])
-            crits.append({"text": text, "at": datetime.now().isoformat()})
-            hit = True
-            break
-    if hit:
-        with open(DATA_FILE, "w", encoding="utf-8") as f:
-            json.dump(data, f, indent=2, ensure_ascii=False)
+    with _DATA_LOCK:
+        with open(DATA_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        hit = False
+        for p in data["predictions"]:
+            if p.get("id") == pred_id:
+                p.setdefault("critiques", []).append({"text": text, "at": datetime.now().isoformat()})
+                hit = True
+                break
+        if hit:
+            with open(DATA_FILE, "w", encoding="utf-8") as f:
+                json.dump(data, f, indent=2, ensure_ascii=False)
     return hit
 
 
@@ -276,30 +286,31 @@ IMPLICIT_QUEUE = BASE_DIR / "data" / "implicit_queue.json"
 
 
 def _resolve_implicit(qid: str, action: str):
-    q = json.load(open(IMPLICIT_QUEUE, encoding="utf-8")) if IMPLICIT_QUEUE.exists() else []
-    entry = next((e for e in q if e["id"] == qid), None)
-    if not entry:
-        return False
-    d = json.load(open(DATA_FILE, encoding="utf-8"))
-    pred = next((p for p in d["predictions"] if p["id"] == qid), None)
-    if action == "move":
-        entry["status"] = "moved"
-        if pred:
-            pred["gate_status"] = "promoted"  # back on the grid as a real prediction
-            if entry.get("implicit_forecast"):
-                pred["claim"] = entry["implicit_forecast"]
-            pred["origin"] = "implicit-forecast"
-    elif action == "keep":
-        entry["status"] = "kept"
-        if pred:
-            pred["gate_status"] = "kept"  # parked off-grid
-    elif action == "delete":
-        entry["status"] = "deleted"
-        if pred:
-            pred["removed"] = True
-    IMPLICIT_QUEUE.write_text(json.dumps(q, indent=2), encoding="utf-8")
-    with open(DATA_FILE, "w", encoding="utf-8") as f:
-        json.dump(d, f, indent=2, ensure_ascii=False)
+    with _DATA_LOCK:
+        q = json.load(open(IMPLICIT_QUEUE, encoding="utf-8")) if IMPLICIT_QUEUE.exists() else []
+        entry = next((e for e in q if e["id"] == qid), None)
+        if not entry:
+            return False
+        d = json.load(open(DATA_FILE, encoding="utf-8"))
+        pred = next((p for p in d["predictions"] if p["id"] == qid), None)
+        if action == "move":
+            entry["status"] = "moved"
+            if pred:
+                pred["gate_status"] = "promoted"
+                if entry.get("implicit_forecast"):
+                    pred["claim"] = entry["implicit_forecast"]
+                pred["origin"] = "implicit-forecast"
+        elif action == "keep":
+            entry["status"] = "kept"
+            if pred:
+                pred["gate_status"] = "kept"
+        elif action == "delete":
+            entry["status"] = "deleted"
+            if pred:
+                pred["removed"] = True
+        IMPLICIT_QUEUE.write_text(json.dumps(q, indent=2), encoding="utf-8")
+        with open(DATA_FILE, "w", encoding="utf-8") as f:
+            json.dump(d, f, indent=2, ensure_ascii=False)
     return True
 
 

@@ -6,12 +6,18 @@ import json
 import re
 import subprocess
 import time
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from data_lock import locked_data
 import urllib.error
 import urllib.request
 from pathlib import Path
 
+import filelock
+
 BASE = Path(r'C:/Users/schof/veracity2')
 DATA = BASE / 'data' / 'predictions.json'
+LOCK = BASE / 'data' / 'predictions.json.lock'
 PANEL = Path(r'C:/Users/schof/veracity-panel/backend')
 FIXTURES = PANEL / 'app' / 'fixtures'
 RUNNER = PANEL / 'scripts' / 'run_claim_adjudication.py'
@@ -117,16 +123,17 @@ def process(pred):
             'confidence': v.get('confidence'),
             'summary': str(v.get('summary') or v.get('rationale') or '')[:500],
         }
-        with open(DATA, 'w', encoding='utf-8') as f:
-            json.dump(data, f, indent=2, ensure_ascii=False)
+        with locked_data() as fresh:
+            fidx = {q['id']: i2 for i2, q in enumerate(fresh['predictions'])}
+            fresh['predictions'][fidx[pred['id']]] = target
         log(f"{pred['id']} miro verdict saved")
     else:
         with open(DATA, encoding='utf-8') as f:
             data = json.load(f)
         target = next(x for x in data['predictions'] if x['id'] == pred['id'])
-        target['miro_status'] = 'error'
-        with open(DATA, 'w', encoding='utf-8') as f:
-            json.dump(data, f, indent=2, ensure_ascii=False)
+        with locked_data() as fresh:
+            fidx = {q['id']: i2 for i2, q in enumerate(fresh['predictions'])}
+            fresh['predictions'][fidx[pred['id']]] = {**target, 'miro_status': 'error'}
         log(f"{pred['id']} FAILED")
 
 

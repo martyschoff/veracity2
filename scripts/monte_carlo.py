@@ -15,8 +15,11 @@ import re
 import sys
 from pathlib import Path
 
+import filelock
+
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from src.pipeline import PRODUCER_ENDPOINTS, call_llm, load_data, save_data
+from data_lock import locked_data
+from src.pipeline import PRODUCER_ENDPOINTS, call_llm
 
 # Swarm vote endpoints: nimo128 + 3080 box 7B (parallel workers)
 SWARM_ENDPOINTS = [
@@ -35,6 +38,7 @@ SWARM_ENDPOINTS = [
 
 N_DEFAULT = 40
 DATA = Path(__file__).resolve().parent.parent / "data" / "predictions.json"
+LOCK = DATA.with_suffix('.json.lock')
 
 AXES = [
     ("expertise", ["an economist", "a geopolitical analyst", "an energy markets trader",
@@ -92,27 +96,38 @@ def persona_vote(persona: str, claim: str, made_date: str) -> dict | None:
 
 
 def run(n: int = N_DEFAULT):
-    data = load_data()
-    today = datetime.date.today().isoformat()
-    queue = []
-    for p in data["predictions"]:
-        if p.get("mc_status") != "queued":
-            continue
-        # Eligibility gate: swarm only judges predictions whose window has closed
-        # or whose stated year has arrived (matches the test_eligible_at framework)
-        year_m = re.search(r"\b(20[2-9]\d)\b", p.get("claim", ""))
-        due = (p.get("test_eligible_at") or (f"{year_m.group(1)}-12-31" if year_m else None))
-        if due and due > today:
-            p["mc_status"] = "not_due"
-            p["mc_result"] = None
-            continue
-        queue.append(p)
+    # Load + build queue — single lock hold
+    with filelock.FileLock(str(LOCK), timeout=300):
+        with open(DATA, encoding='utf-8') as f:
+            data = json.load(f)
+        today = datetime.date.today().isoformat()
+        queue = []
+        for p in data["predictions"]:
+            if p.get("mc_status") != "queued":
+                continue
+            year_m = re.search(r"\b(20[2-9]\d)\b", p.get("claim", ""))
+            due = (p.get("test_eligible_at") or (f"{year_m.group(1)}-12-31" if year_m else None))
+            if due and due > today:
+                p["mc_status"] = "not_due"
+                p["mc_result"] = None
+                continue
+            queue.append(p)
+
     if not queue:
         print("Monte Carlo queue is empty.")
+        with filelock.FileLock(str(LOCK), timeout=300):
+            with open(DATA, encoding='utf-8') as f:
+                data = json.load(f)
+        with locked_data() as fresh:
+            fidx = {q['id']: i2 for i2, q in enumerate(fresh['predictions'])}
+            for q in data['predictions']:
+                if q['id'] in fidx:
+                    fresh['predictions'][fidx[q['id']]] = q
         return
     personas = build_personas(n)
     print(f"{len(queue)} prediction(s) queued; {len(personas)} personas each")
     for pred in queue:
+        pred_id = pred.get("id")
         import concurrent.futures
         votes = []
         with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
@@ -129,17 +144,41 @@ def run(n: int = N_DEFAULT):
         unc = sum(1 for v in votes if v["verdict"] == "unclear")
         decided = yes + no
         if decided == 0:
-            pred["mc_status"] = "done"
-            pred["mc_result"] = "undetermined (all unclear)"
-            continue
-        pct_yes = round(100 * yes / decided)
-        direction = "RIGHT" if pct_yes >= 50 else "WRONG"
-        split = min(pct_yes, 100 - pct_yes)
-        pred["mc_status"] = "done"
-        pred["mc_result"] = f"{direction} ({pct_yes}% of {decided} decided, {unc} unclear)"
-        pred["mc_split"] = split  # low = contested; phase-2 candidates
-        print(f"  => {pred['claim'][:60]} : {pred['mc_result']}")
-    save_data(data)
+            mc_status = "done"
+            mc_result = "undetermined (all unclear)"
+            split = 0
+        else:
+            pct_yes = round(100 * yes / decided)
+            direction = "RIGHT" if pct_yes >= 50 else "WRONG"
+            split = min(pct_yes, 100 - pct_yes)
+            mc_status = "done"
+            mc_result = f"{direction} ({pct_yes}% of {decided} decided, {unc} unclear)"
+
+        # Lock, reload, mutate, save
+        with filelock.FileLock(str(LOCK), timeout=300):
+            with open(DATA, encoding='utf-8') as f:
+                data = json.load(f)
+            target = next((x for x in data["predictions"] if x.get("id") == pred_id), None)
+            if target:
+                target["mc_status"] = mc_status
+                target["mc_result"] = mc_result
+                if decided > 0:
+                    target["mc_split"] = min(pct_yes, 100 - pct_yes)
+                print(f"  => {target['claim'][:60]} : {mc_result}")
+                with locked_data() as fresh:
+                    fidx = {q['id']: i2 for i2, q in enumerate(fresh['predictions'])}
+                    fresh['predictions'][fidx[pred_id]] = pred_snapshot
+            else:
+                print(f"  => TARGET GONE: {pred_id}", flush=True)
+    # Final idempotent write
+    with filelock.FileLock(str(LOCK), timeout=300):
+        with open(DATA, encoding='utf-8') as f:
+            data = json.load(f)
+        with locked_data() as fresh:
+            fidx = {q['id']: i2 for i2, q in enumerate(fresh['predictions'])}
+            for q in data['predictions']:
+                if q['id'] in fidx:
+                    fresh['predictions'][fidx[q['id']]] = q
     print("Saved. Render+deploy to publish badges.")
 
 
