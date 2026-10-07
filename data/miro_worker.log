@@ -12307,3 +12307,8 @@ ValueError: No embedding data received
 
 2026-10-07 13:43:07 pred_20261001142337_001 miro verdict saved
 2026-10-07 13:43:07 adjudicating pred_20261001163700_663715: Three Mile Island nuclear plant will go back into service in 2028.
+2026-10-07 14:39:42 miro worker started (nimo via proxy; 7-GPU pool skipped)
+2026-10-07 14:39:44 starting Neo4j
+2026-10-07 14:40:05 neo4j http up
+2026-10-07 14:40:07 starting LLM proxy
+2026-10-07 14:40:10 adjudicating pred_20261001163700_663715: Three Mile Island nuclear plant will go back into service in 2028.
