@@ -36,6 +36,28 @@ def gather():
     marks = [x for x in preds if x.get('marty_verdict')]
     swarm_recent = [(x['individual_name'], x['claim'][:60], x.get('mc_result'))
                     for x in preds if x.get('mc_status') == 'done'][-6:]
+    # Delphi scoring: per-mechanism stats (Delphi3080 = miro_*, DelphiCursor = delphicursor_*)
+    miro_vals = [x['miro_result'] for x in preds if x.get('miro_result')]
+    cur_vals = [x['delphicursor_result'] for x in preds if x.get('delphicursor_result')]
+    def _mech(vals, field_conf='confidence'):
+        confs = [v.get(field_conf) for v in vals if isinstance(v.get(field_conf), (int, float))]
+        from collections import Counter
+        votes = Counter(str((v.get('verdict') or v.get('vote') or '?')).lower()[:12] for v in vals)
+        return {'count': len(vals), 'avg_confidence': round(sum(confs)/len(confs), 2) if confs else None,
+                'votes': dict(votes)}
+    delphi_scores = {
+        'delphi3080': {'done': len(miro_vals),
+                       'queued': sum(1 for x in preds if x.get('miro_status') == 'queued'),
+                       'error': sum(1 for x in preds if x.get('miro_status') == 'error'),
+                       **_mech(miro_vals)},
+        'delphicursor': {'done': len(cur_vals),
+                         'queued': sum(1 for x in preds if x.get('delphicursor_status') == 'queued'),
+                         'error': sum(1 for x in preds if x.get('delphicursor_status') in ('error', 'failed_permanent')),
+                         **_mech(cur_vals, 'confidence')},
+    }
+    cursor_recent = [(x['individual_name'], x['claim'][:60],
+                      str((x.get('delphicursor_result') or {}).get('vote'))[:20])
+                     for x in preds if x.get('delphicursor_result')][-6:]
     miro_recent = [(x['individual_name'], x['claim'][:60], str(x.get('miro_result', {}).get('verdict'))[:40])
                    for x in preds if x.get('miro_result')]
     log_tail = WORKER_LOG.read_text(encoding='utf-8').splitlines()[-8:] if WORKER_LOG.exists() else []
@@ -64,6 +86,8 @@ def gather():
         'marks': [(x['individual_name'], x['claim'][:50], x['marty_verdict']) for x in marks],
         'swarm_recent': swarm_recent,
         'miro_recent': miro_recent,
+        'delphi_scores': delphi_scores,
+        'cursor_recent': cursor_recent,
         'log_tail': log_tail,
         'harvests': harvests,
     }

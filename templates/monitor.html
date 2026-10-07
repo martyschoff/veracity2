@@ -53,8 +53,18 @@
     </div>
 
     <div class="card">
+        <h2>Delphi scoring</h2>
+        <table id="delphiscore"></table>
+    </div>
+
+    <div class="card">
         <h2>Delphi3080 results (latest)</h2>
         <table id="miro"></table>
+    </div>
+
+    <div class="card">
+        <h2>DelphiCursor (Opus) results (latest)</h2>
+        <table id="cursor"></table>
     </div>
 
     <div class="card">
@@ -100,6 +110,18 @@ function load() {
         document.getElementById('miro').innerHTML = d.miro_recent.map(function(m){
             return '<tr><td>' + m[0] + '</td><td>' + m[1] + '</td><td class="fc">' + (m[2] || '') + '</td></tr>';
         }).join('') || '<tr><td class="tbd">none yet</td></tr>';
+        var ds = d.delphi_scores || {};
+        function mechRow(label, m) {
+            m = m || {};
+            var votes = Object.keys(m.votes || {}).map(function(k){ return k + ' x' + m.votes[k]; }).join(', ') || '-';
+            return '<tr><td><b>' + label + '</b></td><td>' + (m.done || 0) + '</td><td>' + (m.queued || 0) + '</td><td>' + (m.error || 0) + '</td><td>' + votes + '</td><td>' + (m.avg_confidence == null ? '-' : m.avg_confidence) + '</td></tr>';
+        }
+        document.getElementById('delphiscore').innerHTML = '<tr><th>Mechanism</th><th>Done</th><th>Queued</th><th>Error</th><th>Vote distribution</th><th>Avg confidence</th></tr>' +
+            mechRow('Delphi3080 (agent society, 32B)', ds.delphi3080) +
+            mechRow('DelphiCursor (Opus, advisory)', ds.delphicursor);
+        document.getElementById('cursor').innerHTML = (d.cursor_recent || []).map(function(m){
+            return '<tr><td>' + m[0] + '</td><td>' + m[1] + '</td><td class="fc">' + (m[2] || '') + '</td></tr>';
+        }).join('') || '<tr><td class="tbd">none yet (no cases submitted)</td></tr>';
         document.getElementById('log').textContent = d.log_tail.join('\n');
     });
 }
