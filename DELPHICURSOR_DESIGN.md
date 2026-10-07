@@ -34,6 +34,16 @@ of the local 32B panel stack. Same claim-in/verdict-out contract as Delphi3080.
 - Reserved for disagreements only, or run on every graded prediction?
 - Cursor subscription budget cap per month?
 
+## GRID LABELING (design, 2026-10-07)
+Card display names must be unmistakable now that two Delphi verdicts can
+co-exist on one card:
+- Delphi3080 -> label "Delphi3080" (sub: "agent-society sim - local 32B")
+- DelphiCursor -> label "DelphiCursor" (sub: "Opus - advisory")
+- Swarm -> "Swarm" (sub: "40 personas"); Panel -> "Panel" (sub: "weighted votes")
+- Marty -> "Marty" (sub: "final"); Fact-Check -> "Fact-Check" (sub: "authoritative")
+Example card line: "Marty: Right (final) - Delphi3080: Correct -
+DelphiCursor: Wrong - Swarm: 65% on-track"
+
 ## OWNER DECISIONS (2026-10-07)
 - **Mode A chosen**: DelphiCursor is advisory. Owner marks Marty Right/Left
   (final), and Opus runs too - the grid shows BOTH Delphi3080's verdict and
