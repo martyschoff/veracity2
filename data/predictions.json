@@ -40793,7 +40793,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Chris Wright (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is insufficient data on the current Dow/gold ratio to determine whether it has fallen to one, two, or three to one. The prediction's fulfillment cannot be assessed without specific, up-to-date market figures."
+        },
+        {
+          "panelist": "Victor Davis Hanson (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, there is insufficient data to determine whether the Dow/gold ratio has reached one, two, or three to one. The necessary market data to evaluate the prediction's accuracy is either unavailable or inconclusive at this time."
+        },
+        {
+          "panelist": "Michael Auslin (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction refers to the Dow/gold ratio reaching one, two, or three to one, but as of late 2026, there is insufficient public data or clarity on the exact ratio at this time to determine if the threshold has been met."
+        }
+      ]
     },
     {
       "id": "pred_1790961078_41",
@@ -40807,7 +40826,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Konstantin Kisin (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, it is too early to determine whether a major bear market correction will occur within the next decade. While overvaluation is a potential risk factor, market outcomes depend on numerous unpredictable variables, including economic conditions, policy changes, and global events."
+        },
+        {
+          "panelist": "Matthew Kroenig (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, it is too early to determine whether a major bear market correction will occur within the next decade. While current overvaluation levels may raise concerns, financial markets are subject to many variables that could either trigger or prevent a correction over the full time horizon."
+        },
+        {
+          "panelist": "Andrew Ross Sorkin (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, it is too early to determine whether a major bear market correction will occur within the next decade. While overvaluation is a concern, market outcomes depend on numerous unpredictable factors, and no definitive trend has emerged to confirm or refute the prediction."
+        }
+      ]
     },
     {
       "id": "pred_1790961078_42",
@@ -40920,7 +40958,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Tom Cotton (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "While there have been notable developments in the use of the yuan for oil transactions, particularly with China and Iran, there is not yet sufficient evidence by late 2026 to confirm that the petroyuan has displaced the petrodollar as the dominant currency for global oil transactions."
+        },
+        {
+          "panelist": "Lyse Doucet (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "While there have been notable developments in the use of the yuan for oil transactions, particularly with China and Iran, there is not yet sufficient evidence to confirm that the petroyuan has displaced the petrodollar as the dominant currency for oil transactions globally."
+        },
+        {
+          "panelist": "Andrew Ross Sorkin (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "While there are indications of increased use of the petroyuan in specific transactions, particularly involving Iran and China, there is insufficient evidence by late 2026 to confirm that it has displaced the petrodollar as the dominant currency for global oil transactions."
+        }
+      ]
     },
     {
       "id": "pred_1790961078_48",
@@ -40934,7 +40991,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Steven Koonin (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, gold prices have shown volatility but have not yet reached $6,000. There is insufficient evidence to determine if the prediction is on track or off course."
+        },
+        {
+          "panelist": "Constanze Stelzenmuller (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, gold prices have shown volatility but have not yet reached $6,000. There is insufficient data to determine if the trajectory is firmly set toward the predicted levels."
+        },
+        {
+          "panelist": "Marco Rubio (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, gold prices have shown significant volatility but have not yet reached $6,000 per ounce. There is insufficient evidence to determine if the trajectory is clearly on track for the predicted levels."
+        }
+      ],
       "deep_qa": "OWNS"
     },
     {
@@ -40949,7 +41025,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Anders Puck Nielsen (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, there is no conclusive evidence that oil traders are as wrong today as they were in 1973, nor is there confirmation that oil prices will remain elevated for an extended period. While valuations may appear stretched, the trajectory of the stock market and the impact of energy prices "
+        },
+        {
+          "panelist": "Steven Koonin (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, there is no definitive evidence that oil traders are as wrong today as they were in 1973, nor is there confirmation that oil prices will remain elevated for an extended period. The prediction hinges on future developments that are not yet observable or confirmed."
+        },
+        {
+          "panelist": "John Mearsheimer (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, it is too early to determine whether oil traders are as wrong as in 1973 or whether the current elevated oil prices will trigger an extended bear market in equities. While valuations are stretched and mean reversion is a theoretical force, a clear causal link between oil price dynam"
+        }
+      ]
     },
     {
       "id": "pred_1790961078_50",
@@ -40963,7 +41058,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Jakkie Cilliers (simulated)",
+          "verdict": "unclear",
+          "weight": 1.5,
+          "reasoning": "As of late 2026, it is not yet clear whether oil prices have remained elevated for a prolonged period or whether this has led to acute pressure on the dollar. The prediction's outcome depends on future developments in oil markets and their macroeconomic impact."
+        },
+        {
+          "panelist": "Peter Brookes (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, it is not yet clear whether oil prices have remained elevated for a prolonged period or whether the dollar has come under acute pressure as a result. The prediction hinges on future developments in oil markets and their impact on the dollar, which remain uncertain."
+        },
+        {
+          "panelist": "Constanze Stelzenmuller (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, it is not yet clear whether oil prices have remained elevated for a prolonged period or whether the dollar has come under acute pressure as a result. The conditions necessary to confirm the prediction are still unfolding and lack sufficient clarity at this time."
+        }
+      ]
     },
     {
       "id": "pred_1790961078_51",
@@ -40999,7 +41113,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Brent Sadler (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, silver has not reached $500 an ounce, but there is insufficient evidence to determine whether it is clearly off track or still on trajectory to reach that level by a future date."
+        },
+        {
+          "panelist": "Ylan Mui (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, silver has not reached $500 an ounce, but there is insufficient evidence to determine whether it is clearly off track or still on a trajectory toward that price given longer-term factors like inflation and market dynamics."
+        },
+        {
+          "panelist": "Aaron David Miller (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, silver has not reached $500 an ounce, but the prediction was made for a future date (2026-05-15) without a specified end date. There is insufficient data to determine if the trajectory is clearly on or off track."
+        }
+      ]
     },
     {
       "id": "pred_1790961078_55",
@@ -41013,7 +41146,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Mustafa Suleyman (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction is too vague and lacks a specific timeframe or measurable criteria for evaluation. Without clear benchmarks or a defined endpoint, it is not possible to determine if the statement about silver's trajectory has been proven correct or incorrect."
+        },
+        {
+          "panelist": "Adam Taggart (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction is vague and lacks a specific timeframe or measurable criteria for evaluation. Without clear benchmarks or a defined period for 'a couple of days,' it is not possible to definitively assess its correctness at this time."
+        },
+        {
+          "panelist": "David Blackmon (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction is vague in terms of measurable outcome, as it refers to silver 'not showing an inkling of stopping' and 'could continue rising for at least a couple of days' without a defined timeframe or benchmark. Without specific data on silver's price trajectory around the relevant period, it ca"
+        }
+      ],
       "deep_qa": "OWNS"
     },
     {
@@ -41024,11 +41176,30 @@
       "claim": "Gold could break out of its current range and move into the 56-5700s in the next couple weeks, potentially signaling a continuation of its bullish trend.",
       "source_url": "https://www.youtube.com/watch?v=QMPlAiyWUW4",
       "transcript_excerpt": "So decision point in gold is probably pending in a very short period of time. Are we going to break into the 56-5700s and continue to climb especially on some of the geopolitical news that we've got coming out right now or are we going to see gold start to languish here",
-      "verdict": null,
+      "verdict": "correct",
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Jake Sullivan (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "Gold did break out of its current range and moved into the 56-5700s within the next couple of weeks, continuing its bullish trend as predicted."
+        },
+        {
+          "panelist": "Jacquelyn Schneider (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "By late 2026, gold has indeed broken out of its previous range and moved into the 56-5700s, continuing its bullish trend amid ongoing geopolitical tensions and economic uncertainty."
+        },
+        {
+          "panelist": "Stephen Kotkin (simulated)",
+          "verdict": "correct",
+          "weight": 1.25,
+          "reasoning": "By late 2026, gold had indeed broken out of its previous range and moved into the $56-5700s, continuing its bullish trend amid heightened geopolitical tensions and monetary policy shifts."
+        }
+      ]
     },
     {
       "id": "pred_1790961078_57",
@@ -41038,11 +41209,30 @@
       "claim": "If the dollar continues its current downward trend, it could fall below 95 again in the near future, which is defined as weeks or days.",
       "source_url": "https://www.youtube.com/watch?v=QMPlAiyWUW4",
       "transcript_excerpt": "Near future meaning over the next couple days or weeks, and could be pushing down sub-95 again if it's going to continue this trend.",
-      "verdict": null,
+      "verdict": "wrong",
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Sebastian Gorka (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The reference to the dollar falling below 95 is ambiguous without specifying the currency pair (e.g., USD/INR, USD/CNY). Additionally, the timeframe of 'weeks or days' from the prediction date (March 13, 2026) has passed, but there is insufficient specific data provided to confirm or refute the clai"
+        },
+        {
+          "panelist": "Mike Pence (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.0,
+          "reasoning": "By late 2026, the dollar has stabilized and shown no signs of falling below 95 in the near future; the prediction's timeline has passed without the described event occurring."
+        },
+        {
+          "panelist": "Adam Taggart (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.0,
+          "reasoning": "By late 2026, the dollar has not shown a continued downward trend as predicted, and there is no evidence it fell below 95 in the weeks or days following the prediction date."
+        }
+      ],
       "deep_qa": "OWNS"
     },
     {
@@ -41053,11 +41243,30 @@
       "claim": "I think it will be in the mid60s on the gold/silver ratio by the middle of next year.",
       "source_url": "https://www.youtube.com/watch?v=ek-mt_R4qC0",
       "transcript_excerpt": "… it has since returned to 85 to1 this week by the middle of next year. I think it will be in the mid60s on the ratio.",
-      "verdict": null,
+      "verdict": "wrong",
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Stuart Varney (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.0,
+          "reasoning": "The prediction called for the gold/silver ratio to be in the mid-60s by the middle of next year (i.e., mid-2026). However, the ratio has since returned to 85 to 1 by that time, which is significantly higher than the mid-60s range, making the prediction incorrect."
+        },
+        {
+          "panelist": "Vali Nasr (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.25,
+          "reasoning": "The prediction called for the gold/silver ratio to be in the mid60s by the middle of next year (i.e., mid-2026). However, the context indicates that by late 2026, the ratio had returned to 85 to 1, which is significantly higher than the mid60s, making the prediction incorrect."
+        },
+        {
+          "panelist": "John Mearsheimer (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.25,
+          "reasoning": "The prediction called for the gold/silver ratio to be in the mid-60s by the middle of next year (i.e., mid-2026). However, it is now late 2026, and the ratio has since returned to 85 to 1, indicating it is significantly off track from the predicted range."
+        }
+      ],
       "deep_qa": "OWNS"
     },
     {
