@@ -4,7 +4,7 @@
   {
    "layout": "title",
    "title": "Delphi Process \u2014 Technical Anatomy",
-   "subtitle": "Heuristics, aggregation math, and information flow: MiroFish public service vs Delphi3080 vs DelphiCursor  \u00b7  Marty Schoffstall, co-author",
+   "subtitle": "Heuristics, aggregation math, and information flow: MiroFish public service vs Delphi3080 vs DelphiCursor  \u00b7  Marty Schoffstall, co-author  \u00b7  github.com/martyschoff/veracity2",
    "background": "0B1120",
    "footer": "SeerScore.AI",
    "slide_number": true,
