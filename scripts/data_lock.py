@@ -13,7 +13,7 @@ from filelock import FileLock
 BASE = Path(r'C:/Users/schof/veracity2')
 DATA_FILE = BASE / 'data' / 'predictions.json'
 LOCK_FILE = BASE / 'data' / 'predictions.json.lock'
-_LOCK = FileLock(str(LOCK_FILE), timeout=120)
+_LOCK = FileLock(str(LOCK_FILE), timeout=300)
 
 
 @contextmanager
