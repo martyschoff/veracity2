@@ -2416,7 +2416,7 @@
       "marty_verdict": "correct",
       "mc_status": "queued",
       "miro_status": "done",
-      "delphicursor_status": "failed_permanent",
+      "delphicursor_status": "queued",
       "miro_result": {
         "verdict": "inconclusive",
         "confidence": 0.25,
@@ -3312,7 +3312,7 @@
       "marty_verdict": "wrong",
       "mc_status": "queued",
       "miro_status": "done",
-      "delphicursor_status": "failed_permanent",
+      "delphicursor_status": "queued",
       "miro_result": {
         "verdict": "inconclusive",
         "confidence": 0.25,
@@ -3358,7 +3358,7 @@
       "marty_verdict": "wrong",
       "mc_status": "queued",
       "miro_status": "done",
-      "delphicursor_status": "failed_permanent",
+      "delphicursor_status": "queued",
       "miro_result": {
         "verdict": "inconclusive",
         "confidence": 0.3,
@@ -11221,7 +11221,7 @@
       "mc_result": "RIGHT (100% of 3 decided, 29 unclear)",
       "mc_split": 0,
       "marty_verdict": "wrong",
-      "delphicursor_status": "failed_permanent"
+      "delphicursor_status": "queued"
     },
     {
       "id": "pred_20261001184806_815674644408",
@@ -20420,7 +20420,7 @@
       "marty_note": "MartyPredicts: Wrong",
       "marty_at": "2026-10-07",
       "marty_verdict": "wrong",
-      "delphicursor_status": "failed_permanent"
+      "delphicursor_status": "queued"
     },
     {
       "id": "pred_20261001205315_85871f03c04b",
@@ -23923,7 +23923,7 @@
       "marty_note": "MartyPredicts: Right",
       "marty_at": "2026-10-07",
       "marty_verdict": "correct",
-      "delphicursor_status": "failed_permanent"
+      "delphicursor_status": "queued"
     },
     {
       "id": "pred_20261001212625_4170213f97ed",

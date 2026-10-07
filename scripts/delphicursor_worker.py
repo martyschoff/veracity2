@@ -202,7 +202,7 @@ def run_agent(workspace: Path, claim_id: str, attempt: int) -> tuple[bool, dict 
     cmd = [
         CURSOR_CLI,
         '--trust',
-        '--model', 'claude-sonnet-4-20250514',  # Use Sonnet 4 (Opus-class)
+        '--model', 'opus',
         '-p', prompt
     ]
     
