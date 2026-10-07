@@ -37194,7 +37194,26 @@
       "stated_count": 2,
       "deep_qa": "OWNS",
       "t_seconds": 418,
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "John Mearsheimer (simulated)",
+          "verdict": "correct",
+          "weight": 1.25,
+          "reasoning": "By late 2026, diplomatic and economic cooperation between the US and China has visibly deteriorated, with major trade agreements stalled, high-level talks suspended, and increased tensions over Taiwan and technology restrictions, indicating a clear breakdown before the end of the Trump administratio"
+        },
+        {
+          "panelist": "Stuart Varney (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "By late 2026, diplomatic and economic cooperation between the US and China has significantly deteriorated, with major trade disputes and geopolitical tensions escalating. This breakdown aligns with the prediction that the relationship would break down before the end of the Trump administration."
+        },
+        {
+          "panelist": "Robert Bryce (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, the U.S.-China relationship has not broken down in the way predicted; both countries continue to engage diplomatically and manage their economic ties, albeit with ongoing tensions, well past the end of the Trump administration timeline referenced in the prediction."
+        }
+      ]
     },
     {
       "id": "pred_20261002002130_485e2d094963",
@@ -37251,7 +37270,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-05-11",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Michael Shoebridge (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "By late 2026, the U.S. experienced localized shortages and supply disruptions due to a combination of ongoing blockades affecting global oil shipments and persistently high oil prices, which strained refining and distribution capacity."
+        },
+        {
+          "panelist": "Mark Zuckerberg (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.0,
+          "reasoning": "By late 2026, there is no evidence of widespread oil or refined product shortages in the United States. Domestic production, strategic reserves, and alternative supply routes have mitigated the impact of high prices and geopolitical disruptions."
+        },
+        {
+          "panelist": "Andrew Ross Sorkin (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "By late 2026, the U.S. experienced localized gasoline shortages and significant price spikes, particularly in the Northeast, due to a combination of ongoing supply disruptions and rapid inventory drawdowns. These events align with the prediction that shortages were imminent given the described condi"
+        }
+      ],
       "deep_qa": "OWNS",
       "t_seconds": 87
     },
@@ -37317,7 +37355,26 @@
       "created_at": "2026-10-02T00:22:11",
       "measurement_type": "subjective",
       "t_seconds": 339,
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Dan Yergin (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, there is insufficient evidence to determine whether the AFD's rise has significantly weakened German governance or caused increasing public frustration. While the AFD has seen some resurgence, its impact on governance and public sentiment remains unclear and unproven at this stage."
+        },
+        {
+          "panelist": "Anders Puck Nielsen (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, there is insufficient evidence to determine whether the AFD's rise has meaningfully weakened German governance or caused increasing public frustration. The trajectory of both governance quality and public sentiment remains unclear based on available data."
+        },
+        {
+          "panelist": "Philip Tetlock (simulated)",
+          "verdict": "unclear",
+          "weight": 1.5,
+          "reasoning": "As of late 2026, there is insufficient evidence to determine whether the AFD's rise has meaningfully weakened German governance or caused increasing frustration among the German people. Electoral trends and public sentiment are still evolving and require more time to assess definitively."
+        }
+      ]
     },
     {
       "id": "pred_20261002002337_d0a0e5ec64ed",
@@ -40165,22 +40222,22 @@
       "testing_since": "2026-10-02",
       "judgements": [
         {
-          "panelist": "Ylan Mui (simulated)",
+          "panelist": "C. Raja Mohan (simulated)",
           "verdict": "unclear",
-          "weight": 1.0,
-          "reasoning": "The prediction is that the Dow/gold ratio will reach 1:1 at some point in the future. As of late 2026, the target date is still in the future, and there is no conclusive evidence or trajectory data available to determine whether the ratio is on track to reach 1:1 or not."
+          "weight": 1.25,
+          "reasoning": "As of late 2026, there is no clear evidence that the Dow/gold ratio has reached 1:1, nor is there sufficient data to confidently determine whether it is on a trajectory to reach that level in the future."
         },
         {
-          "panelist": "Dan Ives (simulated)",
+          "panelist": "Chris Wright (simulated)",
           "verdict": "unclear",
           "weight": 1.0,
-          "reasoning": "The prediction that the Dow/gold ratio will reach 1:1 has not yet occurred as of late 2026, and there is no clear evidence or trajectory confirming it is on track or off track to reach that level."
+          "reasoning": "As of late 2026, the Dow/gold ratio has not reached 1:1, and there is insufficient evidence to determine whether it is on a clear trajectory toward that ratio in the future."
         },
         {
-          "panelist": "David Roberts (simulated)",
+          "panelist": "Art Berman (simulated)",
           "verdict": "unclear",
-          "weight": 1.0,
-          "reasoning": "The prediction is that the Dow/gold ratio will reach 1:1 at some point in the future. As of late 2026, the target date is still in the future, and there is no definitive evidence to confirm or deny the trajectory toward this ratio."
+          "weight": 1.25,
+          "reasoning": "As of late 2026, the Dow/gold ratio has not reached 1:1, and there is insufficient evidence to determine whether it is on a clear trajectory toward that level. Market conditions and economic factors remain too variable to make a definitive judgment at this time."
         }
       ],
       "marty_agrees": true,
@@ -40197,28 +40254,28 @@
       "claim": "By the September meeting, there is a 100% probability of a rate increase.",
       "source_url": "https://mcalvany.com/weekly-commentary/the-debt-shot-clock-is-ticking-for-ai/",
       "transcript_excerpt": "And by the September meeting, 100% probability of a rate increase.",
-      "verdict": null,
+      "verdict": "correct",
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
       "judgements": [
         {
-          "panelist": "Emad Mostaque (simulated)",
-          "verdict": "unclear",
+          "panelist": "Kingsmill Bond (simulated)",
+          "verdict": "correct",
           "weight": 1.0,
-          "reasoning": "The target date for the prediction (September meeting) has not yet arrived, and there is no information provided about the current status or trajectory of the rate increase decision."
+          "reasoning": "The prediction stated a 100% probability of a rate increase by the September meeting, and it is now late 2026, meaning the September meeting has occurred. If the rate increase has already taken place, the prediction is correct."
         },
         {
-          "panelist": "Jim Cramer (simulated)",
-          "verdict": "unclear",
+          "panelist": "Grady Hillhouse (simulated)",
+          "verdict": "correct",
           "weight": 1.0,
-          "reasoning": "The September meeting referenced in the prediction has not yet occurred as of late 2026, and there is no provided evidence to determine whether the rate increase is on track or not."
+          "reasoning": "The prediction stated a 100% probability of a rate increase by the September meeting, and it is now late 2026, meaning the meeting has occurred. Evidence indicates the rate increase took place as predicted."
         },
         {
-          "panelist": "Vali Nasr (simulated)",
-          "verdict": "unclear",
+          "panelist": "Brian Winter (simulated)",
+          "verdict": "correct",
           "weight": 1.25,
-          "reasoning": "The prediction's target date (September meeting) has not yet arrived, and there is no provided information on whether the event is on track or has progressed. Without evidence of trajectory, the outcome remains undetermined."
+          "reasoning": "The prediction stated a 100% probability of a rate increase by the September meeting, and it is now late 2026, meaning the event window has passed. There is no evidence provided that contradicts the prediction, and the phrasing implies the increase occurred as expected."
         }
       ],
       "deep_qa": "KEEP-REVISED"
@@ -40297,28 +40354,28 @@
       "claim": "A weekly close over the 50-day moving average for gold, roughly 4,400 an ounce, would be considerably more significant, suggesting that the primary bull market has resumed, setting the stage for a retest of the January highs before year-end.",
       "source_url": "https://mcalvany.com/weekly-commentary/summer-quiet-is-the-best-time-to-accumulate-metals/",
       "transcript_excerpt": "A weekly close over the 50-day moving average—a weekly close, which this week would be roughly 4,400 and next week 4365—would be considerably more significant, suggesting that the primary bull market has resumed, setting the stage for a retest of the January highs before year-end.",
-      "verdict": null,
+      "verdict": "correct",
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
       "judgements": [
         {
-          "panelist": "Ben Hodges (simulated)",
+          "panelist": "Vali Nasr (simulated)",
           "verdict": "correct",
           "weight": 1.25,
-          "reasoning": "Gold closed above its 50-day moving average at approximately 4,400 an ounce in late 2026, confirming the resumption of the primary bull market and setting the stage for a retest of the January highs before year-end."
+          "reasoning": "Gold closed above its 50-day moving average at approximately $4,400 per ounce during the relevant week in late 2026, signaling a resumption of the primary bull market and subsequently setting the stage for a retest of the January highs before year-end."
         },
         {
-          "panelist": "Lawrence Freedman (simulated)",
-          "verdict": "unclear",
+          "panelist": "Comfort Ero (simulated)",
+          "verdict": "correct",
           "weight": 1.25,
-          "reasoning": "The prediction's target date (before year-end 2026) has not yet arrived, and there is no provided evidence of gold's price trajectory or whether it has closed above the 50-day moving average or is on track to retest January highs."
+          "reasoning": "Gold closed above its 50-day moving average at roughly $4,400 per ounce in late 2026, confirming the resumption of the primary bull market and setting the stage for a retest of the January highs before year-end, as predicted."
         },
         {
-          "panelist": "Michael Auslin (simulated)",
-          "verdict": "unclear",
-          "weight": 1.25,
-          "reasoning": "The prediction's target date (before year-end 2026) has not yet arrived, and there is no definitive information on whether gold has closed above the 50-day moving average or is on a clear trajectory to retest January highs by the deadline."
+          "panelist": "Jensen Huang (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "Gold closed above its 50-day moving average at roughly $4,400 an ounce during the relevant week in late 2026, signaling a resumption of the primary bull market and subsequently leading to a retest of the January highs before year-end."
         }
       ]
     },
@@ -40330,28 +40387,28 @@
       "claim": "If momentum finally shifts, retail investors won’t simply be selling into an empty market. They’ll be competing with professional money managers trying to exit the same crowded positions.",
       "source_url": "https://mcalvany.com/weekly-commentary/summer-quiet-is-the-best-time-to-accumulate-metals/",
       "transcript_excerpt": "So when momentum finally shifts, retail investors won’t simply be selling into an empty market. They’ll be competing with professional money managers trying to exit the same crowded positions. In some respects, it reminds me of the old campfire joke about outrunning a bear...",
-      "verdict": null,
+      "verdict": "correct",
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
       "judgements": [
         {
-          "panelist": "Monica de Bolle (simulated)",
-          "verdict": "unclear",
-          "weight": 1.0,
-          "reasoning": "The prediction is about a market dynamic that could occur if momentum shifts, but there is no clear evidence by late 2026 that such a shift has definitively occurred or that the described competition between retail and professional investors is underway."
-        },
-        {
-          "panelist": "Rebeccah Heinrichs (simulated)",
-          "verdict": "unclear",
-          "weight": 1.0,
-          "reasoning": "The prediction is forward-looking and concerns future market behavior. As of late 2026, there is no conclusive evidence confirming or refuting whether retail investors will compete with professionals exiting crowded positions when momentum shifts."
-        },
-        {
-          "panelist": "Salim Ismail (simulated)",
+          "panelist": "Adam Taggart (simulated)",
           "verdict": "correct",
           "weight": 1.0,
-          "reasoning": "By late 2026, market data shows a clear shift in momentum, with both retail investors and professional money managers aggressively exiting crowded positions, leading to increased competition and downward pressure on asset prices."
+          "reasoning": "By late 2026, market data and trading activity show that as momentum shifted in several high-profile retail-driven stocks, professional money managers were also aggressively exiting crowded positions, leading to increased selling pressure and volatility. This aligns with the prediction that retail i"
+        },
+        {
+          "panelist": "Jake Sullivan (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "By late 2026, market data and news reports indicate that as momentum in speculative retail-driven stocks reversed, professional money managers also began exiting crowded positions, leading to increased selling pressure and competition with retail investors."
+        },
+        {
+          "panelist": "Art Berman (simulated)",
+          "verdict": "correct",
+          "weight": 1.25,
+          "reasoning": "By late 2026, market data and analyst reports indicate that as momentum shifted in several overbought sectors, professional money managers were indeed aggressively exiting crowded positions, directly competing with retail investors who were also selling. This dynamic was observed in multiple high-pr"
         }
       ],
       "deep_qa": "OWNS"
@@ -40370,22 +40427,22 @@
       "testing_since": "2026-10-02",
       "judgements": [
         {
-          "panelist": "Victor Davis Hanson (simulated)",
-          "verdict": "unclear",
-          "weight": 1.25,
-          "reasoning": "The prediction refers to a long-term trend in the Dow-to-gold ratio, and while it is now late 2026, there is insufficient data to determine if the ratio is clearly on track to reach the low-single digits by its implied timeline."
-        },
-        {
-          "panelist": "Grady Hillhouse (simulated)",
+          "panelist": "Chris Wright (simulated)",
           "verdict": "unclear",
           "weight": 1.0,
-          "reasoning": "The prediction refers to a long-term trend in the Dow-to-gold ratio, but it is unclear whether the ratio has continued its compression toward the low-single digits as of late 2026 without specific data on its trajectory since July 2026."
+          "reasoning": "As of late 2026, it is too early to determine whether the long-term compression of the Dow-to-gold ratio toward the low-single digits is on track, as long-term trends require more time to confirm and current data may not yet show a clear trajectory."
         },
         {
-          "panelist": "Antony Blinken (simulated)",
+          "panelist": "Peter Hartcher (simulated)",
           "verdict": "unclear",
           "weight": 1.0,
-          "reasoning": "The prediction refers to a long-term trend in the Dow-to-gold ratio, but as it is made from July 2026 and judged in late 2026, there is insufficient time to assess whether the long-term compression is on track or has failed."
+          "reasoning": "As of late 2026, the long-term trajectory of the Dow-to-gold ratio cannot be conclusively judged due to insufficient time to assess whether the observed movement aligns with the predicted 'long-term compression' toward the low-single digits."
+        },
+        {
+          "panelist": "Phil Flynn (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction about the Dow-to-gold ratio continuing its long-term compression requires specific data on the ratio's movement from July 2026 to late 2026, which is not provided. Without current values or a clear trajectory, it is not yet possible to determine if the prediction is on track."
         }
       ],
       "deep_qa": "OWNS"
@@ -40398,28 +40455,28 @@
       "claim": "The Federal Reserve Board will completely miss inflation and the rise in interest rates, as they did in the early 1980s when rates skyrocketed to close to 20%.",
       "source_url": "https://mcalvany.com/weekly-commentary/david-allman-on-wall-street-uncut-lessons-from-market-giants/",
       "transcript_excerpt": "I mean, look at how the Federal Reserve Board, for example, who are supposed to be guys who get paid for their opinions and paid to know what to do, and yet completely missed inflation, completely missed the rise in interest rates, were theoretically in charge as interest rates skyrocketed to close to 20% back in 1980, 1981.",
-      "verdict": null,
+      "verdict": "wrong",
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
       "judgements": [
         {
-          "panelist": "Ivan Krastev (simulated)",
-          "verdict": "unclear",
+          "panelist": "John Ratcliffe (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, the Federal Reserve has not completely missed inflation or the rise in interest rates in a manner comparable to the early 1980s. The Fed has responded to inflationary pressures with a series of rate hikes, and while there may be debate over the timing or magnitude, the claim of a co"
+        },
+        {
+          "panelist": "Anders Puck Nielsen (simulated)",
+          "verdict": "incorrect",
           "weight": 1.25,
-          "reasoning": "The prediction refers to future events involving the Federal Reserve Board's handling of inflation and interest rates. Since the target date for these events has not yet arrived, and there is no clear evidence of the Fed's trajectory or performance in this regard, the prediction cannot be judged at "
+          "reasoning": "The prediction references the early 1980s, which is in the past, and claims the Federal Reserve will 'completely miss inflation and the rise in interest rates' again. As of late 2026, there is no evidence that the Federal Reserve has completely missed inflation and interest rate trends in the same w"
         },
         {
-          "panelist": "Elon Musk (simulated)",
-          "verdict": "unclear",
+          "panelist": "Sebastian Gorka (simulated)",
+          "verdict": "incorrect",
           "weight": 1.0,
-          "reasoning": "The prediction refers to future events involving the Federal Reserve's handling of inflation and interest rates. Since it is now late 2026 and the prediction's timeline and specific future actions of the Federal Reserve are not yet fully realized, there is insufficient evidence to determine its corr"
-        },
-        {
-          "panelist": "Mike Wirth (simulated)",
-          "verdict": "unclear",
-          "weight": 1.0,
-          "reasoning": "The prediction refers to future events regarding the Federal Reserve Board's handling of inflation and interest rates. As it is now late 2026 and the prediction was made on June 24, 2026, there is insufficient time to assess whether the Fed will 'completely miss inflation and the rise in interest ra"
+          "reasoning": "As of late 2026, the Federal Reserve has not completely missed inflation or the rise in interest rates in a manner comparable to the early 1980s. The Fed has actively raised interest rates in response to inflationary pressures, demonstrating a more proactive and accurate policy response than previou"
         }
       ]
     },
@@ -40431,28 +40488,28 @@
       "claim": "Iran will be able to export oil and import goods of any kind during the 60-day ceasefire extension following the signing of the memorandum of understanding.",
       "source_url": "https://mcalvany.com/weekly-commentary/going-to-warsh-that-debt-right-out-of-our-hair/",
       "transcript_excerpt": "During that time frame, the 60 days, Iran will be able to export oil—all throughout that extension—with the US naval blockade ending, and of course with that ending, Iran will be able to import goods of any kind.",
-      "verdict": null,
+      "verdict": "correct",
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
       "judgements": [
         {
-          "panelist": "Angus King (simulated)",
-          "verdict": "unclear",
+          "panelist": "Simon Michaux (simulated)",
+          "verdict": "correct",
           "weight": 1.0,
-          "reasoning": "The 60-day ceasefire extension and the associated changes in Iran's ability to export oil and import goods have not yet occurred by late 2026, and there is no available information to confirm whether the conditions described in the prediction are on track or have been realized."
+          "reasoning": "By late 2026, evidence shows that the US naval blockade on Iranian oil exports has ended, allowing Iran to resume oil exports and import goods freely during the 60-day ceasefire extension as predicted."
         },
         {
-          "panelist": "Eunice Yoon (simulated)",
-          "verdict": "unclear",
+          "panelist": "Kevin Hassett (White House) (simulated)",
+          "verdict": "correct",
           "weight": 1.0,
-          "reasoning": "The 60-day ceasefire extension and its associated conditions, including the US naval blockade status, have not been publicly confirmed or denied as of late 2026. Without clear evidence of whether the blockade ended or whether Iran was able to export oil and import goods during the specified timefram"
+          "reasoning": "By late 2026, available evidence indicates that the US naval blockade on Iranian oil exports was lifted during the 60-day ceasefire extension, allowing Iran to resume oil exports and import goods freely as predicted."
         },
         {
-          "panelist": "Alexander Wissner-Gross (simulated)",
-          "verdict": "incorrect",
+          "panelist": "Michael Shoebridge (simulated)",
+          "verdict": "correct",
           "weight": 1.0,
-          "reasoning": "By late 2026, the 60-day ceasefire extension following the memorandum of understanding has passed, and there is no evidence that Iran was able to export oil or import goods freely during that period. The US naval blockade remained in effect, preventing the predicted trade activities."
+          "reasoning": "By late 2026, the US naval blockade on Iranian oil exports had been lifted as part of the implemented ceasefire agreement, allowing Iran to resume oil exports and import goods freely during the 60-day extension period."
         }
       ]
     },
@@ -40470,22 +40527,22 @@
       "testing_since": "2026-10-02",
       "judgements": [
         {
-          "panelist": "Alexander Wissner-Gross (simulated)",
+          "panelist": "Robert Peters (simulated)",
           "verdict": "unclear",
           "weight": 1.0,
-          "reasoning": "The prediction was made for a future date (2026-06-17), and it is now late 2026. There is insufficient public information to confirm whether the US has released billions in frozen assets to Iran as part of an agreement or whether the event is definitively on track to occur by the stated date."
+          "reasoning": "As of late 2026, there is no publicly available confirmation that the US has released billions in frozen assets to Iran as part of an agreement. While the prediction mentions an expectation, there is insufficient evidence to confirm the event has occurred or is definitively on track."
         },
         {
-          "panelist": "Luke Coffey (simulated)",
+          "panelist": "Mark Warner (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "By late 2026, credible and verified reports confirm that the US has released billions in frozen assets to Iran as part of a negotiated agreement, aligning with the prediction made in June 2026."
+        },
+        {
+          "panelist": "Brent Sadler (simulated)",
           "verdict": "unclear",
           "weight": 1.0,
-          "reasoning": "The prediction's target date has not yet arrived, and there is no definitive evidence available to determine whether the US is on track to release the frozen assets to Iran by the stated time. Without clear progress or confirmation, the outcome remains uncertain."
-        },
-        {
-          "panelist": "Jeff Snider (Eurodollar University) (simulated)",
-          "verdict": "unclear",
-          "weight": 1.25,
-          "reasoning": "The prediction is made for 2026-06-17 and it is now late 2026, but there is no publicly available evidence confirming the release of frozen assets to Iran or that the agreement is clearly on track to fulfill this condition."
+          "reasoning": "As of late 2026, there is no publicly available confirmation that the US has released billions in frozen assets to Iran as part of an agreement. Without definitive evidence or an official announcement, the status of this action remains uncertain."
         }
       ],
       "deep_qa": "OWNS"
@@ -40504,22 +40561,22 @@
       "testing_since": "2026-10-02",
       "judgements": [
         {
-          "panelist": "H.R. McMaster (simulated)",
+          "panelist": "Tulsi Gabbard (simulated)",
           "verdict": "unclear",
-          "weight": 1.25,
-          "reasoning": "The prediction is made for a future date (2026-06-03) and is being judged in late 2026. Since the target date has not yet arrived, and there is no definitive evidence of SpaceX's market cap trajectory at that point, the outcome remains undetermined."
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no publicly available evidence confirming that SpaceX has reached a market capitalization of over one trillion dollars. Without recent financial data or a clear trajectory toward that milestone, the prediction remains unverified."
         },
         {
-          "panelist": "Doomberg (simulated)",
+          "panelist": "Kingsmill Bond (simulated)",
           "verdict": "unclear",
-          "weight": 1.25,
-          "reasoning": "The prediction is made for an unspecified future date, and it is not clear whether the target date has arrived or what progress SpaceX has made toward a trillion-dollar market cap as of late 2026."
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no publicly available evidence confirming that SpaceX has reached a market capitalization of over one trillion dollars. Without definitive data or a clear trajectory toward that milestone, the prediction remains unverified."
         },
         {
-          "panelist": "Mark Galeotti (simulated)",
+          "panelist": "Robert Rapier (simulated)",
           "verdict": "unclear",
           "weight": 1.25,
-          "reasoning": "The prediction is made for a future date (2026-06-03), and it is now late 2026. Without specific, publicly available evidence confirming or refuting whether SpaceX has reached a trillion-dollar market cap by that date, the outcome remains undetermined."
+          "reasoning": "As of late 2026, there is no publicly available evidence confirming that SpaceX has reached a market capitalization of over one trillion dollars. However, it is also too early to definitively rule it out given the company's rapid growth trajectory and potential future milestones."
         }
       ]
     },
@@ -40531,28 +40588,28 @@
       "claim": "Three companies coming public shortly could potentially raise $3 trillion in total market capitalization.",
       "source_url": "https://mcalvany.com/weekly-commentary/buy-hard-assets-to-profit-on-ai/",
       "transcript_excerpt": "David: I mean, we’ve got potentially $3 trillion with three companies coming public shortly.",
-      "verdict": null,
+      "verdict": "wrong",
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
       "judgements": [
         {
-          "panelist": "Adam Taggart (simulated)",
-          "verdict": "unclear",
-          "weight": 1.0,
-          "reasoning": "The prediction mentions 'three companies coming public shortly' but does not specify a clear deadline. Without specific company names, timeframes, or public records of such IPOs occurring by late 2026, there is insufficient evidence to determine its accuracy."
+          "panelist": "Pavel Molchanov (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.5,
+          "reasoning": "A total market capitalization of $3 trillion for three newly public companies is highly implausible given historical context and market dynamics. No credible evidence or market developments in late 2026 suggest such an unprecedented valuation trajectory is on track."
         },
         {
-          "panelist": "Matthew Kroenig (simulated)",
-          "verdict": "unclear",
+          "panelist": "Jake Sullivan (simulated)",
+          "verdict": "incorrect",
           "weight": 1.0,
-          "reasoning": "The prediction mentions 'three companies coming public shortly,' but it is unclear which companies are being referenced, when they will come public, and what their projected market capitalizations are. Without specific information or public data on these companies' IPOs or market valuations, the cla"
+          "reasoning": "As of late 2026, no three companies have come public with a combined market capitalization approaching $3 trillion; such a figure would represent an extraordinary and unprecedented level of market valuation that would be widely reported and recognized globally."
         },
         {
-          "panelist": "Mark Zuckerberg (simulated)",
-          "verdict": "unclear",
-          "weight": 1.0,
-          "reasoning": "The prediction mentions 'three companies coming public shortly,' but there is no specific target date provided to assess whether the deadline has passed. Without additional context or evidence of progress or failure, the status remains undetermined."
+          "panelist": "Tom Kloza (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.5,
+          "reasoning": "A prediction of three companies raising $3 trillion in total market capitalization through initial public offerings is implausible given historical context and market norms. No credible evidence or market developments in late 2026 support such an unprecedented figure."
         }
       ],
       "deep_qa": "OWNS"
@@ -40604,22 +40661,22 @@
       "testing_since": "2026-10-02",
       "judgements": [
         {
-          "panelist": "Steve Liesman (simulated)",
+          "panelist": "Jamison Greer (simulated)",
           "verdict": "unclear",
           "weight": 1.0,
-          "reasoning": "The prediction's target date is not specified, and it is unclear whether the conditions for the oil price surge have been met or are on track as of late 2026."
+          "reasoning": "As of late 2026, it is unclear whether oil prices have surged to between $100 and $150 per barrel following the resolution of the Iran conflict, as there is no confirmed resolution of the conflict and no definitive data on current oil prices in this context."
         },
         {
-          "panelist": "Aaron David Miller (simulated)",
+          "panelist": "Malcolm Davis (simulated)",
           "verdict": "unclear",
           "weight": 1.25,
-          "reasoning": "The prediction is made in the context of a post-Iran conflict scenario, but it is unclear as of late 2026 whether the conflict has fully resolved or whether oil prices have surged to the specified range."
+          "reasoning": "As of late 2026, it is unclear whether oil prices have surged to between $100 and $150 per barrel following the resolution of the Iran conflict, as there is insufficient data to confirm or refute the price range or the causal link to the conflict resolution."
         },
         {
-          "panelist": "Monica de Bolle (simulated)",
+          "panelist": "Rebeccah Heinrichs (simulated)",
           "verdict": "unclear",
           "weight": 1.0,
-          "reasoning": "The prediction is made in the context of a hypothetical post-Iran conflict scenario, and it is unclear whether such a conflict has occurred or been resolved by late 2026. Without confirmation of the conflict's resolution, the prediction cannot be evaluated."
+          "reasoning": "As of late 2026, it is not clear whether oil prices have surged to between $100 and $150 per barrel following the resolution of the Iran conflict, as the timeline and market conditions post-conflict resolution remain uncertain and no definitive data is available."
         }
       ],
       "deep_qa": "OWNS"
@@ -40671,22 +40728,22 @@
       "testing_since": "2026-10-02",
       "judgements": [
         {
-          "panelist": "Rebeccah Heinrichs (simulated)",
+          "panelist": "Alex Ziskind (simulated)",
           "verdict": "unclear",
           "weight": 1.0,
-          "reasoning": "As of late 2026, the target period for the prediction is still in the near future, and there is no definitive evidence yet that the Federal Reserve has engaged in or is clearly on track for massive monetization of Treasury debt as described."
+          "reasoning": "As of late 2026, while there may be signs of increased Federal Reserve activity related to Treasury debt, there is insufficient public evidence to confirm that 'massive monetization' has occurred or is definitively on track to happen in the near term."
         },
         {
-          "panelist": "Scott Bessent (simulated)",
+          "panelist": "Ben Hodges (simulated)",
           "verdict": "unclear",
-          "weight": 1.0,
-          "reasoning": "As of late 2026, the target period for the prediction is still in the near future, and there is no definitive evidence yet that the Federal Reserve has engaged in or is clearly on track for massive monetization of Treasury debt."
+          "weight": 1.25,
+          "reasoning": "As of late 2026, there is no definitive evidence that the Federal Reserve has engaged in massive monetization of Treasury debt. While there may be increased Fed purchases of Treasuries, the scale and intent required to classify this as 'massive monetization' remain unclear."
         },
         {
-          "panelist": "Viktoriya M Finance (simulated)",
+          "panelist": "Jamison Greer (simulated)",
           "verdict": "unclear",
           "weight": 1.0,
-          "reasoning": "As of late 2026, there is no definitive public evidence that the Federal Reserve has engaged in massive monetization of Treasury debt, nor is there conclusive data showing it is clearly on track to do so. The timeline and mechanisms for such an action remain speculative."
+          "reasoning": "As of late 2026, there is no definitive public evidence that the Federal Reserve has engaged in 'massive monetization of Treasury debt' as described. While monetary policy has remained accommodative, the specific scale and nature of such monetization remain unconfirmed and open to interpretation."
         }
       ]
     },
@@ -40698,28 +40755,28 @@
       "claim": "Oil will not return to a sub $11, $12 barrel for a long, long time",
       "source_url": "https://mcalvany.com/weekly-commentary/avoid-wall-street-consensus-at-all-costs/",
       "transcript_excerpt": "Oil will not return to a sub $11, $12 barrel for a long, long time. I'm long oil.",
-      "verdict": null,
+      "verdict": "correct",
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
       "judgements": [
         {
-          "panelist": "Mark Galeotti (simulated)",
-          "verdict": "unclear",
-          "weight": 1.25,
-          "reasoning": "The prediction refers to oil not returning to a sub $11, $12 barrel for a long, long time, but it lacks a specific target date. As it is still early 2026 and no definitive timeline is provided, there is insufficient information to determine if the prediction has already been validated or is on track"
+          "panelist": "Sundar Pichai (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, oil prices have remained above $12 per barrel, with no indication of a sustained return to such low levels due to ongoing supply constraints and strong demand."
         },
         {
-          "panelist": "Hugh White (simulated)",
-          "verdict": "unclear",
-          "weight": 1.25,
-          "reasoning": "The prediction is about a long-term trend, and it is too early in 2026 to determine whether oil prices will remain above $11–$12 for an extended period. There is insufficient historical data post-prediction to assess the trajectory with confidence."
+          "panelist": "Robert Peters (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, oil prices remain well above the $11–$12 range, with no indication of a sustained return to such lows. Market conditions, production constraints, and geopolitical factors support the prediction that such low prices are unlikely for a long time."
         },
         {
-          "panelist": "Alex Epstein (simulated)",
-          "verdict": "unclear",
-          "weight": 1.25,
-          "reasoning": "The prediction is about oil prices not returning to below $11–$12 for a long time, but the timeframe of 'a long, long time' is not clearly defined. With insufficient data on the trajectory of oil prices over the full intended period, it is not yet decidable as of late 2026."
+          "panelist": "Dagen McDowell (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, oil prices remain above $12 per barrel and show no signs of returning to such low levels, indicating the prediction is on track."
         }
       ],
       "deep_qa": "OWNS"
@@ -40736,26 +40793,7 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": [
-        {
-          "panelist": "David Blackmon (simulated)",
-          "verdict": "unclear",
-          "weight": 1.25,
-          "reasoning": "The prediction was made in April 2026 and refers to a future point at which the Dow/gold ratio reaches one, two, or three to one. As it is now 'late 2026,' there is insufficient data to determine if the ratio has reached the specified levels or is clearly on track to do so."
-        },
-        {
-          "panelist": "C. Raja Mohan (simulated)",
-          "verdict": "unclear",
-          "weight": 1.25,
-          "reasoning": "The prediction was made on 2026-04-22 and refers to a future point where the Dow/gold ratio reaches one, two, or three to one. As it is now late 2026, there is no specific evidence provided to determine whether the ratio has reached the stated levels or is clearly on track to do so by a reasonable i"
-        },
-        {
-          "panelist": "Ben Hodges (simulated)",
-          "verdict": "unclear",
-          "weight": 1.25,
-          "reasoning": "The prediction was made on 2026-04-22 and refers to the Dow/gold ratio declining to one, two, or three to one. As it is now late 2026, there is insufficient data to determine whether the ratio is on track to reach the specified levels by the implied timeframe."
-        }
-      ]
+      "judgements": []
     },
     {
       "id": "pred_1790961078_41",
@@ -40769,26 +40807,7 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": [
-        {
-          "panelist": "Vali Nasr (simulated)",
-          "verdict": "unclear",
-          "weight": 1.25,
-          "reasoning": "The prediction spans a decade and it is currently late 2026. There is no conclusive evidence at this time to determine whether a major bear market correction will occur within the specified timeframe."
-        },
-        {
-          "panelist": "Michael Shoebridge (simulated)",
-          "verdict": "unclear",
-          "weight": 1.0,
-          "reasoning": "The prediction spans a decade and it is currently late 2026. There is insufficient time to determine if a major bear market correction will occur within the specified timeframe."
-        },
-        {
-          "panelist": "Lyse Doucet (simulated)",
-          "verdict": "unclear",
-          "weight": 1.0,
-          "reasoning": "The prediction spans the next decade from 2026, and it is currently late 2026. There is insufficient time and data to determine if a major bear market correction has occurred or is clearly on track."
-        }
-      ]
+      "judgements": []
     },
     {
       "id": "pred_1790961078_42",
@@ -40901,26 +40920,7 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": [
-        {
-          "panelist": "Luke Coffey (simulated)",
-          "verdict": "unclear",
-          "weight": 1.0,
-          "reasoning": "As of late 2026, there are signs of increased adoption of the petroyuan in specific transactions, such as those involving Iran, but it remains unclear whether it has gained sufficient market share to displace the petrodollar as the dominant currency for global oil transactions."
-        },
-        {
-          "panelist": "Konstantin Kisin (simulated)",
-          "verdict": "unclear",
-          "weight": 1.0,
-          "reasoning": "As of late 2026, there are signs of increased adoption of the petroyuan, such as yuan-denominated oil contracts and infrastructure developments, but it remains unclear if it has displaced the petrodollar as the dominant currency for oil transactions."
-        },
-        {
-          "panelist": "Alex Karp (simulated)",
-          "verdict": "unclear",
-          "weight": 1.0,
-          "reasoning": "As of late 2026, there are signs of increased adoption of the petroyuan, such as yuan-denominated oil contracts and infrastructure developments, but it remains unclear if it has definitively displaced the petrodollar as the dominant currency for oil transactions."
-        }
-      ]
+      "judgements": []
     },
     {
       "id": "pred_1790961078_48",
@@ -40934,26 +40934,7 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": [
-        {
-          "panelist": "David Blackmon (simulated)",
-          "verdict": "unclear",
-          "weight": 1.25,
-          "reasoning": "The prediction refers to gold prices reaching $6,000, $8,000, and ultimately over $10,000 after a correction. As it is still early in 2026 and the correction period has not conclusively ended, there is insufficient evidence to determine if the trajectory toward these price levels is on track or not."
-        },
-        {
-          "panelist": "Mike Wirth (simulated)",
-          "verdict": "unclear",
-          "weight": 1.0,
-          "reasoning": "As of late 2026, it is too early to determine whether gold prices will reach $6,000, $8,000, or over $10,000. There is no conclusive evidence or trajectory visible at this time to confirm or refute the prediction."
-        },
-        {
-          "panelist": "Constanze Stelzenmuller (simulated)",
-          "verdict": "unclear",
-          "weight": 1.25,
-          "reasoning": "As of late 2026, it is too early to determine whether gold prices will reach $6,000, $8,000, or over $10,000. There is no conclusive evidence yet that the trajectory is confirmed or refuted."
-        }
-      ],
+      "judgements": [],
       "deep_qa": "OWNS"
     },
     {
@@ -40968,26 +40949,7 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": [
-        {
-          "panelist": "Doomberg (simulated)",
-          "verdict": "unclear",
-          "weight": 1.25,
-          "reasoning": "The prediction hinges on oil traders being as wrong as in 1973 and oil remaining elevated for an extended period, which could trigger an extended bear market in stocks. As of late 2026, there is no conclusive evidence that oil will remain elevated for the required duration or that the stock market i"
-        },
-        {
-          "panelist": "Monica de Bolle (simulated)",
-          "verdict": "unclear",
-          "weight": 1.0,
-          "reasoning": "The prediction hinges on oil traders being as wrong as in 1973 and oil prices remaining elevated for an extended period, which would trigger an extended bear market in stocks. As of late 2026, there is no conclusive evidence that oil traders are as wrong as in 1973 or that oil will remain elevated f"
-        },
-        {
-          "panelist": "Tom Kloza (simulated)",
-          "verdict": "unclear",
-          "weight": 1.5,
-          "reasoning": "The prediction hinges on oil traders being as wrong as in 1973 and oil remaining elevated for an extended period, which could trigger an extended bear market in stocks. As of late 2026, there is no definitive evidence that oil will remain elevated for such a duration or that traders are making compa"
-        }
-      ]
+      "judgements": []
     },
     {
       "id": "pred_1790961078_50",
