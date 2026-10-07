@@ -58,10 +58,19 @@ def _miro_tip(p):
     if not txt:
         return None
     return ' '.join(txt.split()[:50])
+def _cursor_tip(p):
+    m = p.get('delphicursor_result') or {}
+    txt = (m.get('reasoning') or m.get('summary') or '').strip()
+    if not txt:
+        return None
+    return ' '.join(txt.split()[:50])
 for p in predictions:
     _t = _miro_tip(p)
     if _t:
         p['miro_tooltip'] = _t
+    _c = _cursor_tip(p)
+    if _c:
+        p['cursor_tooltip'] = _c
 
 rows_by_person = {}
 for name in TRACKED_NAMES:

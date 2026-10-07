@@ -2416,11 +2416,19 @@
       "marty_verdict": "correct",
       "mc_status": "queued",
       "miro_status": "done",
-      "delphicursor_status": "queued",
+      "delphicursor_status": "done",
       "miro_result": {
         "verdict": "inconclusive",
         "confidence": 0.25,
         "summary": "The claim about Japan's robot project timeline relies on a single primary source (Peter Zeihan's video) without corroborating data or project specifics. All panel specialists judged the claim inconclusive due to insufficient contextual information, lack of graph-based evidence, and absence of verifiable benchmarks for operational readiness or completion timelines. The speculative nature of the assertion and absence of technical, financial, or logistical details prevent a definitive assessment."
+      },
+      "delphicursor_result": {
+        "vote": "unclear",
+        "confidence": 75,
+        "reasoning": "The prediction references 'Japan's robot project' without specifying which of Japan's numerous robotics initiatives is meant. Without identifying the specific project, data center, or AI model being discussed, the claim is unfalsifiable. Additionally, we are still ~3 months before the first milestone ('New Year's') and over a year from the 2028 deadline, making premature judgment inappropriate.",
+        "sources_checked": [],
+        "dissent_note": "I concur with the delphi3080 verdict and panel consensus. This is not excessive caution but a genuine epistemological limitation: a vague, unidentified 'Japan robot project' cannot be tracked or verified without more specifics from the original source.",
+        "judged_at": "2026-10-07T14:44:42.849020"
       }
     },
     {
@@ -3312,11 +3320,19 @@
       "marty_verdict": "wrong",
       "mc_status": "queued",
       "miro_status": "done",
-      "delphicursor_status": "queued",
+      "delphicursor_status": "done",
       "miro_result": {
         "verdict": "inconclusive",
         "confidence": 0.25,
         "summary": "The claim about Matthew Smith's belief in a precedent-setting US natural gas shortage by 2028 cannot be validated due to the absence of contextual data (production/demand trends, infrastructure, or policy shifts) and graph context. Specialists across energy security, supply chains, capital markets, and demographics all concluded there is insufficient evidence to support or refute the claim, noting the lack of quantifiable metrics and domain-specific analysis required to evaluate such projections"
+      },
+      "delphicursor_result": {
+        "vote": "unclear",
+        "confidence": 55,
+        "reasoning": "The claim is about Matthew Smith's stated belief, not whether a shortage will occur. While the Doomberg newsletter is a reputable source and the transcript excerpt provides specific details suggesting accurate reporting, I cannot verify that the source article exists or accurately represents Smith's position without web access. This is a verification limitation, not inherent ambiguity—the claim is verifiable in principle.",
+        "sources_checked": [],
+        "dissent_note": "I agree with the delphi3080 'inconclusive' verdict and prior panel's 'unclear' votes. Without ability to access the source URL or search for corroboration, verification is blocked. A future adjudicator with web access should be able to resolve this by checking the Doomberg article directly.",
+        "judged_at": "2026-10-07T14:49:20.966667"
       }
     },
     {
@@ -3358,11 +3374,19 @@
       "marty_verdict": "wrong",
       "mc_status": "queued",
       "miro_status": "done",
-      "delphicursor_status": "queued",
+      "delphicursor_status": "done",
       "miro_result": {
         "verdict": "inconclusive",
         "confidence": 0.3,
         "summary": "The claim about exhausting working natural gas storage by 2030 cannot be validated due to insufficient quantitative data on storage capacity, consumption trends, and infrastructure changes. Natural gas systems are managed with safety margins, and market dynamics (price signals, LNG imports, demand flexibility) typically prevent full depletion. All specialists across disciplines (demography, energy security, capital markets, trade, military geography) found the assertion speculative without speci"
+      },
+      "delphicursor_result": {
+        "vote": "unclear",
+        "confidence": 60,
+        "reasoning": "The claim that US working natural gas storage 'could' be exhausted by 2030 is a hedged future prediction that cannot be definitively judged without quantitative data on current storage levels, consumption trajectories, AI-driven demand growth, and LNG export commitments. The possibility language makes it neither clearly on-track nor off-track based on available evidence.",
+        "sources_checked": [],
+        "dissent_note": "I agree with the panel's unclear assessment. The claim's hedged language ('could exhaust') combined with a 2030 horizon makes it genuinely indeterminate without concrete supply/demand modeling data that I could not access.",
+        "judged_at": "2026-10-07T14:50:11.942296"
       }
     },
     {

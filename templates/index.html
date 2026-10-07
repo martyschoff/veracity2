@@ -419,7 +419,7 @@
                         <div class="delphi3080-badge" title="agent-society sim — local 32B{% if row.miro_tooltip %} — {{ row.miro_tooltip }}{% endif %}">Delphi3080: {{ row.miro_result.verdict | default(row.miro_result) | upper }}</div>
                         {% endif %}
                         {% if row.delphicursor_result %}
-                        <div class="delphicursor-badge dc-{{ row.delphicursor_result.vote }}" title="Opus — advisory ({{ row.delphicursor_result.confidence }}% confidence)">DelphiCursor: {{ row.delphicursor_result.vote | upper }}</div>
+                        <div class="delphicursor-badge dc-{{ row.delphicursor_result.vote }}" title="Opus — advisory ({{ row.delphicursor_result.confidence }}% confidence){% if row.cursor_tooltip %} — {{ row.cursor_tooltip }}{% endif %}">DelphiCursor: {{ row.delphicursor_result.vote | upper }}</div>
                         {% elif row.delphicursor_status == 'queued' %}
                         <div class="delphicursor-badge" style="opacity:0.6;">DelphiCursor: queued…</div>
                         {% endif %}
