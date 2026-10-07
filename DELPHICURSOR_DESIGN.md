@@ -34,5 +34,12 @@ of the local 32B panel stack. Same claim-in/verdict-out contract as Delphi3080.
 - Reserved for disagreements only, or run on every graded prediction?
 - Cursor subscription budget cap per month?
 
+## OWNER DECISIONS (2026-10-07)
+- **Mode A chosen**: DelphiCursor is advisory. Owner marks Marty Right/Left
+  (final), and Opus runs too - the grid shows BOTH Delphi3080's verdict and
+  Opus's (DelphiCursor) side by side on the card. Calibration by contrast.
+- **Budget**: if the Cursor plan is flat-fee, the dollar-budget control is
+  dropped; keep only a rate cap (max N claims/day, no $ accounting).
+
 ## Status
 DESIGN ONLY. Nothing implemented. Do not build without owner approval.
