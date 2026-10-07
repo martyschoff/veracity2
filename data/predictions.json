@@ -1801,16 +1801,18 @@
       "panel_weight": 1.5
     },
     {
-      "name": "Alex (J2 Ventures)",
-      "handle": "alex_j2",
+      "name": "Alex Harstrick",
+      "handle": "aharstrick",
       "sources": [
-        "https://www.j2ventures.com"
+        "https://www.j2vp.com/",
+        "https://www.cnbc.com/video/2026/03/02/this-is-the-first-time-well-see-an-ai-driven-war-says-j2-ventures.html"
       ],
       "categories": [
         "usdefense"
       ],
       "weight_subjective": 1.0,
-      "weight_objective": 1.0
+      "weight_objective": 1.0,
+      "profile": "J2 Ventures partner, ex-US Army officer, CNBC defense commentator (\"this is the first AI-driven war\")"
     }
   ],
   "predictions": [
