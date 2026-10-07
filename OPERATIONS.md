@@ -24,6 +24,19 @@ Endpoints: nimo128 (Mac mini 32B) + upthread64 (llama3.1:8b — added 2026-10-06
 100% decisive in tests) + the 7×3080 pool (ports 11435-41, full
 `/v1/chat/completions` paths required — call_llm posts to the URL verbatim).
 
+## 3080-pool discipline (HARD RULES - violated 2026-10-07, 5 instances died)
+
+- One model copy per GPU; warm up each instance INDIVIDUALLY (one small call,
+  wait for it) before any real traffic - stagger ~30s apart.
+- Keep models loaded forever (Ollama keep-alive); cap num_ctx at 32768.
+- NEVER burst: concurrent thread pools must ramp UP GENTLY per endpoint
+  (<=2-3 in-flight per instance until warm; the 42-thread fan-out killed
+  5 of 7 instances mid-run). A cold concurrent load kills instances just
+  like a staggered-load violation does.
+- GPU0 whisper (large-v3-turbo, :8080) must never be unloaded even though
+  the owner cleared all 8 GPUs for pool use (qwen3:8b on :11434 co-resides).
+- After any pool run, health-check every port (/api/tags) before declaring done.
+
 ## MiroFish worker (background service)
 
 ```
