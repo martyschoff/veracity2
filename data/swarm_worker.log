@@ -52,3 +52,19 @@
   => China's shale oil extraction will not reach significant leve : RIGHT (100% of 5 decided, 19 unclear)
 
 2026-10-07 14:49:02 5 queued - running monte_carlo pass
+2026-10-07 14:55:46 pass exit 1: 2 prediction(s) queued; 40 personas each
+  10/40 personas voted (10 valid)
+  20/40 personas voted (20 valid)
+  30/40 personas voted (25 valid)
+  40/40 personas voted (35 valid)
+  => China's shale oil extraction will not reach significant leve : RIGHT (100% of 4 decided, 31 unclear)
+
+2026-10-07 14:56:46 5 queued - running monte_carlo pass
+2026-10-07 15:03:38 pass exit 1: 2 prediction(s) queued; 40 personas each
+  10/40 personas voted (10 valid)
+  20/40 personas voted (20 valid)
+  30/40 personas voted (29 valid)
+  40/40 personas voted (36 valid)
+  => China's shale oil extraction will not reach significant leve : RIGHT (100% of 9 decided, 27 unclear)
+
+2026-10-07 15:04:38 5 queued - running monte_carlo pass

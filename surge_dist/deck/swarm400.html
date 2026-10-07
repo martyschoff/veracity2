@@ -1,0 +1,17 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Swarm 40 vs 400 - comparison</title>
+<style>body{margin:0;background:#0b1120;color:#e2e8f0;font-family:Segoe UI,sans-serif;padding:40px}
+h1{color:#7dd3fc}table{border-collapse:collapse;width:100%}
+td,th{border:1px solid #334155;padding:10px 12px;text-align:left;vertical-align:top;font-size:.95rem}
+th{background:#1e293b;color:#7dd3fc}.wrong{color:#f87171}.right{color:#4ade80}.muted{color:#94a3b8;font-size:.85rem}
+.note{color:#94a3b8;margin-top:16px;max-width:900px;line-height:1.5}</style></head><body>
+<h1>Swarm comparison: 40 personas vs 400 personas</h1>
+<p class="muted">40-persona runs on local 27B; 400-persona runs on big3080 7x qwen3:8b (7 parallel GPUs). Neither posted to the app grid - comparison store only (data/swarm400_state.json).</p>
+<table><tr><th>Claim</th><th>40 personas</th><th>400 personas</th><th>Agree?</th><th>Processing</th></tr>
+<tr><td>China can't make chips better than 28nm</td><td class="wrong">WRONG (38% of 24)</td><td class="wrong">WRONG (43% of 35)</td><td>YES</td><td>15.2 min</td></tr>
+<tr><td>US loses chip supply-chain ability in 4-6 yrs</td><td class="wrong">WRONG (0% of 10)</td><td class="wrong">WRONG (0% of 1)</td><td>YES</td><td>11.4 min</td></tr>
+<tr><td>10x nickel demand under green transition</td><td class="wrong">WRONG (33% of 3)</td><td class="wrong">WRONG (32% of 37)</td><td>YES</td><td>11.7 min</td></tr>
+<tr><td>Diplomatic agreement unlikely; conflict intensifies</td><td class="right">RIGHT (100% of 20)</td><td class="right">RIGHT (100% of 185)</td><td>YES</td><td>12.7 min</td></tr>
+<tr><td>Dow/gold ratio will reach 1:1</td><td class="wrong">WRONG (0% of 22)</td><td class="wrong">WRONG (5% of 39)</td><td>YES</td><td>11.6 min</td></tr>
+</table>
+<div class="note"><b>Findings:</b> 5/5 direction agreement - 40 personas already reaches the right verdict. 400 personas cuts variance (43% vs 38%, 32% vs 33%) but the decided core barely grows: unclear balloons (194-311 of 400) because most personas correctly refuse to judge future/undeterminable claims. Processing: ~12-15 min per claim per 400 on 7 GPUs vs the 40-swarm's minutes on the laptop.<br><br>Conclusion: keep 40 as the standard tier (fast, sufficient); reserve 400 for contested/deadlocked cases where split-width matters. That maps exactly onto the DelphiCursor escalation trigger.</div>
+</body></html>

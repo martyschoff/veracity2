@@ -1,0 +1,48 @@
+{
+  "schema_version": "m0.1",
+  "claim_id": "marty-pred_20261001163700_663715",
+  "label": "refuted",
+  "confidence": 0.95,
+  "rationale": "The Three Mile Island nuclear plant's Unit 2 has been decommissioned since 1979 due to a major accident, and Unit 1 was permanently shut down in 2019. Restarting either unit by 2028 would require reversing decades of decommissioning, overcoming regulatory hurdles, securing massive capital investment, and addressing public opposition—all deemed implausible within the timeframe. No credible plans or policy shifts support this claim.",
+  "caveats": [
+    "Decommissioning timelines typically span decades, making a 2028 restart improbable",
+    "No recent public statements or regulatory filings confirm operational resumption",
+    "Economic viability of nuclear plants remains questionable without subsidies"
+  ],
+  "specialist_votes": [
+    {
+      "specialist_id": "demographer",
+      "label": "refuted",
+      "confidence": 0.95,
+      "summary": "Decommissioning processes and regulatory/financial barriers make 2028 restart implausible"
+    },
+    {
+      "specialist_id": "energy_security",
+      "label": "refuted",
+      "confidence": 0.95,
+      "summary": "Unit 2 decommissioned since 1982, Unit 1 closed in 2019; restarting requires decades of approvals"
+    },
+    {
+      "specialist_id": "capital_markets",
+      "label": "refuted",
+      "confidence": 0.95,
+      "summary": "Unprecedented capital investment and regulatory hurdles make 2028 timeline implausible"
+    },
+    {
+      "specialist_id": "trade_supply_chain",
+      "label": "refuted",
+      "confidence": 0.95,
+      "summary": "Decades of decommissioning and supply chain constraints rule out 2028 restart"
+    },
+    {
+      "specialist_id": "military_geography",
+      "label": "refuted",
+      "confidence": 0.75,
+      "summary": "No strategic geography factors support 2028 resumption; regulatory/financial barriers remain"
+    }
+  ],
+  "graph_citations": [],
+  "panel_id": "zeihan_panel_v1",
+  "rounds": 2,
+  "markdown_gloss": "# Verdict gloss (non-authoritative)\n\n**Claim:** `marty-pred_20261001163700_663715`\n\n**Label:** refuted (confidence 0.95)\n\n## Rationale\n\nThe Three Mile Island nuclear plant's Unit 2 has been decommissioned since 1979 due to a major accident, and Unit 1 was permanently shut down in 2019. Restarting either unit by 2028 would require reversing decades of decommissioning, overcoming regulatory hurdles, securing massive capital investment, and addressing public opposition—all deemed implausible within the timeframe. No credible plans or policy shifts support this claim.\n\n## Specialist votes\n\n- **demographer**: refuted (0.95) — Decommissioning processes and regulatory/financial barriers make 2028 restart implausible\n- **energy_security**: refuted (0.95) — Unit 2 decommissioned since 1982, Unit 1 closed in 2019; restarting requires decades of approvals\n- **capital_markets**: refuted (0.95) — Unprecedented capital investment and regulatory hurdles make 2028 timeline implausible\n- **trade_supply_chain**: refuted (0.95) — Decades of decommissioning and supply chain constraints rule out 2028 restart\n- **military_geography**: refuted (0.75) — No strategic geography factors support 2028 resumption; regulatory/financial barriers remain\n\n## Caveats\n\n- Decommissioning timelines typically span decades, making a 2028 restart improbable\n- No recent public statements or regulatory filings confirm operational resumption\n- Economic viability of nuclear plants remains questionable without subsidies\n"
+}

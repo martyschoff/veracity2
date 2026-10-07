@@ -1,0 +1,89 @@
+{
+ "runs": {
+  "pred_20260930191539_80ffbead462b": {
+   "claim": "The Chinese cannot make chips by themselves that are better than 28 nanometers and you're not going to run even a sloppy AI engine on someth",
+   "date": "2026-09-24",
+   "result40": "WRONG (38% of 24 decided, 16 unclear)",
+   "split40": 38,
+   "result400": "WRONG (43% of 35 decided, 194 unclear)",
+   "split400": 43,
+   "votes400": {
+    "result": "WRONG (43% of 35 decided, 194 unclear)",
+    "split": 43,
+    "yes": 15,
+    "no": 20,
+    "unclear": 194,
+    "n": 229
+   },
+   "seconds": 912.1
+  },
+  "pred_20260930192033_e72d59032a15": {
+   "claim": "The US will lose the ability to maintain the supply chains that make these chips within four to six years, causing AI chips to burn themselv",
+   "date": "2026-09-24",
+   "result40": "WRONG (0% of 10 decided, 30 unclear)",
+   "split40": 0,
+   "result400": "WRONG (0% of 1 decided, 285 unclear)",
+   "split400": 0,
+   "votes400": {
+    "result": "WRONG (0% of 1 decided, 285 unclear)",
+    "split": 0,
+    "yes": 0,
+    "no": 1,
+    "unclear": 285,
+    "n": 286
+   },
+   "seconds": 684.4
+  },
+  "pred_20261001184623_b1d18cb100bd": {
+   "claim": "If the green transition really does happen, we need 10 times as much nickel, and that will change the math for pretty much everything involv",
+   "date": "2024-05-27",
+   "result40": "WRONG (33% of 3 decided, 33 unclear)",
+   "split40": 33,
+   "result400": "WRONG (32% of 37 decided, 311 unclear)",
+   "split400": 32,
+   "votes400": {
+    "result": "WRONG (32% of 37 decided, 311 unclear)",
+    "split": 32,
+    "yes": 12,
+    "no": 25,
+    "unclear": 311,
+    "n": 348
+   },
+   "seconds": 700.7
+  },
+  "pred_20261001225017_fdadca3d67b3": {
+   "claim": "A diplomatic agreement is unlikely in the near term, and the conflict is expected to continue intensifying in Gaza.",
+   "date": "2024-06-10",
+   "result40": "RIGHT (100% of 20 decided, 17 unclear)",
+   "split40": 0,
+   "result400": "RIGHT (100% of 185 decided, 109 unclear)",
+   "split400": 0,
+   "votes400": {
+    "result": "RIGHT (100% of 185 decided, 109 unclear)",
+    "split": 0,
+    "yes": 185,
+    "no": 0,
+    "unclear": 109,
+    "n": 294
+   },
+   "seconds": 760.0
+  },
+  "pred_1790961078_15": {
+   "claim": "The Dow/gold Ratio will reach 1:1 at some point in the future.",
+   "date": "2026-08-05",
+   "result40": "WRONG (0% of 22 decided, 18 unclear)",
+   "split40": 0,
+   "result400": "WRONG (5% of 39 decided, 283 unclear)",
+   "split400": 5,
+   "votes400": {
+    "result": "WRONG (5% of 39 decided, 283 unclear)",
+    "split": 5,
+    "yes": 2,
+    "no": 37,
+    "unclear": 283,
+    "n": 322
+   },
+   "seconds": 695.9
+  }
+ }
+}

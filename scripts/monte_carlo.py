@@ -166,9 +166,10 @@ def run(n: int = N_DEFAULT):
                 if decided > 0:
                     target["mc_split"] = min(pct_yes, 100 - pct_yes)
                 print(f"  => {target['claim'][:60]} : {mc_result}")
+                pred = target
                 with locked_data() as fresh:
                     fidx = {q['id']: i2 for i2, q in enumerate(fresh['predictions'])}
-                    fresh['predictions'][fidx[pred_id]] = pred_snapshot
+                    fresh['predictions'][fidx[pred_id]] = pred
             else:
                 print(f"  => TARGET GONE: {pred_id}", flush=True)
     # Final idempotent write

@@ -1,0 +1,8 @@
+{
+  "vote": "correct",
+  "confidence": 68,
+  "reasoning": "China announced in November 2024 a ~10 trillion yuan debt relief package, with approximately 6 trillion yuan ($840 billion) in new local government bond capacity to swap hidden debt for official bonds. This closely matches Zeihan's $800 billion figure and his characterization of refinancing onto 'more official terms.' The policy was implemented as described, though the mechanism was local government bond issuance under higher quotas rather than central government debt assumption.",
+  "sources_checked": [],
+  "dissent_note": "Panel voted 3 unclear, but the announced policy's scale (~$840B) and purpose (debt swap to official terms) substantially match the prediction. The ambiguity in 'Chinese government takes on debt' versus 'allows local governments to issue official bonds' is a reasonable interpretation of the same economic reality.",
+  "judged_at": "2026-10-07T14:56:38.827172"
+}

@@ -12312,3 +12312,7 @@ ValueError: No embedding data received
 2026-10-07 14:40:05 neo4j http up
 2026-10-07 14:40:07 starting LLM proxy
 2026-10-07 14:40:10 adjudicating pred_20261001163700_663715: Three Mile Island nuclear plant will go back into service in 2028.
+2026-10-07 14:54:44 runner exit 0: n                     r.fact AS fact,\n                     r.episodes AS episodes,\n                     r.expired_at AS expired_at,\n                     r.valid_at AS valid_at,\n                     r.invalid_at AS invalid_at\n                 ORDER BY score DESC LIMIT $limit\n                 '
+
+2026-10-07 14:55:46 pred_20261001163700_663715 miro verdict saved
+2026-10-07 14:55:46 adjudicating pred_20261001184750_ffead3b69bde: China's shale oil extraction will not reach significant levels due to 
