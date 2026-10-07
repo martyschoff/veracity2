@@ -567,8 +567,10 @@
                     : (verdict.indexOf('MARTY') === 0 ? 'background:rgba(245,158,11,0.18);border:1px solid rgba(245,158,11,0.6);'
                     : (verdict === 'correct' ? 'background:rgba(34,197,94,0.18);border:1px solid rgba(34,197,94,0.5);' : ''));
                 var martyr = '';
-                if (p.marty_agrees === true) martyr = '<div class="marty-badge marty-agrees">' + (p.marty_note || 'MartyPredicts: Right') + '</div>';
-                else if (p.marty_agrees === false) martyr = '<div class="marty-badge marty-disagrees">' + (p.marty_note || 'MartyPredicts: Wrong') + '</div>';
+                if (!p.marty_verdict) {  // one Marty label per card: verdict box shows MARTY: X; badge only when no verdict box
+                    if (p.marty_agrees === true) martyr = '<div class="marty-badge marty-agrees">' + (p.marty_note || 'MartyPredicts: Right') + '</div>';
+                    else if (p.marty_agrees === false) martyr = '<div class="marty-badge marty-disagrees">' + (p.marty_note || 'MartyPredicts: Wrong') + '</div>';
+                }
                 var occ = p.occurrences || [];
                 var occHtml = '';
                 if (occ.length > 0) {

@@ -1,7 +1,38 @@
-rc=0
+rc=1
 STDOUT:
-[11:30:34] INFO: ReportAgent 初始化完成: graph_id=graphiti-m0, simulation_id=m0-adjudication
-wrote C:\Users\schof\veracity-panel\backend\app\fixtures\test_out.json
+[11:38:35] INFO: ReportAgent 初始化完成: graph_id=graphiti-m0, simulation_id=m0-adjudication
 
 STDERR:
-AS m\n               RETURN\n                     r.uuid AS uuid,\n                     r.group_id AS group_id,\n                     n.uuid AS source_node_uuid,\n                     m.uuid AS target_node_uuid,\n                     r.created_at AS created_at,\n                     r.name AS name,\n                     r.fact AS fact,\n                     r.episodes AS episodes,\n                     r.expired_at AS expired_at,\n                     r.valid_at AS valid_at,\n                     r.invalid_at AS invalid_at\n                 ORDER BY score DESC LIMIT $limit\n                 '
+embed count mismatch: 1 embeddings for 0 nodes; truncating to min
+Received notification from DBMS server: {severity: WARNING} {code: Neo.ClientNotification.Statement.UnknownPropertyKeyWarning} {category: UNRECOGNIZED} {title: The provided property key is not in the database} {description: One of the property names in your query is not available in the database, make sure you didn't misspell it or that the label is available when you run this statement in your application (the missing property name is: fact_embedding)} {position: line: 4, column: 45, offset: 423} for query: '\n                                                                                                                                                                MATCH (n:Entity)-[r:RELATES_TO]->(m:Entity)\n                                                                                                                                               WHERE r.group_id IN $group_ids\nWITH DISTINCT r, vector.similarity.cosine(r.fact_embedding, $search_vector) AS score\n                WHERE score > $min_score\n                RETURN\n                    r.uuid AS uuid,\n                    r.group_id AS group_id,\n                    startNode(r).uuid AS source_node_uuid,\n                    endNode(r).uuid AS target_node_uuid,\n                    r.created_at AS created_at,\n                    r.name AS name,\n                    r.fact AS fact,\n                    r.episodes AS episodes,\n                    r.expired_at AS expired_at,\n                    r.valid_at AS valid_at,\n                    r.invalid_at AS invalid_at\n                ORDER BY score DESC\n                LIMIT $limit\n        '
+Received notification from DBMS server: {severity: WARNING} {code: Neo.ClientNotification.Statement.UnknownPropertyKeyWarning} {category: UNRECOGNIZED} {title: The provided property key is not in the database} {description: One of the property names in your query is not available in the database, make sure you didn't misspell it or that the label is available when you run this statement in your application (the missing property name is: episodes)} {position: line: 14, column: 23, offset: 866} for query: '\n                                                                                                                                                                MATCH (n:Entity)-[r:RELATES_TO]->(m:Entity)\n                                                                                                                                               WHERE r.group_id IN $group_ids\nWITH DISTINCT r, vector.similarity.cosine(r.fact_embedding, $search_vector) AS score\n                WHERE score > $min_score\n                RETURN\n                    r.uuid AS uuid,\n                    r.group_id AS group_id,\n                    startNode(r).uuid AS source_node_uuid,\n                    endNode(r).uuid AS target_node_uuid,\n                    r.created_at AS created_at,\n                    r.name AS name,\n                    r.fact AS fact,\n                    r.episodes AS episodes,\n                    r.expired_at AS expired_at,\n                    r.valid_at AS valid_at,\n                    r.invalid_at AS invalid_at\n                ORDER BY score DESC\n                LIMIT $limit\n        '
+Received notification from DBMS server: {severity: WARNING} {code: Neo.ClientNotification.Statement.UnknownPropertyKeyWarning} {category: UNRECOGNIZED} {title: The provided property key is not in the database} {description: One of the property names in your query is not available in the database, make sure you didn't misspell it or that the label is available when you run this statement in your application (the missing property name is: episodes)} {position: line: 15, column: 24, offset: 651} for query: '\n              CALL db.index.fulltext.queryRelationships("edge_name_and_fact", $query, {limit: $limit}) \n              YIELD relationship AS rel, score\n              MATCH (:Entity)-[r:RELATES_TO]->(:Entity)\n              WHERE r.group_id IN $group_ids\nWITH r, score, startNode(r) AS n, endNode(r) AS m\n               RETURN\n                     r.uuid AS uuid,\n                     r.group_id AS group_id,\n                     n.uuid AS source_node_uuid,\n                     m.uuid AS target_node_uuid,\n                     r.created_at AS created_at,\n                     r.name AS name,\n                     r.fact AS fact,\n                     r.episodes AS episodes,\n                     r.expired_at AS expired_at,\n                     r.valid_at AS valid_at,\n                     r.invalid_at AS invalid_at\n                 ORDER BY score DESC LIMIT $limit\n                 '
+Traceback (most recent call last):
+  File "C:\Users\schof\veracity-panel\backend\scripts\run_claim_adjudication.py", line 66, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "C:\Users\schof\veracity-panel\backend\scripts\run_claim_adjudication.py", line 53, in main
+    verdict_dict = agent.adjudicate_verdict(claim.to_prompt_dict(), panel_result)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\schof\veracity-panel\backend\app\services\report_agent.py", line 1001, in adjudicate_verdict
+    verdict = Verdict(
+              ^^^^^^^^
+  File "C:\Users\schof\veracity-panel\backend\.venv\Lib\site-packages\pydantic\main.py", line 263, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 5 validation errors for Verdict
+specialist_votes.0.summary
+  Field required [type=missing, input_value={'specialist_id': 'demogr...ed', 'confidence': 0.25}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+specialist_votes.1.summary
+  Field required [type=missing, input_value={'specialist_id': 'energy...ed', 'confidence': 0.85}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+specialist_votes.2.summary
+  Field required [type=missing, input_value={'specialist_id': 'capita...ted', 'confidence': 0.8}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+specialist_votes.3.summary
+  Field required [type=missing, input_value={'specialist_id': 'trade_...ed', 'confidence': 0.25}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+specialist_votes.4.summary
+  Field required [type=missing, input_value={'specialist_id': 'milita...ed', 'confidence': 0.65}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
