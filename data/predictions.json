@@ -612,12 +612,14 @@
         "https://x.com/elonmusk"
       ],
       "categories": [
-        "ai"
+        "ai",
+        "usdefense"
       ],
       "publication": false,
       "weight_subjective": 1.0,
       "weight_objective": 1.0,
-      "panel_weight": 1.0
+      "panel_weight": 1.0,
+      "profile": "SpaceX/Tesla/xAI"
     },
     {
       "name": "Mark Zuckerberg",
@@ -1866,6 +1868,32 @@
       "weight_subjective": 1.0,
       "weight_objective": 1.0,
       "profile": "CSIS defense programs; force-posture and China-invasion predictions"
+    },
+    {
+      "name": "Palmer Luckey",
+      "handle": "pluckey",
+      "sources": [
+        "https://www.youtube.com/results?search_query=palmer+luckey+anduril"
+      ],
+      "categories": [
+        "usdefense"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0,
+      "profile": "Anduril founder/chairman; defense-tech predictions"
+    },
+    {
+      "name": "Gwynne Shotwell",
+      "handle": "gshotwell",
+      "sources": [
+        "https://www.youtube.com/results?search_query=gwynne+shotwell+spacex"
+      ],
+      "categories": [
+        "usdefense"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0,
+      "profile": "SpaceX President/COO; launch cadence + Starship timeline predictions"
     }
   ],
   "predictions": [
