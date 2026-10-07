@@ -64,7 +64,10 @@ for p in predictions:
 
 rows_by_person = {}
 for name in TRACKED_NAMES:
-    person_preds = [p for p in outstanding if p.get('individual_name') == name]
+    # grid columns show ALL tracked predictions (verdicted included) - verdict
+    # boxes (Marty final / panel) render per template; outstanding-only hid
+    # graded entries entirely.
+    person_preds = [p for p in predictions if p.get('individual_name') == name]
     person_preds.sort(key=lambda p: p.get('date', ''), reverse=True)
     for p in person_preds:
         p['source_url'] = _deeplink(p)

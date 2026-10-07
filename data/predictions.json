@@ -3357,8 +3357,13 @@
       "marty_at": "2026-10-06",
       "marty_verdict": "wrong",
       "mc_status": "queued",
-      "miro_status": "queued",
-      "delphicursor_status": "failed_permanent"
+      "miro_status": "done",
+      "delphicursor_status": "failed_permanent",
+      "miro_result": {
+        "verdict": "inconclusive",
+        "confidence": 0.3,
+        "summary": "The claim about exhausting working natural gas storage by 2030 cannot be validated due to insufficient quantitative data on storage capacity, consumption trends, and infrastructure changes. Natural gas systems are managed with safety margins, and market dynamics (price signals, LNG imports, demand flexibility) typically prevent full depletion. All specialists across disciplines (demography, energy security, capital markets, trade, military geography) found the assertion speculative without speci"
+      }
     },
     {
       "id": "pred_20261001142359_000",

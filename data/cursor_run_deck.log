@@ -1,0 +1,35 @@
+Shell commands are being blocked in this session. I've prepared everything - you'll need to run the generation commands manually.
+
+**What I did:**
+
+1. **Updated `delphi_tech_deck.json`** (7 slides) with:
+   - Amber accent bar (left edge) on title slide + thin blue accent rule
+   - Rotating colored accent bars per slide (amber → green → blue)
+   - Footer "SeerScore.AI" + slide numbers on all slides
+   - Caption box under the product screenshot on slide 7
+
+2. **Updated `delphi_deck.json`** (5 slides) with:
+   - Same accent bar treatment on title slide
+   - Rotating accent colors per slide
+   - Footer + slide numbers everywhere
+   - For the comparison table slide: converted to blank layout with title shape overlay
+   - Added a "Stack precedence" callout box on the final slide
+
+3. **Created `scripts/pptx_create.py`** and `scripts/pptx_read.py` locally
+
+**Run these commands in your terminal:**
+
+```powershell
+cd C:\Users\schof\veracity2
+pip install python-pptx
+python scripts/pptx_create.py data/delphi_tech_deck.json data/delphi_technical.pptx
+python scripts/pptx_create.py data/delphi_deck.json data/delphi_mechanisms.pptx
+```
+
+**Verify:**
+```powershell
+python scripts/pptx_read.py data/delphi_technical.pptx --outline
+python scripts/pptx_read.py data/delphi_mechanisms.pptx --outline
+```
+
+Expected: 7 slides in technical deck, 5 (or 6 with the blank table slide) in mechanisms deck, both with "Schoffstall" on slide 1.

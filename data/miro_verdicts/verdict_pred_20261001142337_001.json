@@ -1,0 +1,49 @@
+{
+  "schema_version": "m0.1",
+  "claim_id": "marty-pred_20261001142337_001",
+  "label": "inconclusive",
+  "confidence": 0.3,
+  "rationale": "The claim about exhausting working natural gas storage by 2030 cannot be validated due to insufficient quantitative data on storage capacity, consumption trends, and infrastructure changes. Natural gas systems are managed with safety margins, and market dynamics (price signals, LNG imports, demand flexibility) typically prevent full depletion. All specialists across disciplines (demography, energy security, capital markets, trade, military geography) found the assertion speculative without specific metrics or graph data for analysis.",
+  "caveats": [
+    "Lack of storage capacity/consumption metrics prevents validation",
+    "Market dynamics (price signals, LNG imports) likely mitigate full depletion",
+    "Infrastructure flexibility and safety margins reduce risk",
+    "No graph data provided for direct analysis"
+  ],
+  "specialist_votes": [
+    {
+      "specialist_id": "demographer",
+      "label": "inconclusive",
+      "confidence": 0.3,
+      "summary": "Demographic factors do not directly constrain natural gas storage dynamics; no demographic data provided to assess this claim."
+    },
+    {
+      "specialist_id": "energy_security",
+      "label": "inconclusive",
+      "confidence": 0.3,
+      "summary": "Natural gas storage is managed with safety margins, but absence of quantitative context renders the claim speculative."
+    },
+    {
+      "specialist_id": "capital_markets",
+      "label": "inconclusive",
+      "confidence": 0.3,
+      "summary": "No capital flow or storage infrastructure funding data provided to validate the claim."
+    },
+    {
+      "specialist_id": "trade_supply_chain",
+      "label": "inconclusive",
+      "confidence": 0.4,
+      "summary": "Dependence on unmodeled variables like demand volatility and LNG import capacity prevents validation without quantitative context."
+    },
+    {
+      "specialist_id": "military_geography",
+      "label": "inconclusive",
+      "confidence": 0.3,
+      "summary": "Strategic Geography lacks relevant data on labor/tax bases or energy corridor infrastructure to assess storage depletion."
+    }
+  ],
+  "graph_citations": [],
+  "panel_id": "zeihan_panel_v1",
+  "rounds": 2,
+  "markdown_gloss": "# Verdict gloss (non-authoritative)\n\n**Claim:** `marty-pred_20261001142337_001`\n\n**Label:** inconclusive (confidence 0.30)\n\n## Rationale\n\nThe claim about exhausting working natural gas storage by 2030 cannot be validated due to insufficient quantitative data on storage capacity, consumption trends, and infrastructure changes. Natural gas systems are managed with safety margins, and market dynamics (price signals, LNG imports, demand flexibility) typically prevent full depletion. All specialists across disciplines (demography, energy security, capital markets, trade, military geography) found the assertion speculative without specific metrics or graph data for analysis.\n\n## Specialist votes\n\n- **demographer**: inconclusive (0.30) — Demographic factors do not directly constrain natural gas storage dynamics; no demographic data provided to assess this claim.\n- **energy_security**: inconclusive (0.30) — Natural gas storage is managed with safety margins, but absence of quantitative context renders the claim speculative.\n- **capital_markets**: inconclusive (0.30) — No capital flow or storage infrastructure funding data provided to validate the claim.\n- **trade_supply_chain**: inconclusive (0.40) — Dependence on unmodeled variables like demand volatility and LNG import capacity prevents validation without quantitative context.\n- **military_geography**: inconclusive (0.30) — Strategic Geography lacks relevant data on labor/tax bases or energy corridor infrastructure to assess storage depletion.\n\n## Caveats\n\n- Lack of storage capacity/consumption metrics prevents validation\n- Market dynamics (price signals, LNG imports) likely mitigate full depletion\n- Infrastructure flexibility and safety margins reduce risk\n- No graph data provided for direct analysis\n"
+}

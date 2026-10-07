@@ -1,105 +1,24 @@
-"""DelphiCursor check: verify setup and show status.
 
-Usage: python scripts/delphicursor_check.py
-"""
-import json
-from pathlib import Path
-
-BASE = Path(__file__).resolve().parent.parent
-DATA = BASE / 'data' / 'predictions.json'
-VERDICTS_DIR = BASE / 'data' / 'delphicursor_verdicts'
-LOGS_DIR = BASE / 'data' / 'delphicursor_logs'
-FAILURES_LOG = BASE / 'data' / 'delphicursor_failures.jsonl'
-DISAGREEMENTS_LOG = BASE / 'data' / 'delphicursor_disagreements.jsonl'
-
-def main():
-    print("DelphiCursor Status Check")
-    print("=" * 40)
-    
-    # Check directories
-    print("\n📁 Directories:")
-    for d in [VERDICTS_DIR, LOGS_DIR]:
-        exists = "✓" if d.exists() else "✗"
-        print(f"  {exists} {d.name}/")
-    
-    # Load predictions
-    with open(DATA, encoding='utf-8') as f:
-        data = json.load(f)
-    
-    predictions = data.get('predictions', [])
-    
-    # Count statuses
-    statuses = {}
-    for p in predictions:
-        st = p.get('delphicursor_status', 'none')
-        statuses[st] = statuses.get(st, 0) + 1
-    
-    print("\n📊 DelphiCursor Statuses:")
-    for st, count in sorted(statuses.items()):
-        print(f"  {st}: {count}")
-    
-    # Count verdicts
-    verdicts = {'correct': 0, 'incorrect': 0, 'unclear': 0}
-    has_result = 0
-    for p in predictions:
-        if p.get('delphicursor_result'):
-            has_result += 1
-            vote = p['delphicursor_result'].get('vote')
-            if vote in verdicts:
-                verdicts[vote] += 1
-    
-    print(f"\n🔮 DelphiCursor Results: {has_result} predictions")
-    if has_result:
-        for v, c in verdicts.items():
-            print(f"  {v}: {c}")
-    
-    # Check verdict files
-    verdict_files = list(VERDICTS_DIR.glob('*.json')) if VERDICTS_DIR.exists() else []
-    print(f"\n📄 Verdict files: {len(verdict_files)}")
-    
-    # Check logs
-    log_files = list(LOGS_DIR.glob('*.log')) if LOGS_DIR.exists() else []
-    print(f"📜 Log files: {len(log_files)}")
-    
-    # Check failures
-    if FAILURES_LOG.exists():
-        failures = FAILURES_LOG.read_text().strip().split('\n')
-        failures = [f for f in failures if f]
-        print(f"⚠️  Failures logged: {len(failures)}")
-    else:
-        print("⚠️  No failure log yet")
-    
-    # Check disagreements
-    if DISAGREEMENTS_LOG.exists():
-        disagreements = DISAGREEMENTS_LOG.read_text().strip().split('\n')
-        disagreements = [d for d in disagreements if d]
-        print(f"🔀 Disagreements logged: {len(disagreements)}")
-    else:
-        print("🔀 No disagreements logged yet")
-    
-    # Show recent verdicts
-    recent = []
-    for p in predictions:
-        if p.get('delphicursor_result'):
-            recent.append((
-                p.get('delphicursor_result', {}).get('judged_at', ''),
-                p['id'],
-                p.get('delphicursor_result', {}).get('vote', ''),
-                p.get('claim', '')[:50]
-            ))
-    recent.sort(reverse=True)
-    
-    if recent:
-        print("\n🕐 Recent DelphiCursor Verdicts:")
-        for ts, pid, vote, claim in recent[:5]:
-            print(f"  [{vote}] {claim}...")
-    
-    print("\n" + "=" * 40)
-    print("To queue eligible claims:")
-    print("  python scripts/delphicursor_queue.py")
-    print("To process queue:")
-    print("  python scripts/delphicursor_worker.py --once")
-
-
-if __name__ == '__main__':
-    main()
+import subprocess, time, datetime, json
+log = r'C:/Users/schof/veracity2/data/delphicursor_worker.log'
+status = r'C:/Users/schof/veracity2/data/delphicursor_watch_status.txt'
+done_before = 0
+try: done_before = sum(1 for x in json.load(open(r'C:/Users/schof/veracity2/data/predictions.json', encoding='utf-8'))['predictions'] if x.get('delphicursor_result'))
+except Exception: pass
+while True:
+    now = datetime.datetime.now().strftime('%H:%M:%S')
+    alive = subprocess.run(['powershell','-c',"Get-CimInstance Win32_Process -Filter \"Name='pythonw.exe'\" | ForEach { $cl=(Get-CimInstance Win32_Process -Filter \"ProcessId=$($_.ProcessId)\").CommandLine; if ($cl -like '*delphicursor_worker*') { exit 0 } }; exit 1"], capture_output=True).returncode == 0
+    try:
+        done_now = sum(1 for x in json.load(open(r'C:/Users/schof/veracity2/data/predictions.json', encoding='utf-8'))['predictions'] if x.get('delphicursor_result'))
+    except Exception:
+        done_now = 0
+    tail = open(log, encoding='utf-8', errors='replace').read().splitlines()[-3:]
+    txt = f"check {now} | worker alive: {alive} | cursor verdicts: {done_now} (was {done_before})\n" + "\n".join(tail)
+    open(status, 'w').write(txt)
+    if done_now > done_before or 'ALL_QUEUE_DONE' in '\n'.join(tail):
+        txt += '\n=== DELPHICURSOR CASES COMPLETE ==='
+        open(status, 'w').write(txt)
+        break
+    if not alive:
+        subprocess.Popen([r'C:/Users/schof/AppData/Local/hermes/tools/python-3.14.7+20260901-win32-x64/pythonw.exe', r'C:/Users/schof/veracity2/scripts/delphicursor_worker.py'], creationflags=0x08000000)
+    time.sleep(240)
