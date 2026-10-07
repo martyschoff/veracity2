@@ -93,7 +93,9 @@ function load() {
                 return '<tr><td>' + m[0] + '</td><td>' + m[1] + '</td><td class="' + (m[2] === 'correct' ? 'verdict' : 'pill-bad') + '">' + (m[2] === 'correct' ? 'RIGHT' : 'WRONG') + '</td></tr>';
             }).join('');
         document.getElementById('swarm').innerHTML = d.swarm_recent.map(function(m){
-            return '<tr><td>' + m[0] + '</td><td>' + m[1] + '</td><td class="verdict">' + (m[2] || '') + '</td></tr>';
+            var v = (m[2] || '').toLowerCase();
+            var cls = v.indexOf('right') > -1 || v.indexOf('correct') > -1 ? 'fc' : (v.indexOf('wrong') > -1 || v.indexOf('incorrect') > -1 ? 'verdict' : '');
+            return '<tr><td>' + m[0] + '</td><td>' + m[1] + '</td><td class="' + cls + '">' + (m[2] || '') + '</td></tr>';
         }).join('') || '<tr><td class="tbd">none yet</td></tr>';
         document.getElementById('miro').innerHTML = d.miro_recent.map(function(m){
             return '<tr><td>' + m[0] + '</td><td>' + m[1] + '</td><td class="fc">' + (m[2] || '') + '</td></tr>';

@@ -1936,6 +1936,20 @@
       "weight_subjective": 1.0,
       "weight_objective": 1.0,
       "profile": "President Queens' College Cambridge, Allianz advisor, ex-PIMCO; FT/Bloomberg columnist, TV regular. Macro/finance calls. Weight 1.0 per owner."
+    },
+    {
+      "name": "Tom Switzer",
+      "handle": "tomswitzer",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tom_Switzer",
+        "https://www.cis.org.au/"
+      ],
+      "categories": [
+        "geopolitics"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0,
+      "profile": "Executive director, Centre for Independent Studies (Sydney); former editor The Spectator Australia; foreign-affairs columnist (AFR, NYT-syndicated); frequent Asia-Pacific/US-Australia geopolitics commentary. Weight 1.0."
     }
   ],
   "predictions": [
