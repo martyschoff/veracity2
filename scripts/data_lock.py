@@ -5,6 +5,10 @@ must use these: with locked_data():  ... modify d ... save happens on exit.
 Prevents the stale-snapshot clobber that wiped Marty marks.
 """
 import json
+import logging
+import os
+logging.basicConfig(level=logging.DEBUG, format="%(asctime)s pid=%(process)d %(name)s %(message)s")
+logging.getLogger("filelock").setLevel(logging.DEBUG)
 from contextlib import contextmanager
 from pathlib import Path
 

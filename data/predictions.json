@@ -1799,6 +1799,18 @@
       "weight_subjective": 1.0,
       "weight_objective": 1.0,
       "panel_weight": 1.5
+    },
+    {
+      "name": "Alex (J2 Ventures)",
+      "handle": "alex_j2",
+      "sources": [
+        "https://www.j2ventures.com"
+      ],
+      "categories": [
+        "usdefense"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0
     }
   ],
   "predictions": [
