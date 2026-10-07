@@ -12214,3 +12214,5 @@ inError 2] The system cannot find the file specified
 2026-10-07 06:46:23 worker error: [WinError 2] The system cannot find the file specified
 2026-10-07 06:47:18 starting Neo4j
 2026-10-07 06:47:18 worker error: [WinError 2] The system cannot find the file specified
+2026-10-07 06:48:25 starting Neo4j
+2026-10-07 06:48:25 worker error: [WinError 2] The system cannot find the file specified
