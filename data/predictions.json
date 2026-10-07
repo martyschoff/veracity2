@@ -2258,7 +2258,11 @@
           "weight": 1.5,
           "reasoning": "The prediction refers to a future timeline that has not yet fully materialized by late 2026, making it impossible to definitively confirm or refute the claim at this point in time."
         }
-      ]
+      ],
+      "marty_agrees": true,
+      "marty_note": "MartyPredicts: Right",
+      "marty_at": "2026-10-06",
+      "marty_verdict": "correct"
     },
     {
       "id": "pred_20260930192307_f7bb161cb48f",
@@ -3142,7 +3146,11 @@
           "weight": 1.0,
           "reasoning": "The prediction is made in 2026 about a shortage beginning in 2028, and it is now late 2026. There is not yet sufficient data to confirm or refute the claim, making the outcome not yet decidable."
         }
-      ]
+      ],
+      "marty_agrees": false,
+      "marty_note": "MartyPredicts: Wrong",
+      "marty_at": "2026-10-06",
+      "marty_verdict": "wrong"
     },
     {
       "id": "pred_20261001142337_001",
@@ -3176,7 +3184,11 @@
           "weight": 1.0,
           "reasoning": "As of late 2026, there is insufficient data to confirm or refute whether natural gas storage will be exhausted by 2030. The prediction hinges on future supply, demand, and storage management factors that have not yet played out."
         }
-      ]
+      ],
+      "marty_agrees": false,
+      "marty_note": "MartyPredicts: Wrong",
+      "marty_at": "2026-10-06",
+      "marty_verdict": "wrong"
     },
     {
       "id": "pred_20261001142359_000",
@@ -36263,7 +36275,11 @@
           "weight": 1.0,
           "reasoning": "By late 2026, Ukraine has demonstrated net territorial gains and technological superiority in drone warfare, aligning with the prediction's trajectory."
         }
-      ]
+      ],
+      "marty_agrees": false,
+      "marty_note": "MartyPredicts: Wrong",
+      "marty_at": "2026-10-06",
+      "marty_verdict": "wrong"
     },
     {
       "id": "pred_20261002000858_720c79dac5fe",
