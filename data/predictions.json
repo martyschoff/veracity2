@@ -1894,6 +1894,20 @@
       "weight_subjective": 1.0,
       "weight_objective": 1.0,
       "profile": "SpaceX President/COO; launch cadence + Starship timeline predictions"
+    },
+    {
+      "name": "Nanalyze",
+      "handle": "nanalyze",
+      "sources": [
+        "https://www.youtube.com/@Nanalyze",
+        "https://www.nanalyze.com/"
+      ],
+      "categories": [
+        "finance"
+      ],
+      "weight_subjective": 1.25,
+      "weight_objective": 1.25,
+      "profile": "Independent equity research channel; thesis-driven stock analysis with explicit price/valuation calls. Weighted 1.25 per owner."
     }
   ],
   "predictions": [
