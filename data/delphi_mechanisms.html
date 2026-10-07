@@ -1,0 +1,43 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Seer Score Adjudication Stack</title>
+<style>body{margin:0;background:#0f172a;color:#e2e8f0;font-family:Segoe UI,sans-serif}
+.slide{min-height:100vh;padding:60px 80px;border-bottom:6px solid #1e293b;box-sizing:border-box}
+h1{font-size:2.6rem;color:#f8fafc}h2{font-size:2rem;color:#93c5fd;border-bottom:2px solid #334155;padding-bottom:8px}
+li{font-size:1.25rem;margin:14px 0;line-height:1.5}
+table{border-collapse:collapse;width:100%;font-size:1.05rem;margin-top:20px}
+td,th{border:1px solid #334155;padding:10px 14px;text-align:left}th{background:#1e293b;color:#93c5fd}
+.small{color:#94a3b8;font-size:.9rem}</style></head><body>
+<div class="slide"><h1>Seer Score Adjudication Stack</h1>
+<p style="font-size:1.4rem;color:#cbd5e1">Delphi3080 vs DelphiCursor vs the MiroFish public service — mechanisms, targets, trade-offs</p>
+<p class="small">SeerScore.AI · Oct 7, 2026 · browser twin of delphi_mechanisms.pptx</p></div>
+<div class="slide"><h2>1 · What MiroFish set as the standard</h2><ul>
+<li><b>Pipeline:</b> claim → Graphiti/Neo4j knowledge-graph ingest → specialist agents argue in rounds → ReportAgent verdict</li>
+<li><b>Targets:</b> max-context reasoning, full social simulation, explainable rationale trail, graph persistence</li>
+<li><b>Cost:</b> high — embeddings + 2-3 rounds per claim, ~15-30 min on local 32B</li>
+<li><b>Our move:</b> Delphi3080 keeps the skeleton, re-targets it to daily verdicts at tracker scale</li></ul></div>
+<div class="slide"><h2>2 · Delphi3080 — our agent-society instance</h2><ul>
+<li>Silent pythonw worker → fixture → Graphiti ingest → 2 specialist rounds → verdict + confidence</li>
+<li>Judge: local qwen3:32b on nimo128 (embed-fixups in the llm proxy)</li>
+<li>Targets: $0 marginal, always-on, batch all graded predictions, fail-soft queue</li>
+<li><b>Verified Oct 7:</b> first clean end-to-end run — nickel 10×-demand REFUTED @0.65 (matches owner mark)</li>
+<li>Weakness: 32B reasoning ceiling; ingest/embedding fragility (4 fixed today)</li></ul></div>
+<div class="slide"><h2>3 · DelphiCursor — the Opus tiebreaker</h2><ul>
+<li>Fixture (<b>Marty redacted — judge blind</b>) → Cursor agent (Opus, may browse ≤2 URLs) → verdict.json → validate → merge</li>
+<li>Targets: frontier reasoning on contested/deadlocked claims; calibration vs owner</li>
+<li><b>Mode A:</b> advisory — Marty stays FINAL; grid shows Delphi3080 + DelphiCursor side by side</li>
+<li>Controls: 300s hard timeout, ≤15 claims/day, single-instance lock, schema validation, ≤2 retries</li>
+<li>Status: worker/queue/check/display built; API router + tests finishing; no case submitted yet</li></ul></div>
+<div class="slide"><h2>4 · Differences vs the MiroFish public service</h2>
+<table><tr><th>Dimension</th><th>MiroFish public service</th><th>Delphi3080</th><th>DelphiCursor</th></tr>
+<tr><td>Judge</td><td>Multiple role agents</td><td>Simulated specialists, 32B local</td><td>Single Opus, may browse</td></tr>
+<tr><td>Knowledge graph</td><td>Core deliverable</td><td>Reused (Graphiti/Neo4j)</td><td>None — fixture-only</td></tr>
+<tr><td>Latency/claim</td><td>Minutes–hours</td><td>~15-30 min</td><td>1-5 min (300s cap)</td></tr>
+<tr><td>Cost</td><td>High</td><td>$0 marginal</td><td>Flat-fee Cursor</td></tr>
+<tr><td>Scale</td><td>Deep research per claim</td><td>All graded preds daily</td><td>Contested only (Mode A)</td></tr>
+<tr><td>Failure stance</td><td>Run must complete</td><td>Error-mark, queue survives</td><td>Validate + retry ≤2</td></tr></table></div>
+<div class="slide"><h2>5 · Targets going forward</h2><ul>
+<li>Merge first Delphi3080 verdicts into the grid (≤50-word hover tooltips live)</li>
+<li>Enqueue all current cases to DelphiCursor after QA; owner submits first one</li>
+<li>Escalation trigger (V3): swarm split ≤30%, panel deadlock, Delphi3080 unclear → priority</li>
+<li>Port Delphi3080 to nimo128 Strix Halo (+ Qwen3.8-27B) before laptop return</li>
+<li>Twice-daily 8am/8pm: harvest → gate → sweep → swarm → Delphi3080 → DelphiCursor → Marty → fact-check → report</li></ul></div>
+</body></html>
