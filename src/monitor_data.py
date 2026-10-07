@@ -39,6 +39,21 @@ def gather():
     miro_recent = [(x['individual_name'], x['claim'][:60], str(x.get('miro_result', {}).get('verdict'))[:40])
                    for x in preds if x.get('miro_result')]
     log_tail = WORKER_LOG.read_text(encoding='utf-8').splitlines()[-8:] if WORKER_LOG.exists() else []
+    # harvest jobs (Diamandis 2025-26, McAlvany 2025, ...)
+    harvests = []
+    for f in sorted(BASE.glob('data/harvest_*_state.json')):
+        name = f.name.replace('harvest_', '').replace('_state.json', '')
+        try:
+            st = json.load(open(f, encoding='utf-8'))
+            stats = st.get('stats', [])
+            done_n = len(st.get('done', {}))
+            total_added = sum(s.get('added', 0) for s in stats)
+            last = stats[-1].get('date', '-') if stats else '-'
+            active = 'yes' if (datetime.datetime.now() - datetime.datetime.fromtimestamp(f.stat().st_mtime)).total_seconds() < 120 else 'stalled?'
+            harvests.append({'name': name, 'processed': done_n, 'added': total_added,
+                             'last_date': last, 'active': active})
+        except Exception:
+            harvests.append({'name': name, 'processed': '?', 'added': '?', 'last_date': '?', 'active': '?'})
     smaug_version = json.load(open(BASE / 'data' / 'version.json', encoding='utf-8'))
     return {
         'now': datetime.datetime.now().strftime('%H:%M:%S'),
