@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Whisper transcription worker: transcribe the caption-blocked sources via the
 big3080 whisper.cpp server (GPU 0, port 8080), then store transcripts in the
 format the deepqa judge expects (ytdlp-<id>.md with '## Transcript').

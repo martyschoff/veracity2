@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Merge classify_state_{0,1,2}.json and apply classification to predictions.json."""
 import json
 import sys

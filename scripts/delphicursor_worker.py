@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """DelphiCursor worker: process predictions with delphicursor_status == 'queued'.
 
 Runs Cursor (Opus) as an advisory adjudicator. Each claim gets:

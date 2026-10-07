@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Deep QA fetch for non-YouTube sources (Doomberg substack, mcalvany.com)."""
 import hashlib
 import json

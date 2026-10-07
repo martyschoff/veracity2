@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Fix prediction dates by looking up actual YouTube upload dates."""
 import json
 import re

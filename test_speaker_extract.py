@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Validation run for speaker attribution — writes ONLY to data/speaker_test/."""
 import json
 import sys

@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Deep QA fetch: download full YouTube transcripts (android_vr path) for missing ids.
 
 Usage: python deepqa_fetch.py --shard K [--stride N]

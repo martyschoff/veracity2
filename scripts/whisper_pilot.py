@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Whisper pilot: download audio for 3 blocked videos, transcribe via the 3080 node.
 
 Usage: python scripts/whisper_pilot.py

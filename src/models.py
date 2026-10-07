@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Data models for veracity2 — predictions vs reality tracker."""
 
 from __future__ import annotations

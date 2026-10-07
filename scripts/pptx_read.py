@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 #!/usr/bin/env python3
 """Read a .pptx file: JSON outline, notes, or export embedded images."""
 import argparse

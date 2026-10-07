@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 import json, urllib.request
 
 def llm(messages, timeout=120):

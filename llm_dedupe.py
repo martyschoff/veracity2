@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """LLM-assisted dedupe: find restatements of the SAME prediction, even when
 worded differently. Uses local Qwen model first, Mac Ollama fallback (same
 endpoints as src/pipeline.py). Conservative: merges only clear same-claim groups.

@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Extract David McAlvany's own-voice future predictions from McAlvany Weekly Commentary posts."""
 import json, re, html, time, urllib.request, sys
 

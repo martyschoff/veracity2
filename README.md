@@ -146,3 +146,10 @@ git add -A && git commit -m "description" && git push origin master
 - **Surge:** account h4martylaptop@agentmail.to, token ea807c6f912951573c26c7fed2788f3f
 - **GitHub:** martyschoff/veracity2 (gh CLI authed)
 - **HermesMac remote gateway:** 100.84.167.88:9119 (Tailscale), Ollama at port 11434
+
+---
+
+## Copyright & License
+
+Copyright (c) 2026 Martin Schoffstall. Released under the MIT License — see [LICENSE](LICENSE).
+All rights in the underlying prediction corpus and grading methodology are reserved by the author.

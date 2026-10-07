@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Fetch test transcripts (side files only — never touches predictions.json)."""
 import json
 import os

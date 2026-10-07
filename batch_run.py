@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Resumable batch runner, executed inside the Hermes kernel (web_extract only
 works there). Each invocation processes videos until TIME_BUDGET seconds elapse,
 appending to staged_predictions.jsonl and updating state.json."""

@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Fetch YouTube transcripts + upload date via yt-dlp; write backfill3-format cache files.
 
 Usage: python fetch_captions2.py ID1 ID2 ...

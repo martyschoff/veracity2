@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Apply pending Marty marks (marks made while a sweep held a stale snapshot).
 Runs at the end of a sweep chain, before swarm/miro pick them up.
 """

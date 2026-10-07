@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Task A: classify every block in data/predictions.json via LLM batches of 8.
 
 PREDICTION blocks stay (with re-derived category, possibly revised claim after

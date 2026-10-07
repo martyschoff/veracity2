@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Origin resweep (BUILD 2): regex-flag existing predictions containing reporting
 language, LLM-judge each flagged prediction with its transcript_excerpt, and move
 misattributed ones from data/predictions.json to data/guest_pool.json.

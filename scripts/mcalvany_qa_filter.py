@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """QA-filter McAlvany batch: local-Mac judge reviews every prediction; violators deleted."""
 import sys, json, re
 sys.path.insert(0, r'C:/Users/schof/veracity2')

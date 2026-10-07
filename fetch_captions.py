@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Fetch YouTube captions via invidious.f5.si and write cache-format .md files.
 
 Usage: python fetch_captions.py ID1 ID2 ...

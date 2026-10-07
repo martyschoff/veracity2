@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Comprehensive fetch + extract script — fetches all videos, transcripts, and predictions for 3 tracked individuals."""
 
 import sys, os, json, logging, time, hashlib

@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Timestamp backfill: match each prediction's transcript_excerpt to a word
 timestamp in the source video's YouTube auto-subs, storing t_seconds.
 

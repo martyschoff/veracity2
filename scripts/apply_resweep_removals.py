@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Apply pending origin-resweep removals (data/qa_results.json verdict=remove)
 to data/predictions.json; removed ones go to the guest pool with reasons."""
 import json

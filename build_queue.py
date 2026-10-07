@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 import json, re
 d=json.load(open('data/predictions.json'))
 done_urls={p['source_url'] for p in d['predictions']}

@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """DelphiCursor queue builder: identify predictions eligible for Opus adjudication.
 
 Multi-factor escalation trigger (any 2+ factors → eligible):

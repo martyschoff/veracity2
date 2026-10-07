@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Scan upload dates for video ids via yt-dlp metadata (no captions).
 
 Usage: python scan_dates.py ID1 ID2 ...   (appends to dates.json)

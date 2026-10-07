@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Apply Stage-A classification results: keep only PREDICTION; pool the rest; re-derive categories."""
 import json, glob
 from collections import Counter

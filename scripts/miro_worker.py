@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """MiroFish worker: process predictions with miro_status == 'queued'.
 Runs the full MiroFish adjudication (Graphiti ingest -> panel -> verdict) via
 nimo128 qwen3:32b, writes miro_result back, marks done. Silent loop (pythonw).

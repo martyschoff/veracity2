@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Gate sweep using the 4-GPU qwen3:8b pool on big3080.
 Classifies claims; writes per-shard results (no shared-file writes).
   python scripts/gate_sweep_pool.py --shard 0 --stride 4 --port 11435

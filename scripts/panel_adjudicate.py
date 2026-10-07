@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Weighted panel adjudication: run panelist votes over a target set of
 predictions using the 4-GPU qwen3:8b pool (nimo as escalation).
 

@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Deep QA judge: for thin-excerpt predictions with a fetched full source,
 re-judge own-voice vs reported/quoted/third-party/past-fact.
 

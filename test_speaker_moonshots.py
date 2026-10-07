@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Retest the two Moonshots videos with debug raw logging."""
 import json, sys
 sys.path.insert(0, r"C:/Users/schof/veracity2")

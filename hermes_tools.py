@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Auto-generated Hermes tools RPC stubs."""
 import json, os, socket, shlex, threading, time
 

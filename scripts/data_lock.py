@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Shared predictions.json locking + read-modify-write helpers.
 
 Every writer (panel_adjudicate, monte_carlo, miro_worker, app.py endpoints)

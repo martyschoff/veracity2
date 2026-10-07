@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 import json, os, time, hashlib, subprocess, sys
 os.chdir('C:/Users/schof/veracity2')
 

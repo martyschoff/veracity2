@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Harvest David McAlvany predictions for 2025 from mcalvany.com weekly commentary.
 
 Site pattern: /weekly-commentary/<slug>/ episode pages with transcripts.

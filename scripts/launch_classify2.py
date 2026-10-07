@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 import subprocess, sys
 DETACHED = 0x00000008 | 0x00000200
 for k, name in enumerate(["nimo128", "local", "mac"]):

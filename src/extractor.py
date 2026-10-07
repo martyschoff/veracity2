@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """LLM-based prediction extractor — sends transcripts to an LLM and parses predictions."""
 
 from __future__ import annotations

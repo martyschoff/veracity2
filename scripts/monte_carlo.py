@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Monte Carlo persona-swarm assessment (Phase 1).
 
 For each prediction with mc_status == 'queued':

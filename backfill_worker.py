@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Backfill worker: fetches transcripts via hermes_tools.web_extract, extracts
 predictions via local LLM, stages to staged_predictions.jsonl, checkpoints
 every CHECK_EVERY videos (merge -> render -> deploy). Resumable."""

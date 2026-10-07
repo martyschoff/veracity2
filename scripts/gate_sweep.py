@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Gate sweep: classify existing live predictions, pull non-predictions into
 the implicit review queue. Sharded + resumable.
 

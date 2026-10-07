@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 import json, sys, re, time
 from hermes_tools import web_extract
 

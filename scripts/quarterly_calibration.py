@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Quarterly panelist calibration (Tetlock-style), run as a SEPARATE review process.
 
 For a given quarter (e.g. 2024Q1): score each panelist's votes against the final

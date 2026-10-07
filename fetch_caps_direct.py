@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Fetch captions by pulling the timedtext URL from yt-dlp metadata and downloading separately."""
 import json, subprocess, time, random, re, os, sys
 

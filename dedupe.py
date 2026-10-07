@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Dedupe/condense repeated predictions per individual.
 
 Groups near-identical claims into one canonical prediction block:

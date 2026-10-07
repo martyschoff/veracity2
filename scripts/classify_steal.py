@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Work-stealing classify worker: pick next undone batch from classify_state_*.json.
 
 Usage: python classify_steal.py --slot <name> [endpoint name]

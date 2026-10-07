@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Backfill worker v2: reads work_queue.json, fetches transcripts via
 hermes_tools.web_extract (RPC), extracts predictions via LLM, stages to
 staged_predictions.jsonl, checkpoints (merge -> render -> deploy) every

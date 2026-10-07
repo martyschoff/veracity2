@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Claim-type gate: classify a candidate claim as prediction / prescription /
 fact / conditional using the local model. Used by the pipeline at extraction
 and by the gate sweep over existing predictions.

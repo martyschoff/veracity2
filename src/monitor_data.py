@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Processing monitor page: live pipeline status for Seer Score.
 Route: GET /monitor (local QA app only). Auto-refreshes every 30s.
 """

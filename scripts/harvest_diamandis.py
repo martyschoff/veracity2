@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Harvest Peter Diamandis predictions for 2025-2026.
 
 Pattern: dated channel listing in one pass (yt-dlp) -> transcripts -> LLM extraction

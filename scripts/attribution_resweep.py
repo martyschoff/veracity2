@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Full speaker-attribution resweep of existing predictions.
 Batched LLM judge over data/qa_queue.json; results checkpoint to data/qa_results.json.
 """

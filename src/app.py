@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """FastAPI web app serving the veracity2 grid view."""
 
 from __future__ import annotations

@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Apply gate results: pull prescriptions/facts into the implicit queue."""
 import json
 from pathlib import Path

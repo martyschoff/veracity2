@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 import json, os
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 from pathlib import Path

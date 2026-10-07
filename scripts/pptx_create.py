@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 #!/usr/bin/env python3
 """Create a .pptx presentation from a JSON deck spec."""
 import argparse

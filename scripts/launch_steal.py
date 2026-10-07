@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 import subprocess, sys
 DETACHED = 0x00000008 | 0x00000200
 lf = open(r"C:\Users\schof\veracity2\data\classify_steal_mac.log", "w")

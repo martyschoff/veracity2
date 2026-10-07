@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 import sys, os, json, re, time, threading
 sys.path.insert(0, r"C:/Users/schof/veracity2/scripts")
 import mcalvany_extract as m

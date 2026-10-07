@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """JSON file storage for veracity2 — MVP, no database needed."""
 
 from __future__ import annotations

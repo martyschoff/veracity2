@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Merge deepqa_judge_state_{0,1}.json and apply judge results to predictions.json.
 
 Removals (REPORTED/QUOTED/PAST-FACT/NOT-FOUND) go to guest pool; OWNS/KEEP-REVISED

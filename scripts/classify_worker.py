@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Task A sharded worker: classify batches with stride 3 across 3 LLM endpoints."""
 import argparse
 import json

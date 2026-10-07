@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Combined backfill driver: fetch (yt-dlp android_vr) + extract (LLM) for next N videos.
 
 Usage: python run_batch.py <channel> <count> [--merge] [--deploy]

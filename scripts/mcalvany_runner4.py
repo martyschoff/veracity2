@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 import sys
 sys.path.insert(0, r"C:/Users/schof/veracity2/scripts")
 from concurrent.futures import ThreadPoolExecutor

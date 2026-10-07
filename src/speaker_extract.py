@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 """Speaker attribution for multi-person YouTube videos.
 
 Given a video title + description + transcript (YouTube captions, anonymous '>>' turns),

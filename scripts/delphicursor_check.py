@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 
 import subprocess, time, datetime, json
 log = r'C:/Users/schof/veracity2/data/delphicursor_worker.log'
