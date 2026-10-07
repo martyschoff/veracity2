@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Seer Score — Processing Monitor</title>
+<style>
+    body { background: transparent; color: var(--foreground, #e2e8f0); font-family: inherit; margin: 0; padding: 20px; }
+    h1 { font-size: 1.3rem; margin: 0 0 4px; }
+    .sub { color: var(--muted-foreground, #94a3b8); font-size: 0.8rem; margin-bottom: 16px; }
+    .card { background: var(--card, #1e293b); border: 1px solid var(--border, #334155); border-radius: 10px; padding: 14px 16px; margin-bottom: 14px; }
+    h2 { font-size: 0.85rem; margin: 0 0 10px; color: var(--muted-foreground, #94a3b8); text-transform: uppercase; letter-spacing: 0.05em; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
+    td, th { padding: 4px 8px; text-align: left; border-bottom: 1px solid var(--border, #334155); }
+    .verdict { color: #22c55e; font-weight: 700; }
+    .almost { color: #f59e0b; font-weight: 700; }
+    .tbd { color: var(--muted-foreground, #94a3b8); }
+    .pill { display: inline-block; padding: 1px 8px; border-radius: 6px; font-weight: 700; margin-right: 4px; }
+    .pill-ok { background: rgba(34,197,94,0.15); color: #22c55e; }
+    .pill-warn { background: rgba(245,158,11,0.15); color: #f59e0b; }
+    .pill-bad { background: rgba(239,68,68,0.15); color: #ef4444; }
+    .pill-idle { background: rgba(148,163,184,0.15); color: #94a3b8; }
+    .log { font-family: monospace; font-size: 0.7rem; color: var(--muted-foreground, #94a3b8); white-space: pre-wrap; }
+    .fc { color: #ec4899; font-weight: 700; }
+</style>
+</head>
+<body>
+    <h1>Seer Score — Processing Monitor</h1>
+    <div class="sub" id="stamp"></div>
+
+    <div class="card">
+        <h2>Verdict sweeps (primary grid)</h2>
+        <table id="per"></table>
+    </div>
+
+    <div class="card">
+        <h2>Queues</h2>
+        <div id="queues"></div>
+    </div>
+
+    <div class="card">
+        <h2>Marty's marks</h2>
+        <table id="marks"></table>
+    </div>
+
+    <div class="card">
+        <h2>Swarm results (latest)</h2>
+        <table id="swarm"></table>
+    </div>
+
+    <div class="card">
+        <h2>MiroFish results (latest)</h2>
+        <table id="miro"></table>
+    </div>
+
+    <div class="card">
+        <h2>Miro worker log (tail)</h2>
+        <div class="log" id="log"></div>
+    </div>
+
+<script>
+function pill(kind, text) {
+    var cls = kind === 'done' ? 'pill-ok' : kind === 'queued' ? 'pill-warn' : kind === 'error' ? 'pill-bad' : 'pill-idle';
+    return '<span class="pill ' + cls + '">' + text + '</span>';
+}
+function load() {
+    fetch('/api/monitor').then(function(r){ return r.json(); }).then(function(d) {
+        document.getElementById('stamp').textContent = 'live at ' + d.now + ' — v' + Number(d.version).toFixed(2) + ' — refreshing every 30s';
+        var per = document.getElementById('per');
+        per.innerHTML = '<tr><th>Person</th><th>Live</th><th>Verdicts</th><th>ALMOST</th><th>TBD</th></tr>' +
+            Object.keys(d.per).map(function(n){
+                var s = d.per[n];
+                return '<tr><td>' + n + '</td><td>' + s.total + '</td><td class="verdict">' + s.verdict + '</td><td class="almost">' + s.almost + '</td><td class="tbd">' + s.tbd + '</td></tr>';
+            }).join('');
+        var q = d.queues;
+        document.getElementById('queues').innerHTML =
+            pill(q.mc_queued ? 'queued' : 'idle', 'swarm: ' + q.mc_queued + ' queued') +
+            pill('idle', q.mc_not_due + ' not-due') +
+            pill('done', q.mc_done + ' done') +
+            pill(q.miro_queued ? 'queued' : 'idle', 'miro: ' + q.miro_queued + ' queued') +
+            pill(q.miro_error ? 'error' : 'idle', q.miro_error + ' errors') +
+            pill('done', q.miro_done + ' done');
+        document.getElementById('marks').innerHTML = '<tr><th>Person</th><th>Claim</th><th>Mark</th></tr>' +
+            d.marks.map(function(m){
+                return '<tr><td>' + m[0] + '</td><td>' + m[1] + '</td><td class="' + (m[2] === 'correct' ? 'verdict' : 'pill-bad') + '">' + (m[2] === 'correct' ? 'RIGHT' : 'WRONG') + '</td></tr>';
+            }).join('');
+        document.getElementById('swarm').innerHTML = d.swarm_recent.map(function(m){
+            return '<tr><td>' + m[0] + '</td><td>' + m[1] + '</td><td class="verdict">' + (m[2] || '') + '</td></tr>';
+        }).join('') || '<tr><td class="tbd">none yet</td></tr>';
+        document.getElementById('miro').innerHTML = d.miro_recent.map(function(m){
+            return '<tr><td>' + m[0] + '</td><td>' + m[1] + '</td><td class="fc">' + (m[2] || '') + '</td></tr>';
+        }).join('') || '<tr><td class="tbd">none yet</td></tr>';
+        document.getElementById('log').textContent = d.log_tail.join('\n');
+    });
+}
+load();
+setInterval(load, 30000);
+</script>
+</body>
+</html>

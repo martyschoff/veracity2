@@ -321,6 +321,18 @@ async def api_implicit(request: Request):
     return JSONResponse({"ok": ok})
 
 
+@app.get("/api/monitor")
+async def api_monitor():
+    from src.monitor_data import gather
+    return JSONResponse(gather())
+
+
+@app.get("/monitor", response_class=HTMLResponse)
+async def monitor_page():
+    html = _jinja_env.get_template("monitor.html").render()
+    return HTMLResponse(content=html)
+
+
 @app.get("/version.json")
 async def version_json():
     vf = BASE_DIR / "data" / "version.json"
