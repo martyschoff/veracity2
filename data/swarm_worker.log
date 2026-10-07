@@ -2,3 +2,11 @@
 2026-10-07 13:52:36 5 queued - running monte_carlo pass
 2026-10-07 13:52:42 swarm worker started (poll 60s)
 2026-10-07 13:52:42 5 queued - running monte_carlo pass
+2026-10-07 13:59:38 pass exit 1: 2 prediction(s) queued; 40 personas each
+  10/40 personas voted (10 valid)
+  20/40 personas voted (16 valid)
+  30/40 personas voted (25 valid)
+  40/40 personas voted (32 valid)
+  => China's shale oil extraction will not reach significant leve : RIGHT (100% of 6 decided, 26 unclear)
+
+2026-10-07 14:00:38 5 queued - running monte_carlo pass
