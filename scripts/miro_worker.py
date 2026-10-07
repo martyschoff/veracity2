@@ -148,8 +148,10 @@ def main():
                 process(queue[0])
             else:
                 time.sleep(60)
-        except Exception as e:
-            log(f"worker error: {e}")
+        except BaseException as e:  # NEVER die: log full type + traceback and retry
+            import traceback
+            log(f"worker error: {type(e).__name__}: {e}")
+            log(traceback.format_exc()[-800:])
             time.sleep(120)
 
 

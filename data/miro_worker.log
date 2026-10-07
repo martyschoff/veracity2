@@ -12291,3 +12291,4 @@ ValueError: No embedding data received
 ValueError: No embedding data received
 
 2026-10-07 07:56:42 pred_1790961078_51 FAILED
+2026-10-07 08:44:43 miro worker started (nimo via proxy; 7-GPU pool skipped)
