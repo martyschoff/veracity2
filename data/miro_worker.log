@@ -1262,3 +1262,17 @@ ValueError: No embedding data received
 2026-10-06 20:58:55 worker error: [WinError 2] The system cannot find the file specified
 2026-10-06 20:59:06 starting Neo4j
 2026-10-06 20:59:06 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 20:59:10 starting Neo4j
+2026-10-06 20:59:10 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 20:59:16 starting Neo4j
+2026-10-06 20:59:16 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 20:59:20 starting Neo4j
+2026-10-06 20:59:20 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 20:59:26 starting Neo4j
+2026-10-06 20:59:26 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 20:59:30 starting Neo4j
+2026-10-06 20:59:30 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 20:59:36 starting Neo4j
+2026-10-06 20:59:36 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 20:59:41 starting Neo4j
+2026-10-06 20:59:41 worker error: [WinError 2] The system cannot find the file specified

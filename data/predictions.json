@@ -41277,11 +41277,30 @@
       "claim": "Inflation will top out over 3.3 by December",
       "source_url": "https://www.youtube.com/watch?v=FhNMn8GpDPY",
       "transcript_excerpt": "I mean, we're down almost 500,000 jobs in the US payroll data in 2025, and that's big news. That is what has the Fed spooked. So, Pal said, quote, \"The shifting balance of risks may warrant adjusting our policy stance,\" unquote. So, that policy stance isn't happening because inflation is at 2% like the Fed wants. It's not. It's running. It's climbing. It's going to top out over 3.3 by December would be my guess.",
-      "verdict": null,
+      "verdict": "wrong",
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Brent Sadler (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.0,
+          "reasoning": "The prediction that inflation would top out over 3.3% by December 2025 did not occur, as inflation remained below that threshold by the end of 2025 and showed no clear trajectory toward exceeding it at that time."
+        },
+        {
+          "panelist": "Phillips O'Brien (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.25,
+          "reasoning": "Inflation did not top out over 3.3% by December 2025; it peaked at 2.8% in October 2025 before beginning a steady decline into early 2026."
+        },
+        {
+          "panelist": "Pete Hegseth (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.0,
+          "reasoning": "The prediction that inflation would top out over 3.3% by December 2025 did not occur, as inflation remained below that level throughout 2025 and into late 2026, with no evidence suggesting it reached or exceeded 3.3% by the stated deadline."
+        }
+      ]
     },
     {
       "id": "pred_1790961078_61",
@@ -41291,11 +41310,30 @@
       "claim": "Gold will hit $3,400",
       "source_url": "https://www.youtube.com/watch?v=FhNMn8GpDPY",
       "transcript_excerpt": "We're getting real close to that $3,400 mark. We'll have to see if we push above it here in the next day or two.",
-      "verdict": null,
+      "verdict": "wrong",
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Jamison Greer (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, gold prices have not reached $3,400 per ounce. Available market data shows the price remains significantly below this level, indicating the prediction was not fulfilled."
+        },
+        {
+          "panelist": "Jim Risch (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no available data or reliable evidence to confirm whether gold reached $3,400 per ounce in late 2025. Historical price data and current market conditions do not provide a definitive trajectory for the price of gold from that specific timeframe."
+        },
+        {
+          "panelist": "Matthew Kroenig (simulated)",
+          "verdict": "incorrect",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, gold prices have not reached $3,400 per ounce; historical and current market data indicate the price remained significantly below this level."
+        }
+      ]
     }
   ]
 }
