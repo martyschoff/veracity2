@@ -50,4 +50,5 @@ def gather():
         'swarm_recent': swarm_recent,
         'miro_recent': miro_recent,
         'log_tail': log_tail,
+        'harvests': harvests,
     }

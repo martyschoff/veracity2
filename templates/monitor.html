@@ -38,6 +38,11 @@
     </div>
 
     <div class="card">
+        <h2>Harvests (extraction backfills)</h2>
+        <table id="harvest"></table>
+    </div>
+
+    <div class="card">
         <h2>Marty's marks</h2>
         <table id="marks"></table>
     </div>
@@ -79,6 +84,10 @@ function load() {
             pill(q.miro_queued ? 'queued' : 'idle', 'delphi3080: ' + q.miro_queued + ' queued') +
             pill(q.miro_error ? 'error' : 'idle', q.miro_error + ' errors') +
             pill('done', q.miro_done + ' done');
+        document.getElementById('harvest').innerHTML = '<tr><th>Job</th><th>Processed</th><th>Added</th><th>Latest date</th><th>State</th></tr>' +
+            (d.harvests || []).map(function(h){
+                return '<tr><td>' + h.name + '</td><td>' + h.processed + '</td><td class="verdict">+' + h.added + '</td><td>' + h.last_date + '</td><td>' + pill(h.active === 'yes' ? 'queued' : 'idle', h.active) + '</td></tr>';
+            }).join('') || '<tr><td class="tbd">no harvests run</td></tr>';
         document.getElementById('marks').innerHTML = '<tr><th>Person</th><th>Claim</th><th>Mark</th></tr>' +
             d.marks.map(function(m){
                 return '<tr><td>' + m[0] + '</td><td>' + m[1] + '</td><td class="' + (m[2] === 'correct' ? 'verdict' : 'pill-bad') + '">' + (m[2] === 'correct' ? 'RIGHT' : 'WRONG') + '</td></tr>';
