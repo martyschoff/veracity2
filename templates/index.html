@@ -59,6 +59,8 @@
         .filter-btn.subjective-on {
             background: rgba(245,158,11,0.15); color: #f59e0b; border-color: #f59e0b;
         }
+        .filter-btn.delphi-on { background:rgba(125,211,252,0.18); border-color:rgba(125,211,252,0.6); color:#7dd3fc; }
+        .filter-btn.delphi-off { opacity:0.45; }
         .filter-btn.subjective-off {
             background: rgba(239,68,68,0.1); color: #ef4444; border-color: rgba(239,68,68,0.4); opacity: 0.6;
         }
@@ -401,7 +403,7 @@
             <div class="pred-column">
                 {% set person_rows = rows_by_person.get(ind.name, []) %}
                 {% for row in person_rows %}
-                <div class="pred-entry" data-date="{{ row.date }}" data-mtype="{{ row.measurement_type if row.measurement_type else 'subjective' }}">
+                <div class="pred-entry" data-date="{{ row.date }}" data-mtype="{{ row.measurement_type if row.measurement_type else 'subjective' }}" data-delphi="{{ 1 if (row.miro_result or row.delphicursor_result) else 0 }}">
                     <div class="pred-date">{{ row.date }}{% if row.stated_count and row.stated_count > 1 %} <span class="chip-x">×{{ row.stated_count }}</span>{% endif %}</div>
                     <a class="pred-claim" href="{{ row.source_url }}" target="_blank" rel="noopener">{{ row.claim | condense }} ↗</a>
                     <div>
@@ -448,7 +450,7 @@
         {{ category_colors | tojson }}
     </script>
     <script>
-        var filters = {objective: true, subjective: false};
+        var filters = {objective: true, subjective: false, delphi: false};
         function toggleFilter(type) {
             filters[type] = !filters[type];
             var btn = document.getElementById('btn-' + type);
@@ -480,6 +482,7 @@
                     var show = false;
                     if (filters.objective && mtype === 'quantitative') show = true;
                     if (filters.subjective && mtype === 'subjective') show = true;
+                    if (filters.delphi) show = el.getAttribute('data-delphi') === '1';
                     var d = el.getAttribute('data-date') || '';
                     if (show && !dateOK(d)) show = false;
                     if (show && !(gy === 'all' || d.slice(0, 4) === gy)) show = false;

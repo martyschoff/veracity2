@@ -11,9 +11,9 @@
   "adjudication_context": {
     "swarm_result": "not_run",
     "swarm_split": null,
-    "delphi3080_verdict": "unknown",
-    "delphi3080_status": "error",
-    "delphi3080_summary": "",
+    "delphi3080_verdict": "inconclusive",
+    "delphi3080_status": "done",
+    "delphi3080_summary": "The claim about Japan's robot project timeline relies on a single primary source (Peter Zeihan's video) without corroborating data or project specifics. All panel specialists judged the claim inconclu",
     "panel_votes_summary": "0 correct, 0 incorrect, 3 unclear (total weight 3.5)"
   },
   "_redacted_note": "Marty verdict/note intentionally omitted for blind judgment"

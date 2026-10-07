@@ -12,7 +12,7 @@
     "swarm_result": "RIGHT (100% of 3 decided, 29 unclear)",
     "swarm_split": 0,
     "delphi3080_verdict": "unknown",
-    "delphi3080_status": "error",
+    "delphi3080_status": "queued",
     "delphi3080_summary": "",
     "panel_votes_summary": "3 correct, 0 incorrect, 0 unclear (total weight 3.5)"
   },

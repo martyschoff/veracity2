@@ -1,0 +1,49 @@
+{
+  "schema_version": "m0.1",
+  "claim_id": "marty-pred_20261001142337_000",
+  "label": "inconclusive",
+  "confidence": 0.25,
+  "rationale": "The claim about Matthew Smith's belief in a precedent-setting US natural gas shortage by 2028 cannot be validated due to the absence of contextual data (production/demand trends, infrastructure, or policy shifts) and graph context. Specialists across energy security, supply chains, capital markets, and demographics all concluded there is insufficient evidence to support or refute the claim, noting the lack of quantifiable metrics and domain-specific analysis required to evaluate such projections.",
+  "caveats": [
+    "No production/demand data provided for 2028 timeframe",
+    "Infrastructure constraints and regulatory shifts unanalyzed",
+    "Demographic factors irrelevant to energy modeling without explicit links",
+    "Specialists lacked access to Smith's 18-month modeling analysis"
+  ],
+  "specialist_votes": [
+    {
+      "specialist_id": "demographer",
+      "label": "inconclusive",
+      "confidence": 0.3,
+      "summary": "The claim about a natural gas shortage in 2028 remains unaddressable through demographic analysis. Fertility, cohort size, urbanization, and labor-force dynamics do not directly constrain or predict energy-sector outcomes without explicit links to production/demand infrastructure, workforce availability for energy extraction, or population-driven consumption trends."
+    },
+    {
+      "specialist_id": "energy_security",
+      "label": "inconclusive",
+      "confidence": 0.2,
+      "summary": "The claim about Matthew Smith's belief in a precedent-setting US natural gas shortage by 2028 cannot be validated due to the absence of contextual data (production/demand trends, infrastructure, or policy shifts) in the graph context and prior analysis. Energy security assessments require quantifiable metrics to evaluate such projections."
+    },
+    {
+      "specialist_id": "capital_markets",
+      "label": "inconclusive",
+      "confidence": 0.25,
+      "summary": "Insufficient data on US natural gas reserves, production trends, or infrastructure constraints to evaluate Matthew Smith's claim. No graph context provided for analysis."
+    },
+    {
+      "specialist_id": "trade_supply_chain",
+      "label": "inconclusive",
+      "confidence": 0.3,
+      "summary": "The claim about a precedent-setting US natural gas shortage by 2028 lacks sufficient contextual data (e.g., production trends, regulatory shifts, or infrastructure constraints) to evaluate. Current trends suggest stable or growing supply, but speculative factors like policy changes or unmodeled demand shifts could alter this."
+    },
+    {
+      "specialist_id": "military_geography",
+      "label": "inconclusive",
+      "confidence": 0.2,
+      "summary": "Insufficient information to assess Matthew Smith's belief regarding a US natural gas shortage by 2028. Military geography analysis requires data on energy production corridors, infrastructure vulnerabilities, or geopolitical constraints affecting supply chains."
+    }
+  ],
+  "graph_citations": [],
+  "panel_id": "zeihan_panel_v1",
+  "rounds": 2,
+  "markdown_gloss": "# Verdict gloss (non-authoritative)\n\n**Claim:** `marty-pred_20261001142337_000`\n\n**Label:** inconclusive (confidence 0.25)\n\n## Rationale\n\nThe claim about Matthew Smith's belief in a precedent-setting US natural gas shortage by 2028 cannot be validated due to the absence of contextual data (production/demand trends, infrastructure, or policy shifts) and graph context. Specialists across energy security, supply chains, capital markets, and demographics all concluded there is insufficient evidence to support or refute the claim, noting the lack of quantifiable metrics and domain-specific analysis required to evaluate such projections.\n\n## Specialist votes\n\n- **demographer**: inconclusive (0.30) — The claim about a natural gas shortage in 2028 remains unaddressable through demographic analysis. Fertility, cohort size, urbanization, and labor-force dynamics do not directly constrain or predict energy-sector outcomes without explicit links to production/demand infrastructure, workforce availability for energy extraction, or population-driven consumption trends.\n- **energy_security**: inconclusive (0.20) — The claim about Matthew Smith's belief in a precedent-setting US natural gas shortage by 2028 cannot be validated due to the absence of contextual data (production/demand trends, infrastructure, or policy shifts) in the graph context and prior analysis. Energy security assessments require quantifiable metrics to evaluate such projections.\n- **capital_markets**: inconclusive (0.25) — Insufficient data on US natural gas reserves, production trends, or infrastructure constraints to evaluate Matthew Smith's claim. No graph context provided for analysis.\n- **trade_supply_chain**: inconclusive (0.30) — The claim about a precedent-setting US natural gas shortage by 2028 lacks sufficient contextual data (e.g., production trends, regulatory shifts, or infrastructure constraints) to evaluate. Current trends suggest stable or growing supply, but speculative factors like policy changes or unmodeled demand shifts could alter this.\n- **military_geography**: inconclusive (0.20) — Insufficient information to assess Matthew Smith's belief regarding a US natural gas shortage by 2028. Military geography analysis requires data on energy production corridors, infrastructure vulnerabilities, or geopolitical constraints affecting supply chains.\n\n## Caveats\n\n- No production/demand data provided for 2028 timeframe\n- Infrastructure constraints and regulatory shifts unanalyzed\n- Demographic factors irrelevant to energy modeling without explicit links\n- Specialists lacked access to Smith's 18-month modeling analysis\n"
+}

@@ -2415,8 +2415,13 @@
       "marty_at": "2026-10-06",
       "marty_verdict": "correct",
       "mc_status": "queued",
-      "miro_status": "queued",
-      "delphicursor_status": "failed_permanent"
+      "miro_status": "done",
+      "delphicursor_status": "failed_permanent",
+      "miro_result": {
+        "verdict": "inconclusive",
+        "confidence": 0.25,
+        "summary": "The claim about Japan's robot project timeline relies on a single primary source (Peter Zeihan's video) without corroborating data or project specifics. All panel specialists judged the claim inconclusive due to insufficient contextual information, lack of graph-based evidence, and absence of verifiable benchmarks for operational readiness or completion timelines. The speculative nature of the assertion and absence of technical, financial, or logistical details prevent a definitive assessment."
+      }
     },
     {
       "id": "pred_20260930192307_f7bb161cb48f",
@@ -3306,8 +3311,13 @@
       "marty_at": "2026-10-06",
       "marty_verdict": "wrong",
       "mc_status": "queued",
-      "miro_status": "queued",
-      "delphicursor_status": "failed_permanent"
+      "miro_status": "done",
+      "delphicursor_status": "failed_permanent",
+      "miro_result": {
+        "verdict": "inconclusive",
+        "confidence": 0.25,
+        "summary": "The claim about Matthew Smith's belief in a precedent-setting US natural gas shortage by 2028 cannot be validated due to the absence of contextual data (production/demand trends, infrastructure, or policy shifts) and graph context. Specialists across energy security, supply chains, capital markets, and demographics all concluded there is insufficient evidence to support or refute the claim, noting the lack of quantifiable metrics and domain-specific analysis required to evaluate such projections"
+      }
     },
     {
       "id": "pred_20261001142337_001",

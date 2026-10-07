@@ -4,172 +4,112 @@
   {
    "layout": "title",
    "title": "Seer Score Adjudication Stack",
-   "subtitle": "Delphi3080 vs DelphiCursor vs the MiroFish public service \u2014 mechanisms, targets, trade-offs  \u00b7  Marty Schoffstall, co-author",
+   "subtitle": "Delphi3080 vs DelphiCursor vs the MiroFish public service — mechanisms, targets, trade-offs  ·  Marty Schoffstall, co-author",
    "background": "0F172A",
-   "footer": "SeerScore.AI \u00b7 2026-10-07"
+   "footer": "SeerScore.AI",
+   "slide_number": true,
+   "shapes": [
+    {"type": "rectangle", "left": 0, "top": 0, "width": 0.12, "height": 7.5, "fill": "F59E0B"},
+    {"type": "rectangle", "left": 1.5, "top": 4.5, "width": 4, "height": 0.015, "fill": "7DD3FC"}
+   ]
   },
   {
    "layout": "title_content",
-   "title": "1 \u00b7 What MiroFish set as the standard",
+   "title": "1 · What MiroFish set as the standard",
    "bullets": [
-    {
-     "text": "MiroFish (OASIS + Graphiti agent society): claim \u2192 ingest into a Neo4j knowledge graph \u2192 specialist agents argue in rounds \u2192 ReportAgent issues a verdict",
-     "level": 0
-    },
-    {
-     "text": "Targets: max-context reasoning, full social simulation, explainable rationale trail, graph persistence across claims",
-     "level": 0
-    },
-    {
-     "text": "Cost: high \u2014 Graphiti ingest + embedding calls + 2-3 panel rounds per claim; ~15-30 min/claim on local 32B hardware",
-     "level": 0
-    },
-    {
-     "text": "Our adaptation (Delphi3080) keeps the skeleton but re-targets: daily verdicts at scale for one tracker, not general research",
-     "level": 0
-    }
+    {"text": "MiroFish (OASIS + Graphiti agent society): claim → ingest into a Neo4j knowledge graph → specialist agents argue in rounds → ReportAgent issues a verdict", "level": 0},
+    {"text": "Targets: max-context reasoning, full social simulation, explainable rationale trail, graph persistence across claims", "level": 0},
+    {"text": "Cost: high — Graphiti ingest + embedding calls + 2-3 panel rounds per claim; ~15-30 min/claim on local 32B hardware", "level": 0},
+    {"text": "Our adaptation (Delphi3080) keeps the skeleton but re-targets: daily verdicts at scale for one tracker, not general research", "level": 0}
    ],
    "background": "0F172A",
-   "notes": "MiroFish = the original agent-society adjudication design we inherited. Delphi3080 is our re-targeted instance."
+   "footer": "SeerScore.AI",
+   "slide_number": true,
+   "notes": "MiroFish = the original agent-society adjudication design we inherited. Delphi3080 is our re-targeted instance.",
+   "shapes": [
+    {"type": "rectangle", "left": 0, "top": 0, "width": 0.08, "height": 7.5, "fill": "F59E0B"}
+   ]
   },
   {
    "layout": "title_content",
-   "title": "2 \u00b7 Delphi3080 \u2014 our agent-society instance",
+   "title": "2 · Delphi3080 — our agent-society instance",
    "bullets": [
-    {
-     "text": "Architecture: silent pythonw worker \u2192 claim fixture \u2192 Graphiti/Neo4j ingest \u2192 specialist panels (2 rounds) \u2192 ReportAgent verdict + confidence",
-     "level": 0
-    },
-    {
-     "text": "Judge model: local qwen3:32b on nimo128 via llm proxy (embed-fixups live in the proxy)",
-     "level": 0
-    },
-    {
-     "text": "Targets: zero marginal $ cost, always-on, batch all graded predictions; fail-soft (bad run marks error, queue keeps moving)",
-     "level": 0
-    },
-    {
-     "text": "Verified: first end-to-end clean run Oct 7 \u2014 nickel 10x-demand claim REFUTED @0.65 (matches owner mark)",
-     "level": 0
-    },
-    {
-     "text": "Weakness: 32B reasoning ceiling; embedding/ingest fragility (4 fixed failure modes today)",
-     "level": 0
-    }
+    {"text": "Architecture: silent pythonw worker → claim fixture → Graphiti/Neo4j ingest → specialist panels (2 rounds) → ReportAgent verdict + confidence", "level": 0},
+    {"text": "Judge model: local qwen3:32b on nimo128 via llm proxy (embed-fixups live in the proxy)", "level": 0},
+    {"text": "Targets: zero marginal $ cost, always-on, batch all graded predictions; fail-soft (bad run marks error, queue keeps moving)", "level": 0},
+    {"text": "Verified: first end-to-end clean run Oct 7 — nickel 10x-demand claim REFUTED @0.65 (matches owner mark)", "level": 0},
+    {"text": "Weakness: 32B reasoning ceiling; embedding/ingest fragility (4 fixed failure modes today)", "level": 0}
    ],
-   "background": "0F172A"
+   "background": "0F172A",
+   "footer": "SeerScore.AI",
+   "slide_number": true,
+   "shapes": [
+    {"type": "rectangle", "left": 0, "top": 0, "width": 0.08, "height": 7.5, "fill": "22C55E"}
+   ]
   },
   {
    "layout": "title_content",
-   "title": "3 \u00b7 DelphiCursor \u2014 the Opus tiebreaker (design \u2192 build)",
+   "title": "3 · DelphiCursor — the Opus tiebreaker (design → build)",
    "bullets": [
-    {
-     "text": "Architecture: fixture file (Marty redacted \u2014 judge blind) \u2192 Cursor agent CLI (Opus, may browse \u22642 URLs) \u2192 verdict.json \u2192 validated \u2192 merged",
-     "level": 0
-    },
-    {
-     "text": "Targets: frontier reasoning on contested/deadlocked claims; breaking ties the 32B sim can't; calibration vs owner",
-     "level": 0
-    },
-    {
-     "text": "Mode A (owner decision): advisory only \u2014 Marty stays FINAL; grid shows Delphi3080 and DelphiCursor side by side",
-     "level": 0
-    },
-    {
-     "text": "Controls: 5-min hard timeout, \u226415 claims/day, single-instance lock, verdict schema validation, \u22642 retries",
-     "level": 0
-    },
-    {
-     "text": "Status: worker/queue/check/display built (Cursor); API router + tests finishing; NO case submitted yet by owner instruction",
-     "level": 0
-    }
+    {"text": "Architecture: fixture file (Marty redacted — judge blind) → Cursor agent CLI (Opus, may browse ≤2 URLs) → verdict.json → validated → merged", "level": 0},
+    {"text": "Targets: frontier reasoning on contested/deadlocked claims; breaking ties the 32B sim can't; calibration vs owner", "level": 0},
+    {"text": "Mode A (owner decision): advisory only — Marty stays FINAL; grid shows Delphi3080 and DelphiCursor side by side", "level": 0},
+    {"text": "Controls: 5-min hard timeout, ≤15 claims/day, single-instance lock, verdict schema validation, ≤2 retries", "level": 0},
+    {"text": "Status: worker/queue/check/display built (Cursor); API router + tests finishing; NO case submitted yet by owner instruction", "level": 0}
    ],
-   "background": "0F172A"
+   "background": "0F172A",
+   "footer": "SeerScore.AI",
+   "slide_number": true,
+   "shapes": [
+    {"type": "rectangle", "left": 0, "top": 0, "width": 0.08, "height": 7.5, "fill": "7DD3FC"}
+   ]
   },
   {
-   "layout": "title_content",
-   "title": "4 \u00b7 Differences vs the MiroFish public service",
+   "layout": "blank",
+   "title": "4 · Differences vs the MiroFish public service",
    "tables": [
     {
      "left": 0.4,
-     "top": 1.4,
-     "width": 12.3,
-     "height": 4.6,
+     "top": 1.2,
+     "width": 12.5,
+     "height": 5.2,
      "rows": [
-      [
-       "Dimension",
-       "MiroFish public service",
-       "Delphi3080 (ours)",
-       "DelphiCursor (ours)"
-      ],
-      [
-       "Judge",
-       "Multiple role agents, generic",
-       "Simulated specialists, 32B local",
-       "Single Opus, may browse"
-      ],
-      [
-       "Knowledge graph",
-       "Core deliverable",
-       "Reused (Graphiti/Neo4j)",
-       "None - fixture-only"
-      ],
-      [
-       "Latency / claim",
-       "Minutes-hours, unbounded",
-       "~15-30 min",
-       "~1-5 min (timeout 300s)"
-      ],
-      [
-       "Cost",
-       "High",
-       "$0 marginal",
-       "Paid Cursor (flat-fee)"
-      ],
-      [
-       "Scale target",
-       "Deep research per claim",
-       "All graded predictions daily",
-       "Contested cases only (Mode A)"
-      ],
-      [
-       "Failure stance",
-       "Run must complete",
-       "Error-marked, queue survives",
-       "Validated + retry <=2, capped"
-      ]
+      ["Dimension", "MiroFish public service", "Delphi3080 (ours)", "DelphiCursor (ours)"],
+      ["Judge", "Multiple role agents, generic", "Simulated specialists, 32B local", "Single Opus, may browse"],
+      ["Knowledge graph", "Core deliverable", "Reused (Graphiti/Neo4j)", "None - fixture-only"],
+      ["Latency / claim", "Minutes-hours, unbounded", "~15-30 min", "~1-5 min (timeout 300s)"],
+      ["Cost", "High", "$0 marginal", "Paid Cursor (flat-fee)"],
+      ["Scale target", "Deep research per claim", "All graded predictions daily", "Contested cases only (Mode A)"],
+      ["Failure stance", "Run must complete", "Error-marked, queue survives", "Validated + retry <=2, capped"]
      ]
     }
    ],
    "background": "0F172A",
-   "notes": "The stack: Fact-Check > Marty (FINAL) > DelphiCursor > Delphi3080 > Panel > Swarm."
+   "footer": "SeerScore.AI",
+   "slide_number": true,
+   "notes": "The stack: Fact-Check > Marty (FINAL) > DelphiCursor > Delphi3080 > Panel > Swarm.",
+   "shapes": [
+    {"type": "rectangle", "left": 0, "top": 0, "width": 0.08, "height": 7.5, "fill": "F59E0B"},
+    {"type": "rounded_rectangle", "left": 0.4, "top": 0.4, "width": 12.5, "height": 0.6, "fill": "1E293B", "text": "4 · Differences vs the MiroFish public service", "text_color": "7DD3FC"}
+   ]
   },
   {
    "layout": "title_content",
-   "title": "5 \u00b7 Targets going forward",
+   "title": "5 · Targets going forward",
    "bullets": [
-    {
-     "text": "Merge first Delphi3080 verdicts into the grid (hover tooltips \u226450 words live already)",
-     "level": 0
-    },
-    {
-     "text": "Enqueue all current cases to DelphiCursor after QA; owner submits the first one",
-     "level": 0
-    },
-    {
-     "text": "Enqueue escalation (V3 design): swarm split \u226430%, panel deadlock, Delphi3080 unclear \u2192 auto-priority",
-     "level": 0
-    },
-    {
-     "text": "Porting: Delphi3080 moves to nimo128 Strix Halo with Qwen3.8-27B (GPU migration before laptop return)",
-     "level": 0
-    },
-    {
-     "text": "Twice-daily 8am/8pm pipeline: harvest \u2192 gate \u2192 sweep \u2192 swarm \u2192 Delphi3080 \u2192 DelphiCursor \u2192 Marty \u2192 fact-check \u2192 report",
-     "level": 0
-    }
+    {"text": "Merge first Delphi3080 verdicts into the grid (hover tooltips ≤50 words live already)", "level": 0},
+    {"text": "Enqueue all current cases to DelphiCursor after QA; owner submits the first one", "level": 0},
+    {"text": "Enqueue escalation (V3 design): swarm split ≤30%, panel deadlock, Delphi3080 unclear → auto-priority", "level": 0},
+    {"text": "Porting: Delphi3080 moves to nimo128 Strix Halo with Qwen3.8-27B (GPU migration before laptop return)", "level": 0},
+    {"text": "Twice-daily 8am/8pm pipeline: harvest → gate → sweep → swarm → Delphi3080 → DelphiCursor → Marty → fact-check → report", "level": 0}
    ],
-   "background": "0F172A"
+   "background": "0F172A",
+   "footer": "SeerScore.AI",
+   "slide_number": true,
+   "shapes": [
+    {"type": "rectangle", "left": 0, "top": 0, "width": 0.08, "height": 7.5, "fill": "22C55E"},
+    {"type": "rounded_rectangle", "left": 8.5, "top": 5.8, "width": 4.5, "height": 1.2, "fill": "1E3A5F", "text": "Stack precedence:\nFact-Check > Marty > DelphiCursor > Delphi3080 > Panel > Swarm", "text_color": "7DD3FC"}
+   ]
   }
  ]
 }

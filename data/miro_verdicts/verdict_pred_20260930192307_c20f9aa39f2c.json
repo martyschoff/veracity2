@@ -1,0 +1,48 @@
+{
+  "schema_version": "m0.1",
+  "claim_id": "marty-pred_20260930192307_c20f9aa39f2c",
+  "label": "inconclusive",
+  "confidence": 0.25,
+  "rationale": "The claim about Japan's robot project timeline relies on a single primary source (Peter Zeihan's video) without corroborating data or project specifics. All panel specialists judged the claim inconclusive due to insufficient contextual information, lack of graph-based evidence, and absence of verifiable benchmarks for operational readiness or completion timelines. The speculative nature of the assertion and absence of technical, financial, or logistical details prevent a definitive assessment.",
+  "caveats": [
+    "No specific project milestones, funding details, or technical specifications were provided for verification.",
+    "The claim depends on a single unverified source (Peter Zeihan's analysis) without third-party confirmation.",
+    "Japan's broader robotics industry capabilities do not directly confirm the stated timeline without project-specific data."
+  ],
+  "specialist_votes": [
+    {
+      "specialist_id": "demographer",
+      "label": "inconclusive",
+      "confidence": 0.0,
+      "summary": "The claim about Japan's robot project timeline lacks demographic data context (e.g., labor availability, automation adoption rates, or cohort constraints) to assess feasibility. No graph data provided for analysis."
+    },
+    {
+      "specialist_id": "energy_security",
+      "label": "inconclusive",
+      "confidence": 0.3,
+      "summary": "The claim about Japan's robot project timeline lacks verifiable energy-related data in the provided context. Without specific information on energy consumption, industrial labor allocation, or logistical constraints tied to energy infrastructure, the operational and completion dates cannot be confirmed or refuted."
+    },
+    {
+      "specialist_id": "capital_markets",
+      "label": "inconclusive",
+      "confidence": 0.25,
+      "summary": "The claim about Japan's robot project timeline lacks supporting data in the provided context. No specific information on project milestones, funding, or technical progress is available to verify the operational or completion dates."
+    },
+    {
+      "specialist_id": "trade_supply_chain",
+      "label": "inconclusive",
+      "confidence": 0.25,
+      "summary": "The claim about Japan's robot project timeline lacks specific data on project status, component sourcing, or logistical constraints. While Japan has a robust robotics supply chain and automation expertise, the absence of contextual details prevents verification of the 2028 completion or New Year's operational timeline."
+    },
+    {
+      "specialist_id": "military_geography",
+      "label": "inconclusive",
+      "confidence": 0.2,
+      "summary": "The claim about Japan's robot project timeline lacks sufficient military geography context (e.g., energy corridor security, labor/resource allocation, or logistical constraints) to assess feasibility. No graph data provided for analysis."
+    }
+  ],
+  "graph_citations": [],
+  "panel_id": "zeihan_panel_v1",
+  "rounds": 2,
+  "markdown_gloss": "# Verdict gloss (non-authoritative)\n\n**Claim:** `marty-pred_20260930192307_c20f9aa39f2c`\n\n**Label:** inconclusive (confidence 0.25)\n\n## Rationale\n\nThe claim about Japan's robot project timeline relies on a single primary source (Peter Zeihan's video) without corroborating data or project specifics. All panel specialists judged the claim inconclusive due to insufficient contextual information, lack of graph-based evidence, and absence of verifiable benchmarks for operational readiness or completion timelines. The speculative nature of the assertion and absence of technical, financial, or logistical details prevent a definitive assessment.\n\n## Specialist votes\n\n- **demographer**: inconclusive (0.00) — The claim about Japan's robot project timeline lacks demographic data context (e.g., labor availability, automation adoption rates, or cohort constraints) to assess feasibility. No graph data provided for analysis.\n- **energy_security**: inconclusive (0.30) — The claim about Japan's robot project timeline lacks verifiable energy-related data in the provided context. Without specific information on energy consumption, industrial labor allocation, or logistical constraints tied to energy infrastructure, the operational and completion dates cannot be confirmed or refuted.\n- **capital_markets**: inconclusive (0.25) — The claim about Japan's robot project timeline lacks supporting data in the provided context. No specific information on project milestones, funding, or technical progress is available to verify the operational or completion dates.\n- **trade_supply_chain**: inconclusive (0.25) — The claim about Japan's robot project timeline lacks specific data on project status, component sourcing, or logistical constraints. While Japan has a robust robotics supply chain and automation expertise, the absence of contextual details prevents verification of the 2028 completion or New Year's operational timeline.\n- **military_geography**: inconclusive (0.20) — The claim about Japan's robot project timeline lacks sufficient military geography context (e.g., energy corridor security, labor/resource allocation, or logistical constraints) to assess feasibility. No graph data provided for analysis.\n\n## Caveats\n\n- No specific project milestones, funding details, or technical specifications were provided for verification.\n- The claim depends on a single unverified source (Peter Zeihan's analysis) without third-party confirmation.\n- Japan's broader robotics industry capabilities do not directly confirm the stated timeline without project-specific data.\n"
+}

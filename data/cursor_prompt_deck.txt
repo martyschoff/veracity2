@@ -1,0 +1,16 @@
+TASK: Make the PowerPoint decks ATTRACTIVE. Files: C:/Users/schof/veracity2/data/delphi_technical.pptx and C:/Users/schof/veracity2/data/delphi_mechanisms.pptx (specs: delphi_tech_deck.json / delphi_deck.json next to them).
+
+Approach: edit the JSON specs and regenerate with the skill script:
+  cd C:/Users/schof/AppData/Local/hermes/skills/productivity/powerpoint
+  python scripts/pptx_create.py <spec.json> <out.pptx>
+
+Design requirements (dark professional 'intelligence dashboard' look):
+- Title slide: big title, thin accent rule, subtitle smaller; add a shapes accent bar (left edge, accent color)
+- Consistent palette across all slides: background #0B1120, headings #7DD3FC (light blue), accents #F59E0B (amber) + #22C55E (green) sparingly, body #E2E8F0
+- Bullet hierarchy: level-0 bullets get a leading accent color marker (use colored text for the lead-in before the first colon, e.g. 'Fixture:' in amber, rest regular white)
+- The comparison table slide: header row filled #1E293B with light-blue text, first column bold, alternating row tint #111C33/#0F1930; column widths: first col ~2.2in, others equal
+- Product-visual slide: screenshot with a thin border; add a caption line under it
+- Keep ALL text content identical - styling only. Keep the 'Marty Schoffstall, co-author' credit on slide 1 of both decks.
+- Slide numbers + footer 'SeerScore.AI' on every slide.
+
+VERIFY: after regenerating each deck, run scripts/pptx_read.py <out.pptx> --outline and confirm 7/8 slides and that slide 1 contains 'Schoffstall'. Report what you changed. Do NOT commit. Do not touch any other files.

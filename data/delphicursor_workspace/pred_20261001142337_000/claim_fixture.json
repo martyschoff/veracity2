@@ -11,9 +11,9 @@
   "adjudication_context": {
     "swarm_result": "not_run",
     "swarm_split": null,
-    "delphi3080_verdict": "unknown",
-    "delphi3080_status": "error",
-    "delphi3080_summary": "",
+    "delphi3080_verdict": "inconclusive",
+    "delphi3080_status": "done",
+    "delphi3080_summary": "The claim about Matthew Smith's belief in a precedent-setting US natural gas shortage by 2028 cannot be validated due to the absence of contextual data (production/demand trends, infrastructure, or po",
     "panel_votes_summary": "0 correct, 0 incorrect, 3 unclear (total weight 3.2)"
   },
   "_redacted_note": "Marty verdict/note intentionally omitted for blind judgment"

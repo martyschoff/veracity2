@@ -12,7 +12,7 @@
     "swarm_result": "not_run",
     "swarm_split": null,
     "delphi3080_verdict": "unknown",
-    "delphi3080_status": "error",
+    "delphi3080_status": "queued",
     "delphi3080_summary": "",
     "panel_votes_summary": "0 correct, 0 incorrect, 3 unclear (total weight 3.0)"
   },
