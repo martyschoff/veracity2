@@ -3,78 +3,162 @@
  "slides": [
   {
    "layout": "title",
-   "title": "Delphi Process — Technical Anatomy",
-   "subtitle": "Heuristics, aggregation math, and information flow: MiroFish public service vs Delphi3080 vs DelphiCursor",
+   "title": "Delphi Process \u2014 Technical Anatomy",
+   "subtitle": "Heuristics, aggregation math, and information flow: MiroFish public service vs Delphi3080 vs DelphiCursor  \u00b7  Marty Schoffstall, co-author",
    "background": "0B1120",
-   "footer": "SeerScore.AI · adjudication internals · v1"
+   "footer": "SeerScore.AI \u00b7 adjudication internals \u00b7 v1"
   },
   {
    "layout": "title_content",
-   "title": "1 · The MiroFish public service — mechanics",
+   "title": "1 \u00b7 The MiroFish public service \u2014 mechanics",
    "bullets": [
-    {"text": "Claim ingest → temporal knowledge graph: episodes → entity extraction (LLM) → relation edges → per-round re-summarization (Graphiti's add_episodes pipeline)", "level": 0},
-    {"text": "Agent society: role-specialized agents (domain taxonomy × persona) each read graph context, produce structured Findings", "level": 0},
-    {"text": "Rounds = evidence propagation: each agent's report is re-ingested; later agents condition on earlier findings (gossip/consensus dynamics)", "level": 0},
-    {"text": "ReportAgent: aggregates all findings → single verdict label + rationale; no numeric vote aggregation in the standard", "level": 0},
-    {"text": "Implicit heuristics: graph-recall via hybrid BM25+vector search; hop-count ≈ rounds; no eligibility gating — every claim judged in full", "level": 0}
+    {
+     "text": "Claim ingest \u2192 temporal knowledge graph: episodes \u2192 entity extraction (LLM) \u2192 relation edges \u2192 per-round re-summarization (Graphiti's add_episodes pipeline)",
+     "level": 0
+    },
+    {
+     "text": "Agent society: role-specialized agents (domain taxonomy \u00d7 persona) each read graph context, produce structured Findings",
+     "level": 0
+    },
+    {
+     "text": "Rounds = evidence propagation: each agent's report is re-ingested; later agents condition on earlier findings (gossip/consensus dynamics)",
+     "level": 0
+    },
+    {
+     "text": "ReportAgent: aggregates all findings \u2192 single verdict label + rationale; no numeric vote aggregation in the standard",
+     "level": 0
+    },
+    {
+     "text": "Implicit heuristics: graph-recall via hybrid BM25+vector search; hop-count \u2248 rounds; no eligibility gating \u2014 every claim judged in full",
+     "level": 0
+    }
    ],
    "background": "0B1120"
   },
   {
    "layout": "title_content",
-   "title": "2 · Delphi3080 — pipeline internals",
+   "title": "2 \u00b7 Delphi3080 \u2014 pipeline internals",
    "bullets": [
-    {"text": "Fixture: {claim_id, claim, date, category, transcript_excerpt, test_eligible_at} → entity-extract prompt (strict own-voice; quoted material excluded by prompt contract)", "level": 0},
-    {"text": "Embeddings: nomic-embed-text, batch create; empty-batch heuristic → proxy synthesizes 768-dim dummy vector (client would otherwise raise No-embedding-data)", "level": 0},
-    {"text": "PanelRunner: 2 rounds, specialists seeded per category; round-2 agents see round-1 findings (evidence propagation like MiroFish, halved depth)", "level": 0},
-    {"text": "ReportAgent: verdict ∈ {correct, incorrect, unclear} + confidence ∈ [0,1]; rationale is free-text grounded in findings, not a vote count", "level": 0},
-    {"text": "Error posture: any stage failure → claim marked error + queue continues; single-instance worker lock serializes writers", "level": 0}
+    {
+     "text": "Fixture: {claim_id, claim, date, category, transcript_excerpt, test_eligible_at} \u2192 entity-extract prompt (strict own-voice; quoted material excluded by prompt contract)",
+     "level": 0
+    },
+    {
+     "text": "Embeddings: nomic-embed-text, batch create; empty-batch heuristic \u2192 proxy synthesizes 768-dim dummy vector (client would otherwise raise No-embedding-data)",
+     "level": 0
+    },
+    {
+     "text": "PanelRunner: 2 rounds, specialists seeded per category; round-2 agents see round-1 findings (evidence propagation like MiroFish, halved depth)",
+     "level": 0
+    },
+    {
+     "text": "ReportAgent: verdict \u2208 {correct, incorrect, unclear} + confidence \u2208 [0,1]; rationale is free-text grounded in findings, not a vote count",
+     "level": 0
+    },
+    {
+     "text": "Error posture: any stage failure \u2192 claim marked error + queue continues; single-instance worker lock serializes writers",
+     "level": 0
+    }
    ],
    "background": "0B1120"
   },
   {
    "layout": "title_content",
-   "title": "3 · Verdict mapping & confidence heuristics",
+   "title": "3 \u00b7 Verdict mapping & confidence heuristics",
    "bullets": [
-    {"text": "Delphi3080: label from ReportAgent; 'refuted/implausible' → incorrect; graph evidence shortfall → unclear; confidence is the ReportAgent's self-assessed posterior, uncalibrated", "level": 0},
-    {"text": "Swarm (Monte Carlo layer): 40 one-shot personas, i.i.d. reads of claim+transcript; vote ∈ {on-track, unclear, off-track}; majority share → score; split = |p(on-track) − p(off-track)|", "level": 0},
-    {"text": "Eligibility gate (heuristic we added): no adjudication unless test_eligible_at passed or \\b(20[2-9]\\d)\\b regex hits — personas otherwise label future claims failed (horizon bias)", "level": 0},
-    {"text": "Prompt debiasing: 'unclear' requires ABSENCE of evidence, not model caution; 'no' requires positive failure evidence — both to fight the small-model default-to-deny", "level": 0},
-    {"text": "Panel: weighted tier vote — score = Σᵢ wᵢ·voteᵢ (w ∈ {1.5, 1.25, 1.0}); verdict thresholds set on weighted score; tied → escalate", "level": 0}
+    {
+     "text": "Delphi3080: label from ReportAgent; 'refuted/implausible' \u2192 incorrect; graph evidence shortfall \u2192 unclear; confidence is the ReportAgent's self-assessed posterior, uncalibrated",
+     "level": 0
+    },
+    {
+     "text": "Swarm (Monte Carlo layer): 40 one-shot personas, i.i.d. reads of claim+transcript; vote \u2208 {on-track, unclear, off-track}; majority share \u2192 score; split = |p(on-track) \u2212 p(off-track)|",
+     "level": 0
+    },
+    {
+     "text": "Eligibility gate (heuristic we added): no adjudication unless test_eligible_at passed or \\b(20[2-9]\\d)\\b regex hits \u2014 personas otherwise label future claims failed (horizon bias)",
+     "level": 0
+    },
+    {
+     "text": "Prompt debiasing: 'unclear' requires ABSENCE of evidence, not model caution; 'no' requires positive failure evidence \u2014 both to fight the small-model default-to-deny",
+     "level": 0
+    },
+    {
+     "text": "Panel: weighted tier vote \u2014 score = \u03a3\u1d62 w\u1d62\u00b7vote\u1d62 (w \u2208 {1.5, 1.25, 1.0}); verdict thresholds set on weighted score; tied \u2192 escalate",
+     "level": 0
+    }
    ],
    "background": "0B1120"
   },
   {
    "layout": "title_content",
-   "title": "4 · DelphiCursor — decision-theoretic framing",
+   "title": "4 \u00b7 DelphiCursor \u2014 decision-theoretic framing",
    "bullets": [
-    {"text": "Single-judge posterior: one frontier model call = an ideal observer with retrieval, replacing the ensemble; bias risk shifts from plurality to anchoring", "level": 0},
-    {"text": "Anti-anchoring heuristic: fixture REDACTS owner mark and any owner-adjacent signals; prior adjudicator outputs included only as contestedness evidence", "level": 0},
-    {"text": "Vote contract: {vote: correct|incorrect|unclear, confidence 0-100, reasoning, sources_checked, dissent_from_prior}; strict schema validation, malformed → 1 corrective retry", "level": 0},
-    {"text": "Temporal semantics heuristic: 'on track' ≠ correct; future-dated claims judged on trajectory evidence, not headlines (recency-bias guard)", "level": 0},
-    {"text": "Calibration post-checks (worker-side): confidence >90 vs 3+ dissenting prior adjudicators → flag; unclear vs 90%-decisive swarm → flag", "level": 0}
+    {
+     "text": "Single-judge posterior: one frontier model call = an ideal observer with retrieval, replacing the ensemble; bias risk shifts from plurality to anchoring",
+     "level": 0
+    },
+    {
+     "text": "Anti-anchoring heuristic: fixture REDACTS owner mark and any owner-adjacent signals; prior adjudicator outputs included only as contestedness evidence",
+     "level": 0
+    },
+    {
+     "text": "Vote contract: {vote: correct|incorrect|unclear, confidence 0-100, reasoning, sources_checked, dissent_from_prior}; strict schema validation, malformed \u2192 1 corrective retry",
+     "level": 0
+    },
+    {
+     "text": "Temporal semantics heuristic: 'on track' \u2260 correct; future-dated claims judged on trajectory evidence, not headlines (recency-bias guard)",
+     "level": 0
+    },
+    {
+     "text": "Calibration post-checks (worker-side): confidence >90 vs 3+ dissenting prior adjudicators \u2192 flag; unclear vs 90%-decisive swarm \u2192 flag",
+     "level": 0
+    }
    ],
    "background": "0B1120"
   },
   {
    "layout": "title_content",
-   "title": "5 · Escalation & aggregation topology",
+   "title": "5 \u00b7 Escalation & aggregation topology",
    "bullets": [
-    {"text": "Escalation trigger (DelphiCursor eligibility): any ≥2 of — swarm split ≤30%; panel |score| ≤1.5 (deadlock band); Delphi3080 unclear or confidence <0.60; recency-sensitive (post-2024 refs); panel_weight ≥1.25", "level": 0},
-    {"text": "Hard exclusions: verdict_source=authoritative (external override); not-due (eligibility gate); owner-final", "level": 0},
-    {"text": "Precedence lattice: authoritative > owner > DelphiCursor > Delphi3080 > panel > swarm — disagreement LOGGED (delphicursor_disagreements.jsonl) for inter-system calibration, never auto-overriding above it", "level": 0},
-    {"text": "Divergence metric: rate of DelphiCursor-vs-swarm/panel disagreement tracked as a system-health signal (adjudicator calibration drift)", "level": 0}
+    {
+     "text": "Escalation trigger (DelphiCursor eligibility): any \u22652 of \u2014 swarm split \u226430%; panel |score| \u22641.5 (deadlock band); Delphi3080 unclear or confidence <0.60; recency-sensitive (post-2024 refs); panel_weight \u22651.25",
+     "level": 0
+    },
+    {
+     "text": "Hard exclusions: verdict_source=authoritative (external override); not-due (eligibility gate); owner-final",
+     "level": 0
+    },
+    {
+     "text": "Precedence lattice: authoritative > owner > DelphiCursor > Delphi3080 > panel > swarm \u2014 disagreement LOGGED (delphicursor_disagreements.jsonl) for inter-system calibration, never auto-overriding above it",
+     "level": 0
+    },
+    {
+     "text": "Divergence metric: rate of DelphiCursor-vs-swarm/panel disagreement tracked as a system-health signal (adjudicator calibration drift)",
+     "level": 0
+    }
    ],
    "background": "0B1120"
   },
   {
    "layout": "title_content",
-   "title": "6 · Known technical gaps",
+   "title": "6 \u00b7 Known technical gaps",
    "bullets": [
-    {"text": "Zero-entity extraction runs → empty graph → degraded rounds (root cause: strict own-voice prompt vs LLM extraction ability); needs extraction-robustness scoring", "level": 0},
-    {"text": "ReportAgent confidence is uncalibrated (no Brier/log-score tracking yet); swarm gives us the labeled distribution to calibrate against", "level": 0},
-    {"text": "Round depth (2) chosen for latency, not validated for evidence saturation — MiroFish's deeper rounds may matter on multi-entity claims", "level": 0},
-    {"text": "Single-judge DelphiCursor is non-deterministic; determinism is procedural (schema, timeout, isolation), not statistical — k-sample voting is the documented fallback", "level": 0}
+    {
+     "text": "Zero-entity extraction runs \u2192 empty graph \u2192 degraded rounds (root cause: strict own-voice prompt vs LLM extraction ability); needs extraction-robustness scoring",
+     "level": 0
+    },
+    {
+     "text": "ReportAgent confidence is uncalibrated (no Brier/log-score tracking yet); swarm gives us the labeled distribution to calibrate against",
+     "level": 0
+    },
+    {
+     "text": "Round depth (2) chosen for latency, not validated for evidence saturation \u2014 MiroFish's deeper rounds may matter on multi-entity claims",
+     "level": 0
+    },
+    {
+     "text": "Single-judge DelphiCursor is non-deterministic; determinism is procedural (schema, timeout, isolation), not statistical \u2014 k-sample voting is the documented fallback",
+     "level": 0
+    }
    ],
    "background": "0B1120"
   }
