@@ -1,0 +1,20 @@
+{
+  "claim_id": "pred_20261001142337_001",
+  "statement": "By 2030, Matthew Smith believes we could exhaust our working natural gas storage entirely.",
+  "made_by": "Doomberg",
+  "made_on": "2026-07-26",
+  "category": "energy",
+  "time_horizon": "2030",
+  "transcript_excerpt": "By 2030, he believes we could exhaust our working natural gas storage entirely. The fuel everyone in AI is counting on, and that everyone assumes is abundant, is not there.",
+  "source_url": "https://newsletter.doomberg.com/p/demand-push",
+  "predictor_weight": 1.25,
+  "adjudication_context": {
+    "swarm_result": "not_run",
+    "swarm_split": null,
+    "delphi3080_verdict": "unknown",
+    "delphi3080_status": "error",
+    "delphi3080_summary": "",
+    "panel_votes_summary": "0 correct, 0 incorrect, 3 unclear (total weight 3.0)"
+  },
+  "_redacted_note": "Marty verdict/note intentionally omitted for blind judgment"
+}

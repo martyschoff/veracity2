@@ -1,0 +1,20 @@
+{
+  "claim_id": "pred_20261001184750_ffead3b69bde",
+  "statement": "China's shale oil extraction will not reach significant levels due to technical limitations and geopolitical risks.",
+  "made_by": "Peter Zeihan",
+  "made_on": "2024-05-23",
+  "category": "energy",
+  "time_horizon": "ongoing",
+  "transcript_excerpt": "So only about 5% of the wells that the Chinese have drilled at this point even remotely approach break even… they've steadily revised down their estimates. I think they're now down to less than 2% of what they thought they were to get 15 years ago.",
+  "source_url": "https://www.youtube.com/watch?v=qtsV8QFtHa0",
+  "predictor_weight": 1.25,
+  "adjudication_context": {
+    "swarm_result": "RIGHT (100% of 3 decided, 29 unclear)",
+    "swarm_split": 0,
+    "delphi3080_verdict": "unknown",
+    "delphi3080_status": "error",
+    "delphi3080_summary": "",
+    "panel_votes_summary": "3 correct, 0 incorrect, 0 unclear (total weight 3.5)"
+  },
+  "_redacted_note": "Marty verdict/note intentionally omitted for blind judgment"
+}

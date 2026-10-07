@@ -46,7 +46,7 @@ SOFT_TIMEOUT = 180  # 3 minutes (warning only)
 MAX_RETRIES = 2
 
 # Cursor CLI path (Windows)
-CURSOR_CLI = r'C:\Users\schof\AppData\Local\Programs\cursor\resources\app\bin\agent.cmd'
+CURSOR_CLI = r'C:/Users/schof/AppData/Local/cursor-agent/agent.cmd'
 
 
 def log(msg: str):

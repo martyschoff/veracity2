@@ -1,0 +1,20 @@
+{
+  "claim_id": "pred_20261001205300_002588113268",
+  "statement": "The Chinese government will officially take on about 800 billion US dollars in debt to help local governments refinance their debts onto more official terms.",
+  "made_by": "Peter Zeihan",
+  "made_on": "2024-11-21",
+  "category": "finance",
+  "time_horizon": "ongoing",
+  "transcript_excerpt": "what the federal government is attempting to do is get a grip on how big the problem really is uh private estimates IMF estimates are all over the board the IMF is a little on the high end compared to some of them that I've seen but you know the IMF is pretty good at figuring out when a country is hiding something in its books so I tend to air in their general direction even if I don't buy the num",
+  "source_url": "https://www.youtube.com/watch?v=XnipTQagxw0",
+  "predictor_weight": 1.25,
+  "adjudication_context": {
+    "swarm_result": "not_run",
+    "swarm_split": null,
+    "delphi3080_verdict": "unknown",
+    "delphi3080_status": "not_run",
+    "delphi3080_summary": "",
+    "panel_votes_summary": "0 correct, 0 incorrect, 3 unclear (total weight 3.2)"
+  },
+  "_redacted_note": "Marty verdict/note intentionally omitted for blind judgment"
+}

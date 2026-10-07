@@ -1,0 +1,20 @@
+{
+  "claim_id": "pred_20260930192307_c20f9aa39f2c",
+  "statement": "Japan's robot project will not be operational until around New Year's and will not finish the model until 2028",
+  "made_by": "Peter Zeihan",
+  "made_on": "2026-09-18",
+  "category": "ai",
+  "time_horizon": "2028",
+  "transcript_excerpt": "By then, most of the data center should be built, and they can begin meaningful operations before the end of next year, but they probably won't finish the model until right around New Year's. So, we're already talking not just 2027, but 2028 before they might be able to start putting this thing into robot brains.",
+  "source_url": "https://www.youtube.com/watch?v=NQlL59f4OFY",
+  "predictor_weight": 1.25,
+  "adjudication_context": {
+    "swarm_result": "not_run",
+    "swarm_split": null,
+    "delphi3080_verdict": "unknown",
+    "delphi3080_status": "error",
+    "delphi3080_summary": "",
+    "panel_votes_summary": "0 correct, 0 incorrect, 3 unclear (total weight 3.5)"
+  },
+  "_redacted_note": "Marty verdict/note intentionally omitted for blind judgment"
+}
