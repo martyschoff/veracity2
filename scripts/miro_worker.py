@@ -2,6 +2,7 @@
 Runs the full MiroFish adjudication (Graphiti ingest -> panel -> verdict) via
 nimo128 qwen3:32b, writes miro_result back, marks done. Silent loop (pythonw).
 """
+import os
 import json
 import re
 import subprocess
@@ -138,6 +139,17 @@ def process(pred):
 
 
 def main():
+    lockf = r'C:/Users/schof/veracity2/data/miro_worker.instance.lock'
+    if os.path.exists(lockf):
+        try:
+            old_pid = int(open(lockf).read().strip())
+            ps = subprocess.run(['powershell', '-c', f'Get-Process -Id {old_pid} -ErrorAction SilentlyContinue'], capture_output=True)
+            if ps.returncode == 0:
+                log(f'another worker (pid {old_pid}) alive - exiting')
+                return
+        except Exception:
+            pass
+    open(lockf, 'w').write(str(os.getpid()))
     log('miro worker started (nimo via proxy; 7-GPU pool skipped)')
     while True:
         try:
