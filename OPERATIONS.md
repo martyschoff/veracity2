@@ -21,10 +21,10 @@ Processes every `mc_status == queued` prediction: 40 diverse personas vote
 is still in the future are marked `not_due` and skipped (no premature verdicts).
 
 Endpoints: nimo128 (Mac mini 32B) + upthread64 (llama3.1:8b — added 2026-10-06,
-100% decisive in tests) + the 7×3080 pool (ports 11435-41, full
+100% decisive in tests) + the 8×3080 pool (ports 11434-41, full
 `/v1/chat/completions` paths required — call_llm posts to the URL verbatim).
 
-## 3080-pool discipline (HARD RULES - violated 2026-10-07, 5 instances died)
+## 3080-pool discipline (HARD RULES)
 
 - One model copy per GPU; warm up each instance INDIVIDUALLY (one small call,
   wait for it) before any real traffic - stagger ~30s apart.
@@ -35,6 +35,8 @@ Endpoints: nimo128 (Mac mini 32B) + upthread64 (llama3.1:8b — added 2026-10-06
   like a staggered-load violation does.
 - GPU0 whisper (large-v3-turbo, :8080) must never be unloaded even though
   the owner cleared all 8 GPUs for pool use (qwen3:8b on :11434 co-resides).
+  NOTE: ports 11437-11441 were missing on 2026-10-07 after TJ1 rebooted
+  (Kernel-Power 41, 5:10 PM ET); they hadn't been restarted.
 - After any pool run, health-check every port (/api/tags) before declaring done.
 
 ## MiroFish worker (background service)
