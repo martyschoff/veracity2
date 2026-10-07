@@ -1419,8 +1419,6 @@
                     <div>
                         <div class="verdict-box" style="color:#f59e0b">Panel Judgement: ALMOST</div>
                         
-                        <div class="marty-badge marty-disagrees">MartyPredicts: Wrong</div>
-                        
                         
                         <div class="mc-badge">Swarm: WRONG (0% of 10 decided, 30 unclear)</div>
                         
@@ -1494,8 +1492,6 @@
                     <a class="pred-claim" href="https://www.youtube.com/watch?v=NQlL59f4OFY#:~:text=By%20then,%20most%20of%20the%20data%20center%20should%20be%20built," target="_blank" rel="noopener">Japan&#39;s robot project will not be operational until around New Year&#39;s and will not finish the model until 2028 ↗</a>
                     <div>
                         <div class="verdict-box" style="background:rgba(245,158,11,0.18);color:#f59e0b;border:1px solid rgba(245,158,11,0.6);">MARTY'S VERDICT (FINAL): CORRECT</div>
-                        
-                        <div class="marty-badge marty-agrees">MartyPredicts: Right</div>
                         
                         
                         <div class="mc-badge mc-running">Swarm: running…</div>
@@ -3358,8 +3354,6 @@
                     <a class="pred-claim" href="https://www.youtube.com/watch?v=fXCj-Rtbi4U&amp;t=171" target="_blank" rel="noopener">The shadow fleet will experience a significant reduction in functionality due to Ukrainian attacks… ↗</a>
                     <div>
                         <div class="verdict-box" style="background:rgba(245,158,11,0.18);color:#f59e0b;border:1px solid rgba(245,158,11,0.6);">MARTY'S VERDICT (FINAL): CORRECT</div>
-                        
-                        <div class="marty-badge marty-agrees">MartyPredicts: Right</div>
                         
                         
                         
@@ -5869,8 +5863,6 @@
                     <div>
                         <div class="verdict-box" style="background:rgba(245,158,11,0.18);color:#f59e0b;border:1px solid rgba(245,158,11,0.6);">MARTY'S VERDICT (FINAL): WRONG</div>
                         
-                        <div class="marty-badge marty-disagrees">MartyPredicts: Wrong</div>
-                        
                         
                         
                         
@@ -7191,8 +7183,6 @@
                     <div>
                         <div class="verdict-box" style="color:#f59e0b">Panel Judgement: ALMOST</div>
                         
-                        <div class="marty-badge marty-disagrees">MartyPredicts: Wrong</div>
-                        
                         
                         <div class="mc-badge">Swarm: WRONG (33% of 3 decided, 33 unclear)</div>
                         
@@ -7356,8 +7346,6 @@
                     <div>
                         <div class="verdict-box" style="background:rgba(245,158,11,0.18);color:#f59e0b;border:1px solid rgba(245,158,11,0.6);">MARTY'S VERDICT (FINAL): WRONG</div>
                         
-                        <div class="marty-badge marty-disagrees">MartyPredicts: Wrong</div>
-                        
                         
                         <div class="mc-badge mc-running">Swarm: running…</div>
                         
@@ -7371,8 +7359,6 @@
                     <a class="pred-claim" href="https://newsletter.doomberg.com/p/demand-push#:~:text=By%202030,%20he%20believes%20we%20could%20exhaust%20our%20working%20natural" target="_blank" rel="noopener">By 2030, Matthew Smith believes we could exhaust our working natural gas storage entirely. ↗</a>
                     <div>
                         <div class="verdict-box" style="background:rgba(245,158,11,0.18);color:#f59e0b;border:1px solid rgba(245,158,11,0.6);">MARTY'S VERDICT (FINAL): WRONG</div>
-                        
-                        <div class="marty-badge marty-disagrees">MartyPredicts: Wrong</div>
                         
                         
                         <div class="mc-badge mc-running">Swarm: running…</div>
@@ -7867,8 +7853,6 @@
                     <a class="pred-claim" href="https://newsletter.doomberg.com/p/cometh-the-hour#:~:text=Constellation%20Energy%20Corp.,%20the%20biggest%20US%20operator%20of%20reactors,%20expects" target="_blank" rel="noopener">Three Mile Island nuclear plant will go back into service in 2028. ↗</a>
                     <div>
                         <div class="verdict-box" style="color:#f59e0b">Panel Judgement: ALMOST</div>
-                        
-                        <div class="marty-badge marty-agrees">MartyPredicts: Right</div>
                         
                         
                         
@@ -9337,8 +9321,6 @@
                     <div>
                         <div class="verdict-box" style="color:#f59e0b">Panel Judgement: ALMOST</div>
                         
-                        <div class="marty-badge marty-agrees">MartyPredicts: Right</div>
-                        
                         
                         <div class="mc-badge">Swarm: WRONG (0% of 22 decided, 18 unclear)</div>
                         
@@ -9509,8 +9491,6 @@
                     <div>
                         <div class="verdict-box" >Panel Judgement: TBD</div>
                         
-                        <div class="marty-badge marty-agrees">MartyPredicts: Right</div>
-                        
                         
                         
                         
@@ -9657,8 +9637,10 @@
                     : (verdict.indexOf('MARTY') === 0 ? 'background:rgba(245,158,11,0.18);border:1px solid rgba(245,158,11,0.6);'
                     : (verdict === 'correct' ? 'background:rgba(34,197,94,0.18);border:1px solid rgba(34,197,94,0.5);' : ''));
                 var martyr = '';
-                if (p.marty_agrees === true) martyr = '<div class="marty-badge marty-agrees">' + (p.marty_note || 'MartyPredicts: Right') + '</div>';
-                else if (p.marty_agrees === false) martyr = '<div class="marty-badge marty-disagrees">' + (p.marty_note || 'MartyPredicts: Wrong') + '</div>';
+                if (!p.marty_verdict) {  // one Marty label per card: verdict box shows MARTY: X; badge only when no verdict box
+                    if (p.marty_agrees === true) martyr = '<div class="marty-badge marty-agrees">' + (p.marty_note || 'MartyPredicts: Right') + '</div>';
+                    else if (p.marty_agrees === false) martyr = '<div class="marty-badge marty-disagrees">' + (p.marty_note || 'MartyPredicts: Wrong') + '</div>';
+                }
                 var occ = p.occurrences || [];
                 var occHtml = '';
                 if (occ.length > 0) {
