@@ -124,7 +124,8 @@
         "https://www.youtube.com/results?search_query=HR+McMaster+geopolitics"
       ],
       "categories": [
-        "geopolitics"
+        "geopolitics",
+        "usdefense"
       ],
       "weight_subjective": 1.0,
       "weight_objective": 1.0,
@@ -1813,6 +1814,58 @@
       "weight_subjective": 1.0,
       "weight_objective": 1.0,
       "profile": "J2 Ventures partner, ex-US Army officer, CNBC defense commentator (\"this is the first AI-driven war\")"
+    },
+    {
+      "name": "Jim Stavridis",
+      "handle": "jstavridis",
+      "sources": [
+        "https://www.bloomberg.com/opinion/authors/AR66WQhE/h-r-mcmaster"
+      ],
+      "categories": [
+        "usdefense"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0,
+      "profile": "ex-NATO Supreme Allied Commander; Bloomberg Opinion columnist, war/escalation books"
+    },
+    {
+      "name": "David Petraeus",
+      "handle": "dpetraeus",
+      "sources": [
+        "https://www.youtube.com/results?search_query=david+petraeus+ukraine"
+      ],
+      "categories": [
+        "usdefense"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0,
+      "profile": "ex-CIA director, ex-CENTCOM commander; active on Ukraine-war assessments"
+    },
+    {
+      "name": "Mark Milley",
+      "handle": "mmilley",
+      "sources": [
+        "https://www.youtube.com/results?search_query=mark+milley+china+ukraine"
+      ],
+      "categories": [
+        "usdefense"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0,
+      "profile": "ex-Chairman Joint Chiefs; China/China-war-timeline calls"
+    },
+    {
+      "name": "Seth Jones",
+      "handle": "sjones",
+      "sources": [
+        "https://www.csis.org/people/seth-g-jones"
+      ],
+      "categories": [
+        "usdefense"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0,
+      "profile": "CSIS defense programs; force-posture and China-invasion predictions"
     }
   ],
   "predictions": [
