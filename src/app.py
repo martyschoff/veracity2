@@ -110,10 +110,14 @@ async def index(request: Request):
         ind["wrong_count"] = len([p for p in ind_preds if p.get("verdict") == "wrong"])
 
     # Build panelists-by-category map for hover tooltips on category badges
-    panelists_by_category: dict[str, list[str]] = {}
+    panelists_by_category: dict[str, list] = {}
     for p in panelists:
+        w = p.get("panel_weight", 1.0)
         for cat in p.get("categories", []):
-            panelists_by_category.setdefault(cat, []).append(p["name"])
+            panelists_by_category.setdefault(cat, []).append(
+                {"name": p["name"], "w": w})
+    for cat in panelists_by_category:
+        panelists_by_category[cat].sort(key=lambda e: -e["w"])  # best on top
 
     # Filter to only predictions from tracked individuals with no verdict (outstanding)
     tracked_names_set = set(TRACKED_NAMES)

@@ -215,7 +215,12 @@
             box-shadow: 0 4px 12px rgba(0,0,0,0.4);
             line-height: 1.5;
         }
-        .ind-cat .cat-tooltip .panel-label {
+        .ind-cat .cat-tooltip         .panel-tier15 { color: #fbbf24; font-weight: 700; }   /* gold: professional forecasters */
+        .panel-tier125 { color: #e2e8f0; font-weight: 600; }  /* bright: specialist analysts */
+        .panel-tier10 { color: #94a3b8; }                      /* muted: commentators/insiders */
+        .panel-w { font-size: 0.85em; color: #f59e0b; font-weight: 700; }
+        .panel-tier-div { display: inline-block; width: 12px; border-top: 1px solid rgba(148,163,184,0.5); vertical-align: middle; }
+        .panel-label {
             color: #f97316;
             font-weight: 700;
             font-size: 0.68rem;
@@ -352,7 +357,12 @@
                             {% if cat_panelists %}
                             <span class="cat-tooltip">
                                 <span class="panel-label">Panel</span>
-                                {{ cat_panelists | join(", ") }}
+                                {% set ns = namespace(prev_w=null) %}
+                                {% for pe in cat_panelists %}
+                                    {% if ns.prev_w is not none and pe.w != ns.prev_w %}<span class="panel-tier-div"></span>{% endif %}
+                                    <span class="panel-tier-{{ pe.w | string | replace('.','') }}">{{ pe.name }}{% if pe.w != 1.0 %} <span class="panel-w">{{ pe.w }}×</span>{% endif %}</span>{% if not loop.last %}, {% endif %}
+                                    {% set ns.prev_w = pe.w %}
+                                {% endfor %}
                             </span>
                             {% endif %}
                         </div>

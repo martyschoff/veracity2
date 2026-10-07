@@ -7,7 +7,8 @@ import argparse, json, random, re, subprocess, time
 from pathlib import Path
 
 BASE = Path(r'C:/Users/schof/veracity2')
-POOL = ['http://100.84.167.88:11434']  # nimo 32b only for judgment quality
+POOL = ['http://100.84.167.88:11434']  # nimo 32b: judgment gold standard
+UPPOOL = ['http://100.120.21.39:11434']  # upthread64 llama3.1:8b: 100% decisive in 10-claim test
 NIMO = 'http://100.84.167.88:11434'
 MODEL = 'qwen3:32b'  # 8b pool proved too shallow: votes unclear on everything (2026-10-06)
 

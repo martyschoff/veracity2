@@ -21,6 +21,7 @@ from src.pipeline import PRODUCER_ENDPOINTS, call_llm, load_data, save_data
 # Swarm vote endpoints: nimo128 + 3080 box 7B (parallel workers)
 SWARM_ENDPOINTS = [
     *PRODUCER_ENDPOINTS,
+    {"url": "http://100.120.21.39:11434/v1/chat/completions", "key": None, "model": "llama3.1:8b"},
     # 3080 pool: 7 instances, GPUs 1-7 (user released 2026-10-06). Full paths required -
     # call_llm posts to ep['url'] verbatim (the /v1-only form 404s).
     {"url": "http://100.124.236.23:11435/v1/chat/completions", "key": None, "model": "qwen3:8b"},
