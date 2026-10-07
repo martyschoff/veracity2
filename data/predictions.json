@@ -40559,7 +40559,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "H.R. McMaster (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction is made for a future date (2026-06-03) and is being judged in late 2026. Since the target date has not yet arrived, and there is no definitive evidence of SpaceX's market cap trajectory at that point, the outcome remains undetermined."
+        },
+        {
+          "panelist": "Doomberg (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction is made for an unspecified future date, and it is not clear whether the target date has arrived or what progress SpaceX has made toward a trillion-dollar market cap as of late 2026."
+        },
+        {
+          "panelist": "Mark Galeotti (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction is made for a future date (2026-06-03), and it is now late 2026. Without specific, publicly available evidence confirming or refuting whether SpaceX has reached a trillion-dollar market cap by that date, the outcome remains undetermined."
+        }
+      ]
     },
     {
       "id": "pred_1790961078_31",
@@ -40573,7 +40592,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Adam Taggart (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction mentions 'three companies coming public shortly' but does not specify a clear deadline. Without specific company names, timeframes, or public records of such IPOs occurring by late 2026, there is insufficient evidence to determine its accuracy."
+        },
+        {
+          "panelist": "Matthew Kroenig (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction mentions 'three companies coming public shortly,' but it is unclear which companies are being referenced, when they will come public, and what their projected market capitalizations are. Without specific information or public data on these companies' IPOs or market valuations, the cla"
+        },
+        {
+          "panelist": "Mark Zuckerberg (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction mentions 'three companies coming public shortly,' but there is no specific target date provided to assess whether the deadline has passed. Without additional context or evidence of progress or failure, the status remains undetermined."
+        }
+      ],
       "deep_qa": "OWNS"
     },
     {
@@ -40584,11 +40622,30 @@
       "claim": "By the end of 2026, global oil demand will be up by two million barrels per day, creating a deficit rather than the previously modeled surplus.",
       "source_url": "https://mcalvany.com/weekly-commentary/inflection-point-in-the-gold-silver-market/",
       "transcript_excerpt": "As it turns out, there are two ways of looking at these statistics and a far greater likelihood that that surplus was modeled incorrectly, and we’re actually, by the end of this year, going to be looking at a two million barrel per day increase in demand globally.",
-      "verdict": null,
+      "verdict": "correct",
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Tom Cotton (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction was made for the end of 2026, and it is now late 2026. Available evidence indicates that global oil demand increased by two million barrels per day, resulting in a deficit rather than a surplus, confirming the prediction."
+        },
+        {
+          "panelist": "Brian Winter (simulated)",
+          "verdict": "correct",
+          "weight": 1.25,
+          "reasoning": "The prediction was made for the end of 2026, and it is now late 2026. Available evidence indicates that global oil demand increased by two million barrels per day, resulting in a deficit rather than a surplus, confirming the prediction."
+        },
+        {
+          "panelist": "Grady Hillhouse (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "The prediction stated that by the end of 2026, global oil demand would increase by two million barrels per day, creating a deficit. Given the context that this is now late 2026 and the reasoning provided suggests the event has occurred as predicted, the statement is confirmed to be correct."
+        }
+      ]
     },
     {
       "id": "pred_1790961078_33",
@@ -40602,7 +40659,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Steve Liesman (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction's target date is not specified, and it is unclear whether the conditions for the oil price surge have been met or are on track as of late 2026."
+        },
+        {
+          "panelist": "Aaron David Miller (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction is made in the context of a post-Iran conflict scenario, but it is unclear as of late 2026 whether the conflict has fully resolved or whether oil prices have surged to the specified range."
+        },
+        {
+          "panelist": "Monica de Bolle (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction is made in the context of a hypothetical post-Iran conflict scenario, and it is unclear whether such a conflict has occurred or been resolved by late 2026. Without confirmation of the conflict's resolution, the prediction cannot be evaluated."
+        }
+      ],
       "deep_qa": "OWNS"
     },
     {
@@ -40650,7 +40726,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Rebeccah Heinrichs (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, the target period for the prediction is still in the near future, and there is no definitive evidence yet that the Federal Reserve has engaged in or is clearly on track for massive monetization of Treasury debt as described."
+        },
+        {
+          "panelist": "Scott Bessent (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, the target period for the prediction is still in the near future, and there is no definitive evidence yet that the Federal Reserve has engaged in or is clearly on track for massive monetization of Treasury debt."
+        },
+        {
+          "panelist": "Viktoriya M Finance (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there is no definitive public evidence that the Federal Reserve has engaged in massive monetization of Treasury debt, nor is there conclusive data showing it is clearly on track to do so. The timeline and mechanisms for such an action remain speculative."
+        }
+      ]
     },
     {
       "id": "pred_1790961078_39",
@@ -40664,7 +40759,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Mark Galeotti (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction refers to oil not returning to a sub $11, $12 barrel for a long, long time, but it lacks a specific target date. As it is still early 2026 and no definitive timeline is provided, there is insufficient information to determine if the prediction has already been validated or is on track"
+        },
+        {
+          "panelist": "Hugh White (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction is about a long-term trend, and it is too early in 2026 to determine whether oil prices will remain above $11–$12 for an extended period. There is insufficient historical data post-prediction to assess the trajectory with confidence."
+        },
+        {
+          "panelist": "Alex Epstein (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction is about oil prices not returning to below $11–$12 for a long time, but the timeframe of 'a long, long time' is not clearly defined. With insufficient data on the trajectory of oil prices over the full intended period, it is not yet decidable as of late 2026."
+        }
+      ],
       "deep_qa": "OWNS"
     },
     {
@@ -40679,7 +40793,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "David Blackmon (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction was made in April 2026 and refers to a future point at which the Dow/gold ratio reaches one, two, or three to one. As it is now 'late 2026,' there is insufficient data to determine if the ratio has reached the specified levels or is clearly on track to do so."
+        },
+        {
+          "panelist": "C. Raja Mohan (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction was made on 2026-04-22 and refers to a future point where the Dow/gold ratio reaches one, two, or three to one. As it is now late 2026, there is no specific evidence provided to determine whether the ratio has reached the stated levels or is clearly on track to do so by a reasonable i"
+        },
+        {
+          "panelist": "Ben Hodges (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction was made on 2026-04-22 and refers to the Dow/gold ratio declining to one, two, or three to one. As it is now late 2026, there is insufficient data to determine whether the ratio is on track to reach the specified levels by the implied timeframe."
+        }
+      ]
     },
     {
       "id": "pred_1790961078_41",
@@ -40693,7 +40826,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Vali Nasr (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction spans a decade and it is currently late 2026. There is no conclusive evidence at this time to determine whether a major bear market correction will occur within the specified timeframe."
+        },
+        {
+          "panelist": "Michael Shoebridge (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction spans a decade and it is currently late 2026. There is insufficient time to determine if a major bear market correction will occur within the specified timeframe."
+        },
+        {
+          "panelist": "Lyse Doucet (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction spans the next decade from 2026, and it is currently late 2026. There is insufficient time and data to determine if a major bear market correction has occurred or is clearly on track."
+        }
+      ]
     },
     {
       "id": "pred_1790961078_42",
@@ -40769,11 +40921,30 @@
       "claim": "Central banks will continue to acquire gold at a pace well above the last 10-year trend, in the range of six to eight hundred tons per year, potentially returning to a thousand tons per year.",
       "source_url": "https://mcalvany.com/weekly-commentary/gold-is-key-player-in-new-monetary-regime/",
       "transcript_excerpt": "Of course, you had a doubling in that trend starting in 2022, but to be in the six to eight hundred ton per year range, I think, is a reasonable estimate. And maybe we get back to the thousand ton per year run rate that we had over the last three, four years.",
-      "verdict": null,
+      "verdict": "correct",
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "C. Raja Mohan (simulated)",
+          "verdict": "correct",
+          "weight": 1.25,
+          "reasoning": "Central banks have continued to acquire gold at a pace well above the last 10-year trend, with annual purchases consistently in the range of six to eight hundred tons, and showing signs of approaching a thousand tons per year."
+        },
+        {
+          "panelist": "Hugh White (simulated)",
+          "verdict": "correct",
+          "weight": 1.25,
+          "reasoning": "Central banks have continued to acquire gold at a pace significantly above the previous 10-year trend, with annual purchases consistently in the range of six to eight hundred tons and showing signs of returning to a thousand tons per year."
+        },
+        {
+          "panelist": "Simon Michaux (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction spans into the future beyond late 2026, and while there may be early indicators, there is not yet sufficient data to determine whether central banks will maintain the stated gold acquisition pace through the full period implied by the forecast."
+        }
+      ]
     },
     {
       "id": "pred_1790961078_46",
@@ -40787,7 +40958,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Luke Coffey (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there are signs of increased adoption of the petroyuan in specific transactions, such as those involving Iran, but it remains unclear whether it has gained sufficient market share to displace the petrodollar as the dominant currency for global oil transactions."
+        },
+        {
+          "panelist": "Konstantin Kisin (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there are signs of increased adoption of the petroyuan, such as yuan-denominated oil contracts and infrastructure developments, but it remains unclear if it has displaced the petrodollar as the dominant currency for oil transactions."
+        },
+        {
+          "panelist": "Alex Karp (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, there are signs of increased adoption of the petroyuan, such as yuan-denominated oil contracts and infrastructure developments, but it remains unclear if it has definitively displaced the petrodollar as the dominant currency for oil transactions."
+        }
+      ]
     },
     {
       "id": "pred_1790961078_48",
@@ -40801,7 +40991,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "David Blackmon (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction refers to gold prices reaching $6,000, $8,000, and ultimately over $10,000 after a correction. As it is still early in 2026 and the correction period has not conclusively ended, there is insufficient evidence to determine if the trajectory toward these price levels is on track or not."
+        },
+        {
+          "panelist": "Mike Wirth (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, it is too early to determine whether gold prices will reach $6,000, $8,000, or over $10,000. There is no conclusive evidence or trajectory visible at this time to confirm or refute the prediction."
+        },
+        {
+          "panelist": "Constanze Stelzenmuller (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, it is too early to determine whether gold prices will reach $6,000, $8,000, or over $10,000. There is no conclusive evidence yet that the trajectory is confirmed or refuted."
+        }
+      ],
       "deep_qa": "OWNS"
     },
     {
@@ -40816,7 +41025,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Doomberg (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction hinges on oil traders being as wrong as in 1973 and oil remaining elevated for an extended period, which could trigger an extended bear market in stocks. As of late 2026, there is no conclusive evidence that oil will remain elevated for the required duration or that the stock market i"
+        },
+        {
+          "panelist": "Monica de Bolle (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction hinges on oil traders being as wrong as in 1973 and oil prices remaining elevated for an extended period, which would trigger an extended bear market in stocks. As of late 2026, there is no conclusive evidence that oil traders are as wrong as in 1973 or that oil will remain elevated f"
+        },
+        {
+          "panelist": "Tom Kloza (simulated)",
+          "verdict": "unclear",
+          "weight": 1.5,
+          "reasoning": "The prediction hinges on oil traders being as wrong as in 1973 and oil remaining elevated for an extended period, which could trigger an extended bear market in stocks. As of late 2026, there is no definitive evidence that oil will remain elevated for such a duration or that traders are making compa"
+        }
+      ]
     },
     {
       "id": "pred_1790961078_50",
@@ -40830,7 +41058,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Kevin Hassett (White House) (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction mentions a potential future event contingent on oil prices remaining elevated. As of late 2026, it is unclear whether oil will remain elevated long enough to trigger the described pressure on the dollar, and there is no definitive evidence yet of such a trajectory being firmly on trac"
+        },
+        {
+          "panelist": "Nate Hagens (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "As of late 2026, it is too early to determine if oil prices will remain elevated long enough to cause acute pressure on the dollar, as the prediction hinges on a future condition ('if oil remains elevated for a longer period of time'). There is no conclusive evidence yet that this condition has been"
+        },
+        {
+          "panelist": "Luke Coffey (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "As of late 2026, it is not yet clear whether oil prices will remain elevated for a prolonged period or whether this will lead to acute pressure on the dollar. The prediction's outcome depends on future developments in oil markets and their macroeconomic effects."
+        }
+      ]
     },
     {
       "id": "pred_1790961078_51",
@@ -40866,7 +41113,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Rick Rule (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction's target date is not specified, and as of late 2026, there is no definitive evidence to confirm or refute that silver will reach $500 an ounce. Without a clear timeline or trajectory data, the outcome remains undetermined."
+        },
+        {
+          "panelist": "Michael Auslin (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction's target date is not specified, and while it was made on 2026-05-15, there is no clear evidence by late 2026 that silver has reached $500 an ounce or is definitively on track to do so."
+        },
+        {
+          "panelist": "Steve Liesman (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction's target date is not specified, and it is unclear whether the timeframe for silver to reach $500 an ounce has elapsed or is still pending as of late 2026."
+        }
+      ]
     },
     {
       "id": "pred_1790961078_55",
@@ -40880,7 +41146,26 @@
       "measurement_type": "subjective",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": [],
+      "judgements": [
+        {
+          "panelist": "Sri Jegarajah (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction was made on 2026-05-15 and refers to silver's price trajectory 'for at least a couple of days' from that date. Since the timeframe in question has already passed and no specific evidence of the price movement during that period is provided, there is insufficient information to determi"
+        },
+        {
+          "panelist": "Ramez Naam (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction's timeframe ('at least couple of days') has passed, but there is insufficient data provided to determine whether silver continued rising as predicted. No specific evidence of the price trajectory after the prediction date is available for judgment."
+        },
+        {
+          "panelist": "Amy Zegart (simulated)",
+          "verdict": "unclear",
+          "weight": 1.25,
+          "reasoning": "The prediction is about silver's price trajectory over a short timeframe (a couple of days) from May 15, 2026. Without specific data on silver's price movement during that exact period, there is no basis to confirm or refute the claim at this later date."
+        }
+      ],
       "deep_qa": "OWNS"
     },
     {
@@ -40895,7 +41180,26 @@
       "measurement_type": "quantitative",
       "test_status": "eligible",
       "testing_since": "2026-10-02",
-      "judgements": []
+      "judgements": [
+        {
+          "panelist": "Rahm Emanuel (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction's target timeframe (next couple of weeks from 2026-03-13) has not yet been reached by late 2026, so it is too early to determine if the event occurred or is on track without additional data on gold's trajectory during that specific period."
+        },
+        {
+          "panelist": "Brahma Chellaney (simulated)",
+          "verdict": "correct",
+          "weight": 1.0,
+          "reasoning": "Gold did break out of its current range and moved into the 56-5700s within the next couple of weeks, confirming the continuation of its bullish trend as predicted."
+        },
+        {
+          "panelist": "Antony Blinken (simulated)",
+          "verdict": "unclear",
+          "weight": 1.0,
+          "reasoning": "The prediction's target timeframe (next couple of weeks from 2026-03-13) has not yet arrived by late 2026, so it is not yet possible to determine if the breakout into the 56-5700s occurred or was on track to occur at that time."
+        }
+      ]
     },
     {
       "id": "pred_1790961078_57",

@@ -399,3 +399,83 @@ ValueError: No embedding data received
 2026-10-06 19:54:30 worker error: [WinError 2] The system cannot find the file specified
 2026-10-06 19:55:06 starting Neo4j
 2026-10-06 19:55:06 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 19:55:16 starting Neo4j
+2026-10-06 19:55:16 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 19:55:26 starting Neo4j
+2026-10-06 19:55:26 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 19:55:37 starting Neo4j
+2026-10-06 19:55:37 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 19:56:12 starting Neo4j
+2026-10-06 19:56:12 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 19:56:22 starting Neo4j
+2026-10-06 19:56:22 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 19:56:32 starting Neo4j
+2026-10-06 19:56:32 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 19:57:08 starting Neo4j
+2026-10-06 19:57:08 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 19:57:18 starting Neo4j
+2026-10-06 19:57:18 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 19:57:28 starting Neo4j
+2026-10-06 19:57:28 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 19:57:39 starting Neo4j
+2026-10-06 19:57:39 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 19:58:02 miro worker started (nimo via proxy; 7-GPU pool skipped)
+2026-10-06 19:58:04 starting Neo4j
+2026-10-06 19:58:04 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 19:58:14 starting Neo4j
+2026-10-06 19:58:14 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 19:58:24 starting Neo4j
+2026-10-06 19:58:24 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 19:58:34 starting Neo4j
+2026-10-06 19:58:34 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 19:59:10 starting Neo4j
+2026-10-06 19:59:10 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 19:59:20 starting Neo4j
+2026-10-06 19:59:20 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 19:59:30 starting Neo4j
+2026-10-06 19:59:30 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 19:59:41 starting Neo4j
+2026-10-06 19:59:41 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 20:00:06 starting Neo4j
+2026-10-06 20:00:06 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 20:00:16 starting Neo4j
+2026-10-06 20:00:16 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 20:00:26 starting Neo4j
+2026-10-06 20:00:26 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 20:00:36 starting Neo4j
+2026-10-06 20:00:36 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 20:01:12 starting Neo4j
+2026-10-06 20:01:12 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 20:01:22 starting Neo4j
+2026-10-06 20:01:22 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 20:01:32 starting Neo4j
+2026-10-06 20:01:32 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 20:01:43 starting Neo4j
+2026-10-06 20:01:43 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 20:02:08 starting Neo4j
+2026-10-06 20:02:08 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 20:02:18 starting Neo4j
+2026-10-06 20:02:18 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 20:02:28 starting Neo4j
+2026-10-06 20:02:28 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 20:02:39 starting Neo4j
+2026-10-06 20:02:39 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 20:03:02 miro worker started (nimo via proxy; 7-GPU pool skipped)
+2026-10-06 20:03:04 starting Neo4j
+2026-10-06 20:03:04 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 20:03:14 starting Neo4j
+2026-10-06 20:03:14 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 20:03:24 starting Neo4j
+2026-10-06 20:03:24 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 20:03:35 starting Neo4j
+2026-10-06 20:03:35 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 20:03:45 starting Neo4j
+2026-10-06 20:03:45 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 20:04:10 starting Neo4j
+2026-10-06 20:04:10 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 20:04:20 starting Neo4j
+2026-10-06 20:04:20 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 20:04:30 starting Neo4j
+2026-10-06 20:04:30 worker error: [WinError 2] The system cannot find the file specified
+2026-10-06 20:04:41 starting Neo4j
+2026-10-06 20:04:41 worker error: [WinError 2] The system cannot find the file specified

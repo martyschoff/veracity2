@@ -17,10 +17,7 @@ PREDICTION (made {date}): {claim}
 TRANSCRIPT CONTEXT: {excerpt}
 
 It is now late 2026. Judge ONLY whether the prediction has been proven correct, incorrect, or is not yet decidable by this date.
-CRITICAL: if the prediction's target date is still in the future, it has NOT failed merely because it hasn't happened yet.
-- "correct" ONLY with positive evidence the event occurred or is clearly on track
-- "incorrect" ONLY with positive evidence it failed OR its deadline passed unmet
-- "unclear" ONLY when the deadline hasn't arrived AND you have no basis to judge the trajectory (no knowledge of the subject's progress). If you know the subject well enough to say whether it's on track, vote that instead - a 2028 target judged in 2026 with visible progress is "correct", with visible slippage is "incorrect".
+RULES: "correct" = the event happened or, if its target date is still future, current evidence clearly shows it on track. "incorrect" = the event failed, is clearly off track, or its deadline passed unmet. "unclear" = you genuinely have no basis to judge the trajectory either way. Do not default to "unclear" out of caution - if you know the subject, commit to a judgment.
 Answer STRICTLY as JSON: {{"vote": "correct"|"incorrect"|"unclear", "reasoning": "1-2 sentences"}}"""
 
 ROLES = {
