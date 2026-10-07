@@ -161,6 +161,20 @@
     }
    ],
    "background": "0B1120"
+  },
+  {
+   "layout": "title_only",
+   "title": "7 \u00b7 The product this adjudication feeds",
+   "images": [
+    {
+     "path": "C:/Users/schof/veracity2/data/grid_shot.png",
+     "left": 0.5,
+     "top": 1.5,
+     "width": 12.5
+    }
+   ],
+   "background": "0B1120",
+   "notes": "Live grid (seerscore.pages.dev): five tracked columns; verdict boxes (Panel Judgement / MARTY'S VERDICT FINAL); Delphi3080 badges with hover rationale tooltips."
   }
  ]
 }
