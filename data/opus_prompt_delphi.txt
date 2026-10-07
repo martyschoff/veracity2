@@ -1,0 +1,10 @@
+Review the DESIGN document DELPHICURSOR_DESIGN.md in this repo (read it first). Context: veracity2 is a predictions-vs-reality tracker. We already run three adjudication sources on graded predictions: (1) Delphi3080 — full agent-society adjudication via Graphiti/OASIS with a 32B model (worker: scripts/miro_worker.py), (2) Swarm — 40 one-shot persona votes (scripts/monte_carlo.py), (3) a weighted panel sweep (scripts/panel_adjudicate.py, tiers 1.5/1.25/1.0). The owner's own mark (marty_verdict) is FINAL and independent. Fact-checker lookups (verdict_source=authoritative) override everything for settled public facts.
+
+Your job: CRITIQUE AND IMPROVE THE DESIGN ONLY — explicitly do NOT implement anything. Focus on:
+1. The decision rule for WHEN DelphiCursor runs (the draft says "only when Marty and the panel disagree" — is that the right trigger, or should contested-vs-uncontested, prediction category, stake level, or vote-margin thresholds matter?)
+2. Prompt/contract weaknesses for an Opus agent judging a prediction (what context should the fixture include? what failure modes of a frontier model judging claims — sycophancy toward the owner's mark, recency bias, overconfidence — need guardrails?)
+3. Cost/budget controls and whether per-claim Cursor agent calls are even the right shape vs batching multiple claims per agent session
+4. How DelphiCursor verdicts should interact with the precedence stack (Fact-Check > Marty > DelphiCursor > Delphi3080 > Panel > Swarm) — should a DelphiCursor verdict ever be able to flip a fact-check? Should the owner get an approval step?
+5. Failure modes unique to driving Cursor agent CLI as a judge (state leakage between claims, workspace pollution, nondeterminism, the agent wandering the repo)
+
+Write your improved/critiqued design to DELPHICURSOR_DESIGN_V2.md in this repo (create it): for each point, the critique, the improved design element, and open questions for the owner. Design only — no implementation.

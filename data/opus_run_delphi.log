@@ -1,0 +1,13 @@
+Written to `DELPHICURSOR_DESIGN_V2.md`. Key critiques and improvements:
+
+**1. Trigger logic**: The "Marty vs panel disagreement" trigger is too narrow and circularly pointless (Marty is FINAL anyway). Replaced with multi-factor escalation: vote margin ≤30%, panel deadlock, Delphi3080 unclear, recency-sensitive claims, high-value predictors, or explicit owner queue.
+
+**2. Prompt weaknesses**: The original fixture includes `marty_note` — this invites sycophancy. In v2, **Marty's position is redacted** so Opus judges blind. Added explicit guardrails against overconfidence, recency bias, and hallucination. Defined what "correct" means for future-dated predictions.
+
+**3. Cost controls**: Added hybrid batching (single-claim default, soft batch up to 3 when queue is deep), per-claim cost logging to JSONL, monthly budget cap with 80% warning pause, and priority queue (urgent → oldest deadlock → auto-escalated).
+
+**4. Precedence stack**: Clarified the distinction between simulated fact-checker panelists ("AP-style analyst") vs. true authoritative verdicts (`verdict_source: authoritative` with citation). Proposed three modes for Marty interaction: Advisory (show Opus opinion alongside Marty's FINAL), Approval Gate (Opus recommends, Marty confirms), or Never Run.
+
+**5. Cursor CLI failure modes**: Added workspace isolation (temp dir per claim, no repo access), 5-minute hard timeout, verdict schema validation with retry, concurrency locks, and structured failure classification (error/timeout/malformed/contaminated).
+
+Each section has **open questions** for you to decide before implementation. No code written — design only.
