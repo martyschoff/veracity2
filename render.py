@@ -26,8 +26,11 @@ for ind in tracked:
 
 pbc = {}
 for p in panelists:
+    w = p.get('panel_weight', 1.0)
     for cat in p.get('categories', []):
-        pbc.setdefault(cat, []).append(p['name'])
+        pbc.setdefault(cat, []).append({'name': p['name'], 'w': w})
+for cat in pbc:
+    pbc[cat].sort(key=lambda e: -e['w'])
 
 tns = set(TRACKED_NAMES)
 outstanding = [p for p in predictions if p.get('individual_name') in tns and p.get('verdict') is None and not p.get('gate_status')]

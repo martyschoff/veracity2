@@ -12222,3 +12222,72 @@ inError 2] The system cannot find the file specified
 2026-10-07 06:50:27 worker error: [WinError 2] The system cannot find the file specified
 2026-10-07 06:51:22 starting Neo4j
 2026-10-07 06:51:22 worker error: [WinError 2] The system cannot find the file specified
+2026-10-07 07:24:03 miro worker started (nimo via proxy; 7-GPU pool skipped)
+2026-10-07 07:24:05 starting Neo4j
+2026-10-07 07:24:05 worker error: [WinError 2] The system cannot find the file specified
+2026-10-07 07:27:20 miro worker started (nimo via proxy; 7-GPU pool skipped)
+2026-10-07 07:27:22 starting Neo4j
+2026-10-07 07:27:48 neo4j http up
+2026-10-07 07:27:50 starting LLM proxy
+2026-10-07 07:27:53 adjudicating pred_20260930192307_c20f9aa39f2c: Japan's robot project will not be operational until around New Year's 
+2026-10-07 07:28:20 runner exit 143: 
+2026-10-07 07:28:39 miro worker started (nimo via proxy; 7-GPU pool skipped)
+2026-10-07 07:28:39 worker error: Expecting ',' delimiter: line 13562 column 52 (char 731103)
+2026-10-07 07:30:39 worker error: Expecting ',' delimiter: line 13562 column 52 (char 731103)
+2026-10-07 07:32:39 worker error: Expecting ',' delimiter: line 13562 column 52 (char 731103)
+2026-10-07 07:34:39 worker error: Expecting ',' delimiter: line 13562 column 52 (char 731103)
+2026-10-07 07:35:56 miro worker started (nimo via proxy; 7-GPU pool skipped)
+2026-10-07 07:35:56 worker error: Expecting ',' delimiter: line 13562 column 52 (char 731103)
+2026-10-07 07:36:39 worker error: Expecting ',' delimiter: line 13562 column 52 (char 731103)
+2026-10-07 07:37:56 worker error: Expecting ',' delimiter: line 13562 column 52 (char 731103)
+2026-10-07 07:38:39 worker error: Expecting ',' delimiter: line 13562 column 52 (char 731103)
+2026-10-07 07:42:19 miro worker started (nimo via proxy; 7-GPU pool skipped)
+2026-10-07 07:42:21 starting LLM proxy
+2026-10-07 07:42:24 adjudicating pred_20260930192307_c20f9aa39f2c: Japan's robot project will not be operational until around New Year's 
+2026-10-07 07:45:36 runner exit 1: sed = self._options.post_parser(parsed)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\schof\veracity-panel\backend\.venv\Lib\site-packages\openai\resources\embeddings.py", line 235, in parser
+    raise ValueError("No embedding data received")
+ValueError: No embedding data received
+
+2026-10-07 07:45:36 pred_20260930192307_c20f9aa39f2c FAILED
+2026-10-07 07:45:37 adjudicating pred_20261001142337_000: Matthew Smith believes the US is heading toward a natural gas shortage
+2026-10-07 07:48:13 runner exit 1: sed = self._options.post_parser(parsed)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\schof\veracity-panel\backend\.venv\Lib\site-packages\openai\resources\embeddings.py", line 235, in parser
+    raise ValueError("No embedding data received")
+ValueError: No embedding data received
+
+2026-10-07 07:48:13 pred_20261001142337_000 FAILED
+2026-10-07 07:48:13 adjudicating pred_20261001142337_001: By 2030, Matthew Smith believes we could exhaust our working natural g
+2026-10-07 07:50:32 runner exit 1: sed = self._options.post_parser(parsed)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\schof\veracity-panel\backend\.venv\Lib\site-packages\openai\resources\embeddings.py", line 235, in parser
+    raise ValueError("No embedding data received")
+ValueError: No embedding data received
+
+2026-10-07 07:50:32 pred_20261001142337_001 FAILED
+2026-10-07 07:50:33 adjudicating pred_20261001184750_ffead3b69bde: China's shale oil extraction will not reach significant levels due to 
+2026-10-07 07:52:26 runner exit 1: sed = self._options.post_parser(parsed)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\schof\veracity-panel\backend\.venv\Lib\site-packages\openai\resources\embeddings.py", line 235, in parser
+    raise ValueError("No embedding data received")
+ValueError: No embedding data received
+
+2026-10-07 07:52:26 pred_20261001184750_ffead3b69bde FAILED
+2026-10-07 07:52:26 adjudicating pred_20261002000852_5326ed3a4e84: The war between Russia and Ukraine will shift further in favor of Ukra
+2026-10-07 07:54:32 runner exit 1: sed = self._options.post_parser(parsed)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\schof\veracity-panel\backend\.venv\Lib\site-packages\openai\resources\embeddings.py", line 235, in parser
+    raise ValueError("No embedding data received")
+ValueError: No embedding data received
+
+2026-10-07 07:54:32 pred_20261002000852_5326ed3a4e84 FAILED
+2026-10-07 07:54:32 adjudicating pred_1790961078_51: Gold could reach around 8,000 per ounce by late 2027 or 2028
+2026-10-07 07:56:42 runner exit 1: sed = self._options.post_parser(parsed)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\schof\veracity-panel\backend\.venv\Lib\site-packages\openai\resources\embeddings.py", line 235, in parser
+    raise ValueError("No embedding data received")
+ValueError: No embedding data received
+
+2026-10-07 07:56:42 pred_1790961078_51 FAILED

@@ -7,11 +7,11 @@ import re
 import subprocess
 import time
 import sys
+from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from data_lock import locked_data
 import urllib.error
 import urllib.request
-from pathlib import Path
 
 import filelock
 
@@ -57,7 +57,7 @@ def ensure_services():
     if not up(7474):
         log('starting Neo4j')
         subprocess.Popen(
-            ['bash', '-lc',
+            ['C:/Users/schof/AppData/Local/hermes/tools/git-2.53.0+3-win32-x64/usr/bin/bash.exe', '-lc',
              'export JAVA_HOME="C:/Users/schof/tools/jdk-21.0.12.1+1"; '
              'export PATH="$JAVA_HOME/bin:$PATH"; '
              'cd /c/Users/schof/tools/neo4j-community-5.26.0 && bin/neo4j.bat console'],
