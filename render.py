@@ -50,6 +50,18 @@ def _deeplink(p):
             u += '#:~:text=' + '%20'.join(words)
     return u
 
+# Delphi3080 hover tooltip: <=50 words distilled from the sim rationale
+def _miro_tip(p):
+    m = p.get('miro_result') or {}
+    txt = (m.get('summary') or m.get('rationale') or '').strip()
+    if not txt:
+        return None
+    return ' '.join(txt.split()[:50])
+for p in predictions:
+    _t = _miro_tip(p)
+    if _t:
+        p['miro_tooltip'] = _t
+
 rows_by_person = {}
 for name in TRACKED_NAMES:
     person_preds = [p for p in outstanding if p.get('individual_name') == name]

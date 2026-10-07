@@ -1,0 +1,7 @@
+rc=0
+STDOUT:
+[11:30:34] INFO: ReportAgent 初始化完成: graph_id=graphiti-m0, simulation_id=m0-adjudication
+wrote C:\Users\schof\veracity-panel\backend\app\fixtures\test_out.json
+
+STDERR:
+AS m\n               RETURN\n                     r.uuid AS uuid,\n                     r.group_id AS group_id,\n                     n.uuid AS source_node_uuid,\n                     m.uuid AS target_node_uuid,\n                     r.created_at AS created_at,\n                     r.name AS name,\n                     r.fact AS fact,\n                     r.episodes AS episodes,\n                     r.expired_at AS expired_at,\n                     r.valid_at AS valid_at,\n                     r.invalid_at AS invalid_at\n                 ORDER BY score DESC LIMIT $limit\n                 '

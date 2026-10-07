@@ -415,7 +415,7 @@
                         <div class="mc-badge mc-running">Swarm: running…</div>
                         {% endif %}
                         {% if row.miro_result %}
-                        <div class="delphi3080-badge" title="agent-society sim — local 32B">Delphi3080: {{ row.miro_result.verdict | default(row.miro_result) | upper }}</div>
+                        <div class="delphi3080-badge" title="agent-society sim — local 32B{% if row.miro_tooltip %} — {{ row.miro_tooltip }}{% endif %}">Delphi3080: {{ row.miro_result.verdict | default(row.miro_result) | upper }}</div>
                         {% endif %}
                         {% if row.delphicursor_result %}
                         <div class="delphicursor-badge dc-{{ row.delphicursor_result.vote }}" title="Opus — advisory ({{ row.delphicursor_result.confidence }}% confidence)">DelphiCursor: {{ row.delphicursor_result.vote | upper }}</div>
