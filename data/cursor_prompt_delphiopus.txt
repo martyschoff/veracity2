@@ -1,0 +1,38 @@
+Implement the DelphiOpus adjudicator (formerly DelphiCursor) for the veracity2 repo. Follow DELPHICURSOR_DESIGN_V2.md (the critique) and the OWNER DECISIONS + GRID LABELING sections in DELPHICURSOR_DESIGN.md exactly. DESIGN ONLY documents exist in the repo - read both first.
+
+STRICT CONSTRAINT: DO NOT SUBMIT ANY CASE. Do not enqueue any prediction (no miro_status/delphicursor_status changes to data/predictions.json), do not launch any adjudication run, do not call the Cursor agent for judging. Build the code only; it must sit idle until the owner submits the first case manually. Do not modify scripts/miro_worker.py (the Delphi3080 worker must keep running untouched).
+
+Build these (new files only, plus minimal display hook):
+
+1. scripts/delphicursor_queue.py
+   - Scans data/predictions.json (read-only, via scripts/data_lock.py locked_data) and prints candidates matching the multi-factor escalation trigger from V2 section 1 (any 2+ of: swarm split <=30%, panel deadlock |score|<=1.5, delphi3080 unclear/low confidence, recency-sensitive post-2024 refs, panel_weight >= 1.25). Exclusions: verdict_source authoritative, marty_verdict set (unless --force), not-due (test_eligible_at future).
+   - --enqueue <pred_id> sets delphicursor_status='queued' via locked_data write. This is the ONLY way a case enters the queue - and per instructions you must NOT run it.
+
+2. scripts/delphicursor_worker.py
+   - Single-instance lock (data/delphicursor.instance.lock, PID-checked, same pattern as scripts/miro_worker.py main() - copy that pattern).
+   - Unkillable main loop: except BaseException, log type+traceback, sleep 120, continue.
+   - Polls every 60s for delphicursor_status=='queued'.
+   - Per claim: writes an isolated fixture workspace data/delphicursor_workspace/<claim_id>/claim_fixture.json using the V2 fixture schema (adjudication_context included; Marty's verdict/note MUST be redacted/absent - judge blind).
+   - Invokes the Cursor agent CLI: "C:/Users/schof/AppData/Local/cursor-agent/agent.cmd" --trust -p "<prompt>" with cwd set to the claim workspace. Prompt = the V2 system template (impartial adjudicator, 3-way vote, cite sources if browsing, max 2 external URLs). The agent writes verdict.json IN the workspace.
+   - HARD TIMEOUT 300s per claim: kill agent process on expiry, mark delphicursor_status='timeout', NO retry.
+   - Validates verdict.json: vote in {correct,incorrect,unclear}, confidence 0-100 int, reasoning non-empty. Invalid -> one retry with a correction note; second failure -> delphicursor_status='failed_permanent'.
+   - On success: move verdict to data/delphicursor_verdicts/<claim_id>.json, delete workspace, then write delphicursor_result={'vote','confidence','reasoning','sources_checked','adjudicated_at'} + delphicursor_status='done' onto the prediction via locked_data. Also append a line to data/delphicursor_disagreements.jsonl when the vote disagrees with swarm/panel (their results are in the fixture context).
+   - All progress to data/delphicursor_worker.log with timestamps (same log() style as miro_worker).
+
+3. src/delphicursor_api.py (small FastAPI router or just helpers imported by src/app.py):
+   - GET /api/delphicursor/queue -> pending queue + last 5 verdicts.
+   - POST /api/delphicursor/enqueue/<pred_id> -> sets queued (for the UI button).
+   - Wire it into src/app.py (import + include_router or plain routes) WITHOUT breaking existing endpoints. app.py is the QA app on :8765 - do not restart anything; code only.
+
+4. templates/index.html + render.py (display, DESIGN-LABELING section of v1):
+   - render.py: pass delphicursor_result through to the template if present.
+   - index.html detail cards: if delphicursor_result exists, render a row labeled "DelphiCursor" (sub-label "Opus - advisory") with vote pill colored like the others (green correct / red wrong / amber unclear). Do NOT change any existing rows.
+
+Acceptance tests (write scripts/test_delphicursor.py, run it, it must pass):
+   - fixture writer produces JSON with NO marty_verdict/marty_note keys and includes adjudication_context
+   - verdict validator accepts a valid sample, rejects bad vote value and missing reasoning
+   - single-instance lock: starting a second worker exits immediately
+   - enqueue->queue scan roundtrip on a COPY of predictions.json in a temp dir (never touch the real data file)
+   - python -m py_compile passes for every new/modified file
+
+Report at the end: files created/modified, test output, and anything you deviated on and why. Do not commit (the owner commits).

@@ -1908,6 +1908,20 @@
       "weight_subjective": 1.25,
       "weight_objective": 1.25,
       "profile": "Independent equity research channel; thesis-driven stock analysis with explicit price/valuation calls. Weighted 1.25 per owner."
+    },
+    {
+      "name": "R \"Ray\" Wang",
+      "handle": "raywang",
+      "sources": [
+        "https://www.constellationr.com/",
+        "https://www.cnbc.com/"
+      ],
+      "categories": [
+        "finance"
+      ],
+      "weight_subjective": 1.0,
+      "weight_objective": 1.0,
+      "profile": "Founder/Chairman Constellation Research; CNBC Squawk Box regular on AI capex, megacap valuations, IPOs. Frequent dated market calls (e.g. 'wait for the first dip', hyperscaler capex conservative). Weight 1.0 per owner."
     }
   ],
   "predictions": [

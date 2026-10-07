@@ -1,0 +1,22 @@
+Created `DELPHICURSOR_DESIGN_V3.md`. Key consolidations:
+
+**Settled by Owner**:
+- Mode A (advisory) — Marty final, Opus shown alongside for calibration
+- Flat-fee → rate cap only (15 claims/day), no dollar tracking
+
+**Threshold Stress-Test** (against actual swarm data):
+| mc_split | Triggers at ≤35? |
+|----------|------------------|
+| 0 (×4) | ✅ Yes — mass uncertainty, few decided |
+| 33 | ✅ Yes — genuinely contested |
+| 38 | ❌ No — clearer majority (24 decided) |
+
+Adjusted v2's `≤30` to **`≤35`** — the 33% split was a close call that should escalate; 38% shows enough consensus to skip.
+
+**Merged Improvements from v2**:
+- Marty position **redacted** from fixture (blind judgment)
+- Workspace isolation per claim
+- 5-min timeout with structured retry policy
+- Disagreement logging for calibration
+
+**Open Questions Reduced** from ~15 to **3** minimal items (failure retry policy, canary test, disagreement alerts).

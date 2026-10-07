@@ -1,0 +1,54 @@
+I've implemented the DelphiOpus (DelphiCursor) adjudicator. Here's what was created:
+
+## Files Created
+
+### 1. `scripts/delphicursor_queue.py`
+Multi-factor escalation trigger that queues predictions when **any 2+ factors** apply:
+- Swarm split ≤ 35% (contested)
+- Delphi3080 unclear/error
+- Recency-sensitive (2024+ dates)
+- High-weight predictor (≥1.25)
+- Explicit `delphicursor_status: queued`
+
+Daily cap: 15 claims
+
+### 2. `scripts/delphicursor_worker.py`
+Main worker with:
+- **Isolated workspace** per claim (`data/delphicursor_workspace/{id}/`)
+- **Marty position REDACTED** (blind judgment per V2 critique)
+- **5-minute hard timeout**, 3-minute soft warning
+- **Max 2 retries** per claim
+- Verdict validation against schema
+- Disagreement logging to `data/delphicursor_disagreements.jsonl`
+- Failure logging to `data/delphicursor_failures.jsonl`
+
+### 3. `scripts/delphicursor_check.py`
+Status checker showing queue depth, results, and recent verdicts.
+
+### 4. Template Updates (`templates/index.html`)
+- Added CSS for `.delphicursor-badge` (purple) and `.delphi3080-badge` (indigo)
+- Card display shows: `DelphiCursor: CORRECT` with confidence tooltip
+- Renamed "MonteCarlo" → "Swarm" for consistency with design docs
+- JavaScript detail view also renders both Delphi badges
+
+## Usage
+
+```bash
+# Check status
+python scripts/delphicursor_check.py
+
+# Queue eligible predictions (dry-run first)
+python scripts/delphicursor_queue.py --dry-run
+python scripts/delphicursor_queue.py
+
+# Process queue (one claim)
+python scripts/delphicursor_worker.py --once
+
+# Run as continuous worker
+pythonw scripts/delphicursor_worker.py
+```
+
+## Mode A (per owner decision)
+DelphiCursor is **advisory only**. Marty's verdict remains FINAL; Opus's judgment displays alongside for calibration comparison.
+
+===STDERR===
