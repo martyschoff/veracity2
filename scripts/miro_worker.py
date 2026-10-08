@@ -26,7 +26,7 @@ RUNNER = PANEL / 'scripts' / 'run_claim_adjudication.py'
 OUTDIR = BASE / 'data' / 'miro_verdicts'
 OUTDIR.mkdir(exist_ok=True)
 PY = r'C:/Users/schof/AppData/Local/hermes/tools/python-3.14.7+20260901-win32-x64/python.exe'
-VPY = r'C:/Users/schof/veracity-panel/backend/.venv/Scripts/python.exe'  # has flask/graphiti/openai
+VPY = r'C:/Users/schof/veracity-panel/backend/.venv311/Scripts/python.exe'  # py3.11 + graphiti/oasis (rebuilt Oct 8)
 ENV_BASE = {
     **{k: v for k, v in __import__('os').environ.items() if k != 'PYTHONPATH'},  # stray PYTHONPATH shadows the venv's compiled modules
     'JAVA_HOME': r'C:/Users/schof/tools/jdk-21.0.12.1+1',

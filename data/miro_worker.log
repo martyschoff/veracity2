@@ -12316,3 +12316,109 @@ ValueError: No embedding data received
 
 2026-10-07 14:55:46 pred_20261001163700_663715 miro verdict saved
 2026-10-07 14:55:46 adjudicating pred_20261001184750_ffead3b69bde: China's shale oil extraction will not reach significant levels due to 
+2026-10-08 09:51:27 miro worker started (nimo via proxy; 7-GPU pool skipped)
+2026-10-08 09:51:29 starting Neo4j
+2026-10-08 09:51:56 neo4j http up
+2026-10-08 09:51:58 starting LLM proxy
+2026-10-08 09:52:01 adjudicating pred_20261001184750_ffead3b69bde: China's shale oil extraction will not reach significant levels due to 
+2026-10-08 09:52:01 worker error: FileNotFoundError: [WinError 2] The system cannot find the file specified
+2026-10-08 09:52:01         gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\schof\AppData\Local\hermes\tools\python-3.14.7+20260901-win32-x64\Lib\subprocess.py", line 1553, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+2026-10-08 09:54:01 adjudicating pred_20261001184750_ffead3b69bde: China's shale oil extraction will not reach significant levels due to 
+2026-10-08 09:54:01 worker error: FileNotFoundError: [WinError 2] The system cannot find the file specified
+2026-10-08 09:54:01         gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\schof\AppData\Local\hermes\tools\python-3.14.7+20260901-win32-x64\Lib\subprocess.py", line 1553, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+2026-10-08 09:56:01 adjudicating pred_20261001184750_ffead3b69bde: China's shale oil extraction will not reach significant levels due to 
+2026-10-08 09:56:01 runner exit 1: s\run_claim_adjudication.py", line 16, in <module>
+    from app.config import Config  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\schof\veracity-panel\backend\app\__init__.py", line 12, in <module>
+    from flask import Flask, request
+ModuleNotFoundError: No module named 'flask'
+
+2026-10-08 10:00:44 pred_20261001184750_ffead3b69bde FAILED
+2026-10-08 10:00:44 adjudicating pred_20261001225017_fdadca3d67b3: A diplomatic agreement is unlikely in the near term, and the conflict 
+2026-10-08 10:00:44 runner exit 1: packages\werkzeug\serving.py", line 35, in <module>
+    from .exceptions import InternalServerError
+  File "C:\Users\schof\veracity-panel\backend\.venv\Lib\site-packages\werkzeug\exceptions.py", line 52, in <module>
+    from markupsafe import escape
+ModuleNotFoundError: No module named 'markupsafe'
+
+2026-10-08 10:00:44 pred_20261001225017_fdadca3d67b3 FAILED
+2026-10-08 10:00:44 adjudicating pred_20261002000852_5326ed3a4e84: The war between Russia and Ukraine will shift further in favor of Ukra
+2026-10-08 10:00:45 runner exit 1: packages\werkzeug\serving.py", line 35, in <module>
+    from .exceptions import InternalServerError
+  File "C:\Users\schof\veracity-panel\backend\.venv\Lib\site-packages\werkzeug\exceptions.py", line 52, in <module>
+    from markupsafe import escape
+ModuleNotFoundError: No module named 'markupsafe'
+
+2026-10-08 10:00:45 pred_20261002000852_5326ed3a4e84 FAILED
+2026-10-08 10:00:45 adjudicating pred_1790961078_51: Gold could reach around 8,000 per ounce by late 2027 or 2028
+2026-10-08 10:00:45 runner exit 1: packages\werkzeug\serving.py", line 35, in <module>
+    from .exceptions import InternalServerError
+  File "C:\Users\schof\veracity-panel\backend\.venv\Lib\site-packages\werkzeug\exceptions.py", line 52, in <module>
+    from markupsafe import escape
+ModuleNotFoundError: No module named 'markupsafe'
+
+2026-10-08 10:00:46 pred_1790961078_51 FAILED
+2026-10-08 10:38:47 adjudicating pred_20261001184750_ffead3b69bde: China's shale oil extraction will not reach significant levels due to 
+2026-10-08 10:38:47 runner exit 1: packages\werkzeug\serving.py", line 35, in <module>
+    from .exceptions import InternalServerError
+  File "C:\Users\schof\veracity-panel\backend\.venv\Lib\site-packages\werkzeug\exceptions.py", line 52, in <module>
+    from markupsafe import escape
+ModuleNotFoundError: No module named 'markupsafe'
+
+2026-10-08 10:38:47 pred_20261001184750_ffead3b69bde FAILED
+2026-10-08 10:38:47 adjudicating pred_20261001225017_fdadca3d67b3: A diplomatic agreement is unlikely in the near term, and the conflict 
+2026-10-08 10:38:48 runner exit 1: packages\werkzeug\serving.py", line 35, in <module>
+    from .exceptions import InternalServerError
+  File "C:\Users\schof\veracity-panel\backend\.venv\Lib\site-packages\werkzeug\exceptions.py", line 52, in <module>
+    from markupsafe import escape
+ModuleNotFoundError: No module named 'markupsafe'
+
+2026-10-08 10:38:48 pred_20261001225017_fdadca3d67b3 FAILED
+2026-10-08 10:38:48 adjudicating pred_20261002000852_5326ed3a4e84: The war between Russia and Ukraine will shift further in favor of Ukra
+2026-10-08 10:38:48 runner exit 1: packages\werkzeug\serving.py", line 35, in <module>
+    from .exceptions import InternalServerError
+  File "C:\Users\schof\veracity-panel\backend\.venv\Lib\site-packages\werkzeug\exceptions.py", line 52, in <module>
+    from markupsafe import escape
+ModuleNotFoundError: No module named 'markupsafe'
+
+2026-10-08 10:38:49 pred_20261002000852_5326ed3a4e84 FAILED
+2026-10-08 10:38:49 adjudicating pred_1790961078_51: Gold could reach around 8,000 per ounce by late 2027 or 2028
+2026-10-08 10:38:49 runner exit 1: packages\werkzeug\serving.py", line 35, in <module>
+    from .exceptions import InternalServerError
+  File "C:\Users\schof\veracity-panel\backend\.venv\Lib\site-packages\werkzeug\exceptions.py", line 52, in <module>
+    from markupsafe import escape
+ModuleNotFoundError: No module named 'markupsafe'
+
+2026-10-08 10:38:49 pred_1790961078_51 FAILED
+2026-10-08 11:19:11 miro worker started (nimo via proxy; 7-GPU pool skipped)
