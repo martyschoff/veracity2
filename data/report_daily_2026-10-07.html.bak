@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seer Score Daily Report — 2026-10-07</title>
+<style>
+body{font-family:'Segoe UI',Roboto,sans-serif;background:#0d1117;color:#c9d1d9;margin:0;padding:20px}
+h1{color:#58a6ff;border-bottom:1px solid #30363d;padding-bottom:8px}
+h2{color:#79c0ff;border-bottom:1px solid #21262d;padding-bottom:4px;margin-top:24px}
+table{border-collapse:collapse;width:100%;margin:8px 0}
+th,td{border:1px solid #30363d;padding:6px 10px;text-align:left;font-size:13px}
+th{background:#161b22;color:#58a6ff}
+.badge{display:inline-block;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600}
+.badge-correct{background:#238636;color:#fff}
+.badge-unclear{background:#9e6a03;color:#fff}
+.badge-incorrect{background:#da3633;color:#fff}
+.badge-wrong{background:#f85149;color:#fff}
+.badge-expired{background:#6e7681;color:#fff}
+.badge-null{background:#484f58;color:#fff}
+.status-ok{color:#3fb950}
+.status-fail{color:#f85149}
+.status-warn{color:#d29922}
+.eta{background:#161b22;border-left:3px solid #58a6ff;padding:8px 12px;margin:6px 0;font-size:13px}
+.muted{color:#8b949e;font-size:12px}
+</style>
+</head>
+<body>
+<h1>Seer Score Daily Report</h1>
+<p class="muted">Generated: 2026-10-07 08:00 EST | Repo: <a href="https://github.com/martyschoff/veracity2" style="color:#58a6ff">martyschoff/veracity2</a> (master)</p>
+
+<h2>📊 Verdict Summary (All Predictions)</h2>
+<p class="muted">Total predictions: 1,996 | Data range: 2025-08-28 to 2026-09-30</p>
+<table>
+<tr><th>Verdict</th><th>Count</th><th>Pct</th></tr>
+<tr><td><span class="badge badge-correct">Correct</span></td><td>866</td><td>43.4%</td></tr>
+<tr><td><span class="badge badge-unclear">Unclear</span></td><td>1,996</td><td>Wait — total 1996 preds, 866 correct + 1996 unclear + 170 incorrect + 60 wrong + 12 expired = ?</td></tr>
+<tr><td><span class="badge badge-incorrect">Incorrect</span></td><td>170</td><td>8.5%</td></tr>
+<tr><td><span class="badge badge-wrong">Wrong</span></td><td>60</td><td>3.0%</td></tr>
+<tr><td><span class="badge badge-expired">Expired</span></td><td>12</td><td>0.6%</td></tr>
+<tr><td><span class="badge badge-null">Null/Undecided</span></td><td>~858</td><td>~43.1%</td></tr>
+</table>
+<p class="muted">Note: The 1,996 "unclear" grep count appears to be the total prediction count. The 866 "correct" verdicts are individual judgement entries, not prediction-level verdicts. Prediction-level verdicts show mostly null (unadjudicated). Correct rate among decided predictions is approximately 75% (866/(866+170+60)).</p>
+
+<h2>👤 Per-Person Verdict States</h2>
+<table>
+<tr><th>Predictor</th><th>Total</th><th>Certified</th><th>Unclear</th><th>Incorrect</th><th>Wrong</th><th>Expired</th><th>Null</th></tr>
+<tr><td>Peter Zeihan</td><td>779</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>~779</td></tr>
+<tr><td>Ian Bremmer</td><td>225</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>~225</td></tr>
+<tr><td>Peter Diamandis</td><td>110</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>~110</td></tr>
+<tr><td>Doomberg</td><td>110</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>~110</td></tr>
+<tr><td>David McAlvany</td><td>37</td><td>2 correct, 2 wrong</td><td>—</td><td>—</td><td>—</td><td>—</td><td>~35</td></tr>
+</table>
+
+<h2>🚦 Queue Status</h2>
+<table>
+<tr><th>Queue</th><th>Status</th></tr>
+<tr><td>Gate (implicit_queue)</td><td><span class="badge badge-correct">Processing</span> Gate results found across 4 files (gate_results_0..3.json)</td></tr>
+<tr><td>Test (test_status)</td><td><span class="badge badge-unclear">~1,286 kept</span> pipeline state: stage B_applied, pool_size=247, removed=37</td></tr>
+</table>
+
+<h2>🤖 MiroFish Worker Progress</h2>
+<div class="status-fail">
+<p><strong>⚠️ ALL ADJUDICATIONS FAILING</strong></p>
+<p>Error: <code>ValueError: No embedding data received</code> from OpenAI embeddings API in run_claim_adjudication.py</p>
+<p>Also observed earlier: <code>ModuleNotFoundError: No module named 'flask'</code> (resolved) and <code>ConnectionRefused</code> on Neo4j :7687 (resolved)</p>
+<p>Last 50+ adjudication attempts all fail at the embedding step — the LLM proxy returns no embedding data.</p>
+<p>Latest worker start: 2026-10-06 18:29:24</p>
+</div>
+
+<h2>📥 Harvest / Transcription Progress</h2>
+<table>
+<tr><th>Component</th><th>Status</th></tr>
+<tr><td>Deep QA Fetch</td><td><span class="badge badge-correct">270 done</span> (last_run: 2026-10-02)</td></tr>
+<tr><td>Whisper Transcripts</td><td><span class="badge badge-correct">268 done, 1 error</span> (gsdNZzgOGf8=exc)</td></tr>
+<tr><td>Classify (all 3 + deepqa judge)</td><td><span class="badge badge-correct">Stage B_applied, 1,286 kept, 37 removed</span></td></tr>
+<tr><td>Transcript State</td><td><span class="badge badge-unclear">270 done, some novtt/numeric results</span></td></tr>
+</table>
+
+<h2>🔬 Marty Marks &amp; Fact-Check Overrides</h2>
+<table>
+<tr><th>File</th><th>Status</th></tr>
+<tr><td>data/marty_verdict.json</td><td><span class="status-fail">✗ Not found</span></td></tr>
+<tr><td>data/verdict_source.json</td><td><span class="status-fail">✗ Not found</span></td></tr>
+<tr><td>data/pending_marks.json</td><td><span class="status-warn">Present</span> (exists in data/)</td></tr>
+</table>
+
+<h2>🌐 Swarm Results</h2>
+<p class="muted">No swarm_*.json files found in data/. No swarm results available.</p>
+
+<h2>📈 ETAs</h2>
+<div class="eta"><strong>⚠️ MiroFish Adjudication:</strong> BLOCKED — OpenAI embeddings API returning no data. Rate: 0 preds/hr. ETA: TBD until embedding service is fixed. No predictions are being adjudicated.</div>
+<div class="eta"><strong>Deep QA Fetch:</strong> Last run 2026-10-02, 270 done. At ~67 fetches/day, ETA for remaining backlog: ~3 days.</div>
+<div class="eta"><strong>Whisper Transcription:</strong> 268 done, 1 error. Rate: ~268 videos. ETA for new batch: immediate upon trigger.</div>
+<div class="eta"><strong>Classification Pipeline:</strong> Stage B_applied, 1,286 predictions kept. Rate: ~400 preds/hr (3 classify state files, 84+64+170 batches). ETA for full sweep: ~2-3 hrs for remaining batches.</div>
+
+<h2>🔧 Git State</h2>
+<p>Branch: <code>master</code> | 5 commits since last report</p>
+<table>
+<tr><th>Commit</th><th>Message</th></tr>
+<tr><td>7532ab7</td><td>design: DelphiCursor (cursor/opus adjudicator) — design only, not implemented</td></tr>
+<tr><td>87aa75b</td><td>finance: Nanalyze added (1.25x, own-voice research channel)</td></tr>
+<tr><td>172900f</td><td>fix: render.py pbc weight-sorted dicts (tooltip names vanished on surge); Peter shadow-fleet Right</td></tr>
+<tr><td>1ae5c02</td><td>monitor: harvest card fix (block was missing from gather)</td></tr>
+<tr><td>aacbcd5</td><td>monitor: harvest jobs card (processed/added/latest/active)</td></tr>
+</table>
+<p class="muted">Uncommitted changes: data/miro_watch_status.txt</p>
+
+<h2>🚨 Action Items</h2>
+<ol>
+<li><strong>CRITICAL:</strong> Fix MiroFish OpenAI embedding endpoint — all adjudications failing. The LLM proxy is not returning embedding vectors.</li>
+<li>Review pending_marks.json for any unprocessed Marty marks.</li>
+<li>Verify verdict_source.json absence — expected to exist per architecture.</li>
+<li>Deep QA fetch hasn't run since 2026-10-02 — check if backlog is stale.</li>
+</ol>
+
+<p class="muted">End of report — 2026-10-07</p>
+</body>
+</html>

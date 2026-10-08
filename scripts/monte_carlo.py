@@ -29,7 +29,6 @@ SWARM_ENDPOINTS = [
     # 3080 pool: 7 instances, GPUs 1-7 (user released 2026-10-06). Full paths required -
     # call_llm posts to ep['url'] verbatim (the /v1-only form 404s).
     {"url": "http://100.124.236.23:11434/v1/chat/completions", "key": None, "model": "qwen3:8b"},  # GPU0 (qwen3:8b only; whisper not running on TJ1)
-    {"url": "http://100.68.43.17:11434/v1/chat/completions", "key": None, "model": "qwen3:8b"},  # tower1 (shares instance w/ gpt-oss judge; swaps cost ~3min - gentle use only)
     {"url": "http://100.124.236.23:11435/v1/chat/completions", "key": None, "model": "qwen3:8b"},
     {"url": "http://100.124.236.23:11436/v1/chat/completions", "key": None, "model": "qwen3:8b"},
     {"url": "http://100.124.236.23:11437/v1/chat/completions", "key": None, "model": "qwen3:8b"},
