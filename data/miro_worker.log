@@ -12422,3 +12422,34 @@ ModuleNotFoundError: No module named 'markupsafe'
 
 2026-10-08 10:38:49 pred_1790961078_51 FAILED
 2026-10-08 11:19:11 miro worker started (nimo via proxy; 7-GPU pool skipped)
+2026-10-08 11:31:33 miro worker started (nimo via proxy; 7-GPU pool skipped)
+2026-10-08 11:37:34 adjudicating pred_20261001184750_ffead3b69bde: China's shale oil extraction will not reach significant levels due to 
+2026-10-08 11:40:26 runner exit 1: ings(embedder, updated_nodes)
+  File "C:\Users\schof\veracity-panel\backend\.venv311\Lib\site-packages\graphiti_core\nodes.py", line 590, in create_entity_node_embeddings
+    for node, name_embedding in zip(nodes, name_embeddings, strict=True):
+ValueError: zip() argument 2 is longer than argument 1
+
+2026-10-08 11:40:26 pred_20261001184750_ffead3b69bde FAILED
+2026-10-08 11:40:26 adjudicating pred_20261001225017_fdadca3d67b3: A diplomatic agreement is unlikely in the near term, and the conflict 
+2026-10-08 11:42:29 runner exit 1: ings(embedder, updated_nodes)
+  File "C:\Users\schof\veracity-panel\backend\.venv311\Lib\site-packages\graphiti_core\nodes.py", line 590, in create_entity_node_embeddings
+    for node, name_embedding in zip(nodes, name_embeddings, strict=True):
+ValueError: zip() argument 2 is longer than argument 1
+
+2026-10-08 11:42:30 pred_20261001225017_fdadca3d67b3 FAILED
+2026-10-08 11:42:30 adjudicating pred_20261002000852_5326ed3a4e84: The war between Russia and Ukraine will shift further in favor of Ukra
+2026-10-08 11:45:01 runner exit 1: ings(embedder, updated_nodes)
+  File "C:\Users\schof\veracity-panel\backend\.venv311\Lib\site-packages\graphiti_core\nodes.py", line 590, in create_entity_node_embeddings
+    for node, name_embedding in zip(nodes, name_embeddings, strict=True):
+ValueError: zip() argument 2 is longer than argument 1
+
+2026-10-08 11:45:02 pred_20261002000852_5326ed3a4e84 FAILED
+2026-10-08 11:45:02 adjudicating pred_1790961078_51: Gold could reach around 8,000 per ounce by late 2027 or 2028
+2026-10-08 11:47:14 runner exit 1: ings(embedder, updated_nodes)
+  File "C:\Users\schof\veracity-panel\backend\.venv311\Lib\site-packages\graphiti_core\nodes.py", line 590, in create_entity_node_embeddings
+    for node, name_embedding in zip(nodes, name_embeddings, strict=True):
+ValueError: zip() argument 2 is longer than argument 1
+
+2026-10-08 11:47:14 pred_1790961078_51 FAILED
+2026-10-08 11:51:58 miro worker started (nimo via proxy; 7-GPU pool skipped)
+2026-10-08 11:51:58 adjudicating pred_20261001184750_ffead3b69bde: China's shale oil extraction will not reach significant levels due to 
