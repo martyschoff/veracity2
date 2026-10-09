@@ -1950,6 +1950,20 @@
       "weight_subjective": 1.0,
       "weight_objective": 1.0,
       "profile": "Executive director, Centre for Independent Studies (Sydney); former editor The Spectator Australia; foreign-affairs columnist (AFR, NYT-syndicated); frequent Asia-Pacific/US-Australia geopolitics commentary. Weight 1.0."
+    },
+    {
+      "name": "James Rickards",
+      "handle": "jamesricards",
+      "sources": [
+        "https://www.jamesrickardsproject.com/",
+        "https://dailyreckoning.com/"
+      ],
+      "categories": [
+        "finance"
+      ],
+      "weight_subjective": 1.25,
+      "weight_objective": 1.25,
+      "profile": "Editor, Strategic Intelligence (Agora); author Currency Wars / The Death of Money. Specific dated macro calls: gold price targets, dollar collapse scenarios, Fed policy. Weight 1.25 (specialist tier) per owner."
     }
   ],
   "predictions": [
@@ -11266,9 +11280,9 @@
       "marty_agrees": false,
       "marty_note": "MartyPredicts: Wrong",
       "marty_at": "2026-10-07",
-      "mc_status": "queued",
+      "mc_status": "done",
       "miro_status": "done",
-      "mc_result": "RIGHT (100% of 3 decided, 29 unclear)",
+      "mc_result": "RIGHT (100% of 6 decided, 31 unclear)",
       "mc_split": 0,
       "marty_verdict": "wrong",
       "delphicursor_status": "done",
@@ -36565,7 +36579,7 @@
       "marty_note": "MartyPredicts: Wrong",
       "marty_at": "2026-10-06",
       "marty_verdict": "wrong",
-      "mc_status": "queued",
+      "mc_status": "done",
       "miro_status": "done",
       "delphicursor_status": "done",
       "delphicursor_result": {
@@ -36580,7 +36594,9 @@
         "verdict": "supported",
         "confidence": 0.68,
         "summary": "Ukraine's technological advantages in drone warfare, combined with Western military support and Russia's logistical vulnerabilities, are likely to create measurable momentum in Ukraine's favor over the next 12 months. While Russia's resource depth and counter-drone adaptations pose challenges, the immediate tactical benefits of Ukrainian drone capabilities—enhanced by international supply chains and energy security—suggest a measurable advantage within the 12-month horizon. Capital markets and t"
-      }
+      },
+      "mc_result": "RIGHT (100% of 2 decided, 35 unclear)",
+      "mc_split": 0
     },
     {
       "id": "pred_20261002000858_720c79dac5fe",

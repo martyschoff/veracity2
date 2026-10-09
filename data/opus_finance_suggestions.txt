@@ -1,0 +1,17 @@
+You are suggesting members for the FINANCE panel of a predictions-vs-reality tracker (SeerScore.AI). The owner wants 12 more finance-panel members: 3 Asia-based, 3 Europe-based, 6 US-based.
+
+Current finance panel (28): Peter Zeihan, Doomberg, Jeff Snider (Eurodollar University), John Cochrane, Kevin Hassett, Scott Bessent, Andrew Ross Sorkin, Dan Ives, Tom Lee, David McAlvany, Mohamed El-Erian, James Rickards, Nanalyze, R "Ray" Wang, plus fact-checkers and others.
+
+The owner's criteria (from how he picked previous members):
+- PUBLIC FIGURES with a media presence who make DATED, TESTABLE macro/market calls (not educators or entertainers)
+- Own-voice prediction density: their articles/interviews contain specific claims with numbers, dates, timeframes
+- NOT already on the panel
+- Region matters: the owner wants geographic diversity for election/geopolitics sensitivity
+
+For each of the 12 (3 Asia, 3 Europe, 6 US), give:
+- name + title/affiliation
+- where they appear (specific shows/publications)
+- 1-2 examples of their testable prediction style (dated/quantified calls)
+- why they complement the existing panel
+
+Prioritize people whose calls would actually be gradeable right/wrong in 6-24 months. Answer directly - no questions. Do NOT create or modify any files.
