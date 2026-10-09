@@ -1,0 +1,13 @@
+Integrate the "ideas worth stealing" from COMPETITIVE_LANDSCAPE.md (read it first, plus REVIEW_OPS_ASSESSMENT.md for system context) into our design. Produce a design document (DESIGN_STEALS.md) covering HOW each would integrate - design only, NO implementation:
+
+1. **Brier ledger per claim** (from hayderi/forecasting-swarm): we just shipped per-person Brier (independent-truth only, shrunk). Design a per-CLAIM ledger: each claim stores its multi-source probability vector over time (panel P, swarm %, delphi confidences, eventual resolution). How would the ledger schema look, how does it integrate with our locked_data write path, and what scoring becomes possible with it (Brier decomposition into uncertainty/reliability/resolution components)?
+
+2. **Claim-matching for dedup** (from kinit-sk/llms-claim-matching): we currently dedup on claim[:80] prefix - brittle. Design embedding-based same-claim detection: which model (nimo has nomic-embed-text loaded), what threshold, how it integrates into add_prediction() and harvest dedup, and how it could also LINK the same claim made by multiple pundits (e.g. McAlvany quoting Rickards' gold call).
+
+3. **OpenTimestamps** for prediction-priority proof: when we harvest a prediction, we hash the claim + source + extraction date into the OpenTimestamps calendar so later we can PROVE we tracked it before resolution (anti-hindsight). Design: where in the pipeline (gate pass? add_prediction?), what gets hashed, cost (free calendar attestation vs paid bitcoin anchoring), and how the .ots proof files get stored/verified.
+
+4. **Reliability diagrams per pundit**: once N grows, per-person calibration curves. Design: data flow from the Brier ledger, bucket strategy for coarse 3-voter panels, and how the diagram renders (SVG on the grid? a drill-down page? in the detail cards?).
+
+For each: concrete design, integration points in our existing code (name the files/functions), effort estimate, and open questions. Prioritize: which delivers most value first?
+
+Do NOT implement anything. Design only. Write to DESIGN_STEALS.md in repo root.

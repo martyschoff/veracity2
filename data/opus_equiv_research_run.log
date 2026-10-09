@@ -1,0 +1,31 @@
+Since external searches are blocked, here's what I know from training data about projects similar to SeerScore.AI (predictions-vs-reality trackers):
+
+## Established Prediction Platforms
+
+| Platform | Description | Key Difference from SeerScore.AI |
+|----------|-------------|----------------------------------|
+| **Metaculus** | Community forecasting platform with calibration tracking | Users make predictions, not tracking pundits |
+| **Good Judgment Open** | Superforecasting platform from Philip Tetlock's research | Focus on trained forecasters, not public figures |
+| **PredictIt / Polymarket** | Prediction markets with price-based probability | Market mechanism, not pundit scorecards |
+| **Manifold Markets** | Play-money prediction markets | Community-driven, no pundit focus |
+
+## Pundit Accountability Projects (Closer Matches)
+
+| Project | Description |
+|---------|-------------|
+| **PunditTracker** | Tracked media pundit predictions (defunct ~2015) |
+| **The Long Bets** | Long Now Foundation's public predictions with accountability |
+| **FiveThirtyEight Forecasts** | Tracks their own election/sports model accuracy |
+| **ClimateActionTracker** | Tracks policy commitments vs reality (narrow domain) |
+
+## GitHub-Style Open Source
+
+From my knowledge, there isn't a widely-adopted open-source equivalent that:
+- Extracts predictions from video/text via LLM
+- Tracks specific named individuals
+- Uses expert panels for adjudication
+- Presents a visual scorecard grid
+
+This combination appears to be **relatively novel**. The closest conceptual matches are academic calibration tools and defunct pundit trackers.
+
+Would you like me to research any of these specific platforms in more depth, or document this competitive landscape analysis somewhere?

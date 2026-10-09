@@ -1,0 +1,16 @@
+Created `DESIGN_STEALS.md` with integration designs for all four competitive features:
+
+| Feature | Key Integration Points |
+|---------|----------------------|
+| **Brier Ledger** | Extends `predictions.json` schema, hooks into `monte_carlo.py` and `panel_adjudicate.py` output, generates per-pundit calibration files |
+| **Market Signals** | New `market_matcher.py` for claim↔Polymarket matching via embeddings, price polling worker, weighted into panel adjudication |
+| **Claim Dedup** | Embedding pipeline with vector storage separate from main JSON, similarity-based merge flow, admin review queue for edge cases |
+| **OpenTimestamps** | SHA-256 of canonical prediction JSON, background worker for Bitcoin confirmation, verification API endpoint |
+
+The document includes:
+- Data model extensions for each feature
+- New module responsibilities and APIs
+- Integration points with existing code (`monte_carlo.py`, `panel_adjudicate.py`, `pipeline.py`, `render.py`)
+- Dependencies on P0/P1 fixes from the ops assessment
+- Phasing recommendation (Brier → Dedup → OTS → Markets)
+- Open questions for design decisions

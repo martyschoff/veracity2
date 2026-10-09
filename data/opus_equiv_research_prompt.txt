@@ -1,0 +1,14 @@
+Search GitHub and the web for existing projects equivalent to SeerScore.AI (this repo) - a predictions-vs-reality tracker that:
+
+1. Harvests predictions from public pundits/analysts (YouTube transcripts, columns, podcasts) - people like Peter Zeihan, Doomberg, Ian Bremmer, Cathie Wood, etc.
+2. Extracts testable, dated claims from their content using LLMs (own-voice only, no quoted material)
+3. Grades those predictions when they come due using MULTIPLE independent judgment sources: a 40-persona Monte Carlo swarm, an agent-society simulation (Graphiti/OASIS), a single frontier-model adjudicator (Cursor/Opus), and a weighted panel
+4. Tracks per-person track records over years with per-source verdicts on a public grid (seerscore.pages.dev)
+
+What I want from you:
+1. Search GitHub for equivalent/competing projects - prediction trackers, forecasting aggregation platforms, LLM-based claim extraction, calibration scorers. Look for: metaculus-like platforms, prediction market scrapers, "claim extraction" repos, forecaster track-record trackers, both open-source and notable closed ones.
+2. For each meaningful find: name, URL, what it does, how its approach differs from ours, and what we could steal/learn from it.
+3. Identify gaps: what does NOBODY else do that we do? What do others do that we're missing?
+4. specifically look for: any project that does LLM-based extraction of pundit predictions from video/podcast transcripts; any project that scores forecaster calibration (Brier/calibration) on media pundits rather than platform forecasters.
+
+Answer directly in your response with a structured summary. Do NOT modify any files in this repo.
