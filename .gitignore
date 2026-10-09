@@ -7,3 +7,6 @@ node_modules/
 data/predictions.json.lock
 
 .env.cloudflare
+
+data/gitpush.log
+data/push*.log
