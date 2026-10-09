@@ -119,3 +119,13 @@ Saved. Render+deploy to publish badges.
 2026-10-09 05:46:09 error TypeError: list indices must be integers or slices, not str
 2026-10-09 05:50:20 swarm worker started (poll 60s)
 2026-10-09 05:55:21 2 queued - running monte_carlo pass
+2026-10-09 09:41:23 swarm worker started (poll 60s)
+2026-10-09 09:41:23 1 queued - running monte_carlo pass
+2026-10-09 09:43:59 pass exit 0: ed; 40 personas each
+  10/40 personas voted (7 valid)
+  20/40 personas voted (16 valid)
+  30/40 personas voted (25 valid)
+  40/40 personas voted (33 valid)
+  => The US Treasury will sell Treasuries to support the yen and  : WRONG (0% of 1 decided, 32 unclear)
+Saved. Render+deploy to publish badges.
+

@@ -1,15 +1,6 @@
 {
  "sources": [
   {
-   "id": "diamandis",
-   "person": "Peter Diamandis",
-   "type": "youtube",
-   "url": "https://www.youtube.com/@PeterDiamandis",
-   "since": "20250101",
-   "category": "ai",
-   "completed": true
-  },
-  {
    "id": "mcalvany",
    "person": "David McAlvany",
    "type": "mcalvany_site",
@@ -65,13 +56,76 @@
    "article_pattern": "yardeni\\.com/(quicktakes|pub)/"
   },
   {
-   "id": "wood",
-   "person": "Cathie Wood",
+   "id": "diamandis_full",
+   "person": "Peter Diamandis",
    "type": "youtube",
-   "url": "https://www.youtube.com/@ARKInvest",
-   "since": "20250101",
+   "url": "https://www.youtube.com/@PeterDiamandis",
+   "since": "20240101",
    "category": "ai",
-   "completed": true
+   "completed": false
+  },
+  {
+   "id": "mcalvany_full",
+   "person": "David McAlvany",
+   "type": "mcalvany_site",
+   "url": "https://mcalvany.com/commentary/episodes",
+   "fallback_date": "2024-01-01",
+   "category": "finance",
+   "completed": false
+  },
+  {
+   "id": "snider",
+   "person": "Jeff Snider (Eurodollar University)",
+   "type": "youtube",
+   "url": "https://www.youtube.com/@EurodollarUniversity",
+   "since": "20240101",
+   "category": "finance",
+   "completed": false
+  },
+  {
+   "id": "tomlee",
+   "person": "Tom Lee",
+   "type": "youtube",
+   "url": "https://www.youtube.com/@FundstratTomLee",
+   "since": "20240101",
+   "category": "finance",
+   "completed": false
+  },
+  {
+   "id": "rickrule",
+   "person": "Rick Rule",
+   "type": "youtube",
+   "url": "https://www.youtube.com/@RickRuleUSA",
+   "since": "20240101",
+   "category": "finance",
+   "completed": false
+  },
+  {
+   "id": "taggart",
+   "person": "Adam Taggart",
+   "type": "youtube",
+   "url": "https://www.youtube.com/@Wealthion",
+   "since": "20240101",
+   "category": "finance",
+   "completed": false
+  },
+  {
+   "id": "stonge",
+   "person": "Peter St Onge",
+   "type": "youtube",
+   "url": "https://www.youtube.com/@profstonge",
+   "since": "20240101",
+   "category": "finance",
+   "completed": false
+  },
+  {
+   "id": "rickards",
+   "person": "James Rickards",
+   "type": "youtube",
+   "url": "https://www.youtube.com/@StrategicIntelligenceJamesRickards",
+   "since": "20240101",
+   "category": "finance",
+   "completed": false
   }
  ]
 }

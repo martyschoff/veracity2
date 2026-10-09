@@ -40549,7 +40549,9 @@
       "testing_since": "2026-10-02",
       "judgements": [],
       "gate_status": "queued",
-      "mc_status": "queued"
+      "mc_status": "done",
+      "mc_result": "WRONG (0% of 1 decided, 32 unclear)",
+      "mc_split": 0
     },
     {
       "id": "pred_1790961078_15",

@@ -3,3 +3,5 @@
 {"ts": "2026-10-09T05:21:38.066577", "worker": "swarm", "action": "restart"}
 {"ts": "2026-10-09T05:51:28.791640", "worker": "delphicursor", "action": "restart"}
 {"ts": "2026-10-09T05:56:29.093182", "worker": "miro", "action": "restart"}
+{"ts": "2026-10-09T09:41:23.706977", "worker": "delphicursor", "action": "restart"}
+{"ts": "2026-10-09T09:41:23.716596", "worker": "miro", "action": "restart"}
