@@ -27,3 +27,8 @@ EXIT_128
  create mode 100644 data/push3.log
 To https://github.com/martyschoff/veracity2.git
    a73267e..7f790f8  master -> master
+[master f3ecd72] delphi3080 9/9: full queue drained; surge redeployed with 11 delphi entries
+ 2 files changed, 12 insertions(+)
+To https://github.com/martyschoff/veracity2.git
+   7f790f8..f3ecd72  master -> master
+EXIT_0

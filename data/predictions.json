@@ -7610,7 +7610,8 @@
         "verdict": "refuted",
         "confidence": 0.95,
         "summary": "The Three Mile Island nuclear plant's Unit 2 has been decommissioned since 1979 due to a major accident, and Unit 1 was permanently shut down in 2019. Restarting either unit by 2028 would require reversing decades of decommissioning, overcoming regulatory hurdles, securing massive capital investment, and addressing public opposition—all deemed implausible within the timeframe. No credible plans or policy shifts support this claim."
-      }
+      },
+      "delphicursor_status": "queued"
     },
     {
       "id": "pred_20261001163700_663747",
@@ -11175,7 +11176,8 @@
         "verdict": "refuted",
         "confidence": 0.65,
         "summary": "The claim that nickel demand will increase tenfold within 12 months due to the green transition is implausible. Specialists across multiple disciplines (demography, energy security, capital markets, trade supply chain) highlighted that mining expansion timelines (typically 5+ years), current global production constraints (~2.5 million metric tons annually), and logistical bottlenecks make such a drastic demand surge unfeasible in the short term. Energy security specialists emphasized the capital"
-      }
+      },
+      "delphicursor_status": "queued"
     },
     {
       "id": "pred_20261001184742_ec82bbe6f315",
@@ -31508,7 +31510,8 @@
         "verdict": "inconclusive",
         "confidence": 0.35,
         "summary": "All panel specialists across five disciplines (demography, energy security, capital markets, trade supply chain, military geography) labeled the claim as 'inconclusive' in both rounds of adjudication. The lack of graph context data and the complex, dynamic geopolitical nature of the Gaza conflict prevent quantifiable modeling of diplomatic prospects or conflict trajectories. Specialist assessments highlight insufficient data on population dynamics, energy infrastructure, economic interdependenci"
-      }
+      },
+      "delphicursor_status": "queued"
     },
     {
       "id": "pred_20261001225028_a04f8d49ec0d",
@@ -41393,7 +41396,8 @@
         "verdict": "refuted",
         "confidence": 0.7,
         "summary": "The claim that gold could reach $8,000/oz by 2027-2028 is refuted by most specialists due to lack of supporting macroeconomic conditions (stable dollar, no hyperinflation projections), absence of critical supply/demand disruptions, and historical price trends inconsistent with such extreme volatility. Capital markets, trade supply chain, and military geography experts provided strong refutations in Round 2, citing improbable systemic shocks required for this trajectory."
-      }
+      },
+      "delphicursor_status": "queued"
     },
     {
       "id": "pred_1790961078_54",
