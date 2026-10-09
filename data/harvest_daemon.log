@@ -362,3 +362,5 @@ UnboundLocalError: cannot access local variable 'html' where it is not associate
 2026-10-09 13:27:34   https://www.youtube.com/watch?v=6afxPM2NloU -> 0 kept
 2026-10-09 13:28:21   https://www.youtube.com/watch?v=6aGnTgkw0kA -> 1 kept
 2026-10-09 13:29:03   https://www.youtube.com/watch?v=6kQRIBX-i3M -> 0 kept
+2026-10-09 14:20:51 harvest daemon started (extract qwen3:32b / gate nimble on nimo)
+2026-10-09 14:20:51 harvesting Peter Diamandis (youtube) since 20240101
