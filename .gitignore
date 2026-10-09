@@ -11,3 +11,5 @@ data/predictions.json.lock
 
 data/gitpush.log
 data/push*.log
+
+data/harvest_tmp_*/
