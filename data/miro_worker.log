@@ -12481,3 +12481,6 @@ TypeError: list indices must be integers or slices, not str
 2026-10-09 05:48:29 neo4j http up
 2026-10-09 05:48:31 starting LLM proxy
 2026-10-09 05:48:34 adjudicating pred_1790961078_13: Japanese interest rates will rise to about 2.5% by the end of 2026
+2026-10-09 05:56:29 miro worker started (nimo via proxy; 7-GPU pool skipped)
+2026-10-09 05:56:33 starting LLM proxy
+2026-10-09 05:56:36 adjudicating pred_1790961078_13: Japanese interest rates will rise to about 2.5% by the end of 2026

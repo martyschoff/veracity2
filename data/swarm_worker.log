@@ -118,3 +118,4 @@ Saved. Render+deploy to publish badges.
 
 2026-10-09 05:46:09 error TypeError: list indices must be integers or slices, not str
 2026-10-09 05:50:20 swarm worker started (poll 60s)
+2026-10-09 05:55:21 2 queued - running monte_carlo pass

@@ -40531,7 +40531,9 @@
       "marty_note": "MartyPredicts: Right",
       "marty_at": "2026-10-09",
       "marty_verdict": "correct",
-      "miro_status": "queued"
+      "miro_status": "queued",
+      "mc_status": "not_due",
+      "mc_result": null
     },
     {
       "id": "pred_1790961078_14",
@@ -40546,7 +40548,8 @@
       "test_status": "eligible",
       "testing_since": "2026-10-02",
       "judgements": [],
-      "gate_status": "queued"
+      "gate_status": "queued",
+      "mc_status": "queued"
     },
     {
       "id": "pred_1790961078_15",
