@@ -1,0 +1,64 @@
+{
+  "schema_version": "m0.1",
+  "claim_id": "marty-pred_1790961078_13",
+  "label": "refuted",
+  "confidence": 0.78,
+  "rationale": "The claim that Japanese interest rates will rise to 2.5% by 2026 is inconsistent with Japan's structural economic constraints, including demographic challenges (aging population, low fertility), historical monetary policy trends (ultra-low rates for decades), and deflationary pressures. The Bank of Japan has demonstrated cautious, gradual tightening rather than abrupt normalization, and no major economic catalysts (e.g., sustained inflation, fiscal consolidation) are present to justify such a sharp increase. Specialist analyses across demography, energy, capital markets, and trade all converge on this conclusion, citing the BoJ's policy aversion and global financial dynamics as key barriers.",
+  "caveats": [
+    "Unforeseen global economic shocks (e.g., hyperinflation, geopolitical crises) could force rate hikes beyond current projections.",
+    "Technological or policy innovations in Japan's demographic or energy sectors might alter long-term economic trajectories."
+  ],
+  "specialist_votes": [
+    {
+      "specialist_id": "demographer",
+      "label": "refuted",
+      "confidence": 0.85,
+      "summary": "Japan's demographic constraints create structural deflationary pressures inconsistent with a 2.5% rate by 2026."
+    },
+    {
+      "specialist_id": "energy_security",
+      "label": "refuted",
+      "confidence": 0.4,
+      "summary": "Historical caution, deflationary pressures, and energy import dynamics make a 2.5% rate unlikely."
+    },
+    {
+      "specialist_id": "capital_markets",
+      "label": "refuted",
+      "confidence": 0.85,
+      "summary": "High public debt sensitivity and gradual tightening trends contradict abrupt rate normalization."
+    },
+    {
+      "specialist_id": "trade_supply_chain",
+      "label": "refuted",
+      "confidence": 0.75,
+      "summary": "Structural challenges and global monetary policy dynamics prevent sharp rate increases."
+    },
+    {
+      "specialist_id": "military_geography",
+      "label": "inconclusive",
+      "confidence": 0.25,
+      "summary": "Strategic geography factors lack direct linkage to interest rate projections."
+    }
+  ],
+  "graph_citations": [
+    {
+      "fact": "energy_imports",
+      "weight": 0.4
+    },
+    {
+      "fact": "inflation_trends",
+      "weight": 0.3
+    },
+    {
+      "fact": "capital_markets_prior_analysis",
+      "weight": 0.85
+    },
+    {
+      "fact": "demographer_population_trends",
+      "weight": 0.85
+    }
+  ],
+  "panel_id": "zeihan_panel_v1",
+  "rounds": 2,
+  "markdown_gloss": "# Verdict gloss (non-authoritative)\n\n**Claim:** `marty-pred_1790961078_13`\n\n**Label:** refuted (confidence 0.78)\n\n## Rationale\n\nThe claim that Japanese interest rates will rise to 2.5% by 2026 is inconsistent with Japan's structural economic constraints, including demographic challenges (aging population, low fertility), historical monetary policy trends (ultra-low rates for decades), and deflationary pressures. The Bank of Japan has demonstrated cautious, gradual tightening rather than abrupt normalization, and no major economic catalysts (e.g., sustained inflation, fiscal consolidation) are present to justify such a sharp increase. Specialist analyses across demography, energy, capital markets, and trade all converge on this conclusion, citing the BoJ's policy aversion and global financial dynamics as key barriers.\n\n## Specialist votes\n\n- **demographer**: refuted (0.85) — Japan's demographic constraints create structural deflationary pressures inconsistent with a 2.5% rate by 2026.\n- **energy_security**: refuted (0.40) — Historical caution, deflationary pressures, and energy import dynamics make a 2.5% rate unlikely.\n- **capital_markets**: refuted (0.85) — High public debt sensitivity and gradual tightening trends contradict abrupt rate normalization.\n- **trade_supply_chain**: refuted (0.75) — Structural challenges and global monetary policy dynamics prevent sharp rate increases.\n- **military_geography**: inconclusive (0.25) — Strategic geography factors lack direct linkage to interest rate projections.\n\n## Caveats\n\n- Unforeseen global economic shocks (e.g., hyperinflation, geopolitical crises) could force rate hikes beyond current projections.\n- Technological or policy innovations in Japan's demographic or energy sectors might alter long-term economic trajectories.\n"
+}

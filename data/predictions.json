@@ -40531,9 +40531,14 @@
       "marty_note": "MartyPredicts: Right",
       "marty_at": "2026-10-09",
       "marty_verdict": "correct",
-      "miro_status": "error",
+      "miro_status": "done",
       "mc_status": "not_due",
-      "mc_result": null
+      "mc_result": null,
+      "miro_result": {
+        "verdict": "refuted",
+        "confidence": 0.75,
+        "summary": "Japanese interest rates are structurally constrained by demographic challenges (aging population, shrinking workforce), entrenched deflationary pressures, and the Bank of Japan's historical commitment to ultra-low rates. Specialists across demography, energy security, capital markets, and trade supply chains consistently refute the 2.5% projection by 2026, citing Japan's economic stagnation, debt sustainability concerns, and lack of catalysts for rapid rate normalization. While energy security s"
+      }
     },
     {
       "id": "pred_1790961078_14",
@@ -41801,6 +41806,50 @@
       "claim": "Gold could eventually reach $20,000 an ounce.",
       "source_url": "https://mcalvany.com/weekly-commentary/the-old-market-order-is-breaking-what-it-means-for-gold/",
       "transcript_excerpt": "We close with three key questions: Can higher interest rates hurt gold, can gold keep rising without retail participation, and could gold eventually reach $20,000 an ounce?",
+      "verdict": null,
+      "judgements": []
+    },
+    {
+      "id": "pred_1791557147_52008227",
+      "individual_name": "Jeff Snider (Eurodollar University)",
+      "date": "2025-06-15",
+      "category": "finance",
+      "claim": "Oil prices may continue to rise and eventually reach levels that significantly impact consumer and producer price measures.",
+      "source_url": "https://www.youtube.com/watch?v=03YGwtkexdY",
+      "transcript_excerpt": "oil prices have soared by 7 to 8% on Friday, reaching around $73 per barrel and basically up a dozen dollars from where it had been previously. ... we don't know how how high oil is going to go but so far it's up pretty sharply and if it keeps going even further it's just going to add that much more to a situation that was already pretty bad to begin with.",
+      "verdict": null,
+      "judgements": []
+    },
+    {
+      "id": "pred_1791557147_24888905",
+      "individual_name": "Jeff Snider (Eurodollar University)",
+      "date": "2025-06-15",
+      "category": "finance",
+      "claim": "The combination of rising oil prices and existing economic fragility could lead to further demand destruction and economic slowdown by mid-2025.",
+      "source_url": "https://www.youtube.com/watch?v=03YGwtkexdY",
+      "transcript_excerpt": "depending on how this goes here today, I mean it would have been bad enough if just the oil price action was happening on its own, but you combine that with what's happening in tariffs and the slowdown in the economy ... it's just one thing after another.",
+      "verdict": null,
+      "judgements": []
+    },
+    {
+      "id": "pred_1791557298_93714584",
+      "individual_name": "Jeff Snider (Eurodollar University)",
+      "date": "2025-12-16",
+      "category": "finance",
+      "claim": "Oil prices will continue to fall due to declining demand from major economies like China and the US, with WTI reaching a new 5-year low.",
+      "source_url": "https://www.youtube.com/watch?v=0bhRj1pNfsE",
+      "transcript_excerpt": "Oil has crashed to its lowest level in almost 5 years with WTI... Oil in either WTI or Brent hasn't been this low since February 2021... WTI today has slid all the way to just about $55 per barrel, a new almost 5-year low.",
+      "verdict": null,
+      "judgements": []
+    },
+    {
+      "id": "pred_1791557599_41383332",
+      "individual_name": "Jeff Snider (Eurodollar University)",
+      "date": "2025-06-11",
+      "category": "finance",
+      "claim": "Global growth in 2025 is expected to weaken to 2.3%, marking the slowest rate of global growth since 2008, aside from outright global recessions in 2009 and 2020.",
+      "source_url": "https://www.youtube.com/watch?v=1iEsqtJmP98",
+      "transcript_excerpt": "growth is expected to weaken now to 2.3% in 2025 with deceleration in most economies relative to last year.",
       "verdict": null,
       "judgements": []
     }

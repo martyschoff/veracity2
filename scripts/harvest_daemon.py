@@ -92,7 +92,7 @@ def youtube_transcripts(channel_url, since, out_dir):
                         channel_url + '/videos'], capture_output=True, text=True, timeout=3600)
     results = []
     for srt in sorted(out_dir.glob('*.srt')):
-        m = re.match(r'(\w+)_(\d{8})', srt.name)
+        m = re.match(r'(.+)_(\d{8})', srt.name)
         if not m:
             continue
         vid, ymd = m.group(1), m.group(2)

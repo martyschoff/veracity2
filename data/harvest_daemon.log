@@ -287,3 +287,20 @@ UnboundLocalError: cannot access local variable 'html' where it is not associate
 2026-10-09 10:16:32   David McAlvany: processed 10, added 4
 2026-10-09 10:16:32 source David McAlvany complete
 2026-10-09 10:16:32 harvesting Jeff Snider (Eurodollar University) (youtube) since 20240101
+2026-10-09 10:45:47   https://www.youtube.com/watch?v=03YGwtkexdY -> 2 kept
+2026-10-09 10:46:41   https://www.youtube.com/watch?v=08hhCWHROPM -> 0 kept
+2026-10-09 10:47:29   https://www.youtube.com/watch?v=0APVhIi_QfA -> 0 kept
+2026-10-09 10:48:18   https://www.youtube.com/watch?v=0bhRj1pNfsE -> 1 kept
+2026-10-09 10:49:06   https://www.youtube.com/watch?v=0MSHbRXGYSY -> 0 kept
+2026-10-09 10:49:53   https://www.youtube.com/watch?v=0S8M3OtFIVc -> 0 kept
+2026-10-09 10:50:31   https://www.youtube.com/watch?v=0UGjNm0JF1Q -> 0 kept
+2026-10-09 10:51:06   https://www.youtube.com/watch?v=0wEQ61Nhz6w -> 0 kept
+2026-10-09 10:51:40   https://www.youtube.com/watch?v=1CpvrOt7Ckg -> 0 kept
+2026-10-09 10:52:25   https://www.youtube.com/watch?v=1HcW3mfuggs -> 0 kept
+2026-10-09 10:53:20   https://www.youtube.com/watch?v=1iEsqtJmP98 -> 1 kept
+2026-10-09 10:53:56   https://www.youtube.com/watch?v=1nrdDJwDUlw -> 0 kept
+2026-10-09 10:54:29   https://www.youtube.com/watch?v=1pEkpZF5TDQ -> 0 kept
+2026-10-09 10:55:03   https://www.youtube.com/watch?v=1s0wk2iNv2Y -> 0 kept
+2026-10-09 10:55:36   https://www.youtube.com/watch?v=1Y2X3ieHMEY -> 0 kept
+2026-10-09 10:59:49 harvest daemon started (extract qwen3:32b / gate nimble on nimo)
+2026-10-09 10:59:49 harvesting Peter Diamandis (youtube) since 20240101
