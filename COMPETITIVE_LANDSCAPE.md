@@ -62,3 +62,14 @@
 2. Same-claim dedup across sources via claim-matching embeddings
 3. OpenTimestamps for prediction-priority proof
 4. Reliability diagrams per pundit (calibration curves) - once N grows
+
+
+## THESIS STATEMENT (owner-flagged for future presentations)
+
+> "The specific combination we have — LLM harvest from video/podcast transcripts →
+> own-voice extraction → multi-source adjudication (swarm + agent-society + frontier
+> judge + panel) → public per-person grid — doesn't exist anywhere else. Opus's
+> training-data assessment agrees: 'this combination appears to be relatively novel.'"
+
+This is the one-line description of what makes SeerScore.AI unique. Use verbatim
+in any presentation, pitch, or documentation of the project's differentiation.
