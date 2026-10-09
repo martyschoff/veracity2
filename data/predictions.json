@@ -2414,7 +2414,7 @@
       "marty_note": "MartyPredicts: Right",
       "marty_at": "2026-10-06",
       "marty_verdict": "correct",
-      "mc_status": "queued",
+      "mc_status": "not_due",
       "miro_status": "done",
       "delphicursor_status": "done",
       "miro_result": {
@@ -2429,7 +2429,8 @@
         "sources_checked": [],
         "dissent_note": "I concur with the delphi3080 verdict and panel consensus. This is not excessive caution but a genuine epistemological limitation: a vague, unidentified 'Japan robot project' cannot be tracked or verified without more specifics from the original source.",
         "judged_at": "2026-10-07T14:44:42.849020"
-      }
+      },
+      "mc_result": null
     },
     {
       "id": "pred_20260930192307_f7bb161cb48f",
@@ -3318,7 +3319,7 @@
       "marty_note": "MartyPredicts: Wrong",
       "marty_at": "2026-10-06",
       "marty_verdict": "wrong",
-      "mc_status": "queued",
+      "mc_status": "not_due",
       "miro_status": "done",
       "delphicursor_status": "done",
       "miro_result": {
@@ -3333,7 +3334,8 @@
         "sources_checked": [],
         "dissent_note": "I agree with the delphi3080 'inconclusive' verdict and prior panel's 'unclear' votes. Without ability to access the source URL or search for corroboration, verification is blocked. A future adjudicator with web access should be able to resolve this by checking the Doomberg article directly.",
         "judged_at": "2026-10-07T14:49:20.966667"
-      }
+      },
+      "mc_result": null
     },
     {
       "id": "pred_20261001142337_001",
@@ -3372,7 +3374,7 @@
       "marty_note": "MartyPredicts: Wrong",
       "marty_at": "2026-10-06",
       "marty_verdict": "wrong",
-      "mc_status": "queued",
+      "mc_status": "not_due",
       "miro_status": "done",
       "delphicursor_status": "done",
       "miro_result": {
@@ -3387,7 +3389,8 @@
         "sources_checked": [],
         "dissent_note": "I agree with the panel's unclear assessment. The claim's hedged language ('could exhaust') combined with a 2030 horizon makes it genuinely indeterminate without concrete supply/demand modeling data that I could not access.",
         "judged_at": "2026-10-07T14:50:11.942296"
-      }
+      },
+      "mc_result": null
     },
     {
       "id": "pred_20261001142359_000",

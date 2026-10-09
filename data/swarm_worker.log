@@ -104,3 +104,5 @@ ModuleNotFoundError: No module named 'filelock'
   => China's shale oil extraction will not reach significant leve : RIGHT (100% of 11 decided, 25 unclear)
 
 2026-10-08 10:01:44 5 queued - running monte_carlo pass
+2026-10-09 05:21:38 swarm worker started (poll 60s)
+2026-10-09 05:21:38 5 queued - running monte_carlo pass

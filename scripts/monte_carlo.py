@@ -98,10 +98,8 @@ def persona_vote(persona: str, claim: str, made_date: str) -> dict | None:
 
 
 def run(n: int = N_DEFAULT):
-    # Load + build queue — single lock hold
-    with filelock.FileLock(str(LOCK), timeout=300):
-        with open(DATA, encoding='utf-8') as f:
-            data = json.load(f)
+    # Load + build queue using locked_data
+    with locked_data() as data:
         today = datetime.date.today().isoformat()
         queue = []
         for p in data["predictions"]:
@@ -117,14 +115,6 @@ def run(n: int = N_DEFAULT):
 
     if not queue:
         print("Monte Carlo queue is empty.")
-        with filelock.FileLock(str(LOCK), timeout=300):
-            with open(DATA, encoding='utf-8') as f:
-                data = json.load(f)
-        with locked_data() as fresh:
-            fidx = {q['id']: i2 for i2, q in enumerate(fresh['predictions'])}
-            for q in data['predictions']:
-                if q['id'] in fidx:
-                    fresh['predictions'][fidx[q['id']]] = q
         return
     personas = build_personas(n)
     print(f"{len(queue)} prediction(s) queued; {len(personas)} personas each")
@@ -156,10 +146,8 @@ def run(n: int = N_DEFAULT):
             mc_status = "done"
             mc_result = f"{direction} ({pct_yes}% of {decided} decided, {unc} unclear)"
 
-        # Lock, reload, mutate, save
-        with filelock.FileLock(str(LOCK), timeout=300):
-            with open(DATA, encoding='utf-8') as f:
-                data = json.load(f)
+        # Use locked_data exclusively - no double locking
+        with locked_data() as data:
             target = next((x for x in data["predictions"] if x.get("id") == pred_id), None)
             if target:
                 target["mc_status"] = mc_status
@@ -167,21 +155,8 @@ def run(n: int = N_DEFAULT):
                 if decided > 0:
                     target["mc_split"] = min(pct_yes, 100 - pct_yes)
                 print(f"  => {target['claim'][:60]} : {mc_result}")
-                pred = target
-                with locked_data() as fresh:
-                    fidx = {q['id']: i2 for i2, q in enumerate(fresh['predictions'])}
-                    fresh['predictions'][fidx[pred_id]] = pred
             else:
                 print(f"  => TARGET GONE: {pred_id}", flush=True)
-    # Final idempotent write
-    with filelock.FileLock(str(LOCK), timeout=300):
-        with open(DATA, encoding='utf-8') as f:
-            data = json.load(f)
-        with locked_data() as fresh:
-            fidx = {q['id']: i2 for i2, q in enumerate(fresh['predictions'])}
-            for q in data['predictions']:
-                if q['id'] in fidx:
-                    fresh['predictions'][fidx[q['id']]] = q
     print("Saved. Render+deploy to publish badges.")
 
 

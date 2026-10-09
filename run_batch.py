@@ -7,6 +7,8 @@ import sys, json, os, subprocess
 
 ROOT = r"C:/Users/schof/veracity2"
 sys.path.insert(0, ROOT)
+from src.env_utils import load_dotenv
+load_dotenv()
 
 
 def next_ids(channel, count):
@@ -47,7 +49,10 @@ def main():
         r = subprocess.run([sys.executable, "backfill3.py", "merge"], capture_output=True, text=True, cwd=ROOT)
         print(r.stdout, flush=True)
     if "--deploy" in sys.argv:
-        env = dict(os.environ, SURGE_TOKEN="ea807c6f912951573c26c7fed2788f3f")
+        surge_token = os.getenv("SURGE_TOKEN")
+        if not surge_token:
+            raise ValueError("SURGE_TOKEN environment variable not set")
+        env = dict(os.environ, SURGE_TOKEN=surge_token)
         subprocess.run([sys.executable, "render.py"], cwd=ROOT, check=True, capture_output=True)
         subprocess.run(["surge", "surge_dist/", "veracity2.surge.sh"], cwd=ROOT, check=True, env=env,
                        capture_output=True)

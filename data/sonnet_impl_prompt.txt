@@ -1,0 +1,19 @@
+Implement the P0 fixes from REVIEW_OPS_ASSESSMENT.md (read it first) in this repo, plus the items below. Read each file before editing.
+
+TASK LIST:
+1. HEARTBEATS (P0 #3): In scripts/miro_worker.py, scripts/swarm_worker.py, scripts/delphicursor_worker.py main loops: every iteration, write current timestamp to data/<name>_heartbeat.txt. Create scripts/watchdog_heartbeats.py: checks all 3 heartbeat files every 5 minutes; if any is stale (>15 min for miro which sleeps between claims, >10 min for swarm/delphicursor), append a warning line to data/heartbeat_alerts.jsonl AND (only if the corresponding worker process is not running) restart it via pythonw as the existing pattern does. Run a smoke test of the watchdog (fake a stale heartbeat file, verify alert logged) and remove the fake after.
+
+2. FIX monte_carlo.py lock/save bug (P0 #5, worse than documented): in run(), the first filelock block flips mc_status='not_due' in memory but NEVER saves it. Restructure run() to use ONLY locked_data() everywhere (drop the direct filelock.FileLock + open() reads): acquire locked_data once to build the queue AND save not_due flips immediately; process each claim's votes (no lock held during LLM calls); then per-claim result merge via locked_data as it already does. Keep the final idempotent merge but remove the stale in-memory `data` overwrite (only copy claims that were actually processed this run). Verify with py_compile.
+
+3. OPTIMIZATIONS (your judgment, keep minimal):
+   a. In scripts/delphicursor_worker.py log_disagreement: mc_result = pred.get('mc_result') or '' (already fixed - verify, don't redo).
+   b. In scripts/swarm_worker.py and scripts/miro_worker.py: add exponential backoff on repeated failures (60s -> 2m -> 5m -> 10m cap, reset on success).
+   c. Add data/backups/ daily backup: at top of scripts/swarm_worker.py loop, once per day (track last-backup date in a state file), copy data/predictions.json to data/backups/predictions_YYYYMMDD.json. Keep last 7 (delete older).
+   d. Move the hardcoded Surge token out of src/pipeline.py into environment variable SURGE_TOKEN with fallback read from .env.cloudflare-style file if present. Update the daily-report deploy path if it references it.
+
+CONSTRAINTS:
+- Do NOT touch data/predictions.json content (read-only for testing).
+- Do not restart any running daemons; the owner restarts them.
+- py_compile every file you touch; run any existing tests that still pass.
+- Commit AND push when done (git identity already configured). One commit: "P0+P1: heartbeats+watchdog, monte_carlo lock fix, backoffs, daily backups, token cleanup".
+- Report: files changed, what you verified, anything you deviated on.

@@ -17,7 +17,7 @@ import urllib.request
 
 import filelock
 
-BASE = Path(r'C:/Users/schof/veracity2')
+BASE = Path(__file__).resolve().parent.parent
 DATA = BASE / 'data' / 'predictions.json'
 LOCK = BASE / 'data' / 'predictions.json.lock'
 PANEL = Path(r'C:/Users/schof/veracity-panel/backend')
@@ -37,6 +37,7 @@ ENV_BASE = {
 }
 
 LOG = BASE / 'data' / 'miro_worker.log'
+HEARTBEAT_FILE = BASE / 'data' / 'miro_heartbeat.txt'
 
 
 def log(msg):
@@ -44,6 +45,14 @@ def log(msg):
     print(line, flush=True)
     with open(LOG, 'a', encoding='utf-8') as f:
         f.write(line + '\n')
+
+def write_heartbeat():
+    """Write heartbeat timestamp."""
+    try:
+        with open(HEARTBEAT_FILE, 'w', encoding='utf-8') as f:
+            f.write(time.strftime('%Y-%m-%d %H:%M:%S'))
+    except Exception:
+        pass  # Don't crash worker on heartbeat failure
 
 
 def ensure_services():
@@ -140,7 +149,7 @@ def process(pred):
 
 
 def main():
-    lockf = r'C:/Users/schof/veracity2/data/miro_worker.instance.lock'
+    lockf = str(BASE / 'data' / 'miro_worker.instance.lock')
     if os.path.exists(lockf):
         try:
             old_pid = int(open(lockf).read().strip())
@@ -154,6 +163,9 @@ def main():
     log('miro worker started (nimo via proxy; 7-GPU pool skipped)')
     while True:
         try:
+            # Write heartbeat
+            write_heartbeat()
+            
             data = json.load(open(DATA, encoding='utf-8'))
             queue = [p for p in data['predictions'] if p.get('miro_status') == 'queued']
             if queue:

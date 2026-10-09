@@ -1,6 +1,9 @@
 # Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
 import json, os, time, hashlib, subprocess, sys
 os.chdir('C:/Users/schof/veracity2')
+sys.path.insert(0, '.')
+from src.env_utils import load_dotenv
+load_dotenv()
 
 # merge staged -> predictions.json (dedup by source_url+claim)
 data=json.load(open('data/predictions.json'))
@@ -30,5 +33,5 @@ r=subprocess.run(['python','render.py'],
                  capture_output=True,text=True,timeout=200)
 print('render rc',r.returncode,(r.stdout or r.stderr)[-300:])
 r=subprocess.run(['surge.cmd','surge_dist/','veracity2.surge.sh'],capture_output=True,text=True,timeout=200,
-                 env={**os.environ,'SURGE_TOKEN':'ea807c6f912951573c26c7fed2788f3f'})
+                 env={**os.environ,'SURGE_TOKEN':os.getenv('SURGE_TOKEN', '')})
 print('surge rc',r.returncode,(r.stdout or r.stderr)[-200:])

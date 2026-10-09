@@ -12468,3 +12468,4 @@ ValueError: zip() argument 2 is longer than argument 1
 2026-10-08 12:42:13 runner exit 0: n                     r.fact AS fact,\n                     r.episodes AS episodes,\n                     r.expired_at AS expired_at,\n                     r.valid_at AS valid_at,\n                     r.invalid_at AS invalid_at\n                 ORDER BY score DESC LIMIT $limit\n                 '
 
 2026-10-08 12:42:13 pred_1790961078_51 miro verdict saved
+2026-10-09 05:21:40 miro worker started (nimo via proxy; 7-GPU pool skipped)

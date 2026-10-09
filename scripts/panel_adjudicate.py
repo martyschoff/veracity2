@@ -13,12 +13,16 @@ from data_lock import locked_data
 
 import filelock
 
-BASE = Path(r'C:/Users/schof/veracity2')
+BASE = Path(__file__).resolve().parent.parent
+DATA = BASE / 'data' / 'predictions.json'
 LOCK = BASE / 'data' / 'predictions.json.lock'
 POOL = ['http://100.84.167.88:11434']  # nimo 32b: judgment gold standard
 UPPOOL = ['http://100.120.21.39:11434']  # upthread64 llama3.1:8b: 100% decisive in 10-claim test
 NIMO = 'http://100.84.167.88:11434'
 MODEL = 'qwen3:32b'  # 8b pool proved too shallow: votes unclear on everything (2026-10-06)
+
+# Non-voting entities (fact-checkers, bots, etc.)
+NON_VOTERS = {'Fact-Check', 'Twitter Bot', 'Publication Account'}
 
 PROMPT = """You are simulating panelist {name} ({role}) — weight {weight}x — on a predictions adjudication panel.
 
@@ -49,6 +53,26 @@ def ask(port, prompt):
         return json.loads(m.group(0))
     except Exception:
         return None
+
+
+def due(prediction: dict) -> bool:
+    """Check if prediction is due for adjudication."""
+    import datetime
+    today = datetime.date.today().isoformat()
+    due_date = prediction.get("test_eligible_at")
+    if due_date:
+        return due_date <= today
+    
+    # Extract year from claim if no explicit due date
+    import re
+    year_match = re.search(r'\b(20[2-9]\d)\b', prediction.get('claim', ''))
+    if year_match:
+        year = int(year_match.group(1))
+        current_year = datetime.date.today().year
+        return year <= current_year
+    
+    # Default to due if no date information
+    return True
 
 
 def main():

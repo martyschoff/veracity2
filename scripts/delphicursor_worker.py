@@ -35,6 +35,7 @@ FAILURES_LOG = BASE / 'data' / 'delphicursor_failures.jsonl'
 DISAGREEMENTS_LOG = BASE / 'data' / 'delphicursor_disagreements.jsonl'
 LOCK_FILE = BASE / 'data' / 'delphicursor.lock'
 WORKER_LOG = BASE / 'data' / 'delphicursor_worker.log'
+HEARTBEAT_FILE = BASE / 'data' / 'delphicursor_heartbeat.txt'
 
 # Ensure directories exist
 WORKSPACE_DIR.mkdir(exist_ok=True)
@@ -56,6 +57,14 @@ def log(msg: str):
     print(line, flush=True)
     with open(WORKER_LOG, 'a', encoding='utf-8') as f:
         f.write(line + '\n')
+
+def write_heartbeat():
+    """Write heartbeat timestamp."""
+    try:
+        with open(HEARTBEAT_FILE, 'w', encoding='utf-8') as f:
+            f.write(time.strftime('%Y-%m-%d %H:%M:%S'))
+    except Exception:
+        pass  # Don't crash worker on heartbeat failure
 
 
 def build_fixture(pred: dict, ind_data: dict) -> dict:
@@ -196,28 +205,24 @@ def run_agent(workspace: Path, claim_id: str, attempt: int) -> tuple[bool, dict 
     verdict_path = workspace / 'verdict.json'
     log_path = LOGS_DIR / f"{claim_id}_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}_attempt{attempt}.log"
     
-    # Build agent invocation command
-    prompt = f"Read claim_fixture.json and write your judgment to verdict.json following the instructions in your system context."
+    # Build agent invocation command - include system prompt inline
+    system_prompt = build_prompt(datetime.date.today().isoformat())
+    full_prompt = f"{system_prompt}\n\nRead claim_fixture.json and write your judgment to verdict.json."
     
     cmd = [
         CURSOR_CLI,
         '--trust',
         '--model', 'opus',
-        '-p', prompt
+        '-p', full_prompt
     ]
     
     log(f"  Running agent (attempt {attempt}): {' '.join(cmd[:4])}...")
     
     try:
-        # Read the system prompt and prepend to make it visible
+        # System prompt is now included inline in the command above
+        # Still write system prompt to workspace for debugging purposes
         system_prompt = build_prompt(datetime.date.today().isoformat())
-        
-        # Write system prompt to workspace for agent to potentially read
         (workspace / 'system_prompt.txt').write_text(system_prompt, encoding='utf-8')
-        
-        # Modify prompt to include reading system prompt
-        full_prompt = f"First read system_prompt.txt for your instructions, then read claim_fixture.json and write verdict.json."
-        cmd[-1] = full_prompt
         
         # Run with timeout
         start = time.time()
@@ -473,6 +478,9 @@ def main():
     
     try:
         while True:
+            # Write heartbeat
+            write_heartbeat()
+            
             # Load data and find queued claims
             with open(DATA, encoding='utf-8') as f:
                 data = json.load(f)

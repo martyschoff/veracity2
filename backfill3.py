@@ -14,6 +14,10 @@ CACHE = r"C:/Users/schof/AppData/Local/hermes/cache/web"
 STATE = os.path.join(ROOT, "backfill_state.json")
 RESULTS = os.path.join(ROOT, "backfill_results.jsonl")
 
+sys.path.insert(0, ROOT)
+from src.env_utils import load_dotenv
+load_dotenv()
+
 CATS = {
     "ZeihanonGeopolitics": ("Peter Zeihan", ["geopolitics", "energy", "china", "ukraine", "finance"]),
     "GZEROMedia": ("Ian Bremmer", ["geopolitics"]),
@@ -157,7 +161,10 @@ def merge():
 
 def deploy():
     import subprocess
-    env = dict(os.environ, SURGE_TOKEN="ea807c6f912951573c26c7fed2788f3f")
+    surge_token = os.getenv("SURGE_TOKEN")
+    if not surge_token:
+        raise ValueError("SURGE_TOKEN environment variable not set")
+    env = dict(os.environ, SURGE_TOKEN=surge_token)
     subprocess.run(["python", "render.py"], cwd=ROOT, check=True)
     subprocess.run(["surge", "surge_dist/", "veracity2.surge.sh"], cwd=ROOT, check=True, env=env)
     subprocess.run(["git", "add", "-A"], cwd=ROOT)

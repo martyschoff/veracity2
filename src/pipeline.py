@@ -637,7 +637,13 @@ def run(render_and_deploy: bool = True) -> dict:
         import subprocess
         py = r"C:/Users/schof/AppData/Local/hermes/tools/python-3.14.7+20260901-win32-x64/python.exe"
         subprocess.run([py, str(BASE_DIR / "render.py")], cwd=BASE_DIR, check=True)
-        env = {"SURGE_TOKEN": "ea807c6f912951573c26c7fed2788f3f"}
+        import os
+        from .env_utils import load_dotenv
+        load_dotenv()
+        surge_token = os.getenv("SURGE_TOKEN")
+        if not surge_token:
+            raise ValueError("SURGE_TOKEN environment variable not set")
+        env = {"SURGE_TOKEN": surge_token}
         subprocess.run(["surge", str(BASE_DIR / "surge_dist"), "veracity2.surge.sh"],
                        cwd=BASE_DIR, check=True,
                        env={**__import__("os").environ, **env})
