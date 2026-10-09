@@ -7611,7 +7611,15 @@
         "confidence": 0.95,
         "summary": "The Three Mile Island nuclear plant's Unit 2 has been decommissioned since 1979 due to a major accident, and Unit 1 was permanently shut down in 2019. Restarting either unit by 2028 would require reversing decades of decommissioning, overcoming regulatory hurdles, securing massive capital investment, and addressing public opposition—all deemed implausible within the timeframe. No credible plans or policy shifts support this claim."
       },
-      "delphicursor_status": "failed_permanent"
+      "delphicursor_status": "done",
+      "delphicursor_result": {
+        "vote": "unclear",
+        "confidence": 55,
+        "reasoning": "The prediction references the September 2024 Constellation-Microsoft deal to restart TMI Unit 1 by 2028. This was a serious $1.6B corporate commitment for a technically feasible restart (Unit 1 was shut down for economic reasons in 2019, not safety issues). However, as of October 2026, I cannot verify current project status without access to current news sources. The 2028 target date has not yet passed, and insufficient evidence exists to determine if the project is on track or has been derailed.",
+        "sources_checked": [],
+        "dissent_note": "delphi3080's 'refuted' verdict appears to conflate TMI Unit 2 (permanently damaged by 1979 accident) with Unit 1 (the unit actually planned for restart). The reasoning that restart would require 'reversing decommissioning' mischaracterizes the project - Unit 1 was shut down for economic reasons and its restart was announced as technically achievable by Constellation.",
+        "judged_at": "2026-10-08T21:18:22.172165"
+      }
     },
     {
       "id": "pred_20261001163700_663747",
@@ -11177,7 +11185,15 @@
         "confidence": 0.65,
         "summary": "The claim that nickel demand will increase tenfold within 12 months due to the green transition is implausible. Specialists across multiple disciplines (demography, energy security, capital markets, trade supply chain) highlighted that mining expansion timelines (typically 5+ years), current global production constraints (~2.5 million metric tons annually), and logistical bottlenecks make such a drastic demand surge unfeasible in the short term. Energy security specialists emphasized the capital"
       },
-      "delphicursor_status": "failed_permanent"
+      "delphicursor_status": "done",
+      "delphicursor_result": {
+        "vote": "incorrect",
+        "confidence": 65,
+        "reasoning": "The 10x nickel demand figure significantly overstates mainstream expert projections. IEA and similar authoritative sources project 2-4x increases in nickel demand for clean energy by 2040, not 10x. While directionally correct that nickel demand will increase substantially for the green transition, the specific multiplier is an exaggeration. Technology shifts toward LFP batteries and recycling are also moderating projected nickel intensity.",
+        "sources_checked": [],
+        "dissent_note": "I agree with delphi3080's conclusion that the claim is refuted, but disagree with their reasoning. They mischaracterized this as a 12-month prediction when it is clearly a conditional statement about long-term total requirements. The claim fails not because of timing but because the 10x multiplier exceeds credible expert projections by 2-5x.",
+        "judged_at": "2026-10-08T21:19:23.517362"
+      }
     },
     {
       "id": "pred_20261001184742_ec82bbe6f315",
@@ -31511,7 +31527,15 @@
         "confidence": 0.35,
         "summary": "All panel specialists across five disciplines (demography, energy security, capital markets, trade supply chain, military geography) labeled the claim as 'inconclusive' in both rounds of adjudication. The lack of graph context data and the complex, dynamic geopolitical nature of the Gaza conflict prevent quantifiable modeling of diplomatic prospects or conflict trajectories. Specialist assessments highlight insufficient data on population dynamics, energy infrastructure, economic interdependenci"
       },
-      "delphicursor_status": "failed_permanent"
+      "delphicursor_status": "done",
+      "delphicursor_result": {
+        "vote": "correct",
+        "confidence": 78,
+        "reasoning": "Bremmer's June 2024 prediction that no diplomatic agreement was likely 'in the near term' and that conflict would intensify proved accurate. Through the summer and fall of 2024, multiple ceasefire proposals failed, hostage negotiations stalled repeatedly, and Israeli operations expanded (Rafah, etc.). The prediction's 'near term' framing was validated by events in the subsequent months.",
+        "sources_checked": [],
+        "dissent_note": "I disagree with delphi3080's 'inconclusive' verdict. While the conflict's long-term trajectory may remain uncertain, the near-term portion of this prediction clearly played out as Bremmer described—no diplomatic deal materialized, and the conflict intensified through 2024. The swarm's unanimous CORRECT verdict among decided voters is well-supported by the historical record.",
+        "judged_at": "2026-10-08T21:20:08.960557"
+      }
     },
     {
       "id": "pred_20261001225028_a04f8d49ec0d",
@@ -41397,7 +41421,15 @@
         "confidence": 0.7,
         "summary": "The claim that gold could reach $8,000/oz by 2027-2028 is refuted by most specialists due to lack of supporting macroeconomic conditions (stable dollar, no hyperinflation projections), absence of critical supply/demand disruptions, and historical price trends inconsistent with such extreme volatility. Capital markets, trade supply chain, and military geography experts provided strong refutations in Round 2, citing improbable systemic shocks required for this trajectory."
       },
-      "delphicursor_status": "failed_permanent"
+      "delphicursor_status": "done",
+      "delphicursor_result": {
+        "vote": "incorrect",
+        "confidence": 55,
+        "reasoning": "For gold to reach $8,000/oz by late 2027-2028, it would need to roughly triple from its late-2024 price of ~$2,700/oz. Such dramatic appreciation is historically rare and typically requires extraordinary conditions like hyperinflation or currency collapse. The delphi3080 assessment indicates macroeconomic conditions (stable dollar, no hyperinflation) don't support this trajectory. While the deadline hasn't passed, the prediction appears off-track given the absence of the catalysts that would drive such a move.",
+        "sources_checked": [],
+        "dissent_note": "I agree with delphi3080's refuted verdict. The prediction requires conditions that don't appear present. However, my confidence is moderate (55%) because I could not verify current gold prices - if gold has already risen significantly toward the target, my assessment would change.",
+        "judged_at": "2026-10-08T21:21:01.634820"
+      }
     },
     {
       "id": "pred_1790961078_54",

@@ -1,0 +1,3 @@
+Warning: 'trust' is not in the list of known options, but still passed to Electron/Chromium.
+Warning: 'model' is not in the list of known options, but still passed to Electron/Chromium.
+Warning: 'p' is not in the list of known options, but still passed to Electron/Chromium.

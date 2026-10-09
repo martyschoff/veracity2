@@ -1,0 +1,8 @@
+{
+  "vote": "unclear",
+  "confidence": 55,
+  "reasoning": "The prediction references the September 2024 Constellation-Microsoft deal to restart TMI Unit 1 by 2028. This was a serious $1.6B corporate commitment for a technically feasible restart (Unit 1 was shut down for economic reasons in 2019, not safety issues). However, as of October 2026, I cannot verify current project status without access to current news sources. The 2028 target date has not yet passed, and insufficient evidence exists to determine if the project is on track or has been derailed.",
+  "sources_checked": [],
+  "dissent_note": "delphi3080's 'refuted' verdict appears to conflate TMI Unit 2 (permanently damaged by 1979 accident) with Unit 1 (the unit actually planned for restart). The reasoning that restart would require 'reversing decommissioning' mischaracterizes the project - Unit 1 was shut down for economic reasons and its restart was announced as technically achievable by Constellation.",
+  "judged_at": "2026-10-08T21:18:22.172165"
+}

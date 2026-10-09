@@ -65,7 +65,7 @@ def build_fixture(pred: dict, ind_data: dict) -> dict:
     time_horizon = year_m.group(0) if year_m else 'ongoing'
     
     # Build swarm result string
-    mc_result = pred.get('mc_result', '')
+    mc_result = pred.get('mc_result') or ''
     mc_split = pred.get('mc_split')
     swarm_result = mc_result if mc_result else 'not_run'
     
@@ -221,9 +221,12 @@ def run_agent(workspace: Path, claim_id: str, attempt: int) -> tuple[bool, dict 
         
         # Run with timeout
         start = time.time()
+        _env = dict(os.environ)
+        _env.pop('PYTHONPATH', None)
         proc = subprocess.Popen(
             cmd,
             cwd=str(workspace),
+            env=_env,
             stdout=subprocess.PIPE,
             stderr=subprocess.STDOUT,
             text=True,
@@ -298,7 +301,7 @@ def log_disagreement(pred: dict, verdict: dict):
     opus_vote = verdict.get('vote')
     
     # Compare with swarm
-    mc_result = pred.get('mc_result', '')
+    mc_result = pred.get('mc_result') or ''
     swarm_direction = 'RIGHT' if 'RIGHT' in mc_result else 'WRONG' if 'WRONG' in mc_result else None
     swarm_agrees = (
         (swarm_direction == 'RIGHT' and opus_vote == 'correct') or
