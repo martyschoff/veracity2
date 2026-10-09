@@ -32,3 +32,47 @@ To https://github.com/martyschoff/veracity2.git
 To https://github.com/martyschoff/veracity2.git
    7f790f8..f3ecd72  master -> master
 EXIT_0
+[master 829c96a] delphicursor: full coverage - all 11 delphi-scored claims have cursor verdicts; env+disagreement-log fixes
+ 48 files changed, 981 insertions(+), 266 deletions(-)
+ create mode 100644 data/agent-cli.tar.gz
+ create mode 100644 data/cursor_agent_launch.log
+ create mode 100644 data/cursor_editor_install.log
+ create mode 100644 data/cursor_install.log
+ create mode 100644 data/cursor_install.ps1
+ create mode 100644 data/cursor_install.sh
+ create mode 100644 data/delphicursor_logs/pred_1790961078_51_20261008_210047_attempt1.log
+ create mode 100644 data/delphicursor_logs/pred_1790961078_51_20261008_210054_attempt2.log
+ create mode 100644 data/delphicursor_logs/pred_1790961078_51_20261008_210849_attempt1.log
+ create mode 100644 data/delphicursor_logs/pred_1790961078_51_20261008_210856_attempt2.log
+ create mode 100644 data/delphicursor_logs/pred_1790961078_51_20261008_212009_attempt1.log
+ create mode 100644 data/delphicursor_logs/pred_20261001163700_663715_20261008_210022_attempt1.log
+ create mode 100644 data/delphicursor_logs/pred_20261001163700_663715_20261008_210029_attempt2.log
+ create mode 100644 data/delphicursor_logs/pred_20261001163700_663715_20261008_210824_attempt1.log
+ create mode 100644 data/delphicursor_logs/pred_20261001163700_663715_20261008_210831_attempt2.log
+ create mode 100644 data/delphicursor_logs/pred_20261001163700_663715_20261008_211139_attempt1.log
+ create mode 100644 data/delphicursor_logs/pred_20261001163700_663715_20261008_211726_attempt1.log
+ create mode 100644 data/delphicursor_logs/pred_20261001184623_b1d18cb100bd_20261008_210030_attempt1.log
+ create mode 100644 data/delphicursor_logs/pred_20261001184623_b1d18cb100bd_20261008_210037_attempt2.log
+ create mode 100644 data/delphicursor_logs/pred_20261001184623_b1d18cb100bd_20261008_210832_attempt1.log
+ create mode 100644 data/delphicursor_logs/pred_20261001184623_b1d18cb100bd_20261008_210839_attempt2.log
+ create mode 100644 data/delphicursor_logs/pred_20261001184623_b1d18cb100bd_20261008_211822_attempt1.log
+ create mode 100644 data/delphicursor_logs/pred_20261001225017_fdadca3d67b3_20261008_210039_attempt1.log
+ create mode 100644 data/delphicursor_logs/pred_20261001225017_fdadca3d67b3_20261008_210045_attempt2.log
+ create mode 100644 data/delphicursor_logs/pred_20261001225017_fdadca3d67b3_20261008_210841_attempt1.log
+ create mode 100644 data/delphicursor_logs/pred_20261001225017_fdadca3d67b3_20261008_210848_attempt2.log
+ create mode 100644 data/delphicursor_logs/pred_20261001225017_fdadca3d67b3_20261008_211923_attempt1.log
+ create mode 100644 data/delphicursor_verdicts/pred_1790961078_51.json
+ create mode 100644 data/delphicursor_verdicts/pred_20261001163700_663715.json
+ create mode 100644 data/delphicursor_verdicts/pred_20261001184623_b1d18cb100bd.json
+ create mode 100644 data/delphicursor_verdicts/pred_20261001225017_fdadca3d67b3.json
+ delete mode 100644 data/delphicursor_workspace/pred_1790961078_51/claim_fixture.json
+ delete mode 100644 data/delphicursor_workspace/pred_1790961078_51/system_prompt.txt
+ delete mode 100644 data/delphicursor_workspace/pred_20261001163700_663715/claim_fixture.json
+ delete mode 100644 data/delphicursor_workspace/pred_20261001163700_663715/system_prompt.txt
+ delete mode 100644 data/delphicursor_workspace/pred_20261001184623_b1d18cb100bd/claim_fixture.json
+ delete mode 100644 data/delphicursor_workspace/pred_20261001184623_b1d18cb100bd/system_prompt.txt
+ delete mode 100644 data/delphicursor_workspace/pred_20261001225017_fdadca3d67b3/claim_fixture.json
+ delete mode 100644 data/delphicursor_workspace/pred_20261001225017_fdadca3d67b3/system_prompt.txt
+ create mode 100644 data/pages_deploy.log
+To https://github.com/martyschoff/veracity2.git
+   70a98c7..829c96a  master -> master

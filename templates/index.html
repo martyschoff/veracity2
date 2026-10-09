@@ -414,6 +414,8 @@
                         <div class="mc-badge">Swarm: {{ row.mc_result }}</div>
                         {% elif row.mc_status == 'queued' or row.mc_status == 'running' %}
                         <div class="mc-badge mc-running">Swarm: running…</div>
+                        {% elif row.mc_status == 'not_due' %}
+                        <div class="mc-badge mc-running" title="Swarm waits until the prediction's target date approaches - judging now would be premature.">Swarm: not due yet</div>
                         {% endif %}
                         {% if row.miro_result %}
                         <div class="delphi3080-badge" title="agent-society sim — local 32B{% if row.miro_tooltip %} — {{ row.miro_tooltip }}{% endif %}">Delphi3080: {{ row.miro_result.verdict | default(row.miro_result) | upper }}</div>
