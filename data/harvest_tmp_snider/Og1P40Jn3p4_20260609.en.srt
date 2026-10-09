@@ -1,0 +1,5895 @@
+1
+00:00:00,000 --> 00:00:02,670
+ 
+What is a credit cycle and where are we
+
+2
+00:00:02,670 --> 00:00:02,680
+What is a credit cycle and where are we
+ 
+
+3
+00:00:02,680 --> 00:00:04,510
+What is a credit cycle and where are we
+in it? These are the questions that keep
+
+4
+00:00:04,510 --> 00:00:04,520
+in it? These are the questions that keep
+ 
+
+5
+00:00:04,520 --> 00:00:05,830
+in it? These are the questions that keep
+coming up with everything that's
+
+6
+00:00:05,830 --> 00:00:05,840
+coming up with everything that's
+ 
+
+7
+00:00:05,840 --> 00:00:08,910
+coming up with everything that's
+happening in the credit market. Not just
+
+8
+00:00:08,910 --> 00:00:08,920
+happening in the credit market. Not just
+ 
+
+9
+00:00:08,920 --> 00:00:10,630
+happening in the credit market. Not just
+private credit either. That's where the
+
+10
+00:00:10,630 --> 00:00:10,640
+private credit either. That's where the
+ 
+
+11
+00:00:10,640 --> 00:00:13,030
+private credit either. That's where the
+noise is the loudest and where most of
+
+12
+00:00:13,030 --> 00:00:13,040
+noise is the loudest and where most of
+ 
+
+13
+00:00:13,040 --> 00:00:15,190
+noise is the loudest and where most of
+the excitement is taking place. You have
+
+14
+00:00:15,190 --> 00:00:15,200
+the excitement is taking place. You have
+ 
+
+15
+00:00:15,200 --> 00:00:17,310
+the excitement is taking place. You have
+to think more broadly. A credit cycle
+
+16
+00:00:17,310 --> 00:00:17,320
+to think more broadly. A credit cycle
+ 
+
+17
+00:00:17,320 --> 00:00:19,950
+to think more broadly. A credit cycle
+extends far beyond just someone's
+
+18
+00:00:19,950 --> 00:00:19,960
+extends far beyond just someone's
+ 
+
+19
+00:00:19,960 --> 00:00:21,670
+extends far beyond just someone's
+garbage lending and cockroach
+
+20
+00:00:21,670 --> 00:00:21,680
+garbage lending and cockroach
+ 
+
+21
+00:00:21,680 --> 00:00:23,030
+garbage lending and cockroach
+production.
+
+22
+00:00:23,030 --> 00:00:23,040
+production.
+ 
+
+23
+00:00:23,040 --> 00:00:24,670
+production.
+We've been seeing investors race to
+
+24
+00:00:24,670 --> 00:00:24,680
+We've been seeing investors race to
+ 
+
+25
+00:00:24,680 --> 00:00:26,630
+We've been seeing investors race to
+withdraw cash from debt funds forcing
+
+26
+00:00:26,630 --> 00:00:26,640
+withdraw cash from debt funds forcing
+ 
+
+27
+00:00:26,640 --> 00:00:28,310
+withdraw cash from debt funds forcing
+seemingly that entire part of the
+
+28
+00:00:28,310 --> 00:00:28,320
+seemingly that entire part of the
+ 
+
+29
+00:00:28,320 --> 00:00:31,110
+seemingly that entire part of the
+industry to close off requests. Some are
+
+30
+00:00:31,110 --> 00:00:31,120
+industry to close off requests. Some are
+ 
+
+31
+00:00:31,120 --> 00:00:33,030
+industry to close off requests. Some are
+even selling assets they never thought
+
+32
+00:00:33,030 --> 00:00:33,040
+even selling assets they never thought
+ 
+
+33
+00:00:33,040 --> 00:00:34,950
+even selling assets they never thought
+they'd have to. But you can ask
+
+34
+00:00:34,950 --> 00:00:34,960
+they'd have to. But you can ask
+ 
+
+35
+00:00:34,960 --> 00:00:36,870
+they'd have to. But you can ask
+yourself, what's the big deal? A fund
+
+36
+00:00:36,870 --> 00:00:36,880
+yourself, what's the big deal? A fund
+ 
+
+37
+00:00:36,880 --> 00:00:38,710
+yourself, what's the big deal? A fund
+has investors asking for money back so
+
+38
+00:00:38,710 --> 00:00:38,720
+has investors asking for money back so
+ 
+
+39
+00:00:38,720 --> 00:00:41,190
+has investors asking for money back so
+it sells something to raise the cash.
+
+40
+00:00:41,190 --> 00:00:41,200
+it sells something to raise the cash.
+ 
+
+41
+00:00:41,200 --> 00:00:42,990
+it sells something to raise the cash.
+Well, the big deal is that this is
+
+42
+00:00:42,990 --> 00:00:43,000
+Well, the big deal is that this is
+ 
+
+43
+00:00:43,000 --> 00:00:44,710
+Well, the big deal is that this is
+exactly how the downside of a credit
+
+44
+00:00:44,710 --> 00:00:44,720
+exactly how the downside of a credit
+ 
+
+45
+00:00:44,720 --> 00:00:46,590
+exactly how the downside of a credit
+cycle starts to reveal itself. Not with
+
+46
+00:00:46,590 --> 00:00:46,600
+cycle starts to reveal itself. Not with
+ 
+
+47
+00:00:46,600 --> 00:00:48,750
+cycle starts to reveal itself. Not with
+one giant explosion, not with a Lehman
+
+48
+00:00:48,750 --> 00:00:48,760
+one giant explosion, not with a Lehman
+ 
+
+49
+00:00:48,760 --> 00:00:50,990
+one giant explosion, not with a Lehman
+moment, not with a single headline that
+
+50
+00:00:50,990 --> 00:00:51,000
+moment, not with a single headline that
+ 
+
+51
+00:00:51,000 --> 00:00:52,710
+moment, not with a single headline that
+says the credit cycle is officially
+
+52
+00:00:52,710 --> 00:00:52,720
+says the credit cycle is officially
+ 
+
+53
+00:00:52,720 --> 00:00:54,790
+says the credit cycle is officially
+turned. No one rings a bell at the top.
+
+54
+00:00:54,790 --> 00:00:54,800
+turned. No one rings a bell at the top.
+ 
+
+55
+00:00:54,800 --> 00:00:57,110
+turned. No one rings a bell at the top.
+It shows up in fragments. A redemption
+
+56
+00:00:57,110 --> 00:00:57,120
+It shows up in fragments. A redemption
+ 
+
+57
+00:00:57,120 --> 00:00:58,870
+It shows up in fragments. A redemption
+request here, gated fund there,
+
+58
+00:00:58,870 --> 00:00:58,880
+request here, gated fund there,
+ 
+
+59
+00:00:58,880 --> 00:01:00,830
+request here, gated fund there,
+portfolio sale, maybe a dividend cut,
+
+60
+00:01:00,830 --> 00:01:00,840
+portfolio sale, maybe a dividend cut,
+ 
+
+61
+00:01:00,840 --> 00:01:02,590
+portfolio sale, maybe a dividend cut,
+devaluation probe. We've already seen
+
+62
+00:01:02,590 --> 00:01:02,600
+devaluation probe. We've already seen
+ 
+
+63
+00:01:02,600 --> 00:01:04,590
+devaluation probe. We've already seen
+that. A borrower paying interest with
+
+64
+00:01:04,590 --> 00:01:04,600
+that. A borrower paying interest with
+ 
+
+65
+00:01:04,600 --> 00:01:06,990
+that. A borrower paying interest with
+more debt instead of cash. A sector
+
+66
+00:01:06,990 --> 00:01:07,000
+more debt instead of cash. A sector
+ 
+
+67
+00:01:07,000 --> 00:01:09,750
+more debt instead of cash. A sector
+investors suddenly don't want to touch.
+
+68
+00:01:09,750 --> 00:01:09,760
+investors suddenly don't want to touch.
+ 
+
+69
+00:01:09,760 --> 00:01:11,710
+investors suddenly don't want to touch.
+And then once you step back, the
+
+70
+00:01:11,710 --> 00:01:11,720
+And then once you step back, the
+ 
+
+71
+00:01:11,720 --> 00:01:14,150
+And then once you step back, the
+fragments start forming a picture, a
+
+72
+00:01:14,150 --> 00:01:14,160
+fragments start forming a picture, a
+ 
+
+73
+00:01:14,160 --> 00:01:17,230
+fragments start forming a picture, a
+bigger picture. Credit booms are built
+
+74
+00:01:17,230 --> 00:01:17,240
+bigger picture. Credit booms are built
+ 
+
+75
+00:01:17,240 --> 00:01:19,230
+bigger picture. Credit booms are built
+on confidence and eventually hubris.
+
+76
+00:01:19,230 --> 00:01:19,240
+on confidence and eventually hubris.
+ 
+
+77
+00:01:19,240 --> 00:01:21,470
+on confidence and eventually hubris.
+Credit busts begin when confidence
+
+78
+00:01:21,470 --> 00:01:21,480
+Credit busts begin when confidence
+ 
+
+79
+00:01:21,480 --> 00:01:23,750
+Credit busts begin when confidence
+starts becoming conditional. So today
+
+80
+00:01:23,750 --> 00:01:23,760
+starts becoming conditional. So today
+ 
+
+81
+00:01:23,760 --> 00:01:25,470
+starts becoming conditional. So today
+we're answering the bigger question
+
+82
+00:01:25,470 --> 00:01:25,480
+we're answering the bigger question
+ 
+
+83
+00:01:25,480 --> 00:01:27,350
+we're answering the bigger question
+behind all these headlines that we've
+
+84
+00:01:27,350 --> 00:01:27,360
+behind all these headlines that we've
+ 
+
+85
+00:01:27,360 --> 00:01:29,830
+behind all these headlines that we've
+been seeing. What is a credit cycle? How
+
+86
+00:01:29,830 --> 00:01:29,840
+been seeing. What is a credit cycle? How
+ 
+
+87
+00:01:29,840 --> 00:01:32,310
+been seeing. What is a credit cycle? How
+does it actually work and where are we
+
+88
+00:01:32,310 --> 00:01:32,320
+does it actually work and where are we
+ 
+
+89
+00:01:32,320 --> 00:01:33,990
+does it actually work and where are we
+in that process? And maybe even another
+
+90
+00:01:33,990 --> 00:01:34,000
+in that process? And maybe even another
+ 
+
+91
+00:01:34,000 --> 00:01:37,510
+in that process? And maybe even another
+question beside, how did we get here?
+
+92
+00:01:37,510 --> 00:01:37,520
+question beside, how did we get here?
+ 
+
+93
+00:01:37,520 --> 00:01:39,670
+question beside, how did we get here?
+Because once you understand the cycle,
+
+94
+00:01:39,670 --> 00:01:39,680
+Because once you understand the cycle,
+ 
+
+95
+00:01:39,680 --> 00:01:41,510
+Because once you understand the cycle,
+you start to see in all these headlines
+
+96
+00:01:41,510 --> 00:01:41,520
+you start to see in all these headlines
+ 
+
+97
+00:01:41,520 --> 00:01:43,750
+you start to see in all these headlines
+these various fragments piece together
+
+98
+00:01:43,750 --> 00:01:43,760
+these various fragments piece together
+ 
+
+99
+00:01:43,760 --> 00:01:47,190
+these various fragments piece together
+in a very profound way from expansion to
+
+100
+00:01:47,190 --> 00:01:47,200
+in a very profound way from expansion to
+ 
+
+101
+00:01:47,200 --> 00:01:49,470
+in a very profound way from expansion to
+stress and then understanding all the
+
+102
+00:01:49,470 --> 00:01:49,480
+stress and then understanding all the
+ 
+
+103
+00:01:49,480 --> 00:01:51,790
+stress and then understanding all the
+myriad consequences that are likely to
+
+104
+00:01:51,790 --> 00:01:51,800
+myriad consequences that are likely to
+ 
+
+105
+00:01:51,800 --> 00:01:54,350
+myriad consequences that are likely to
+follow. A credit cycle is simply the
+
+106
+00:01:54,350 --> 00:01:54,360
+follow. A credit cycle is simply the
+ 
+
+107
+00:01:54,360 --> 00:01:56,630
+follow. A credit cycle is simply the
+expansion and then contraction of
+
+108
+00:01:56,630 --> 00:01:56,640
+expansion and then contraction of
+ 
+
+109
+00:01:56,640 --> 00:01:58,710
+expansion and then contraction of
+lending. That's the simple definition,
+
+110
+00:01:58,710 --> 00:01:58,720
+lending. That's the simple definition,
+ 
+
+111
+00:01:58,720 --> 00:02:00,630
+lending. That's the simple definition,
+but it doesn't go nearly far enough. A
+
+112
+00:02:00,630 --> 00:02:00,640
+but it doesn't go nearly far enough. A
+ 
+
+113
+00:02:00,640 --> 00:02:02,430
+but it doesn't go nearly far enough. A
+credit cycle is really the cycle of
+
+114
+00:02:02,430 --> 00:02:02,440
+credit cycle is really the cycle of
+ 
+
+115
+00:02:02,440 --> 00:02:05,630
+credit cycle is really the cycle of
+trust. Humans, they heard. They follow
+
+116
+00:02:05,630 --> 00:02:05,640
+trust. Humans, they heard. They follow
+ 
+
+117
+00:02:05,640 --> 00:02:07,230
+trust. Humans, they heard. They follow
+one another seeking information from
+
+118
+00:02:07,230 --> 00:02:07,240
+one another seeking information from
+ 
+
+119
+00:02:07,240 --> 00:02:09,550
+one another seeking information from
+behavior of other humans. If people are
+
+120
+00:02:09,550 --> 00:02:09,560
+behavior of other humans. If people are
+ 
+
+121
+00:02:09,560 --> 00:02:11,670
+behavior of other humans. If people are
+generally positive, it feeds on itself
+
+122
+00:02:11,670 --> 00:02:11,680
+generally positive, it feeds on itself
+ 
+
+123
+00:02:11,680 --> 00:02:14,150
+generally positive, it feeds on itself
+as people end up following other people.
+
+124
+00:02:14,150 --> 00:02:14,160
+as people end up following other people.
+ 
+
+125
+00:02:14,160 --> 00:02:15,949
+as people end up following other people.
+It is the cycle of how willing lenders
+
+126
+00:02:15,949 --> 00:02:15,959
+It is the cycle of how willing lenders
+ 
+
+127
+00:02:15,959 --> 00:02:18,350
+It is the cycle of how willing lenders
+are to provide money, how aggressively
+
+128
+00:02:18,350 --> 00:02:18,360
+are to provide money, how aggressively
+ 
+
+129
+00:02:18,360 --> 00:02:20,190
+are to provide money, how aggressively
+borrowers are willing to take it, how
+
+130
+00:02:20,190 --> 00:02:20,200
+borrowers are willing to take it, how
+ 
+
+131
+00:02:20,200 --> 00:02:21,830
+borrowers are willing to take it, how
+much risk investors are willing to
+
+132
+00:02:21,830 --> 00:02:21,840
+much risk investors are willing to
+ 
+
+133
+00:02:21,840 --> 00:02:24,070
+much risk investors are willing to
+ignore, and how much leverage the
+
+134
+00:02:24,070 --> 00:02:24,080
+ignore, and how much leverage the
+ 
+
+135
+00:02:24,080 --> 00:02:25,790
+ignore, and how much leverage the
+financial system is willing to tolerate
+
+136
+00:02:25,790 --> 00:02:25,800
+financial system is willing to tolerate
+ 
+
+137
+00:02:25,800 --> 00:02:27,870
+financial system is willing to tolerate
+before reality forces the whole process
+
+138
+00:02:27,870 --> 00:02:27,880
+before reality forces the whole process
+ 
+
+139
+00:02:27,880 --> 00:02:31,150
+before reality forces the whole process
+into reverse. During the upswing, credit
+
+140
+00:02:31,150 --> 00:02:31,160
+into reverse. During the upswing, credit
+ 
+
+141
+00:02:31,160 --> 00:02:33,390
+into reverse. During the upswing, credit
+becomes easier a little bit at a time
+
+142
+00:02:33,390 --> 00:02:33,400
+becomes easier a little bit at a time
+ 
+
+143
+00:02:33,400 --> 00:02:35,550
+becomes easier a little bit at a time
+until it reaches the extremes. Lenders
+
+144
+00:02:35,550 --> 00:02:35,560
+until it reaches the extremes. Lenders
+ 
+
+145
+00:02:35,560 --> 00:02:38,030
+until it reaches the extremes. Lenders
+compete for deals, borrowers get better
+
+146
+00:02:38,030 --> 00:02:38,040
+compete for deals, borrowers get better
+ 
+
+147
+00:02:38,040 --> 00:02:40,070
+compete for deals, borrowers get better
+terms, investors accept lower yields for
+
+148
+00:02:40,070 --> 00:02:40,080
+terms, investors accept lower yields for
+ 
+
+149
+00:02:40,080 --> 00:02:42,310
+terms, investors accept lower yields for
+higher risk. Then the credit spreads
+
+150
+00:02:42,310 --> 00:02:42,320
+higher risk. Then the credit spreads
+ 
+
+151
+00:02:42,320 --> 00:02:44,830
+higher risk. Then the credit spreads
+tighten, collateral values rise,
+
+152
+00:02:44,830 --> 00:02:44,840
+tighten, collateral values rise,
+ 
+
+153
+00:02:44,840 --> 00:02:46,750
+tighten, collateral values rise,
+defaults stay low generally throughout
+
+154
+00:02:46,750 --> 00:02:46,760
+defaults stay low generally throughout
+ 
+
+155
+00:02:46,760 --> 00:02:48,830
+defaults stay low generally throughout
+the entire up cycle. Because defaults
+
+156
+00:02:48,830 --> 00:02:48,840
+the entire up cycle. Because defaults
+ 
+
+157
+00:02:48,840 --> 00:02:51,150
+the entire up cycle. Because defaults
+are low, everyone concludes lending
+
+158
+00:02:51,150 --> 00:02:51,160
+are low, everyone concludes lending
+ 
+
+159
+00:02:51,160 --> 00:02:53,750
+are low, everyone concludes lending
+standards must have been appropriate.
+
+160
+00:02:53,750 --> 00:02:53,760
+standards must have been appropriate.
+ 
+
+161
+00:02:53,760 --> 00:02:56,270
+standards must have been appropriate.
+And that last part is crucial because it
+
+162
+00:02:56,270 --> 00:02:56,280
+And that last part is crucial because it
+ 
+
+163
+00:02:56,280 --> 00:03:00,270
+And that last part is crucial because it
+reveals the fatal flaw. The boom
+
+164
+00:03:00,270 --> 00:03:00,280
+reveals the fatal flaw. The boom
+ 
+
+165
+00:03:00,280 --> 00:03:03,229
+reveals the fatal flaw. The boom
+validates itself. If you made a risky
+
+166
+00:03:03,229 --> 00:03:03,239
+validates itself. If you made a risky
+ 
+
+167
+00:03:03,239 --> 00:03:04,630
+validates itself. If you made a risky
+loan last year and the borrower was
+
+168
+00:03:04,630 --> 00:03:04,640
+loan last year and the borrower was
+ 
+
+169
+00:03:04,640 --> 00:03:07,070
+loan last year and the borrower was
+still current, you feel smart. If the
+
+170
+00:03:07,070 --> 00:03:07,080
+still current, you feel smart. If the
+ 
+
+171
+00:03:07,080 --> 00:03:08,590
+still current, you feel smart. If the
+loan gets refinanced, you feel even
+
+172
+00:03:08,590 --> 00:03:08,600
+loan gets refinanced, you feel even
+ 
+
+173
+00:03:08,600 --> 00:03:10,550
+loan gets refinanced, you feel even
+smarter. If another lender is willing to
+
+174
+00:03:10,550 --> 00:03:10,560
+smarter. If another lender is willing to
+ 
+
+175
+00:03:10,560 --> 00:03:13,229
+smarter. If another lender is willing to
+buy it from you at par or above par,
+
+176
+00:03:13,229 --> 00:03:13,239
+buy it from you at par or above par,
+ 
+
+177
+00:03:13,239 --> 00:03:15,670
+buy it from you at par or above par,
+then the market has confirmed your
+
+178
+00:03:15,670 --> 00:03:15,680
+then the market has confirmed your
+ 
+
+179
+00:03:15,680 --> 00:03:18,350
+then the market has confirmed your
+absolute genius. But that's often not
+
+180
+00:03:18,350 --> 00:03:18,360
+absolute genius. But that's often not
+ 
+
+181
+00:03:18,360 --> 00:03:20,870
+absolute genius. But that's often not
+skill. It's the cycle filled with what's
+
+182
+00:03:20,870 --> 00:03:20,880
+skill. It's the cycle filled with what's
+ 
+
+183
+00:03:20,880 --> 00:03:23,790
+skill. It's the cycle filled with what's
+called recency bias. When nothing bad
+
+184
+00:03:23,790 --> 00:03:23,800
+called recency bias. When nothing bad
+ 
+
+185
+00:03:23,800 --> 00:03:25,710
+called recency bias. When nothing bad
+happens, we begin to think nothing bad
+
+186
+00:03:25,710 --> 00:03:25,720
+happens, we begin to think nothing bad
+ 
+
+187
+00:03:25,720 --> 00:03:27,750
+happens, we begin to think nothing bad
+can happen. Then we use that recency
+
+188
+00:03:27,750 --> 00:03:27,760
+can happen. Then we use that recency
+ 
+
+189
+00:03:27,760 --> 00:03:30,310
+can happen. Then we use that recency
+bias to push the envelope a little more,
+
+190
+00:03:30,310 --> 00:03:30,320
+bias to push the envelope a little more,
+ 
+
+191
+00:03:30,320 --> 00:03:32,150
+bias to push the envelope a little more,
+then a little more, then a little
+
+192
+00:03:32,150 --> 00:03:32,160
+then a little more, then a little
+ 
+
+193
+00:03:32,160 --> 00:03:33,670
+then a little more, then a little
+further, and a little further, and a
+
+194
+00:03:33,670 --> 00:03:33,680
+further, and a little further, and a
+ 
+
+195
+00:03:33,680 --> 00:03:34,630
+further, and a little further, and a
+little further, and a little further,
+
+196
+00:03:34,630 --> 00:03:34,640
+little further, and a little further,
+ 
+
+197
+00:03:34,640 --> 00:03:36,630
+little further, and a little further,
+and a little further. We did more risky
+
+198
+00:03:36,630 --> 00:03:36,640
+and a little further. We did more risky
+ 
+
+199
+00:03:36,640 --> 00:03:38,750
+and a little further. We did more risky
+stuff, nothing bad happened, so why not
+
+200
+00:03:38,750 --> 00:03:38,760
+stuff, nothing bad happened, so why not
+ 
+
+201
+00:03:38,760 --> 00:03:40,870
+stuff, nothing bad happened, so why not
+go even farther since the risk seemed to
+
+202
+00:03:40,870 --> 00:03:40,880
+go even farther since the risk seemed to
+ 
+
+203
+00:03:40,880 --> 00:03:43,110
+go even farther since the risk seemed to
+pay off. Now, the Bank for International
+
+204
+00:03:43,110 --> 00:03:43,120
+pay off. Now, the Bank for International
+ 
+
+205
+00:03:43,120 --> 00:03:45,030
+pay off. Now, the Bank for International
+Settlements or BIS has written for years
+
+206
+00:03:45,030 --> 00:03:45,040
+Settlements or BIS has written for years
+ 
+
+207
+00:03:45,040 --> 00:03:46,390
+Settlements or BIS has written for years
+about what they call the financial
+
+208
+00:03:46,390 --> 00:03:46,400
+about what they call the financial
+ 
+
+209
+00:03:46,400 --> 00:03:48,630
+about what they call the financial
+cycle, meaning the self-reinforcing
+
+210
+00:03:48,630 --> 00:03:48,640
+cycle, meaning the self-reinforcing
+ 
+
+211
+00:03:48,640 --> 00:03:50,470
+cycle, meaning the self-reinforcing
+movement of credit and asset prices.
+
+212
+00:03:50,470 --> 00:03:50,480
+movement of credit and asset prices.
+ 
+
+213
+00:03:50,480 --> 00:03:52,990
+movement of credit and asset prices.
+Hyman Minsky described something similar
+
+214
+00:03:52,990 --> 00:03:53,000
+Hyman Minsky described something similar
+ 
+
+215
+00:03:53,000 --> 00:03:55,750
+Hyman Minsky described something similar
+decades earlier, stability itself breeds
+
+216
+00:03:55,750 --> 00:03:55,760
+decades earlier, stability itself breeds
+ 
+
+217
+00:03:55,760 --> 00:03:58,150
+decades earlier, stability itself breeds
+instability. The longer things look
+
+218
+00:03:58,150 --> 00:03:58,160
+instability. The longer things look
+ 
+
+219
+00:03:58,160 --> 00:04:01,150
+instability. The longer things look
+calm, the more risk people take because
+
+220
+00:04:01,150 --> 00:04:01,160
+calm, the more risk people take because
+ 
+
+221
+00:04:01,160 --> 00:04:03,110
+calm, the more risk people take because
+calm conditions make risk look smaller
+
+222
+00:04:03,110 --> 00:04:03,120
+calm conditions make risk look smaller
+ 
+
+223
+00:04:03,120 --> 00:04:05,230
+calm conditions make risk look smaller
+than it really is. That's the heart of
+
+224
+00:04:05,230 --> 00:04:05,240
+than it really is. That's the heart of
+ 
+
+225
+00:04:05,240 --> 00:04:07,990
+than it really is. That's the heart of
+every credit cycle. Bad lending usually
+
+226
+00:04:07,990 --> 00:04:08,000
+every credit cycle. Bad lending usually
+ 
+
+227
+00:04:08,000 --> 00:04:09,790
+every credit cycle. Bad lending usually
+doesn't look bad when the loan gets
+
+228
+00:04:09,790 --> 00:04:09,800
+doesn't look bad when the loan gets
+ 
+
+229
+00:04:09,800 --> 00:04:12,310
+doesn't look bad when the loan gets
+made. It looks bad later on when the
+
+230
+00:04:12,310 --> 00:04:12,320
+made. It looks bad later on when the
+ 
+
+231
+00:04:12,320 --> 00:04:15,870
+made. It looks bad later on when the
+assumptions behind it are proven false.
+
+232
+00:04:15,870 --> 00:04:15,880
+assumptions behind it are proven false.
+ 
+
+233
+00:04:15,880 --> 00:04:17,630
+assumptions behind it are proven false.
+A company that looks safe at six times
+
+234
+00:04:17,630 --> 00:04:17,640
+A company that looks safe at six times
+ 
+
+235
+00:04:17,640 --> 00:04:19,270
+A company that looks safe at six times
+leverage may not look safe when earnings
+
+236
+00:04:19,270 --> 00:04:19,280
+leverage may not look safe when earnings
+ 
+
+237
+00:04:19,280 --> 00:04:21,310
+leverage may not look safe when earnings
+start to fall. A loan that looked fine
+
+238
+00:04:21,310 --> 00:04:21,320
+start to fall. A loan that looked fine
+ 
+
+239
+00:04:21,320 --> 00:04:23,830
+start to fall. A loan that looked fine
+at floating rate interest of 5% may not
+
+240
+00:04:23,830 --> 00:04:23,840
+at floating rate interest of 5% may not
+ 
+
+241
+00:04:23,840 --> 00:04:25,190
+at floating rate interest of 5% may not
+look fine when the interest cost
+
+242
+00:04:25,190 --> 00:04:25,200
+look fine when the interest cost
+ 
+
+243
+00:04:25,200 --> 00:04:27,750
+look fine when the interest cost
+becomes, say, 11%. A borrower that was
+
+244
+00:04:27,750 --> 00:04:27,760
+becomes, say, 11%. A borrower that was
+ 
+
+245
+00:04:27,760 --> 00:04:30,070
+becomes, say, 11%. A borrower that was
+expecting to refinance easily may
+
+246
+00:04:30,070 --> 00:04:30,080
+expecting to refinance easily may
+ 
+
+247
+00:04:30,080 --> 00:04:32,390
+expecting to refinance easily may
+suddenly face a market that says, "No,
+
+248
+00:04:32,390 --> 00:04:32,400
+suddenly face a market that says, "No,
+ 
+
+249
+00:04:32,400 --> 00:04:34,310
+suddenly face a market that says, "No,
+thank you." And that's when the credit
+
+250
+00:04:34,310 --> 00:04:34,320
+thank you." And that's when the credit
+ 
+
+251
+00:04:34,320 --> 00:04:37,070
+thank you." And that's when the credit
+cycle begins to flip. So, credit cycles
+
+252
+00:04:37,070 --> 00:04:37,080
+cycle begins to flip. So, credit cycles
+ 
+
+253
+00:04:37,080 --> 00:04:38,350
+cycle begins to flip. So, credit cycles
+are not just about interest rates.
+
+254
+00:04:38,350 --> 00:04:38,360
+are not just about interest rates.
+ 
+
+255
+00:04:38,360 --> 00:04:40,350
+are not just about interest rates.
+They're not about the Fed. Let me say
+
+256
+00:04:40,350 --> 00:04:40,360
+They're not about the Fed. Let me say
+ 
+
+257
+00:04:40,360 --> 00:04:43,350
+They're not about the Fed. Let me say
+that again, they are not about the Fed.
+
+258
+00:04:43,350 --> 00:04:43,360
+that again, they are not about the Fed.
+ 
+
+259
+00:04:43,360 --> 00:04:45,790
+that again, they are not about the Fed.
+They're not even about just recessions.
+
+260
+00:04:45,790 --> 00:04:45,800
+They're not even about just recessions.
+ 
+
+261
+00:04:45,800 --> 00:04:47,990
+They're not even about just recessions.
+They're about lending standards and risk
+
+262
+00:04:47,990 --> 00:04:48,000
+They're about lending standards and risk
+ 
+
+263
+00:04:48,000 --> 00:04:50,350
+They're about lending standards and risk
+appetite, collateral values, a huge part
+
+264
+00:04:50,350 --> 00:04:50,360
+appetite, collateral values, a huge part
+ 
+
+265
+00:04:50,360 --> 00:04:52,030
+appetite, collateral values, a huge part
+of it, and the belief that tomorrow's
+
+266
+00:04:52,030 --> 00:04:52,040
+of it, and the belief that tomorrow's
+ 
+
+267
+00:04:52,040 --> 00:04:53,750
+of it, and the belief that tomorrow's
+money will be able to solve today's
+
+268
+00:04:53,750 --> 00:04:53,760
+money will be able to solve today's
+ 
+
+269
+00:04:53,760 --> 00:04:55,150
+money will be able to solve today's
+problems. And when that belief is
+
+270
+00:04:55,150 --> 00:04:55,160
+problems. And when that belief is
+ 
+
+271
+00:04:55,160 --> 00:04:57,990
+problems. And when that belief is
+strong, the cycle expands. When that
+
+272
+00:04:57,990 --> 00:04:58,000
+strong, the cycle expands. When that
+ 
+
+273
+00:04:58,000 --> 00:05:01,030
+strong, the cycle expands. When that
+belief weakens, the cycle starts to
+
+274
+00:05:01,030 --> 00:05:01,040
+belief weakens, the cycle starts to
+ 
+
+275
+00:05:01,040 --> 00:05:03,510
+belief weakens, the cycle starts to
+contract. Before we go on with our video
+
+276
+00:05:03,510 --> 00:05:03,520
+contract. Before we go on with our video
+ 
+
+277
+00:05:03,520 --> 00:05:06,230
+contract. Before we go on with our video
+today, let me ask you a question. What
+
+278
+00:05:06,230 --> 00:05:06,240
+today, let me ask you a question. What
+ 
+
+279
+00:05:06,240 --> 00:05:08,310
+today, let me ask you a question. What
+if your gold could actually pay you
+
+280
+00:05:08,310 --> 00:05:08,320
+if your gold could actually pay you
+ 
+
+281
+00:05:08,320 --> 00:05:11,830
+if your gold could actually pay you
+every single month in more gold? That's
+
+282
+00:05:11,830 --> 00:05:11,840
+every single month in more gold? That's
+ 
+
+283
+00:05:11,840 --> 00:05:13,630
+every single month in more gold? That's
+what today's video sponsor, Monetary
+
+284
+00:05:13,630 --> 00:05:13,640
+what today's video sponsor, Monetary
+ 
+
+285
+00:05:13,640 --> 00:05:16,190
+what today's video sponsor, Monetary
+Metals, lets you do.
+
+286
+00:05:16,190 --> 00:05:16,200
+Metals, lets you do.
+ 
+
+287
+00:05:16,200 --> 00:05:18,310
+Metals, lets you do.
+And here's how it works. You still own
+
+288
+00:05:18,310 --> 00:05:18,320
+And here's how it works. You still own
+ 
+
+289
+00:05:18,320 --> 00:05:20,670
+And here's how it works. You still own
+the gold, it's still in your name, it's
+
+290
+00:05:20,670 --> 00:05:20,680
+the gold, it's still in your name, it's
+ 
+
+291
+00:05:20,680 --> 00:05:22,790
+the gold, it's still in your name, it's
+fully insured, but instead of just
+
+292
+00:05:22,790 --> 00:05:22,800
+fully insured, but instead of just
+ 
+
+293
+00:05:22,800 --> 00:05:24,670
+fully insured, but instead of just
+sitting there doing nothing, it actually
+
+294
+00:05:24,670 --> 00:05:24,680
+sitting there doing nothing, it actually
+ 
+
+295
+00:05:24,680 --> 00:05:27,470
+sitting there doing nothing, it actually
+starts working for you. Monetary Metals
+
+296
+00:05:27,470 --> 00:05:27,480
+starts working for you. Monetary Metals
+ 
+
+297
+00:05:27,480 --> 00:05:29,430
+starts working for you. Monetary Metals
+has built a system that turns idle gold
+
+298
+00:05:29,430 --> 00:05:29,440
+has built a system that turns idle gold
+ 
+
+299
+00:05:29,440 --> 00:05:32,110
+has built a system that turns idle gold
+into productive gold, earning real yield
+
+300
+00:05:32,110 --> 00:05:32,120
+into productive gold, earning real yield
+ 
+
+301
+00:05:32,120 --> 00:05:34,990
+into productive gold, earning real yield
+paid in physical gold, not dollars. No
+
+302
+00:05:34,990 --> 00:05:35,000
+paid in physical gold, not dollars. No
+ 
+
+303
+00:05:35,000 --> 00:05:37,230
+paid in physical gold, not dollars. No
+selling, no trading, no converting, you
+
+304
+00:05:37,230 --> 00:05:37,240
+selling, no trading, no converting, you
+ 
+
+305
+00:05:37,240 --> 00:05:39,550
+selling, no trading, no converting, you
+keep your gold, and every month you get
+
+306
+00:05:39,550 --> 00:05:39,560
+keep your gold, and every month you get
+ 
+
+307
+00:05:39,560 --> 00:05:41,909
+keep your gold, and every month you get
+more of it. It's a simple idea, but it
+
+308
+00:05:41,909 --> 00:05:41,919
+more of it. It's a simple idea, but it
+ 
+
+309
+00:05:41,919 --> 00:05:45,110
+more of it. It's a simple idea, but it
+solves a big problem. If gold is money,
+
+310
+00:05:45,110 --> 00:05:45,120
+solves a big problem. If gold is money,
+ 
+
+311
+00:05:45,120 --> 00:05:47,270
+solves a big problem. If gold is money,
+it should act like money, and now it
+
+312
+00:05:47,270 --> 00:05:47,280
+it should act like money, and now it
+ 
+
+313
+00:05:47,280 --> 00:05:48,950
+it should act like money, and now it
+finally can.
+
+314
+00:05:48,950 --> 00:05:48,960
+finally can.
+ 
+
+315
+00:05:48,960 --> 00:05:50,750
+finally can.
+If you're a long-term gold holder
+
+316
+00:05:50,750 --> 00:05:50,760
+If you're a long-term gold holder
+ 
+
+317
+00:05:50,760 --> 00:05:52,310
+If you're a long-term gold holder
+looking for a smarter way to store
+
+318
+00:05:52,310 --> 00:05:52,320
+looking for a smarter way to store
+ 
+
+319
+00:05:52,320 --> 00:05:53,950
+looking for a smarter way to store
+value, check them out at
+
+320
+00:05:53,950 --> 00:05:53,960
+value, check them out at
+ 
+
+321
+00:05:53,960 --> 00:05:56,710
+value, check them out at
+monetary-metals.com/snyder.
+
+322
+00:05:56,710 --> 00:05:56,720
+monetary-metals.com/snyder.
+ 
+
+323
+00:05:56,720 --> 00:05:57,510
+monetary-metals.com/snyder.
+Again, that's
+
+324
+00:05:57,510 --> 00:05:57,520
+Again, that's
+ 
+
+325
+00:05:57,520 --> 00:06:01,190
+Again, that's
+monetary-metals.com/snyder.
+
+326
+00:06:01,190 --> 00:06:01,200
+
+ 
+
+327
+00:06:01,200 --> 00:06:03,350
+ 
+I highly recommend booking a call with
+
+328
+00:06:03,350 --> 00:06:03,360
+I highly recommend booking a call with
+ 
+
+329
+00:06:03,360 --> 00:06:05,550
+I highly recommend booking a call with
+them today to see if they're the right
+
+330
+00:06:05,550 --> 00:06:05,560
+them today to see if they're the right
+ 
+
+331
+00:06:05,560 --> 00:06:07,830
+them today to see if they're the right
+fit for you. We thank Monetary Metals
+
+332
+00:06:07,830 --> 00:06:07,840
+fit for you. We thank Monetary Metals
+ 
+
+333
+00:06:07,840 --> 00:06:09,390
+fit for you. We thank Monetary Metals
+for their sponsorship, but now let's get
+
+334
+00:06:09,390 --> 00:06:09,400
+for their sponsorship, but now let's get
+ 
+
+335
+00:06:09,400 --> 00:06:12,150
+for their sponsorship, but now let's get
+back to the rest of our video.
+
+336
+00:06:12,150 --> 00:06:12,160
+back to the rest of our video.
+ 
+
+337
+00:06:12,160 --> 00:06:13,390
+back to the rest of our video.
+Now, there are different ways to
+
+338
+00:06:13,390 --> 00:06:13,400
+Now, there are different ways to
+ 
+
+339
+00:06:13,400 --> 00:06:15,470
+Now, there are different ways to
+describe the full stages of the cycle.
+
+340
+00:06:15,470 --> 00:06:15,480
+describe the full stages of the cycle.
+ 
+
+341
+00:06:15,480 --> 00:06:17,030
+describe the full stages of the cycle.
+We've been focusing on the downside.
+
+342
+00:06:17,030 --> 00:06:17,040
+We've been focusing on the downside.
+ 
+
+343
+00:06:17,040 --> 00:06:19,030
+We've been focusing on the downside.
+There are stages to the upside as well.
+
+344
+00:06:19,030 --> 00:06:19,040
+There are stages to the upside as well.
+ 
+
+345
+00:06:19,040 --> 00:06:21,630
+There are stages to the upside as well.
+And stage one of that upside is the
+
+346
+00:06:21,630 --> 00:06:21,640
+And stage one of that upside is the
+ 
+
+347
+00:06:21,640 --> 00:06:24,470
+And stage one of that upside is the
+repair. Repairing the credit condition
+
+348
+00:06:24,470 --> 00:06:24,480
+repair. Repairing the credit condition
+ 
+
+349
+00:06:24,480 --> 00:06:26,710
+repair. Repairing the credit condition
+in the credit system after the previous
+
+350
+00:06:26,710 --> 00:06:26,720
+in the credit system after the previous
+ 
+
+351
+00:06:26,720 --> 00:06:28,150
+in the credit system after the previous
+bust.
+
+352
+00:06:28,150 --> 00:06:28,160
+bust.
+ 
+
+353
+00:06:28,160 --> 00:06:30,110
+bust.
+Lenders are cautious and investors, they
+
+354
+00:06:30,110 --> 00:06:30,120
+Lenders are cautious and investors, they
+ 
+
+355
+00:06:30,120 --> 00:06:31,909
+Lenders are cautious and investors, they
+remember the losses. Borrowers are
+
+356
+00:06:31,909 --> 00:06:31,919
+remember the losses. Borrowers are
+ 
+
+357
+00:06:31,919 --> 00:06:34,070
+remember the losses. Borrowers are
+reluctant, too. Banks tighten their
+
+358
+00:06:34,070 --> 00:06:34,080
+reluctant, too. Banks tighten their
+ 
+
+359
+00:06:34,080 --> 00:06:36,030
+reluctant, too. Banks tighten their
+lending standards, credit is available
+
+360
+00:06:36,030 --> 00:06:36,040
+lending standards, credit is available
+ 
+
+361
+00:06:36,040 --> 00:06:37,990
+lending standards, credit is available
+only to the strongest names, depression
+
+362
+00:06:37,990 --> 00:06:38,000
+only to the strongest names, depression
+ 
+
+363
+00:06:38,000 --> 00:06:40,110
+only to the strongest names, depression
+economics. Everyone says they will never
+
+364
+00:06:40,110 --> 00:06:40,120
+economics. Everyone says they will never
+ 
+
+365
+00:06:40,120 --> 00:06:42,430
+economics. Everyone says they will never
+repeat the mistakes of the last cycle.
+
+366
+00:06:42,430 --> 00:06:42,440
+repeat the mistakes of the last cycle.
+ 
+
+367
+00:06:42,440 --> 00:06:44,270
+repeat the mistakes of the last cycle.
+There is an enormous amount of just
+
+368
+00:06:44,270 --> 00:06:44,280
+There is an enormous amount of just
+ 
+
+369
+00:06:44,280 --> 00:06:47,270
+There is an enormous amount of just
+basic scar tissue. But then, the
+
+370
+00:06:47,270 --> 00:06:47,280
+basic scar tissue. But then, the
+ 
+
+371
+00:06:47,280 --> 00:06:49,470
+basic scar tissue. But then, the
+memories start to fade and it bleeds
+
+372
+00:06:49,470 --> 00:06:49,480
+memories start to fade and it bleeds
+ 
+
+373
+00:06:49,480 --> 00:06:53,710
+memories start to fade and it bleeds
+into stage two, expansion. The economy
+
+374
+00:06:53,710 --> 00:06:53,720
+into stage two, expansion. The economy
+ 
+
+375
+00:06:53,720 --> 00:06:55,630
+into stage two, expansion. The economy
+improves and it improves and it feeds on
+
+376
+00:06:55,630 --> 00:06:55,640
+improves and it improves and it feeds on
+ 
+
+377
+00:06:55,640 --> 00:06:57,909
+improves and it improves and it feeds on
+itself. Defaults, they start to fall and
+
+378
+00:06:57,909 --> 00:06:57,919
+itself. Defaults, they start to fall and
+ 
+
+379
+00:06:57,919 --> 00:07:00,670
+itself. Defaults, they start to fall and
+disappear. Investors realize they need
+
+380
+00:07:00,670 --> 00:07:00,680
+disappear. Investors realize they need
+ 
+
+381
+00:07:00,680 --> 00:07:02,909
+disappear. Investors realize they need
+yield. Lenders discover that cautious
+
+382
+00:07:02,909 --> 00:07:02,919
+yield. Lenders discover that cautious
+ 
+
+383
+00:07:02,919 --> 00:07:04,470
+yield. Lenders discover that cautious
+loans that were made immediately after
+
+384
+00:07:04,470 --> 00:07:04,480
+loans that were made immediately after
+ 
+
+385
+00:07:04,480 --> 00:07:06,350
+loans that were made immediately after
+the bust, they are performing really
+
+386
+00:07:06,350 --> 00:07:06,360
+the bust, they are performing really
+ 
+
+387
+00:07:06,360 --> 00:07:08,590
+the bust, they are performing really
+well. That gives them confidence to lend
+
+388
+00:07:08,590 --> 00:07:08,600
+well. That gives them confidence to lend
+ 
+
+389
+00:07:08,600 --> 00:07:10,310
+well. That gives them confidence to lend
+a little bit more. Spreads start to
+
+390
+00:07:10,310 --> 00:07:10,320
+a little bit more. Spreads start to
+ 
+
+391
+00:07:10,320 --> 00:07:12,630
+a little bit more. Spreads start to
+tighten, credit availability improves,
+
+392
+00:07:12,630 --> 00:07:12,640
+tighten, credit availability improves,
+ 
+
+393
+00:07:12,640 --> 00:07:15,470
+tighten, credit availability improves,
+and borrowers refinance old debt at even
+
+394
+00:07:15,470 --> 00:07:15,480
+and borrowers refinance old debt at even
+ 
+
+395
+00:07:15,480 --> 00:07:17,870
+and borrowers refinance old debt at even
+better terms. And this stage feels
+
+396
+00:07:17,870 --> 00:07:17,880
+better terms. And this stage feels
+ 
+
+397
+00:07:17,880 --> 00:07:19,990
+better terms. And this stage feels
+healthy because, let's face it, it often
+
+398
+00:07:19,990 --> 00:07:20,000
+healthy because, let's face it, it often
+ 
+
+399
+00:07:20,000 --> 00:07:23,110
+healthy because, let's face it, it often
+is. Credit cycles, they start out on
+
+400
+00:07:23,110 --> 00:07:23,120
+is. Credit cycles, they start out on
+ 
+
+401
+00:07:23,120 --> 00:07:26,310
+is. Credit cycles, they start out on
+solid footing. But then comes stage
+
+402
+00:07:26,310 --> 00:07:26,320
+solid footing. But then comes stage
+ 
+
+403
+00:07:26,320 --> 00:07:29,670
+solid footing. But then comes stage
+three, the excess. And this is where the
+
+404
+00:07:29,670 --> 00:07:29,680
+three, the excess. And this is where the
+ 
+
+405
+00:07:29,680 --> 00:07:32,270
+three, the excess. And this is where the
+cycle becomes dangerous. Too much money
+
+406
+00:07:32,270 --> 00:07:32,280
+cycle becomes dangerous. Too much money
+ 
+
+407
+00:07:32,280 --> 00:07:34,310
+cycle becomes dangerous. Too much money
+starts chasing too few good loans.
+
+408
+00:07:34,310 --> 00:07:34,320
+starts chasing too few good loans.
+ 
+
+409
+00:07:34,320 --> 00:07:36,590
+starts chasing too few good loans.
+Competition forces lenders to
+
+410
+00:07:36,590 --> 00:07:36,600
+Competition forces lenders to
+ 
+
+411
+00:07:36,600 --> 00:07:38,710
+Competition forces lenders to
+compromise. That's when covenants weaken
+
+412
+00:07:38,710 --> 00:07:38,720
+compromise. That's when covenants weaken
+ 
+
+413
+00:07:38,720 --> 00:07:41,630
+compromise. That's when covenants weaken
+and leverage gets way too easy.
+
+414
+00:07:41,630 --> 00:07:41,640
+and leverage gets way too easy.
+ 
+
+415
+00:07:41,640 --> 00:07:43,430
+and leverage gets way too easy.
+Borrowers get credit for earnings they
+
+416
+00:07:43,430 --> 00:07:43,440
+Borrowers get credit for earnings they
+ 
+
+417
+00:07:43,440 --> 00:07:45,470
+Borrowers get credit for earnings they
+don't actually have. Lenders accept
+
+418
+00:07:45,470 --> 00:07:45,480
+don't actually have. Lenders accept
+ 
+
+419
+00:07:45,480 --> 00:07:47,590
+don't actually have. Lenders accept
+weaker protection because if they don't,
+
+420
+00:07:47,590 --> 00:07:47,600
+weaker protection because if they don't,
+ 
+
+421
+00:07:47,600 --> 00:07:50,350
+weaker protection because if they don't,
+somebody else will. Now, in public
+
+422
+00:07:50,350 --> 00:07:50,360
+somebody else will. Now, in public
+ 
+
+423
+00:07:50,360 --> 00:07:52,270
+somebody else will. Now, in public
+markets, this shows up as tight credit
+
+424
+00:07:52,270 --> 00:07:52,280
+markets, this shows up as tight credit
+ 
+
+425
+00:07:52,280 --> 00:07:55,030
+markets, this shows up as tight credit
+spreads, covenant-lite leverage loans,
+
+426
+00:07:55,030 --> 00:07:55,040
+spreads, covenant-lite leverage loans,
+ 
+
+427
+00:07:55,040 --> 00:07:56,790
+spreads, covenant-lite leverage loans,
+aggressive high-yield issuance, and
+
+428
+00:07:56,790 --> 00:07:56,800
+aggressive high-yield issuance, and
+ 
+
+429
+00:07:56,800 --> 00:07:59,230
+aggressive high-yield issuance, and
+booming structured debt that these days
+
+430
+00:07:59,230 --> 00:07:59,240
+booming structured debt that these days
+ 
+
+431
+00:07:59,240 --> 00:08:01,550
+booming structured debt that these days
+looks like CLOs and leverage loans. A
+
+432
+00:08:01,550 --> 00:08:01,560
+looks like CLOs and leverage loans. A
+ 
+
+433
+00:08:01,560 --> 00:08:03,190
+looks like CLOs and leverage loans. A
+generation ago, it was CDOs and
+
+434
+00:08:03,190 --> 00:08:03,200
+generation ago, it was CDOs and
+ 
+
+435
+00:08:03,200 --> 00:08:05,350
+generation ago, it was CDOs and
+mortgage-based securitizations.
+
+436
+00:08:05,350 --> 00:08:05,360
+mortgage-based securitizations.
+ 
+
+437
+00:08:05,360 --> 00:08:07,470
+mortgage-based securitizations.
+But, it all shows up as a massive
+
+438
+00:08:07,470 --> 00:08:07,480
+But, it all shows up as a massive
+ 
+
+439
+00:08:07,480 --> 00:08:10,870
+But, it all shows up as a massive
+fundraising boom, looser documentation,
+
+440
+00:08:10,870 --> 00:08:10,880
+fundraising boom, looser documentation,
+ 
+
+441
+00:08:10,880 --> 00:08:12,590
+fundraising boom, looser documentation,
+PIK payment-in-kind interest,
+
+442
+00:08:12,590 --> 00:08:12,600
+PIK payment-in-kind interest,
+ 
+
+443
+00:08:12,600 --> 00:08:14,670
+PIK payment-in-kind interest,
+amend-and-extend deals, optimistic
+
+444
+00:08:14,670 --> 00:08:14,680
+amend-and-extend deals, optimistic
+ 
+
+445
+00:08:14,680 --> 00:08:17,150
+amend-and-extend deals, optimistic
+valuations, and more capital flowing
+
+446
+00:08:17,150 --> 00:08:17,160
+valuations, and more capital flowing
+ 
+
+447
+00:08:17,160 --> 00:08:19,470
+valuations, and more capital flowing
+into increasingly complex structures
+
+448
+00:08:19,470 --> 00:08:19,480
+into increasingly complex structures
+ 
+
+449
+00:08:19,480 --> 00:08:20,990
+into increasingly complex structures
+that are promising more and more
+
+450
+00:08:20,990 --> 00:08:21,000
+that are promising more and more
+ 
+
+451
+00:08:21,000 --> 00:08:24,510
+that are promising more and more
+unrealistic results. Huge returns with
+
+452
+00:08:24,510 --> 00:08:24,520
+unrealistic results. Huge returns with
+ 
+
+453
+00:08:24,520 --> 00:08:26,150
+unrealistic results. Huge returns with
+low risk or what they usually say, low
+
+454
+00:08:26,150 --> 00:08:26,160
+low risk or what they usually say, low
+ 
+
+455
+00:08:26,160 --> 00:08:31,750
+low risk or what they usually say, low
+volatility. But, then comes stage four.
+
+456
+00:08:31,750 --> 00:08:31,760
+volatility. But, then comes stage four.
+ 
+
+457
+00:08:31,760 --> 00:08:33,350
+volatility. But, then comes stage four.
+The turn.
+
+458
+00:08:33,350 --> 00:08:33,360
+The turn.
+ 
+
+459
+00:08:33,360 --> 00:08:35,990
+The turn.
+The turn usually begins very quietly.
+
+460
+00:08:35,990 --> 00:08:36,000
+The turn usually begins very quietly.
+ 
+
+461
+00:08:36,000 --> 00:08:38,430
+The turn usually begins very quietly.
+Maybe growth slows down a bit. Perhaps a
+
+462
+00:08:38,430 --> 00:08:38,440
+Maybe growth slows down a bit. Perhaps a
+ 
+
+463
+00:08:38,440 --> 00:08:40,510
+Maybe growth slows down a bit. Perhaps a
+sector breaks or the refinancing window
+
+464
+00:08:40,510 --> 00:08:40,520
+sector breaks or the refinancing window
+ 
+
+465
+00:08:40,520 --> 00:08:42,070
+sector breaks or the refinancing window
+begins to close. You could have a
+
+466
+00:08:42,070 --> 00:08:42,080
+begins to close. You could have a
+ 
+
+467
+00:08:42,080 --> 00:08:43,830
+begins to close. You could have a
+borrower that reveals fraud, a
+
+468
+00:08:43,830 --> 00:08:43,840
+borrower that reveals fraud, a
+ 
+
+469
+00:08:43,840 --> 00:08:46,150
+borrower that reveals fraud, a
+cockroach. Maybe defaults creep a little
+
+470
+00:08:46,150 --> 00:08:46,160
+cockroach. Maybe defaults creep a little
+ 
+
+471
+00:08:46,160 --> 00:08:48,390
+cockroach. Maybe defaults creep a little
+bit higher. But, overall, investors
+
+472
+00:08:48,390 --> 00:08:48,400
+bit higher. But, overall, investors
+ 
+
+473
+00:08:48,400 --> 00:08:51,750
+bit higher. But, overall, investors
+start asking questions, especially about
+
+474
+00:08:51,750 --> 00:08:51,760
+start asking questions, especially about
+ 
+
+475
+00:08:51,760 --> 00:08:53,350
+start asking questions, especially about
+valuations.
+
+476
+00:08:53,350 --> 00:08:53,360
+valuations.
+ 
+
+477
+00:08:53,360 --> 00:08:54,550
+valuations.
+Now, at first, everyone says the
+
+478
+00:08:54,550 --> 00:08:54,560
+Now, at first, everyone says the
+ 
+
+479
+00:08:54,560 --> 00:08:56,950
+Now, at first, everyone says the
+problems are isolated. One bad borrower,
+
+480
+00:08:56,950 --> 00:08:56,960
+problems are isolated. One bad borrower,
+ 
+
+481
+00:08:56,960 --> 00:08:58,950
+problems are isolated. One bad borrower,
+a weak sector, just a single aggressive
+
+482
+00:08:58,950 --> 00:08:58,960
+a weak sector, just a single aggressive
+ 
+
+483
+00:08:58,960 --> 00:09:01,390
+a weak sector, just a single aggressive
+fund, bad apple in the bunch. But, the
+
+484
+00:09:01,390 --> 00:09:01,400
+fund, bad apple in the bunch. But, the
+ 
+
+485
+00:09:01,400 --> 00:09:03,070
+fund, bad apple in the bunch. But, the
+point of a credit cycle is that the same
+
+486
+00:09:03,070 --> 00:09:03,080
+point of a credit cycle is that the same
+ 
+
+487
+00:09:03,080 --> 00:09:05,150
+point of a credit cycle is that the same
+assumptions were often used across many
+
+488
+00:09:05,150 --> 00:09:05,160
+assumptions were often used across many
+ 
+
+489
+00:09:05,160 --> 00:09:08,390
+assumptions were often used across many
+deals, especially in that third excess
+
+490
+00:09:08,390 --> 00:09:08,400
+deals, especially in that third excess
+ 
+
+491
+00:09:08,400 --> 00:09:11,550
+deals, especially in that third excess
+stage. So, the problem spreads, not
+
+492
+00:09:11,550 --> 00:09:11,560
+stage. So, the problem spreads, not
+ 
+
+493
+00:09:11,560 --> 00:09:13,110
+stage. So, the problem spreads, not
+because every loan's identical, but
+
+494
+00:09:13,110 --> 00:09:13,120
+because every loan's identical, but
+ 
+
+495
+00:09:13,120 --> 00:09:14,990
+because every loan's identical, but
+because everyone was relying on the same
+
+496
+00:09:14,990 --> 00:09:15,000
+because everyone was relying on the same
+ 
+
+497
+00:09:15,000 --> 00:09:17,670
+because everyone was relying on the same
+conditions. The herd does what the herd
+
+498
+00:09:17,670 --> 00:09:17,680
+conditions. The herd does what the herd
+ 
+
+499
+00:09:17,680 --> 00:09:20,150
+conditions. The herd does what the herd
+is doing. And once enough investors see
+
+500
+00:09:20,150 --> 00:09:20,160
+is doing. And once enough investors see
+ 
+
+501
+00:09:20,160 --> 00:09:22,350
+is doing. And once enough investors see
+through the spin in the narratives,
+
+502
+00:09:22,350 --> 00:09:22,360
+through the spin in the narratives,
+ 
+
+503
+00:09:22,360 --> 00:09:24,829
+through the spin in the narratives,
+through the advertising genius of Wall
+
+504
+00:09:24,829 --> 00:09:24,839
+through the advertising genius of Wall
+ 
+
+505
+00:09:24,839 --> 00:09:26,390
+through the advertising genius of Wall
+Street, when they begin to realize
+
+506
+00:09:26,390 --> 00:09:26,400
+Street, when they begin to realize
+ 
+
+507
+00:09:26,400 --> 00:09:27,870
+Street, when they begin to realize
+everything that they thought they knew,
+
+508
+00:09:27,870 --> 00:09:27,880
+everything that they thought they knew,
+ 
+
+509
+00:09:27,880 --> 00:09:30,470
+everything that they thought they knew,
+they don't actually know, everything
+
+510
+00:09:30,470 --> 00:09:30,480
+they don't actually know, everything
+ 
+
+511
+00:09:30,480 --> 00:09:32,790
+they don't actually know, everything
+starts to reverse or what we call stage
+
+512
+00:09:32,790 --> 00:09:32,800
+starts to reverse or what we call stage
+ 
+
+513
+00:09:32,800 --> 00:09:35,470
+starts to reverse or what we call stage
+one of the downside, where the error is
+
+514
+00:09:35,470 --> 00:09:35,480
+one of the downside, where the error is
+ 
+
+515
+00:09:35,480 --> 00:09:38,390
+one of the downside, where the error is
+revealed and investors finally begin to
+
+516
+00:09:38,390 --> 00:09:38,400
+revealed and investors finally begin to
+ 
+
+517
+00:09:38,400 --> 00:09:41,070
+revealed and investors finally begin to
+act on it. Money flows out for the first
+
+518
+00:09:41,070 --> 00:09:41,080
+act on it. Money flows out for the first
+ 
+
+519
+00:09:41,080 --> 00:09:42,750
+act on it. Money flows out for the first
+time and if it keeps flowing out and
+
+520
+00:09:42,750 --> 00:09:42,760
+time and if it keeps flowing out and
+ 
+
+521
+00:09:42,760 --> 00:09:44,990
+time and if it keeps flowing out and
+then spreads to other investors, that
+
+522
+00:09:44,990 --> 00:09:45,000
+then spreads to other investors, that
+ 
+
+523
+00:09:45,000 --> 00:09:46,790
+then spreads to other investors, that
+brings us into stage two of the
+
+524
+00:09:46,790 --> 00:09:46,800
+brings us into stage two of the
+ 
+
+525
+00:09:46,800 --> 00:09:48,670
+brings us into stage two of the
+downside. Not enough inflows that are
+
+526
+00:09:48,670 --> 00:09:48,680
+downside. Not enough inflows that are
+ 
+
+527
+00:09:48,680 --> 00:09:50,750
+downside. Not enough inflows that are
+there to balance out the outflows,
+
+528
+00:09:50,750 --> 00:09:50,760
+there to balance out the outflows,
+ 
+
+529
+00:09:50,760 --> 00:09:53,510
+there to balance out the outflows,
+therefore we start to see more and more
+
+530
+00:09:53,510 --> 00:09:53,520
+therefore we start to see more and more
+ 
+
+531
+00:09:53,520 --> 00:09:55,350
+therefore we start to see more and more
+selling of assets. And as that selling
+
+532
+00:09:55,350 --> 00:09:55,360
+selling of assets. And as that selling
+ 
+
+533
+00:09:55,360 --> 00:09:58,430
+selling of assets. And as that selling
+spreads, it can go too far and thus we
+
+534
+00:09:58,430 --> 00:09:58,440
+spreads, it can go too far and thus we
+ 
+
+535
+00:09:58,440 --> 00:10:01,750
+spreads, it can go too far and thus we
+get into stage three of the downside.
+
+536
+00:10:01,750 --> 00:10:01,760
+get into stage three of the downside.
+ 
+
+537
+00:10:01,760 --> 00:10:03,190
+get into stage three of the downside.
+Now credit becomes harder to get,
+
+538
+00:10:03,190 --> 00:10:03,200
+Now credit becomes harder to get,
+ 
+
+539
+00:10:03,200 --> 00:10:05,310
+Now credit becomes harder to get,
+lenders are pulling back, borrowers they
+
+540
+00:10:05,310 --> 00:10:05,320
+lenders are pulling back, borrowers they
+ 
+
+541
+00:10:05,320 --> 00:10:07,510
+lenders are pulling back, borrowers they
+can't refinance, more companies begin to
+
+542
+00:10:07,510 --> 00:10:07,520
+can't refinance, more companies begin to
+ 
+
+543
+00:10:07,520 --> 00:10:09,990
+can't refinance, more companies begin to
+default, funds mark down their assets
+
+544
+00:10:09,990 --> 00:10:10,000
+default, funds mark down their assets
+ 
+
+545
+00:10:10,000 --> 00:10:12,430
+default, funds mark down their assets
+because of all the selling. Investors
+
+546
+00:10:12,430 --> 00:10:12,440
+because of all the selling. Investors
+ 
+
+547
+00:10:12,440 --> 00:10:14,470
+because of all the selling. Investors
+redeem where they can, banks reduce
+
+548
+00:10:14,470 --> 00:10:14,480
+redeem where they can, banks reduce
+ 
+
+549
+00:10:14,480 --> 00:10:15,990
+redeem where they can, banks reduce
+their warehouse lines, insurance
+
+550
+00:10:15,990 --> 00:10:16,000
+their warehouse lines, insurance
+ 
+
+551
+00:10:16,000 --> 00:10:18,310
+their warehouse lines, insurance
+companies move up in credit quality,
+
+552
+00:10:18,310 --> 00:10:18,320
+companies move up in credit quality,
+ 
+
+553
+00:10:18,320 --> 00:10:19,710
+companies move up in credit quality,
+everybody suddenly cares about
+
+554
+00:10:19,710 --> 00:10:19,720
+everybody suddenly cares about
+ 
+
+555
+00:10:19,720 --> 00:10:21,950
+everybody suddenly cares about
+protections that they ignored during the
+
+556
+00:10:21,950 --> 00:10:21,960
+protections that they ignored during the
+ 
+
+557
+00:10:21,960 --> 00:10:25,110
+protections that they ignored during the
+boom. And finally, after enough either
+
+558
+00:10:25,110 --> 00:10:25,120
+boom. And finally, after enough either
+ 
+
+559
+00:10:25,120 --> 00:10:27,870
+boom. And finally, after enough either
+paper losses or money losses,
+
+560
+00:10:27,870 --> 00:10:27,880
+paper losses or money losses,
+ 
+
+561
+00:10:27,880 --> 00:10:29,990
+paper losses or money losses,
+it go back to repair again. The cycle
+
+562
+00:10:29,990 --> 00:10:30,000
+it go back to repair again. The cycle
+ 
+
+563
+00:10:30,000 --> 00:10:32,910
+it go back to repair again. The cycle
+starts over. The tragedy though is that
+
+564
+00:10:32,910 --> 00:10:32,920
+starts over. The tragedy though is that
+ 
+
+565
+00:10:32,920 --> 00:10:34,550
+starts over. The tragedy though is that
+each cycle feels unique while it's
+
+566
+00:10:34,550 --> 00:10:34,560
+each cycle feels unique while it's
+ 
+
+567
+00:10:34,560 --> 00:10:36,750
+each cycle feels unique while it's
+happening, but the psychology is almost
+
+568
+00:10:36,750 --> 00:10:36,760
+happening, but the psychology is almost
+ 
+
+569
+00:10:36,760 --> 00:10:38,830
+happening, but the psychology is almost
+always the same. While the amount of
+
+570
+00:10:38,830 --> 00:10:38,840
+always the same. While the amount of
+ 
+
+571
+00:10:38,840 --> 00:10:41,030
+always the same. While the amount of
+time in each one will be different, the
+
+572
+00:10:41,030 --> 00:10:41,040
+time in each one will be different, the
+ 
+
+573
+00:10:41,040 --> 00:10:43,670
+time in each one will be different, the
+pattern repeats.
+
+574
+00:10:43,670 --> 00:10:43,680
+pattern repeats.
+ 
+
+575
+00:10:43,680 --> 00:10:46,230
+pattern repeats.
+But in that turn, there's a whole lot of
+
+576
+00:10:46,230 --> 00:10:46,240
+But in that turn, there's a whole lot of
+ 
+
+577
+00:10:46,240 --> 00:10:48,470
+But in that turn, there's a whole lot of
+misconceptions, including the role of
+
+578
+00:10:48,470 --> 00:10:48,480
+misconceptions, including the role of
+ 
+
+579
+00:10:48,480 --> 00:10:50,870
+misconceptions, including the role of
+interest rates and even Fed policy. It's
+
+580
+00:10:50,870 --> 00:10:50,880
+interest rates and even Fed policy. It's
+ 
+
+581
+00:10:50,880 --> 00:10:53,070
+interest rates and even Fed policy. It's
+not monetary policy, it's interest rate
+
+582
+00:10:53,070 --> 00:10:53,080
+not monetary policy, it's interest rate
+ 
+
+583
+00:10:53,080 --> 00:10:54,870
+not monetary policy, it's interest rate
+policy. Because what you're taught in
+
+584
+00:10:54,870 --> 00:10:54,880
+policy. Because what you're taught in
+ 
+
+585
+00:10:54,880 --> 00:10:57,190
+policy. Because what you're taught in
+the textbook is far too simplistic. The
+
+586
+00:10:57,190 --> 00:10:57,200
+the textbook is far too simplistic. The
+ 
+
+587
+00:10:57,200 --> 00:10:59,510
+the textbook is far too simplistic. The
+idea that rate cuts and lower rates feed
+
+588
+00:10:59,510 --> 00:10:59,520
+idea that rate cuts and lower rates feed
+ 
+
+589
+00:10:59,520 --> 00:11:02,110
+idea that rate cuts and lower rates feed
+the boom and therefore higher rates end
+
+590
+00:11:02,110 --> 00:11:02,120
+the boom and therefore higher rates end
+ 
+
+591
+00:11:02,120 --> 00:11:04,390
+the boom and therefore higher rates end
+it. There is a little bit of truth to
+
+592
+00:11:04,390 --> 00:11:04,400
+it. There is a little bit of truth to
+ 
+
+593
+00:11:04,400 --> 00:11:06,710
+it. There is a little bit of truth to
+both sides of that, but it's far more
+
+594
+00:11:06,710 --> 00:11:06,720
+both sides of that, but it's far more
+ 
+
+595
+00:11:06,720 --> 00:11:08,470
+both sides of that, but it's far more
+nuanced than you've ever been led to
+
+596
+00:11:08,470 --> 00:11:08,480
+nuanced than you've ever been led to
+ 
+
+597
+00:11:08,480 --> 00:11:09,950
+nuanced than you've ever been led to
+believe.
+
+598
+00:11:09,950 --> 00:11:09,960
+believe.
+ 
+
+599
+00:11:09,960 --> 00:11:11,670
+believe.
+Credit booms can keep going even after
+
+600
+00:11:11,670 --> 00:11:11,680
+Credit booms can keep going even after
+ 
+
+601
+00:11:11,680 --> 00:11:14,430
+Credit booms can keep going even after
+the Fed raises rates. The pre-2008 cycle
+
+602
+00:11:14,430 --> 00:11:14,440
+the Fed raises rates. The pre-2008 cycle
+ 
+
+603
+00:11:14,440 --> 00:11:16,790
+the Fed raises rates. The pre-2008 cycle
+is the classic example. The Federal
+
+604
+00:11:16,790 --> 00:11:16,800
+is the classic example. The Federal
+ 
+
+605
+00:11:16,800 --> 00:11:19,070
+is the classic example. The Federal
+Reserve began hiking in 2004, but some
+
+606
+00:11:19,070 --> 00:11:19,080
+Reserve began hiking in 2004, but some
+ 
+
+607
+00:11:19,080 --> 00:11:20,630
+Reserve began hiking in 2004, but some
+of the worst subprime mortgage lending
+
+608
+00:11:20,630 --> 00:11:20,640
+of the worst subprime mortgage lending
+ 
+
+609
+00:11:20,640 --> 00:11:23,430
+of the worst subprime mortgage lending
+excesses, the real excessive stage,
+
+610
+00:11:23,430 --> 00:11:23,440
+excesses, the real excessive stage,
+ 
+
+611
+00:11:23,440 --> 00:11:27,390
+excesses, the real excessive stage,
+happened in 2005 and 2006 while policy
+
+612
+00:11:27,390 --> 00:11:27,400
+happened in 2005 and 2006 while policy
+ 
+
+613
+00:11:27,400 --> 00:11:29,910
+happened in 2005 and 2006 while policy
+rates were rising. Why?
+
+614
+00:11:29,910 --> 00:11:29,920
+rates were rising. Why?
+ 
+
+615
+00:11:29,920 --> 00:11:31,710
+rates were rising. Why?
+Because the credit machine was not being
+
+616
+00:11:31,710 --> 00:11:31,720
+Because the credit machine was not being
+ 
+
+617
+00:11:31,720 --> 00:11:33,870
+Because the credit machine was not being
+driven by the Fed's overnight rate. It
+
+618
+00:11:33,870 --> 00:11:33,880
+driven by the Fed's overnight rate. It
+ 
+
+619
+00:11:33,880 --> 00:11:35,750
+driven by the Fed's overnight rate. It
+was being driven by securitization,
+
+620
+00:11:35,750 --> 00:11:35,760
+was being driven by securitization,
+ 
+
+621
+00:11:35,760 --> 00:11:38,590
+was being driven by securitization,
+global demand for yield, rating agencies
+
+622
+00:11:38,590 --> 00:11:38,600
+global demand for yield, rating agencies
+ 
+
+623
+00:11:38,600 --> 00:11:40,750
+global demand for yield, rating agencies
+models, mortgage originators, warehouse
+
+624
+00:11:40,750 --> 00:11:40,760
+models, mortgage originators, warehouse
+ 
+
+625
+00:11:40,760 --> 00:11:42,270
+models, mortgage originators, warehouse
+funding, and collateral prices, and the
+
+626
+00:11:42,270 --> 00:11:42,280
+funding, and collateral prices, and the
+ 
+
+627
+00:11:42,280 --> 00:11:44,870
+funding, and collateral prices, and the
+belief that housing, as Ben Bernanke
+
+628
+00:11:44,870 --> 00:11:44,880
+belief that housing, as Ben Bernanke
+ 
+
+629
+00:11:44,880 --> 00:11:47,950
+belief that housing, as Ben Bernanke
+said in 2005, would never fall on a
+
+630
+00:11:47,950 --> 00:11:47,960
+said in 2005, would never fall on a
+ 
+
+631
+00:11:47,960 --> 00:11:50,470
+said in 2005, would never fall on a
+national basis. Rising short-term rates
+
+632
+00:11:50,470 --> 00:11:50,480
+national basis. Rising short-term rates
+ 
+
+633
+00:11:50,480 --> 00:11:53,350
+national basis. Rising short-term rates
+did not kill the boom. In some ways,
+
+634
+00:11:53,350 --> 00:11:53,360
+did not kill the boom. In some ways,
+ 
+
+635
+00:11:53,360 --> 00:11:55,750
+did not kill the boom. In some ways,
+they helped expose and even intensify
+
+636
+00:11:55,750 --> 00:11:55,760
+they helped expose and even intensify
+ 
+
+637
+00:11:55,760 --> 00:11:57,550
+they helped expose and even intensify
+the weakness. Adjustable rate borrowers
+
+638
+00:11:57,550 --> 00:11:57,560
+the weakness. Adjustable rate borrowers
+ 
+
+639
+00:11:57,560 --> 00:11:59,750
+the weakness. Adjustable rate borrowers
+became even more stressed. Lenders had
+
+640
+00:11:59,750 --> 00:11:59,760
+became even more stressed. Lenders had
+ 
+
+641
+00:11:59,760 --> 00:12:01,310
+became even more stressed. Lenders had
+to stretch further to keep volumes
+
+642
+00:12:01,310 --> 00:12:01,320
+to stretch further to keep volumes
+ 
+
+643
+00:12:01,320 --> 00:12:04,270
+to stretch further to keep volumes
+going. Investors reached for yield in
+
+644
+00:12:04,270 --> 00:12:04,280
+going. Investors reached for yield in
+ 
+
+645
+00:12:04,280 --> 00:12:05,910
+going. Investors reached for yield in
+structured products that still offered
+
+646
+00:12:05,910 --> 00:12:05,920
+structured products that still offered
+ 
+
+647
+00:12:05,920 --> 00:12:07,670
+structured products that still offered
+some spread opportunity. The machine
+
+648
+00:12:07,670 --> 00:12:07,680
+some spread opportunity. The machine
+ 
+
+649
+00:12:07,680 --> 00:12:10,070
+some spread opportunity. The machine
+became even more fragile as it kept
+
+650
+00:12:10,070 --> 00:12:10,080
+became even more fragile as it kept
+ 
+
+651
+00:12:10,080 --> 00:12:13,030
+became even more fragile as it kept
+expanding. As the expansion accelerated
+
+652
+00:12:13,030 --> 00:12:13,040
+expanding. As the expansion accelerated
+ 
+
+653
+00:12:13,040 --> 00:12:16,230
+expanding. As the expansion accelerated
+into the full-blown excess stage. And
+
+654
+00:12:16,230 --> 00:12:16,240
+into the full-blown excess stage. And
+ 
+
+655
+00:12:16,240 --> 00:12:18,710
+into the full-blown excess stage. And
+that lesson matters today. The Fed
+
+656
+00:12:18,710 --> 00:12:18,720
+that lesson matters today. The Fed
+ 
+
+657
+00:12:18,720 --> 00:12:20,430
+that lesson matters today. The Fed
+raised rates aggressively in '22 and
+
+658
+00:12:20,430 --> 00:12:20,440
+raised rates aggressively in '22 and
+ 
+
+659
+00:12:20,440 --> 00:12:23,030
+raised rates aggressively in '22 and
+'23. Many people expected a quick credit
+
+660
+00:12:23,030 --> 00:12:23,040
+'23. Many people expected a quick credit
+ 
+
+661
+00:12:23,040 --> 00:12:25,670
+'23. Many people expected a quick credit
+bust, but instead, the private credit
+
+662
+00:12:25,670 --> 00:12:25,680
+bust, but instead, the private credit
+ 
+
+663
+00:12:25,680 --> 00:12:28,030
+bust, but instead, the private credit
+boom continued for a while. Funds kept
+
+664
+00:12:28,030 --> 00:12:28,040
+boom continued for a while. Funds kept
+ 
+
+665
+00:12:28,040 --> 00:12:30,390
+boom continued for a while. Funds kept
+raising money. Borrowers kept extending
+
+666
+00:12:30,390 --> 00:12:30,400
+raising money. Borrowers kept extending
+ 
+
+667
+00:12:30,400 --> 00:12:32,990
+raising money. Borrowers kept extending
+maturities. Valuations often stayed
+
+668
+00:12:32,990 --> 00:12:33,000
+maturities. Valuations often stayed
+ 
+
+669
+00:12:33,000 --> 00:12:35,710
+maturities. Valuations often stayed
+surprisingly stable. It wasn't until the
+
+670
+00:12:35,710 --> 00:12:35,720
+surprisingly stable. It wasn't until the
+ 
+
+671
+00:12:35,720 --> 00:12:37,430
+surprisingly stable. It wasn't until the
+cracks in the economy finally showed up
+
+672
+00:12:37,430 --> 00:12:37,440
+cracks in the economy finally showed up
+ 
+
+673
+00:12:37,440 --> 00:12:40,350
+cracks in the economy finally showed up
+last year with job losses that the turn
+
+674
+00:12:40,350 --> 00:12:40,360
+last year with job losses that the turn
+ 
+
+675
+00:12:40,360 --> 00:12:43,350
+last year with job losses that the turn
+stage finally started to materialize.
+
+676
+00:12:43,350 --> 00:12:43,360
+stage finally started to materialize.
+ 
+
+677
+00:12:43,360 --> 00:12:45,750
+stage finally started to materialize.
+Refinancing became harder. Private
+
+678
+00:12:45,750 --> 00:12:45,760
+Refinancing became harder. Private
+ 
+
+679
+00:12:45,760 --> 00:12:47,950
+Refinancing became harder. Private
+equity exits started to slow. Software
+
+680
+00:12:47,950 --> 00:12:47,960
+equity exits started to slow. Software
+ 
+
+681
+00:12:47,960 --> 00:12:49,350
+equity exits started to slow. Software
+and other growth sectors came under
+
+682
+00:12:49,350 --> 00:12:49,360
+and other growth sectors came under
+ 
+
+683
+00:12:49,360 --> 00:12:51,390
+and other growth sectors came under
+pressure. And lenders increasingly had
+
+684
+00:12:51,390 --> 00:12:51,400
+pressure. And lenders increasingly had
+ 
+
+685
+00:12:51,400 --> 00:12:54,030
+pressure. And lenders increasingly had
+to choose between recognizing stress now
+
+686
+00:12:54,030 --> 00:12:54,040
+to choose between recognizing stress now
+ 
+
+687
+00:12:54,040 --> 00:12:56,430
+to choose between recognizing stress now
+or modifying loans to delay the problem.
+
+688
+00:12:56,430 --> 00:12:56,440
+or modifying loans to delay the problem.
+ 
+
+689
+00:12:56,440 --> 00:12:58,030
+or modifying loans to delay the problem.
+And that delay,
+
+690
+00:12:58,030 --> 00:12:58,040
+And that delay,
+ 
+
+691
+00:12:58,040 --> 00:12:59,990
+And that delay,
+it's normal. Credit cycles don't turn
+
+692
+00:12:59,990 --> 00:13:00,000
+it's normal. Credit cycles don't turn
+ 
+
+693
+00:13:00,000 --> 00:13:01,710
+it's normal. Credit cycles don't turn
+like what light switches. They turn like
+
+694
+00:13:01,710 --> 00:13:01,720
+like what light switches. They turn like
+ 
+
+695
+00:13:01,720 --> 00:13:04,190
+like what light switches. They turn like
+ships, slowly at first, then all at
+
+696
+00:13:04,190 --> 00:13:04,200
+ships, slowly at first, then all at
+ 
+
+697
+00:13:04,200 --> 00:13:06,590
+ships, slowly at first, then all at
+once, especially if we get to stage
+
+698
+00:13:06,590 --> 00:13:06,600
+once, especially if we get to stage
+ 
+
+699
+00:13:06,600 --> 00:13:09,110
+once, especially if we get to stage
+three when the funding disappears.
+
+700
+00:13:09,110 --> 00:13:09,120
+three when the funding disappears.
+ 
+
+701
+00:13:09,120 --> 00:13:11,270
+three when the funding disappears.
+Because there's so much ambiguity,
+
+702
+00:13:11,270 --> 00:13:11,280
+Because there's so much ambiguity,
+ 
+
+703
+00:13:11,280 --> 00:13:13,230
+Because there's so much ambiguity,
+uncertainty, hidden information that
+
+704
+00:13:13,230 --> 00:13:13,240
+uncertainty, hidden information that
+ 
+
+705
+00:13:13,240 --> 00:13:14,670
+uncertainty, hidden information that
+goes along with the credit cycle, both
+
+706
+00:13:14,670 --> 00:13:14,680
+goes along with the credit cycle, both
+ 
+
+707
+00:13:14,680 --> 00:13:16,230
+goes along with the credit cycle, both
+sides of it, the upswing as well as the
+
+708
+00:13:16,230 --> 00:13:16,240
+sides of it, the upswing as well as the
+ 
+
+709
+00:13:16,240 --> 00:13:19,230
+sides of it, the upswing as well as the
+downswing, investors often miss the
+
+710
+00:13:19,230 --> 00:13:19,240
+downswing, investors often miss the
+ 
+
+711
+00:13:19,240 --> 00:13:21,630
+downswing, investors often miss the
+signals. They miss the turning points.
+
+712
+00:13:21,630 --> 00:13:21,640
+signals. They miss the turning points.
+ 
+
+713
+00:13:21,640 --> 00:13:24,030
+signals. They miss the turning points.
+They miss the cycle shifting through its
+
+714
+00:13:24,030 --> 00:13:24,040
+They miss the cycle shifting through its
+ 
+
+715
+00:13:24,040 --> 00:13:25,870
+They miss the cycle shifting through its
+various stages. They don't know where to
+
+716
+00:13:25,870 --> 00:13:25,880
+various stages. They don't know where to
+ 
+
+717
+00:13:25,880 --> 00:13:28,470
+various stages. They don't know where to
+turn to find information. We aim to
+
+718
+00:13:28,470 --> 00:13:28,480
+turn to find information. We aim to
+ 
+
+719
+00:13:28,480 --> 00:13:32,710
+turn to find information. We aim to
+correct that. Sunday, June 28th, 2026
+
+720
+00:13:32,710 --> 00:13:32,720
+correct that. Sunday, June 28th, 2026
+ 
+
+721
+00:13:32,720 --> 00:13:34,430
+correct that. Sunday, June 28th, 2026
+webinar, Eurodollar University. There's
+
+722
+00:13:34,430 --> 00:13:34,440
+webinar, Eurodollar University. There's
+ 
+
+723
+00:13:34,440 --> 00:13:36,550
+webinar, Eurodollar University. There's
+a link in the description to sign up for
+
+724
+00:13:36,550 --> 00:13:36,560
+a link in the description to sign up for
+ 
+
+725
+00:13:36,560 --> 00:13:38,310
+a link in the description to sign up for
+it. We're going to talk about the how to
+
+726
+00:13:38,310 --> 00:13:38,320
+it. We're going to talk about the how to
+ 
+
+727
+00:13:38,320 --> 00:13:41,670
+it. We're going to talk about the how to
+use Eurodollar signals curve information
+
+728
+00:13:41,670 --> 00:13:41,680
+use Eurodollar signals curve information
+ 
+
+729
+00:13:41,680 --> 00:13:43,350
+use Eurodollar signals curve information
+so that you don't miss these various
+
+730
+00:13:43,350 --> 00:13:43,360
+so that you don't miss these various
+ 
+
+731
+00:13:43,360 --> 00:13:44,870
+so that you don't miss these various
+turns to understand and be able to
+
+732
+00:13:44,870 --> 00:13:44,880
+turns to understand and be able to
+ 
+
+733
+00:13:44,880 --> 00:13:46,670
+turns to understand and be able to
+decipher what these signals are telling
+
+734
+00:13:46,670 --> 00:13:46,680
+decipher what these signals are telling
+ 
+
+735
+00:13:46,680 --> 00:13:48,710
+decipher what these signals are telling
+you so that you can make smarter
+
+736
+00:13:48,710 --> 00:13:48,720
+you so that you can make smarter
+ 
+
+737
+00:13:48,720 --> 00:13:52,350
+you so that you can make smarter
+decisions as investors, as observers, as
+
+738
+00:13:52,350 --> 00:13:52,360
+decisions as investors, as observers, as
+ 
+
+739
+00:13:52,360 --> 00:13:54,390
+decisions as investors, as observers, as
+analysts. Why is it the smart investors
+
+740
+00:13:54,390 --> 00:13:54,400
+analysts. Why is it the smart investors
+ 
+
+741
+00:13:54,400 --> 00:13:56,110
+analysts. Why is it the smart investors
+keep missing every major economic
+
+742
+00:13:56,110 --> 00:13:56,120
+keep missing every major economic
+ 
+
+743
+00:13:56,120 --> 00:13:57,350
+keep missing every major economic
+turning point? It isn't that they're
+
+744
+00:13:57,350 --> 00:13:57,360
+turning point? It isn't that they're
+ 
+
+745
+00:13:57,360 --> 00:14:00,070
+turning point? It isn't that they're
+buying the wrong assets. They're using a
+
+746
+00:14:00,070 --> 00:14:00,080
+buying the wrong assets. They're using a
+ 
+
+747
+00:14:00,080 --> 00:14:02,790
+buying the wrong assets. They're using a
+broken map of the system. And getting it
+
+748
+00:14:02,790 --> 00:14:02,800
+broken map of the system. And getting it
+ 
+
+749
+00:14:02,800 --> 00:14:05,630
+broken map of the system. And getting it
+wrong leads to bad decisions. More
+
+750
+00:14:05,630 --> 00:14:05,640
+wrong leads to bad decisions. More
+ 
+
+751
+00:14:05,640 --> 00:14:08,350
+wrong leads to bad decisions. More
+information, better ability to decipher
+
+752
+00:14:08,350 --> 00:14:08,360
+information, better ability to decipher
+ 
+
+753
+00:14:08,360 --> 00:14:10,990
+information, better ability to decipher
+the information, the better you are in
+
+754
+00:14:10,990 --> 00:14:11,000
+the information, the better you are in
+ 
+
+755
+00:14:11,000 --> 00:14:12,270
+the information, the better you are in
+whatever it is you're trying to do,
+
+756
+00:14:12,270 --> 00:14:12,280
+whatever it is you're trying to do,
+ 
+
+757
+00:14:12,280 --> 00:14:14,150
+whatever it is you're trying to do,
+whether it be portfolio management,
+
+758
+00:14:14,150 --> 00:14:14,160
+whether it be portfolio management,
+ 
+
+759
+00:14:14,160 --> 00:14:17,670
+whether it be portfolio management,
+do-it-yourself investing, or just major
+
+760
+00:14:17,670 --> 00:14:17,680
+do-it-yourself investing, or just major
+ 
+
+761
+00:14:17,680 --> 00:14:20,630
+do-it-yourself investing, or just major
+macroeconomic analysis. Again, join us
+
+762
+00:14:20,630 --> 00:14:20,640
+macroeconomic analysis. Again, join us
+ 
+
+763
+00:14:20,640 --> 00:14:22,750
+macroeconomic analysis. Again, join us
+June 28th. Link in the description to
+
+764
+00:14:22,750 --> 00:14:22,760
+June 28th. Link in the description to
+ 
+
+765
+00:14:22,760 --> 00:14:25,710
+June 28th. Link in the description to
+sign up for our latest webinar. Hope to
+
+766
+00:14:25,710 --> 00:14:25,720
+sign up for our latest webinar. Hope to
+ 
+
+767
+00:14:25,720 --> 00:14:27,030
+sign up for our latest webinar. Hope to
+see you there.
+
+768
+00:14:27,030 --> 00:14:27,040
+see you there.
+ 
+
+769
+00:14:27,040 --> 00:14:29,190
+see you there.
+Now, every credit cycle has a center of
+
+770
+00:14:29,190 --> 00:14:29,200
+Now, every credit cycle has a center of
+ 
+
+771
+00:14:29,200 --> 00:14:32,710
+Now, every credit cycle has a center of
+gravity. In the pre-2008 one, that was
+
+772
+00:14:32,710 --> 00:14:32,720
+gravity. In the pre-2008 one, that was
+ 
+
+773
+00:14:32,720 --> 00:14:34,710
+gravity. In the pre-2008 one, that was
+subprime mortgages. Mortgages overall,
+
+774
+00:14:34,710 --> 00:14:34,720
+subprime mortgages. Mortgages overall,
+ 
+
+775
+00:14:34,720 --> 00:14:36,950
+subprime mortgages. Mortgages overall,
+but subprime mortgages especially among
+
+776
+00:14:36,950 --> 00:14:36,960
+but subprime mortgages especially among
+ 
+
+777
+00:14:36,960 --> 00:14:38,990
+but subprime mortgages especially among
+regulated banks, and particularly
+
+778
+00:14:38,990 --> 00:14:39,000
+regulated banks, and particularly
+ 
+
+779
+00:14:39,000 --> 00:14:40,350
+regulated banks, and particularly
+regulated banks that were not
+
+780
+00:14:40,350 --> 00:14:40,360
+regulated banks that were not
+ 
+
+781
+00:14:40,360 --> 00:14:41,710
+regulated banks that were not
+necessarily located in the United
+
+782
+00:14:41,710 --> 00:14:41,720
+necessarily located in the United
+ 
+
+783
+00:14:41,720 --> 00:14:44,710
+necessarily located in the United
+States. In fact, offshore was a key
+
+784
+00:14:44,710 --> 00:14:44,720
+States. In fact, offshore was a key
+ 
+
+785
+00:14:44,720 --> 00:14:47,110
+States. In fact, offshore was a key
+factor in that cycle.
+
+786
+00:14:47,110 --> 00:14:47,120
+factor in that cycle.
+ 
+
+787
+00:14:47,120 --> 00:14:48,870
+factor in that cycle.
+This time around though,
+
+788
+00:14:48,870 --> 00:14:48,880
+This time around though,
+ 
+
+789
+00:14:48,880 --> 00:14:50,910
+This time around though,
+the key center is private credit issued
+
+790
+00:14:50,910 --> 00:14:50,920
+the key center is private credit issued
+ 
+
+791
+00:14:50,920 --> 00:14:52,670
+the key center is private credit issued
+by non-banks, or if you want to call
+
+792
+00:14:52,670 --> 00:14:52,680
+by non-banks, or if you want to call
+ 
+
+793
+00:14:52,680 --> 00:14:54,270
+by non-banks, or if you want to call
+them shadow banks, or what the Fed calls
+
+794
+00:14:54,270 --> 00:14:54,280
+them shadow banks, or what the Fed calls
+ 
+
+795
+00:14:54,280 --> 00:14:55,990
+them shadow banks, or what the Fed calls
+them, non-depository financial
+
+796
+00:14:55,990 --> 00:14:56,000
+them, non-depository financial
+ 
+
+797
+00:14:56,000 --> 00:14:58,230
+them, non-depository financial
+institutions. Private credit grew
+
+798
+00:14:58,230 --> 00:14:58,240
+institutions. Private credit grew
+ 
+
+799
+00:14:58,240 --> 00:14:59,829
+institutions. Private credit grew
+because it solved a problem that
+
+800
+00:14:59,829 --> 00:14:59,839
+because it solved a problem that
+ 
+
+801
+00:14:59,839 --> 00:15:02,910
+because it solved a problem that
+everyone had after 2008. Borrowers got
+
+802
+00:15:02,910 --> 00:15:02,920
+everyone had after 2008. Borrowers got
+ 
+
+803
+00:15:02,920 --> 00:15:04,470
+everyone had after 2008. Borrowers got
+money without going through banks or
+
+804
+00:15:04,470 --> 00:15:04,480
+money without going through banks or
+ 
+
+805
+00:15:04,480 --> 00:15:07,310
+money without going through banks or
+public markets. Private equity sponsors
+
+806
+00:15:07,310 --> 00:15:07,320
+public markets. Private equity sponsors
+ 
+
+807
+00:15:07,320 --> 00:15:09,310
+public markets. Private equity sponsors
+got financing for leveraged buyouts.
+
+808
+00:15:09,310 --> 00:15:09,320
+got financing for leveraged buyouts.
+ 
+
+809
+00:15:09,320 --> 00:15:10,829
+got financing for leveraged buyouts.
+Investors got higher yields than
+
+810
+00:15:10,829 --> 00:15:10,839
+Investors got higher yields than
+ 
+
+811
+00:15:10,839 --> 00:15:13,030
+Investors got higher yields than
+traditional bonds had offered. Asset
+
+812
+00:15:13,030 --> 00:15:13,040
+traditional bonds had offered. Asset
+ 
+
+813
+00:15:13,040 --> 00:15:14,910
+traditional bonds had offered. Asset
+managers got their fees, and banks, they
+
+814
+00:15:14,910 --> 00:15:14,920
+managers got their fees, and banks, they
+ 
+
+815
+00:15:14,920 --> 00:15:16,590
+managers got their fees, and banks, they
+still earned money by financing parts of
+
+816
+00:15:16,590 --> 00:15:16,600
+still earned money by financing parts of
+ 
+
+817
+00:15:16,600 --> 00:15:18,750
+still earned money by financing parts of
+the system without holding every loan
+
+818
+00:15:18,750 --> 00:15:18,760
+the system without holding every loan
+ 
+
+819
+00:15:18,760 --> 00:15:20,910
+the system without holding every loan
+directly. Insurance companies have been
+
+820
+00:15:20,910 --> 00:15:20,920
+directly. Insurance companies have been
+ 
+
+821
+00:15:20,920 --> 00:15:23,150
+directly. Insurance companies have been
+talking about they got spread to match
+
+822
+00:15:23,150 --> 00:15:23,160
+talking about they got spread to match
+ 
+
+823
+00:15:23,160 --> 00:15:25,470
+talking about they got spread to match
+their long-term liabilities. On the way
+
+824
+00:15:25,470 --> 00:15:25,480
+their long-term liabilities. On the way
+ 
+
+825
+00:15:25,480 --> 00:15:28,110
+their long-term liabilities. On the way
+up, it looks like a much better model.
+
+826
+00:15:28,110 --> 00:15:28,120
+up, it looks like a much better model.
+ 
+
+827
+00:15:28,120 --> 00:15:31,110
+up, it looks like a much better model.
+Everybody wins. Private credit managers
+
+828
+00:15:31,110 --> 00:15:31,120
+Everybody wins. Private credit managers
+ 
+
+829
+00:15:31,120 --> 00:15:32,390
+Everybody wins. Private credit managers
+argued they'd have a stronger
+
+830
+00:15:32,390 --> 00:15:32,400
+argued they'd have a stronger
+ 
+
+831
+00:15:32,400 --> 00:15:34,070
+argued they'd have a stronger
+relationship with borrowers, better
+
+832
+00:15:34,070 --> 00:15:34,080
+relationship with borrowers, better
+ 
+
+833
+00:15:34,080 --> 00:15:36,190
+relationship with borrowers, better
+covenants, more control, and less
+
+834
+00:15:36,190 --> 00:15:36,200
+covenants, more control, and less
+ 
+
+835
+00:15:36,200 --> 00:15:37,990
+covenants, more control, and less
+mark-to-market volatility than public
+
+836
+00:15:37,990 --> 00:15:38,000
+mark-to-market volatility than public
+ 
+
+837
+00:15:38,000 --> 00:15:40,430
+mark-to-market volatility than public
+debt markets had performed. And some of
+
+838
+00:15:40,430 --> 00:15:40,440
+debt markets had performed. And some of
+ 
+
+839
+00:15:40,440 --> 00:15:42,670
+debt markets had performed. And some of
+that may be true, but the weaknesses,
+
+840
+00:15:42,670 --> 00:15:42,680
+that may be true, but the weaknesses,
+ 
+
+841
+00:15:42,680 --> 00:15:44,390
+that may be true, but the weaknesses,
+they're becoming more and more obvious.
+
+842
+00:15:44,390 --> 00:15:44,400
+they're becoming more and more obvious.
+ 
+
+843
+00:15:44,400 --> 00:15:46,350
+they're becoming more and more obvious.
+The loans, they're illiquid. The
+
+844
+00:15:46,350 --> 00:15:46,360
+The loans, they're illiquid. The
+ 
+
+845
+00:15:46,360 --> 00:15:49,470
+The loans, they're illiquid. The
+valuations are mainly model-based. The
+
+846
+00:15:49,470 --> 00:15:49,480
+valuations are mainly model-based. The
+ 
+
+847
+00:15:49,480 --> 00:15:50,950
+valuations are mainly model-based. The
+funds may offer more liquidity to
+
+848
+00:15:50,950 --> 00:15:50,960
+funds may offer more liquidity to
+ 
+
+849
+00:15:50,960 --> 00:15:52,790
+funds may offer more liquidity to
+investors than the underlying assets can
+
+850
+00:15:52,790 --> 00:15:52,800
+investors than the underlying assets can
+ 
+
+851
+00:15:52,800 --> 00:15:54,550
+investors than the underlying assets can
+easily provide.
+
+852
+00:15:54,550 --> 00:15:54,560
+easily provide.
+ 
+
+853
+00:15:54,560 --> 00:15:56,150
+easily provide.
+Borrowers are often highly leveraged.
+
+854
+00:15:56,150 --> 00:15:56,160
+Borrowers are often highly leveraged.
+ 
+
+855
+00:15:56,160 --> 00:15:58,470
+Borrowers are often highly leveraged.
+Many loans, they're floating rate. And
+
+856
+00:15:58,470 --> 00:15:58,480
+Many loans, they're floating rate. And
+ 
+
+857
+00:15:58,480 --> 00:16:00,030
+Many loans, they're floating rate. And
+because the market grew so quickly, it
+
+858
+00:16:00,030 --> 00:16:00,040
+because the market grew so quickly, it
+ 
+
+859
+00:16:00,040 --> 00:16:02,150
+because the market grew so quickly, it
+was very hard to believe underwriting
+
+860
+00:16:02,150 --> 00:16:02,160
+was very hard to believe underwriting
+ 
+
+861
+00:16:02,160 --> 00:16:04,710
+was very hard to believe underwriting
+standards stayed as pristine as everyone
+
+862
+00:16:04,710 --> 00:16:04,720
+standards stayed as pristine as everyone
+ 
+
+863
+00:16:04,720 --> 00:16:06,310
+standards stayed as pristine as everyone
+claims. And that's why the recent
+
+864
+00:16:06,310 --> 00:16:06,320
+claims. And that's why the recent
+ 
+
+865
+00:16:06,320 --> 00:16:08,430
+claims. And that's why the recent
+headlines really matter. None of those
+
+866
+00:16:08,430 --> 00:16:08,440
+headlines really matter. None of those
+ 
+
+867
+00:16:08,440 --> 00:16:11,150
+headlines really matter. None of those
+by themselves prove a systemic crisis,
+
+868
+00:16:11,150 --> 00:16:11,160
+by themselves prove a systemic crisis,
+ 
+
+869
+00:16:11,160 --> 00:16:13,510
+by themselves prove a systemic crisis,
+but together, when you really put
+
+870
+00:16:13,510 --> 00:16:13,520
+but together, when you really put
+ 
+
+871
+00:16:13,520 --> 00:16:15,750
+but together, when you really put
+everything together, they suggest at the
+
+872
+00:16:15,750 --> 00:16:15,760
+everything together, they suggest at the
+ 
+
+873
+00:16:15,760 --> 00:16:17,750
+everything together, they suggest at the
+very least, you need to take seriously
+
+874
+00:16:17,750 --> 00:16:17,760
+very least, you need to take seriously
+ 
+
+875
+00:16:17,760 --> 00:16:20,710
+very least, you need to take seriously
+the possibility the entire credit cycle
+
+876
+00:16:20,710 --> 00:16:20,720
+the possibility the entire credit cycle
+ 
+
+877
+00:16:20,720 --> 00:16:22,950
+the possibility the entire credit cycle
+has shifted from where the center of
+
+878
+00:16:22,950 --> 00:16:22,960
+has shifted from where the center of
+ 
+
+879
+00:16:22,960 --> 00:16:25,190
+has shifted from where the center of
+gravity was. During the upswing,
+
+880
+00:16:25,190 --> 00:16:25,200
+gravity was. During the upswing,
+ 
+
+881
+00:16:25,200 --> 00:16:26,990
+gravity was. During the upswing,
+investors ask, "How do I get more
+
+882
+00:16:26,990 --> 00:16:27,000
+investors ask, "How do I get more
+ 
+
+883
+00:16:27,000 --> 00:16:29,350
+investors ask, "How do I get more
+exposure?" During the downside, as we're
+
+884
+00:16:29,350 --> 00:16:29,360
+exposure?" During the downside, as we're
+ 
+
+885
+00:16:29,360 --> 00:16:31,990
+exposure?" During the downside, as we're
+seeing now, they begin asking, "How do I
+
+886
+00:16:31,990 --> 00:16:32,000
+seeing now, they begin asking, "How do I
+ 
+
+887
+00:16:32,000 --> 00:16:33,910
+seeing now, they begin asking, "How do I
+get my money back? And what is this
+
+888
+00:16:33,910 --> 00:16:33,920
+get my money back? And what is this
+ 
+
+889
+00:16:33,920 --> 00:16:36,470
+get my money back? And what is this
+actually worth?" It's a very different
+
+890
+00:16:36,470 --> 00:16:36,480
+actually worth?" It's a very different
+ 
+
+891
+00:16:36,480 --> 00:16:39,710
+actually worth?" It's a very different
+market and a very crucial clue. So,
+
+892
+00:16:39,710 --> 00:16:39,720
+market and a very crucial clue. So,
+ 
+
+893
+00:16:39,720 --> 00:16:41,190
+market and a very crucial clue. So,
+where are we in the overall credit
+
+894
+00:16:41,190 --> 00:16:41,200
+where are we in the overall credit
+ 
+
+895
+00:16:41,200 --> 00:16:42,990
+where are we in the overall credit
+cycle? As we said, the center of gravity
+
+896
+00:16:42,990 --> 00:16:43,000
+cycle? As we said, the center of gravity
+ 
+
+897
+00:16:43,000 --> 00:16:44,630
+cycle? As we said, the center of gravity
+is private credit. As we've been talking
+
+898
+00:16:44,630 --> 00:16:44,640
+is private credit. As we've been talking
+ 
+
+899
+00:16:44,640 --> 00:16:46,590
+is private credit. As we've been talking
+about, private credit is on the
+
+900
+00:16:46,590 --> 00:16:46,600
+about, private credit is on the
+ 
+
+901
+00:16:46,600 --> 00:16:50,030
+about, private credit is on the
+downswing, and financial eurodollar type
+
+902
+00:16:50,030 --> 00:16:50,040
+downswing, and financial eurodollar type
+ 
+
+903
+00:16:50,040 --> 00:16:51,990
+downswing, and financial eurodollar type
+gravity,
+
+904
+00:16:51,990 --> 00:16:52,000
+gravity,
+ 
+
+905
+00:16:52,000 --> 00:16:53,590
+gravity,
+as the private credit cycle goes on the
+
+906
+00:16:53,590 --> 00:16:53,600
+as the private credit cycle goes on the
+ 
+
+907
+00:16:53,600 --> 00:16:56,190
+as the private credit cycle goes on the
+downswing, the overall credit cycle gets
+
+908
+00:16:56,190 --> 00:16:56,200
+downswing, the overall credit cycle gets
+ 
+
+909
+00:16:56,200 --> 00:16:58,470
+downswing, the overall credit cycle gets
+pulled in with it.
+
+910
+00:16:58,470 --> 00:16:58,480
+pulled in with it.
+ 
+
+911
+00:16:58,480 --> 00:17:01,110
+pulled in with it.
+The free money phase was 2020 and 2021.
+
+912
+00:17:01,110 --> 00:17:01,120
+The free money phase was 2020 and 2021.
+ 
+
+913
+00:17:01,120 --> 00:17:03,710
+The free money phase was 2020 and 2021.
+Huge liquidity, low rates, aggressive
+
+914
+00:17:03,710 --> 00:17:03,720
+Huge liquidity, low rates, aggressive
+ 
+
+915
+00:17:03,720 --> 00:17:05,710
+Huge liquidity, low rates, aggressive
+fundraising. Wall Street was all over
+
+916
+00:17:05,710 --> 00:17:05,720
+fundraising. Wall Street was all over
+ 
+
+917
+00:17:05,720 --> 00:17:07,189
+fundraising. Wall Street was all over
+everything. You had booming private
+
+918
+00:17:07,189 --> 00:17:07,199
+everything. You had booming private
+ 
+
+919
+00:17:07,199 --> 00:17:09,750
+everything. You had booming private
+equity valuations, strong demand for
+
+920
+00:17:09,750 --> 00:17:09,760
+equity valuations, strong demand for
+ 
+
+921
+00:17:09,760 --> 00:17:13,189
+equity valuations, strong demand for
+yield, and most of all, the herd,
+
+922
+00:17:13,189 --> 00:17:13,199
+yield, and most of all, the herd,
+ 
+
+923
+00:17:13,199 --> 00:17:14,829
+yield, and most of all, the herd,
+widespread belief that defaults would
+
+924
+00:17:14,829 --> 00:17:14,839
+widespread belief that defaults would
+ 
+
+925
+00:17:14,839 --> 00:17:16,949
+widespread belief that defaults would
+remain contained thanks to Uncle Sam and
+
+926
+00:17:16,949 --> 00:17:16,959
+remain contained thanks to Uncle Sam and
+ 
+
+927
+00:17:16,959 --> 00:17:18,870
+remain contained thanks to Uncle Sam and
+governments around the world. But, the
+
+928
+00:17:18,870 --> 00:17:18,880
+governments around the world. But, the
+ 
+
+929
+00:17:18,880 --> 00:17:21,990
+governments around the world. But, the
+transition phase began in 2024
+
+930
+00:17:21,990 --> 00:17:22,000
+transition phase began in 2024
+ 
+
+931
+00:17:22,000 --> 00:17:23,590
+transition phase began in 2024
+when flat beverage started to become
+
+932
+00:17:23,590 --> 00:17:23,600
+when flat beverage started to become
+ 
+
+933
+00:17:23,600 --> 00:17:25,550
+when flat beverage started to become
+more visible, exposing the forgot how to
+
+934
+00:17:25,550 --> 00:17:25,560
+more visible, exposing the forgot how to
+ 
+
+935
+00:17:25,560 --> 00:17:27,949
+more visible, exposing the forgot how to
+grow truth to the 2020s. And the
+
+936
+00:17:27,949 --> 00:17:27,959
+grow truth to the 2020s. And the
+ 
+
+937
+00:17:27,959 --> 00:17:31,150
+grow truth to the 2020s. And the
+Japanese carry traders, 2024, that
+
+938
+00:17:31,150 --> 00:17:31,160
+Japanese carry traders, 2024, that
+ 
+
+939
+00:17:31,160 --> 00:17:33,910
+Japanese carry traders, 2024, that
+summer, they were the first to signal
+
+940
+00:17:33,910 --> 00:17:33,920
+summer, they were the first to signal
+ 
+
+941
+00:17:33,920 --> 00:17:35,270
+summer, they were the first to signal
+what was about to come. The first
+
+942
+00:17:35,270 --> 00:17:35,280
+what was about to come. The first
+ 
+
+943
+00:17:35,280 --> 00:17:37,950
+what was about to come. The first
+warning sign that the upside had reached
+
+944
+00:17:37,950 --> 00:17:37,960
+warning sign that the upside had reached
+ 
+
+945
+00:17:37,960 --> 00:17:40,630
+warning sign that the upside had reached
+the turn stage. Now, we appear to be in
+
+946
+00:17:40,630 --> 00:17:40,640
+the turn stage. Now, we appear to be in
+ 
+
+947
+00:17:40,640 --> 00:17:42,630
+the turn stage. Now, we appear to be in
+the downside, having gone way past stage
+
+948
+00:17:42,630 --> 00:17:42,640
+the downside, having gone way past stage
+ 
+
+949
+00:17:42,640 --> 00:17:44,470
+the downside, having gone way past stage
+one last year into stage two, and maybe
+
+950
+00:17:44,470 --> 00:17:44,480
+one last year into stage two, and maybe
+ 
+
+951
+00:17:44,480 --> 00:17:46,550
+one last year into stage two, and maybe
+even deeper into stage two. We see it in
+
+952
+00:17:46,550 --> 00:17:46,560
+even deeper into stage two. We see it in
+ 
+
+953
+00:17:46,560 --> 00:17:48,230
+even deeper into stage two. We see it in
+the redemption pressure, how private
+
+954
+00:17:48,230 --> 00:17:48,240
+the redemption pressure, how private
+ 
+
+955
+00:17:48,240 --> 00:17:50,310
+the redemption pressure, how private
+credit funds have to enforce limits or
+
+956
+00:17:50,310 --> 00:17:50,320
+credit funds have to enforce limits or
+ 
+
+957
+00:17:50,320 --> 00:17:52,350
+credit funds have to enforce limits or
+face selling assets. Not just one or two
+
+958
+00:17:52,350 --> 00:17:52,360
+face selling assets. Not just one or two
+ 
+
+959
+00:17:52,360 --> 00:17:53,630
+face selling assets. Not just one or two
+small funds, either. We're talking about
+
+960
+00:17:53,630 --> 00:17:53,640
+small funds, either. We're talking about
+ 
+
+961
+00:17:53,640 --> 00:17:55,310
+small funds, either. We're talking about
+the biggest funds sponsored and run by
+
+962
+00:17:55,310 --> 00:17:55,320
+the biggest funds sponsored and run by
+ 
+
+963
+00:17:55,320 --> 00:17:57,590
+the biggest funds sponsored and run by
+the biggest names on Wall Street. We see
+
+964
+00:17:57,590 --> 00:17:57,600
+the biggest names on Wall Street. We see
+ 
+
+965
+00:17:57,600 --> 00:17:58,990
+the biggest names on Wall Street. We see
+it in certain sectors, especially
+
+966
+00:17:58,990 --> 00:17:59,000
+it in certain sectors, especially
+ 
+
+967
+00:17:59,000 --> 00:18:01,150
+it in certain sectors, especially
+software, that's gone from prized
+
+968
+00:18:01,150 --> 00:18:01,160
+software, that's gone from prized
+ 
+
+969
+00:18:01,160 --> 00:18:03,910
+software, that's gone from prized
+collateral to questionable exposure. We
+
+970
+00:18:03,910 --> 00:18:03,920
+collateral to questionable exposure. We
+ 
+
+971
+00:18:03,920 --> 00:18:06,270
+collateral to questionable exposure. We
+get way too much payment-in-kind or PIK
+
+972
+00:18:06,270 --> 00:18:06,280
+get way too much payment-in-kind or PIK
+ 
+
+973
+00:18:06,280 --> 00:18:08,430
+get way too much payment-in-kind or PIK
+interest, where borrowers pay interest
+
+974
+00:18:08,430 --> 00:18:08,440
+interest, where borrowers pay interest
+ 
+
+975
+00:18:08,440 --> 00:18:10,750
+interest, where borrowers pay interest
+with additional debt instead of cash.
+
+976
+00:18:10,750 --> 00:18:10,760
+with additional debt instead of cash.
+ 
+
+977
+00:18:10,760 --> 00:18:13,150
+with additional debt instead of cash.
+The amend-and-extend transactions,
+
+978
+00:18:13,150 --> 00:18:13,160
+The amend-and-extend transactions,
+ 
+
+979
+00:18:13,160 --> 00:18:14,990
+The amend-and-extend transactions,
+lenders avoiding immediate default by
+
+980
+00:18:14,990 --> 00:18:15,000
+lenders avoiding immediate default by
+ 
+
+981
+00:18:15,000 --> 00:18:16,790
+lenders avoiding immediate default by
+pushing out maturities.
+
+982
+00:18:16,790 --> 00:18:16,800
+pushing out maturities.
+ 
+
+983
+00:18:16,800 --> 00:18:19,110
+pushing out maturities.
+Too many forms of selective defaults. We
+
+984
+00:18:19,110 --> 00:18:19,120
+Too many forms of selective defaults. We
+ 
+
+985
+00:18:19,120 --> 00:18:21,590
+Too many forms of selective defaults. We
+see it in BDCs, all over the BDC market,
+
+986
+00:18:21,590 --> 00:18:21,600
+see it in BDCs, all over the BDC market,
+ 
+
+987
+00:18:21,600 --> 00:18:23,710
+see it in BDCs, all over the BDC market,
+that are trading below net asset value,
+
+988
+00:18:23,710 --> 00:18:23,720
+that are trading below net asset value,
+ 
+
+989
+00:18:23,720 --> 00:18:25,830
+that are trading below net asset value,
+which is the public market saying it
+
+990
+00:18:25,830 --> 00:18:25,840
+which is the public market saying it
+ 
+
+991
+00:18:25,840 --> 00:18:27,470
+which is the public market saying it
+doesn't believe the marks on those
+
+992
+00:18:27,470 --> 00:18:27,480
+doesn't believe the marks on those
+ 
+
+993
+00:18:27,480 --> 00:18:29,910
+doesn't believe the marks on those
+credit vehicles. Banks and insurers that
+
+994
+00:18:29,910 --> 00:18:29,920
+credit vehicles. Banks and insurers that
+ 
+
+995
+00:18:29,920 --> 00:18:31,830
+credit vehicles. Banks and insurers that
+are becoming more and more selective. We
+
+996
+00:18:31,830 --> 00:18:31,840
+are becoming more and more selective. We
+ 
+
+997
+00:18:31,840 --> 00:18:33,990
+are becoming more and more selective. We
+see it in the changing language, and
+
+998
+00:18:33,990 --> 00:18:34,000
+see it in the changing language, and
+ 
+
+999
+00:18:34,000 --> 00:18:35,990
+see it in the changing language, and
+that is an underrated but important part
+
+1000
+00:18:35,990 --> 00:18:36,000
+that is an underrated but important part
+ 
+
+1001
+00:18:36,000 --> 00:18:38,510
+that is an underrated but important part
+of this. During the boom, the language
+
+1002
+00:18:38,510 --> 00:18:38,520
+of this. During the boom, the language
+ 
+
+1003
+00:18:38,520 --> 00:18:40,990
+of this. During the boom, the language
+is all about opportunity, innovation,
+
+1004
+00:18:40,990 --> 00:18:41,000
+is all about opportunity, innovation,
+ 
+
+1005
+00:18:41,000 --> 00:18:43,710
+is all about opportunity, innovation,
+democratization, income diversification,
+
+1006
+00:18:43,710 --> 00:18:43,720
+democratization, income diversification,
+ 
+
+1007
+00:18:43,720 --> 00:18:45,830
+democratization, income diversification,
+low volatility.
+
+1008
+00:18:45,830 --> 00:18:45,840
+low volatility.
+ 
+
+1009
+00:18:45,840 --> 00:18:47,950
+low volatility.
+But, during the downside, the language
+
+1010
+00:18:47,950 --> 00:18:47,960
+But, during the downside, the language
+ 
+
+1011
+00:18:47,960 --> 00:18:51,070
+But, during the downside, the language
+becomes discipline, selectivity,
+
+1012
+00:18:51,070 --> 00:18:51,080
+becomes discipline, selectivity,
+ 
+
+1013
+00:18:51,080 --> 00:18:54,710
+becomes discipline, selectivity,
+liquidity, quality, resilience, capital
+
+1014
+00:18:54,710 --> 00:18:54,720
+liquidity, quality, resilience, capital
+ 
+
+1015
+00:18:54,720 --> 00:18:56,950
+liquidity, quality, resilience, capital
+preservation. When everyone starts using
+
+1016
+00:18:56,950 --> 00:18:56,960
+preservation. When everyone starts using
+ 
+
+1017
+00:18:56,960 --> 00:18:58,990
+preservation. When everyone starts using
+those words at the same time, you know
+
+1018
+00:18:58,990 --> 00:18:59,000
+those words at the same time, you know
+ 
+
+1019
+00:18:59,000 --> 00:19:01,630
+those words at the same time, you know
+the herd has already turned, therefore
+
+1020
+00:19:01,630 --> 00:19:01,640
+the herd has already turned, therefore
+ 
+
+1021
+00:19:01,640 --> 00:19:03,750
+the herd has already turned, therefore
+the cycle, even before anything gets
+
+1022
+00:19:03,750 --> 00:19:03,760
+the cycle, even before anything gets
+ 
+
+1023
+00:19:03,760 --> 00:19:06,310
+the cycle, even before anything gets
+confirmed. Now, the key point is that
+
+1024
+00:19:06,310 --> 00:19:06,320
+confirmed. Now, the key point is that
+ 
+
+1025
+00:19:06,320 --> 00:19:07,550
+confirmed. Now, the key point is that
+what everybody watches and everybody
+
+1026
+00:19:07,550 --> 00:19:07,560
+what everybody watches and everybody
+ 
+
+1027
+00:19:07,560 --> 00:19:10,590
+what everybody watches and everybody
+looks for, defaults, they are a lagging
+
+1028
+00:19:10,590 --> 00:19:10,600
+looks for, defaults, they are a lagging
+ 
+
+1029
+00:19:10,600 --> 00:19:12,750
+looks for, defaults, they are a lagging
+indicator, and I mean deeply lagging
+
+1030
+00:19:12,750 --> 00:19:12,760
+indicator, and I mean deeply lagging
+ 
+
+1031
+00:19:12,760 --> 00:19:14,950
+indicator, and I mean deeply lagging
+indicator. By the time defaults are
+
+1032
+00:19:14,950 --> 00:19:14,960
+indicator. By the time defaults are
+ 
+
+1033
+00:19:14,960 --> 00:19:17,030
+indicator. By the time defaults are
+obviously high, the credit cycle has
+
+1034
+00:19:17,030 --> 00:19:17,040
+obviously high, the credit cycle has
+ 
+
+1035
+00:19:17,040 --> 00:19:18,630
+obviously high, the credit cycle has
+already been deteriorating for quite
+
+1036
+00:19:18,630 --> 00:19:18,640
+already been deteriorating for quite
+ 
+
+1037
+00:19:18,640 --> 00:19:21,350
+already been deteriorating for quite
+some time. The early indicators are much
+
+1038
+00:19:21,350 --> 00:19:21,360
+some time. The early indicators are much
+ 
+
+1039
+00:19:21,360 --> 00:19:23,590
+some time. The early indicators are much
+softer. They come in tightening lending
+
+1040
+00:19:23,590 --> 00:19:23,600
+softer. They come in tightening lending
+ 
+
+1041
+00:19:23,600 --> 00:19:26,110
+softer. They come in tightening lending
+standards, wider spreads for weaker
+
+1042
+00:19:26,110 --> 00:19:26,120
+standards, wider spreads for weaker
+ 
+
+1043
+00:19:26,120 --> 00:19:28,510
+standards, wider spreads for weaker
+borrowers, weaker borrowers at first,
+
+1044
+00:19:28,510 --> 00:19:28,520
+borrowers, weaker borrowers at first,
+ 
+
+1045
+00:19:28,520 --> 00:19:31,430
+borrowers, weaker borrowers at first,
+less refinancing, more extensions, more
+
+1046
+00:19:31,430 --> 00:19:31,440
+less refinancing, more extensions, more
+ 
+
+1047
+00:19:31,440 --> 00:19:33,230
+less refinancing, more extensions, more
+investor withdrawals, more questions
+
+1048
+00:19:33,230 --> 00:19:33,240
+investor withdrawals, more questions
+ 
+
+1049
+00:19:33,240 --> 00:19:35,870
+investor withdrawals, more questions
+about valuations and marks. You see it
+
+1050
+00:19:35,870 --> 00:19:35,880
+about valuations and marks. You see it
+ 
+
+1051
+00:19:35,880 --> 00:19:37,870
+about valuations and marks. You see it
+in asset sales that become a little bit
+
+1052
+00:19:37,870 --> 00:19:37,880
+in asset sales that become a little bit
+ 
+
+1053
+00:19:37,880 --> 00:19:40,510
+in asset sales that become a little bit
+too frequent. They're more than just
+
+1054
+00:19:40,510 --> 00:19:40,520
+too frequent. They're more than just
+ 
+
+1055
+00:19:40,520 --> 00:19:44,190
+too frequent. They're more than just
+isolated problems. And that is exactly
+
+1056
+00:19:44,190 --> 00:19:44,200
+isolated problems. And that is exactly
+ 
+
+1057
+00:19:44,200 --> 00:19:45,830
+isolated problems. And that is exactly
+where we are. We're in the part of the
+
+1058
+00:19:45,830 --> 00:19:45,840
+where we are. We're in the part of the
+ 
+
+1059
+00:19:45,840 --> 00:19:47,390
+where we are. We're in the part of the
+cycle where the market is still trying
+
+1060
+00:19:47,390 --> 00:19:47,400
+cycle where the market is still trying
+ 
+
+1061
+00:19:47,400 --> 00:19:50,190
+cycle where the market is still trying
+to pretend the problems are contained,
+
+1062
+00:19:50,190 --> 00:19:50,200
+to pretend the problems are contained,
+ 
+
+1063
+00:19:50,200 --> 00:19:52,750
+to pretend the problems are contained,
+while the evidence keeps on piling up
+
+1064
+00:19:52,750 --> 00:19:52,760
+while the evidence keeps on piling up
+ 
+
+1065
+00:19:52,760 --> 00:19:54,910
+while the evidence keeps on piling up
+and broadening.
+
+1066
+00:19:54,910 --> 00:19:54,920
+and broadening.
+ 
+
+1067
+00:19:54,920 --> 00:19:57,030
+and broadening.
+So, what is a credit cycle?
+
+1068
+00:19:57,030 --> 00:19:57,040
+So, what is a credit cycle?
+ 
+
+1069
+00:19:57,040 --> 00:19:58,550
+So, what is a credit cycle?
+It is the recurring movement from
+
+1070
+00:19:58,550 --> 00:19:58,560
+It is the recurring movement from
+ 
+
+1071
+00:19:58,560 --> 00:20:01,110
+It is the recurring movement from
+caution to confidence, from confidence
+
+1072
+00:20:01,110 --> 00:20:01,120
+caution to confidence, from confidence
+ 
+
+1073
+00:20:01,120 --> 00:20:04,790
+caution to confidence, from confidence
+to excess, and from excess to stress.
+
+1074
+00:20:04,790 --> 00:20:04,800
+to excess, and from excess to stress.
+ 
+
+1075
+00:20:04,800 --> 00:20:07,070
+to excess, and from excess to stress.
+But then from stress back to caution and
+
+1076
+00:20:07,070 --> 00:20:07,080
+But then from stress back to caution and
+ 
+
+1077
+00:20:07,080 --> 00:20:09,510
+But then from stress back to caution and
+the cycle repeats all over again. It's
+
+1078
+00:20:09,510 --> 00:20:09,520
+the cycle repeats all over again. It's
+ 
+
+1079
+00:20:09,520 --> 00:20:11,430
+the cycle repeats all over again. It's
+not about interest rates. It is not
+
+1080
+00:20:11,430 --> 00:20:11,440
+not about interest rates. It is not
+ 
+
+1081
+00:20:11,440 --> 00:20:14,190
+not about interest rates. It is not
+about the Fed, no matter how many times
+
+1082
+00:20:14,190 --> 00:20:14,200
+about the Fed, no matter how many times
+ 
+
+1083
+00:20:14,200 --> 00:20:16,910
+about the Fed, no matter how many times
+we have to hear that everything is. Rate
+
+1084
+00:20:16,910 --> 00:20:16,920
+we have to hear that everything is. Rate
+ 
+
+1085
+00:20:16,920 --> 00:20:18,830
+we have to hear that everything is. Rate
+hikes don't stop the cycle, just like
+
+1086
+00:20:18,830 --> 00:20:18,840
+hikes don't stop the cycle, just like
+ 
+
+1087
+00:20:18,840 --> 00:20:21,470
+hikes don't stop the cycle, just like
+rate cuts didn't create it. The credit
+
+1088
+00:20:21,470 --> 00:20:21,480
+rate cuts didn't create it. The credit
+ 
+
+1089
+00:20:21,480 --> 00:20:23,830
+rate cuts didn't create it. The credit
+cycle is also It's not just about
+
+1090
+00:20:23,830 --> 00:20:23,840
+cycle is also It's not just about
+ 
+
+1091
+00:20:23,840 --> 00:20:26,110
+cycle is also It's not just about
+recessions in the macroeconomy. It is
+
+1092
+00:20:26,110 --> 00:20:26,120
+recessions in the macroeconomy. It is
+ 
+
+1093
+00:20:26,120 --> 00:20:28,070
+recessions in the macroeconomy. It is
+about lending standards, investor
+
+1094
+00:20:28,070 --> 00:20:28,080
+about lending standards, investor
+ 
+
+1095
+00:20:28,080 --> 00:20:31,590
+about lending standards, investor
+psychology, refinancing, liquidity,
+
+1096
+00:20:31,590 --> 00:20:31,600
+psychology, refinancing, liquidity,
+ 
+
+1097
+00:20:31,600 --> 00:20:33,630
+psychology, refinancing, liquidity,
+collateral values are very important,
+
+1098
+00:20:33,630 --> 00:20:33,640
+collateral values are very important,
+ 
+
+1099
+00:20:33,640 --> 00:20:36,430
+collateral values are very important,
+and most of all, because we're people,
+
+1100
+00:20:36,430 --> 00:20:36,440
+and most of all, because we're people,
+ 
+
+1101
+00:20:36,440 --> 00:20:39,350
+and most of all, because we're people,
+trust. So, where are we now? The
+
+1102
+00:20:39,350 --> 00:20:39,360
+trust. So, where are we now? The
+ 
+
+1103
+00:20:39,360 --> 00:20:41,030
+trust. So, where are we now? The
+evidence increasingly suggests that we
+
+1104
+00:20:41,030 --> 00:20:41,040
+evidence increasingly suggests that we
+ 
+
+1105
+00:20:41,040 --> 00:20:43,270
+evidence increasingly suggests that we
+are way past the peak, way past the
+
+1106
+00:20:43,270 --> 00:20:43,280
+are way past the peak, way past the
+ 
+
+1107
+00:20:43,280 --> 00:20:45,630
+are way past the peak, way past the
+turn, and into stage two of the
+
+1108
+00:20:45,630 --> 00:20:45,640
+turn, and into stage two of the
+ 
+
+1109
+00:20:45,640 --> 00:20:48,070
+turn, and into stage two of the
+downswing as private credit, the center
+
+1110
+00:20:48,070 --> 00:20:48,080
+downswing as private credit, the center
+ 
+
+1111
+00:20:48,080 --> 00:20:50,870
+downswing as private credit, the center
+of gravity, begins to pull and tug on
+
+1112
+00:20:50,870 --> 00:20:50,880
+of gravity, begins to pull and tug on
+ 
+
+1113
+00:20:50,880 --> 00:20:52,710
+of gravity, begins to pull and tug on
+the rest of the credit markets, a little
+
+1114
+00:20:52,710 --> 00:20:52,720
+the rest of the credit markets, a little
+ 
+
+1115
+00:20:52,720 --> 00:20:55,470
+the rest of the credit markets, a little
+bit at a time, but increasingly over
+
+1116
+00:20:55,470 --> 00:20:55,480
+bit at a time, but increasingly over
+ 
+
+1117
+00:20:55,480 --> 00:20:56,550
+bit at a time, but increasingly over
+time.
+
+1118
+00:20:56,550 --> 00:20:56,560
+time.
+ 
+
+1119
+00:20:56,560 --> 00:20:58,110
+time.
+So, the redemption story is not the
+
+1120
+00:20:58,110 --> 00:20:58,120
+So, the redemption story is not the
+ 
+
+1121
+00:20:58,120 --> 00:21:00,190
+So, the redemption story is not the
+whole story, the withdrawals, but it
+
+1122
+00:21:00,190 --> 00:21:00,200
+whole story, the withdrawals, but it
+ 
+
+1123
+00:21:00,200 --> 00:21:02,550
+whole story, the withdrawals, but it
+fits with the broader pattern. Too many
+
+1124
+00:21:02,550 --> 00:21:02,560
+fits with the broader pattern. Too many
+ 
+
+1125
+00:21:02,560 --> 00:21:03,710
+fits with the broader pattern. Too many
+Too many of these funds and private
+
+1126
+00:21:03,710 --> 00:21:03,720
+Too many of these funds and private
+ 
+
+1127
+00:21:03,720 --> 00:21:05,670
+Too many of these funds and private
+credit vehicles are facing redemptions
+
+1128
+00:21:05,670 --> 00:21:05,680
+credit vehicles are facing redemptions
+ 
+
+1129
+00:21:05,680 --> 00:21:07,750
+credit vehicles are facing redemptions
+and withdrawals for this to be some Just
+
+1130
+00:21:07,750 --> 00:21:07,760
+and withdrawals for this to be some Just
+ 
+
+1131
+00:21:07,760 --> 00:21:09,710
+and withdrawals for this to be some Just
+to be a whole lot of nothing.
+
+1132
+00:21:09,710 --> 00:21:09,720
+to be a whole lot of nothing.
+ 
+
+1133
+00:21:09,720 --> 00:21:11,030
+to be a whole lot of nothing.
+There are more and growing questions
+
+1134
+00:21:11,030 --> 00:21:11,040
+There are more and growing questions
+ 
+
+1135
+00:21:11,040 --> 00:21:13,030
+There are more and growing questions
+about valuations, concerns about what
+
+1136
+00:21:13,030 --> 00:21:13,040
+about valuations, concerns about what
+ 
+
+1137
+00:21:13,040 --> 00:21:15,470
+about valuations, concerns about what
+investors can actually get back and
+
+1138
+00:21:15,470 --> 00:21:15,480
+investors can actually get back and
+ 
+
+1139
+00:21:15,480 --> 00:21:16,910
+investors can actually get back and
+when.
+
+1140
+00:21:16,910 --> 00:21:16,920
+when.
+ 
+
+1141
+00:21:16,920 --> 00:21:18,590
+when.
+This is what the downside looks like
+
+1142
+00:21:18,590 --> 00:21:18,600
+This is what the downside looks like
+ 
+
+1143
+00:21:18,600 --> 00:21:20,990
+This is what the downside looks like
+before it becomes completely obvious.
+
+1144
+00:21:20,990 --> 00:21:21,000
+before it becomes completely obvious.
+ 
+
+1145
+00:21:21,000 --> 00:21:23,870
+before it becomes completely obvious.
+The boom says, "Give me more yield." The
+
+1146
+00:21:23,870 --> 00:21:23,880
+The boom says, "Give me more yield." The
+ 
+
+1147
+00:21:23,880 --> 00:21:26,590
+The boom says, "Give me more yield." The
+downside says, "Give me my cash back."
+
+1148
+00:21:26,590 --> 00:21:26,600
+downside says, "Give me my cash back."
+ 
+
+1149
+00:21:26,600 --> 00:21:28,270
+downside says, "Give me my cash back."
+And once the market starts asking for
+
+1150
+00:21:28,270 --> 00:21:28,280
+And once the market starts asking for
+ 
+
+1151
+00:21:28,280 --> 00:21:30,990
+And once the market starts asking for
+its cash back, you're pretty sure the
+
+1152
+00:21:30,990 --> 00:21:31,000
+its cash back, you're pretty sure the
+ 
+
+1153
+00:21:31,000 --> 00:21:32,830
+its cash back, you're pretty sure the
+cycle has turned. And then you need to
+
+1154
+00:21:32,830 --> 00:21:32,840
+cycle has turned. And then you need to
+ 
+
+1155
+00:21:32,840 --> 00:21:38,670
+cycle has turned. And then you need to
+turn your attention to what comes next.
+
+1156
+00:21:38,670 --> 00:21:38,680
+
+ 
+
+1157
+00:21:38,680 --> 00:21:40,270
+ 
+And we've had yet another flurry of
+
+1158
+00:21:40,270 --> 00:21:40,280
+And we've had yet another flurry of
+ 
+
+1159
+00:21:40,280 --> 00:21:42,030
+And we've had yet another flurry of
+activity related to the private credit
+
+1160
+00:21:42,030 --> 00:21:42,040
+activity related to the private credit
+ 
+
+1161
+00:21:42,040 --> 00:21:43,630
+activity related to the private credit
+downswing, including the one of the
+
+1162
+00:21:43,630 --> 00:21:43,640
+downswing, including the one of the
+ 
+
+1163
+00:21:43,640 --> 00:21:46,110
+downswing, including the one of the
+biggest funds, Blackstone. That's all in
+
+1164
+00:21:46,110 --> 00:21:46,120
+biggest funds, Blackstone. That's all in
+ 
+
+1165
+00:21:46,120 --> 00:21:47,750
+biggest funds, Blackstone. That's all in
+the video link below.
+
+1166
+00:21:47,750 --> 00:21:47,760
+the video link below.
+ 
+
+1167
+00:21:47,760 --> 00:21:48,830
+the video link below.
+As always, thank you very much for
+
+1168
+00:21:48,830 --> 00:21:48,840
+As always, thank you very much for
+ 
+
+1169
+00:21:48,840 --> 00:21:52,110
+As always, thank you very much for
+joining me. Join me on Sunday, June 28th
+
+1170
+00:21:52,110 --> 00:21:52,120
+joining me. Join me on Sunday, June 28th
+ 
+
+1171
+00:21:52,120 --> 00:21:53,550
+joining me. Join me on Sunday, June 28th
+for our webinar. Sign up link in the
+
+1172
+00:21:53,550 --> 00:21:53,560
+for our webinar. Sign up link in the
+ 
+
+1173
+00:21:53,560 --> 00:21:55,270
+for our webinar. Sign up link in the
+description. Huge thanks to Euro Dollar
+
+1174
+00:21:55,270 --> 00:21:55,280
+description. Huge thanks to Euro Dollar
+ 
+
+1175
+00:21:55,280 --> 00:21:56,710
+description. Huge thanks to Euro Dollar
+University members and subscribers. And
+
+1176
+00:21:56,710 --> 00:21:56,720
+University members and subscribers. And
+ 
+
+1177
+00:21:56,720 --> 00:21:58,350
+University members and subscribers. And
+until next time,
+
+1178
+00:21:58,350 --> 00:21:58,360
+until next time,
+ 
+
+1179
+00:21:58,360 --> 00:22:00,800
+until next time,
+take care.
+

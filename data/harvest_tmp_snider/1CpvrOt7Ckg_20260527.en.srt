@@ -1,0 +1,5565 @@
+1
+00:00:00,000 --> 00:00:03,030
+ 
+JP Morgan just took Goldilocks off the
+
+2
+00:00:03,030 --> 00:00:03,040
+JP Morgan just took Goldilocks off the
+ 
+
+3
+00:00:03,040 --> 00:00:05,350
+JP Morgan just took Goldilocks off the
+table. Now, this isn't some minor change
+
+4
+00:00:05,350 --> 00:00:05,360
+table. Now, this isn't some minor change
+ 
+
+5
+00:00:05,360 --> 00:00:07,270
+table. Now, this isn't some minor change
+or tiny little tweak to a spreadsheet
+
+6
+00:00:07,270 --> 00:00:07,280
+or tiny little tweak to a spreadsheet
+ 
+
+7
+00:00:07,280 --> 00:00:09,430
+or tiny little tweak to a spreadsheet
+buried on page 47 of some Wall Street
+
+8
+00:00:09,430 --> 00:00:09,440
+buried on page 47 of some Wall Street
+ 
+
+9
+00:00:09,440 --> 00:00:10,950
+buried on page 47 of some Wall Street
+outlook. This is one of the biggest
+
+10
+00:00:10,950 --> 00:00:10,960
+outlook. This is one of the biggest
+ 
+
+11
+00:00:10,960 --> 00:00:12,910
+outlook. This is one of the biggest
+banks in the world saying Goldilocks has
+
+12
+00:00:12,910 --> 00:00:12,920
+banks in the world saying Goldilocks has
+ 
+
+13
+00:00:12,920 --> 00:00:15,270
+banks in the world saying Goldilocks has
+left the building because it's now more
+
+14
+00:00:15,270 --> 00:00:15,280
+left the building because it's now more
+ 
+
+15
+00:00:15,280 --> 00:00:18,830
+left the building because it's now more
+concerned about a negative growth shock.
+
+16
+00:00:18,830 --> 00:00:18,840
+concerned about a negative growth shock.
+ 
+
+17
+00:00:18,840 --> 00:00:21,190
+concerned about a negative growth shock.
+A negative growth shock that shows, at
+
+18
+00:00:21,190 --> 00:00:21,200
+A negative growth shock that shows, at
+ 
+
+19
+00:00:21,200 --> 00:00:24,150
+A negative growth shock that shows, at
+least for JP Morgan, that something big
+
+20
+00:00:24,150 --> 00:00:24,160
+least for JP Morgan, that something big
+ 
+
+21
+00:00:24,160 --> 00:00:27,510
+least for JP Morgan, that something big
+has changed. And the key point is this,
+
+22
+00:00:27,510 --> 00:00:27,520
+has changed. And the key point is this,
+ 
+
+23
+00:00:27,520 --> 00:00:29,190
+has changed. And the key point is this,
+the economy didn't suddenly become
+
+24
+00:00:29,190 --> 00:00:29,200
+the economy didn't suddenly become
+ 
+
+25
+00:00:29,200 --> 00:00:31,310
+the economy didn't suddenly become
+fragile this past week. The labor market
+
+26
+00:00:31,310 --> 00:00:31,320
+fragile this past week. The labor market
+ 
+
+27
+00:00:31,320 --> 00:00:33,430
+fragile this past week. The labor market
+was already in trouble and as a result,
+
+28
+00:00:33,430 --> 00:00:33,440
+was already in trouble and as a result,
+ 
+
+29
+00:00:33,440 --> 00:00:35,190
+was already in trouble and as a result,
+consumers were already having big
+
+30
+00:00:35,190 --> 00:00:35,200
+consumers were already having big
+ 
+
+31
+00:00:35,200 --> 00:00:36,510
+consumers were already having big
+problems. They were already stretched.
+
+32
+00:00:36,510 --> 00:00:36,520
+problems. They were already stretched.
+ 
+
+33
+00:00:36,520 --> 00:00:38,110
+problems. They were already stretched.
+Businesses were already cutting back.
+
+34
+00:00:38,110 --> 00:00:38,120
+Businesses were already cutting back.
+ 
+
+35
+00:00:38,120 --> 00:00:39,630
+Businesses were already cutting back.
+Hiring had disappeared. Even the
+
+36
+00:00:39,630 --> 00:00:39,640
+Hiring had disappeared. Even the
+ 
+
+37
+00:00:39,640 --> 00:00:41,950
+Hiring had disappeared. Even the
+establishment survey dropped to
+
+38
+00:00:41,950 --> 00:00:41,960
+establishment survey dropped to
+ 
+
+39
+00:00:41,960 --> 00:00:44,350
+establishment survey dropped to
+basically zero last year. And that is
+
+40
+00:00:44,350 --> 00:00:44,360
+basically zero last year. And that is
+ 
+
+41
+00:00:44,360 --> 00:00:46,550
+basically zero last year. And that is
+exactly why the Sahm rule warning in
+
+42
+00:00:46,550 --> 00:00:46,560
+exactly why the Sahm rule warning in
+ 
+
+43
+00:00:46,560 --> 00:00:49,430
+exactly why the Sahm rule warning in
+2024, it mattered that much. Remember
+
+44
+00:00:49,430 --> 00:00:49,440
+2024, it mattered that much. Remember
+ 
+
+45
+00:00:49,440 --> 00:00:51,750
+2024, it mattered that much. Remember
+the Sahm rule? That along with Japanese
+
+46
+00:00:51,750 --> 00:00:51,760
+the Sahm rule? That along with Japanese
+ 
+
+47
+00:00:51,760 --> 00:00:53,630
+the Sahm rule? That along with Japanese
+carry traders that came up at exactly
+
+48
+00:00:53,630 --> 00:00:53,640
+carry traders that came up at exactly
+ 
+
+49
+00:00:53,640 --> 00:00:55,950
+carry traders that came up at exactly
+the same time, they both warned you
+
+50
+00:00:55,950 --> 00:00:55,960
+the same time, they both warned you
+ 
+
+51
+00:00:55,960 --> 00:00:57,870
+the same time, they both warned you
+about what was coming. Now, the
+
+52
+00:00:57,870 --> 00:00:57,880
+about what was coming. Now, the
+ 
+
+53
+00:00:57,880 --> 00:00:59,790
+about what was coming. Now, the
+mainstream spent months saying, "No, no,
+
+54
+00:00:59,790 --> 00:00:59,800
+mainstream spent months saying, "No, no,
+ 
+
+55
+00:00:59,800 --> 00:01:00,790
+mainstream spent months saying, "No, no,
+no, don't worry about it. The
+
+56
+00:01:00,790 --> 00:01:00,800
+no, don't worry about it. The
+ 
+
+57
+00:01:00,800 --> 00:01:02,870
+no, don't worry about it. The
+unemployment rate was just normalizing.
+
+58
+00:01:02,870 --> 00:01:02,880
+unemployment rate was just normalizing.
+ 
+
+59
+00:01:02,880 --> 00:01:04,910
+unemployment rate was just normalizing.
+The labor market was just coming back
+
+60
+00:01:04,910 --> 00:01:04,920
+The labor market was just coming back
+ 
+
+61
+00:01:04,920 --> 00:01:06,910
+The labor market was just coming back
+into better balance. The economy was
+
+62
+00:01:06,910 --> 00:01:06,920
+into better balance. The economy was
+ 
+
+63
+00:01:06,920 --> 00:01:08,390
+into better balance. The economy was
+still resilient." Powell said.
+
+64
+00:01:08,390 --> 00:01:08,400
+still resilient." Powell said.
+ 
+
+65
+00:01:08,400 --> 00:01:10,550
+still resilient." Powell said.
+Goldilocks was still alive and well.
+
+66
+00:01:10,550 --> 00:01:10,560
+Goldilocks was still alive and well.
+ 
+
+67
+00:01:10,560 --> 00:01:13,150
+Goldilocks was still alive and well.
+Except, it was never Goldilocks to begin
+
+68
+00:01:13,150 --> 00:01:13,160
+Except, it was never Goldilocks to begin
+ 
+
+69
+00:01:13,160 --> 00:01:15,070
+Except, it was never Goldilocks to begin
+with. And so, now JP Morgan is worried
+
+70
+00:01:15,070 --> 00:01:15,080
+with. And so, now JP Morgan is worried
+ 
+
+71
+00:01:15,080 --> 00:01:18,070
+with. And so, now JP Morgan is worried
+about a negative growth shock.
+
+72
+00:01:18,070 --> 00:01:18,080
+about a negative growth shock.
+ 
+
+73
+00:01:18,080 --> 00:01:19,430
+about a negative growth shock.
+But that shock is not coming out of
+
+74
+00:01:19,430 --> 00:01:19,440
+But that shock is not coming out of
+ 
+
+75
+00:01:19,440 --> 00:01:20,830
+But that shock is not coming out of
+nowhere. It's the next stage of a
+
+76
+00:01:20,830 --> 00:01:20,840
+nowhere. It's the next stage of a
+ 
+
+77
+00:01:20,840 --> 00:01:22,950
+nowhere. It's the next stage of a
+problem that showed up very clearly in
+
+78
+00:01:22,950 --> 00:01:22,960
+problem that showed up very clearly in
+ 
+
+79
+00:01:22,960 --> 00:01:26,390
+problem that showed up very clearly in
+2024. And Claudia Sahm's rule simply
+
+80
+00:01:26,390 --> 00:01:26,400
+2024. And Claudia Sahm's rule simply
+ 
+
+81
+00:01:26,400 --> 00:01:28,310
+2024. And Claudia Sahm's rule simply
+told everyone what they did not want to
+
+82
+00:01:28,310 --> 00:01:28,320
+told everyone what they did not want to
+ 
+
+83
+00:01:28,320 --> 00:01:30,390
+told everyone what they did not want to
+hear. That recession warning wasn't
+
+84
+00:01:30,390 --> 00:01:30,400
+hear. That recession warning wasn't
+ 
+
+85
+00:01:30,400 --> 00:01:33,350
+hear. That recession warning wasn't
+wrong, it just showed up where no one
+
+86
+00:01:33,350 --> 00:01:33,360
+wrong, it just showed up where no one
+ 
+
+87
+00:01:33,360 --> 00:01:34,790
+wrong, it just showed up where no one
+was looking.
+
+88
+00:01:34,790 --> 00:01:34,800
+was looking.
+ 
+
+89
+00:01:34,800 --> 00:01:36,190
+was looking.
+So, let's break this down into three
+
+90
+00:01:36,190 --> 00:01:36,200
+So, let's break this down into three
+ 
+
+91
+00:01:36,200 --> 00:01:38,230
+So, let's break this down into three
+parts. First, what it means when JP
+
+92
+00:01:38,230 --> 00:01:38,240
+parts. First, what it means when JP
+ 
+
+93
+00:01:38,240 --> 00:01:40,150
+parts. First, what it means when JP
+Morgan says Goldilocks is leaving the
+
+94
+00:01:40,150 --> 00:01:40,160
+Morgan says Goldilocks is leaving the
+ 
+
+95
+00:01:40,160 --> 00:01:42,750
+Morgan says Goldilocks is leaving the
+building and why the phrase negative
+
+96
+00:01:42,750 --> 00:01:42,760
+building and why the phrase negative
+ 
+
+97
+00:01:42,760 --> 00:01:44,350
+building and why the phrase negative
+growth shock is something that really
+
+98
+00:01:44,350 --> 00:01:44,360
+growth shock is something that really
+ 
+
+99
+00:01:44,360 --> 00:01:47,110
+growth shock is something that really
+matters. Second, why the economy is in
+
+100
+00:01:47,110 --> 00:01:47,120
+matters. Second, why the economy is in
+ 
+
+101
+00:01:47,120 --> 00:01:49,190
+matters. Second, why the economy is in
+no position to absorb any kind of shock
+
+102
+00:01:49,190 --> 00:01:49,200
+no position to absorb any kind of shock
+ 
+
+103
+00:01:49,200 --> 00:01:50,710
+no position to absorb any kind of shock
+because consumers and businesses were
+
+104
+00:01:50,710 --> 00:01:50,720
+because consumers and businesses were
+ 
+
+105
+00:01:50,720 --> 00:01:52,350
+because consumers and businesses were
+already under pressure long before this
+
+106
+00:01:52,350 --> 00:01:52,360
+already under pressure long before this
+ 
+
+107
+00:01:52,360 --> 00:01:54,910
+already under pressure long before this
+latest Wall Street downgrade. And third,
+
+108
+00:01:54,910 --> 00:01:54,920
+latest Wall Street downgrade. And third,
+ 
+
+109
+00:01:54,920 --> 00:01:56,310
+latest Wall Street downgrade. And third,
+the big one.
+
+110
+00:01:56,310 --> 00:01:56,320
+the big one.
+ 
+
+111
+00:01:56,320 --> 00:01:58,910
+the big one.
+Why the 2024 SAR rule inflection was
+
+112
+00:01:58,910 --> 00:01:58,920
+Why the 2024 SAR rule inflection was
+ 
+
+113
+00:01:58,920 --> 00:02:00,630
+Why the 2024 SAR rule inflection was
+such a major warning, why it got
+
+114
+00:02:00,630 --> 00:02:00,640
+such a major warning, why it got
+ 
+
+115
+00:02:00,640 --> 00:02:02,750
+such a major warning, why it got
+dismissed, and why the labor market has
+
+116
+00:02:02,750 --> 00:02:02,760
+dismissed, and why the labor market has
+ 
+
+117
+00:02:02,760 --> 00:02:05,390
+dismissed, and why the labor market has
+been the real story the entire time. The
+
+118
+00:02:05,390 --> 00:02:05,400
+been the real story the entire time. The
+ 
+
+119
+00:02:05,400 --> 00:02:06,950
+been the real story the entire time. The
+problem was that everyone kept mistaking
+
+120
+00:02:06,950 --> 00:02:06,960
+problem was that everyone kept mistaking
+ 
+
+121
+00:02:06,960 --> 00:02:08,469
+problem was that everyone kept mistaking
+the stock market, the official
+
+122
+00:02:08,469 --> 00:02:08,479
+the stock market, the official
+ 
+
+123
+00:02:08,479 --> 00:02:09,990
+the stock market, the official
+unemployment rate, and a few headline
+
+124
+00:02:09,990 --> 00:02:10,000
+unemployment rate, and a few headline
+ 
+
+125
+00:02:10,000 --> 00:02:12,750
+unemployment rate, and a few headline
+payroll numbers for the actual economy.
+
+126
+00:02:12,750 --> 00:02:12,760
+payroll numbers for the actual economy.
+ 
+
+127
+00:02:12,760 --> 00:02:15,030
+payroll numbers for the actual economy.
+And now Goldilocks isn't just gone,
+
+128
+00:02:15,030 --> 00:02:15,040
+And now Goldilocks isn't just gone,
+ 
+
+129
+00:02:15,040 --> 00:02:18,270
+And now Goldilocks isn't just gone,
+she's got no way to come back.
+
+130
+00:02:18,270 --> 00:02:18,280
+she's got no way to come back.
+ 
+
+131
+00:02:18,280 --> 00:02:20,670
+she's got no way to come back.
+Now, according to the report, JP Morgan
+
+132
+00:02:20,670 --> 00:02:20,680
+Now, according to the report, JP Morgan
+ 
+
+133
+00:02:20,680 --> 00:02:21,910
+Now, according to the report, JP Morgan
+is no longer comfortable with the
+
+134
+00:02:21,910 --> 00:02:21,920
+is no longer comfortable with the
+ 
+
+135
+00:02:21,920 --> 00:02:23,949
+is no longer comfortable with the
+Goldilocks setup. That setup was,
+
+136
+00:02:23,949 --> 00:02:23,959
+Goldilocks setup. That setup was,
+ 
+
+137
+00:02:23,959 --> 00:02:26,230
+Goldilocks setup. That setup was,
+according to JP Morgan, quite simple.
+
+138
+00:02:26,230 --> 00:02:26,240
+according to JP Morgan, quite simple.
+ 
+
+139
+00:02:26,240 --> 00:02:28,030
+according to JP Morgan, quite simple.
+Growth slows, but not too much.
+
+140
+00:02:28,030 --> 00:02:28,040
+Growth slows, but not too much.
+ 
+
+141
+00:02:28,040 --> 00:02:30,150
+Growth slows, but not too much.
+Inflation cools, but not because demand
+
+142
+00:02:30,150 --> 00:02:30,160
+Inflation cools, but not because demand
+ 
+
+143
+00:02:30,160 --> 00:02:32,670
+Inflation cools, but not because demand
+collapses. The labor market softens,
+
+144
+00:02:32,670 --> 00:02:32,680
+collapses. The labor market softens,
+ 
+
+145
+00:02:32,680 --> 00:02:34,510
+collapses. The labor market softens,
+but it doesn't break. Corporate profits
+
+146
+00:02:34,510 --> 00:02:34,520
+but it doesn't break. Corporate profits
+ 
+
+147
+00:02:34,520 --> 00:02:36,070
+but it doesn't break. Corporate profits
+hold up, so does the stock market. The
+
+148
+00:02:36,070 --> 00:02:36,080
+hold up, so does the stock market. The
+ 
+
+149
+00:02:36,080 --> 00:02:37,949
+hold up, so does the stock market. The
+Fed eventually cuts rates, stocks keep
+
+150
+00:02:37,949 --> 00:02:37,959
+Fed eventually cuts rates, stocks keep
+ 
+
+151
+00:02:37,959 --> 00:02:40,070
+Fed eventually cuts rates, stocks keep
+levitating. Everyone gets to pretend the
+
+152
+00:02:40,070 --> 00:02:40,080
+levitating. Everyone gets to pretend the
+ 
+
+153
+00:02:40,080 --> 00:02:42,270
+levitating. Everyone gets to pretend the
+business cycle has been repealed. That
+
+154
+00:02:42,270 --> 00:02:42,280
+business cycle has been repealed. That
+ 
+
+155
+00:02:42,280 --> 00:02:45,190
+business cycle has been repealed. That
+was Goldilocks. Not too hot, not too
+
+156
+00:02:45,190 --> 00:02:45,200
+was Goldilocks. Not too hot, not too
+ 
+
+157
+00:02:45,200 --> 00:02:48,550
+was Goldilocks. Not too hot, not too
+cold, just perfect and right to continue
+
+158
+00:02:48,550 --> 00:02:48,560
+cold, just perfect and right to continue
+ 
+
+159
+00:02:48,560 --> 00:02:51,470
+cold, just perfect and right to continue
+buying risky assets. But now JP Morgan
+
+160
+00:02:51,470 --> 00:02:51,480
+buying risky assets. But now JP Morgan
+ 
+
+161
+00:02:51,480 --> 00:02:53,670
+buying risky assets. But now JP Morgan
+is talking about the risk of a negative
+
+162
+00:02:53,670 --> 00:02:53,680
+is talking about the risk of a negative
+ 
+
+163
+00:02:53,680 --> 00:02:56,470
+is talking about the risk of a negative
+growth shock, and that's the entire ball
+
+164
+00:02:56,470 --> 00:02:56,480
+growth shock, and that's the entire ball
+ 
+
+165
+00:02:56,480 --> 00:02:58,350
+growth shock, and that's the entire ball
+game. Because a negative growth shock is
+
+166
+00:02:58,350 --> 00:02:58,360
+game. Because a negative growth shock is
+ 
+
+167
+00:02:58,360 --> 00:03:00,110
+game. Because a negative growth shock is
+not growth that slows from great to
+
+168
+00:03:00,110 --> 00:03:00,120
+not growth that slows from great to
+ 
+
+169
+00:03:00,120 --> 00:03:02,390
+not growth that slows from great to
+good. It's not that consumers rotate
+
+170
+00:03:02,390 --> 00:03:02,400
+good. It's not that consumers rotate
+ 
+
+171
+00:03:02,400 --> 00:03:04,190
+good. It's not that consumers rotate
+from goods to services, like we kept
+
+172
+00:03:04,190 --> 00:03:04,200
+from goods to services, like we kept
+ 
+
+173
+00:03:04,200 --> 00:03:06,310
+from goods to services, like we kept
+hearing. It's not temporary uncertainty.
+
+174
+00:03:06,310 --> 00:03:06,320
+hearing. It's not temporary uncertainty.
+ 
+
+175
+00:03:06,320 --> 00:03:08,270
+hearing. It's not temporary uncertainty.
+It means the downside is moving from
+
+176
+00:03:08,270 --> 00:03:08,280
+It means the downside is moving from
+ 
+
+177
+00:03:08,280 --> 00:03:11,270
+It means the downside is moving from
+theoretical to visible.
+
+178
+00:03:11,270 --> 00:03:11,280
+theoretical to visible.
+ 
+
+179
+00:03:11,280 --> 00:03:13,070
+theoretical to visible.
+It means the economy may not be gently
+
+180
+00:03:13,070 --> 00:03:13,080
+It means the economy may not be gently
+ 
+
+181
+00:03:13,080 --> 00:03:16,509
+It means the economy may not be gently
+cooling, it may already be rolling over.
+
+182
+00:03:16,509 --> 00:03:16,519
+cooling, it may already be rolling over.
+ 
+
+183
+00:03:16,519 --> 00:03:17,670
+cooling, it may already be rolling over.
+And this is where the timing gets
+
+184
+00:03:17,670 --> 00:03:17,680
+And this is where the timing gets
+ 
+
+185
+00:03:17,680 --> 00:03:20,110
+And this is where the timing gets
+important. JP Morgan is not discovering
+
+186
+00:03:20,110 --> 00:03:20,120
+important. JP Morgan is not discovering
+ 
+
+187
+00:03:20,120 --> 00:03:21,710
+important. JP Morgan is not discovering
+an economy that was healthy yesterday
+
+188
+00:03:21,710 --> 00:03:21,720
+an economy that was healthy yesterday
+ 
+
+189
+00:03:21,720 --> 00:03:23,550
+an economy that was healthy yesterday
+and weak today. Wall Street is merely
+
+190
+00:03:23,550 --> 00:03:23,560
+and weak today. Wall Street is merely
+ 
+
+191
+00:03:23,560 --> 00:03:25,670
+and weak today. Wall Street is merely
+catching up to a deterioration that has
+
+192
+00:03:25,670 --> 00:03:25,680
+catching up to a deterioration that has
+ 
+
+193
+00:03:25,680 --> 00:03:28,630
+catching up to a deterioration that has
+been building all this time. It's the
+
+194
+00:03:28,630 --> 00:03:28,640
+been building all this time. It's the
+ 
+
+195
+00:03:28,640 --> 00:03:31,190
+been building all this time. It's the
+same pattern we've seen again and again.
+
+196
+00:03:31,190 --> 00:03:31,200
+same pattern we've seen again and again.
+ 
+
+197
+00:03:31,200 --> 00:03:32,990
+same pattern we've seen again and again.
+First, the data starts to wobble, then
+
+198
+00:03:32,990 --> 00:03:33,000
+First, the data starts to wobble, then
+ 
+
+199
+00:03:33,000 --> 00:03:34,710
+First, the data starts to wobble, then
+consumers start telling surveys that
+
+200
+00:03:34,710 --> 00:03:34,720
+consumers start telling surveys that
+ 
+
+201
+00:03:34,720 --> 00:03:36,670
+consumers start telling surveys that
+something big is wrong, then companies
+
+202
+00:03:36,670 --> 00:03:36,680
+something big is wrong, then companies
+ 
+
+203
+00:03:36,680 --> 00:03:39,110
+something big is wrong, then companies
+start talking about, quote, challenging
+
+204
+00:03:39,110 --> 00:03:39,120
+start talking about, quote, challenging
+ 
+
+205
+00:03:39,120 --> 00:03:41,509
+start talking about, quote, challenging
+conditions. Then hiring slows down, job
+
+206
+00:03:41,509 --> 00:03:41,519
+conditions. Then hiring slows down, job
+ 
+
+207
+00:03:41,519 --> 00:03:43,949
+conditions. Then hiring slows down, job
+openings disappear, quit rates fall, the
+
+208
+00:03:43,949 --> 00:03:43,959
+openings disappear, quit rates fall, the
+ 
+
+209
+00:03:43,959 --> 00:03:45,710
+openings disappear, quit rates fall, the
+unemployment starts to move, and then
+
+210
+00:03:45,710 --> 00:03:45,720
+unemployment starts to move, and then
+ 
+
+211
+00:03:45,720 --> 00:03:48,470
+unemployment starts to move, and then
+everyone at least tries to explain it
+
+212
+00:03:48,470 --> 00:03:48,480
+everyone at least tries to explain it
+ 
+
+213
+00:03:48,480 --> 00:03:50,710
+everyone at least tries to explain it
+away. And only after the evidence piles
+
+214
+00:03:50,710 --> 00:03:50,720
+away. And only after the evidence piles
+ 
+
+215
+00:03:50,720 --> 00:03:52,350
+away. And only after the evidence piles
+up high enough that even Wall Street
+
+216
+00:03:52,350 --> 00:03:52,360
+up high enough that even Wall Street
+ 
+
+217
+00:03:52,360 --> 00:03:54,390
+up high enough that even Wall Street
+can't step over it anymore, does the
+
+218
+00:03:54,390 --> 00:03:54,400
+can't step over it anymore, does the
+ 
+
+219
+00:03:54,400 --> 00:03:56,390
+can't step over it anymore, does the
+official narrative finally change?
+
+220
+00:03:56,390 --> 00:03:56,400
+official narrative finally change?
+ 
+
+221
+00:03:56,400 --> 00:03:57,950
+official narrative finally change?
+That's what Goldilocks is leaving the
+
+222
+00:03:57,950 --> 00:03:57,960
+That's what Goldilocks is leaving the
+ 
+
+223
+00:03:57,960 --> 00:03:59,950
+That's what Goldilocks is leaving the
+building really means. It means the
+
+224
+00:03:59,950 --> 00:03:59,960
+building really means. It means the
+ 
+
+225
+00:03:59,960 --> 00:04:02,430
+building really means. It means the
+narrative is being revised long after
+
+226
+00:04:02,430 --> 00:04:02,440
+narrative is being revised long after
+ 
+
+227
+00:04:02,440 --> 00:04:04,950
+narrative is being revised long after
+the economy had already shifted. Now,
+
+228
+00:04:04,950 --> 00:04:04,960
+the economy had already shifted. Now,
+ 
+
+229
+00:04:04,960 --> 00:04:07,150
+the economy had already shifted. Now,
+this episode is sponsored by Augusta
+
+230
+00:04:07,150 --> 00:04:07,160
+this episode is sponsored by Augusta
+ 
+
+231
+00:04:07,160 --> 00:04:08,990
+this episode is sponsored by Augusta
+Precious Metals. Now, most of what we
+
+232
+00:04:08,990 --> 00:04:09,000
+Precious Metals. Now, most of what we
+ 
+
+233
+00:04:09,000 --> 00:04:10,550
+Precious Metals. Now, most of what we
+cover on this show is how the financial
+
+234
+00:04:10,550 --> 00:04:10,560
+cover on this show is how the financial
+ 
+
+235
+00:04:10,560 --> 00:04:12,630
+cover on this show is how the financial
+system actually works, the mechanics,
+
+236
+00:04:12,630 --> 00:04:12,640
+system actually works, the mechanics,
+ 
+
+237
+00:04:12,640 --> 00:04:14,750
+system actually works, the mechanics,
+the incentives, the plumbing. But, one
+
+238
+00:04:14,750 --> 00:04:14,760
+the incentives, the plumbing. But, one
+ 
+
+239
+00:04:14,760 --> 00:04:17,030
+the incentives, the plumbing. But, one
+question I get from everybody is, "Okay,
+
+240
+00:04:17,030 --> 00:04:17,040
+question I get from everybody is, "Okay,
+ 
+
+241
+00:04:17,040 --> 00:04:19,069
+question I get from everybody is, "Okay,
+I understand everything now, but what do
+
+242
+00:04:19,069 --> 00:04:19,079
+I understand everything now, but what do
+ 
+
+243
+00:04:19,079 --> 00:04:21,110
+I understand everything now, but what do
+I do with this?" Now, I can't answer
+
+244
+00:04:21,110 --> 00:04:21,120
+I do with this?" Now, I can't answer
+ 
+
+245
+00:04:21,120 --> 00:04:22,710
+I do with this?" Now, I can't answer
+that question for you. Everybody's
+
+246
+00:04:22,710 --> 00:04:22,720
+that question for you. Everybody's
+ 
+
+247
+00:04:22,720 --> 00:04:24,390
+that question for you. Everybody's
+different. But, one thing worth
+
+248
+00:04:24,390 --> 00:04:24,400
+different. But, one thing worth
+ 
+
+249
+00:04:24,400 --> 00:04:25,790
+different. But, one thing worth
+understanding is that a lot of
+
+250
+00:04:25,790 --> 00:04:25,800
+understanding is that a lot of
+ 
+
+251
+00:04:25,800 --> 00:04:27,430
+understanding is that a lot of
+retirement accounts are built around a
+
+252
+00:04:27,430 --> 00:04:27,440
+retirement accounts are built around a
+ 
+
+253
+00:04:27,440 --> 00:04:28,990
+retirement accounts are built around a
+pretty narrow set of asset types, and
+
+254
+00:04:28,990 --> 00:04:29,000
+pretty narrow set of asset types, and
+ 
+
+255
+00:04:29,000 --> 00:04:30,990
+pretty narrow set of asset types, and
+most people never learn what else is
+
+256
+00:04:30,990 --> 00:04:31,000
+most people never learn what else is
+ 
+
+257
+00:04:31,000 --> 00:04:33,350
+most people never learn what else is
+available to them. Physical gold held in
+
+258
+00:04:33,350 --> 00:04:33,360
+available to them. Physical gold held in
+ 
+
+259
+00:04:33,360 --> 00:04:35,510
+available to them. Physical gold held in
+an IRA is one of those options. Now,
+
+260
+00:04:35,510 --> 00:04:35,520
+an IRA is one of those options. Now,
+ 
+
+261
+00:04:35,520 --> 00:04:37,310
+an IRA is one of those options. Now,
+whether it makes sense for you, that's a
+
+262
+00:04:37,310 --> 00:04:37,320
+whether it makes sense for you, that's a
+ 
+
+263
+00:04:37,320 --> 00:04:38,870
+whether it makes sense for you, that's a
+separate question. And the reason I'm
+
+264
+00:04:38,870 --> 00:04:38,880
+separate question. And the reason I'm
+ 
+
+265
+00:04:38,880 --> 00:04:40,430
+separate question. And the reason I'm
+comfortable pointing people to Augusta
+
+266
+00:04:40,430 --> 00:04:40,440
+comfortable pointing people to Augusta
+ 
+
+267
+00:04:40,440 --> 00:04:42,550
+comfortable pointing people to Augusta
+Precious Metals is that their approach
+
+268
+00:04:42,550 --> 00:04:42,560
+Precious Metals is that their approach
+ 
+
+269
+00:04:42,560 --> 00:04:45,110
+Precious Metals is that their approach
+is education first, just like us at
+
+270
+00:04:45,110 --> 00:04:45,120
+is education first, just like us at
+ 
+
+271
+00:04:45,120 --> 00:04:46,790
+is education first, just like us at
+Eurodollar University. They'll walk you
+
+272
+00:04:46,790 --> 00:04:46,800
+Eurodollar University. They'll walk you
+ 
+
+273
+00:04:46,800 --> 00:04:48,670
+Eurodollar University. They'll walk you
+through how a gold IRA actually works,
+
+274
+00:04:48,670 --> 00:04:48,680
+through how a gold IRA actually works,
+ 
+
+275
+00:04:48,680 --> 00:04:51,110
+through how a gold IRA actually works,
+the mechanics, the fees, the custodial
+
+276
+00:04:51,110 --> 00:04:51,120
+the mechanics, the fees, the custodial
+ 
+
+277
+00:04:51,120 --> 00:04:53,390
+the mechanics, the fees, the custodial
+side, and let you decide if it's
+
+278
+00:04:53,390 --> 00:04:53,400
+side, and let you decide if it's
+ 
+
+279
+00:04:53,400 --> 00:04:55,230
+side, and let you decide if it's
+relevant to your situation. If you want
+
+280
+00:04:55,230 --> 00:04:55,240
+relevant to your situation. If you want
+ 
+
+281
+00:04:55,240 --> 00:04:58,110
+relevant to your situation. If you want
+to learn more, go to eurodollargold.com
+
+282
+00:04:58,110 --> 00:04:58,120
+to learn more, go to eurodollargold.com
+ 
+
+283
+00:04:58,120 --> 00:05:00,909
+to learn more, go to eurodollargold.com
+or text euro to 35052,
+
+284
+00:05:00,909 --> 00:05:00,919
+or text euro to 35052,
+ 
+
+285
+00:05:00,919 --> 00:05:02,630
+or text euro to 35052,
+and they'll send you a free guide. Now,
+
+286
+00:05:02,630 --> 00:05:02,640
+and they'll send you a free guide. Now,
+ 
+
+287
+00:05:02,640 --> 00:05:03,830
+and they'll send you a free guide. Now,
+Augusta Precious Metals is a paid
+
+288
+00:05:03,830 --> 00:05:03,840
+Augusta Precious Metals is a paid
+ 
+
+289
+00:05:03,840 --> 00:05:04,830
+Augusta Precious Metals is a paid
+sponsor, and we thank them for their
+
+290
+00:05:04,830 --> 00:05:04,840
+sponsor, and we thank them for their
+ 
+
+291
+00:05:04,840 --> 00:05:06,350
+sponsor, and we thank them for their
+sponsorship. This is for educational
+
+292
+00:05:06,350 --> 00:05:06,360
+sponsorship. This is for educational
+ 
+
+293
+00:05:06,360 --> 00:05:08,110
+sponsorship. This is for educational
+purposes only and not investment advice.
+
+294
+00:05:08,110 --> 00:05:08,120
+purposes only and not investment advice.
+ 
+
+295
+00:05:08,120 --> 00:05:09,990
+purposes only and not investment advice.
+Consult a qualified financial
+
+296
+00:05:09,990 --> 00:05:10,000
+Consult a qualified financial
+ 
+
+297
+00:05:10,000 --> 00:05:11,430
+Consult a qualified financial
+professional before making any
+
+298
+00:05:11,430 --> 00:05:11,440
+professional before making any
+ 
+
+299
+00:05:11,440 --> 00:05:13,150
+professional before making any
+investment decisions. And the reason why
+
+300
+00:05:13,150 --> 00:05:13,160
+investment decisions. And the reason why
+ 
+
+301
+00:05:13,160 --> 00:05:15,030
+investment decisions. And the reason why
+JP Morgan shift matters because it
+
+302
+00:05:15,030 --> 00:05:15,040
+JP Morgan shift matters because it
+ 
+
+303
+00:05:15,040 --> 00:05:17,070
+JP Morgan shift matters because it
+finally admits what we've been saying
+
+304
+00:05:17,070 --> 00:05:17,080
+finally admits what we've been saying
+ 
+
+305
+00:05:17,080 --> 00:05:20,270
+finally admits what we've been saying
+all this time, fragile, not strong and
+
+306
+00:05:20,270 --> 00:05:20,280
+all this time, fragile, not strong and
+ 
+
+307
+00:05:20,280 --> 00:05:22,790
+all this time, fragile, not strong and
+resilient. The energy shock takes place,
+
+308
+00:05:22,790 --> 00:05:22,800
+resilient. The energy shock takes place,
+ 
+
+309
+00:05:22,800 --> 00:05:24,630
+resilient. The energy shock takes place,
+yes, but the energy shock in the
+
+310
+00:05:24,630 --> 00:05:24,640
+yes, but the energy shock in the
+ 
+
+311
+00:05:24,640 --> 00:05:26,350
+yes, but the energy shock in the
+historical context is the marriage
+
+312
+00:05:26,350 --> 00:05:26,360
+historical context is the marriage
+ 
+
+313
+00:05:26,360 --> 00:05:29,909
+historical context is the marriage
+between that shock and a fragile economy
+
+314
+00:05:29,909 --> 00:05:29,919
+between that shock and a fragile economy
+ 
+
+315
+00:05:29,919 --> 00:05:34,270
+between that shock and a fragile economy
+that simply cannot afford to pay for it.
+
+316
+00:05:34,270 --> 00:05:34,280
+that simply cannot afford to pay for it.
+ 
+
+317
+00:05:34,280 --> 00:05:35,750
+that simply cannot afford to pay for it.
+Consumers weren't sitting there with a
+
+318
+00:05:35,750 --> 00:05:35,760
+Consumers weren't sitting there with a
+ 
+
+319
+00:05:35,760 --> 00:05:38,150
+Consumers weren't sitting there with a
+massive excess savings and secure jobs
+
+320
+00:05:38,150 --> 00:05:38,160
+massive excess savings and secure jobs
+ 
+
+321
+00:05:38,160 --> 00:05:40,190
+massive excess savings and secure jobs
+just waiting to absorb higher prices and
+
+322
+00:05:40,190 --> 00:05:40,200
+just waiting to absorb higher prices and
+ 
+
+323
+00:05:40,200 --> 00:05:42,190
+just waiting to absorb higher prices and
+energy costs in the even weaker labor
+
+324
+00:05:42,190 --> 00:05:42,200
+energy costs in the even weaker labor
+ 
+
+325
+00:05:42,200 --> 00:05:44,150
+energy costs in the even weaker labor
+market. They were already stretched.
+
+326
+00:05:44,150 --> 00:05:44,160
+market. They were already stretched.
+ 
+
+327
+00:05:44,160 --> 00:05:45,909
+market. They were already stretched.
+We've heard it from fast-food companies
+
+328
+00:05:45,909 --> 00:05:45,919
+We've heard it from fast-food companies
+ 
+
+329
+00:05:45,919 --> 00:05:47,390
+We've heard it from fast-food companies
+and retailers. We've heard it from
+
+330
+00:05:47,390 --> 00:05:47,400
+and retailers. We've heard it from
+ 
+
+331
+00:05:47,400 --> 00:05:49,830
+and retailers. We've heard it from
+appliance makers, packaged food
+
+332
+00:05:49,830 --> 00:05:49,840
+appliance makers, packaged food
+ 
+
+333
+00:05:49,840 --> 00:05:52,110
+appliance makers, packaged food
+companies, management teams. They keep
+
+334
+00:05:52,110 --> 00:05:52,120
+companies, management teams. They keep
+ 
+
+335
+00:05:52,120 --> 00:05:53,630
+companies, management teams. They keep
+reaching for polite language, you know,
+
+336
+00:05:53,630 --> 00:05:53,640
+reaching for polite language, you know,
+ 
+
+337
+00:05:53,640 --> 00:05:55,670
+reaching for polite language, you know,
+challenging consumer environment and
+
+338
+00:05:55,670 --> 00:05:55,680
+challenging consumer environment and
+ 
+
+339
+00:05:55,680 --> 00:05:58,110
+challenging consumer environment and
+affordability pressures or value seeking
+
+340
+00:05:58,110 --> 00:05:58,120
+affordability pressures or value seeking
+ 
+
+341
+00:05:58,120 --> 00:06:00,590
+affordability pressures or value seeking
+behavior. Because CEOs generally don't
+
+342
+00:06:00,590 --> 00:06:00,600
+behavior. Because CEOs generally don't
+ 
+
+343
+00:06:00,600 --> 00:06:02,390
+behavior. Because CEOs generally don't
+go on earnings calls and say, "Our
+
+344
+00:06:02,390 --> 00:06:02,400
+go on earnings calls and say, "Our
+ 
+
+345
+00:06:02,400 --> 00:06:04,030
+go on earnings calls and say, "Our
+customers are broke." But that's
+
+346
+00:06:04,030 --> 00:06:04,040
+customers are broke." But that's
+ 
+
+347
+00:06:04,040 --> 00:06:05,710
+customers are broke." But that's
+increasingly what the language means,
+
+348
+00:06:05,710 --> 00:06:05,720
+increasingly what the language means,
+ 
+
+349
+00:06:05,720 --> 00:06:07,390
+increasingly what the language means,
+and that's why the Goldilocks story was
+
+350
+00:06:07,390 --> 00:06:07,400
+and that's why the Goldilocks story was
+ 
+
+351
+00:06:07,400 --> 00:06:09,590
+and that's why the Goldilocks story was
+always so fragile. It depended on the
+
+352
+00:06:09,590 --> 00:06:09,600
+always so fragile. It depended on the
+ 
+
+353
+00:06:09,600 --> 00:06:11,550
+always so fragile. It depended on the
+idea that consumers could keep spending
+
+354
+00:06:11,550 --> 00:06:11,560
+idea that consumers could keep spending
+ 
+
+355
+00:06:11,560 --> 00:06:13,110
+idea that consumers could keep spending
+despite a labor market that was already
+
+356
+00:06:13,110 --> 00:06:13,120
+despite a labor market that was already
+ 
+
+357
+00:06:13,120 --> 00:06:15,070
+despite a labor market that was already
+cooling and despite incomes that were
+
+358
+00:06:15,070 --> 00:06:15,080
+cooling and despite incomes that were
+ 
+
+359
+00:06:15,080 --> 00:06:16,630
+cooling and despite incomes that were
+not keeping up with the real cost of
+
+360
+00:06:16,630 --> 00:06:16,640
+not keeping up with the real cost of
+ 
+
+361
+00:06:16,640 --> 00:06:19,150
+not keeping up with the real cost of
+living for most, the vast majority of
+
+362
+00:06:19,150 --> 00:06:19,160
+living for most, the vast majority of
+ 
+
+363
+00:06:19,160 --> 00:06:20,790
+living for most, the vast majority of
+households. That's not Goldilocks,
+
+364
+00:06:20,790 --> 00:06:20,800
+households. That's not Goldilocks,
+ 
+
+365
+00:06:20,800 --> 00:06:22,750
+households. That's not Goldilocks,
+that's a pressure cooker. The stock
+
+366
+00:06:22,750 --> 00:06:22,760
+that's a pressure cooker. The stock
+ 
+
+367
+00:06:22,760 --> 00:06:25,390
+that's a pressure cooker. The stock
+market may be pricing perfection, but
+
+368
+00:06:25,390 --> 00:06:25,400
+market may be pricing perfection, but
+ 
+
+369
+00:06:25,400 --> 00:06:27,110
+market may be pricing perfection, but
+the household economy was pricing
+
+370
+00:06:27,110 --> 00:06:27,120
+the household economy was pricing
+ 
+
+371
+00:06:27,120 --> 00:06:29,190
+the household economy was pricing
+survival. And there's a massive
+
+372
+00:06:29,190 --> 00:06:29,200
+survival. And there's a massive
+ 
+
+373
+00:06:29,200 --> 00:06:31,750
+survival. And there's a massive
+difference between those two things.
+
+374
+00:06:31,750 --> 00:06:31,760
+difference between those two things.
+ 
+
+375
+00:06:31,760 --> 00:06:33,550
+difference between those two things.
+And that has been the real story the
+
+376
+00:06:33,550 --> 00:06:33,560
+And that has been the real story the
+ 
+
+377
+00:06:33,560 --> 00:06:35,590
+And that has been the real story the
+entire time, the survival, the lack of
+
+378
+00:06:35,590 --> 00:06:35,600
+entire time, the survival, the lack of
+ 
+
+379
+00:06:35,600 --> 00:06:37,870
+entire time, the survival, the lack of
+income, the lack of jobs, increasingly
+
+380
+00:06:37,870 --> 00:06:37,880
+income, the lack of jobs, increasingly
+ 
+
+381
+00:06:37,880 --> 00:06:40,310
+income, the lack of jobs, increasingly
+lack of jobs, flat beverage, not the
+
+382
+00:06:40,310 --> 00:06:40,320
+lack of jobs, flat beverage, not the
+ 
+
+383
+00:06:40,320 --> 00:06:41,950
+lack of jobs, flat beverage, not the
+first Friday in every month and what the
+
+384
+00:06:41,950 --> 00:06:41,960
+first Friday in every month and what the
+ 
+
+385
+00:06:41,960 --> 00:06:43,750
+first Friday in every month and what the
+payroll report might say, at least today
+
+386
+00:06:43,750 --> 00:06:43,760
+payroll report might say, at least today
+ 
+
+387
+00:06:43,760 --> 00:06:45,630
+payroll report might say, at least today
+before it gets revised. The real story
+
+388
+00:06:45,630 --> 00:06:45,640
+before it gets revised. The real story
+ 
+
+389
+00:06:45,640 --> 00:06:49,150
+before it gets revised. The real story
+has always been in the jobs market.
+
+390
+00:06:49,150 --> 00:06:49,160
+has always been in the jobs market.
+ 
+
+391
+00:06:49,160 --> 00:06:50,510
+has always been in the jobs market.
+And when you look at it broadly, the
+
+392
+00:06:50,510 --> 00:06:50,520
+And when you look at it broadly, the
+ 
+
+393
+00:06:50,520 --> 00:06:52,550
+And when you look at it broadly, the
+picture has been deteriorating since
+
+394
+00:06:52,550 --> 00:06:52,560
+picture has been deteriorating since
+ 
+
+395
+00:06:52,560 --> 00:06:55,310
+picture has been deteriorating since
+2024. Job openings declined, quits
+
+396
+00:06:55,310 --> 00:06:55,320
+2024. Job openings declined, quits
+ 
+
+397
+00:06:55,320 --> 00:06:58,110
+2024. Job openings declined, quits
+declined, hiring disappeared. Full
+
+398
+00:06:58,110 --> 00:06:58,120
+declined, hiring disappeared. Full
+ 
+
+399
+00:06:58,120 --> 00:06:59,430
+declined, hiring disappeared. Full
+employment came under pressure. The
+
+400
+00:06:59,430 --> 00:06:59,440
+employment came under pressure. The
+ 
+
+401
+00:06:59,440 --> 00:07:02,070
+employment came under pressure. The
+household survey showed very serious
+
+402
+00:07:02,070 --> 00:07:02,080
+household survey showed very serious
+ 
+
+403
+00:07:02,080 --> 00:07:04,590
+household survey showed very serious
+weakness. Labor force participation,
+
+404
+00:07:04,590 --> 00:07:04,600
+weakness. Labor force participation,
+ 
+
+405
+00:07:04,600 --> 00:07:07,110
+weakness. Labor force participation,
+very important, stopped improving.
+
+406
+00:07:07,110 --> 00:07:07,120
+very important, stopped improving.
+ 
+
+407
+00:07:07,120 --> 00:07:09,350
+very important, stopped improving.
+Continuing jobless claims were elevated.
+
+408
+00:07:09,350 --> 00:07:09,360
+Continuing jobless claims were elevated.
+ 
+
+409
+00:07:09,360 --> 00:07:10,870
+Continuing jobless claims were elevated.
+Challenger layoff announcements kept
+
+410
+00:07:10,870 --> 00:07:10,880
+Challenger layoff announcements kept
+ 
+
+411
+00:07:10,880 --> 00:07:12,230
+Challenger layoff announcements kept
+reminding everyone that companies were
+
+412
+00:07:12,230 --> 00:07:12,240
+reminding everyone that companies were
+ 
+
+413
+00:07:12,240 --> 00:07:14,230
+reminding everyone that companies were
+no longer in expansion mode. And even
+
+414
+00:07:14,230 --> 00:07:14,240
+no longer in expansion mode. And even
+ 
+
+415
+00:07:14,240 --> 00:07:15,870
+no longer in expansion mode. And even
+when the establishment survey printed a
+
+416
+00:07:15,870 --> 00:07:15,880
+when the establishment survey printed a
+ 
+
+417
+00:07:15,880 --> 00:07:18,270
+when the establishment survey printed a
+positive number, the internals were
+
+418
+00:07:18,270 --> 00:07:18,280
+positive number, the internals were
+ 
+
+419
+00:07:18,280 --> 00:07:20,190
+positive number, the internals were
+often nowhere near as strong as the
+
+420
+00:07:20,190 --> 00:07:20,200
+often nowhere near as strong as the
+ 
+
+421
+00:07:20,200 --> 00:07:22,630
+often nowhere near as strong as the
+headline suggested. It doesn't always
+
+422
+00:07:22,630 --> 00:07:22,640
+headline suggested. It doesn't always
+ 
+
+423
+00:07:22,640 --> 00:07:25,030
+headline suggested. It doesn't always
+start or end with mass layoffs.
+
+424
+00:07:25,030 --> 00:07:25,040
+start or end with mass layoffs.
+ 
+
+425
+00:07:25,040 --> 00:07:26,750
+start or end with mass layoffs.
+Sometimes it starts with no hiring, then
+
+426
+00:07:26,750 --> 00:07:26,760
+Sometimes it starts with no hiring, then
+ 
+
+427
+00:07:26,760 --> 00:07:29,030
+Sometimes it starts with no hiring, then
+fewer hours, then fewer quits, fewer
+
+428
+00:07:29,030 --> 00:07:29,040
+fewer hours, then fewer quits, fewer
+ 
+
+429
+00:07:29,040 --> 00:07:31,390
+fewer hours, then fewer quits, fewer
+opportunities, then people who lose jobs
+
+430
+00:07:31,390 --> 00:07:31,400
+opportunities, then people who lose jobs
+ 
+
+431
+00:07:31,400 --> 00:07:33,350
+opportunities, then people who lose jobs
+take longer to find new ones, then new
+
+432
+00:07:33,350 --> 00:07:33,360
+take longer to find new ones, then new
+ 
+
+433
+00:07:33,360 --> 00:07:35,470
+take longer to find new ones, then new
+entrants can't get a foothold, youth
+
+434
+00:07:35,470 --> 00:07:35,480
+entrants can't get a foothold, youth
+ 
+
+435
+00:07:35,480 --> 00:07:36,950
+entrants can't get a foothold, youth
+unemployment skyrockets, then
+
+436
+00:07:36,950 --> 00:07:36,960
+unemployment skyrockets, then
+ 
+
+437
+00:07:36,960 --> 00:07:39,150
+unemployment skyrockets, then
+discouraged workers stop looking. The
+
+438
+00:07:39,150 --> 00:07:39,160
+discouraged workers stop looking. The
+ 
+
+439
+00:07:39,160 --> 00:07:40,710
+discouraged workers stop looking. The
+unemployment rate doesn't rise as much
+
+440
+00:07:40,710 --> 00:07:40,720
+unemployment rate doesn't rise as much
+ 
+
+441
+00:07:40,720 --> 00:07:42,830
+unemployment rate doesn't rise as much
+as it should because people are
+
+442
+00:07:42,830 --> 00:07:42,840
+as it should because people are
+ 
+
+443
+00:07:42,840 --> 00:07:45,550
+as it should because people are
+disappearing from the official labor
+
+444
+00:07:45,550 --> 00:07:45,560
+disappearing from the official labor
+ 
+
+445
+00:07:45,560 --> 00:07:47,190
+disappearing from the official labor
+force. That's the kind of labor market
+
+446
+00:07:47,190 --> 00:07:47,200
+force. That's the kind of labor market
+ 
+
+447
+00:07:47,200 --> 00:07:49,110
+force. That's the kind of labor market
+where the official unemployment rate can
+
+448
+00:07:49,110 --> 00:07:49,120
+where the official unemployment rate can
+ 
+
+449
+00:07:49,120 --> 00:07:51,990
+where the official unemployment rate can
+look perfectly stable while the actual
+
+450
+00:07:51,990 --> 00:07:52,000
+look perfectly stable while the actual
+ 
+
+451
+00:07:52,000 --> 00:07:54,830
+look perfectly stable while the actual
+unemployment situation gets to be worse
+
+452
+00:07:54,830 --> 00:07:54,840
+unemployment situation gets to be worse
+ 
+
+453
+00:07:54,840 --> 00:07:56,590
+unemployment situation gets to be worse
+and worse and worse. This is the very
+
+454
+00:07:56,590 --> 00:07:56,600
+and worse and worse. This is the very
+ 
+
+455
+00:07:56,600 --> 00:07:59,630
+and worse and worse. This is the very
+essence of what flat beverage means in
+
+456
+00:07:59,630 --> 00:07:59,640
+essence of what flat beverage means in
+ 
+
+457
+00:07:59,640 --> 00:08:02,510
+essence of what flat beverage means in
+practical terms. And that is exactly the
+
+458
+00:08:02,510 --> 00:08:02,520
+practical terms. And that is exactly the
+ 
+
+459
+00:08:02,520 --> 00:08:03,910
+practical terms. And that is exactly the
+environment in which a negative growth
+
+460
+00:08:03,910 --> 00:08:03,920
+environment in which a negative growth
+ 
+
+461
+00:08:03,920 --> 00:08:06,270
+environment in which a negative growth
+shock becomes dangerous. Because if the
+
+462
+00:08:06,270 --> 00:08:06,280
+shock becomes dangerous. Because if the
+ 
+
+463
+00:08:06,280 --> 00:08:08,350
+shock becomes dangerous. Because if the
+labor market was already fragile before
+
+464
+00:08:08,350 --> 00:08:08,360
+labor market was already fragile before
+ 
+
+465
+00:08:08,360 --> 00:08:10,710
+labor market was already fragile before
+the shock, then the shock doesn't create
+
+466
+00:08:10,710 --> 00:08:10,720
+the shock, then the shock doesn't create
+ 
+
+467
+00:08:10,720 --> 00:08:14,030
+the shock, then the shock doesn't create
+the problem, it exposes it.
+
+468
+00:08:14,030 --> 00:08:14,040
+the problem, it exposes it.
+ 
+
+469
+00:08:14,040 --> 00:08:15,150
+the problem, it exposes it.
+Now, let's get to the key piece of
+
+470
+00:08:15,150 --> 00:08:15,160
+Now, let's get to the key piece of
+ 
+
+471
+00:08:15,160 --> 00:08:17,590
+Now, let's get to the key piece of
+evidence here, the Sahm rule, which is
+
+472
+00:08:17,590 --> 00:08:17,600
+evidence here, the Sahm rule, which is
+ 
+
+473
+00:08:17,600 --> 00:08:19,350
+evidence here, the Sahm rule, which is
+not really the Sahm rule. She took it
+
+474
+00:08:19,350 --> 00:08:19,360
+not really the Sahm rule. She took it
+ 
+
+475
+00:08:19,360 --> 00:08:21,070
+not really the Sahm rule. She took it
+from other people who had previously
+
+476
+00:08:21,070 --> 00:08:21,080
+from other people who had previously
+ 
+
+477
+00:08:21,080 --> 00:08:22,590
+from other people who had previously
+looked into the labor market. It's
+
+478
+00:08:22,590 --> 00:08:22,600
+looked into the labor market. It's
+ 
+
+479
+00:08:22,600 --> 00:08:24,950
+looked into the labor market. It's
+really about It's really about momentum
+
+480
+00:08:24,950 --> 00:08:24,960
+really about It's really about momentum
+ 
+
+481
+00:08:24,960 --> 00:08:26,990
+really about It's really about momentum
+in unemployment. How that's captured and
+
+482
+00:08:26,990 --> 00:08:27,000
+in unemployment. How that's captured and
+ 
+
+483
+00:08:27,000 --> 00:08:29,750
+in unemployment. How that's captured and
+changes in the unemployment rate itself.
+
+484
+00:08:29,750 --> 00:08:29,760
+changes in the unemployment rate itself.
+ 
+
+485
+00:08:29,760 --> 00:08:31,350
+changes in the unemployment rate itself.
+The rule is very simple. Again, the
+
+486
+00:08:31,350 --> 00:08:31,360
+The rule is very simple. Again, the
+ 
+
+487
+00:08:31,360 --> 00:08:32,589
+The rule is very simple. Again, the
+unemployment rate on a three-month
+
+488
+00:08:32,589 --> 00:08:32,599
+unemployment rate on a three-month
+ 
+
+489
+00:08:32,599 --> 00:08:35,230
+unemployment rate on a three-month
+average basis and compared to the low
+
+490
+00:08:35,230 --> 00:08:35,240
+average basis and compared to the low
+ 
+
+491
+00:08:35,240 --> 00:08:36,830
+average basis and compared to the low
+from the previous 12 months. When that
+
+492
+00:08:36,830 --> 00:08:36,840
+from the previous 12 months. When that
+ 
+
+493
+00:08:36,840 --> 00:08:38,790
+from the previous 12 months. When that
+gap rises by half a percentage point or
+
+494
+00:08:38,790 --> 00:08:38,800
+gap rises by half a percentage point or
+ 
+
+495
+00:08:38,800 --> 00:08:41,430
+gap rises by half a percentage point or
+more, historically, that has been a
+
+496
+00:08:41,430 --> 00:08:41,440
+more, historically, that has been a
+ 
+
+497
+00:08:41,440 --> 00:08:43,550
+more, historically, that has been a
+recession signal. It's not magic, it's
+
+498
+00:08:43,550 --> 00:08:43,560
+recession signal. It's not magic, it's
+ 
+
+499
+00:08:43,560 --> 00:08:46,030
+recession signal. It's not magic, it's
+not complicated. It is basically, as I
+
+500
+00:08:46,030 --> 00:08:46,040
+not complicated. It is basically, as I
+ 
+
+501
+00:08:46,040 --> 00:08:48,150
+not complicated. It is basically, as I
+said, a momentum gauge for the overall
+
+502
+00:08:48,150 --> 00:08:48,160
+said, a momentum gauge for the overall
+ 
+
+503
+00:08:48,160 --> 00:08:50,230
+said, a momentum gauge for the overall
+labor market. When unemployment starts
+
+504
+00:08:50,230 --> 00:08:50,240
+labor market. When unemployment starts
+ 
+
+505
+00:08:50,240 --> 00:08:52,150
+labor market. When unemployment starts
+rising quickly enough, it usually
+
+506
+00:08:52,150 --> 00:08:52,160
+rising quickly enough, it usually
+ 
+
+507
+00:08:52,160 --> 00:08:53,710
+rising quickly enough, it usually
+doesn't stop on its own. The labor
+
+508
+00:08:53,710 --> 00:08:53,720
+doesn't stop on its own. The labor
+ 
+
+509
+00:08:53,720 --> 00:08:57,790
+doesn't stop on its own. The labor
+market shifts. The business cycle turns.
+
+510
+00:08:57,790 --> 00:08:57,800
+market shifts. The business cycle turns.
+ 
+
+511
+00:08:57,800 --> 00:08:59,470
+market shifts. The business cycle turns.
+What looks like a mild increase becomes
+
+512
+00:08:59,470 --> 00:08:59,480
+What looks like a mild increase becomes
+ 
+
+513
+00:08:59,480 --> 00:09:01,230
+What looks like a mild increase becomes
+something much larger because weakness
+
+514
+00:09:01,230 --> 00:09:01,240
+something much larger because weakness
+ 
+
+515
+00:09:01,240 --> 00:09:04,710
+something much larger because weakness
+feeds on itself. And in 2024, the Sahm
+
+516
+00:09:04,710 --> 00:09:04,720
+feeds on itself. And in 2024, the Sahm
+ 
+
+517
+00:09:04,720 --> 00:09:06,630
+feeds on itself. And in 2024, the Sahm
+rule did indeed trigger. It jumped past
+
+518
+00:09:06,630 --> 00:09:06,640
+rule did indeed trigger. It jumped past
+ 
+
+519
+00:09:06,640 --> 00:09:10,430
+rule did indeed trigger. It jumped past
+0.5 and had everyone talking about it.
+
+520
+00:09:10,430 --> 00:09:10,440
+0.5 and had everyone talking about it.
+ 
+
+521
+00:09:10,440 --> 00:09:12,870
+0.5 and had everyone talking about it.
+And importantly, the Japanese started
+
+522
+00:09:12,870 --> 00:09:12,880
+And importantly, the Japanese started
+ 
+
+523
+00:09:12,880 --> 00:09:15,270
+And importantly, the Japanese started
+trading out. And both of those, taken
+
+524
+00:09:15,270 --> 00:09:15,280
+trading out. And both of those, taken
+ 
+
+525
+00:09:15,280 --> 00:09:16,750
+trading out. And both of those, taken
+together especially, should have been
+
+526
+00:09:16,750 --> 00:09:16,760
+together especially, should have been
+ 
+
+527
+00:09:16,760 --> 00:09:19,310
+together especially, should have been
+treated as a major warning. But the Fed
+
+528
+00:09:19,310 --> 00:09:19,320
+treated as a major warning. But the Fed
+ 
+
+529
+00:09:19,320 --> 00:09:20,950
+treated as a major warning. But the Fed
+said the labor market, "Eh, it's just
+
+530
+00:09:20,950 --> 00:09:20,960
+said the labor market, "Eh, it's just
+ 
+
+531
+00:09:20,960 --> 00:09:23,630
+said the labor market, "Eh, it's just
+normalizing." Economists said, you know,
+
+532
+00:09:23,630 --> 00:09:23,640
+normalizing." Economists said, you know,
+ 
+
+533
+00:09:23,640 --> 00:09:25,190
+normalizing." Economists said, you know,
+the rise in unemployment was not
+
+534
+00:09:25,190 --> 00:09:25,200
+the rise in unemployment was not
+ 
+
+535
+00:09:25,200 --> 00:09:26,710
+the rise in unemployment was not
+recessionary. The mainstream said
+
+536
+00:09:26,710 --> 00:09:26,720
+recessionary. The mainstream said
+ 
+
+537
+00:09:26,720 --> 00:09:28,310
+recessionary. The mainstream said
+immigration and labor supply were
+
+538
+00:09:28,310 --> 00:09:28,320
+immigration and labor supply were
+ 
+
+539
+00:09:28,320 --> 00:09:30,030
+immigration and labor supply were
+distorting the numbers. Others said it
+
+540
+00:09:30,030 --> 00:09:30,040
+distorting the numbers. Others said it
+ 
+
+541
+00:09:30,040 --> 00:09:31,590
+distorting the numbers. Others said it
+was just natural cooling that everyone
+
+542
+00:09:31,590 --> 00:09:31,600
+was just natural cooling that everyone
+ 
+
+543
+00:09:31,600 --> 00:09:34,430
+was just natural cooling that everyone
+wanted after the so-called red-hot labor
+
+544
+00:09:34,430 --> 00:09:34,440
+wanted after the so-called red-hot labor
+ 
+
+545
+00:09:34,440 --> 00:09:37,550
+wanted after the so-called red-hot labor
+market of '21 and '22. Even Claudia Sahm
+
+546
+00:09:37,550 --> 00:09:37,560
+market of '21 and '22. Even Claudia Sahm
+ 
+
+547
+00:09:37,560 --> 00:09:40,390
+market of '21 and '22. Even Claudia Sahm
+herself spent time downplaying the
+
+548
+00:09:40,390 --> 00:09:40,400
+herself spent time downplaying the
+ 
+
+549
+00:09:40,400 --> 00:09:42,230
+herself spent time downplaying the
+signal that was attached to her own
+
+550
+00:09:42,230 --> 00:09:42,240
+signal that was attached to her own
+ 
+
+551
+00:09:42,240 --> 00:09:44,670
+signal that was attached to her own
+name. But the rule was not supposed to
+
+552
+00:09:44,670 --> 00:09:44,680
+name. But the rule was not supposed to
+ 
+
+553
+00:09:44,680 --> 00:09:47,510
+name. But the rule was not supposed to
+be a vibe check. It was supposed to tell
+
+554
+00:09:47,510 --> 00:09:47,520
+be a vibe check. It was supposed to tell
+ 
+
+555
+00:09:47,520 --> 00:09:48,670
+be a vibe check. It was supposed to tell
+you when the labor market and its
+
+556
+00:09:48,670 --> 00:09:48,680
+you when the labor market and its
+ 
+
+557
+00:09:48,680 --> 00:09:50,630
+you when the labor market and its
+momentum had shifted too far in the
+
+558
+00:09:50,630 --> 00:09:50,640
+momentum had shifted too far in the
+ 
+
+559
+00:09:50,640 --> 00:09:52,910
+momentum had shifted too far in the
+wrong direction. And that is exactly
+
+560
+00:09:52,910 --> 00:09:52,920
+wrong direction. And that is exactly
+ 
+
+561
+00:09:52,920 --> 00:09:54,830
+wrong direction. And that is exactly
+what happened. The problem was that
+
+562
+00:09:54,830 --> 00:09:54,840
+what happened. The problem was that
+ 
+
+563
+00:09:54,840 --> 00:09:57,390
+what happened. The problem was that
+everyone expected the confirmation
+
+564
+00:09:57,390 --> 00:09:57,400
+everyone expected the confirmation
+ 
+
+565
+00:09:57,400 --> 00:09:59,750
+everyone expected the confirmation
+to come from the same place, a continued
+
+566
+00:09:59,750 --> 00:09:59,760
+to come from the same place, a continued
+ 
+
+567
+00:09:59,760 --> 00:10:01,910
+to come from the same place, a continued
+rise in the official U3 unemployment
+
+568
+00:10:01,910 --> 00:10:01,920
+rise in the official U3 unemployment
+ 
+
+569
+00:10:01,920 --> 00:10:04,390
+rise in the official U3 unemployment
+rate. But that's not what we got.
+
+570
+00:10:04,390 --> 00:10:04,400
+rate. But that's not what we got.
+ 
+
+571
+00:10:04,400 --> 00:10:06,630
+rate. But that's not what we got.
+Instead, the confirmation showed up all
+
+572
+00:10:06,630 --> 00:10:06,640
+Instead, the confirmation showed up all
+ 
+
+573
+00:10:06,640 --> 00:10:09,510
+Instead, the confirmation showed up all
+across the rest of the labor market. And
+
+574
+00:10:09,510 --> 00:10:09,520
+across the rest of the labor market. And
+ 
+
+575
+00:10:09,520 --> 00:10:12,430
+across the rest of the labor market. And
+if you weren't looking, you missed it.
+
+576
+00:10:12,430 --> 00:10:12,440
+if you weren't looking, you missed it.
+ 
+
+577
+00:10:12,440 --> 00:10:14,030
+if you weren't looking, you missed it.
+It showed up in the household survey. It
+
+578
+00:10:14,030 --> 00:10:14,040
+It showed up in the household survey. It
+ 
+
+579
+00:10:14,040 --> 00:10:16,550
+It showed up in the household survey. It
+showed up especially in labor force
+
+580
+00:10:16,550 --> 00:10:16,560
+showed up especially in labor force
+ 
+
+581
+00:10:16,560 --> 00:10:18,830
+showed up especially in labor force
+dropouts. It showed up in Jolts. It
+
+582
+00:10:18,830 --> 00:10:18,840
+dropouts. It showed up in Jolts. It
+ 
+
+583
+00:10:18,840 --> 00:10:20,590
+dropouts. It showed up in Jolts. It
+showed up in reduced turnover. It showed
+
+584
+00:10:20,590 --> 00:10:20,600
+showed up in reduced turnover. It showed
+ 
+
+585
+00:10:20,600 --> 00:10:23,270
+showed up in reduced turnover. It showed
+up in consumer pessimism. It showed up
+
+586
+00:10:23,270 --> 00:10:23,280
+up in consumer pessimism. It showed up
+ 
+
+587
+00:10:23,280 --> 00:10:25,230
+up in consumer pessimism. It showed up
+in businesses becoming more cautious. It
+
+588
+00:10:25,230 --> 00:10:25,240
+in businesses becoming more cautious. It
+ 
+
+589
+00:10:25,240 --> 00:10:26,670
+in businesses becoming more cautious. It
+showed up in markets that were already
+
+590
+00:10:26,670 --> 00:10:26,680
+showed up in markets that were already
+ 
+
+591
+00:10:26,680 --> 00:10:28,510
+showed up in markets that were already
+pricing a darker growth outlook. Yes,
+
+592
+00:10:28,510 --> 00:10:28,520
+pricing a darker growth outlook. Yes,
+ 
+
+593
+00:10:28,520 --> 00:10:30,830
+pricing a darker growth outlook. Yes,
+the bond market, the yield curve, bull
+
+594
+00:10:30,830 --> 00:10:30,840
+the bond market, the yield curve, bull
+ 
+
+595
+00:10:30,840 --> 00:10:33,910
+the bond market, the yield curve, bull
+steepening. The Sahm rule wasn't wrong.
+
+596
+00:10:33,910 --> 00:10:33,920
+steepening. The Sahm rule wasn't wrong.
+ 
+
+597
+00:10:33,920 --> 00:10:37,350
+steepening. The Sahm rule wasn't wrong.
+The interpretation of it was.
+
+598
+00:10:37,350 --> 00:10:37,360
+The interpretation of it was.
+ 
+
+599
+00:10:37,360 --> 00:10:39,310
+The interpretation of it was.
+So, here's the trap. Most people assume,
+
+600
+00:10:39,310 --> 00:10:39,320
+So, here's the trap. Most people assume,
+ 
+
+601
+00:10:39,320 --> 00:10:40,950
+So, here's the trap. Most people assume,
+because understandably they've been told
+
+602
+00:10:40,950 --> 00:10:40,960
+because understandably they've been told
+ 
+
+603
+00:10:40,960 --> 00:10:43,150
+because understandably they've been told
+this repeatedly, that if unemployment is
+
+604
+00:10:43,150 --> 00:10:43,160
+this repeatedly, that if unemployment is
+ 
+
+605
+00:10:43,160 --> 00:10:44,870
+this repeatedly, that if unemployment is
+a problem, it'll go up in a straight
+
+606
+00:10:44,870 --> 00:10:44,880
+a problem, it'll go up in a straight
+ 
+
+607
+00:10:44,880 --> 00:10:46,670
+a problem, it'll go up in a straight
+line and everyone will see it. And
+
+608
+00:10:46,670 --> 00:10:46,680
+line and everyone will see it. And
+ 
+
+609
+00:10:46,680 --> 00:10:48,310
+line and everyone will see it. And
+that's only true if the official
+
+610
+00:10:48,310 --> 00:10:48,320
+that's only true if the official
+ 
+
+611
+00:10:48,320 --> 00:10:51,390
+that's only true if the official
+unemployment rate is the only measure of
+
+612
+00:10:51,390 --> 00:10:51,400
+unemployment rate is the only measure of
+ 
+
+613
+00:10:51,400 --> 00:10:53,510
+unemployment rate is the only measure of
+that issue. If that's the only measure
+
+614
+00:10:53,510 --> 00:10:53,520
+that issue. If that's the only measure
+ 
+
+615
+00:10:53,520 --> 00:10:55,110
+that issue. If that's the only measure
+of that problem. If the official
+
+616
+00:10:55,110 --> 00:10:55,120
+of that problem. If the official
+ 
+
+617
+00:10:55,120 --> 00:10:57,910
+of that problem. If the official
+unemployment rate misses the boat, then
+
+618
+00:10:57,910 --> 00:10:57,920
+unemployment rate misses the boat, then
+ 
+
+619
+00:10:57,920 --> 00:10:59,590
+unemployment rate misses the boat, then
+depending upon the official unemployment
+
+620
+00:10:59,590 --> 00:10:59,600
+depending upon the official unemployment
+ 
+
+621
+00:10:59,600 --> 00:11:01,750
+depending upon the official unemployment
+rate for confirmation of everything,
+
+622
+00:11:01,750 --> 00:11:01,760
+rate for confirmation of everything,
+ 
+
+623
+00:11:01,760 --> 00:11:03,590
+rate for confirmation of everything,
+will have you missing what's really
+
+624
+00:11:03,590 --> 00:11:03,600
+will have you missing what's really
+ 
+
+625
+00:11:03,600 --> 00:11:04,990
+will have you missing what's really
+important.
+
+626
+00:11:04,990 --> 00:11:05,000
+important.
+ 
+
+627
+00:11:05,000 --> 00:11:06,430
+important.
+Cuz the unemployment rate, the official
+
+628
+00:11:06,430 --> 00:11:06,440
+Cuz the unemployment rate, the official
+ 
+
+629
+00:11:06,440 --> 00:11:08,150
+Cuz the unemployment rate, the official
+one, is not a complete measure of labor
+
+630
+00:11:08,150 --> 00:11:08,160
+one, is not a complete measure of labor
+ 
+
+631
+00:11:08,160 --> 00:11:10,110
+one, is not a complete measure of labor
+market health. It's a ratio that's based
+
+632
+00:11:10,110 --> 00:11:10,120
+market health. It's a ratio that's based
+ 
+
+633
+00:11:10,120 --> 00:11:12,790
+market health. It's a ratio that's based
+on who is counted in the labor force. If
+
+634
+00:11:12,790 --> 00:11:12,800
+on who is counted in the labor force. If
+ 
+
+635
+00:11:12,800 --> 00:11:15,110
+on who is counted in the labor force. If
+people stop looking for work, they are
+
+636
+00:11:15,110 --> 00:11:15,120
+people stop looking for work, they are
+ 
+
+637
+00:11:15,120 --> 00:11:16,990
+people stop looking for work, they are
+no longer officially unemployed. They
+
+638
+00:11:16,990 --> 00:11:17,000
+no longer officially unemployed. They
+ 
+
+639
+00:11:17,000 --> 00:11:19,270
+no longer officially unemployed. They
+disappear from the denominator and the
+
+640
+00:11:19,270 --> 00:11:19,280
+disappear from the denominator and the
+ 
+
+641
+00:11:19,280 --> 00:11:21,710
+disappear from the denominator and the
+numerator in that ratio. That means the
+
+642
+00:11:21,710 --> 00:11:21,720
+numerator in that ratio. That means the
+ 
+
+643
+00:11:21,720 --> 00:11:23,270
+numerator in that ratio. That means the
+unemployment rate can understate
+
+644
+00:11:23,270 --> 00:11:23,280
+unemployment rate can understate
+ 
+
+645
+00:11:23,280 --> 00:11:26,030
+unemployment rate can understate
+weakness when labor force participation
+
+646
+00:11:26,030 --> 00:11:26,040
+weakness when labor force participation
+ 
+
+647
+00:11:26,040 --> 00:11:28,390
+weakness when labor force participation
+falls, when discouraged workers leave
+
+648
+00:11:28,390 --> 00:11:28,400
+falls, when discouraged workers leave
+ 
+
+649
+00:11:28,400 --> 00:11:30,310
+falls, when discouraged workers leave
+the job market. Now, we saw this big
+
+650
+00:11:30,310 --> 00:11:30,320
+the job market. Now, we saw this big
+ 
+
+651
+00:11:30,320 --> 00:11:32,990
+the job market. Now, we saw this big
+time after 2008. The official
+
+652
+00:11:32,990 --> 00:11:33,000
+time after 2008. The official
+ 
+
+653
+00:11:33,000 --> 00:11:35,390
+time after 2008. The official
+unemployment rate turned horrible, but
+
+654
+00:11:35,390 --> 00:11:35,400
+unemployment rate turned horrible, but
+ 
+
+655
+00:11:35,400 --> 00:11:37,190
+unemployment rate turned horrible, but
+even that understated the real damage
+
+656
+00:11:37,190 --> 00:11:37,200
+even that understated the real damage
+ 
+
+657
+00:11:37,200 --> 00:11:39,030
+even that understated the real damage
+because millions of workers dropped out
+
+658
+00:11:39,030 --> 00:11:39,040
+because millions of workers dropped out
+ 
+
+659
+00:11:39,040 --> 00:11:40,590
+because millions of workers dropped out
+of the labor force entirely.
+
+660
+00:11:40,590 --> 00:11:40,600
+of the labor force entirely.
+ 
+
+661
+00:11:40,600 --> 00:11:42,870
+of the labor force entirely.
+Participation collapsed and never came
+
+662
+00:11:42,870 --> 00:11:42,880
+Participation collapsed and never came
+ 
+
+663
+00:11:42,880 --> 00:11:45,190
+Participation collapsed and never came
+back. And a lot of those workers, that's
+
+664
+00:11:45,190 --> 00:11:45,200
+back. And a lot of those workers, that's
+ 
+
+665
+00:11:45,200 --> 00:11:46,830
+back. And a lot of those workers, that's
+why they never came back. There were no
+
+666
+00:11:46,830 --> 00:11:46,840
+why they never came back. There were no
+ 
+
+667
+00:11:46,840 --> 00:11:49,030
+why they never came back. There were no
+jobs for them to find. And that was one
+
+668
+00:11:49,030 --> 00:11:49,040
+jobs for them to find. And that was one
+ 
+
+669
+00:11:49,040 --> 00:11:50,590
+jobs for them to find. And that was one
+of the defining features of the silent
+
+670
+00:11:50,590 --> 00:11:50,600
+of the defining features of the silent
+ 
+
+671
+00:11:50,600 --> 00:11:52,830
+of the defining features of the silent
+depression after the global not
+
+672
+00:11:52,830 --> 00:11:52,840
+depression after the global not
+ 
+
+673
+00:11:52,840 --> 00:11:54,950
+depression after the global not
+financial crisis. And while today is
+
+674
+00:11:54,950 --> 00:11:54,960
+financial crisis. And while today is
+ 
+
+675
+00:11:54,960 --> 00:11:57,990
+financial crisis. And while today is
+nowhere near a carbon copy of 2008, that
+
+676
+00:11:57,990 --> 00:11:58,000
+nowhere near a carbon copy of 2008, that
+ 
+
+677
+00:11:58,000 --> 00:12:00,030
+nowhere near a carbon copy of 2008, that
+pattern matters because it establishes
+
+678
+00:12:00,030 --> 00:12:00,040
+pattern matters because it establishes
+ 
+
+679
+00:12:00,040 --> 00:12:02,550
+pattern matters because it establishes
+what we should be looking for. When the
+
+680
+00:12:02,550 --> 00:12:02,560
+what we should be looking for. When the
+ 
+
+681
+00:12:02,560 --> 00:12:05,030
+what we should be looking for. When the
+Sahm rule triggered in 2024, the
+
+682
+00:12:05,030 --> 00:12:05,040
+Sahm rule triggered in 2024, the
+ 
+
+683
+00:12:05,040 --> 00:12:06,870
+Sahm rule triggered in 2024, the
+assumption was that the U-3 rate, the
+
+684
+00:12:06,870 --> 00:12:06,880
+assumption was that the U-3 rate, the
+ 
+
+685
+00:12:06,880 --> 00:12:08,910
+assumption was that the U-3 rate, the
+official unemployment rate, had to keep
+
+686
+00:12:08,910 --> 00:12:08,920
+official unemployment rate, had to keep
+ 
+
+687
+00:12:08,920 --> 00:12:11,550
+official unemployment rate, had to keep
+surging for the signal to become valid.
+
+688
+00:12:11,550 --> 00:12:11,560
+surging for the signal to become valid.
+ 
+
+689
+00:12:11,560 --> 00:12:13,150
+surging for the signal to become valid.
+But if workers responded to the weak
+
+690
+00:12:13,150 --> 00:12:13,160
+But if workers responded to the weak
+ 
+
+691
+00:12:13,160 --> 00:12:15,150
+But if workers responded to the weak
+labor market by leaving the labor force
+
+692
+00:12:15,150 --> 00:12:15,160
+labor market by leaving the labor force
+ 
+
+693
+00:12:15,160 --> 00:12:17,550
+labor market by leaving the labor force
+like they did in 2008 and afterward, the
+
+694
+00:12:17,550 --> 00:12:17,560
+like they did in 2008 and afterward, the
+ 
+
+695
+00:12:17,560 --> 00:12:20,070
+like they did in 2008 and afterward, the
+U-3 rate may flatten even while
+
+696
+00:12:20,070 --> 00:12:20,080
+U-3 rate may flatten even while
+ 
+
+697
+00:12:20,080 --> 00:12:22,470
+U-3 rate may flatten even while
+underlying conditions continue to
+
+698
+00:12:22,470 --> 00:12:22,480
+underlying conditions continue to
+ 
+
+699
+00:12:22,480 --> 00:12:24,270
+underlying conditions continue to
+degrade and deteriorate. That's why
+
+700
+00:12:24,270 --> 00:12:24,280
+degrade and deteriorate. That's why
+ 
+
+701
+00:12:24,280 --> 00:12:25,750
+degrade and deteriorate. That's why
+looking at only the official
+
+702
+00:12:25,750 --> 00:12:25,760
+looking at only the official
+ 
+
+703
+00:12:25,760 --> 00:12:27,590
+looking at only the official
+unemployment rate was such a serious
+
+704
+00:12:27,590 --> 00:12:27,600
+unemployment rate was such a serious
+ 
+
+705
+00:12:27,600 --> 00:12:29,990
+unemployment rate was such a serious
+mistake. The labor market was telling a
+
+706
+00:12:29,990 --> 00:12:30,000
+mistake. The labor market was telling a
+ 
+
+707
+00:12:30,000 --> 00:12:32,790
+mistake. The labor market was telling a
+much broader story. That story was that
+
+708
+00:12:32,790 --> 00:12:32,800
+much broader story. That story was that
+ 
+
+709
+00:12:32,800 --> 00:12:35,470
+much broader story. That story was that
+Goldilocks had already left the scene
+
+710
+00:12:35,470 --> 00:12:35,480
+Goldilocks had already left the scene
+ 
+
+711
+00:12:35,480 --> 00:12:37,750
+Goldilocks had already left the scene
+years ago. But now we're talking about a
+
+712
+00:12:37,750 --> 00:12:37,760
+years ago. But now we're talking about a
+ 
+
+713
+00:12:37,760 --> 00:12:39,270
+years ago. But now we're talking about a
+negative growth shock. Now, negative
+
+714
+00:12:39,270 --> 00:12:39,280
+negative growth shock. Now, negative
+ 
+
+715
+00:12:39,280 --> 00:12:41,230
+negative growth shock. Now, negative
+growth shock is never good under any
+
+716
+00:12:41,230 --> 00:12:41,240
+growth shock is never good under any
+ 
+
+717
+00:12:41,240 --> 00:12:42,790
+growth shock is never good under any
+circumstances,
+
+718
+00:12:42,790 --> 00:12:42,800
+circumstances,
+ 
+
+719
+00:12:42,800 --> 00:12:45,510
+circumstances,
+but it's it's doubly not good when you
+
+720
+00:12:45,510 --> 00:12:45,520
+but it's it's doubly not good when you
+ 
+
+721
+00:12:45,520 --> 00:12:48,470
+but it's it's doubly not good when you
+already have a fragile situation in the
+
+722
+00:12:48,470 --> 00:12:48,480
+already have a fragile situation in the
+ 
+
+723
+00:12:48,480 --> 00:12:49,910
+already have a fragile situation in the
+labor market that looks like the one
+
+724
+00:12:49,910 --> 00:12:49,920
+labor market that looks like the one
+ 
+
+725
+00:12:49,920 --> 00:12:52,710
+labor market that looks like the one
+that we've got here in 2026.
+
+726
+00:12:52,710 --> 00:12:52,720
+that we've got here in 2026.
+ 
+
+727
+00:12:52,720 --> 00:12:54,390
+that we've got here in 2026.
+If consumers had strong real income
+
+728
+00:12:54,390 --> 00:12:54,400
+If consumers had strong real income
+ 
+
+729
+00:12:54,400 --> 00:12:56,630
+If consumers had strong real income
+growth, plentiful job opportunities,
+
+730
+00:12:56,630 --> 00:12:56,640
+growth, plentiful job opportunities,
+ 
+
+731
+00:12:56,640 --> 00:12:58,710
+growth, plentiful job opportunities,
+falling living costs, then maybe just
+
+732
+00:12:58,710 --> 00:12:58,720
+falling living costs, then maybe just
+ 
+
+733
+00:12:58,720 --> 00:13:00,750
+falling living costs, then maybe just
+maybe they could absorb a shock. If
+
+734
+00:13:00,750 --> 00:13:00,760
+maybe they could absorb a shock. If
+ 
+
+735
+00:13:00,760 --> 00:13:02,710
+maybe they could absorb a shock. If
+businesses were expanding their payrolls
+
+736
+00:13:02,710 --> 00:13:02,720
+businesses were expanding their payrolls
+ 
+
+737
+00:13:02,720 --> 00:13:04,990
+businesses were expanding their payrolls
+aggressively and competing for workers,
+
+738
+00:13:04,990 --> 00:13:05,000
+aggressively and competing for workers,
+ 
+
+739
+00:13:05,000 --> 00:13:06,550
+aggressively and competing for workers,
+then possibly the labor market could
+
+740
+00:13:06,550 --> 00:13:06,560
+then possibly the labor market could
+ 
+
+741
+00:13:06,560 --> 00:13:08,190
+then possibly the labor market could
+take the hit without cracking. But
+
+742
+00:13:08,190 --> 00:13:08,200
+take the hit without cracking. But
+ 
+
+743
+00:13:08,200 --> 00:13:10,150
+take the hit without cracking. But
+that's not where we are. We're in an
+
+744
+00:13:10,150 --> 00:13:10,160
+that's not where we are. We're in an
+ 
+
+745
+00:13:10,160 --> 00:13:12,030
+that's not where we are. We're in an
+economy where many consumers are already
+
+746
+00:13:12,030 --> 00:13:12,040
+economy where many consumers are already
+ 
+
+747
+00:13:12,040 --> 00:13:13,670
+economy where many consumers are already
+trading down. They're already cutting
+
+748
+00:13:13,670 --> 00:13:13,680
+trading down. They're already cutting
+ 
+
+749
+00:13:13,680 --> 00:13:15,710
+trading down. They're already cutting
+back. They're leaning harder and harder
+
+750
+00:13:15,710 --> 00:13:15,720
+back. They're leaning harder and harder
+ 
+
+751
+00:13:15,720 --> 00:13:17,710
+back. They're leaning harder and harder
+on credit. We're in an economy where
+
+752
+00:13:17,710 --> 00:13:17,720
+on credit. We're in an economy where
+ 
+
+753
+00:13:17,720 --> 00:13:19,310
+on credit. We're in an economy where
+employers have already become more
+
+754
+00:13:19,310 --> 00:13:19,320
+employers have already become more
+ 
+
+755
+00:13:19,320 --> 00:13:21,390
+employers have already become more
+cautious. We're in a situation where
+
+756
+00:13:21,390 --> 00:13:21,400
+cautious. We're in a situation where
+ 
+
+757
+00:13:21,400 --> 00:13:22,829
+cautious. We're in a situation where
+young workers look at the housing
+
+758
+00:13:22,829 --> 00:13:22,839
+young workers look at the housing
+ 
+
+759
+00:13:22,839 --> 00:13:25,110
+young workers look at the housing
+market, wages, debt, job prospects, and
+
+760
+00:13:25,110 --> 00:13:25,120
+market, wages, debt, job prospects, and
+ 
+
+761
+00:13:25,120 --> 00:13:26,990
+market, wages, debt, job prospects, and
+conclude the entire system is rigged
+
+762
+00:13:26,990 --> 00:13:27,000
+conclude the entire system is rigged
+ 
+
+763
+00:13:27,000 --> 00:13:28,870
+conclude the entire system is rigged
+against them. It's not some abstract
+
+764
+00:13:28,870 --> 00:13:28,880
+against them. It's not some abstract
+ 
+
+765
+00:13:28,880 --> 00:13:31,350
+against them. It's not some abstract
+political issue. This is basic small e
+
+766
+00:13:31,350 --> 00:13:31,360
+political issue. This is basic small e
+ 
+
+767
+00:13:31,360 --> 00:13:33,550
+political issue. This is basic small e
+economics. When people can't afford the
+
+768
+00:13:33,550 --> 00:13:33,560
+economics. When people can't afford the
+ 
+
+769
+00:13:33,560 --> 00:13:35,510
+economics. When people can't afford the
+basics, they change their behavior. They
+
+770
+00:13:35,510 --> 00:13:35,520
+basics, they change their behavior. They
+ 
+
+771
+00:13:35,520 --> 00:13:37,750
+basics, they change their behavior. They
+skip purchases, delay plans, they reduce
+
+772
+00:13:37,750 --> 00:13:37,760
+skip purchases, delay plans, they reduce
+ 
+
+773
+00:13:37,760 --> 00:13:39,470
+skip purchases, delay plans, they reduce
+discretionary spending, they become more
+
+774
+00:13:39,470 --> 00:13:39,480
+discretionary spending, they become more
+ 
+
+775
+00:13:39,480 --> 00:13:41,670
+discretionary spending, they become more
+sensitive to job insecurity. And once
+
+776
+00:13:41,670 --> 00:13:41,680
+sensitive to job insecurity. And once
+ 
+
+777
+00:13:41,680 --> 00:13:43,510
+sensitive to job insecurity. And once
+enough people do the same thing, the
+
+778
+00:13:43,510 --> 00:13:43,520
+enough people do the same thing, the
+ 
+
+779
+00:13:43,520 --> 00:13:45,110
+enough people do the same thing, the
+slow down starts to become really
+
+780
+00:13:45,110 --> 00:13:45,120
+slow down starts to become really
+ 
+
+781
+00:13:45,120 --> 00:13:47,350
+slow down starts to become really
+self-reinforcing. Businesses see that
+
+782
+00:13:47,350 --> 00:13:47,360
+self-reinforcing. Businesses see that
+ 
+
+783
+00:13:47,360 --> 00:13:48,830
+self-reinforcing. Businesses see that
+weaker demand, they cut costs even
+
+784
+00:13:48,830 --> 00:13:48,840
+weaker demand, they cut costs even
+ 
+
+785
+00:13:48,840 --> 00:13:50,750
+weaker demand, they cut costs even
+further, and that cutting costs often
+
+786
+00:13:50,750 --> 00:13:50,760
+further, and that cutting costs often
+ 
+
+787
+00:13:50,760 --> 00:13:52,790
+further, and that cutting costs often
+means less hiring, fewer hours, more
+
+788
+00:13:52,790 --> 00:13:52,800
+means less hiring, fewer hours, more
+ 
+
+789
+00:13:52,800 --> 00:13:55,350
+means less hiring, fewer hours, more
+layoffs, which also hits incomes, lower
+
+790
+00:13:55,350 --> 00:13:55,360
+layoffs, which also hits incomes, lower
+ 
+
+791
+00:13:55,360 --> 00:13:57,110
+layoffs, which also hits incomes, lower
+incomes kids spending, lower spending
+
+792
+00:13:57,110 --> 00:13:57,120
+incomes kids spending, lower spending
+ 
+
+793
+00:13:57,120 --> 00:13:59,190
+incomes kids spending, lower spending
+hits revenue, then businesses cut more.
+
+794
+00:13:59,190 --> 00:13:59,200
+hits revenue, then businesses cut more.
+ 
+
+795
+00:13:59,200 --> 00:14:01,430
+hits revenue, then businesses cut more.
+It's the negative growth loop. And if
+
+796
+00:14:01,430 --> 00:14:01,440
+It's the negative growth loop. And if
+ 
+
+797
+00:14:01,440 --> 00:14:03,350
+It's the negative growth loop. And if
+we've been talking about it ever since
+
+798
+00:14:03,350 --> 00:14:03,360
+we've been talking about it ever since
+ 
+
+799
+00:14:03,360 --> 00:14:06,110
+we've been talking about it ever since
+2024, and that's why Goldilocks is
+
+800
+00:14:06,110 --> 00:14:06,120
+2024, and that's why Goldilocks is
+ 
+
+801
+00:14:06,120 --> 00:14:07,590
+2024, and that's why Goldilocks is
+leaving the building is such a big
+
+802
+00:14:07,590 --> 00:14:07,600
+leaving the building is such a big
+ 
+
+803
+00:14:07,600 --> 00:14:10,110
+leaving the building is such a big
+admission, because Goldilocks required
+
+804
+00:14:10,110 --> 00:14:10,120
+admission, because Goldilocks required
+ 
+
+805
+00:14:10,120 --> 00:14:12,670
+admission, because Goldilocks required
+that loop to have never started. And now
+
+806
+00:14:12,670 --> 00:14:12,680
+that loop to have never started. And now
+ 
+
+807
+00:14:12,680 --> 00:14:15,070
+that loop to have never started. And now
+JP Morgan is saying, well, you know
+
+808
+00:14:15,070 --> 00:14:15,080
+JP Morgan is saying, well, you know
+ 
+
+809
+00:14:15,080 --> 00:14:16,190
+JP Morgan is saying, well, you know
+what?
+
+810
+00:14:16,190 --> 00:14:16,200
+what?
+ 
+
+811
+00:14:16,200 --> 00:14:17,470
+what?
+And this is one of the most important
+
+812
+00:14:17,470 --> 00:14:17,480
+And this is one of the most important
+ 
+
+813
+00:14:17,480 --> 00:14:19,310
+And this is one of the most important
+points. Consumers, American consumers
+
+814
+00:14:19,310 --> 00:14:19,320
+points. Consumers, American consumers
+ 
+
+815
+00:14:19,320 --> 00:14:22,110
+points. Consumers, American consumers
+themselves, saw this before anyone else
+
+816
+00:14:22,110 --> 00:14:22,120
+themselves, saw this before anyone else
+ 
+
+817
+00:14:22,120 --> 00:14:23,750
+themselves, saw this before anyone else
+did, other than maybe the Japanese carry
+
+818
+00:14:23,750 --> 00:14:23,760
+did, other than maybe the Japanese carry
+ 
+
+819
+00:14:23,760 --> 00:14:26,070
+did, other than maybe the Japanese carry
+traders. US consumers are far better at
+
+820
+00:14:26,070 --> 00:14:26,080
+traders. US consumers are far better at
+ 
+
+821
+00:14:26,080 --> 00:14:27,950
+traders. US consumers are far better at
+economic, small e economics, than every
+
+822
+00:14:27,950 --> 00:14:27,960
+economic, small e economics, than every
+ 
+
+823
+00:14:27,960 --> 00:14:31,070
+economic, small e economics, than every
+PhD economist, capital E, out there.
+
+824
+00:14:31,070 --> 00:14:31,080
+PhD economist, capital E, out there.
+ 
+
+825
+00:14:31,080 --> 00:14:33,310
+PhD economist, capital E, out there.
+They may not use terms like SaM rule or
+
+826
+00:14:33,310 --> 00:14:33,320
+They may not use terms like SaM rule or
+ 
+
+827
+00:14:33,320 --> 00:14:34,950
+They may not use terms like SaM rule or
+Beverage Curve or any of the other ones
+
+828
+00:14:34,950 --> 00:14:34,960
+Beverage Curve or any of the other ones
+ 
+
+829
+00:14:34,960 --> 00:14:36,710
+Beverage Curve or any of the other ones
+that we talk about here, but they know
+
+830
+00:14:36,710 --> 00:14:36,720
+that we talk about here, but they know
+ 
+
+831
+00:14:36,720 --> 00:14:39,230
+that we talk about here, but they know
+what's going on. Deep down, they can see
+
+832
+00:14:39,230 --> 00:14:39,240
+what's going on. Deep down, they can see
+ 
+
+833
+00:14:39,240 --> 00:14:41,230
+what's going on. Deep down, they can see
+what's taking place.
+
+834
+00:14:41,230 --> 00:14:41,240
+what's taking place.
+ 
+
+835
+00:14:41,240 --> 00:14:42,670
+what's taking place.
+They knew the job market was bad. They
+
+836
+00:14:42,670 --> 00:14:42,680
+They knew the job market was bad. They
+ 
+
+837
+00:14:42,680 --> 00:14:44,230
+They knew the job market was bad. They
+knew the wages weren't going to stretch
+
+838
+00:14:44,230 --> 00:14:44,240
+knew the wages weren't going to stretch
+ 
+
+839
+00:14:44,240 --> 00:14:45,910
+knew the wages weren't going to stretch
+far enough. They knew job postings were
+
+840
+00:14:45,910 --> 00:14:45,920
+far enough. They knew job postings were
+ 
+
+841
+00:14:45,920 --> 00:14:47,790
+far enough. They knew job postings were
+fake, that their interviews that were
+
+842
+00:14:47,790 --> 00:14:47,800
+fake, that their interviews that were
+ 
+
+843
+00:14:47,800 --> 00:14:49,310
+fake, that their interviews that were
+going to go nowhere, hours were going to
+
+844
+00:14:49,310 --> 00:14:49,320
+going to go nowhere, hours were going to
+ 
+
+845
+00:14:49,320 --> 00:14:51,270
+going to go nowhere, hours were going to
+get cut. And the only jobs that were
+
+846
+00:14:51,270 --> 00:14:51,280
+get cut. And the only jobs that were
+ 
+
+847
+00:14:51,280 --> 00:14:52,470
+get cut. And the only jobs that were
+available
+
+848
+00:14:52,470 --> 00:14:52,480
+available
+ 
+
+849
+00:14:52,480 --> 00:14:54,550
+available
+only paid less than the bills that they
+
+850
+00:14:54,550 --> 00:14:54,560
+only paid less than the bills that they
+ 
+
+851
+00:14:54,560 --> 00:14:56,550
+only paid less than the bills that they
+had. This is why sentiment has been so
+
+852
+00:14:56,550 --> 00:14:56,560
+had. This is why sentiment has been so
+ 
+
+853
+00:14:56,560 --> 00:14:59,070
+had. This is why sentiment has been so
+ugly, and why sentiment is tied and
+
+854
+00:14:59,070 --> 00:14:59,080
+ugly, and why sentiment is tied and
+ 
+
+855
+00:14:59,080 --> 00:15:01,230
+ugly, and why sentiment is tied and
+correlates really strongly with these
+
+856
+00:15:01,230 --> 00:15:01,240
+correlates really strongly with these
+ 
+
+857
+00:15:01,240 --> 00:15:02,750
+correlates really strongly with these
+labor market shifts. Look at what
+
+858
+00:15:02,750 --> 00:15:02,760
+labor market shifts. Look at what
+ 
+
+859
+00:15:02,760 --> 00:15:05,350
+labor market shifts. Look at what
+happened since 2024.
+
+860
+00:15:05,350 --> 00:15:05,360
+happened since 2024.
+ 
+
+861
+00:15:05,360 --> 00:15:06,870
+happened since 2024.
+Economists kept asking why consumers
+
+862
+00:15:06,870 --> 00:15:06,880
+Economists kept asking why consumers
+ 
+
+863
+00:15:06,880 --> 00:15:08,870
+Economists kept asking why consumers
+were so negative when GDP was positive
+
+864
+00:15:08,870 --> 00:15:08,880
+were so negative when GDP was positive
+ 
+
+865
+00:15:08,880 --> 00:15:10,350
+were so negative when GDP was positive
+and the stock market kept setting record
+
+866
+00:15:10,350 --> 00:15:10,360
+and the stock market kept setting record
+ 
+
+867
+00:15:10,360 --> 00:15:12,630
+and the stock market kept setting record
+highs, and the answer was obvious.
+
+868
+00:15:12,630 --> 00:15:12,640
+highs, and the answer was obvious.
+ 
+
+869
+00:15:12,640 --> 00:15:14,750
+highs, and the answer was obvious.
+Because the average American household
+
+870
+00:15:14,750 --> 00:15:14,760
+Because the average American household
+ 
+
+871
+00:15:14,760 --> 00:15:17,070
+Because the average American household
+doesn't live inside of GDP. It lives
+
+872
+00:15:17,070 --> 00:15:17,080
+doesn't live inside of GDP. It lives
+ 
+
+873
+00:15:17,080 --> 00:15:18,950
+doesn't live inside of GDP. It lives
+inside of rent, groceries, insurance,
+
+874
+00:15:18,950 --> 00:15:18,960
+inside of rent, groceries, insurance,
+ 
+
+875
+00:15:18,960 --> 00:15:21,270
+inside of rent, groceries, insurance,
+gasoline, healthcare, childcare, student
+
+876
+00:15:21,270 --> 00:15:21,280
+gasoline, healthcare, childcare, student
+ 
+
+877
+00:15:21,280 --> 00:15:22,950
+gasoline, healthcare, childcare, student
+loans, credit card balances, and job
+
+878
+00:15:22,950 --> 00:15:22,960
+loans, credit card balances, and job
+ 
+
+879
+00:15:22,960 --> 00:15:24,750
+loans, credit card balances, and job
+insecurity. Consumers weren't being
+
+880
+00:15:24,750 --> 00:15:24,760
+insecurity. Consumers weren't being
+ 
+
+881
+00:15:24,760 --> 00:15:27,750
+insecurity. Consumers weren't being
+irrational, they were early. Just like
+
+882
+00:15:27,750 --> 00:15:27,760
+irrational, they were early. Just like
+ 
+
+883
+00:15:27,760 --> 00:15:29,310
+irrational, they were early. Just like
+the Sahm Rule was early, and the bond
+
+884
+00:15:29,310 --> 00:15:29,320
+the Sahm Rule was early, and the bond
+ 
+
+885
+00:15:29,320 --> 00:15:31,190
+the Sahm Rule was early, and the bond
+market was early, and just like Jolts
+
+886
+00:15:31,190 --> 00:15:31,200
+market was early, and just like Jolts
+ 
+
+887
+00:15:31,200 --> 00:15:34,070
+market was early, and just like Jolts
+was early. The official narrative is
+
+888
+00:15:34,070 --> 00:15:34,080
+was early. The official narrative is
+ 
+
+889
+00:15:34,080 --> 00:15:36,990
+was early. The official narrative is
+late to the party. So, when JP Morgan
+
+890
+00:15:36,990 --> 00:15:37,000
+late to the party. So, when JP Morgan
+ 
+
+891
+00:15:37,000 --> 00:15:38,950
+late to the party. So, when JP Morgan
+removes Goldilocks from the table, the
+
+892
+00:15:38,950 --> 00:15:38,960
+removes Goldilocks from the table, the
+ 
+
+893
+00:15:38,960 --> 00:15:40,790
+removes Goldilocks from the table, the
+question isn't what changed today, the
+
+894
+00:15:40,790 --> 00:15:40,800
+question isn't what changed today, the
+ 
+
+895
+00:15:40,800 --> 00:15:43,230
+question isn't what changed today, the
+question is why was Goldilocks ever the
+
+896
+00:15:43,230 --> 00:15:43,240
+question is why was Goldilocks ever the
+ 
+
+897
+00:15:43,240 --> 00:15:45,550
+question is why was Goldilocks ever the
+base case in the first place? A healthy
+
+898
+00:15:45,550 --> 00:15:45,560
+base case in the first place? A healthy
+ 
+
+899
+00:15:45,560 --> 00:15:47,550
+base case in the first place? A healthy
+economy doesn't require constant
+
+900
+00:15:47,550 --> 00:15:47,560
+economy doesn't require constant
+ 
+
+901
+00:15:47,560 --> 00:15:49,710
+economy doesn't require constant
+narrative rescue. It doesn't require
+
+902
+00:15:49,710 --> 00:15:49,720
+narrative rescue. It doesn't require
+ 
+
+903
+00:15:49,720 --> 00:15:52,030
+narrative rescue. It doesn't require
+everyone to ignore the household survey.
+
+904
+00:15:52,030 --> 00:15:52,040
+everyone to ignore the household survey.
+ 
+
+905
+00:15:52,040 --> 00:15:53,310
+everyone to ignore the household survey.
+It doesn't require dismissing a
+
+906
+00:15:53,310 --> 00:15:53,320
+It doesn't require dismissing a
+ 
+
+907
+00:15:53,320 --> 00:15:54,990
+It doesn't require dismissing a
+recession signal because the signal is
+
+908
+00:15:54,990 --> 00:15:55,000
+recession signal because the signal is
+ 
+
+909
+00:15:55,000 --> 00:15:57,150
+recession signal because the signal is
+inconvenient. It doesn't require
+
+910
+00:15:57,150 --> 00:15:57,160
+inconvenient. It doesn't require
+ 
+
+911
+00:15:57,160 --> 00:15:59,750
+inconvenient. It doesn't require
+pretending a falling quit rate is good
+
+912
+00:15:59,750 --> 00:15:59,760
+pretending a falling quit rate is good
+ 
+
+913
+00:15:59,760 --> 00:16:01,710
+pretending a falling quit rate is good
+news, or you know, consumers are fine
+
+914
+00:16:01,710 --> 00:16:01,720
+news, or you know, consumers are fine
+ 
+
+915
+00:16:01,720 --> 00:16:03,150
+news, or you know, consumers are fine
+because they're still spending money
+
+916
+00:16:03,150 --> 00:16:03,160
+because they're still spending money
+ 
+
+917
+00:16:03,160 --> 00:16:05,430
+because they're still spending money
+they increasingly don't have. A healthy
+
+918
+00:16:05,430 --> 00:16:05,440
+they increasingly don't have. A healthy
+ 
+
+919
+00:16:05,440 --> 00:16:08,750
+they increasingly don't have. A healthy
+economy looks healthy broadly. This one
+
+920
+00:16:08,750 --> 00:16:08,760
+economy looks healthy broadly. This one
+ 
+
+921
+00:16:08,760 --> 00:16:11,750
+economy looks healthy broadly. This one
+has looked healthy very narrowly. Narrow
+
+922
+00:16:11,750 --> 00:16:11,760
+has looked healthy very narrowly. Narrow
+ 
+
+923
+00:16:11,760 --> 00:16:13,430
+has looked healthy very narrowly. Narrow
+stock market, narrow payroll strength,
+
+924
+00:16:13,430 --> 00:16:13,440
+stock market, narrow payroll strength,
+ 
+
+925
+00:16:13,440 --> 00:16:15,550
+stock market, narrow payroll strength,
+narrow optimism, narrow interpretation
+
+926
+00:16:15,550 --> 00:16:15,560
+narrow optimism, narrow interpretation
+ 
+
+927
+00:16:15,560 --> 00:16:17,990
+narrow optimism, narrow interpretation
+of the official unemployment rate. But,
+
+928
+00:16:17,990 --> 00:16:18,000
+of the official unemployment rate. But,
+ 
+
+929
+00:16:18,000 --> 00:16:19,750
+of the official unemployment rate. But,
+the broader economy has been telling you
+
+930
+00:16:19,750 --> 00:16:19,760
+the broader economy has been telling you
+ 
+
+931
+00:16:19,760 --> 00:16:21,990
+the broader economy has been telling you
+a very different story. Now, JP Morgan,
+
+932
+00:16:21,990 --> 00:16:22,000
+a very different story. Now, JP Morgan,
+ 
+
+933
+00:16:22,000 --> 00:16:24,550
+a very different story. Now, JP Morgan,
+JP Morgan of all places, wants to tell
+
+934
+00:16:24,550 --> 00:16:24,560
+JP Morgan of all places, wants to tell
+ 
+
+935
+00:16:24,560 --> 00:16:27,510
+JP Morgan of all places, wants to tell
+you the same one. Goldilocks is gone
+
+936
+00:16:27,510 --> 00:16:27,520
+you the same one. Goldilocks is gone
+ 
+
+937
+00:16:27,520 --> 00:16:30,230
+you the same one. Goldilocks is gone
+because Goldilocks required everyone to
+
+938
+00:16:30,230 --> 00:16:30,240
+because Goldilocks required everyone to
+ 
+
+939
+00:16:30,240 --> 00:16:32,470
+because Goldilocks required everyone to
+ignore way too much.
+
+940
+00:16:32,470 --> 00:16:32,480
+ignore way too much.
+ 
+
+941
+00:16:32,480 --> 00:16:33,590
+ignore way too much.
+The next stage is going to be about
+
+942
+00:16:33,590 --> 00:16:33,600
+The next stage is going to be about
+ 
+
+943
+00:16:33,600 --> 00:16:35,590
+The next stage is going to be about
+confirmation, not from a single number,
+
+944
+00:16:35,590 --> 00:16:35,600
+confirmation, not from a single number,
+ 
+
+945
+00:16:35,600 --> 00:16:37,750
+confirmation, not from a single number,
+but from the whole labor market as a
+
+946
+00:16:37,750 --> 00:16:37,760
+but from the whole labor market as a
+ 
+
+947
+00:16:37,760 --> 00:16:39,870
+but from the whole labor market as a
+whole, along with, as we've been talking
+
+948
+00:16:39,870 --> 00:16:39,880
+whole, along with, as we've been talking
+ 
+
+949
+00:16:39,880 --> 00:16:41,950
+whole, along with, as we've been talking
+about in various markets and curves,
+
+950
+00:16:41,950 --> 00:16:41,960
+about in various markets and curves,
+ 
+
+951
+00:16:41,960 --> 00:16:43,270
+about in various markets and curves,
+we're going to get signals from all over
+
+952
+00:16:43,270 --> 00:16:43,280
+we're going to get signals from all over
+ 
+
+953
+00:16:43,280 --> 00:16:44,829
+we're going to get signals from all over
+the place. We're going to But, in labor
+
+954
+00:16:44,829 --> 00:16:44,839
+the place. We're going to But, in labor
+ 
+
+955
+00:16:44,839 --> 00:16:46,030
+the place. We're going to But, in labor
+specifically, we're going to watch the
+
+956
+00:16:46,030 --> 00:16:46,040
+specifically, we're going to watch the
+ 
+
+957
+00:16:46,040 --> 00:16:47,590
+specifically, we're going to watch the
+household survey and full-time
+
+958
+00:16:47,590 --> 00:16:47,600
+household survey and full-time
+ 
+
+959
+00:16:47,600 --> 00:16:49,750
+household survey and full-time
+employment. That's a big one. Labor
+
+960
+00:16:49,750 --> 00:16:49,760
+employment. That's a big one. Labor
+ 
+
+961
+00:16:49,760 --> 00:16:52,270
+employment. That's a big one. Labor
+force participation. Everyone wants to
+
+962
+00:16:52,270 --> 00:16:52,280
+force participation. Everyone wants to
+ 
+
+963
+00:16:52,280 --> 00:16:53,990
+force participation. Everyone wants to
+ignore it, or come up with some benign
+
+964
+00:16:53,990 --> 00:16:54,000
+ignore it, or come up with some benign
+ 
+
+965
+00:16:54,000 --> 00:16:55,750
+ignore it, or come up with some benign
+excuse for it, but you got to pay
+
+966
+00:16:55,750 --> 00:16:55,760
+excuse for it, but you got to pay
+ 
+
+967
+00:16:55,760 --> 00:16:57,829
+excuse for it, but you got to pay
+attention to labor force participation.
+
+968
+00:16:57,829 --> 00:16:57,839
+attention to labor force participation.
+ 
+
+969
+00:16:57,839 --> 00:16:59,710
+attention to labor force participation.
+The quits rate, that is absolutely
+
+970
+00:16:59,710 --> 00:16:59,720
+The quits rate, that is absolutely
+ 
+
+971
+00:16:59,720 --> 00:17:02,510
+The quits rate, that is absolutely
+helpful. Temporary help, temp jobs, big
+
+972
+00:17:02,510 --> 00:17:02,520
+helpful. Temporary help, temp jobs, big
+ 
+
+973
+00:17:02,520 --> 00:17:04,910
+helpful. Temporary help, temp jobs, big
+cyclical signal. Small business hiring
+
+974
+00:17:04,910 --> 00:17:04,920
+cyclical signal. Small business hiring
+ 
+
+975
+00:17:04,920 --> 00:17:06,910
+cyclical signal. Small business hiring
+plans and consumer delinquencies, as
+
+976
+00:17:06,910 --> 00:17:06,920
+plans and consumer delinquencies, as
+ 
+
+977
+00:17:06,920 --> 00:17:09,870
+plans and consumer delinquencies, as
+well as occasionally corporate guidance.
+
+978
+00:17:09,870 --> 00:17:09,880
+well as occasionally corporate guidance.
+ 
+
+979
+00:17:09,880 --> 00:17:11,790
+well as occasionally corporate guidance.
+But, most importantly, watch whether
+
+980
+00:17:11,790 --> 00:17:11,800
+But, most importantly, watch whether
+ 
+
+981
+00:17:11,800 --> 00:17:14,590
+But, most importantly, watch whether
+companies move from not hiring to more
+
+982
+00:17:14,590 --> 00:17:14,600
+companies move from not hiring to more
+ 
+
+983
+00:17:14,600 --> 00:17:16,470
+companies move from not hiring to more
+actively firing, which we're getting
+
+984
+00:17:16,470 --> 00:17:16,480
+actively firing, which we're getting
+ 
+
+985
+00:17:16,480 --> 00:17:18,390
+actively firing, which we're getting
+evidence of that taking place. Because
+
+986
+00:17:18,390 --> 00:17:18,400
+evidence of that taking place. Because
+ 
+
+987
+00:17:18,400 --> 00:17:19,910
+evidence of that taking place. Because
+that's a transition that turns the labor
+
+988
+00:17:19,910 --> 00:17:19,920
+that's a transition that turns the labor
+ 
+
+989
+00:17:19,920 --> 00:17:22,670
+that's a transition that turns the labor
+market in its weakness into more obvious
+
+990
+00:17:22,670 --> 00:17:22,680
+market in its weakness into more obvious
+ 
+
+991
+00:17:22,680 --> 00:17:24,990
+market in its weakness into more obvious
+downturn. A no hiring environment that's
+
+992
+00:17:24,990 --> 00:17:25,000
+downturn. A no hiring environment that's
+ 
+
+993
+00:17:25,000 --> 00:17:27,590
+downturn. A no hiring environment that's
+already bad, it traps people, it reduces
+
+994
+00:17:27,590 --> 00:17:27,600
+already bad, it traps people, it reduces
+ 
+
+995
+00:17:27,600 --> 00:17:29,550
+already bad, it traps people, it reduces
+opportunity, it makes job loss more
+
+996
+00:17:29,550 --> 00:17:29,560
+opportunity, it makes job loss more
+ 
+
+997
+00:17:29,560 --> 00:17:31,310
+opportunity, it makes job loss more
+dangerous because replacing income gets
+
+998
+00:17:31,310 --> 00:17:31,320
+dangerous because replacing income gets
+ 
+
+999
+00:17:31,320 --> 00:17:33,870
+dangerous because replacing income gets
+harder to do. But when no hiring becomes
+
+1000
+00:17:33,870 --> 00:17:33,880
+harder to do. But when no hiring becomes
+ 
+
+1001
+00:17:33,880 --> 00:17:36,270
+harder to do. But when no hiring becomes
+more firing, when flat beverage becomes
+
+1002
+00:17:36,270 --> 00:17:36,280
+more firing, when flat beverage becomes
+ 
+
+1003
+00:17:36,280 --> 00:17:38,030
+more firing, when flat beverage becomes
+flatter beverage, that's when the
+
+1004
+00:17:38,030 --> 00:17:38,040
+flatter beverage, that's when the
+ 
+
+1005
+00:17:38,040 --> 00:17:39,510
+flatter beverage, that's when the
+weakness really accelerates. And that's
+
+1006
+00:17:39,510 --> 00:17:39,520
+weakness really accelerates. And that's
+ 
+
+1007
+00:17:39,520 --> 00:17:41,710
+weakness really accelerates. And that's
+what JP Morgan is talking about. It's
+
+1008
+00:17:41,710 --> 00:17:41,720
+what JP Morgan is talking about. It's
+ 
+
+1009
+00:17:41,720 --> 00:17:43,270
+what JP Morgan is talking about. It's
+when the negative growth shock becomes
+
+1010
+00:17:43,270 --> 00:17:43,280
+when the negative growth shock becomes
+ 
+
+1011
+00:17:43,280 --> 00:17:45,230
+when the negative growth shock becomes
+visible even to the people who spent
+
+1012
+00:17:45,230 --> 00:17:45,240
+visible even to the people who spent
+ 
+
+1013
+00:17:45,240 --> 00:17:47,390
+visible even to the people who spent
+couple years insisting
+
+1014
+00:17:47,390 --> 00:17:47,400
+couple years insisting
+ 
+
+1015
+00:17:47,400 --> 00:17:49,710
+couple years insisting
+everything was fine and Goldilocks was
+
+1016
+00:17:49,710 --> 00:17:49,720
+everything was fine and Goldilocks was
+ 
+
+1017
+00:17:49,720 --> 00:17:51,470
+everything was fine and Goldilocks was
+sitting right there in the middle of the
+
+1018
+00:17:51,470 --> 00:17:51,480
+sitting right there in the middle of the
+ 
+
+1019
+00:17:51,480 --> 00:17:53,590
+sitting right there in the middle of the
+table. So, JP Morgan taking the
+
+1020
+00:17:53,590 --> 00:17:53,600
+table. So, JP Morgan taking the
+ 
+
+1021
+00:17:53,600 --> 00:17:56,030
+table. So, JP Morgan taking the
+Goldilocks scenario off of that table,
+
+1022
+00:17:56,030 --> 00:17:56,040
+Goldilocks scenario off of that table,
+ 
+
+1023
+00:17:56,040 --> 00:17:57,910
+Goldilocks scenario off of that table,
+it's not just a headline. It is a
+
+1024
+00:17:57,910 --> 00:17:57,920
+it's not just a headline. It is a
+ 
+
+1025
+00:17:57,920 --> 00:17:59,990
+it's not just a headline. It is a
+significant marker, a significant
+
+1026
+00:17:59,990 --> 00:18:00,000
+significant marker, a significant
+ 
+
+1027
+00:18:00,000 --> 00:18:02,710
+significant marker, a significant
+milestone in it at the very least Wall
+
+1028
+00:18:02,710 --> 00:18:02,720
+milestone in it at the very least Wall
+ 
+
+1029
+00:18:02,720 --> 00:18:04,150
+milestone in it at the very least Wall
+Street economists waking up to the
+
+1030
+00:18:04,150 --> 00:18:04,160
+Street economists waking up to the
+ 
+
+1031
+00:18:04,160 --> 00:18:06,110
+Street economists waking up to the
+possibilities that, "Hey, not everything
+
+1032
+00:18:06,110 --> 00:18:06,120
+possibilities that, "Hey, not everything
+ 
+
+1033
+00:18:06,120 --> 00:18:07,990
+possibilities that, "Hey, not everything
+is going the way the stock market would
+
+1034
+00:18:07,990 --> 00:18:08,000
+is going the way the stock market would
+ 
+
+1035
+00:18:08,000 --> 00:18:10,510
+is going the way the stock market would
+have you believe." It tells us the soft
+
+1036
+00:18:10,510 --> 00:18:10,520
+have you believe." It tells us the soft
+ 
+
+1037
+00:18:10,520 --> 00:18:12,070
+have you believe." It tells us the soft
+landing narrative is being revised
+
+1038
+00:18:12,070 --> 00:18:12,080
+landing narrative is being revised
+ 
+
+1039
+00:18:12,080 --> 00:18:13,590
+landing narrative is being revised
+because the evidence is becoming too
+
+1040
+00:18:13,590 --> 00:18:13,600
+because the evidence is becoming too
+ 
+
+1041
+00:18:13,600 --> 00:18:15,950
+because the evidence is becoming too
+large to dismiss. But the real warning
+
+1042
+00:18:15,950 --> 00:18:15,960
+large to dismiss. But the real warning
+ 
+
+1043
+00:18:15,960 --> 00:18:19,470
+large to dismiss. But the real warning
+came much earlier. It came in 2024 when
+
+1044
+00:18:19,470 --> 00:18:19,480
+came much earlier. It came in 2024 when
+ 
+
+1045
+00:18:19,480 --> 00:18:21,350
+came much earlier. It came in 2024 when
+the Sahm rule triggered and labor market
+
+1046
+00:18:21,350 --> 00:18:21,360
+the Sahm rule triggered and labor market
+ 
+
+1047
+00:18:21,360 --> 00:18:23,550
+the Sahm rule triggered and labor market
+momentum shifted in the wrong direction.
+
+1048
+00:18:23,550 --> 00:18:23,560
+momentum shifted in the wrong direction.
+ 
+
+1049
+00:18:23,560 --> 00:18:25,950
+momentum shifted in the wrong direction.
+It came when job openings fell, quits
+
+1050
+00:18:25,950 --> 00:18:25,960
+It came when job openings fell, quits
+ 
+
+1051
+00:18:25,960 --> 00:18:28,510
+It came when job openings fell, quits
+declined, hiring disappeared, and
+
+1052
+00:18:28,510 --> 00:18:28,520
+declined, hiring disappeared, and
+ 
+
+1053
+00:18:28,520 --> 00:18:31,630
+declined, hiring disappeared, and
+workers dropped out. And as they did,
+
+1054
+00:18:31,630 --> 00:18:31,640
+workers dropped out. And as they did,
+ 
+
+1055
+00:18:31,640 --> 00:18:34,190
+workers dropped out. And as they did,
+they became consumers who were deeply
+
+1056
+00:18:34,190 --> 00:18:34,200
+they became consumers who were deeply
+ 
+
+1057
+00:18:34,200 --> 00:18:36,550
+they became consumers who were deeply
+pessimistic. It came when the economy
+
+1058
+00:18:36,550 --> 00:18:36,560
+pessimistic. It came when the economy
+ 
+
+1059
+00:18:36,560 --> 00:18:38,030
+pessimistic. It came when the economy
+started behaving like something was
+
+1060
+00:18:38,030 --> 00:18:38,040
+started behaving like something was
+ 
+
+1061
+00:18:38,040 --> 00:18:39,150
+started behaving like something was
+wrong even though the official
+
+1062
+00:18:39,150 --> 00:18:39,160
+wrong even though the official
+ 
+
+1063
+00:18:39,160 --> 00:18:41,550
+wrong even though the official
+unemployment rate did not fully confirm
+
+1064
+00:18:41,550 --> 00:18:41,560
+unemployment rate did not fully confirm
+ 
+
+1065
+00:18:41,560 --> 00:18:43,350
+unemployment rate did not fully confirm
+it in the way everyone had expected.
+
+1066
+00:18:43,350 --> 00:18:43,360
+it in the way everyone had expected.
+ 
+
+1067
+00:18:43,360 --> 00:18:47,070
+it in the way everyone had expected.
+That was the mistake. The Sahm rule
+
+1068
+00:18:47,070 --> 00:18:47,080
+That was the mistake. The Sahm rule
+ 
+
+1069
+00:18:47,080 --> 00:18:48,950
+That was the mistake. The Sahm rule
+signal was not invalidated because the
+
+1070
+00:18:48,950 --> 00:18:48,960
+signal was not invalidated because the
+ 
+
+1071
+00:18:48,960 --> 00:18:50,990
+signal was not invalidated because the
+official U3 rate stopped rising. The
+
+1072
+00:18:50,990 --> 00:18:51,000
+official U3 rate stopped rising. The
+ 
+
+1073
+00:18:51,000 --> 00:18:52,910
+official U3 rate stopped rising. The
+weakness simply showed up through labor
+
+1074
+00:18:52,910 --> 00:18:52,920
+weakness simply showed up through labor
+ 
+
+1075
+00:18:52,920 --> 00:18:54,830
+weakness simply showed up through labor
+force behavior, household employment
+
+1076
+00:18:54,830 --> 00:18:54,840
+force behavior, household employment
+ 
+
+1077
+00:18:54,840 --> 00:18:57,790
+force behavior, household employment
+turnover, and lack of demand. Now, JP
+
+1078
+00:18:57,790 --> 00:18:57,800
+turnover, and lack of demand. Now, JP
+ 
+
+1079
+00:18:57,800 --> 00:18:59,150
+turnover, and lack of demand. Now, JP
+Morgan is worried about a negative
+
+1080
+00:18:59,150 --> 00:18:59,160
+Morgan is worried about a negative
+ 
+
+1081
+00:18:59,160 --> 00:19:01,150
+Morgan is worried about a negative
+growth shock, but the shock
+
+1082
+00:19:01,150 --> 00:19:01,160
+growth shock, but the shock
+ 
+
+1083
+00:19:01,160 --> 00:19:03,070
+growth shock, but the shock
+it's not the beginning. The shock is
+
+1084
+00:19:03,070 --> 00:19:03,080
+it's not the beginning. The shock is
+ 
+
+1085
+00:19:03,080 --> 00:19:04,350
+it's not the beginning. The shock is
+what happens when an already weak
+
+1086
+00:19:04,350 --> 00:19:04,360
+what happens when an already weak
+ 
+
+1087
+00:19:04,360 --> 00:19:07,630
+what happens when an already weak
+economy finally runs out of ways to hide
+
+1088
+00:19:07,630 --> 00:19:07,640
+economy finally runs out of ways to hide
+ 
+
+1089
+00:19:07,640 --> 00:19:09,630
+economy finally runs out of ways to hide
+it. Goldilocks didn't just leave the
+
+1090
+00:19:09,630 --> 00:19:09,640
+it. Goldilocks didn't just leave the
+ 
+
+1091
+00:19:09,640 --> 00:19:11,470
+it. Goldilocks didn't just leave the
+building, she got kicked out of it by
+
+1092
+00:19:11,470 --> 00:19:11,480
+building, she got kicked out of it by
+ 
+
+1093
+00:19:11,480 --> 00:19:13,830
+building, she got kicked out of it by
+Claudia Sahm and Japanese carry traders
+
+1094
+00:19:13,830 --> 00:19:13,840
+Claudia Sahm and Japanese carry traders
+ 
+
+1095
+00:19:13,840 --> 00:19:17,270
+Claudia Sahm and Japanese carry traders
+a couple of summers ago.
+
+1096
+00:19:17,270 --> 00:19:17,280
+
+ 
+
+1097
+00:19:17,280 --> 00:19:19,030
+ 
+And we can see this big time in other
+
+1098
+00:19:19,030 --> 00:19:19,040
+And we can see this big time in other
+ 
+
+1099
+00:19:19,040 --> 00:19:20,950
+And we can see this big time in other
+places like housing and the housing
+
+1100
+00:19:20,950 --> 00:19:20,960
+places like housing and the housing
+ 
+
+1101
+00:19:20,960 --> 00:19:23,830
+places like housing and the housing
+market. Why falling mortgage rates never
+
+1102
+00:19:23,830 --> 00:19:23,840
+market. Why falling mortgage rates never
+ 
+
+1103
+00:19:23,840 --> 00:19:27,070
+market. Why falling mortgage rates never
+ignited a rebound in real estate. And
+
+1104
+00:19:27,070 --> 00:19:27,080
+ignited a rebound in real estate. And
+ 
+
+1105
+00:19:27,080 --> 00:19:29,670
+ignited a rebound in real estate. And
+that's the video link below. As always,
+
+1106
+00:19:29,670 --> 00:19:29,680
+that's the video link below. As always,
+ 
+
+1107
+00:19:29,680 --> 00:19:31,630
+that's the video link below. As always,
+thank you very much for joining me. Huge
+
+1108
+00:19:31,630 --> 00:19:31,640
+thank you very much for joining me. Huge
+ 
+
+1109
+00:19:31,640 --> 00:19:33,070
+thank you very much for joining me. Huge
+thank you Euro Dollar University members
+
+1110
+00:19:33,070 --> 00:19:33,080
+thank you Euro Dollar University members
+ 
+
+1111
+00:19:33,080 --> 00:19:35,670
+thank you Euro Dollar University members
+and subscribers. And until next time,
+
+1112
+00:19:35,670 --> 00:19:35,680
+and subscribers. And until next time,
+ 
+
+1113
+00:19:35,680 --> 00:19:38,160
+and subscribers. And until next time,
+take care.
+
