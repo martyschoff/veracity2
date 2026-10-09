@@ -549,3 +549,11 @@ TypeError: argument of type 'NoneType' is not a container or iterable
 2026-10-08 21:21:01   Agent finished in 52.6s (exit code 0)
 2026-10-08 21:21:01   SUCCESS: incorrect (confidence 55)
 2026-10-09 05:21:39 DelphiCursor worker started
+2026-10-09 05:45:40 Worker error: AttributeError: 'list' object has no attribute 'get'
+2026-10-09 05:45:40 Traceback (most recent call last):
+  File "C:\Users\schof\veracity2\scripts\delphicursor_worker.py", line 488, in main
+    ind_data = {i['name']: i for i in data.get('individuals', [])}
+                                      ^^^^^^^^
+AttributeError: 'list' object has no attribute 'get'
+
+2026-10-09 05:45:40 Worker stopped.

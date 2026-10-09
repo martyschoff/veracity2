@@ -12470,3 +12470,14 @@ ValueError: zip() argument 2 is longer than argument 1
 2026-10-08 12:42:13 pred_1790961078_51 miro verdict saved
 2026-10-09 05:21:40 miro worker started (nimo via proxy; 7-GPU pool skipped)
 2026-10-09 05:25:00 miro worker started (nimo via proxy; 7-GPU pool skipped)
+2026-10-09 05:46:01 worker error: TypeError: list indices must be integers or slices, not str
+2026-10-09 05:46:01 Traceback (most recent call last):
+  File "C:\Users\schof\veracity2\scripts\miro_worker.py", line 170, in main
+    queue = [p for p in data['predictions'] if p.get('miro_status') == 'queued']
+                        ~~~~^^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+
+2026-10-09 05:48:03 starting Neo4j
+2026-10-09 05:48:29 neo4j http up
+2026-10-09 05:48:31 starting LLM proxy
+2026-10-09 05:48:34 adjudicating pred_1790961078_13: Japanese interest rates will rise to about 2.5% by the end of 2026

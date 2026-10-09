@@ -116,3 +116,4 @@ ModuleNotFoundError: No module named 'filelock'
   => The war between Russia and Ukraine will shift further in fav : RIGHT (100% of 2 decided, 35 unclear)
 Saved. Render+deploy to publish badges.
 
+2026-10-09 05:46:09 error TypeError: list indices must be integers or slices, not str

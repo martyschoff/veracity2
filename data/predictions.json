@@ -40526,7 +40526,12 @@
           "weight": 1.25,
           "reasoning": "The prediction states Japanese interest rates will rise to about 2.5% by the end of 2026, and the transcript confirms this has occurred, with rates now at intermediate-term 2.5%."
         }
-      ]
+      ],
+      "marty_agrees": true,
+      "marty_note": "MartyPredicts: Right",
+      "marty_at": "2026-10-09",
+      "marty_verdict": "correct",
+      "miro_status": "queued"
     },
     {
       "id": "pred_1790961078_14",
