@@ -76,3 +76,7 @@ EXIT_0
  create mode 100644 data/pages_deploy.log
 To https://github.com/martyschoff/veracity2.git
    70a98c7..829c96a  master -> master
+[master 73f5adf] grid: Swarm not-due badge (explains gated future-dated claims)
+ 6 files changed, 55 insertions(+), 5 deletions(-)
+To https://github.com/martyschoff/veracity2.git
+   829c96a..73f5adf  master -> master
