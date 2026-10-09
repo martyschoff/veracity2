@@ -106,3 +106,5 @@ ModuleNotFoundError: No module named 'filelock'
 2026-10-08 10:01:44 5 queued - running monte_carlo pass
 2026-10-09 05:21:38 swarm worker started (poll 60s)
 2026-10-09 05:21:38 5 queued - running monte_carlo pass
+2026-10-09 05:27:18 swarm worker started (poll 60s)
+2026-10-09 05:27:18 2 queued - running monte_carlo pass

@@ -12469,3 +12469,4 @@ ValueError: zip() argument 2 is longer than argument 1
 
 2026-10-08 12:42:13 pred_1790961078_51 miro verdict saved
 2026-10-09 05:21:40 miro worker started (nimo via proxy; 7-GPU pool skipped)
+2026-10-09 05:25:00 miro worker started (nimo via proxy; 7-GPU pool skipped)
