@@ -1,0 +1,39 @@
+I've read all the requested files. Here's my understanding of the Seer Score adjudication system after 10 days of production:
+
+## System Architecture
+
+**Verdict Precedence Stack** (high to low):
+1. **Fact-Check** — authoritative human-verified citations
+2. **Marty's Verdict** — final, panels never override (Mode A: Advisory)
+3. **DelphiCursor** — Opus advisory (blind to Marty's position)
+4. **Delphi3080** — MiroFish agent-society sim (32B + Neo4j/Graphiti)
+5. **Panel** — weighted panelist votes
+6. **Swarm** — 40-persona Monte Carlo
+
+## Key Components
+
+| Script | Function |
+|--------|----------|
+| `monte_carlo.py` | 40-persona swarm across nimo128 + upthread64 + 8×3080 pool |
+| `monte_carlo_400.py` | 400-persona mega-swarm (comparison-only, separate state file) |
+| `miro_worker.py` | MiroFish/Delphi3080 via veracity-panel backend |
+| `delphicursor_worker.py` | Opus adjudicator with isolated workspaces, 5-min timeout |
+| `data_lock.py` | Shared `FileLock` for `predictions.json` — all writers use `locked_data()` |
+
+## Production Learnings (from OPERATIONS.md)
+
+- **3080-pool discipline**: Stagger warmup ~30s apart, ≤2-3 concurrent per instance until warm, 42-thread fan-out killed 5/7 instances
+- **Post-reboot hazard**: Ports 11437-11441 were missing after TJ1 Kernel-Power 41 crash (2026-10-07)
+- **Pending marks ledger**: `data/pending_marks.json` catches marks wiped by stale snapshot saves
+- **Not-due gating**: Predictions with target year still in future → `mc_status: not_due`
+
+## DelphiCursor Trigger (from design doc)
+
+Escalates when **2+ factors** are true:
+- Swarm split ≤35 (genuine disagreement)
+- Delphi3080 unclear or error
+- Recency-sensitive (events after 2024-01-01)
+- High-weight predictor (≥1.25)
+- Explicit queue
+
+What aspect would you like me to focus on — reliability issues, code quality, operational gaps, or potential improvements?

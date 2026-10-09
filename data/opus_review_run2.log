@@ -1,0 +1,18 @@
+Written to `REVIEW_OPS_ASSESSMENT.md` — 20 prioritized issues covering all four areas:
+
+**P0 (5.5hr total):**
+- `mc_result` NoneType crash in `log_disagreement`
+- DelphiCursor workspace isolation broken (agent ignores files)
+- No worker health monitoring
+- 3080 pool ports vanish on reboot
+- Double-locking pattern
+
+**P1 (8.5hr total):**
+- Graphiti embedding bug, undefined vars in `panel_adjudicate`, no backups, hardcoded token/paths, duplicate code, no CI, no LLM retry/backoff
+
+**P2 (25hr total):**
+- File handle leaks, no type hints, unbounded logs, consolidate workers, proper job queue, central config
+
+**Over-engineered:** MiroFish's 15-min Graphiti pipeline, 40-persona Monte Carlo swarm, panel weight tiers for simulated LLMs
+
+**Missing:** Dead-letter queue UI, admin dashboard, idempotency keys, API rate limiting, worker tests
