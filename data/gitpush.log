@@ -80,3 +80,8 @@ To https://github.com/martyschoff/veracity2.git
  6 files changed, 55 insertions(+), 5 deletions(-)
 To https://github.com/martyschoff/veracity2.git
    829c96a..73f5adf  master -> master
+[master 288fcc6] final sync: swarm not-due badge, deploy logs
+ 1 file changed, 4 insertions(+)
+To https://github.com/martyschoff/veracity2.git
+   73f5adf..288fcc6  master -> master
+EXIT_0
