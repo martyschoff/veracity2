@@ -1,0 +1,61 @@
+{
+  "schema_version": "m0.1",
+  "claim_id": "marty-pred_20261002000852_5326ed3a4e84",
+  "label": "supported",
+  "confidence": 0.68,
+  "rationale": "Ukraine's technological advantages in drone warfare, combined with Western military support and Russia's logistical vulnerabilities, are likely to create measurable momentum in Ukraine's favor over the next 12 months. While Russia's resource depth and counter-drone adaptations pose challenges, the immediate tactical benefits of Ukrainian drone capabilities—enhanced by international supply chains and energy security—suggest a measurable advantage within the 12-month horizon. Capital markets and trade specialists note potential for capital reallocation and supply chain disruption, though outcomes remain contingent on international support.",
+  "caveats": [
+    "Russia's potential counter-drone adaptations could mitigate Ukrainian advantages",
+    "Dependence on sustained international military and economic support",
+    "Russia's larger population and resource base may offset technological gaps over longer timelines"
+  ],
+  "specialist_votes": [
+    {
+      "specialist_id": "demographer",
+      "label": "inconclusive",
+      "confidence": 0.55,
+      "summary": "Ukraine's technological advantages in drone warfare may provide tactical benefits, but demographic constraints (shrinking working-age population, high dependency ratios) could limit sustained momentum. Russia's larger population and resource base may offset tech gaps, but immediate outcomes depend on external support and battlefield adaptability."
+    },
+    {
+      "specialist_id": "energy_security",
+      "label": "inconclusive",
+      "confidence": 0.65,
+      "summary": "Ukraine's technological advantages in drone warfare may provide tactical benefits, but the war's outcome over the next 12 months depends on broader factors like international support, Russian countermeasures, and strategic adaptability. Energy dynamics, including resource availability and logistics resilience, play a role but do not decisively favor Ukraine within this timeframe."
+    },
+    {
+      "specialist_id": "capital_markets",
+      "label": "supported",
+      "confidence": 0.65,
+      "summary": "Ukraine's technological advantages in drone warfare may enhance its strategic position, potentially attracting increased foreign direct investment (FDI) and stabilizing credit access as confidence in its economic recovery grows. However, Russia's countermeasures and resource depth could temper this shift. The 12-month horizon allows for rapid capital reallocation if battlefield momentum decisively favors Ukraine, though outcomes remain contingent on international support and geopolitical dynamics."
+    },
+    {
+      "specialist_id": "trade_supply_chain",
+      "label": "supported",
+      "confidence": 0.7,
+      "summary": "Ukraine's drone warfare advantages could disrupt Russian supply chains and logistics, a critical factor in trade and military operations. While Russia may adapt with counter-drone measures, the 12-month horizon allows for sustained tactical disruption if Western support continues. However, Russia's industrial capacity and potential countermeasures remain key uncertainties."
+    },
+    {
+      "specialist_id": "military_geography",
+      "label": "supported",
+      "confidence": 0.75,
+      "summary": "Ukraine's technological advantages in drone warfare, combined with Western military support and Russia's logistical vulnerabilities, are likely to shift the conflict's momentum in Ukraine's favor over the next 12 months. While Russia's resource depth and counter-drone adaptations pose challenges, the immediate tactical and operational benefits of Ukrainian drone capabilities—enhanced by international supply chains and energy security—suggest a measurable advantage within the 12-month horizon."
+    }
+  ],
+  "graph_citations": [
+    {
+      "fact": "military_geography",
+      "weight": 0.75
+    },
+    {
+      "fact": "military_geography",
+      "weight": 0.7
+    },
+    {
+      "fact": "military_geography",
+      "weight": 0.65
+    }
+  ],
+  "panel_id": "zeihan_panel_v1",
+  "rounds": 2,
+  "markdown_gloss": "# Verdict gloss (non-authoritative)\n\n**Claim:** `marty-pred_20261002000852_5326ed3a4e84`\n\n**Label:** supported (confidence 0.68)\n\n## Rationale\n\nUkraine's technological advantages in drone warfare, combined with Western military support and Russia's logistical vulnerabilities, are likely to create measurable momentum in Ukraine's favor over the next 12 months. While Russia's resource depth and counter-drone adaptations pose challenges, the immediate tactical benefits of Ukrainian drone capabilities—enhanced by international supply chains and energy security—suggest a measurable advantage within the 12-month horizon. Capital markets and trade specialists note potential for capital reallocation and supply chain disruption, though outcomes remain contingent on international support.\n\n## Specialist votes\n\n- **demographer**: inconclusive (0.55) — Ukraine's technological advantages in drone warfare may provide tactical benefits, but demographic constraints (shrinking working-age population, high dependency ratios) could limit sustained momentum. Russia's larger population and resource base may offset tech gaps, but immediate outcomes depend on external support and battlefield adaptability.\n- **energy_security**: inconclusive (0.65) — Ukraine's technological advantages in drone warfare may provide tactical benefits, but the war's outcome over the next 12 months depends on broader factors like international support, Russian countermeasures, and strategic adaptability. Energy dynamics, including resource availability and logistics resilience, play a role but do not decisively favor Ukraine within this timeframe.\n- **capital_markets**: supported (0.65) — Ukraine's technological advantages in drone warfare may enhance its strategic position, potentially attracting increased foreign direct investment (FDI) and stabilizing credit access as confidence in its economic recovery grows. However, Russia's countermeasures and resource depth could temper this shift. The 12-month horizon allows for rapid capital reallocation if battlefield momentum decisively favors Ukraine, though outcomes remain contingent on international support and geopolitical dynamics.\n- **trade_supply_chain**: supported (0.70) — Ukraine's drone warfare advantages could disrupt Russian supply chains and logistics, a critical factor in trade and military operations. While Russia may adapt with counter-drone measures, the 12-month horizon allows for sustained tactical disruption if Western support continues. However, Russia's industrial capacity and potential countermeasures remain key uncertainties.\n- **military_geography**: supported (0.75) — Ukraine's technological advantages in drone warfare, combined with Western military support and Russia's logistical vulnerabilities, are likely to shift the conflict's momentum in Ukraine's favor over the next 12 months. While Russia's resource depth and counter-drone adaptations pose challenges, the immediate tactical and operational benefits of Ukrainian drone capabilities—enhanced by international supply chains and energy security—suggest a measurable advantage within the 12-month horizon.\n\n## Caveats\n\n- Russia's potential counter-drone adaptations could mitigate Ukrainian advantages\n- Dependence on sustained international military and economic support\n- Russia's larger population and resource base may offset technological gaps over longer timelines\n"
+}

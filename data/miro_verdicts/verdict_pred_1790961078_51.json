@@ -1,0 +1,69 @@
+{
+  "schema_version": "m0.1",
+  "claim_id": "marty-pred_1790961078_51",
+  "label": "refuted",
+  "confidence": 0.7,
+  "rationale": "The claim that gold could reach $8,000/oz by 2027-2028 is refuted by most specialists due to lack of supporting macroeconomic conditions (stable dollar, no hyperinflation projections), absence of critical supply/demand disruptions, and historical price trends inconsistent with such extreme volatility. Capital markets, trade supply chain, and military geography experts provided strong refutations in Round 2, citing improbable systemic shocks required for this trajectory.",
+  "caveats": [
+    "Projection requires unprecedented macroeconomic shocks not currently modeled",
+    "Gold prices historically correlate with inflation (3-5%) rather than 700% increases",
+    "Central bank gold reserve trends show no systemic shift toward gold as primary store of value"
+  ],
+  "specialist_votes": [
+    {
+      "specialist_id": "demographer",
+      "label": "inconclusive",
+      "confidence": 0.25,
+      "summary": "No demographic data supports gold price projections to $8,000/oz"
+    },
+    {
+      "specialist_id": "energy_security",
+      "label": "inconclusive",
+      "confidence": 0.25,
+      "summary": "No energy-sector data supports feasibility of $8,000/oz gold"
+    },
+    {
+      "specialist_id": "capital_markets",
+      "label": "refuted",
+      "confidence": 0.6,
+      "summary": "Requires extreme capital flows not currently observable"
+    },
+    {
+      "specialist_id": "trade_supply_chain",
+      "label": "refuted",
+      "confidence": 0.6,
+      "summary": "No projected supply chain disruptions to justify $8,000/oz"
+    },
+    {
+      "specialist_id": "military_geography",
+      "label": "refuted",
+      "confidence": 0.8,
+      "summary": "Stable trade corridors and no geopolitical shocks support refutation"
+    }
+  ],
+  "graph_citations": [
+    {
+      "fact": "economic_stability",
+      "weight": 0.3
+    },
+    {
+      "fact": "geopolitical_risk",
+      "weight": 0.2
+    },
+    {
+      "fact": "resource_security",
+      "weight": 0.2
+    },
+    {
+      "fact": "central_bank_reserves_flow",
+      "weight": 0.15
+    },
+    {
+      "fact": "global_credit_impulse",
+      "weight": 0.15
+    }
+  ],
+  "panel_id": "zeihan_panel_v1",
+  "rounds": 2,
+  "markdown_gloss": "# Verdict gloss (non-authoritative)\n\n**Claim:** `marty-pred_1790961078_51`\n\n**Label:** refuted (confidence 0.70)\n\n## Rationale\n\nThe claim that gold could reach $8,000/oz by 2027-2028 is refuted by most specialists due to lack of supporting macroeconomic conditions (stable dollar, no hyperinflation projections), absence of critical supply/demand disruptions, and historical price trends inconsistent with such extreme volatility. Capital markets, trade supply chain, and military geography experts provided strong refutations in Round 2, citing improbable systemic shocks required for this trajectory.\n\n## Specialist votes\n\n- **demographer**: inconclusive (0.25) — No demographic data supports gold price projections to $8,000/oz\n- **energy_security**: inconclusive (0.25) — No energy-sector data supports feasibility of $8,000/oz gold\n- **capital_markets**: refuted (0.60) — Requires extreme capital flows not currently observable\n- **trade_supply_chain**: refuted (0.60) — No projected supply chain disruptions to justify $8,000/oz\n- **military_geography**: refuted (0.80) — Stable trade corridors and no geopolitical shocks support refutation\n\n## Caveats\n\n- Projection requires unprecedented macroeconomic shocks not currently modeled\n- Gold prices historically correlate with inflation (3-5%) rather than 700% increases\n- Central bank gold reserve trends show no systemic shift toward gold as primary store of value\n"
+}

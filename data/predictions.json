@@ -11246,7 +11246,7 @@
       "marty_note": "MartyPredicts: Wrong",
       "marty_at": "2026-10-07",
       "mc_status": "queued",
-      "miro_status": "queued",
+      "miro_status": "done",
       "mc_result": "RIGHT (100% of 3 decided, 29 unclear)",
       "mc_split": 0,
       "marty_verdict": "wrong",
@@ -11258,6 +11258,11 @@
         "sources_checked": [],
         "dissent_note": "No dissent. Swarm consensus (3 correct, 0 incorrect) aligns with available evidence. The prediction describes an ongoing situation that continues to hold true.",
         "judged_at": "2026-10-07T14:50:52.613181"
+      },
+      "miro_result": {
+        "verdict": "supported",
+        "confidence": 0.82,
+        "summary": "China's shale oil extraction faces structural technical barriers (complex geology, water scarcity, immature technology) and geopolitical risks (sanctions on energy tech, supply chain disruptions). Specialists across disciplines uniformly agree these constraints, combined with the 12-month timeframe insufficient for multi-year project cycles, make significant production improbable. Peter Zeihan's evidence about revised-down estimates and low break-even rates further supports technical limitations"
       }
     },
     {
@@ -31496,9 +31501,14 @@
       "marty_note": "MartyPredicts: Wrong",
       "marty_at": "2026-10-06",
       "mc_status": "done",
-      "miro_status": "queued",
+      "miro_status": "done",
       "mc_result": "RIGHT (100% of 20 decided, 17 unclear)",
-      "mc_split": 0
+      "mc_split": 0,
+      "miro_result": {
+        "verdict": "inconclusive",
+        "confidence": 0.35,
+        "summary": "All panel specialists across five disciplines (demography, energy security, capital markets, trade supply chain, military geography) labeled the claim as 'inconclusive' in both rounds of adjudication. The lack of graph context data and the complex, dynamic geopolitical nature of the Gaza conflict prevent quantifiable modeling of diplomatic prospects or conflict trajectories. Specialist assessments highlight insufficient data on population dynamics, energy infrastructure, economic interdependenci"
+      }
     },
     {
       "id": "pred_20261001225028_a04f8d49ec0d",
@@ -36526,7 +36536,7 @@
       "marty_at": "2026-10-06",
       "marty_verdict": "wrong",
       "mc_status": "queued",
-      "miro_status": "queued",
+      "miro_status": "done",
       "delphicursor_status": "done",
       "delphicursor_result": {
         "vote": "unclear",
@@ -36535,6 +36545,11 @@
         "sources_checked": [],
         "dissent_note": "I neither confirm nor dissent from prior adjudicators due to inability to access current sources. If the territorial gains mentioned in the May 2026 excerpt have continued through October 2026 with documented drone technology contributions, the verdict should be 'correct'. My 'unclear' reflects information access constraints rather than substantive disagreement.",
         "judged_at": "2026-10-07T14:58:18.241673"
+      },
+      "miro_result": {
+        "verdict": "supported",
+        "confidence": 0.68,
+        "summary": "Ukraine's technological advantages in drone warfare, combined with Western military support and Russia's logistical vulnerabilities, are likely to create measurable momentum in Ukraine's favor over the next 12 months. While Russia's resource depth and counter-drone adaptations pose challenges, the immediate tactical benefits of Ukrainian drone capabilities—enhanced by international supply chains and energy security—suggest a measurable advantage within the 12-month horizon. Capital markets and t"
       }
     },
     {
@@ -41372,8 +41387,13 @@
       "marty_note": "MartyPredicts: Right",
       "marty_at": "2026-10-06",
       "mc_status": "not_due",
-      "miro_status": "queued",
-      "mc_result": null
+      "miro_status": "done",
+      "mc_result": null,
+      "miro_result": {
+        "verdict": "refuted",
+        "confidence": 0.7,
+        "summary": "The claim that gold could reach $8,000/oz by 2027-2028 is refuted by most specialists due to lack of supporting macroeconomic conditions (stable dollar, no hyperinflation projections), absence of critical supply/demand disruptions, and historical price trends inconsistent with such extreme volatility. Capital markets, trade supply chain, and military geography experts provided strong refutations in Round 2, citing improbable systemic shocks required for this trajectory."
+      }
     },
     {
       "id": "pred_1790961078_54",

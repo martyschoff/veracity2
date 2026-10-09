@@ -1,0 +1,61 @@
+{
+  "schema_version": "m0.1",
+  "claim_id": "marty-pred_20261001184750_ffead3b69bde",
+  "label": "supported",
+  "confidence": 0.82,
+  "rationale": "China's shale oil extraction faces structural technical barriers (complex geology, water scarcity, immature technology) and geopolitical risks (sanctions on energy tech, supply chain disruptions). Specialists across disciplines uniformly agree these constraints, combined with the 12-month timeframe insufficient for multi-year project cycles, make significant production improbable. Peter Zeihan's evidence about revised-down estimates and low break-even rates further supports technical limitations.",
+  "caveats": [
+    "Unprecedented technological breakthroughs could alter outcomes",
+    "Geopolitical sanctions regimes may shift unpredictably",
+    "12-month horizon may not capture multi-year project timelines"
+  ],
+  "specialist_votes": [
+    {
+      "specialist_id": "demographer",
+      "label": "supported",
+      "confidence": 0.85,
+      "summary": "Technical barriers and geopolitical risks outweigh demographic factors within 12-month window"
+    },
+    {
+      "specialist_id": "energy_security",
+      "label": "supported",
+      "confidence": 0.8,
+      "summary": "Technical challenges and geopolitical constraints dominate short-term shale development"
+    },
+    {
+      "specialist_id": "capital_markets",
+      "label": "supported",
+      "confidence": 0.8,
+      "summary": "Capital constraints and technical barriers limit 12-month scalability"
+    },
+    {
+      "specialist_id": "trade_supply_chain",
+      "label": "supported",
+      "confidence": 0.8,
+      "summary": "Supply chain disruptions and technical limitations prevent rapid scaling"
+    },
+    {
+      "specialist_id": "military_geography",
+      "label": "supported",
+      "confidence": 0.85,
+      "summary": "Geopolitical risks and technical barriers align with claim under short timeframe"
+    }
+  ],
+  "graph_citations": [
+    {
+      "fact": "technical_challenges",
+      "weight": 0.9
+    },
+    {
+      "fact": "geopolitical_risks",
+      "weight": 0.85
+    },
+    {
+      "fact": "project_development_cycles",
+      "weight": 0.8
+    }
+  ],
+  "panel_id": "zeihan_panel_v1",
+  "rounds": 2,
+  "markdown_gloss": "# Verdict gloss (non-authoritative)\n\n**Claim:** `marty-pred_20261001184750_ffead3b69bde`\n\n**Label:** supported (confidence 0.82)\n\n## Rationale\n\nChina's shale oil extraction faces structural technical barriers (complex geology, water scarcity, immature technology) and geopolitical risks (sanctions on energy tech, supply chain disruptions). Specialists across disciplines uniformly agree these constraints, combined with the 12-month timeframe insufficient for multi-year project cycles, make significant production improbable. Peter Zeihan's evidence about revised-down estimates and low break-even rates further supports technical limitations.\n\n## Specialist votes\n\n- **demographer**: supported (0.85) — Technical barriers and geopolitical risks outweigh demographic factors within 12-month window\n- **energy_security**: supported (0.80) — Technical challenges and geopolitical constraints dominate short-term shale development\n- **capital_markets**: supported (0.80) — Capital constraints and technical barriers limit 12-month scalability\n- **trade_supply_chain**: supported (0.80) — Supply chain disruptions and technical limitations prevent rapid scaling\n- **military_geography**: supported (0.85) — Geopolitical risks and technical barriers align with claim under short timeframe\n\n## Caveats\n\n- Unprecedented technological breakthroughs could alter outcomes\n- Geopolitical sanctions regimes may shift unpredictably\n- 12-month horizon may not capture multi-year project timelines\n"
+}

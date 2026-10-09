@@ -1,0 +1,48 @@
+{
+  "schema_version": "m0.1",
+  "claim_id": "marty-pred_20261001225017_fdadca3d67b3",
+  "label": "inconclusive",
+  "confidence": 0.35,
+  "rationale": "All panel specialists across five disciplines (demography, energy security, capital markets, trade supply chain, military geography) labeled the claim as 'inconclusive' in both rounds of adjudication. The lack of graph context data and the complex, dynamic geopolitical nature of the Gaza conflict prevent quantifiable modeling of diplomatic prospects or conflict trajectories. Specialist assessments highlight insufficient data on population dynamics, energy infrastructure, economic interdependencies, and military geography to determine the claim's validity within the 12-month time horizon.",
+  "caveats": [
+    "No graph context data provided for empirical validation",
+    "Assessments rely on general knowledge of regional dynamics",
+    "External geopolitical factors (e.g., regional alliances, energy corridor security) could significantly alter outcomes"
+  ],
+  "specialist_votes": [
+    {
+      "specialist_id": "demographer",
+      "label": "inconclusive",
+      "confidence": 0.2,
+      "summary": "No demographic data provided to assess population structure impacts on diplomatic prospects or conflict dynamics in Gaza."
+    },
+    {
+      "specialist_id": "energy_security",
+      "label": "inconclusive",
+      "confidence": 0.35,
+      "summary": "Absence of energy infrastructure data prevents assessment of how Israel's energy self-sufficiency vs. Gaza's energy poverty might influence conflict dynamics."
+    },
+    {
+      "specialist_id": "capital_markets",
+      "label": "inconclusive",
+      "confidence": 0.3,
+      "summary": "Lack of capital markets data (e.g., FDI, reserves) prevents evaluation of economic factors influencing diplomatic outcomes."
+    },
+    {
+      "specialist_id": "trade_supply_chain",
+      "label": "inconclusive",
+      "confidence": 0.25,
+      "summary": "No trade/supply chain data available to assess economic interdependencies that might influence conflict dynamics or negotiation timelines."
+    },
+    {
+      "specialist_id": "military_geography",
+      "label": "inconclusive",
+      "confidence": 0.45,
+      "summary": "Complex geopolitical dynamics and absence of quantifiable data on tax bases, recruitment, or energy dependencies prevent definitive assessment."
+    }
+  ],
+  "graph_citations": [],
+  "panel_id": "zeihan_panel_v1",
+  "rounds": 2,
+  "markdown_gloss": "# Verdict gloss (non-authoritative)\n\n**Claim:** `marty-pred_20261001225017_fdadca3d67b3`\n\n**Label:** inconclusive (confidence 0.35)\n\n## Rationale\n\nAll panel specialists across five disciplines (demography, energy security, capital markets, trade supply chain, military geography) labeled the claim as 'inconclusive' in both rounds of adjudication. The lack of graph context data and the complex, dynamic geopolitical nature of the Gaza conflict prevent quantifiable modeling of diplomatic prospects or conflict trajectories. Specialist assessments highlight insufficient data on population dynamics, energy infrastructure, economic interdependencies, and military geography to determine the claim's validity within the 12-month time horizon.\n\n## Specialist votes\n\n- **demographer**: inconclusive (0.20) — No demographic data provided to assess population structure impacts on diplomatic prospects or conflict dynamics in Gaza.\n- **energy_security**: inconclusive (0.35) — Absence of energy infrastructure data prevents assessment of how Israel's energy self-sufficiency vs. Gaza's energy poverty might influence conflict dynamics.\n- **capital_markets**: inconclusive (0.30) — Lack of capital markets data (e.g., FDI, reserves) prevents evaluation of economic factors influencing diplomatic outcomes.\n- **trade_supply_chain**: inconclusive (0.25) — No trade/supply chain data available to assess economic interdependencies that might influence conflict dynamics or negotiation timelines.\n- **military_geography**: inconclusive (0.45) — Complex geopolitical dynamics and absence of quantifiable data on tax bases, recruitment, or energy dependencies prevent definitive assessment.\n\n## Caveats\n\n- No graph context data provided for empirical validation\n- Assessments rely on general knowledge of regional dynamics\n- External geopolitical factors (e.g., regional alliances, energy corridor security) could significantly alter outcomes\n"
+}
