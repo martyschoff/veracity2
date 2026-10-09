@@ -1,0 +1,32 @@
+# Scoring implementation (owner-approved): BOTH accuracy+CI AND Brier-with-shrinkage
+
+Owner decision overrides the 'drop Brier' recommendation. Implement BOTH displays:
+
+## 1. Accuracy + Wilson CI (Sonnet's recommendation)
+- Per person: % correct of resolved claims (correct/(correct+wrong)), Wilson 95% confidence interval
+- Display: "Accuracy 78% (N=108, 71-84%)"
+
+## 2. Brier with shrinkage (owner wants it anyway)
+- P_adjusted = 0.7 * P_panel + 0.3 * base_rate, where base_rate = person's overall fraction correct across their resolved claims
+- Brier = mean((P_adjusted - outcome)^2) over resolved claims
+- Also compute RAW Brier (no shrinkage) for comparison
+- Skill = base_rate_brier - brier_adjusted (positive = beats base rate)
+- Display: "Brier .21 (shrunk, N=108) | raw .24 | Skill +.03"
+- Mark source as 'panel'
+- N>=10 to display; N<10 grayed with N shown
+
+## 3. Compute per tracked person: Zeihan, Doomberg, Diamandis, Bremmer, McAlvany (and any person with N>=1; grayed below 10)
+
+## 4. Where: per-person header box in templates/index.html grid columns, under the thumbs. Also render.py computes and passes the stats.
+
+## 5. Calibration: SKIP for now (Sonnet's objection about bucket noise accepted). Revisit when N>300 per person.
+
+## Implementation notes
+- Data: data/predictions.json, per claim: judgements[] with verdict/weight, verdict field (correct/wrong/expired), individual_name
+- Resolved = verdict in (correct, wrong). Expired excluded.
+- P_panel per claim = sum(weight of correct votes)/sum(weight of decisive votes) over judgements with verdict in (correct,wrong)
+- Edge cases: claims with 0 decisive votes get excluded from Brier; claims with no judgements excluded
+- Render-time computation in render.py (no DB, just compute during render)
+- Also compute a global 'panel skill' score for the whole system on the monitor page
+
+Verify with computed numbers on real data. Commit and push when done. Do NOT ask questions - make reasonable choices and report them.

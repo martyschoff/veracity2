@@ -1,0 +1,20 @@
+Individual: Peter Zeihan
+  scores key exists: True
+  scores: {'accuracy': 0.9166666666666666, 'accuracy_ci': (0.8491694181597665, 0.9555400995867606), 'n_resolved': 108, 'n_brier': 1, 'brier_shrunk': 0.9506249999999997, 'brier_raw': 1.0, 'skill': -0.8742361111111108, 'base_rate': 0.9166666666666666, 'display_scores': False}
+
+Individual: Doomberg
+  scores key exists: True
+  scores: {'accuracy': 0.9393939393939394, 'accuracy_ci': (0.8039341828220181, 0.9832194695709291), 'n_resolved': 33, 'n_brier': 0, 'brier_shrunk': None, 'brier_raw': None, 'skill': None, 'base_rate': 0.9393939393939394, 'display_scores': False}
+
+Individual: Peter Diamandis
+  scores key exists: True
+  scores: {'accuracy': 1.0, 'accuracy_ci': (0.0, 1.0), 'n_resolved': 1, 'n_brier': 0, 'brier_shrunk': None, 'brier_raw': None, 'skill': None, 'base_rate': 1.0, 'display_scores': False}
+
+Individual: Ian Bremmer
+  scores key exists: True
+  scores: {'accuracy': 0.6396396396396397, 'accuracy_ci': (0.5470346275842797, 0.7229023987197774), 'n_resolved': 111, 'n_brier': 2, 'brier_shrunk': 0.724254930606282, 'brier_raw': 1.0, 'skill': -0.4937541595649704, 'base_rate': 0.6396396396396397, 'display_scores': False}
+
+Individual: David McAlvany
+  scores key exists: True
+  scores: {'accuracy': 0.7, 'accuracy_ci': (0.4810232237710206, 0.854524726031006), 'n_resolved': 20, 'n_brier': 1, 'brier_shrunk': 0.008100000000000015, 'brier_raw': 0.0, 'skill': 0.2019, 'base_rate': 0.7, 'display_scores': False}
+

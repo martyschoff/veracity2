@@ -1,0 +1,30 @@
+Here's my blunt statistical review:
+
+## 1. Statistical flaws in this design?
+
+**Yes, several critical ones:**
+- **Unanimity trap is fatal**: With only 3 voters and coarse probabilities {0, 0.29, 0.43, 0.57, 0.71, 1.0}, you're guaranteed massive Brier penalties on unanimous wrong calls. This isn't a bug - it's a structural impossibility.
+- **Tiny sample problem**: N=108 for Bremmer, N=33 for Doomberg. Brier scores are meaningless with this little data, especially when split into 3 calibration buckets.
+- **Selection bias**: You're only scoring panel-resolvable claims, which skews toward simpler/more obvious predictions.
+
+## 2. Is Variant B worth building?
+
+**Absolutely not.** You have 11 DelphiCursor verdicts and 9 Delphi3080 verdicts across 1,267 predictions. That's 0.9% and 0.7% coverage respectively. "Hierarchy mixing" with samples this sparse is statistical masturbation.
+
+## 3. Better calibration display than 3 buckets?
+
+**Don't display calibration at all.** With N~100 split into 3 buckets, you're looking at ~33 predictions per bucket. The confidence intervals will be so wide as to be meaningless. Show raw Brier and sample size only.
+
+## 4. How should unanimity be handled?
+
+**Shrink toward base rate aggressively.** With 3 voters, unanimous decisions happen by chance ~50% of the time even with random voting. Use something like P_adjusted = 0.7 * P_panel + 0.3 * base_rate.
+
+## 5. Unclear-ballooning breaks the math?
+
+**Yes.** If 194-311 of 400 voters pick "unclear," your effective sample is the remaining ~100-200 decisive voters. This makes your probability estimates even noisier and less reliable.
+
+## 6. Final verdict?
+
+**Redesign.** The current approach is statistically unsound with your data constraints. 
+
+**Alternative**: Show simple accuracy rates (% correct of resolved claims) with confidence intervals. Drop Brier scores entirely - they require much larger samples and proper probability elicitation to be meaningful. Your "scoring" is really just tracking panel judgment accuracy, so measure that directly.

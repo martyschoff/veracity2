@@ -1,5 +1,5 @@
 # Copyright (c) 2026 Martin Schoffstall. MIT License - see LICENSE in repo root.
-import json, os
+import json, os, math
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 from pathlib import Path
 
@@ -14,6 +14,112 @@ with open(DATA_FILE, 'r', encoding='utf-8') as f:
 individuals = raw.get('individuals', [])
 predictions = raw.get('predictions', [])
 
+def wilson_confidence_interval(correct, total, confidence=0.95):
+    """Calculate Wilson score confidence interval for proportion."""
+    if total == 0:
+        return (0.0, 0.0)
+    if total == 1:
+        # Special case for N=1
+        return (0.0, 1.0) if correct == 1 else (0.0, 0.0)
+    
+    p = correct / total
+    z = 1.96 if confidence == 0.95 else 2.576  # 95% or 99%
+    
+    denominator = 1 + z**2 / total
+    centre_adjusted_probability = (p + z**2 / (2 * total)) / denominator
+    adjusted_standard_deviation = math.sqrt(max(0, (p * (1 - p) + z**2 / (4 * total)) / total)) / denominator
+    
+    lower = centre_adjusted_probability - z * adjusted_standard_deviation
+    upper = centre_adjusted_probability + z * adjusted_standard_deviation
+    
+    return (max(0.0, lower), min(1.0, upper))
+
+def compute_panel_probability(judgements):
+    """Compute P_panel per claim from judgements."""
+    if not judgements:
+        return None
+        
+    correct_weight = sum(j.get('weight', 1.0) for j in judgements if j.get('verdict') == 'correct')
+    total_weight = sum(j.get('weight', 1.0) for j in judgements if j.get('verdict') in ['correct', 'wrong', 'incorrect'])
+    
+    if total_weight == 0:
+        return None
+    
+    return correct_weight / total_weight
+
+def compute_person_scores(predictions, person_name):
+    """Compute accuracy and Brier scores for a person."""
+    # Filter to resolved claims for this person
+    person_preds = [p for p in predictions if p.get('individual_name') == person_name]
+    resolved_preds = [p for p in person_preds if p.get('verdict') in ['correct', 'wrong', 'incorrect']]
+    
+    if not resolved_preds:
+        return {
+            'accuracy': None, 'accuracy_ci': None, 'n_resolved': 0,
+            'brier_shrunk': None, 'brier_raw': None, 'skill': None,
+            'base_rate': None, 'display_scores': len(resolved_preds) >= 10
+        }
+    
+    # Compute accuracy
+    correct_count = sum(1 for p in resolved_preds if p.get('verdict') == 'correct')
+    accuracy = correct_count / len(resolved_preds)
+    lower, upper = wilson_confidence_interval(correct_count, len(resolved_preds))
+    
+    # Compute base rate (person's overall fraction correct)
+    base_rate = accuracy
+    
+    # Compute Brier scores ONLY against INDEPENDENT outcomes (Marty final marks or
+    # authoritative fact-checks). Panel-resolved claims are circular: the panel voted
+    # the verdict, so Brier would measure the panel agreeing with itself (0.00-0.01).
+    brier_claims = []
+    for pred in person_preds:
+        is_independent = (pred.get('marty_verdict') in ('correct', 'wrong')
+                          or pred.get('verdict_source') == 'authoritative')
+        if not is_independent:
+            continue
+        judgements = pred.get('judgements', [])
+        p_panel = compute_panel_probability(judgements)
+        if p_panel is None:  # Only include claims with decisive votes
+            continue
+        truth = pred.get('marty_verdict') or pred.get('verdict')
+        # Shrinkage: P_adjusted = 0.7 * P_panel + 0.3 * base_rate
+        p_adjusted = 0.7 * p_panel + 0.3 * base_rate
+        outcome = 1.0 if truth == 'correct' else 0.0
+
+        brier_shrunk = (p_adjusted - outcome) ** 2
+        brier_raw = (p_panel - outcome) ** 2
+
+        brier_claims.append({
+            'brier_shrunk': brier_shrunk,
+            'brier_raw': brier_raw,
+            'outcome': outcome
+        })
+    
+    if brier_claims:
+        avg_brier_shrunk = sum(c['brier_shrunk'] for c in brier_claims) / len(brier_claims)
+        avg_brier_raw = sum(c['brier_raw'] for c in brier_claims) / len(brier_claims)
+        # Base rate Brier score (Brier score of always predicting base_rate)
+        base_rate_brier = base_rate * (1 - base_rate)  
+        skill = base_rate_brier - avg_brier_shrunk
+    else:
+        avg_brier_shrunk = avg_brier_raw = skill = None
+        
+    return {
+        'accuracy': accuracy,
+        'accuracy_ci': (lower, upper),
+        'n_resolved': len(resolved_preds),
+        'n_brier': len(brier_claims),
+        'brier_shrunk': avg_brier_shrunk,
+        'brier_raw': avg_brier_raw,
+        'skill': skill,
+        'base_rate': base_rate,
+        'display_scores': len(brier_claims) >= 10,  # Brier needs independent-truth N>=10
+    }
+
+# Clear debug files
+with open(BASE / 'debug_scores.txt', 'w', encoding='utf-8') as f:
+    f.write("Debug scores log:\n")
+
 TRACKED_NAMES = ['Peter Zeihan', 'Doomberg', 'Peter Diamandis', 'Ian Bremmer', 'David McAlvany']
 tracked = [i for i in individuals if i.get('name') in TRACKED_NAMES]
 tracked.sort(key=lambda i: TRACKED_NAMES.index(i['name']))
@@ -23,7 +129,64 @@ for ind in tracked:
     ip = [p for p in predictions if p.get('individual_name') == ind['name']]
     ind['total_count'] = len(ip)
     ind['correct_count'] = len([p for p in ip if p.get('verdict') == 'correct'])
-    ind['wrong_count'] = len([p for p in ip if p.get('verdict') == 'wrong'])
+    ind['wrong_count'] = len([p for p in ip if p.get('verdict') in ['wrong', 'incorrect']])
+    
+    # Compute scoring metrics
+    scores = compute_person_scores(predictions, ind['name'])
+    ind['scores'] = scores
+    
+    # Debug output
+    with open(BASE / 'debug_scores.txt', 'a', encoding='utf-8') as debug_f:
+        debug_f.write(f"{ind['name']}: {scores}\n")
+
+# Compute scores for any other person with N>=1 resolved claims
+other_people_with_scores = []
+all_person_names = set(p.get('individual_name') for p in predictions if p.get('individual_name'))
+for person_name in all_person_names:
+    if person_name not in TRACKED_NAMES:
+        scores = compute_person_scores(predictions, person_name)
+        if scores['n_resolved'] >= 1:
+            other_people_with_scores.append({
+                'name': person_name,
+                'scores': scores
+            })
+
+# Compute global panel skill score
+def compute_global_panel_skill(predictions):
+    """Compute overall panel skill across all resolved predictions."""
+    all_resolved = [p for p in predictions if p.get('verdict') in ['correct', 'wrong', 'incorrect']]
+    
+    if not all_resolved:
+        return None
+        
+    # Overall base rate (fraction of all predictions that were correct)
+    overall_correct = sum(1 for p in all_resolved if p.get('verdict') == 'correct')
+    base_rate = overall_correct / len(all_resolved)
+    
+    # Collect all panel predictions
+    panel_predictions = []
+    for pred in all_resolved:
+        judgements = pred.get('judgements', [])
+        p_panel = compute_panel_probability(judgements)
+        if p_panel is not None:
+            outcome = 1.0 if pred.get('verdict') == 'correct' else 0.0
+            p_adjusted = 0.7 * p_panel + 0.3 * base_rate
+            brier_score = (p_adjusted - outcome) ** 2
+            panel_predictions.append(brier_score)
+    
+    if panel_predictions:
+        avg_brier = sum(panel_predictions) / len(panel_predictions)
+        base_rate_brier = base_rate * (1 - base_rate)
+        skill = base_rate_brier - avg_brier
+        return {
+            'brier': avg_brier,
+            'skill': skill,
+            'n_predictions': len(panel_predictions),
+            'base_rate': base_rate
+        }
+    return None
+
+global_panel_skill = compute_global_panel_skill(predictions)
 
 pbc = {}
 for p in panelists:
@@ -147,10 +310,20 @@ def condense(claim):
 
 env.filters['source_label'] = source_label
 env.filters['condense'] = condense
+# Debug: write individuals data structure
+with open(BASE / 'debug_individuals.txt', 'w', encoding='utf-8') as debug_f:
+    for ind in tracked:
+        debug_f.write(f"Individual: {ind['name']}\n")
+        debug_f.write(f"  scores key exists: {'scores' in ind}\n")
+        if 'scores' in ind:
+            debug_f.write(f"  scores: {ind['scores']}\n")
+        debug_f.write("\n")
+
 html = env.get_template('index.html').render(
     tracked_individuals=tracked, panelists=panelists, panelists_by_category=pbc,
     app_version=VERSION, rows_by_person=rows_by_person, all_preds_by_person=all_preds_by_person,
     total_tracked_preds=total, category_colors=CC,
+    other_people_with_scores=other_people_with_scores, global_panel_skill=global_panel_skill,
 )
 
 with open(OUT, 'w', encoding='utf-8') as f:
