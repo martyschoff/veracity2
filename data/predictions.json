@@ -41691,6 +41691,72 @@
           "reasoning": "As of late 2026, gold prices have not reached $3,400 per ounce; historical and current market data indicate the price remained significantly below this level."
         }
       ]
+    },
+    {
+      "id": "pred_1791548380_49125385",
+      "individual_name": "Ed Yardeni",
+      "date": "2026-10-09",
+      "category": "finance",
+      "claim": "2028 should be a good year.",
+      "source_url": "https://www.yardeni.com/quicktakes/#main-content",
+      "transcript_excerpt": "2028 Should Be A Good Year Ed Yardeni October 6, 2026",
+      "verdict": null,
+      "judgements": []
+    },
+    {
+      "id": "pred_1791548477_84034921",
+      "individual_name": "David McAlvany",
+      "date": "2026-08-19",
+      "category": "finance",
+      "claim": "Gold is going to chug back to $5,000, make its way to $6,000, and then go to $7,000, $8,000, $9,000, and $10,000 much faster than people expect.",
+      "source_url": "https://mcalvany.com/weekly-commentary/james-rickards-gold-ai-and-the-fault-lines-beneath-global-markets/",
+      "transcript_excerpt": "So my point is, gold’s going to chug back to $5,000, make its way to $6,000, but it’s going to go 7, 8, 9, 10 really fast, much faster than people expect.",
+      "verdict": null,
+      "judgements": []
+    },
+    {
+      "id": "pred_1791548630_40048916",
+      "individual_name": "Nouriel Roubini",
+      "date": "2026-10-09",
+      "category": "finance",
+      "claim": "Growth should improve in 2027.",
+      "source_url": "https://www.project-syndicate.org/commentary/global-economy-positive-outlook-barring-these-tail-risks-by-nouriel-roubini-2026-10",
+      "transcript_excerpt": "With the global economy having weathered major trade and energy shocks over the past two years, growth should improve in 2027, and inflation should fall.",
+      "verdict": null,
+      "judgements": []
+    },
+    {
+      "id": "pred_1791548630_44877539",
+      "individual_name": "Nouriel Roubini",
+      "date": "2026-10-09",
+      "category": "finance",
+      "claim": "Inflation should fall.",
+      "source_url": "https://www.project-syndicate.org/commentary/global-economy-positive-outlook-barring-these-tail-risks-by-nouriel-roubini-2026-10",
+      "transcript_excerpt": "With the global economy having weathered major trade and energy shocks over the past two years, growth should improve in 2027, and inflation should fall.",
+      "verdict": null,
+      "judgements": []
+    },
+    {
+      "id": "pred_1791548826_47185029",
+      "individual_name": "Nouriel Roubini",
+      "date": "2026-10-09",
+      "category": "finance",
+      "claim": "If Donald Trump walks away from the war with Iran now, risk premia on oil prices will stay permanently higher.",
+      "source_url": "https://www.project-syndicate.org/commentary/us-iran-escalation-most-likely-scenario-by-nouriel-roubini-2026-03",
+      "transcript_excerpt": "If Donald Trump walks away from the war with Iran now, the threat to shipping in the Strait of Hormuz will remain, risk premia on oil prices will stay permanently higher, and Trump’s own popularity will sink even further ahead of this year’s midterm elections.",
+      "verdict": null,
+      "judgements": []
+    },
+    {
+      "id": "pred_1791548827_67131762",
+      "individual_name": "Nouriel Roubini",
+      "date": "2026-10-09",
+      "category": "finance",
+      "claim": "The longer the US-Israeli war with Iran goes on, the longer we can expect oil, gas, fertilizer, helium, and other prices to remain elevated.",
+      "source_url": "https://www.project-syndicate.org/commentary/us-iran-escalation-most-likely-scenario-by-nouriel-roubini-2026-03",
+      "transcript_excerpt": "The financial and economic implications of the US-Israeli war with Iran will depend on the war’s duration. The longer it goes on, the longer we can expect oil, gas, fertilizer, helium, and other prices to remain elevated.",
+      "verdict": null,
+      "judgements": []
     }
   ]
 }

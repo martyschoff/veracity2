@@ -1,0 +1,77 @@
+{
+ "sources": [
+  {
+   "id": "diamandis",
+   "person": "Peter Diamandis",
+   "type": "youtube",
+   "url": "https://www.youtube.com/@PeterDiamandis",
+   "since": "20250101",
+   "category": "ai",
+   "completed": true
+  },
+  {
+   "id": "mcalvany",
+   "person": "David McAlvany",
+   "type": "mcalvany_site",
+   "url": "https://mcalvany.com/weekly-commentary/james-rickards-gold-ai-and-the-fault-lines-beneath-global-markets/",
+   "fallback_date": "2026-01-01",
+   "category": "finance",
+   "completed": true
+  },
+  {
+   "id": "jakobsen",
+   "person": "Steen Jakobsen",
+   "type": "article_archive",
+   "urls": [
+    "https://www.saxobank.com/insights/perspectives/outrageous-predictions",
+    "https://www.saxobank.com/insights/perspectives/steen-jakobsen"
+   ],
+   "category": "finance",
+   "completed": true,
+   "article_pattern": "saxobank\\.com/insights/perspectives/[^/]+$"
+  },
+  {
+   "id": "roubini",
+   "person": "Nouriel Roubini",
+   "type": "article_archive",
+   "urls": [
+    "https://www.project-syndicate.org/columnist/nouriel-roubini"
+   ],
+   "category": "finance",
+   "completed": true,
+   "article_pattern": "project-syndicate\\.org/commentary/"
+  },
+  {
+   "id": "pettis",
+   "person": "Michael Pettis",
+   "type": "article_archive",
+   "urls": [
+    "https://carnegieendowment.org/experts/888",
+    "https://chinafile.com/contributors/michael-pettis"
+   ],
+   "category": "china",
+   "completed": true,
+   "article_pattern": "carnegieendowment\\.org/[^/]+/\\d{4}/|chinafile\\.com/(reporting|opinion)/"
+  },
+  {
+   "id": "yardeni",
+   "person": "Ed Yardeni",
+   "type": "article_archive",
+   "urls": [
+    "https://www.yardeni.com/quicktakes/"
+   ],
+   "category": "finance",
+   "completed": true,
+   "article_pattern": "yardeni\\.com/(quicktakes|pub)/"
+  },
+  {
+   "id": "wood",
+   "person": "Cathie Wood",
+   "type": "youtube",
+   "url": "https://www.youtube.com/@ARKInvest",
+   "since": "20250101",
+   "category": "ai",
+   "completed": true
+  }
+ ]
+}

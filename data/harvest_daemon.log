@@ -1,0 +1,270 @@
+2026-10-09 07:42:04 harvest daemon started (extract qwen3:32b / gate nimble on nimo)
+2026-10-09 07:42:04 harvesting Peter Diamandis (youtube) since 20250101
+2026-10-09 07:42:04 error FileNotFoundError: [WinError 2] The system cannot find the file specified
+2026-10-09 07:42:04 e 1553, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+2026-10-09 07:44:04 harvesting Peter Diamandis (youtube) since 20250101
+2026-10-09 07:44:04 error FileNotFoundError: [WinError 2] The system cannot find the file specified
+2026-10-09 07:44:04 e 1553, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+2026-10-09 07:45:23 harvest daemon started (extract qwen3:32b / gate nimble on nimo)
+2026-10-09 07:45:23 harvesting Peter Diamandis (youtube) since 20250101
+2026-10-09 07:45:23   Peter Diamandis: processed 0, added 0
+2026-10-09 07:45:23 source Peter Diamandis complete
+2026-10-09 07:45:23 harvesting David McAlvany (mcalvany_site) since n/a
+2026-10-09 07:45:24   found 0 episode slugs
+2026-10-09 07:45:24   David McAlvany: processed 0, added 0
+2026-10-09 07:45:24 source David McAlvany complete
+2026-10-09 07:45:24 harvesting Steen Jakobsen (article_archive) since n/a
+2026-10-09 07:45:45   https://www.saxobank.com/insights/perspectives/outrageous-predictions -> 0 kept
+2026-10-09 07:45:46   https://www.saxobank.com/insights/perspectives/steen-jakobsen -> 0 kept
+2026-10-09 07:45:46   Steen Jakobsen: processed 2, added 0
+2026-10-09 07:45:46 source Steen Jakobsen complete
+2026-10-09 07:45:46 harvesting Nouriel Roubini (article_archive) since n/a
+2026-10-09 07:46:04 harvesting Nouriel Roubini (article_archive) since n/a
+2026-10-09 07:46:08   https://www.project-syndicate.org/columnist/nouriel-roubini -> 0 kept
+2026-10-09 07:46:08   Nouriel Roubini: processed 1, added 0
+2026-10-09 07:46:08 source Nouriel Roubini complete
+2026-10-09 07:46:08 harvesting Michael Pettis (article_archive) since n/a
+2026-10-09 07:46:21   https://www.project-syndicate.org/columnist/nouriel-roubini -> 0 kept
+2026-10-09 07:46:21   Nouriel Roubini: processed 1, added 0
+2026-10-09 07:46:21 source Nouriel Roubini complete
+2026-10-09 07:46:21 harvesting Michael Pettis (article_archive) since n/a
+2026-10-09 07:46:56   https://carnegieendowment.org/experts/888 -> 0 kept
+2026-10-09 07:46:56   Michael Pettis: processed 1, added 0
+2026-10-09 07:46:56 source Michael Pettis complete
+2026-10-09 07:46:56 harvesting Ed Yardeni (article_archive) since n/a
+2026-10-09 07:46:57   https://carnegieendowment.org/experts/888 -> 0 kept
+2026-10-09 07:46:57   Michael Pettis: processed 1, added 0
+2026-10-09 07:46:57 source Michael Pettis complete
+2026-10-09 07:46:57 harvesting Ed Yardeni (article_archive) since n/a
+2026-10-09 07:47:12   https://www.yardeni.com/quicktakes/ -> 0 kept
+2026-10-09 07:47:12   Ed Yardeni: processed 1, added 0
+2026-10-09 07:47:12 source Ed Yardeni complete
+2026-10-09 07:47:12 harvesting Cathie Wood (youtube) since 20250101
+2026-10-09 07:47:12 error FileNotFoundError: [WinError 2] The system cannot find the file specified
+2026-10-09 07:47:12 e 1553, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+2026-10-09 07:47:12   https://www.yardeni.com/quicktakes/ -> 0 kept
+2026-10-09 07:47:12   Ed Yardeni: processed 1, added 0
+2026-10-09 07:47:12 source Ed Yardeni complete
+2026-10-09 07:47:12 harvesting Cathie Wood (youtube) since 20250101
+2026-10-09 07:47:12   Cathie Wood: processed 0, added 0
+2026-10-09 07:47:12 source Cathie Wood complete
+2026-10-09 07:57:42 harvest daemon started (extract qwen3:32b / gate nimble on nimo)
+2026-10-09 07:57:42 harvesting Peter Diamandis (youtube) since 20250101
+2026-10-09 07:57:42   Peter Diamandis: processed 0, added 0
+2026-10-09 07:57:42 source Peter Diamandis complete
+2026-10-09 07:57:42 harvesting David McAlvany (mcalvany_site) since n/a
+2026-10-09 07:57:46   found 1 episode slugs
+2026-10-09 07:58:31   https://mcalvany.com/weekly-commentary/james-rickards-gold-ai-and-the- -> 0 kept
+2026-10-09 07:58:31   David McAlvany: processed 1, added 0
+2026-10-09 07:58:31 source David McAlvany complete
+2026-10-09 07:58:31 harvesting Steen Jakobsen (article_archive) since n/a
+2026-10-09 07:58:33   https://www.saxobank.com/insights/perspectives/outrageous-predictions -> 0 kept
+2026-10-09 07:58:34   https://www.saxobank.com/insights/perspectives/steen-jakobsen -> 0 kept
+2026-10-09 07:58:34   Steen Jakobsen: processed 2, added 0
+2026-10-09 07:58:34 source Steen Jakobsen complete
+2026-10-09 07:58:34 harvesting Nouriel Roubini (article_archive) since n/a
+2026-10-09 07:58:36   https://www.project-syndicate.org/columnist/nouriel-roubini -> 0 kept
+2026-10-09 07:58:36   Nouriel Roubini: processed 1, added 0
+2026-10-09 07:58:36 source Nouriel Roubini complete
+2026-10-09 07:58:36 harvesting Michael Pettis (article_archive) since n/a
+2026-10-09 07:58:37 error UnboundLocalError: cannot access local variable 'html' where it is not associated with a value
+2026-10-09 07:58:37 Traceback (most recent call last):
+  File "C:\Users\schof\veracity2\scripts\harvest_daemon.py", line 234, in main
+    process_source(src)
+    ~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\schof\veracity2\scripts\harvest_daemon.py", line 196, in process_source
+    text = fetch_text(url)
+  File "C:\Users\schof\veracity2\scripts\harvest_daemon.py", line 70, in fetch_text
+    if len(html) < 2500:
+           ^^^^
+UnboundLocalError: cannot access local variable 'html' where it is not associated with a value
+
+2026-10-09 08:00:37 harvesting Michael Pettis (article_archive) since n/a
+2026-10-09 08:00:37 error UnboundLocalError: cannot access local variable 'html' where it is not associated with a value
+2026-10-09 08:00:37 Traceback (most recent call last):
+  File "C:\Users\schof\veracity2\scripts\harvest_daemon.py", line 234, in main
+    process_source(src)
+    ~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\schof\veracity2\scripts\harvest_daemon.py", line 196, in process_source
+    text = fetch_text(url)
+  File "C:\Users\schof\veracity2\scripts\harvest_daemon.py", line 70, in fetch_text
+    if len(html) < 2500:
+           ^^^^
+UnboundLocalError: cannot access local variable 'html' where it is not associated with a value
+
+2026-10-09 08:02:37 harvesting Michael Pettis (article_archive) since n/a
+2026-10-09 08:02:38 error UnboundLocalError: cannot access local variable 'html' where it is not associated with a value
+2026-10-09 08:02:38 Traceback (most recent call last):
+  File "C:\Users\schof\veracity2\scripts\harvest_daemon.py", line 234, in main
+    process_source(src)
+    ~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\schof\veracity2\scripts\harvest_daemon.py", line 196, in process_source
+    text = fetch_text(url)
+  File "C:\Users\schof\veracity2\scripts\harvest_daemon.py", line 70, in fetch_text
+    if len(html) < 2500:
+           ^^^^
+UnboundLocalError: cannot access local variable 'html' where it is not associated with a value
+
+2026-10-09 08:03:30 harvest daemon started (extract qwen3:32b / gate nimble on nimo)
+2026-10-09 08:03:30 harvesting Peter Diamandis (youtube) since 20250101
+2026-10-09 08:03:30   Peter Diamandis: processed 0, added 0
+2026-10-09 08:03:30 source Peter Diamandis complete
+2026-10-09 08:03:30 harvesting David McAlvany (mcalvany_site) since n/a
+2026-10-09 08:03:30   found 1 episode slugs
+2026-10-09 08:03:32   https://mcalvany.com/weekly-commentary/james-rickards-gold-ai-and-the- -> 0 kept
+2026-10-09 08:03:32   David McAlvany: processed 1, added 0
+2026-10-09 08:03:32 source David McAlvany complete
+2026-10-09 08:03:32 harvesting Steen Jakobsen (article_archive) since n/a
+2026-10-09 08:03:33   https://www.saxobank.com/insights/perspectives/outrageous-predictions -> 0 kept
+2026-10-09 08:03:34   https://www.saxobank.com/insights/perspectives/steen-jakobsen -> 0 kept
+2026-10-09 08:03:34   Steen Jakobsen: processed 2, added 0
+2026-10-09 08:03:34 source Steen Jakobsen complete
+2026-10-09 08:03:34 harvesting Nouriel Roubini (article_archive) since n/a
+2026-10-09 08:04:30   https://www.project-syndicate.org/columnist/nouriel-roubini -> 0 kept
+2026-10-09 08:04:30   Nouriel Roubini: processed 1, added 0
+2026-10-09 08:04:30 source Nouriel Roubini complete
+2026-10-09 08:04:30 harvesting Michael Pettis (article_archive) since n/a
+2026-10-09 08:04:36   https://carnegieendowment.org/experts/888 -> 0 kept
+2026-10-09 08:04:36   Michael Pettis: processed 1, added 0
+2026-10-09 08:04:36 source Michael Pettis complete
+2026-10-09 08:04:36 harvesting Ed Yardeni (article_archive) since n/a
+2026-10-09 08:04:38   https://www.yardeni.com/quicktakes/ -> 0 kept
+2026-10-09 08:04:38   Ed Yardeni: processed 1, added 0
+2026-10-09 08:04:38 source Ed Yardeni complete
+2026-10-09 08:04:38 harvesting Cathie Wood (youtube) since 20250101
+2026-10-09 08:04:38   Cathie Wood: processed 0, added 0
+2026-10-09 08:04:38 source Cathie Wood complete
+2026-10-09 08:11:41 harvest daemon started (extract qwen3:32b / gate nimble on nimo)
+2026-10-09 08:11:41 harvesting Peter Diamandis (youtube) since 20250101
+2026-10-09 08:11:41   Peter Diamandis: processed 0, added 0
+2026-10-09 08:11:41 source Peter Diamandis complete
+2026-10-09 08:11:41 harvesting David McAlvany (mcalvany_site) since n/a
+2026-10-09 08:11:42   found 1 episode slugs
+2026-10-09 08:11:43   https://mcalvany.com/weekly-commentary/james-rickards-gold-ai-and-the- -> 0 kept
+2026-10-09 08:11:43   David McAlvany: processed 1, added 0
+2026-10-09 08:11:43 source David McAlvany complete
+2026-10-09 08:11:43 harvesting Steen Jakobsen (article_archive) since n/a
+2026-10-09 08:11:49   following 15 article links
+2026-10-09 08:11:57   https://www.saxobank.com/-/media/images/icons/check-sign.svg -> 0 kept
+2026-10-09 08:11:58   https://www.saxobank.com/-/media/images/icons/globe-blue.svg -> 0 kept
+2026-10-09 08:11:59   https://www.saxobank.com/products -> 0 kept
+2026-10-09 08:12:00   https://www.saxobank.com/-/media/images/icons/coins-blue.svg -> 0 kept
+2026-10-09 08:12:01   https://www.saxobank.com/rates-and-conditions/pricing-overview -> 0 kept
+2026-10-09 08:12:02   https://www.saxobank.com/-/media/images/icons/shield-check-blue.svg -> 0 kept
+2026-10-09 08:12:03   https://www.saxobank.com/about-us -> 0 kept
+2026-10-09 08:12:04   https://www.saxobank.com/platforms/saxoinvestor -> 0 kept
+2026-10-09 08:12:05   https://www.saxobank.com/platforms/saxotrader -> 0 kept
+2026-10-09 08:12:06   https://www.saxobank.com/accounts/stock-lending -> 0 kept
+2026-10-09 08:12:07   https://www.saxobank.com/accounts/saxo-rewards -> 0 kept
+2026-10-09 08:12:08   https://www.saxobank.com/-/media/documents/investor-relations/sp-repor -> 0 kept
+2026-10-09 08:12:09   https://www.saxobank.com/contact-us -> 0 kept
+2026-10-09 08:12:10   https://www.saxobank.com/insights/news-and-research/thought-leadership -> 0 kept
+2026-10-09 08:12:11   https://www.saxobank.com/insights/perspectives/outrageous-predictions# -> 0 kept
+2026-10-09 08:12:11   Steen Jakobsen: processed 15, added 0
+2026-10-09 08:12:11 source Steen Jakobsen complete
+2026-10-09 08:12:11 harvesting Nouriel Roubini (article_archive) since n/a
+2026-10-09 08:12:11   following 15 article links
+2026-10-09 08:13:30   https://www.project-syndicate.org/columnist/nouriel-roubini#navigation -> 0 kept
+2026-10-09 08:13:32   https://www.project-syndicate.org/columnist/nouriel-roubini#main -> 0 kept
+2026-10-09 08:13:40   https://www.project-syndicate.org/newsletters -> 0 kept
+2026-10-09 08:13:51   https://www.project-syndicate.org/order/subscription?trigger=undefined -> 0 kept
+2026-10-09 08:14:13   https://www.project-syndicate.org/account/login -> 0 kept
+2026-10-09 08:15:04   https://www.project-syndicate.org/archive -> 0 kept
+2026-10-09 08:15:28   https://www.project-syndicate.org/section/economics -> 0 kept
+2026-10-09 08:15:50   https://www.project-syndicate.org/section/politics-world-affairs -> 0 kept
+2026-10-09 08:16:22   https://www.project-syndicate.org/onpoint -> 0 kept
+2026-10-09 08:16:47   https://www.project-syndicate.org/magazines -> 0 kept
+2026-10-09 08:17:16   https://www.project-syndicate.org/columnists -> 0 kept
+2026-10-09 08:17:38   https://www.project-syndicate.org/section/environment-sustainability -> 0 kept
+2026-10-09 08:18:00   https://www.project-syndicate.org/section/global-health-development -> 0 kept
+2026-10-09 08:18:23   https://www.project-syndicate.org/section/culture-society -> 0 kept
+2026-10-09 08:18:46   https://www.project-syndicate.org/topic/democracy-and-its-enemies -> 0 kept
+2026-10-09 08:18:46   Nouriel Roubini: processed 15, added 0
+2026-10-09 08:18:46 source Nouriel Roubini complete
+2026-10-09 08:18:46 harvesting Michael Pettis (article_archive) since n/a
+2026-10-09 08:18:55   following 0 article links
+2026-10-09 08:18:55   Michael Pettis: processed 0, added 0
+2026-10-09 08:18:55 source Michael Pettis complete
+2026-10-09 08:18:55 harvesting Ed Yardeni (article_archive) since n/a
+2026-10-09 08:19:12   following 15 article links
+2026-10-09 08:19:40   https://www.yardeni.com/quicktakes/#main-content -> 1 kept
+2026-10-09 08:19:50   https://www.yardeni.com/about -> 0 kept
+2026-10-09 08:20:07 harvest daemon started (extract qwen3:32b / gate nimble on nimo)
+2026-10-09 08:20:07 harvesting Peter Diamandis (youtube) since 20250101
+2026-10-09 08:20:07   Peter Diamandis: processed 0, added 0
+2026-10-09 08:20:07 source Peter Diamandis complete
+2026-10-09 08:20:07 harvesting David McAlvany (mcalvany_site) since n/a
+2026-10-09 08:20:08   found 1 episode slugs
+2026-10-09 08:21:17   https://mcalvany.com/weekly-commentary/james-rickards-gold-ai-and-the- -> 1 kept
+2026-10-09 08:21:17   David McAlvany: processed 1, added 1
+2026-10-09 08:21:17 source David McAlvany complete
+2026-10-09 08:21:17 harvesting Steen Jakobsen (article_archive) since n/a
+2026-10-09 08:21:18   following 2 article links
+2026-10-09 08:21:40   https://www.saxobank.com/insights/perspectives/outrageous-predictions# -> 0 kept
+2026-10-09 08:21:41   https://www.saxobank.com/insights/perspectives/steen-jakobsen# -> 0 kept
+2026-10-09 08:21:41   Steen Jakobsen: processed 2, added 0
+2026-10-09 08:21:41 source Steen Jakobsen complete
+2026-10-09 08:21:41 harvesting Nouriel Roubini (article_archive) since n/a
+2026-10-09 08:21:42   following 15 article links
+2026-10-09 08:23:50   https://www.project-syndicate.org/commentary/global-economy-positive-o -> 2 kept
+2026-10-09 08:24:37   https://www.project-syndicate.org/commentary/global-bond-rout-wont-hit -> 0 kept
+2026-10-09 08:25:22   https://www.project-syndicate.org/commentary/oil-weapon-why-shocks-sin -> 0 kept
+2026-10-09 08:26:03   https://www.project-syndicate.org/commentary/iran-war-scenarios-and-ec -> 0 kept
+2026-10-09 08:27:07   https://www.project-syndicate.org/commentary/us-iran-escalation-most-l -> 2 kept
+2026-10-09 08:27:50   https://www.project-syndicate.org/commentary/editorial-perfil-lawsuit- -> 0 kept
+2026-10-09 08:27:51   https://www.project-syndicate.org/commentary/editorial-perfil-lawsuit- -> 0 kept
+2026-10-09 08:28:29   https://www.project-syndicate.org/commentary/ai-needs-trusted-journali -> 0 kept
+2026-10-09 08:29:08   https://www.project-syndicate.org/commentary/democrats-must-not-engage -> 0 kept
+2026-10-09 08:29:09   https://www.project-syndicate.org/commentary/democrats-must-not-engage -> 0 kept
+2026-10-09 08:29:49   https://www.project-syndicate.org/commentary/trump-corrupting-official -> 0 kept
+2026-10-09 08:30:28   https://www.project-syndicate.org/commentary/german-malaise-legacy-of- -> 0 kept
+2026-10-09 08:31:00   https://www.project-syndicate.org/commentary/german-malaise-legacy-of- -> 0 kept
+2026-10-09 08:31:40   https://www.project-syndicate.org/commentary/cooperation-is-vital-to-c -> 0 kept
+2026-10-09 08:32:19   https://www.project-syndicate.org/commentary/eu-relative-advantage-in- -> 0 kept
+2026-10-09 08:32:19   Nouriel Roubini: processed 15, added 4
+2026-10-09 08:32:19 source Nouriel Roubini complete
+2026-10-09 08:32:19 harvesting Michael Pettis (article_archive) since n/a
+2026-10-09 08:32:23   following 0 article links
+2026-10-09 08:32:23   Michael Pettis: processed 0, added 0
+2026-10-09 08:32:23 source Michael Pettis complete
+2026-10-09 08:32:23 harvesting Ed Yardeni (article_archive) since n/a
+2026-10-09 08:32:23   following 1 article links
+2026-10-09 08:32:36   https://www.yardeni.com/quicktakes/#main-content -> 0 kept
+2026-10-09 08:32:36   Ed Yardeni: processed 1, added 0
+2026-10-09 08:32:36 source Ed Yardeni complete
+2026-10-09 08:32:36 harvesting Cathie Wood (youtube) since 20250101
+2026-10-09 08:32:36   Cathie Wood: processed 0, added 0
+2026-10-09 08:32:36 source Cathie Wood complete
