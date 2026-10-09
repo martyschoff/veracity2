@@ -1,0 +1,29 @@
+Implement Phase 1 of DESIGN_STEALS.md (read it first, plus REVIEW_OPS_ASSESSMENT.md for context): the BRIER LEDGER.
+
+WORK ON THE feature/brier-ledger BRANCH ONLY:
+  git checkout feature/brier-ledger
+Do NOT touch master. Do NOT touch data/predictions.json content (read-only except through locked_data as specified).
+
+IMPLEMENT:
+1. src/brier.py:
+   - record_probabilities(pred_id, source_probs: dict) - writes/merges a brier_ledger entry on the prediction via locked_data: {'recorded_at', 'probabilities': {...}, 'backfilled': bool}
+   - compute_brier(prob, outcome) -> (prob - outcome)**2
+   - finalize_brier(pred_id, outcome) - fills brier_scores for all recorded probabilities via locked_data
+   - get_calibration_data(pundit) -> list of (prob, outcome) pairs across their predictions
+2. Hooks:
+   - scripts/monte_carlo.py: after consensus calc in run(), call record_probabilities with {'monte_carlo': pct_yes/100}
+   - scripts/delphicursor_worker.py: after verdict merge, record {'delphicursor': confidence/100} (skip if vote is 'unclear')
+   - scripts/miro_worker.py: after miro_result merge, record {'miro': confidence} if confidence is a 0-1 float
+   - render.py: after verdict resolution detection, backfill ledgers for already-resolved claims (marked backfilled: true) - one-time migration inside the render pass
+3. Per-person calibration aggregation: data/calibration/<slug>.json with total_resolved, mean_brier, calibration_buckets (0.1-wide buckets, count + actual_rate). Update it in render.py during render (compute-on-render, like the existing scoring).
+4. Reliability diagram: client-side SVG in the pundit detail view (drill-down card) - simple diagonal + bucket bars, no new deps. Only render if N>=20.
+5. UI: pundit detail card gets a "Calibration" line: mean Brier + link/inline diagram; prediction detail shows brier_ledger breakdown when present.
+
+ACCEPTANCE:
+- python -m py_compile all touched files
+- Run render.py - existing scores still render, no errors
+- Spot-check: the 11 existing resolved claims get backfilled ledgers with plausible probabilities
+- Commit on feature/brier-ledger and push that branch. Do NOT merge to master. Do NOT deploy to surge/pages (master's rendered output stays live).
+- Report: files changed, computed sample numbers for one person (e.g. Zeihan), anything deviated.
+
+Do NOT ask questions - make reasonable choices and report them.

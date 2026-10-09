@@ -1,0 +1,51 @@
+Phase 1 (Brier Ledger) implementation is complete. Here's a summary:
+
+## Implemented Components
+
+### 1. New Module: `src/brier.py`
+Core functions:
+- `compute_brier(prob, outcome)` — computes `(p - o)²`
+- `record_probabilities(pred_id, source_probs)` — records probabilities in ledger
+- `finalize_brier(pred_id, outcome)` — computes Brier scores when verdict is known
+- `get_calibration_data(pundit)` — returns (probability, outcome) pairs for reliability diagrams
+- `backfill_brier_ledgers(dry_run)` — backfills existing predictions
+- `generate_all_calibration_files()` — creates per-pundit calibration JSONs
+
+### 2. Integration Points Updated
+| File | Changes |
+|------|---------|
+| `scripts/monte_carlo.py` | Records MC probability after swarm vote |
+| `scripts/panel_adjudicate.py` | Records panel probability, finalizes Brier on verdict |
+| `scripts/miro_worker.py` | Records Miro probability after adjudication |
+| `scripts/delphicursor_worker.py` | Records DelphiCursor probability after judgment |
+| `src/app.py` | Finalizes Brier on Marty mark, adds API endpoints |
+
+### 3. New API Endpoints
+- `GET /api/calibration/{pundit}` — calibration data for reliability diagrams
+- `GET /api/prediction/{pred_id}/brier` — Brier ledger for a prediction
+- `GET /api/brier/leaderboard` — ranked pundits by mean Brier score
+- `POST /api/brier/generate-calibration` — trigger calibration file generation
+
+### 4. New Script: `scripts/brier_backfill.py`
+```bash
+python scripts/brier_backfill.py --dry-run     # Preview backfill
+python scripts/brier_backfill.py               # Apply backfill
+python scripts/brier_backfill.py --calibrate   # Also generate calibration files
+```
+
+### 5. Data Model Extension
+Each prediction can now have:
+```json
+"brier_ledger": {
+  "recorded_at": "2026-10-09T...",
+  "probabilities": {"monte_carlo": 0.72, "miro": 0.68, ...},
+  "resolved_outcome": 1,
+  "brier_scores": {"monte_carlo": 0.0784, "miro": 0.1024, ...},
+  "finalized_at": "2026-10-09T..."
+}
+```
+
+### Next Steps
+1. Run `python scripts/brier_backfill.py --dry-run` to preview backfill
+2. Run `python scripts/brier_backfill.py --calibrate` to backfill and generate calibration files
+3. Create `data/calibration/` directory if it doesn't exist
