@@ -21,6 +21,7 @@ import filelock
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from data_lock import locked_data
 from src.pipeline import PRODUCER_ENDPOINTS, call_llm
+from src.brier import record_probabilities
 
 # Swarm vote endpoints: nimo128 + 3080 box 7B (parallel workers)
 SWARM_ENDPOINTS = [
@@ -157,6 +158,11 @@ def run(n: int = N_DEFAULT):
                 print(f"  => {target['claim'][:60]} : {mc_result}")
             else:
                 print(f"  => TARGET GONE: {pred_id}", flush=True)
+        
+        # Record Monte Carlo probability in the Brier ledger
+        if decided > 0:
+            mc_prob = pct_yes / 100.0
+            record_probabilities(pred_id, {"monte_carlo": mc_prob})
     print("Saved. Render+deploy to publish badges.")
 
 

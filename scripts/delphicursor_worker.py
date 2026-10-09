@@ -24,7 +24,9 @@ import time
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from data_lock import locked_data
+from src.brier import record_probabilities
 
 BASE = Path(__file__).resolve().parent.parent
 DATA = BASE / 'data' / 'predictions.json'
@@ -401,6 +403,17 @@ def process_claim(pred: dict, ind_data: dict) -> bool:
                     }
             
             log(f"  SUCCESS: {verdict['vote']} (confidence {verdict['confidence']})")
+            
+            # Record DelphiCursor probability in Brier ledger
+            dc_vote = verdict['vote']
+            dc_conf = verdict['confidence'] / 100.0  # Convert 0-100 to 0.0-1.0
+            if dc_vote == 'correct':
+                dc_prob = dc_conf
+            elif dc_vote == 'incorrect':
+                dc_prob = 1.0 - dc_conf
+            else:  # unclear
+                dc_prob = 0.5
+            record_probabilities(claim_id, {"delphicursor": dc_prob})
             
             # Cleanup workspace
             shutil.rmtree(workspace, ignore_errors=True)

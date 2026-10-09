@@ -264,6 +264,14 @@ def _apply_mark(pred_id: str, agrees: bool, note: str = "") -> bool:
             log.append({"id": pred_id, "agrees": agrees, "note": note,
                         "at": datetime.now().isoformat()})
             MARKS_LOG.write_text(json.dumps(log, indent=2), encoding="utf-8")
+    
+    # Finalize Brier scores outside the lock (Marty's verdict is ground truth)
+    if hit:
+        from src.brier import record_probabilities, finalize_brier
+        record_probabilities(pred_id)  # Ensure all available probs are recorded
+        outcome = 1 if agrees else 0
+        finalize_brier(pred_id, outcome)
+    
     return hit
 
 
@@ -358,3 +366,114 @@ async def api_critique(request: Request):
     body = await request.json()
     ok = _apply_critique(body.get("id", ""), body.get("text", ""))
     return JSONResponse({"ok": ok})
+
+
+# ---- Brier Ledger Calibration Endpoints ----
+
+@app.get("/api/calibration/{pundit}")
+async def api_calibration(pundit: str):
+    """Return calibration data for a specific pundit."""
+    from src.brier import get_calibration_data, compute_calibration_buckets, compute_mean_brier
+    
+    # URL-decode and normalize pundit name
+    import urllib.parse
+    pundit = urllib.parse.unquote(pundit)
+    
+    data = get_calibration_data(pundit)
+    
+    if not data:
+        return JSONResponse(
+            content={"error": f"No calibration data found for {pundit}"},
+            status_code=404
+        )
+    
+    return JSONResponse({
+        "pundit": pundit,
+        "total_resolved": len(data),
+        "mean_brier": compute_mean_brier(data),
+        "calibration_buckets": compute_calibration_buckets(data),
+        "raw_data": [{"probability": p, "outcome": o} for p, o in data],
+    })
+
+
+@app.get("/api/prediction/{pred_id}/brier")
+async def api_prediction_brier(pred_id: str):
+    """Return Brier ledger data for a specific prediction."""
+    store = get_store()
+    raw = store.get_all_raw()
+    
+    pred = next((p for p in raw["predictions"] if p.get("id") == pred_id), None)
+    
+    if not pred:
+        return JSONResponse(content={"error": "Prediction not found"}, status_code=404)
+    
+    ledger = pred.get("brier_ledger")
+    
+    if not ledger:
+        # Try to compute probabilities on-the-fly
+        from src.brier import extract_all_probabilities
+        probs = extract_all_probabilities(pred)
+        if probs:
+            return JSONResponse({
+                "prediction_id": pred_id,
+                "has_ledger": False,
+                "computed_probabilities": probs,
+                "note": "Brier ledger not yet recorded. Probabilities computed from existing data."
+            })
+        return JSONResponse({
+            "prediction_id": pred_id,
+            "has_ledger": False,
+            "error": "No probability data available"
+        })
+    
+    return JSONResponse({
+        "prediction_id": pred_id,
+        "has_ledger": True,
+        "brier_ledger": ledger,
+    })
+
+
+@app.get("/api/brier/leaderboard")
+async def api_brier_leaderboard():
+    """Return Brier score leaderboard for all pundits."""
+    from src.brier import get_calibration_data, compute_mean_brier
+    
+    store = get_store()
+    raw = store.get_all_raw()
+    
+    # Get unique pundit names
+    pundits = set(p.get("individual_name") for p in raw["predictions"] if p.get("individual_name"))
+    
+    leaderboard = []
+    for pundit in pundits:
+        data = get_calibration_data(pundit)
+        if len(data) >= 5:  # Minimum 5 resolved predictions
+            mean_brier = compute_mean_brier(data)
+            leaderboard.append({
+                "pundit": pundit,
+                "total_resolved": len(data),
+                "mean_brier": mean_brier,
+            })
+    
+    # Sort by mean_brier (lower is better)
+    leaderboard.sort(key=lambda x: x["mean_brier"] if x["mean_brier"] is not None else 999)
+    
+    return JSONResponse({"leaderboard": leaderboard})
+
+
+@app.post("/api/brier/generate-calibration")
+async def api_generate_calibration(request: Request):
+    """Trigger calibration file generation for a pundit or all pundits."""
+    from src.brier import generate_pundit_calibration_file, generate_all_calibration_files
+    
+    body = await request.json()
+    pundit = body.get("pundit")
+    
+    if pundit:
+        filepath = generate_pundit_calibration_file(pundit)
+        if filepath:
+            return JSONResponse({"ok": True, "file": str(filepath)})
+        return JSONResponse({"ok": False, "error": "Insufficient data"})
+    else:
+        files = generate_all_calibration_files()
+        return JSONResponse({"ok": True, "files": [str(f) for f in files], "count": len(files)})

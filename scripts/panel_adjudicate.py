@@ -9,7 +9,9 @@ from pathlib import Path
 import sys, os as _os
 _os.sys.path if False else None
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from data_lock import locked_data
+from src.brier import record_probabilities, finalize_brier
 
 import filelock
 
@@ -159,14 +161,36 @@ def main():
 
             score = sum(v['weight'] * (1 if v['verdict'] == 'correct' else -1 if v['verdict'] == 'incorrect' else 0)
                         for v in existing_votes)
+            verdict_reached = False
             if score >= 2.0:
                 target['verdict'] = 'correct'
+                verdict_reached = True
             elif score <= -2.0:
                 target['verdict'] = 'wrong'
+                verdict_reached = True
+            
+            # Compute panel weighted probability for Brier ledger
+            total_weight = sum(v['weight'] for v in existing_votes if v['verdict'] in ('correct', 'incorrect', 'unclear'))
+            if total_weight > 0:
+                weighted_prob = sum(
+                    v['weight'] * (1.0 if v['verdict'] == 'correct' else 0.0 if v['verdict'] == 'incorrect' else 0.5)
+                    for v in existing_votes
+                ) / total_weight
+                target.setdefault('_panel_prob', round(weighted_prob, 4))
 
             with locked_data() as fresh:
                 fidx = {q['id']: i3 for i3, q in enumerate(fresh['predictions'])}
                 fresh['predictions'][fidx[target['id']]] = target  # merge only OUR change
+        
+        # Record panel probability in Brier ledger (outside the lock to avoid nested locking)
+        panel_prob = target.get('_panel_prob')
+        if panel_prob is not None:
+            record_probabilities(pred_id, {"panel_weighted": panel_prob})
+        
+        # Finalize Brier scores if verdict was reached
+        if verdict_reached:
+            outcome = 1 if target['verdict'] == 'correct' else 0
+            finalize_brier(pred_id, outcome)
 
         print(f'{pi + 1}/{len(targets)} done | votes={len(existing_votes)} score={round(score, 2)} verdict={target.get("verdict")}', flush=True)
 

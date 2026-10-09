@@ -11,7 +11,9 @@ import time
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from data_lock import locked_data
+from src.brier import record_probabilities
 import urllib.error
 import urllib.request
 
@@ -137,6 +139,20 @@ def process(pred):
         with locked_data() as fresh:
             fidx = {q['id']: i2 for i2, q in enumerate(fresh['predictions'])}
             fresh['predictions'][fidx[pred['id']]] = target
+        
+        # Record Miro probability in Brier ledger
+        miro_verdict = target['miro_result'].get('verdict')
+        miro_conf = target['miro_result'].get('confidence')
+        if miro_verdict and miro_conf is not None:
+            # Convert verdict + confidence to probability
+            if miro_verdict == 'supported':
+                miro_prob = float(miro_conf)
+            elif miro_verdict == 'refuted':
+                miro_prob = 1.0 - float(miro_conf)
+            else:  # inconclusive
+                miro_prob = 0.5
+            record_probabilities(pred['id'], {"miro": miro_prob})
+        
         log(f"{pred['id']} miro verdict saved")
     else:
         with open(DATA, encoding='utf-8') as f:
