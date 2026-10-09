@@ -62,7 +62,7 @@
    "url": "https://www.youtube.com/@PeterDiamandis",
    "since": "20240101",
    "category": "ai",
-   "completed": false
+   "completed": true
   },
   {
    "id": "mcalvany_full",
@@ -71,7 +71,7 @@
    "url": "https://mcalvany.com/commentary/episodes",
    "fallback_date": "2024-01-01",
    "category": "finance",
-   "completed": false
+   "completed": true
   },
   {
    "id": "snider",

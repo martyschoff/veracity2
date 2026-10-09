@@ -12492,3 +12492,18 @@ TypeError: list indices must be integers or slices, not str
 2026-10-09 09:41:50 starting LLM proxy
 2026-10-09 09:41:53 adjudicating pred_1790961078_13: Japanese interest rates will rise to about 2.5% by the end of 2026
 2026-10-09 09:41:53 adjudicating pred_1790961078_13: Japanese interest rates will rise to about 2.5% by the end of 2026
+2026-10-09 09:51:24 miro worker started (nimo via proxy; 7-GPU pool skipped)
+2026-10-09 09:51:28 starting LLM proxy
+2026-10-09 09:51:31 adjudicating pred_1790961078_13: Japanese interest rates will rise to about 2.5% by the end of 2026
+2026-10-09 09:56:24 miro worker started (nimo via proxy; 7-GPU pool skipped)
+2026-10-09 09:56:28 starting LLM proxy
+2026-10-09 09:56:31 adjudicating pred_1790961078_13: Japanese interest rates will rise to about 2.5% by the end of 2026
+2026-10-09 10:01:24 miro worker started (nimo via proxy; 7-GPU pool skipped)
+2026-10-09 10:01:28 starting LLM proxy
+2026-10-09 10:01:31 adjudicating pred_1790961078_13: Japanese interest rates will rise to about 2.5% by the end of 2026
+2026-10-09 10:02:22 runner exit 1:         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\schof\veracity-panel\backend\.venv311\Lib\site-packages\openai\_base_client.py", line 1561, in request
+    raise APIConnectionError(request=request) from err
+openai.APIConnectionError: Connection error.
+
+2026-10-09 10:02:22 pred_1790961078_13 FAILED

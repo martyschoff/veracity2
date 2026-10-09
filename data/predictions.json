@@ -40531,7 +40531,7 @@
       "marty_note": "MartyPredicts: Right",
       "marty_at": "2026-10-09",
       "marty_verdict": "correct",
-      "miro_status": "queued",
+      "miro_status": "error",
       "mc_status": "not_due",
       "mc_result": null
     },
@@ -41757,6 +41757,50 @@
       "claim": "The longer the US-Israeli war with Iran goes on, the longer we can expect oil, gas, fertilizer, helium, and other prices to remain elevated.",
       "source_url": "https://www.project-syndicate.org/commentary/us-iran-escalation-most-likely-scenario-by-nouriel-roubini-2026-03",
       "transcript_excerpt": "The financial and economic implications of the US-Israeli war with Iran will depend on the war’s duration. The longer it goes on, the longer we can expect oil, gas, fertilizer, helium, and other prices to remain elevated.",
+      "verdict": null,
+      "judgements": []
+    },
+    {
+      "id": "pred_1791554066_64553896",
+      "individual_name": "David McAlvany",
+      "date": "2026-09-30",
+      "category": "finance",
+      "claim": "AI debt could fuel the biggest bubble in history, potentially creating a crisis bigger than 2008 if the build-out fails to deliver on time and on budget.",
+      "source_url": "https://mcalvany.com/weekly-commentary/ai-asks-its-humans-wheres-my-flux-capacitor/",
+      "transcript_excerpt": "I think that this boom is setting up for a bust far greater than the global financial crisis.",
+      "verdict": null,
+      "judgements": []
+    },
+    {
+      "id": "pred_1791554414_44922462",
+      "individual_name": "David McAlvany",
+      "date": "2026-09-16",
+      "category": "finance",
+      "claim": "The ECB is expected to raise rates 25 basis points to 2.5%, with a 75% probability of an additional increase by October 2026 and a 73% probability of an increase in December 2026.",
+      "source_url": "https://mcalvany.com/weekly-commentary/chinas-22-month-gold-buying-streak/",
+      "transcript_excerpt": "Last week the ECB set what was likely a precedent amongst central banks, raising rates 25 basis points to 2.5%. ... the market is now pricing in a 75% probability of an additional increase by the ECB in October, 73% probability of an increase in December.",
+      "verdict": null,
+      "judgements": []
+    },
+    {
+      "id": "pred_1791554777_33993707",
+      "individual_name": "David McAlvany",
+      "date": "2026-08-26",
+      "category": "finance",
+      "claim": "The U.S. Treasury will need to artificially suppress interest rates to manage interest costs on $40 trillion in debt, which is a mathematical necessity.",
+      "source_url": "https://mcalvany.com/weekly-commentary/inflation-is-the-plan-gold-is-the-answer/",
+      "transcript_excerpt": "For the Treasury to control interest costs on 40 trillion in debt, the artificial suppression of rates, that is a mathematical necessity.",
+      "verdict": null,
+      "judgements": []
+    },
+    {
+      "id": "pred_1791555245_20457926",
+      "individual_name": "David McAlvany",
+      "date": "2026-07-22",
+      "category": "finance",
+      "claim": "Gold could eventually reach $20,000 an ounce.",
+      "source_url": "https://mcalvany.com/weekly-commentary/the-old-market-order-is-breaking-what-it-means-for-gold/",
+      "transcript_excerpt": "We close with three key questions: Can higher interest rates hurt gold, can gold keep rising without retail participation, and could gold eventually reach $20,000 an ounce?",
       "verdict": null,
       "judgements": []
     }

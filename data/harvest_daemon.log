@@ -269,3 +269,21 @@ UnboundLocalError: cannot access local variable 'html' where it is not associate
 2026-10-09 08:32:36   Cathie Wood: processed 0, added 0
 2026-10-09 08:32:36 source Cathie Wood complete
 2026-10-09 09:41:24 harvest daemon started (extract qwen3:32b / gate nimble on nimo)
+2026-10-09 09:51:24 harvesting Peter Diamandis (youtube) since 20240101
+2026-10-09 09:51:24   Peter Diamandis: processed 0, added 0
+2026-10-09 09:51:24 source Peter Diamandis complete
+2026-10-09 09:51:24 harvesting David McAlvany (mcalvany_site) since n/a
+2026-10-09 09:51:31   found 10 episode slugs
+2026-10-09 09:54:26   https://mcalvany.com/weekly-commentary/ai-asks-its-humans-wheres-my-fl -> 1 kept
+2026-10-09 09:55:59   https://mcalvany.com/weekly-commentary/can-the-fed-make-inflation-disa -> 0 kept
+2026-10-09 09:57:28   https://mcalvany.com/weekly-commentary/china-has-been-buying-a-lot-mor -> 0 kept
+2026-10-09 10:01:23   https://mcalvany.com/weekly-commentary/chinas-22-month-gold-buying-str -> 1 kept
+2026-10-09 10:03:52   https://mcalvany.com/weekly-commentary/fort-knox-dollar-devaluation-an -> 0 kept
+2026-10-09 10:06:17   https://mcalvany.com/weekly-commentary/inflation-is-the-plan-gold-is-t -> 1 kept
+2026-10-09 10:08:36   https://mcalvany.com/weekly-commentary/markets-say-sweet-but-mood-sour -> 0 kept
+2026-10-09 10:11:16   https://mcalvany.com/weekly-commentary/the-debt-shot-clock-is-ticking- -> 0 kept
+2026-10-09 10:14:05   https://mcalvany.com/weekly-commentary/the-old-market-order-is-breakin -> 1 kept
+2026-10-09 10:16:32   https://mcalvany.com/weekly-commentary/will-the-hurdle-rate-pop-the-ai -> 0 kept
+2026-10-09 10:16:32   David McAlvany: processed 10, added 4
+2026-10-09 10:16:32 source David McAlvany complete
+2026-10-09 10:16:32 harvesting Jeff Snider (Eurodollar University) (youtube) since 20240101
