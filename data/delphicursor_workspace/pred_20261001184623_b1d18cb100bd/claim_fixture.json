@@ -1,0 +1,20 @@
+{
+  "claim_id": "pred_20261001184623_b1d18cb100bd",
+  "statement": "If the green transition really does happen, we need 10 times as much nickel, and that will change the math for pretty much everything involving the island.",
+  "made_by": "Peter Zeihan",
+  "made_on": "2024-05-27",
+  "category": "energy",
+  "time_horizon": "ongoing",
+  "transcript_excerpt": "if the green transition really does happen we need 10 times as much nickel and that's going to change the math for pretty much everything involving the island",
+  "source_url": "https://www.youtube.com/watch?v=OLn_UjAWJn0",
+  "predictor_weight": 1.25,
+  "adjudication_context": {
+    "swarm_result": "WRONG (33% of 3 decided, 33 unclear)",
+    "swarm_split": 33,
+    "delphi3080_verdict": "refuted",
+    "delphi3080_status": "done",
+    "delphi3080_summary": "The claim that nickel demand will increase tenfold within 12 months due to the green transition is implausible. Specialists across multiple disciplines (demography, energy security, capital markets, t",
+    "panel_votes_summary": "0 correct, 0 incorrect, 3 unclear (total weight 3.2)"
+  },
+  "_redacted_note": "Marty verdict/note intentionally omitted for blind judgment"
+}

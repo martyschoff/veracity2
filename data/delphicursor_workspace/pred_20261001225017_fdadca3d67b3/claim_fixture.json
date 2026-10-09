@@ -1,0 +1,20 @@
+{
+  "claim_id": "pred_20261001225017_fdadca3d67b3",
+  "statement": "A diplomatic agreement is unlikely in the near term, and the conflict is expected to continue intensifying in Gaza.",
+  "made_by": "Ian Bremmer",
+  "made_on": "2024-06-10",
+  "category": "geopolitics",
+  "time_horizon": "ongoing",
+  "transcript_excerpt": "I think that that is your baseline expectation for the coming weeks and months. So not great news. And, you know, out of the Middle East these days, it really is. But that is where we are.",
+  "source_url": "https://www.youtube.com/watch?v=Gw92Rn0XAZg",
+  "predictor_weight": 1.5,
+  "adjudication_context": {
+    "swarm_result": "RIGHT (100% of 20 decided, 17 unclear)",
+    "swarm_split": 0,
+    "delphi3080_verdict": "inconclusive",
+    "delphi3080_status": "done",
+    "delphi3080_summary": "All panel specialists across five disciplines (demography, energy security, capital markets, trade supply chain, military geography) labeled the claim as 'inconclusive' in both rounds of adjudication.",
+    "panel_votes_summary": "2 correct, 0 incorrect, 1 unclear (total weight 3.2)"
+  },
+  "_redacted_note": "Marty verdict/note intentionally omitted for blind judgment"
+}

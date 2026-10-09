@@ -1,0 +1,20 @@
+{
+  "claim_id": "pred_1790961078_51",
+  "statement": "Gold could reach around 8,000 per ounce by late 2027 or 2028",
+  "made_by": "David McAlvany",
+  "made_on": "2024-12-25",
+  "category": "finance",
+  "time_horizon": "2027",
+  "transcript_excerpt": "as a base case I would say this leg is likely at least to be comparable to the last ... starting from approximately 1,050 per ounce gold ... that would take us to around 8,000 per ounce gold by somewhere in the ballpark of late 2027 2028",
+  "source_url": "https://www.youtube.com/watch?v=gCXX4LJSDR4",
+  "predictor_weight": 1.0,
+  "adjudication_context": {
+    "swarm_result": "not_run",
+    "swarm_split": null,
+    "delphi3080_verdict": "refuted",
+    "delphi3080_status": "done",
+    "delphi3080_summary": "The claim that gold could reach $8,000/oz by 2027-2028 is refuted by most specialists due to lack of supporting macroeconomic conditions (stable dollar, no hyperinflation projections), absence of crit",
+    "panel_votes_summary": "no panel votes"
+  },
+  "_redacted_note": "Marty verdict/note intentionally omitted for blind judgment"
+}
