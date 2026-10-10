@@ -441,7 +441,8 @@
   "https://www.youtube.com/watch?v=ZsFx5YErVEo": 0,
   "https://www.youtube.com/watch?v=ZSwbvj4mqPA": 0,
   "https://www.youtube.com/watch?v=zu8KF52vSn4": 0,
-  "https://www.youtube.com/watch?v=Zwhkm57z7SY": 0
+  "https://www.youtube.com/watch?v=Zwhkm57z7SY": 0,
+  "https://www.youtube.com/watch?v=ZYOetdjlnKQ": 0
  },
  "stats": [
   {
@@ -2652,6 +2653,11 @@
   {
    "url": "https://www.youtube.com/watch?v=Zwhkm57z7SY",
    "date": "2024-08-21",
+   "added": 0
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=ZYOetdjlnKQ",
+   "date": "2024-07-18",
    "added": 0
   }
  ]
