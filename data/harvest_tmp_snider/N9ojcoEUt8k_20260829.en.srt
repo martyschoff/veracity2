@@ -1275,16 +1275,16 @@ and the acceleration
 256
 00:02:31,926 --> 00:02:32,854
 and the acceleration
-of de-dollarization—
+of dedollarization—
 
 257
 00:02:32,854 --> 00:02:32,889
-of de-dollarization—
+of dedollarization—
  
 
 258
 00:02:32,889 --> 00:02:33,989
-of de-dollarization—
+of dedollarization—
 the currencies of Asian countries
 
 259
@@ -1325,16 +1325,16 @@ Philippine peso
 266
 00:02:37,359 --> 00:02:38,355
 Philippine peso
-has fallen to a record
+fell to a record
 
 267
 00:02:38,355 --> 00:02:38,386
-has fallen to a record
+fell to a record
  
 
 268
 00:02:38,386 --> 00:02:39,259
-has fallen to a record
+fell to a record
 low.
 
 269
@@ -2035,26 +2035,26 @@ hoped that it would
 408
 00:04:02,908 --> 00:04:03,631
 hoped that it would
-gain momentum of its own
+gain its own
 
 409
 00:04:03,631 --> 00:04:03,658
-gain momentum of its own
+gain its own
  
 
 410
 00:04:03,658 --> 00:04:04,619
-gain momentum of its own
-.  And in this
+gain its own
+momentum.  And in this
 
 411
 00:04:04,619 --> 00:04:04,648
-.  And in this
+momentum.  And in this
  
 
 412
 00:04:04,648 --> 00:04:05,539
-.  And in this
+momentum.  And in this
 limited sense, the
 
 413
@@ -2820,26 +2820,26 @@ behave like money,
 565
 00:05:29,738 --> 00:05:30,801
 behave like money,
-and now it finally is
+and now it finally
 
 566
 00:05:30,801 --> 00:05:30,833
-and now it finally is
+and now it finally
  
 
 567
 00:05:30,833 --> 00:05:31,915
-and now it finally is
-possible.  If you are a
+and now it finally
+can.  If you are a
 
 568
 00:05:31,915 --> 00:05:31,954
-possible.  If you are a
+can.  If you are a
  
 
 569
 00:05:31,954 --> 00:05:33,028
-possible.  If you are a
+can.  If you are a
 long-term
 
 570
@@ -4320,16 +4320,16 @@ the pressure, a significant part of
 865
 00:08:27,817 --> 00:08:28,843
 the pressure, a significant part of
-the pressure, is caused by the
+the pressure, is caused by
 
 866
 00:08:28,843 --> 00:08:28,875
-the pressure, is caused by the
+the pressure, is caused by
  
 
 867
 00:08:28,875 --> 00:08:29,453
-the pressure, is caused by the
+the pressure, is caused by
 
 868
 00:08:29,453 --> 00:08:29,485
@@ -4348,16 +4348,16 @@ the pressure, is caused by the
 871
 00:08:30,351 --> 00:08:31,377
  
-Philippines' trade deficit,
+the Philippines' trade deficit,
 
 872
 00:08:31,377 --> 00:08:31,409
-Philippines' trade deficit,
+the Philippines' trade deficit,
  
 
 873
 00:08:31,409 --> 00:08:32,531
-Philippines' trade deficit,
+the Philippines' trade deficit,
 which reached US
 
 874
@@ -4378,16 +4378,16 @@ $5.97 billion in July
 877
 00:08:33,750 --> 00:08:34,904
 $5.97 billion in July
-, much worse
+, significantly worse
 
 878
 00:08:34,904 --> 00:08:34,936
-, much worse
+, significantly worse
  
 
 879
 00:08:34,936 --> 00:08:35,738
-, much worse
+, significantly worse
 than
 
 880
@@ -4398,16 +4398,16 @@ than
 881
 00:08:35,770 --> 00:08:36,930
 than
-economists expected.  High
+economists' expectations.  High
 
 882
 00:08:36,930 --> 00:08:36,956
-economists expected.  High
+economists' expectations.  High
  
 
 883
 00:08:36,956 --> 00:08:37,601
-economists expected.  High
+economists' expectations.  High
 oil prices are
 
 884
@@ -6557,5065 +6557,5070 @@ rate gap may be
 narrowing, while the
 
 1314
-00:12:05,206 --> 00:12:06,153
+00:12:05,206 --> 00:12:05,234
 narrowing, while the
  
 
 1315
-00:12:06,153 --> 00:12:06,181
-
- 
+00:12:05,234 --> 00:12:06,153
+narrowing, while the
+meaningful
 
 1316
-00:12:06,181 --> 00:12:07,186
+00:12:06,153 --> 00:12:06,181
+meaningful
  
-risk-adjusted meaningful gap
 
 1317
-00:12:07,186 --> 00:12:07,215
-risk-adjusted meaningful gap
- 
+00:12:06,181 --> 00:12:07,186
+meaningful
+risk-adjusted gap
 
 1318
-00:12:07,215 --> 00:12:07,846
-risk-adjusted meaningful gap
-remains
+00:12:07,186 --> 00:12:07,215
+risk-adjusted gap
+ 
 
 1319
+00:12:07,215 --> 00:12:07,846
+risk-adjusted gap
+remains
+
+1320
 00:12:07,846 --> 00:12:07,875
 remains
  
 
-1320
+1321
 00:12:07,875 --> 00:12:08,908
 remains
 huge and is even
 
-1321
+1322
 00:12:08,908 --> 00:12:08,937
 huge and is even
  
 
-1322
+1323
 00:12:08,937 --> 00:12:11,002
 huge and is even
 getting wider.  Now,
 
-1323
+1324
 00:12:11,002 --> 00:12:11,035
 getting wider.  Now,
  
 
-1324
+1325
 00:12:11,035 --> 00:12:12,138
 getting wider.  Now,
 the involvement of the United
 
-1325
+1326
 00:12:12,138 --> 00:12:12,171
 the involvement of the United
  
 
-1326
+1327
 00:12:12,171 --> 00:12:13,273
 the involvement of the United
 States in late
 
-1327
+1328
 00:12:13,273 --> 00:12:13,307
 States in late
  
 
-1328
+1329
 00:12:13,307 --> 00:12:14,442
 States in late
 July was to change
 
-1329
+1330
 00:12:14,442 --> 00:12:14,476
 July was to change
  
 
-1330
+1331
 00:12:14,476 --> 00:12:17,149
 July was to change
 the situation.  So you
 
-1331
+1332
 00:12:17,149 --> 00:12:17,181
 the situation.  So you
  
 
-1332
+1333
 00:12:17,181 --> 00:12:18,361
 the situation.  So you
 had big countries with
 
-1333
+1334
 00:12:18,361 --> 00:12:18,393
 had big countries with
  
 
-1334
+1335
 00:12:18,393 --> 00:12:19,573
 had big countries with
 big portfolios
 
-1335
+1336
 00:12:19,573 --> 00:12:19,605
 big portfolios
  
 
-1336
+1337
 00:12:19,605 --> 00:12:20,690
 big portfolios
 and powers,
 
-1337
+1338
 00:12:20,690 --> 00:12:20,722
 and powers,
  
 
-1338
+1339
 00:12:20,722 --> 00:12:21,583
 and powers,
 they were going to
 
-1339
+1340
 00:12:21,583 --> 00:12:21,615
 they were going to
  
 
-1340
+1341
 00:12:21,615 --> 00:12:22,732
 they were going to
 join forces and
 
-1341
+1342
 00:12:22,732 --> 00:12:22,764
 join forces and
  
 
-1342
+1343
 00:12:22,764 --> 00:12:23,210
 join forces and
 really
 
-1343
+1344
 00:12:23,210 --> 00:12:23,242
 really
  
 
-1344
+1345
 00:12:23,242 --> 00:12:24,263
 really
 show
 
-1345
+1346
 00:12:24,263 --> 00:12:24,295
 show
  
 
-1346
+1347
 00:12:24,295 --> 00:12:25,284
 show
 force to drive the
 
-1347
+1348
 00:12:25,284 --> 00:12:25,316
 force to drive the
  
 
-1348
+1349
 00:12:25,316 --> 00:12:26,497
 force to drive the
 speculators out of the market.
 
-1349
+1350
 00:12:26,497 --> 00:12:27,505
 speculators out of the market.
  
 
-1350
+1351
 00:12:27,505 --> 00:12:28,732
  
 Well, they did it
 
-1351
+1352
 00:12:28,732 --> 00:12:28,765
 Well, they did it
  
 
-1352
+1353
 00:12:28,765 --> 00:12:29,827
 Well, they did it
 for a while, but
 
-1353
+1354
 00:12:29,827 --> 00:12:29,860
 for a while, but
  
 
-1354
+1355
 00:12:29,860 --> 00:12:30,756
 for a while, but
 the problem, as we
 
-1355
+1356
 00:12:30,756 --> 00:12:30,789
 the problem, as we
  
 
-1356
+1357
 00:12:30,789 --> 00:12:32,049
 the problem, as we
 keep saying, is
 
-1357
+1358
 00:12:32,049 --> 00:12:32,083
 keep saying, is
  
 
-1358
+1359
 00:12:32,083 --> 00:12:33,310
 keep saying, is
 not the speculators, it's the
 
-1359
+1360
 00:12:33,310 --> 00:12:33,343
 not the speculators, it's the
  
 
-1360
+1361
 00:12:33,343 --> 00:12:34,507
 not the speculators, it's the
 dollar.  Washington is
 
-1361
+1362
 00:12:34,507 --> 00:12:34,536
 dollar.  Washington is
  
 
-1362
+1363
 00:12:34,536 --> 00:12:35,407
 dollar.  Washington is
-usually reluctant
-
-1363
-00:12:35,407 --> 00:12:35,435
-usually reluctant
- 
+generally reluctant
 
 1364
-00:12:35,435 --> 00:12:36,475
-usually reluctant
-to manipulate currency
+00:12:35,407 --> 00:12:35,435
+generally reluctant
+ 
 
 1365
+00:12:35,435 --> 00:12:36,475
+generally reluctant
+to manipulate currency
+
+1366
 00:12:36,475 --> 00:12:36,503
 to manipulate currency
  
 
-1366
+1367
 00:12:36,503 --> 00:12:36,897
 to manipulate currency
 markets
 
-1367
+1368
 00:12:36,897 --> 00:12:36,925
 markets
  
 
-1368
+1369
 00:12:36,925 --> 00:12:37,684
 markets
 directly.
 
-1369
+1370
 00:12:37,684 --> 00:12:37,784
 directly.
  
 
-1370
+1371
 00:12:37,784 --> 00:12:38,786
 directly.
 After all, he constantly
 
-1371
+1372
 00:12:38,786 --> 00:12:38,812
 After all, he constantly
  
 
-1372
+1373
 00:12:38,812 --> 00:12:39,557
 After all, he constantly
 accuses everyone
 
-1373
+1374
 00:12:39,557 --> 00:12:39,583
 accuses everyone
  
 
-1374
+1375
 00:12:39,583 --> 00:12:39,917
 accuses everyone
 else of
 
-1375
+1376
 00:12:39,917 --> 00:12:39,943
 else of
  
 
-1376
+1377
 00:12:39,943 --> 00:12:40,611
 else of
 manipulating
 
-1377
+1378
 00:12:40,611 --> 00:12:40,637
 manipulating
  
 
-1378
+1379
 00:12:40,637 --> 00:12:41,710
 manipulating
 currencies.  His participation
 
-1379
+1380
 00:12:41,710 --> 00:12:41,736
 currencies.  His participation
  
 
-1380
+1381
 00:12:41,736 --> 00:12:42,553
 currencies.  His participation
 demonstrated
 
-1381
+1382
 00:12:42,553 --> 00:12:42,579
 demonstrated
  
 
-1382
+1383
 00:12:42,579 --> 00:12:43,499
 demonstrated
 political unity and
 
-1383
+1384
 00:12:43,499 --> 00:12:43,524
 political unity and
  
 
-1384
+1385
 00:12:43,524 --> 00:12:44,393
 political unity and
 hinted that the
 
-1385
+1386
 00:12:44,393 --> 00:12:44,418
 hinted that the
  
 
-1386
+1387
 00:12:44,418 --> 00:12:45,389
 hinted that the
 yen's weakness had become
 
-1387
+1388
 00:12:45,389 --> 00:12:45,415
 yen's weakness had become
  
 
-1388
+1389
 00:12:45,415 --> 00:12:46,386
 yen's weakness had become
 so critical
 
-1389
+1390
 00:12:46,386 --> 00:12:46,411
 so critical
  
 
-1390
+1391
 00:12:46,411 --> 00:12:47,229
 so critical
 that it worried
 
-1391
+1392
 00:12:47,229 --> 00:12:47,254
 that it worried
  
 
-1392
+1393
 00:12:47,254 --> 00:12:47,868
 that it worried
 both governments.
 
-1393
+1394
 00:12:47,868 --> 00:12:47,968
 both governments.
  
 
-1394
+1395
 00:12:47,968 --> 00:12:48,798
 both governments.
 Officials also
 
-1395
+1396
 00:12:48,798 --> 00:12:48,827
 Officials also
  
 
-1396
+1397
 00:12:48,827 --> 00:12:49,514
 Officials also
 discussed
 
-1397
+1398
 00:12:49,514 --> 00:12:49,543
 discussed
  
 
-1398
+1399
 00:12:49,543 --> 00:12:50,231
 discussed
 using the
 
-1399
+1400
 00:12:50,231 --> 00:12:50,918
 using the
  
 
-1400
+1401
 00:12:50,918 --> 00:12:50,947
 
  
 
-1401
+1402
 00:12:50,947 --> 00:12:51,577
 
 Federal
 
-1402
+1403
 00:12:51,577 --> 00:12:51,606
 Federal
  
 
-1403
+1404
 00:12:51,606 --> 00:12:52,580
 Federal
 Reserve's FIMA mechanism,
 
-1404
+1405
 00:12:52,580 --> 00:12:52,608
 Reserve's FIMA mechanism,
  
 
-1405
+1406
 00:12:52,608 --> 00:12:53,697
 Reserve's FIMA mechanism,
 or repo mechanism,
 
-1406
+1407
 00:12:53,697 --> 00:12:53,725
 or repo mechanism,
  
 
-1407
+1408
 00:12:53,725 --> 00:12:54,327
 or repo mechanism,
 in futures
 
-1408
+1409
 00:12:54,327 --> 00:12:54,356
 in futures
  
 
-1409
+1410
 00:12:54,356 --> 00:12:55,244
 in futures
 operations, which
 
-1410
+1411
 00:12:55,244 --> 00:12:55,272
 operations, which
  
 
-1411
+1412
 00:12:55,272 --> 00:12:56,189
 operations, which
 many made a
 
-1412
+1413
 00:12:56,189 --> 00:12:56,218
 many made a
  
 
-1413
+1414
 00:12:56,218 --> 00:12:57,220
 many made a
 huge deal out of because
 
-1414
+1415
 00:12:57,220 --> 00:12:57,249
 huge deal out of because
  
 
-1415
+1416
 00:12:57,249 --> 00:12:58,337
 huge deal out of because
 they don't understand what
 
-1416
+1417
 00:12:58,337 --> 00:12:58,366
 they don't understand what
  
 
-1417
+1418
 00:12:58,366 --> 00:12:59,426
 they don't understand what
 FIMA or the Eurodollar mechanics are
 
-1418
+1419
 00:12:59,426 --> 00:12:59,455
 FIMA or the Eurodollar mechanics are
  
 
-1419
+1420
 00:12:59,455 --> 00:13:00,603
 FIMA or the Eurodollar mechanics are
 .  So, in
 
-1420
+1421
 00:13:00,603 --> 00:13:00,631
 .  So, in
  
 
-1421
+1422
 00:13:00,631 --> 00:13:01,494
 .  So, in
 essence, they gave
 
-1422
+1423
 00:13:01,494 --> 00:13:01,521
 essence, they gave
  
 
-1423
+1424
 00:13:01,521 --> 00:13:02,440
 essence, they gave
 the Japanese additional
 
-1424
+1425
 00:13:02,440 --> 00:13:02,467
 the Japanese additional
  
 
-1425
+1426
 00:13:02,467 --> 00:13:03,469
 the Japanese additional
 flexibility, but they
 
-1426
+1427
 00:13:03,469 --> 00:13:03,497
 flexibility, but they
  
 
-1427
+1428
 00:13:03,497 --> 00:13:04,221
 flexibility, but they
 never solved the
 
-1428
+1429
 00:13:04,221 --> 00:13:04,248
 never solved the
  
 
-1429
+1430
 00:13:04,248 --> 00:13:05,139
 never solved the
 underlying problem,
 
-1430
+1431
 00:13:05,139 --> 00:13:05,167
 underlying problem,
  
 
-1431
+1432
 00:13:05,167 --> 00:13:06,085
 underlying problem,
 which, again,
 
-1432
+1433
 00:13:06,085 --> 00:13:06,113
 which, again,
  
 
-1433
+1434
 00:13:06,113 --> 00:13:07,059
 which, again,
 was not interest
 
-1434
+1435
 00:13:07,059 --> 00:13:07,087
 was not interest
  
 
-1435
+1436
 00:13:07,087 --> 00:13:08,165
 was not interest
 rates.
 
-1436
+1437
 00:13:08,165 --> 00:13:08,190
 rates.
  
 
-1437
+1438
 00:13:08,190 --> 00:13:08,857
 rates.
 Whether Japan
 
-1438
+1439
 00:13:08,857 --> 00:13:08,881
 Whether Japan
  
 
-1439
+1440
 00:13:08,881 --> 00:13:09,794
 Whether Japan
 sells Treasury
 
-1440
+1441
 00:13:09,794 --> 00:13:09,819
 sells Treasury
  
 
-1441
+1442
 00:13:09,819 --> 00:13:10,658
 sells Treasury
 bonds, borrows
 
-1442
+1443
 00:13:10,658 --> 00:13:10,683
 bonds, borrows
  
 
-1443
+1444
 00:13:10,683 --> 00:13:11,645
 bonds, borrows
 dollars against them,
 
-1444
+1445
 00:13:11,645 --> 00:13:11,670
 dollars against them,
  
 
-1445
+1446
 00:13:11,670 --> 00:13:12,386
 dollars against them,
 or uses
 
-1446
+1447
 00:13:12,386 --> 00:13:12,410
 or uses
  
 
-1447
+1448
 00:13:12,410 --> 00:13:13,077
 or uses
 existing cash
 
-1448
+1449
 00:13:13,077 --> 00:13:13,101
 existing cash
  
 
-1449
+1450
 00:13:13,101 --> 00:13:14,064
 existing cash
 reserves, the goal is
 
-1450
+1451
 00:13:14,064 --> 00:13:14,089
 reserves, the goal is
  
 
-1451
+1452
 00:13:14,089 --> 00:13:14,558
 reserves, the goal is
 to
 
-1452
+1453
 00:13:14,558 --> 00:13:14,582
 to
  
 
-1453
+1454
 00:13:14,582 --> 00:13:15,125
 to
 provide
 
-1454
+1455
 00:13:15,125 --> 00:13:15,150
 provide
  
 
-1455
+1456
 00:13:15,150 --> 00:13:16,063
 provide
 official dollars to a
 
-1456
+1457
 00:13:16,063 --> 00:13:16,088
 official dollars to a
  
 
-1457
+1458
 00:13:16,088 --> 00:13:17,050
 official dollars to a
 private market that
 
-1458
+1459
 00:13:17,050 --> 00:13:17,075
 private market that
  
 
-1459
+1460
 00:13:17,075 --> 00:13:17,766
 private market that
 increasingly needs them
 
-1460
+1461
 00:13:17,766 --> 00:13:17,791
 increasingly needs them
  
 
-1461
+1462
 00:13:17,791 --> 00:13:18,588
 increasingly needs them
 .  The method
 
-1462
+1463
 00:13:18,588 --> 00:13:18,626
 .  The method
  
 
-1463
+1464
 00:13:18,626 --> 00:13:19,416
 .  The method
 changes,
 
-1464
+1465
 00:13:19,416 --> 00:13:19,454
 changes,
  
 
-1465
+1466
 00:13:19,454 --> 00:13:21,042
 changes,
 the imbalance does not.
 
-1466
+1467
 00:13:21,042 --> 00:13:21,078
 the imbalance does not.
  
 
-1467
+1468
 00:13:21,078 --> 00:13:22,190
 the imbalance does not.
 America's involvement has amplified the
 
-1468
+1469
 00:13:22,190 --> 00:13:22,226
 America's involvement has amplified the
  
 
-1469
+1470
 00:13:22,226 --> 00:13:23,553
 America's involvement has amplified the
 psychological effect of
 
-1470
+1471
 00:13:23,553 --> 00:13:23,589
 psychological effect of
  
 
-1471
+1472
 00:13:23,589 --> 00:13:24,665
 psychological effect of
 the intervention, but the
 
-1472
+1473
 00:13:24,665 --> 00:13:24,701
 the intervention, but the
  
 
-1473
+1474
 00:13:24,701 --> 00:13:25,848
 the intervention, but the
 yen's return to
 
-1474
+1475
 00:13:25,848 --> 00:13:25,884
 yen's return to
  
 
-1475
+1476
 00:13:25,884 --> 00:13:27,247
 yen's return to
 160 shows the limits
 
-1476
+1477
 00:13:27,247 --> 00:13:27,283
 160 shows the limits
  
 
-1477
+1478
 00:13:27,283 --> 00:13:28,037
 160 shows the limits
 of symbolism.    The
 
-1478
+1479
 00:13:28,037 --> 00:13:29,197
 of symbolism.    The
  
 
-1479
+1480
 00:13:29,197 --> 00:13:29,225
 
  
 
-1480
+1481
 00:13:29,225 --> 00:13:30,314
  
 world's largest economy joined
 
-1481
+1482
 00:13:30,314 --> 00:13:30,343
 world's largest economy joined
  
 
-1482
+1483
 00:13:30,343 --> 00:13:31,374
 world's largest economy joined
 one of the largest
 
-1483
+1484
 00:13:31,374 --> 00:13:31,403
 one of the largest
  
 
-1484
+1485
 00:13:31,403 --> 00:13:32,434
 one of the largest
 reserve holders in
 
-1485
+1486
 00:13:32,434 --> 00:13:32,463
 reserve holders in
  
 
-1486
+1487
 00:13:32,463 --> 00:13:33,552
 reserve holders in
 warning markets
 
-1487
+1488
 00:13:33,552 --> 00:13:33,580
 warning markets
  
 
-1488
+1489
 00:13:33,580 --> 00:13:34,698
 warning markets
 not to push the yen lower
 
-1489
+1490
 00:13:34,698 --> 00:13:36,124
 not to push the yen lower
 .  The market listened and
 
-1490
+1491
 00:13:36,124 --> 00:13:36,160
 .  The market listened and
  
 
-1491
+1492
 00:13:36,160 --> 00:13:37,458
 .  The market listened and
 continued the pressure anyway.
 
-1492
+1493
 00:13:37,458 --> 00:13:37,695
 continued the pressure anyway.
  
 
-1493
+1494
 00:13:37,695 --> 00:13:38,787
 continued the pressure anyway.
 This does not prove that
 
-1494
+1495
 00:13:38,787 --> 00:13:38,822
 This does not prove that
  
 
-1495
+1496
 00:13:38,822 --> 00:13:40,119
 This does not prove that
 governments do not have
 
-1496
+1497
 00:13:40,119 --> 00:13:40,154
 governments do not have
  
 
-1497
+1498
 00:13:40,154 --> 00:13:41,523
 governments do not have
 leverage.  Japan still
 
-1498
+1499
 00:13:41,523 --> 00:13:41,558
 leverage.  Japan still
  
 
-1499
+1500
 00:13:41,558 --> 00:13:42,831
 leverage.  Japan still
 has significant reserves and
 
-1500
+1501
 00:13:42,831 --> 00:13:42,865
 has significant reserves and
  
 
-1501
+1502
 00:13:42,865 --> 00:13:43,519
 has significant reserves and
 could
 
-1502
+1503
 00:13:43,519 --> 00:13:43,553
 could
  
 
-1503
+1504
 00:13:43,553 --> 00:13:44,689
 could
 intervene again, but this
 
-1504
+1505
 00:13:44,689 --> 00:13:44,723
 intervene again, but this
  
 
-1505
+1506
 00:13:44,723 --> 00:13:45,412
 intervene again, but this
 shows that
 
-1506
+1507
 00:13:45,412 --> 00:13:45,446
 shows that
  
 
-1507
+1508
 00:13:45,446 --> 00:13:46,237
 shows that
 power and
 
-1508
+1509
 00:13:46,237 --> 00:13:46,272
 power and
  
 
-1509
+1510
 00:13:46,272 --> 00:13:47,510
 power and
 efficiency are not the same thing
 
-1510
+1511
 00:13:47,510 --> 00:13:47,545
 efficiency are not the same thing
  
 
-1511
+1512
 00:13:47,545 --> 00:13:48,903
 efficiency are not the same thing
 .  Tokyo
 
-1512
+1513
 00:13:48,903 --> 00:13:48,939
 .  Tokyo
  
 
-1513
+1514
 00:13:48,939 --> 00:13:50,210
 .  Tokyo
 could spend another 50
 
-1514
+1515
 00:13:50,210 --> 00:13:50,246
 could spend another 50
  
 
-1515
+1516
 00:13:50,246 --> 00:13:51,263
 could spend another 50
 billion, another 100
 
-1516
+1517
 00:13:51,263 --> 00:13:51,300
 billion, another 100
  
 
-1517
+1518
 00:13:51,300 --> 00:13:52,624
 billion, another 100
 billion.  Washington
 
-1518
+1519
 00:13:52,624 --> 00:13:52,654
 billion.  Washington
  
 
-1519
+1520
 00:13:52,654 --> 00:13:53,724
 billion.  Washington
 may join
 
-1520
+1521
 00:13:53,724 --> 00:13:53,754
 may join
  
 
-1521
+1522
 00:13:53,754 --> 00:13:54,229
 may join
 another
 
-1522
+1523
 00:13:54,229 --> 00:13:54,259
 another
  
 
-1523
+1524
 00:13:54,259 --> 00:13:55,091
 another
 coordinated
 
-1524
+1525
 00:13:55,091 --> 00:13:55,120
 coordinated
  
 
-1525
+1526
 00:13:55,120 --> 00:13:56,215
 coordinated
 operation.  But if
 
-1526
+1527
 00:13:56,215 --> 00:13:56,247
 operation.  But if
  
 
-1527
+1528
 00:13:56,247 --> 00:13:57,216
 operation.  But if
 the flow of dollars doesn't
 
-1528
+1529
 00:13:57,216 --> 00:13:57,248
 the flow of dollars doesn't
  
 
-1529
+1530
 00:13:57,248 --> 00:13:58,217
 the flow of dollars doesn't
 change, each
 
-1530
+1531
 00:13:58,217 --> 00:13:58,249
 change, each
  
 
-1531
+1532
 00:13:58,249 --> 00:13:59,444
 change, each
 intervention risks
 
-1532
+1533
 00:13:59,444 --> 00:13:59,476
 intervention risks
  
 
-1533
+1534
 00:13:59,476 --> 00:14:00,509
 intervention risks
 becoming an even more expensive
 
-1534
+1535
 00:14:00,509 --> 00:14:00,541
 becoming an even more expensive
  
 
-1535
+1536
 00:14:00,541 --> 00:14:01,252
 becoming an even more expensive
 repeat of the
 
-1536
+1537
 00:14:01,252 --> 00:14:01,284
 repeat of the
  
 
-1537
+1538
 00:14:01,284 --> 00:14:03,708
 repeat of the
 previous one.  And this is where
 
-1538
+1539
 00:14:03,708 --> 00:14:03,738
 previous one.  And this is where
  
 
-1539
+1540
 00:14:03,738 --> 00:14:04,596
 previous one.  And this is where
 the stories of
 
-1540
+1541
 00:14:04,596 --> 00:14:04,627
 the stories of
  
 
-1541
+1542
 00:14:04,627 --> 00:14:05,576
 the stories of
-de-dollarization and
-
-1542
-00:14:05,576 --> 00:14:05,607
-de-dollarization and
- 
+de-dollarization and the
 
 1543
-00:14:05,607 --> 00:14:06,250
-de-dollarization and
-abandoning
-
-1544
-00:14:06,250 --> 00:14:06,281
-abandoning
+00:14:05,576 --> 00:14:05,607
+de-dollarization and the
  
 
+1544
+00:14:05,607 --> 00:14:06,250
+de-dollarization and the
+abandonment of
+
 1545
-00:14:06,281 --> 00:14:07,078
-abandoning
-Treasury
+00:14:06,250 --> 00:14:06,281
+abandonment of
+ 
 
 1546
+00:14:06,281 --> 00:14:07,078
+abandonment of
+Treasury
+
+1547
 00:14:07,078 --> 00:14:07,108
 Treasury
  
 
-1547
+1548
 00:14:07,108 --> 00:14:07,660
 Treasury
 bonds
 
-1548
+1549
 00:14:07,660 --> 00:14:07,690
 bonds
  
 
-1549
+1550
 00:14:07,690 --> 00:14:08,732
 bonds
 turn everything upside down
 
-1550
+1551
 00:14:08,732 --> 00:14:08,763
 turn everything upside down
  
 
-1551
+1552
 00:14:08,763 --> 00:14:09,899
 turn everything upside down
 .  They
 
-1552
+1553
 00:14:09,899 --> 00:14:09,933
 .  They
  
 
-1553
+1554
 00:14:09,933 --> 00:14:11,218
 .  They
 both combine and
 
-1554
+1555
 00:14:11,218 --> 00:14:11,252
 both combine and
  
 
-1555
+1556
 00:14:11,252 --> 00:14:12,334
 both combine and
 distort everything.
 
-1556
+1557
 00:14:12,334 --> 00:14:12,434
 distort everything.
  
 
-1557
+1558
 00:14:12,434 --> 00:14:13,332
 distort everything.
 The Japanese are selling
 
-1558
+1559
 00:14:13,332 --> 00:14:13,363
 The Japanese are selling
  
 
-1559
+1560
 00:14:13,363 --> 00:14:14,540
 The Japanese are selling
 reserve assets, or
 
-1560
+1561
 00:14:14,540 --> 00:14:14,571
 reserve assets, or
  
 
-1561
+1562
 00:14:14,571 --> 00:14:15,314
 reserve assets, or
 perhaps they
 
-1562
+1563
 00:14:15,314 --> 00:14:15,345
 perhaps they
  
 
-1563
+1564
 00:14:15,345 --> 00:14:16,491
 perhaps they
 are going to transfer
 
-1564
+1565
 00:14:16,491 --> 00:14:16,522
 are going to transfer
  
 
-1565
+1566
 00:14:16,522 --> 00:14:17,442
 are going to transfer
 them to the Fed.  Does it
 
-1566
+1567
 00:14:17,442 --> 00:14:17,475
 them to the Fed.  Does it
  
 
-1567
+1568
 00:14:17,475 --> 00:14:18,747
 them to the Fed.  Does it
 really matter?
 
-1568
+1569
 00:14:18,747 --> 00:14:18,847
 really matter?
  
 
-1569
+1570
 00:14:18,847 --> 00:14:19,414
 really matter?
 They can
 
-1570
+1571
 00:14:19,414 --> 00:14:19,441
 They can
  
 
-1571
+1572
 00:14:19,441 --> 00:14:20,171
 They can
 sell their
 
-1572
+1573
 00:14:20,171 --> 00:14:20,198
 sell their
  
 
-1573
+1574
 00:14:20,198 --> 00:14:20,603
 sell their
 holdings of
 
-1574
+1575
 00:14:20,603 --> 00:14:20,630
 holdings of
  
 
-1575
+1576
 00:14:20,630 --> 00:14:21,333
 holdings of
 
-1576
+1577
 00:14:21,333 --> 00:14:21,360
 
  
 
-1577
+1578
 00:14:21,360 --> 00:14:22,360
  
 U.S. Treasury bonds, their
 
-1578
+1579
 00:14:22,360 --> 00:14:22,387
 U.S. Treasury bonds, their
  
 
-1579
+1580
 00:14:22,387 --> 00:14:23,414
 U.S. Treasury bonds, their
 reserve assets, and that's
 
-1580
+1581
 00:14:23,414 --> 00:14:23,441
 reserve assets, and that's
  
 
-1581
+1582
 00:14:23,441 --> 00:14:24,198
 reserve assets, and that's
 not at all what
 
-1582
+1583
 00:14:24,198 --> 00:14:24,225
 not at all what
  
 
-1583
+1584
 00:14:24,225 --> 00:14:25,283
 not at all what
 people think.  Every time
 
-1584
+1585
 00:14:25,283 --> 00:14:25,806
 people think.  Every time
  
 
-1585
+1586
 00:14:25,806 --> 00:14:25,830
 
  
 
-1586
+1587
 00:14:25,830 --> 00:14:26,449
 
 
-1587
+1588
 00:14:26,449 --> 00:14:26,472
 
  
 
-1588
+1589
 00:14:26,472 --> 00:14:27,210
  
 Japan's Treasury bond holdings
 
-1589
+1590
 00:14:27,210 --> 00:14:27,234
 Japan's Treasury bond holdings
  
 
-1590
+1591
 00:14:27,234 --> 00:14:28,090
 Japan's Treasury bond holdings
 shrink, someone
 
-1591
+1592
 00:14:28,090 --> 00:14:28,114
 shrink, someone
  
 
-1592
+1593
 00:14:28,114 --> 00:14:28,685
 shrink, someone
 claims that
 
-1593
+1594
 00:14:28,685 --> 00:14:28,709
 claims that
  
 
-1594
+1595
 00:14:28,709 --> 00:14:29,351
 claims that
 foreign governments
 
-1595
+1596
 00:14:29,351 --> 00:14:29,375
 foreign governments
  
 
-1596
+1597
 00:14:29,375 --> 00:14:30,160
 foreign governments
 are abandoning
 
-1597
+1598
 00:14:30,160 --> 00:14:30,184
 are abandoning
  
 
-1598
+1599
 00:14:30,184 --> 00:14:31,112
 are abandoning
 American debt
 
-1599
+1600
 00:14:31,112 --> 00:14:31,135
 American debt
  
 
-1600
+1601
 00:14:31,135 --> 00:14:31,801
 American debt
 and moving away from the
 
-1601
+1602
 00:14:31,801 --> 00:14:31,825
 and moving away from the
  
 
-1602
+1603
 00:14:31,825 --> 00:14:32,724
 and moving away from the
 dollar.  But Japan
 
-1603
+1604
 00:14:32,724 --> 00:14:32,750
 dollar.  But Japan
  
 
-1604
+1605
 00:14:32,750 --> 00:14:33,446
 dollar.  But Japan
 may sell
 
-1605
+1606
 00:14:33,446 --> 00:14:33,472
 may sell
  
 
-1606
+1607
 00:14:33,472 --> 00:14:34,090
 may sell
 Treasury
 
-1607
+1608
 00:14:34,090 --> 00:14:34,116
 Treasury
  
 
-1608
+1609
 00:14:34,116 --> 00:14:35,069
 Treasury
 bonds precisely because
 
-1609
+1610
 00:14:35,069 --> 00:14:35,095
 bonds precisely because
  
 
-1610
+1611
 00:14:35,095 --> 00:14:36,100
 bonds precisely because
 it needs dollars
 
-1611
+1612
 00:14:36,100 --> 00:14:36,126
 it needs dollars
  
 
-1612
+1613
 00:14:36,126 --> 00:14:37,206
 it needs dollars
 to protect the yen.  Everything is just the
 
-1613
+1614
 00:14:37,206 --> 00:14:37,245
 to protect the yen.  Everything is just the
  
 
-1614
+1615
 00:14:37,245 --> 00:14:38,623
 to protect the yen.  Everything is just the
-opposite.  This is not
-
-1615
-00:14:38,623 --> 00:14:38,653
-opposite.  This is not
- 
+opposite.  This is not a
 
 1616
-00:14:38,653 --> 00:14:39,287
-opposite.  This is not
-a rejection of the
+00:14:38,623 --> 00:14:38,653
+opposite.  This is not a
+ 
 
 1617
-00:14:39,287 --> 00:14:39,317
-a rejection of the
- 
+00:14:38,653 --> 00:14:39,287
+opposite.  This is not a
+rejection of the
 
 1618
-00:14:39,317 --> 00:14:40,495
-a rejection of the
-dollar system, it is
+00:14:39,287 --> 00:14:39,317
+rejection of the
+ 
 
 1619
-00:14:40,495 --> 00:14:40,525
-dollar system, it is
- 
+00:14:39,317 --> 00:14:40,495
+rejection of the
+dollar system, it is an
 
 1620
-00:14:40,525 --> 00:14:41,582
-dollar system, it is
-a dependence on it.
-
-1621
-00:14:41,582 --> 00:14:41,682
-a dependence on it.
+00:14:40,495 --> 00:14:40,525
+dollar system, it is an
  
 
+1621
+00:14:40,525 --> 00:14:41,582
+dollar system, it is an
+addiction to it.
+
 1622
-00:14:41,682 --> 00:14:42,904
-a dependence on it.
-The latest data from TIC (Treasury
+00:14:41,582 --> 00:14:41,682
+addiction to it.
+ 
 
 1623
+00:14:41,682 --> 00:14:42,904
+addiction to it.
+The latest data from TIC (Treasury
+
+1624
 00:14:42,904 --> 00:14:42,937
 The latest data from TIC (Treasury
  
 
-1624
+1625
 00:14:42,937 --> 00:14:43,830
 The latest data from TIC (Treasury
 International Capital) does not
 
-1625
+1626
 00:14:43,830 --> 00:14:43,863
 International Capital) does not
  
 
-1626
+1627
 00:14:43,863 --> 00:14:44,458
 International Capital) does not
 show the
 
-1627
+1628
 00:14:44,458 --> 00:14:44,491
 show the
  
 
-1628
+1629
 00:14:44,491 --> 00:14:45,714
 show the
 global
 
-1629
+1630
 00:14:45,714 --> 00:14:45,747
 global
  
 
-1630
+1631
 00:14:45,747 --> 00:14:46,606
 global
 buyer strike that is
 
-1631
+1632
 00:14:46,606 --> 00:14:46,639
 buyer strike that is
  
 
-1632
+1633
 00:14:46,639 --> 00:14:47,928
 buyer strike that is
 constantly predicted
 
-1633
+1634
 00:14:47,928 --> 00:14:47,961
 constantly predicted
  
 
-1634
+1635
 00:14:47,961 --> 00:14:49,256
 constantly predicted
 on the Internet.  Official
 
-1635
+1636
 00:14:49,256 --> 00:14:49,285
 on the Internet.  Official
  
 
-1636
+1637
 00:14:49,285 --> 00:14:50,308
 on the Internet.  Official
 reserve managers
 
-1637
+1638
 00:14:50,308 --> 00:14:50,337
 reserve managers
  
 
-1638
+1639
 00:14:50,337 --> 00:14:51,243
 reserve managers
 sometimes reduce
 
-1639
+1640
 00:14:51,243 --> 00:14:51,272
 sometimes reduce
  
 
-1640
+1641
 00:14:51,272 --> 00:14:52,120
 sometimes reduce
 their holdings, but
 
-1641
+1642
 00:14:52,120 --> 00:14:52,149
 their holdings, but
  
 
-1642
+1643
 00:14:52,149 --> 00:14:53,113
 their holdings, but
 private foreign
 
-1643
+1644
 00:14:53,113 --> 00:14:53,142
 private foreign
  
 
-1644
+1645
 00:14:53,142 --> 00:14:54,282
 private foreign
 institutions continue to
 
-1645
+1646
 00:14:54,282 --> 00:14:54,311
 institutions continue to
  
 
-1646
+1647
 00:14:54,311 --> 00:14:55,334
 institutions continue to
 make extremely
 
-1647
+1648
 00:14:55,334 --> 00:14:55,363
 make extremely
  
 
-1648
+1649
 00:14:55,363 --> 00:14:56,328
 make extremely
 active purchases of
 
-1649
+1650
 00:14:56,328 --> 00:14:56,357
 active purchases of
  
 
-1650
+1651
 00:14:56,357 --> 00:14:57,117
 active purchases of
 
-1651
+1652
 00:14:57,117 --> 00:14:57,146
 
  
 
-1652
+1653
 00:14:57,146 --> 00:14:57,906
  
 U.S. Treasury bonds.
 
-1653
+1654
 00:14:57,906 --> 00:14:58,006
 U.S. Treasury bonds.
  
 
-1654
+1655
 00:14:58,006 --> 00:14:58,859
 U.S. Treasury bonds.
 Total
 
-1655
+1656
 00:14:58,859 --> 00:14:58,889
 Total
  
 
-1656
+1657
 00:14:58,889 --> 00:14:59,418
 Total
 foreign
 
-1657
+1658
 00:14:59,418 --> 00:14:59,448
 foreign
  
 
-1658
+1659
 00:14:59,448 --> 00:15:00,213
 foreign
 treasury
 
-1659
+1660
 00:15:00,213 --> 00:15:00,243
 treasury
  
 
-1660
+1661
 00:15:00,243 --> 00:15:00,773
 treasury
 holdings
 
-1661
+1662
 00:15:00,773 --> 00:15:00,802
 holdings
  
 
-1662
+1663
 00:15:00,802 --> 00:15:01,597
 holdings
 remain at
 
-1663
+1664
 00:15:01,597 --> 00:15:01,626
 remain at
  
 
-1664
+1665
 00:15:01,626 --> 00:15:02,657
 remain at
 record levels, and
 
-1665
+1666
 00:15:02,657 --> 00:15:02,686
 record levels, and
  
 
-1666
+1667
 00:15:02,686 --> 00:15:03,598
 record levels, and
 the Bank for International
 
-1667
+1668
 00:15:03,598 --> 00:15:03,628
 the Bank for International
  
 
-1668
+1669
 00:15:03,628 --> 00:15:04,276
 the Bank for International
 Settlements
 
-1669
+1670
 00:15:04,276 --> 00:15:04,305
 Settlements
  
 
-1670
+1671
 00:15:04,305 --> 00:15:05,218
 Settlements
 tells a similar
 
-1671
+1672
 00:15:05,218 --> 00:15:05,247
 tells a similar
  
 
-1672
+1673
 00:15:05,247 --> 00:15:06,746
 tells a similar
 story.  The latest
 
-1673
+1674
 00:15:06,746 --> 00:15:06,780
 story.  The latest
  
 
-1674
+1675
 00:15:06,780 --> 00:15:08,054
 story.  The latest
 available BIS data for
 
-1675
+1676
 00:15:08,054 --> 00:15:08,089
 available BIS data for
  
 
-1676
+1677
 00:15:08,089 --> 00:15:08,984
 available BIS data for
 the end of 2025
 
-1677
+1678
 00:15:08,984 --> 00:15:09,018
 the end of 2025
  
 
-1678
+1679
 00:15:09,018 --> 00:15:10,017
 the end of 2025
 shows some
 
-1679
+1680
 00:15:10,017 --> 00:15:10,052
 shows some
  
 
-1680
+1681
 00:15:10,052 --> 00:15:11,326
 shows some
 reduction in currency
 
-1681
+1682
 00:15:11,326 --> 00:15:11,360
 reduction in currency
  
 
-1682
+1683
 00:15:11,360 --> 00:15:12,187
 reduction in currency
 denominations,
 
-1683
+1684
 00:15:12,187 --> 00:15:12,221
 denominations,
  
 
-1684
+1685
 00:15:12,221 --> 00:15:13,151
 denominations,
 consistent with the
 
-1685
+1686
 00:15:13,151 --> 00:15:13,185
 consistent with the
  
 
-1686
+1687
 00:15:13,185 --> 00:15:13,943
 consistent with the
 tighter
 
-1687
+1688
 00:15:13,943 --> 00:15:13,977
 tighter
  
 
-1688
+1689
 00:15:13,977 --> 00:15:15,286
 tighter
 financial conditions
 
-1689
+1690
 00:15:15,286 --> 00:15:15,320
 financial conditions
  
 
-1690
+1691
 00:15:15,320 --> 00:15:16,560
 financial conditions
 we discussed,
 
-1691
+1692
 00:15:16,560 --> 00:15:16,595
 we discussed,
  
 
-1692
+1693
 00:15:16,595 --> 00:15:17,800
 we discussed,
 but the share of the dollar in
 
-1693
+1694
 00:15:17,800 --> 00:15:17,834
 but the share of the dollar in
  
 
-1694
+1695
 00:15:17,834 --> 00:15:19,109
 but the share of the dollar in
 currency contracts
 
-1695
+1696
 00:15:19,109 --> 00:15:19,143
 currency contracts
  
 
-1696
+1697
 00:15:19,143 --> 00:15:20,211
 currency contracts
 again remained
 
-1697
+1698
 00:15:20,211 --> 00:15:20,245
 again remained
  
 
-1698
+1699
 00:15:20,245 --> 00:15:21,554
 again remained
 unchanged or even
 
-1699
+1700
 00:15:21,554 --> 00:15:21,588
 unchanged or even
  
 
-1700
+1701
 00:15:21,588 --> 00:15:23,841
 unchanged or even
 increased slightly.  This is not
 
-1701
+1702
 00:15:23,841 --> 00:15:23,882
 increased slightly.  This is not
  
 
-1702
+1703
 00:15:23,882 --> 00:15:25,408
 increased slightly.  This is not
 dedollarization.  This is a
 
-1703
+1704
 00:15:25,408 --> 00:15:25,441
 dedollarization.  This is a
  
 
-1704
+1705
 00:15:25,441 --> 00:15:26,691
 dedollarization.  This is a
 dollar system under
 
-1705
+1706
 00:15:26,691 --> 00:15:26,724
 dollar system under
  
 
-1706
+1707
 00:15:26,724 --> 00:15:27,710
 dollar system under
 pressure, a dollar
 
-1707
+1708
 00:15:27,710 --> 00:15:27,743
 pressure, a dollar
  
 
-1708
+1709
 00:15:27,743 --> 00:15:28,763
 pressure, a dollar
 system that everyone
 
-1709
+1710
 00:15:28,763 --> 00:15:28,796
 system that everyone
  
 
-1710
+1711
 00:15:28,796 --> 00:15:29,520
 system that everyone
 continues
 
-1711
+1712
 00:15:29,520 --> 00:15:29,552
 continues
  
 
-1712
+1713
 00:15:29,552 --> 00:15:30,441
 continues
 to use.
 
-1713
+1714
 00:15:30,441 --> 00:15:30,541
 to use.
  
 
-1714
+1715
 00:15:30,541 --> 00:15:31,670
 to use.
 The Chinese yuan may
 
-1715
+1716
 00:15:31,670 --> 00:15:31,700
 The Chinese yuan may
  
 
-1716
+1717
 00:15:31,700 --> 00:15:32,680
 The Chinese yuan may
 strengthen against
 
-1717
+1718
 00:15:32,680 --> 00:15:32,710
 strengthen against
  
 
-1718
+1719
 00:15:32,710 --> 00:15:33,661
 strengthen against
 other currencies, such as the
 
-1719
+1720
 00:15:33,661 --> 00:15:33,691
 other currencies, such as the
  
 
-1720
+1721
 00:15:33,691 --> 00:15:34,375
 other currencies, such as the
 euro, but it
 
-1721
+1722
 00:15:34,375 --> 00:15:35,326
 euro, but it
  
 
-1722
+1723
 00:15:35,326 --> 00:15:35,355
 
  
 
-1723
+1724
 00:15:35,355 --> 00:15:36,366
  
 only strengthens against the euro to
 
-1724
+1725
 00:15:36,366 --> 00:15:36,396
 only strengthens against the euro to
  
 
-1725
+1726
 00:15:36,396 --> 00:15:37,436
 only strengthens against the euro to
 be the currency on the
 
-1726
+1727
 00:15:37,436 --> 00:15:37,466
 be the currency on the
  
 
-1727
+1728
 00:15:37,466 --> 00:15:38,090
 be the currency on the
 other side of a
 
-1728
+1729
 00:15:38,090 --> 00:15:38,120
 other side of a
  
 
-1729
+1730
 00:15:38,120 --> 00:15:39,279
 other side of a
 dollar transaction
 
-1730
+1731
 00:15:39,279 --> 00:15:40,308
 dollar transaction
 .  Recent history
 
-1731
+1732
 00:15:40,308 --> 00:15:40,339
 .  Recent history
  
 
-1732
+1733
 00:15:40,339 --> 00:15:40,866
 .  Recent history
 makes these
 
-1733
+1734
 00:15:40,866 --> 00:15:40,897
 makes these
  
 
-1734
+1735
 00:15:40,897 --> 00:15:41,734
 makes these
 differences even
 
-1735
+1736
 00:15:41,734 --> 00:15:41,765
 differences even
  
 
-1736
+1737
 00:15:41,765 --> 00:15:43,073
 differences even
 clearer.  For example,
 
-1737
+1738
 00:15:43,073 --> 00:15:43,105
 clearer.  For example,
  
 
-1738
+1739
 00:15:43,105 --> 00:15:44,377
 clearer.  For example,
 from 2014 to 2016, during the
 
-1739
+1740
 00:15:44,377 --> 00:15:44,409
 from 2014 to 2016, during the
  
 
-1740
+1741
 00:15:44,409 --> 00:15:45,648
 from 2014 to 2016, during the
 so-called third
 
-1741
+1742
 00:15:45,648 --> 00:15:45,681
 so-called third
  
 
-1742
+1743
 00:15:45,681 --> 00:15:46,952
 so-called third
 Eurodollar cycle
 
-1743
+1744
 00:15:46,952 --> 00:15:47,930
 Eurodollar cycle
 , China and Japan
 
-1744
+1745
 00:15:47,930 --> 00:15:47,963
 , China and Japan
  
 
-1745
+1746
 00:15:47,963 --> 00:15:49,202
 , China and Japan
 together reduced their
 
-1746
+1747
 00:15:49,202 --> 00:15:49,234
 together reduced their
  
 
-1747
+1748
 00:15:49,234 --> 00:15:50,245
 together reduced their
 combined
 
-1748
+1749
 00:15:50,245 --> 00:15:50,277
 combined
  
 
-1749
+1750
 00:15:50,277 --> 00:15:51,125
 combined
 Treasury
 
-1750
+1751
 00:15:51,125 --> 00:15:51,157
 Treasury
  
 
-1751
+1752
 00:15:51,157 --> 00:15:52,396
 Treasury
 bond portfolios by more than $350
 
-1752
+1753
 00:15:52,396 --> 00:15:52,429
 bond portfolios by more than $350
  
 
-1753
+1754
 00:15:52,429 --> 00:15:53,602
 bond portfolios by more than $350
 billion as
 
-1754
+1755
 00:15:53,602 --> 00:15:53,635
 billion as
  
 
-1755
+1756
 00:15:53,635 --> 00:15:54,874
 billion as
 global conditions for the
 
-1756
+1757
 00:15:54,874 --> 00:15:54,906
 global conditions for the
  
 
-1757
+1758
 00:15:54,906 --> 00:15:55,656
 global conditions for the
 dollar
 
-1758
+1759
 00:15:55,656 --> 00:15:55,689
 dollar
  
 
-1759
+1760
 00:15:55,689 --> 00:15:56,846
 dollar
 tightened.  If this
 
-1760
+1761
 00:15:56,846 --> 00:15:56,869
 tightened.  If this
  
 
-1761
+1762
 00:15:56,869 --> 00:15:57,767
 tightened.  If this
 were a strike by foreign
 
-1762
+1763
 00:15:57,767 --> 00:15:57,791
 were a strike by foreign
  
 
-1763
+1764
 00:15:57,791 --> 00:15:58,311
 were a strike by foreign
 buyers, as
 
-1764
+1765
 00:15:58,311 --> 00:15:58,335
 buyers, as
  
 
-1765
+1766
 00:15:58,335 --> 00:15:59,209
 buyers, as
 many claimed
 
-1766
+1767
 00:15:59,209 --> 00:15:59,233
 many claimed
  
 
-1767
+1768
 00:15:59,233 --> 00:15:59,847
 many claimed
 at the time,
 
-1768
+1769
 00:15:59,847 --> 00:15:59,871
 at the time,
  
 
-1769
+1770
 00:15:59,871 --> 00:16:00,485
 at the time,
 
-1770
+1771
 00:16:00,485 --> 00:16:00,509
 
  
 
-1771
+1772
 00:16:00,509 --> 00:16:01,123
 
 Treasury yields
 
-1772
+1773
 00:16:01,123 --> 00:16:01,147
 Treasury yields
  
 
-1773
+1774
 00:16:01,147 --> 00:16:01,856
 Treasury yields
 should have
 
-1774
+1775
 00:16:01,856 --> 00:16:01,879
 should have
  
 
-1775
+1776
 00:16:01,879 --> 00:16:02,447
 should have
 risen sharply.
 
-1776
+1777
 00:16:02,447 --> 00:16:02,547
 risen sharply.
  
 
-1777
+1778
 00:16:02,547 --> 00:16:03,248
 risen sharply.
 Instead, the
 
-1778
+1779
 00:16:03,248 --> 00:16:03,287
 Instead, the
  
 
-1779
+1780
 00:16:03,287 --> 00:16:04,456
 Instead, the
 yield on 10-
 
-1780
+1781
 00:16:04,456 --> 00:16:05,665
 yield on 10-
 year bonds
 
-1781
+1782
 00:16:05,665 --> 00:16:05,704
 year bonds
  
 
-1782
+1783
 00:16:05,704 --> 00:16:07,224
 year bonds
 fell from around 2.6% in
 
-1783
+1784
 00:16:07,224 --> 00:16:07,263
 fell from around 2.6% in
  
 
-1784
+1785
 00:16:07,263 --> 00:16:08,627
 fell from around 2.6% in
 mid-2014 to
 
-1785
+1786
 00:16:08,627 --> 00:16:08,666
 mid-2014 to
  
 
-1786
+1787
 00:16:08,666 --> 00:16:10,186
 mid-2014 to
 around 1.4% by July 2016
 
-1787
+1788
 00:16:10,186 --> 00:16:10,225
 around 1.4% by July 2016
  
 
-1788
+1789
 00:16:10,225 --> 00:16:11,487
 around 1.4% by July 2016
 .  The yield on 30-
 
-1789
+1790
 00:16:11,487 --> 00:16:12,383
 .  The yield on 30-
 year bonds has
 
-1790
+1791
 00:16:12,383 --> 00:16:12,411
 year bonds has
  
 
-1791
+1792
 00:16:12,411 --> 00:16:13,111
 year bonds has
 also
 
-1792
+1793
 00:16:13,111 --> 00:16:13,139
 also
  
 
-1793
+1794
 00:16:13,139 --> 00:16:14,183
 also
 fallen significantly.  Official
 
-1794
+1795
 00:16:14,183 --> 00:16:14,209
 fallen significantly.  Official
  
 
-1795
+1796
 00:16:14,209 --> 00:16:15,111
 fallen significantly.  Official
 institutions sold
 
-1796
+1797
 00:16:15,111 --> 00:16:15,136
 institutions sold
  
 
-1797
+1798
 00:16:15,136 --> 00:16:15,755
 institutions sold
 Treasury
 
-1798
+1799
 00:16:15,755 --> 00:16:15,781
 Treasury
  
 
-1799
+1800
 00:16:15,781 --> 00:16:16,451
 Treasury
 bonds to
 
-1800
+1801
 00:16:16,451 --> 00:16:16,476
 bonds to
  
 
-1801
+1802
 00:16:16,476 --> 00:16:17,481
 bonds to
 obtain dollars,
 
-1802
+1803
 00:16:17,481 --> 00:16:17,507
 obtain dollars,
  
 
-1803
+1804
 00:16:17,507 --> 00:16:18,486
 obtain dollars,
 while private institutions
 
-1804
+1805
 00:16:18,486 --> 00:16:18,512
 while private institutions
  
 
-1805
+1806
 00:16:18,512 --> 00:16:19,388
 while private institutions
 bought them for
 
-1806
+1807
 00:16:19,388 --> 00:16:19,414
 bought them for
  
 
-1807
+1808
 00:16:19,414 --> 00:16:20,393
 bought them for
 safety, liquidity,
 
-1808
+1809
 00:16:20,393 --> 00:16:20,419
 safety, liquidity,
  
 
-1809
+1810
 00:16:20,419 --> 00:16:21,381
 safety, liquidity,
 and collateral.  Both
 
-1810
+1811
 00:16:21,381 --> 00:16:21,410
 and collateral.  Both
  
 
-1811
+1812
 00:16:21,410 --> 00:16:22,509
 and collateral.  Both
 sides were reacting to the same
 
-1812
+1813
 00:16:22,509 --> 00:16:23,376
 sides were reacting to the same
  
 
-1813
+1814
 00:16:23,376 --> 00:16:23,405
 
  
 
-1814
+1815
 00:16:23,405 --> 00:16:24,431
  
 dollar shortage.  And
 
-1815
+1816
 00:16:24,431 --> 00:16:24,461
 dollar shortage.  And
  
 
-1816
+1817
 00:16:24,461 --> 00:16:25,109
 dollar shortage.  And
 today's
 
-1817
+1818
 00:16:25,109 --> 00:16:25,139
 today's
  
 
-1818
+1819
 00:16:25,139 --> 00:16:26,170
 today's
 intervention causes the same
 
-1819
+1820
 00:16:26,170 --> 00:16:26,200
 intervention causes the same
  
 
-1820
+1821
 00:16:26,200 --> 00:16:27,232
 intervention causes the same
 misunderstanding.
 
-1821
+1822
 00:16:27,232 --> 00:16:27,332
 misunderstanding.
  
 
-1822
+1823
 00:16:27,332 --> 00:16:27,939
 misunderstanding.
 The fact that Japan
 
-1823
+1824
 00:16:27,939 --> 00:16:27,965
 The fact that Japan
  
 
-1824
+1825
 00:16:27,965 --> 00:16:28,969
 The fact that Japan
 is liquidating or lending
 
-1825
+1826
 00:16:28,969 --> 00:16:28,995
 is liquidating or lending
  
 
-1826
+1827
 00:16:28,995 --> 00:16:29,999
 is liquidating or lending
 against dollar
 
-1827
+1828
 00:16:29,999 --> 00:16:30,025
 against dollar
  
 
-1828
+1829
 00:16:30,025 --> 00:16:31,029
 against dollar
 reserves does not prove
 
-1829
+1830
 00:16:31,029 --> 00:16:31,055
 reserves does not prove
  
 
-1830
+1831
 00:16:31,055 --> 00:16:31,689
 reserves does not prove
 that the dollar is
 
-1831
+1832
 00:16:31,689 --> 00:16:31,715
 that the dollar is
  
 
-1832
+1833
 00:16:31,715 --> 00:16:32,660
 that the dollar is
 being abandoned.  This
 
-1833
+1834
 00:16:32,660 --> 00:16:32,693
 being abandoned.  This
  
 
-1834
+1835
 00:16:32,693 --> 00:16:33,780
 being abandoned.  This
 proves that the dollar
 
-1835
+1836
 00:16:33,780 --> 00:16:33,813
 proves that the dollar
  
 
-1836
+1837
 00:16:33,813 --> 00:16:34,537
 proves that the dollar
 remains
 
-1837
+1838
 00:16:34,537 --> 00:16:34,570
 remains
  
 
-1838
+1839
 00:16:34,570 --> 00:16:35,818
 remains
 irreplaceable.  So what
 
-1839
+1840
 00:16:35,818 --> 00:16:35,850
 irreplaceable.  So what
  
 
-1840
+1841
 00:16:35,850 --> 00:16:37,120
 irreplaceable.  So what
 happens now that
 
-1841
+1842
 00:16:37,120 --> 00:16:37,153
 happens now that
  
 
-1842
+1843
 00:16:37,153 --> 00:16:38,391
 happens now that
 the yen has crossed the
 
-1843
+1844
 00:16:38,391 --> 00:16:38,423
 the yen has crossed the
  
 
-1844
+1845
 00:16:38,423 --> 00:16:39,660
 the yen has crossed the
 160 mark again?  Well, we
 
-1845
+1846
 00:16:39,660 --> 00:16:39,695
 160 mark again?  Well, we
  
 
-1846
+1847
 00:16:39,695 --> 00:16:41,019
 160 mark again?  Well, we
 know what will happen.    The
 
-1847
+1848
 00:16:41,019 --> 00:16:41,119
 know what will happen.    The
  
 
-1848
+1849
 00:16:41,119 --> 00:16:41,809
 know what will happen.    The
 Japanese government
 
-1849
+1850
 00:16:41,809 --> 00:16:41,835
 Japanese government
  
 
-1850
+1851
 00:16:41,835 --> 00:16:42,756
 Japanese government
 will issue even more
 
-1851
+1852
 00:16:42,756 --> 00:16:42,782
 will issue even more
  
 
-1852
+1853
 00:16:42,782 --> 00:16:43,627
 will issue even more
 verbal warnings
 
-1853
+1854
 00:16:43,627 --> 00:16:43,652
 verbal warnings
  
 
-1854
+1855
 00:16:43,652 --> 00:16:44,445
 verbal warnings
 about unilateral
 
-1855
+1856
 00:16:44,445 --> 00:16:44,471
 about unilateral
  
 
-1856
+1857
 00:16:44,471 --> 00:16:45,469
 about unilateral
 deals and speculators,
 
-1857
+1858
 00:16:45,469 --> 00:16:45,495
 deals and speculators,
  
 
-1858
+1859
 00:16:45,495 --> 00:16:46,262
 deals and speculators,
 and these are not at all the
 
-1859
+1860
 00:16:46,262 --> 00:16:46,288
 and these are not at all the
  
 
-1860
+1861
 00:16:46,288 --> 00:16:47,005
 and these are not at all the
 fundamental
 
-1861
+1862
 00:16:47,005 --> 00:16:47,030
 fundamental
  
 
-1862
+1863
 00:16:47,030 --> 00:16:47,721
 fundamental
 factors we
 
-1863
+1864
 00:16:47,721 --> 00:16:47,747
 factors we
  
 
-1864
+1865
 00:16:47,747 --> 00:16:49,095
 factors we
 see.  Maybe they
 
-1865
+1866
 00:16:49,095 --> 00:16:49,127
 see.  Maybe they
  
 
-1866
+1867
 00:16:49,127 --> 00:16:50,153
 see.  Maybe they
 will conduct another
 
-1867
+1868
 00:16:50,153 --> 00:16:50,185
 will conduct another
  
 
-1868
+1869
 00:16:50,185 --> 00:16:51,275
 will conduct another
 operation together with
 
-1869
+1870
 00:16:51,275 --> 00:16:51,307
 operation together with
  
 
-1870
+1871
 00:16:51,307 --> 00:16:52,172
 operation together with
 the Americans and
 
-1871
+1872
 00:16:52,172 --> 00:16:52,204
 the Americans and
  
 
-1872
+1873
 00:16:52,204 --> 00:16:53,327
 the Americans and
 make the Japanese
 
-1873
+1874
 00:16:53,327 --> 00:16:53,359
 make the Japanese
  
 
-1874
+1875
 00:16:53,359 --> 00:16:54,513
 make the Japanese
 chart, the yen chart,
 
-1875
+1876
 00:16:54,513 --> 00:16:54,545
 chart, the yen chart,
  
 
-1876
+1877
 00:16:54,545 --> 00:16:55,635
 chart, the yen chart,
 more volatile,
 
-1877
+1878
 00:16:55,635 --> 00:16:55,667
 more volatile,
  
 
-1878
+1879
 00:16:55,667 --> 00:16:56,340
 more volatile,
 but in the end
 
-1879
+1880
 00:16:56,340 --> 00:16:56,372
 but in the end
  
 
-1880
+1881
 00:16:56,372 --> 00:16:57,622
 but in the end
 the trend will remain
 
-1881
+1882
 00:16:57,622 --> 00:16:57,654
 the trend will remain
  
 
-1882
+1883
 00:16:57,654 --> 00:16:58,712
 the trend will remain
 the same because
 
-1883
+1884
 00:16:58,712 --> 00:16:58,744
 the same because
  
 
-1884
+1885
 00:16:58,744 --> 00:16:59,642
 the same because
 fundamentally
 
-1885
+1886
 00:16:59,642 --> 00:16:59,674
 fundamentally
  
 
-1886
+1887
 00:16:59,674 --> 00:17:00,828
 fundamentally
 nothing has changed
 
-1887
+1888
 00:17:00,828 --> 00:17:00,860
 nothing has changed
  
 
-1888
+1889
 00:17:00,860 --> 00:17:02,046
 nothing has changed
 for Japan, for the
 
-1889
+1890
 00:17:02,046 --> 00:17:02,078
 for Japan, for the
  
 
-1890
+1891
 00:17:02,078 --> 00:17:02,751
 for Japan, for the
 yen, or for the
 
-1891
+1892
 00:17:02,751 --> 00:17:02,784
 yen, or for the
  
 
-1892
+1893
 00:17:02,784 --> 00:17:03,874
 yen, or for the
 dollar system.
 
-1893
+1894
 00:17:03,874 --> 00:17:05,592
 dollar system.
  
 
-1894
+1895
 00:17:05,592 --> 00:17:06,773
  
 The important question is not
 
-1895
+1896
 00:17:06,773 --> 00:17:06,805
 The important question is not
  
 
-1896
+1897
 00:17:06,805 --> 00:17:07,891
 The important question is not
 whether the government can
 
-1897
+1898
 00:17:07,891 --> 00:17:07,923
 whether the government can
  
 
-1898
+1899
 00:17:07,923 --> 00:17:09,008
 whether the government can
 change the exchange rate
 
-1899
+1900
 00:17:09,008 --> 00:17:09,040
 change the exchange rate
  
 
-1900
+1901
 00:17:09,040 --> 00:17:10,397
 change the exchange rate
 tomorrow afternoon.  And
 
-1901
+1902
 00:17:10,397 --> 00:17:11,574
 tomorrow afternoon.  And
 whether this movement will hold up
 
-1902
+1903
 00:17:11,574 --> 00:17:11,607
 whether this movement will hold up
  
 
-1903
+1904
 00:17:11,607 --> 00:17:12,490
 whether this movement will hold up
 next
 
-1904
+1905
 00:17:12,490 --> 00:17:12,522
 next
  
 
-1905
+1906
 00:17:12,522 --> 00:17:14,666
 next
 month and beyond.  So far,
 
-1906
+1907
 00:17:14,666 --> 00:17:14,698
 month and beyond.  So far,
  
 
-1907
+1908
 00:17:14,698 --> 00:17:15,827
 month and beyond.  So far,
 the answer has been consistently
 
-1908
+1909
 00:17:15,827 --> 00:17:15,859
 the answer has been consistently
  
 
-1909
+1910
 00:17:15,859 --> 00:17:17,796
 the answer has been consistently
 negative.
 
-1910
+1911
 00:17:17,796 --> 00:17:17,830
 negative.
  
 
-1911
+1912
 00:17:17,830 --> 00:17:19,156
 negative.
 Japan's strategy has become a
 
-1912
+1913
 00:17:19,156 --> 00:17:19,190
 Japan's strategy has become a
  
 
-1913
+1914
 00:17:19,190 --> 00:17:20,493
 Japan's strategy has become a
 cycle.  The yen falls to
 
-1914
+1915
 00:17:20,493 --> 00:17:20,523
 cycle.  The yen falls to
  
 
-1915
+1916
 00:17:20,523 --> 00:17:21,219
 cycle.  The yen falls to
 160, officials
 
-1916
+1917
 00:17:21,219 --> 00:17:21,249
 160, officials
  
 
-1917
+1918
 00:17:21,249 --> 00:17:21,976
 160, officials
 blame
 
-1918
+1919
 00:17:21,976 --> 00:17:22,006
 blame
  
 
-1919
+1920
 00:17:22,006 --> 00:17:22,914
 blame
 speculation, the government
 
-1920
+1921
 00:17:22,914 --> 00:17:22,944
 speculation, the government
  
 
-1921
+1922
 00:17:22,944 --> 00:17:23,882
 speculation, the government
 spends tens of
 
-1922
+1923
 00:17:23,882 --> 00:17:23,912
 spends tens of
  
 
-1923
+1924
 00:17:23,912 --> 00:17:25,062
 spends tens of
 billions buying
 
-1924
+1925
 00:17:25,062 --> 00:17:25,093
 billions buying
  
 
-1925
+1926
 00:17:25,093 --> 00:17:25,880
 billions buying
 yen, credit
 
-1926
+1927
 00:17:25,880 --> 00:17:25,910
 yen, credit
  
 
-1927
+1928
 00:17:25,910 --> 00:17:27,029
 yen, credit
 traders exit, and the
 
-1928
+1929
 00:17:27,029 --> 00:17:27,060
 traders exit, and the
  
 
-1929
+1930
 00:17:27,060 --> 00:17:27,816
 traders exit, and the
 yen plays back
 
-1930
+1931
 00:17:27,816 --> 00:17:27,847
 yen plays back
  
 
-1931
+1932
 00:17:27,847 --> 00:17:29,128
 yen plays back
 ground.  Structural
 
-1932
+1933
 00:17:29,128 --> 00:17:29,161
 ground.  Structural
  
 
-1933
+1934
 00:17:29,161 --> 00:17:30,087
 ground.  Structural
 demand for dollars
 
-1934
+1935
 00:17:30,087 --> 00:17:30,120
 demand for dollars
  
 
-1935
+1936
 00:17:30,120 --> 00:17:31,304
 demand for dollars
 remains.  The yen
 
-1936
+1937
 00:17:31,304 --> 00:17:31,344
 remains.  The yen
  
 
-1937
+1938
 00:17:31,344 --> 00:17:32,515
 remains.  The yen
 is back to the
 
-1938
+1939
 00:17:32,515 --> 00:17:32,555
 is back to the
  
 
-1939
+1940
 00:17:32,555 --> 00:17:33,770
 is back to the
 160 mark. Each
 
-1940
+1941
 00:17:33,770 --> 00:17:33,797
 160 mark. Each
  
 
-1941
+1942
 00:17:33,797 --> 00:17:34,516
 160 mark. Each
 round requires
 
-1942
+1943
 00:17:34,516 --> 00:17:34,543
 round requires
  
 
-1943
+1944
 00:17:34,543 --> 00:17:35,236
 round requires
 more money,
 
-1944
+1945
 00:17:35,236 --> 00:17:35,263
 more money,
  
 
-1945
+1946
 00:17:35,263 --> 00:17:36,169
 more money,
 more spectacle,
 
-1946
+1947
 00:17:36,169 --> 00:17:36,195
 more spectacle,
  
 
-1947
+1948
 00:17:36,195 --> 00:17:36,835
 more spectacle,
 because the markets
 
-1948
+1949
 00:17:36,835 --> 00:17:36,862
 because the markets
  
 
-1949
+1950
 00:17:36,862 --> 00:17:37,501
 because the markets
 have realized that
 
-1950
+1951
 00:17:37,501 --> 00:17:37,528
 have realized that
  
 
-1951
+1952
 00:17:37,528 --> 00:17:38,514
 have realized that
 previous interventions
 
-1952
+1953
 00:17:38,514 --> 00:17:38,541
 previous interventions
  
 
-1953
+1954
 00:17:38,541 --> 00:17:38,994
 previous interventions
 were only
 
-1954
+1955
 00:17:38,994 --> 00:17:39,021
 were only
  
 
-1955
+1956
 00:17:39,021 --> 00:17:40,169
 were only
 temporary.  The almost 100
 
-1956
+1957
 00:17:40,169 --> 00:17:40,200
 temporary.  The almost 100
  
 
-1957
+1958
 00:17:40,200 --> 00:17:40,791
 temporary.  The almost 100
 billion
 
-1958
+1959
 00:17:40,791 --> 00:17:40,823
 billion
  
 
-1959
+1960
 00:17:40,823 --> 00:17:41,974
 billion
 spent over the
 
-1960
+1961
 00:17:41,974 --> 00:17:42,005
 spent over the
  
 
-1961
+1962
 00:17:42,005 --> 00:17:43,218
 spent over the
 last month has not
 
-1962
+1963
 00:17:43,218 --> 00:17:43,250
 last month has not
  
 
-1963
+1964
 00:17:43,250 --> 00:17:44,503
 last month has not
 added confidence.  Their
 
-1964
+1965
 00:17:44,503 --> 00:17:44,538
 added confidence.  Their
  
 
-1965
+1966
 00:17:44,538 --> 00:17:45,503
 added confidence.  Their
 rapid failure
 
-1966
+1967
 00:17:45,503 --> 00:17:45,538
 rapid failure
  
 
-1967
+1968
 00:17:45,538 --> 00:17:46,710
 rapid failure
 may
 
-1968
+1969
 00:17:46,710 --> 00:17:46,745
 may
  
 
-1969
+1970
 00:17:46,745 --> 00:17:48,534
 may
 have actually done the opposite.  Which
 
-1970
+1971
 00:17:48,534 --> 00:17:48,576
 have actually done the opposite.  Which
  
 
-1971
+1972
 00:17:48,576 --> 00:17:50,008
 have actually done the opposite.  Which
 brings us back to the story of the
 
-1972
+1973
 00:17:50,008 --> 00:17:50,050
 brings us back to the story of the
  
 
-1973
+1974
 00:17:50,050 --> 00:17:51,440
 brings us back to the story of the
 yen versus the dollar and the
 
-1974
+1975
 00:17:51,440 --> 00:17:51,482
 yen versus the dollar and the
  
 
-1975
+1976
 00:17:51,482 --> 00:17:52,914
 yen versus the dollar and the
 DXY index below 100.
 
-1976
+1977
 00:17:52,914 --> 00:17:53,432
 DXY index below 100.
  
 
-1977
+1978
 00:17:53,432 --> 00:17:54,827
 DXY index below 100.
 The issue is not Japan, not the
 
-1978
+1979
 00:17:54,827 --> 00:17:54,863
 The issue is not Japan, not the
  
 
-1979
+1980
 00:17:54,863 --> 00:17:55,829
 The issue is not Japan, not the
 DXY and the euro, but the
 
-1980
+1981
 00:17:55,829 --> 00:17:55,865
 DXY and the euro, but the
  
 
-1981
+1982
 00:17:55,865 --> 00:17:56,653
 DXY and the euro, but the
 system that
 
-1982
+1983
 00:17:56,653 --> 00:17:56,688
 system that
  
 
-1983
+1984
 00:17:56,688 --> 00:17:57,977
 system that
 continues to exist
 
-1984
+1985
 00:17:57,977 --> 00:17:58,013
 continues to exist
  
 
-1985
+1986
 00:17:58,013 --> 00:17:59,301
 continues to exist
 despite the fact that
 
-1986
+1987
 00:17:59,301 --> 00:17:59,337
 despite the fact that
  
 
-1987
+1988
 00:17:59,337 --> 00:18:00,518
 despite the fact that
 dedollarization has
 
-1988
+1989
 00:18:00,518 --> 00:18:00,554
 dedollarization has
  
 
-1989
+1990
 00:18:00,554 --> 00:18:01,806
 dedollarization has
 been talked about longer than
 
-1990
+1991
 00:18:01,806 --> 00:18:01,842
 been talked about longer than
  
 
-1991
+1992
 00:18:01,842 --> 00:18:02,880
 been talked about longer than
 most people
 
-1992
+1993
 00:18:02,880 --> 00:18:02,916
 most people
  
 
-1993
+1994
 00:18:02,916 --> 00:18:04,025
 most people
 have been watching YouTube and
 
-1994
+1995
 00:18:04,025 --> 00:18:04,061
 have been watching YouTube and
  
 
-1995
+1996
 00:18:04,061 --> 00:18:05,207
 have been watching YouTube and
 social media.    A
 
-1996
+1997
 00:18:05,207 --> 00:18:06,068
 social media.    A
  
 
-1997
+1998
 00:18:06,068 --> 00:18:07,229
 social media.    A
 rebound in the euro could
 
-1998
+1999
 00:18:07,229 --> 00:18:07,265
 rebound in the euro could
  
 
-1999
+2000
 00:18:07,265 --> 00:18:08,645
 rebound in the euro could
 push the DXY below 100,
 
-2000
+2001
 00:18:08,645 --> 00:18:08,681
 push the DXY below 100,
  
 
-2001
+2002
 00:18:08,681 --> 00:18:09,951
 push the DXY below 100,
 and it might look
 
-2002
+2003
 00:18:09,951 --> 00:18:09,987
 and it might look
  
 
-2003
+2004
 00:18:09,987 --> 00:18:11,258
 and it might look
 like a weaker dollar on
 
-2004
+2005
 00:18:11,258 --> 00:18:11,294
 like a weaker dollar on
  
 
-2005
+2006
 00:18:11,294 --> 00:18:12,637
 like a weaker dollar on
 TV or Twitter,
 
-2006
+2007
 00:18:12,637 --> 00:18:12,673
 TV or Twitter,
  
 
-2007
+2008
 00:18:12,673 --> 00:18:14,089
 TV or Twitter,
 but Japan, the Philippines
 
-2008
+2009
 00:18:14,089 --> 00:18:14,924
 but Japan, the Philippines
 , India—they
 
-2009
+2010
 00:18:14,924 --> 00:18:14,960
 , India—they
  
 
-2010
+2011
 00:18:14,960 --> 00:18:15,940
 , India—they
 are revealing a different
 
-2011
+2012
 00:18:15,940 --> 00:18:15,976
 are revealing a different
  
 
-2012
+2013
 00:18:15,976 --> 00:18:16,997
 are revealing a different
 reality.  For
 
-2013
+2014
 00:18:16,997 --> 00:18:17,023
 reality.  For
  
 
-2014
+2015
 00:18:17,023 --> 00:18:17,551
 reality.  For
 
-2015
+2016
 00:18:17,551 --> 00:18:17,577
 
  
 
-2016
+2017
 00:18:17,577 --> 00:18:18,237
  
 energy importers,
 
-2017
+2018
 00:18:18,237 --> 00:18:19,028
 energy importers,
  
 
-2018
+2019
 00:18:19,028 --> 00:18:19,054
 
  
 
-2019
+2020
 00:18:19,054 --> 00:18:19,978
  
 dollar borrowers, and institutions
 
-2020
+2021
 00:18:19,978 --> 00:18:20,004
 dollar borrowers, and institutions
  
 
-2021
+2022
 00:18:20,004 --> 00:18:20,743
 dollar borrowers, and institutions
 dependent on
 
-2022
+2023
 00:18:20,743 --> 00:18:20,769
 dependent on
  
 
-2023
+2024
 00:18:20,769 --> 00:18:21,693
 dependent on
 offshore dollar
 
-2024
+2025
 00:18:21,693 --> 00:18:21,719
 offshore dollar
  
 
-2025
+2026
 00:18:21,719 --> 00:18:22,695
 offshore dollar
-markets, the Eurodollar
-
-2026
-00:18:22,695 --> 00:18:22,721
-markets, the Eurodollar
- 
+markets,
 
 2027
-00:18:22,721 --> 00:18:23,645
-markets, the Eurodollar
-currency remains
-
-2028
-00:18:23,645 --> 00:18:23,671
-currency remains
+00:18:22,695 --> 00:18:22,721
+markets,
  
 
+2028
+00:18:22,721 --> 00:18:23,645
+markets,
+Eurodollars remain
+
 2029
-00:18:23,671 --> 00:18:24,782
-currency remains
-painfully strong.  Such
+00:18:23,645 --> 00:18:23,671
+Eurodollars remain
+ 
 
 2030
+00:18:23,671 --> 00:18:24,782
+Eurodollars remain
+painfully strong.  Such
+
+2031
 00:18:24,782 --> 00:18:24,810
 painfully strong.  Such
  
 
-2031
+2032
 00:18:24,810 --> 00:18:25,523
 painfully strong.  Such
 dollar strength
 
-2032
+2033
 00:18:25,523 --> 00:18:25,551
 dollar strength
  
 
-2033
+2034
 00:18:25,551 --> 00:18:26,621
 dollar strength
 is not necessarily a vote of
 
-2034
+2035
 00:18:26,621 --> 00:18:26,649
 is not necessarily a vote of
  
 
-2035
+2036
 00:18:26,649 --> 00:18:27,115
 is not necessarily a vote of
 confidence in the
 
-2036
+2037
 00:18:27,115 --> 00:18:27,143
 confidence in the
  
 
-2037
+2038
 00:18:27,143 --> 00:18:27,857
 confidence in the
 American
 
-2038
+2039
 00:18:27,857 --> 00:18:27,884
 American
  
 
-2039
+2040
 00:18:27,884 --> 00:18:28,817
 American
 economy or the
 
-2040
+2041
 00:18:28,817 --> 00:18:28,845
 economy or the
  
 
-2041
+2042
 00:18:28,845 --> 00:18:29,976
 economy or the
 system itself.  This could be a
 
-2042
+2043
 00:18:29,976 --> 00:18:30,004
 system itself.  This could be a
  
 
-2043
+2044
 00:18:30,004 --> 00:18:30,652
 system itself.  This could be a
 signal of
 
-2044
+2045
 00:18:30,652 --> 00:18:30,680
 signal of
  
 
-2045
+2046
 00:18:30,680 --> 00:18:31,637
 signal of
 tension in this
 
-2046
+2047
 00:18:31,637 --> 00:18:31,665
 tension in this
  
 
-2047
+2048
 00:18:31,665 --> 00:18:32,710
 tension in this
 system.  As dollars
 
-2048
+2049
 00:18:32,710 --> 00:18:32,734
 system.  As dollars
  
 
-2049
+2050
 00:18:32,734 --> 00:18:33,654
 system.  As dollars
 become harder to come by,
 
-2050
+2051
 00:18:33,654 --> 00:18:33,679
 become harder to come by,
  
 
-2051
+2052
 00:18:33,679 --> 00:18:34,524
 become harder to come by,
 trade becomes more expensive,
 
-2052
+2053
 00:18:34,524 --> 00:18:34,549
 trade becomes more expensive,
  
 
-2053
+2054
 00:18:34,549 --> 00:18:35,196
 trade becomes more expensive,
 import prices
 
-2054
+2055
 00:18:35,196 --> 00:18:35,220
 import prices
  
 
-2055
+2056
 00:18:35,220 --> 00:18:35,693
 import prices
 rise,
 
-2056
+2057
 00:18:35,693 --> 00:18:35,718
 rise,
  
 
-2057
+2058
 00:18:35,718 --> 00:18:36,488
 rise,
 central banks
 
-2058
+2059
 00:18:36,488 --> 00:18:36,513
 central banks
  
 
-2059
+2060
 00:18:36,513 --> 00:18:37,333
 central banks
 raise rates
 
-2060
+2061
 00:18:37,333 --> 00:18:37,358
 raise rates
  
 
-2061
+2062
 00:18:37,358 --> 00:18:38,154
 raise rates
 to protect their
 
-2062
+2063
 00:18:38,154 --> 00:18:38,179
 to protect their
  
 
-2063
+2064
 00:18:38,179 --> 00:18:38,999
 to protect their
 currencies even as
 
-2064
+2065
 00:18:38,999 --> 00:18:39,024
 currencies even as
  
 
-2065
+2066
 00:18:39,024 --> 00:18:39,695
 currencies even as
 their economies
 
-2066
+2067
 00:18:39,695 --> 00:18:39,720
 their economies
  
 
-2067
+2068
 00:18:39,720 --> 00:18:40,615
 their economies
 weaken, companies
 
-2068
+2069
 00:18:40,615 --> 00:18:40,640
 weaken, companies
  
 
-2069
+2070
 00:18:40,640 --> 00:18:41,137
 weaken, companies
 cut back on
 
-2070
+2071
 00:18:41,137 --> 00:18:41,162
 cut back on
  
 
-2071
+2072
 00:18:41,162 --> 00:18:41,957
 cut back on
 investment, governments
 
-2072
+2073
 00:18:41,957 --> 00:18:41,982
 investment, governments
  
 
-2073
+2074
 00:18:41,982 --> 00:18:42,678
 investment, governments
 use up
 
-2074
+2075
 00:18:42,678 --> 00:18:42,703
 use up
  
 
-2075
+2076
 00:18:42,703 --> 00:18:43,623
 use up
 reserves, and financial
 
-2076
+2077
 00:18:43,623 --> 00:18:43,648
 reserves, and financial
  
 
-2077
+2078
 00:18:43,648 --> 00:18:44,518
 reserves, and financial
 institutions demand
 
-2078
+2079
 00:18:44,518 --> 00:18:44,543
 institutions demand
  
 
-2079
+2080
 00:18:44,543 --> 00:18:45,264
 institutions demand
 safer and more
 
-2080
+2081
 00:18:45,264 --> 00:18:45,289
 safer and more
  
 
-2081
+2082
 00:18:45,289 --> 00:18:45,885
 safer and more
 liquid
 
-2082
+2083
 00:18:45,885 --> 00:18:45,910
 liquid
  
 
-2083
+2084
 00:18:45,910 --> 00:18:46,953
 liquid
 collateral.  This is the
 
-2084
+2085
 00:18:46,953 --> 00:18:46,985
 collateral.  This is the
  
 
-2085
+2086
 00:18:46,985 --> 00:18:48,015
 collateral.  This is the
 pressure on Eurodollars
 
-2086
+2087
 00:18:48,015 --> 00:18:48,047
 pressure on Eurodollars
  
 
-2087
+2088
 00:18:48,047 --> 00:18:49,108
 pressure on Eurodollars
 that is manifesting itself
 
-2088
+2089
 00:18:49,108 --> 00:18:49,141
 that is manifesting itself
  
 
-2089
+2090
 00:18:49,141 --> 00:18:50,267
 that is manifesting itself
 now.  And despite years of
 
-2090
+2091
 00:18:50,267 --> 00:18:50,297
 now.  And despite years of
  
 
-2091
+2092
 00:18:50,297 --> 00:18:51,459
 now.  And despite years of
 confident predictions,
 
-2092
+2093
 00:18:51,459 --> 00:18:51,489
 confident predictions,
  
 
-2093
+2094
 00:18:51,489 --> 00:18:52,345
 confident predictions,
 the world has not created a
 
-2094
+2095
 00:18:52,345 --> 00:18:52,375
 the world has not created a
  
 
-2095
+2096
 00:18:52,375 --> 00:18:52,987
 the world has not created a
 true
 
-2096
+2097
 00:18:52,987 --> 00:18:53,017
 true
  
 
-2097
+2098
 00:18:53,017 --> 00:18:53,750
 true
 alternative to
 
-2098
+2099
 00:18:53,750 --> 00:18:53,781
 alternative to
  
 
-2099
+2100
 00:18:53,781 --> 00:18:54,942
 alternative to
 the banking system,
 
-2100
+2101
 00:18:54,942 --> 00:18:54,973
 the banking system,
  
 
-2101
+2102
 00:18:54,973 --> 00:18:55,859
 the banking system,
 collateral, and
 
-2102
+2103
 00:18:55,859 --> 00:18:56,990
 collateral, and
  
 
-2103
+2104
 00:18:56,990 --> 00:18:57,020
 
  
 
-2104
+2105
 00:18:57,020 --> 00:18:58,763
  
 dollar-based settlements.  BIS and TIC data
 
-2105
+2106
 00:18:58,763 --> 00:18:58,805
 dollar-based settlements.  BIS and TIC data
  
 
-2106
+2107
 00:18:58,805 --> 00:19:00,232
 dollar-based settlements.  BIS and TIC data
 do not indicate dedollarization at all
 
-2107
+2108
 00:19:00,232 --> 00:19:00,274
 do not indicate dedollarization at all
  
 
-2108
+2109
 00:19:00,274 --> 00:19:01,701
 do not indicate dedollarization at all
 .
 
-2109
+2110
 00:19:01,701 --> 00:19:01,801
 .
  
 
-2110
+2111
 00:19:01,801 --> 00:19:02,595
 .
 They show
 
-2111
+2112
 00:19:02,595 --> 00:19:02,625
 They show
  
 
-2112
+2113
 00:19:02,625 --> 00:19:03,272
 They show
 continued
 
-2113
+2114
 00:19:03,272 --> 00:19:03,302
 continued
  
 
-2114
+2115
 00:19:03,302 --> 00:19:04,450
 continued
 dependence on the same
 
-2115
+2116
 00:19:04,450 --> 00:19:04,479
 dependence on the same
  
 
-2116
+2117
 00:19:04,479 --> 00:19:05,450
 dependence on the same
 system at the very
 
-2117
+2118
 00:19:05,450 --> 00:19:05,480
 system at the very
  
 
-2118
+2119
 00:19:05,480 --> 00:19:06,333
 system at the very
 moment when that
 
-2119
+2120
 00:19:06,333 --> 00:19:06,363
 moment when that
  
 
-2120
+2121
 00:19:06,363 --> 00:19:07,364
 moment when that
 system becomes more difficult
 
-2121
+2122
 00:19:07,364 --> 00:19:07,393
 system becomes more difficult
  
 
-2122
+2123
 00:19:07,393 --> 00:19:08,364
 system becomes more difficult
 for
 
-2123
+2124
 00:19:08,364 --> 00:19:08,394
 for
  
 
-2124
+2125
 00:19:08,394 --> 00:19:09,454
 for
 vulnerable economies to function.
 
-2125
+2126
 00:19:09,454 --> 00:19:09,864
 vulnerable economies to function.
  
 
-2126
+2127
 00:19:09,864 --> 00:19:12,266
 vulnerable economies to function.
 Again.  So Japan
 
-2127
+2128
 00:19:12,266 --> 00:19:12,306
 Again.  So Japan
  
 
-2128
+2129
 00:19:12,306 --> 00:19:13,213
 Again.  So Japan
 spent 96.4
 
-2129
+2130
 00:19:13,213 --> 00:19:13,252
 spent 96.4
  
 
-2130
+2131
 00:19:13,252 --> 00:19:14,711
 spent 96.4
 billion in less than a
 
-2131
+2132
 00:19:14,711 --> 00:19:14,751
 billion in less than a
  
 
-2132
+2133
 00:19:14,751 --> 00:19:15,934
 billion in less than a
 month, received
 
-2133
+2134
 00:19:15,934 --> 00:19:15,973
 month, received
  
 
-2134
+2135
 00:19:15,973 --> 00:19:17,077
 month, received
 unprecedented
 
-2135
+2136
 00:19:17,077 --> 00:19:17,117
 unprecedented
  
 
-2136
+2137
 00:19:17,117 --> 00:19:18,418
 unprecedented
 aid from the US, and
 
-2137
+2138
 00:19:18,418 --> 00:19:18,458
 aid from the US, and
  
 
-2138
+2139
 00:19:18,458 --> 00:19:19,799
 aid from the US, and
 pushed the yen from
 
-2139
+2140
 00:19:19,799 --> 00:19:19,838
 pushed the yen from
  
 
-2140
+2141
 00:19:19,838 --> 00:19:21,394
 pushed the yen from
 almost 164 to 155. And now
 
-2141
+2142
 00:19:21,394 --> 00:19:21,433
 almost 164 to 155. And now
  
 
-2142
+2143
 00:19:21,433 --> 00:19:22,178
 almost 164 to 155. And now
 it's
 
-2143
+2144
 00:19:22,178 --> 00:19:22,217
 it's
  
 
-2144
+2145
 00:19:22,217 --> 00:19:23,471
 it's
 back down to 160.
 
-2145
+2146
 00:19:23,471 --> 00:19:23,571
 back down to 160.
  
 
-2146
+2147
 00:19:23,571 --> 00:19:24,713
 back down to 160.
 Add in previous
 
-2147
+2148
 00:19:24,713 --> 00:19:24,747
 Add in previous
  
 
-2148
+2149
 00:19:24,747 --> 00:19:26,098
 Add in previous
 interventions, and Japan
 
-2149
+2150
 00:19:26,098 --> 00:19:26,132
 interventions, and Japan
  
 
-2150
+2151
 00:19:26,132 --> 00:19:27,378
 interventions, and Japan
 has spent about 27
 
-2151
+2152
 00:19:27,378 --> 00:19:27,413
 has spent about 27
  
 
-2152
+2153
 00:19:27,413 --> 00:19:28,659
 has spent about 27
 trillion yen this
 
-2153
+2154
 00:19:28,659 --> 00:19:28,694
 trillion yen this
  
 
-2154
+2155
 00:19:28,694 --> 00:19:29,767
 trillion yen this
 year without changing the
 
-2155
+2156
 00:19:29,767 --> 00:19:30,944
 year without changing the
  
 
-2156
+2157
 00:19:30,944 --> 00:19:30,978
 
  
 
-2157
+2158
 00:19:30,978 --> 00:19:31,927
  
 currency's fundamental direction.  This is the
 
-2158
+2159
 00:19:31,927 --> 00:19:31,966
 currency's fundamental direction.  This is the
  
 
-2159
+2160
 00:19:31,966 --> 00:19:33,121
 currency's fundamental direction.  This is the
 pattern.
 
-2160
+2161
 00:19:33,121 --> 00:19:33,221
 pattern.
  
 
-2161
+2162
 00:19:33,221 --> 00:19:34,414
 pattern.
 Intervention changes
 
-2162
+2163
 00:19:34,414 --> 00:19:34,448
 Intervention changes
  
 
-2163
+2164
 00:19:34,448 --> 00:19:35,711
 Intervention changes
 the price only temporarily.
 
-2164
+2165
 00:19:35,711 --> 00:19:35,811
 the price only temporarily.
  
 
-2165
+2166
 00:19:35,811 --> 00:19:36,643
 the price only temporarily.
 It doesn't change the
 
-2166
+2167
 00:19:36,643 --> 00:19:36,675
 It doesn't change the
  
 
-2167
+2168
 00:19:36,675 --> 00:19:37,795
 It doesn't change the
 reason why people
 
-2168
+2169
 00:19:37,795 --> 00:19:37,827
 reason why people
  
 
-2169
+2170
 00:19:37,827 --> 00:19:38,787
 reason why people
 need dollars.    The
 
-2170
+2171
 00:19:38,787 --> 00:19:38,887
 need dollars.    The
  
 
-2171
+2172
 00:19:38,887 --> 00:19:40,402
 need dollars.    The
 DXY index below 100 does not
 
-2172
+2173
 00:19:40,402 --> 00:19:40,444
 DXY index below 100 does not
  
 
-2173
+2174
 00:19:40,444 --> 00:19:42,182
 DXY index below 100 does not
 contradict this.  He
 
-2174
+2175
 00:19:42,182 --> 00:19:42,224
 contradict this.  He
  
 
-2175
+2176
 00:19:42,224 --> 00:19:43,586
 contradict this.  He
 hides it.  The euro
 
-2176
+2177
 00:19:43,586 --> 00:19:43,617
 hides it.  The euro
  
 
-2177
+2178
 00:19:43,617 --> 00:19:44,797
 hides it.  The euro
 may be recovering,
 
-2178
+2179
 00:19:44,797 --> 00:19:44,828
 may be recovering,
  
 
-2179
+2180
 00:19:44,828 --> 00:19:45,604
 may be recovering,
 but the global
 
-2180
+2181
 00:19:45,604 --> 00:19:45,635
 but the global
  
 
-2181
+2182
 00:19:45,635 --> 00:19:46,598
 but the global
 dollar system
 
-2182
+2183
 00:19:46,598 --> 00:19:46,629
 dollar system
  
 
-2183
+2184
 00:19:46,629 --> 00:19:47,312
 dollar system
 remains
 
-2184
+2185
 00:19:47,312 --> 00:19:47,343
 remains
  
 
-2185
+2186
 00:19:47,343 --> 00:19:48,119
 remains
 dominant and
 
-2186
+2187
 00:19:48,119 --> 00:19:48,150
 dominant and
  
 
-2187
+2188
 00:19:48,150 --> 00:19:49,415
 dominant and
 tense.  BIS and
 
-2188
+2189
 00:19:49,415 --> 00:19:49,445
 tense.  BIS and
  
 
-2189
+2190
 00:19:49,445 --> 00:19:50,622
 tense.  BIS and
 TIC data show continued
 
-2190
+2191
 00:19:50,622 --> 00:19:50,652
 TIC data show continued
  
 
-2191
+2192
 00:19:50,652 --> 00:19:51,768
 TIC data show continued
 dollar use
 
-2192
+2193
 00:19:51,768 --> 00:19:51,798
 dollar use
  
 
-2193
+2194
 00:19:51,798 --> 00:19:52,945
 dollar use
 and high foreign
 
-2194
+2195
 00:19:52,945 --> 00:19:52,975
 and high foreign
  
 
-2195
+2196
 00:19:52,975 --> 00:19:53,940
 and high foreign
 demand for dollar
 
-2196
+2197
 00:19:53,940 --> 00:19:53,970
 demand for dollar
  
 
-2197
+2198
 00:19:53,970 --> 00:19:54,996
 demand for dollar
 assets, not the mass
 
-2198
+2199
 00:19:54,996 --> 00:19:55,026
 assets, not the mass
  
 
-2199
+2200
 00:19:55,026 --> 00:19:56,142
 assets, not the mass
 rejection promised by
 
-2200
+2201
 00:19:56,142 --> 00:19:56,172
 rejection promised by
  
 
-2201
+2202
 00:19:56,172 --> 00:19:56,836
 rejection promised by
 
-2202
+2203
 00:19:56,836 --> 00:19:56,866
 
  
 
-2203
+2204
 00:19:56,866 --> 00:19:57,801
  
 dedollarization advocates and
 
-2204
+2205
 00:19:57,801 --> 00:19:57,831
 dedollarization advocates and
  
 
-2205
+2206
 00:19:57,831 --> 00:19:59,053
 dedollarization advocates and
 their narratives.  Japan did
 
-2206
+2207
 00:19:59,053 --> 00:19:59,081
 their narratives.  Japan did
  
 
-2207
+2208
 00:19:59,081 --> 00:20:00,151
 their narratives.  Japan did
 not waste almost 100
 
-2208
+2209
 00:20:00,151 --> 00:20:00,179
 not waste almost 100
  
 
-2209
+2210
 00:20:00,179 --> 00:20:01,108
 not waste almost 100
 billion
 
-2210
+2211
 00:20:01,108 --> 00:20:01,136
 billion
  
 
-2211
+2212
 00:20:01,136 --> 00:20:02,234
 billion
 due to a lack of determination.
 
-2212
+2213
 00:20:02,234 --> 00:20:02,334
 due to a lack of determination.
  
 
-2213
+2214
 00:20:02,334 --> 00:20:03,400
 due to a lack of determination.
 It spent almost
 
-2214
+2215
 00:20:03,400 --> 00:20:03,428
 It spent almost
  
 
-2215
+2216
 00:20:03,428 --> 00:20:04,214
 It spent almost
 100 billion as
 
-2216
+2217
 00:20:04,214 --> 00:20:04,242
 100 billion as
  
 
-2217
+2218
 00:20:04,242 --> 00:20:05,225
 100 billion as
 it tried to overcome a
 
-2218
+2219
 00:20:05,225 --> 00:20:05,253
 it tried to overcome a
  
 
-2219
+2220
 00:20:05,253 --> 00:20:06,207
 it tried to overcome a
 financial system
 
-2220
+2221
 00:20:06,207 --> 00:20:06,235
 financial system
  
 
-2221
+2222
 00:20:06,235 --> 00:20:07,190
 financial system
 far larger than
 
-2222
+2223
 00:20:07,190 --> 00:20:07,218
 far larger than
  
 
-2223
+2224
 00:20:07,218 --> 00:20:08,172
 far larger than
 any government
 
-2224
+2225
 00:20:08,172 --> 00:20:08,200
 any government
  
 
-2225
+2226
 00:20:08,200 --> 00:20:09,653
 any government
 intervention department.  And
 
-2226
+2227
 00:20:09,653 --> 00:20:09,695
 intervention department.  And
  
 
-2227
+2228
 00:20:09,695 --> 00:20:10,707
 intervention department.  And
 now that the JPY
 
-2228
+2229
 00:20:10,707 --> 00:20:10,749
 now that the JPY
  
 
-2229
+2230
 00:20:10,749 --> 00:20:12,394
 now that the JPY
 has crossed the 160 mark
 
-2230
+2231
 00:20:12,394 --> 00:20:13,997
 has crossed the 160 mark
 , Tokyo will almost certainly
 
-2231
+2232
 00:20:13,997 --> 00:20:14,039
 , Tokyo will almost certainly
  
 
-2232
+2233
 00:20:14,039 --> 00:20:15,989
 , Tokyo will almost certainly
 intervene again.  But
 
-2233
+2234
 00:20:15,989 --> 00:20:16,020
 intervene again.  But
  
 
-2234
+2235
 00:20:16,020 --> 00:20:17,165
 intervene again.  But
 the question is not whether
 
-2235
+2236
 00:20:17,165 --> 00:20:17,196
 the question is not whether
  
 
-2236
+2237
 00:20:17,196 --> 00:20:18,373
 the question is not whether
 they can raise the
 
-2237
+2238
 00:20:18,373 --> 00:20:18,404
 they can raise the
  
 
-2238
+2239
 00:20:18,404 --> 00:20:19,394
 they can raise the
 yen, but
 
-2239
+2240
 00:20:19,394 --> 00:20:19,425
 yen, but
  
 
-2240
+2241
 00:20:19,425 --> 00:20:20,601
 yen, but
 how many billions they will have to
 
-2241
+2242
 00:20:20,601 --> 00:20:20,632
 how many billions they will have to
  
 
-2242
+2243
 00:20:20,632 --> 00:20:21,839
 how many billions they will have to
 spend
 
-2243
+2244
 00:20:21,839 --> 00:20:22,737
 spend
 to rent the
 
-2244
+2245
 00:20:22,737 --> 00:20:22,768
 to rent the
  
 
-2245
+2246
 00:20:22,768 --> 00:20:25,432
 to rent the
 next stage.  From October 9th to
 
-2246
+2247
 00:20:25,432 --> 00:20:25,466
 next stage.  From October 9th to
  
 
-2247
+2248
 00:20:25,466 --> 00:20:26,435
 next stage.  From October 9th to
 12th, I'll be bringing together a
 
-2248
+2249
 00:20:26,435 --> 00:20:26,468
 12th, I'll be bringing together a
  
 
-2249
+2250
 00:20:26,468 --> 00:20:27,504
 12th, I'll be bringing together a
 group of about 40
 
-2250
+2251
 00:20:27,504 --> 00:20:27,537
 group of about 40
  
 
-2251
+2252
 00:20:27,537 --> 00:20:28,841
 group of about 40
 serious investors
 
-2252
+2253
 00:20:28,841 --> 00:20:28,874
 serious investors
  
 
-2253
+2254
 00:20:28,874 --> 00:20:29,709
 serious investors
 and financial
 
-2254
+2255
 00:20:29,709 --> 00:20:29,743
 and financial
  
 
-2255
+2256
 00:20:29,743 --> 00:20:30,979
 and financial
 professionals, along
 
-2256
+2257
 00:20:30,979 --> 00:20:31,013
 professionals, along
  
 
-2257
+2258
 00:20:31,013 --> 00:20:31,982
 professionals, along
 with special
 
-2258
+2259
 00:20:31,982 --> 00:20:32,015
 with special
  
 
-2259
+2260
 00:20:32,015 --> 00:20:33,185
 with special
 guests and friends
 
-2260
+2261
 00:20:33,185 --> 00:20:33,218
 guests and friends
  
 
-2261
+2262
 00:20:33,218 --> 00:20:34,488
 guests and friends
 like Hugh Hendry, Mike
 
-2262
+2263
 00:20:34,488 --> 00:20:34,521
 like Hugh Hendry, Mike
  
 
-2263
+2264
 00:20:34,521 --> 00:20:35,724
 like Hugh Hendry, Mike
 Green, George Gammon,
 
-2264
+2265
 00:20:35,724 --> 00:20:35,758
 Green, George Gammon,
  
 
-2265
+2266
 00:20:35,758 --> 00:20:36,927
 Green, George Gammon,
 Brent Johnson, and a
 
-2266
+2267
 00:20:36,927 --> 00:20:36,961
 Brent Johnson, and a
  
 
-2267
+2268
 00:20:36,961 --> 00:20:38,063
 Brent Johnson, and a
 few others, to
 
-2268
+2269
 00:20:38,063 --> 00:20:38,097
 few others, to
  
 
-2269
+2270
 00:20:38,097 --> 00:20:39,333
 few others, to
 spend four days
 
-2270
+2271
 00:20:39,333 --> 00:20:39,367
 spend four days
  
 
-2271
+2272
 00:20:39,367 --> 00:20:40,636
 spend four days
 discussing the issues
 
-2272
+2273
 00:20:40,636 --> 00:20:40,670
 discussing the issues
  
 
-2273
+2274
 00:20:40,670 --> 00:20:41,739
 discussing the issues
 that really
 
-2274
+2275
 00:20:41,739 --> 00:20:41,772
 that really
  
 
-2275
+2276
 00:20:41,772 --> 00:20:42,998
 that really
 matter.  What will happen
 
-2276
+2277
 00:20:42,998 --> 00:20:43,041
 matter.  What will happen
  
 
-2277
+2278
 00:20:43,041 --> 00:20:44,193
 matter.  What will happen
 next?  Where are the biggest
 
-2278
+2279
 00:20:44,193 --> 00:20:44,222
 next?  Where are the biggest
  
 
-2279
+2280
 00:20:44,222 --> 00:20:45,178
 next?  Where are the biggest
 risks being
 
-2280
+2281
 00:20:45,178 --> 00:20:45,207
 risks being
  
 
-2281
+2282
 00:20:45,207 --> 00:20:46,253
 risks being
 misjudged?  Where are the
 
-2282
+2283
 00:20:46,253 --> 00:20:46,293
 misjudged?  Where are the
  
 
-2283
+2284
 00:20:46,293 --> 00:20:47,598
 misjudged?  Where are the
 opportunities?  What should
 
-2284
+2285
 00:20:47,598 --> 00:20:47,631
 opportunities?  What should
  
 
-2285
+2286
 00:20:47,631 --> 00:20:48,826
 opportunities?  What should
 make us change
 
-2286
+2287
 00:20:48,826 --> 00:20:48,859
 make us change
  
 
-2287
+2288
 00:20:48,859 --> 00:20:50,029
 make us change
 our minds?  And how
 
-2288
+2289
 00:20:50,029 --> 00:20:50,058
 our minds?  And how
  
 
-2289
+2290
 00:20:50,058 --> 00:20:50,927
 our minds?  And how
 should we think about
 
-2290
+2291
 00:20:50,927 --> 00:20:50,956
 should we think about
  
 
-2291
+2292
 00:20:50,956 --> 00:20:52,085
 should we think about
 positioning around
 
-2292
+2293
 00:20:52,085 --> 00:20:52,114
 positioning around
  
 
-2293
+2294
 00:20:52,114 --> 00:20:52,813
 positioning around
 this?  This is not a
 
-2294
+2295
 00:20:52,813 --> 00:20:52,844
 this?  This is not a
  
 
-2295
+2296
 00:20:52,844 --> 00:20:53,561
 this?  This is not a
 conference
 
-2296
+2297
 00:20:53,561 --> 00:20:53,592
 conference
  
 
-2297
+2298
 00:20:53,592 --> 00:20:54,371
 conference
 built on
 
-2298
+2299
 00:20:54,371 --> 00:20:54,402
 built on
  
 
-2299
+2300
 00:20:54,402 --> 00:20:55,673
 built on
 speeches.  This is a small
 
-2300
+2301
 00:20:55,673 --> 00:20:55,704
 speeches.  This is a small
  
 
-2301
+2302
 00:20:55,704 --> 00:20:56,895
 speeches.  This is a small
 room for discussion,
 
-2302
+2303
 00:20:56,895 --> 00:20:56,925
 room for discussion,
  
 
-2303
+2304
 00:20:56,925 --> 00:20:58,056
 room for discussion,
 some differences of
 
-2304
+2305
 00:20:58,056 --> 00:20:58,086
 some differences of
  
 
-2305
+2306
 00:20:58,086 --> 00:20:58,819
 some differences of
 opinion, and
 
-2306
+2307
 00:20:58,819 --> 00:20:58,850
 opinion, and
  
 
-2307
+2308
 00:20:58,850 --> 00:20:59,828
 opinion, and
 practical advice.
 
-2308
+2309
 00:20:59,828 --> 00:21:00,047
 practical advice.
  
 
-2309
+2310
 00:21:00,047 --> 00:21:01,305
 practical advice.
 So, if you manage
 
-2310
+2311
 00:21:01,305 --> 00:21:01,338
 So, if you manage
  
 
-2311
+2312
 00:21:01,338 --> 00:21:02,431
 So, if you manage
 significant capital
 
-2312
+2313
 00:21:02,431 --> 00:21:02,464
 significant capital
  
 
-2313
+2314
 00:21:02,464 --> 00:21:03,225
 significant capital
 or are seriously
 
-2314
+2315
 00:21:03,225 --> 00:21:03,258
 or are seriously
  
 
-2315
+2316
 00:21:03,258 --> 00:21:04,285
 or are seriously
 interested in all
 
-2316
+2317
 00:21:04,285 --> 00:21:04,318
 interested in all
  
 
-2317
+2318
 00:21:04,318 --> 00:21:05,311
 interested in all
 these questions and
 
-2318
+2319
 00:21:05,311 --> 00:21:05,345
 these questions and
  
 
-2319
+2320
 00:21:05,345 --> 00:21:06,172
 these questions and
 want to find
 
-2320
+2321
 00:21:06,172 --> 00:21:06,206
 want to find
  
 
-2321
+2322
 00:21:06,206 --> 00:21:07,298
 want to find
 answers to them in a
 
-2322
+2323
 00:21:07,298 --> 00:21:07,331
 answers to them in a
  
 
-2323
+2324
 00:21:07,331 --> 00:21:08,523
 answers to them in a
 narrow, intimate
 
-2324
+2325
 00:21:08,523 --> 00:21:08,557
 narrow, intimate
  
 
-2325
+2326
 00:21:08,557 --> 00:21:09,484
 narrow, intimate
 circle, apply
 
-2326
+2327
 00:21:09,484 --> 00:21:09,517
 circle, apply
  
 
-2327
+2328
 00:21:09,517 --> 00:21:11,312
 circle, apply
 below.
