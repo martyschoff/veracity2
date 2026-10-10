@@ -20,8 +20,8 @@ DATA = BASE / "data"
 CACHE = Path(r"C:/Users/schof/AppData/Local/hermes/cache/web")
 NONYT = DATA / "deepqa_nonyt"
 
-NIMO = {"url": "http://100.84.167.88:11434/v1/chat/completions", "key": None, "model": "qwen3:32b"}
-TOWER = {"url": "http://tower1.tail5b3b50.ts.net:11434/v1/chat/completions", "key": None,
+NIMO = {"url": "http://100.84.167.88:11500/v1/chat/completions", "key": None, "model": "qwen3:32b"}
+TOWER = {"url": "http://100.68.43.17:11500/v1/chat/completions", "key": None,
          "model": "gpt-oss:120b"}
 
 SYSTEM = (

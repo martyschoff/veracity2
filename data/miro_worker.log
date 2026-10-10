@@ -12526,3 +12526,4 @@ openai.APIConnectionError: Connection error.
                ~~~~~~~~~~~~~~^^^^^^^^
 json.decoder.JSONDecodeError: Expecting ',' delimiter: line 25975 column 51 (char 1461395)
 
+2026-10-10 11:43:47 miro worker started (nimo via proxy; 7-GPU pool skipped)

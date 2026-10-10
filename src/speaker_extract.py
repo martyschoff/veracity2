@@ -24,7 +24,7 @@ logger = logging.getLogger(__name__)
 
 # nimo128 remote gateway bot (Unitary memory machine on HermesMac) — Ollama, no auth.
 NIMO128_ENDPOINT = {
-    "url": "http://100.84.167.88:11434/v1/chat/completions",
+    "url": "http://100.84.167.88:11500/v1/chat/completions",
     "model": "qwen3:32b",
     "label": "nimo128 (Ollama qwen3:32b on HermesMac)",
 }

@@ -27,9 +27,9 @@ except ImportError:
 BASE = Path(__file__).resolve().parent.parent
 DATA = BASE / 'data' / 'predictions.json'
 LOCK = BASE / 'data' / 'predictions.json.lock'
-POOL = ['http://100.84.167.88:11434']  # nimo 32b: judgment gold standard
-UPPOOL = ['http://100.120.21.39:11434']  # upthread64 llama3.1:8b: 100% decisive in 10-claim test
-NIMO = 'http://100.84.167.88:11434'
+POOL = ['http://100.84.167.88:11500']  # nimo 32b: judgment gold standard
+UPPOOL = ['http://100.120.21.39:11500']  # upthread64 llama3.1:8b: 100% decisive in 10-claim test
+NIMO = 'http://100.84.167.88:11500'
 MODEL = 'qwen3:32b'  # 8b pool proved too shallow: votes unclear on everything (2026-10-06)
 
 # Non-voting entities (fact-checkers, bots, etc.)

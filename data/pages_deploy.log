@@ -9,19 +9,17 @@
 Uploading... (6/8)
 Uploading... (7/8)
 Uploading... (8/8)
-✨ Success! Uploaded 2 files (6 already uploaded) (5.46 sec)
+✨ Success! Uploaded 2 files (6 already uploaded) (8.93 sec)
 
 🌎 Deploying...
-✨ Deployment complete! Take a peek over at https://4d2e1da3.seerscore.pages.dev
+✨ Deployment complete! Take a peek over at https://e5d47ebb.seerscore.pages.dev
 
    [90mRunning as [4mh4martylaptop@agentmail.to[24m[39m[90m (Free)[39m
 
 [90m        project:[39m surge_dist/
 [90m         domain:[39m veracity2.surge.sh
-[90m           size:[39m 8 files, 3.8 MB
+[90m           size:[39m 8 files, 4.1 MB
 
-  
-  [90m[90m┌──────────[39m[90m┬────────────────────────────────────────────────�
 
 
 
@@ -42,8 +40,9 @@ Uploading... (8/8)
   [90m[90m│[39m   [90mHTTP[39m   [90m│[39m   syd.surge.sh   [90m│[39m   AU, Sydney          [90m│[39m   45.76.126.95      [90m│[39m   Vultr     [90m│[39m   [32m✔[39m [32m◍[39m   [90m│[39m[39m
   [90m[90m│[39m   [90mHTTP[39m   [90m│[39m   nrt.surge.sh   [90m│[39m   JP, Tokyo           [90m│[39m   172.104.96.133    [90m│[39m   Linode    [90m│[39m   [32m✔[39m [32m◍[39m   [90m│[39m[39m
   [90m[90m└──────────[39m[90m┴──────────────────[39m[90m┴───────────────────────[39m[90m┴─────────────────────[39m[90m┴─────────────[39m[90m┴─────────┘[39m[39m
-   [90mLive preview ..................................................... [4m1791568230625-veracity2.surge.sh[24m[39m
+   [90mLive preview ..................................................... [4m1791594807313-veracity2.surge.sh[24m[39m
    [90mProduction ..................................................................... [4mveracity2.surge.sh[24m[39m
 
    [32mSuccess![39m[90m - Published to [4mveracity2.surge.sh[24m[39m
 
+DONE

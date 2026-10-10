@@ -43,10 +43,10 @@ SYSTEM = (
 
 VALID = {"PREDICTION", "PERSONAL", "SELF-REPORT", "PERSONAL-POSITION", "ADVICE", "PROMO", "UNCLEAR"}
 ENDPOINTS = [
-    {"url": "http://100.84.167.88:11434/v1/chat/completions", "key": None, "model": "qwen3:32b"},
+    {"url": "http://100.84.167.88:11500/v1/chat/completions", "key": None, "model": "qwen3:32b"},
     {"url": "http://127.0.0.1:18434/v1/chat/completions", "key": "OyISwmqwQMak4mEOtO3zajuzSY8clG73",
      "model": "Qwen3.8-27B-UD-Q4_K_M"},
-    {"url": "http://upthread64.tail5b3b50.ts.net:11434/v1/chat/completions", "key": None,
+    {"url": "http://100.120.21.39:11500/v1/chat/completions", "key": None,
      "model": "qwen3-coder:30b-32k"},
 ]
 

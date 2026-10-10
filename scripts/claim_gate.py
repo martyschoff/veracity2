@@ -7,7 +7,7 @@ import json
 import re
 import subprocess
 
-OLLAMA = 'http://100.84.167.88:11434/api/chat'
+OLLAMA = 'http://100.84.167.88:11500/api/chat'
 MODEL = 'qwen3:32b'
 
 PROMPT = """Classify this claim made by a geopolitical/finance commentator.

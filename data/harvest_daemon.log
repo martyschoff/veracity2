@@ -829,3 +829,5 @@ ConnectionResetError: [WinError 10054] An existing connection was forcibly close
 2026-10-09 21:04:28   Peter Diamandis: processed 49, added 15
 2026-10-09 21:04:28 source Peter Diamandis complete
 2026-10-09 21:04:28 harvesting Jeff Snider (Eurodollar University) (youtube) since 20240101
+2026-10-10 11:43:48 harvest daemon started (extract qwen3:32b / gate nimble on nimo)
+2026-10-10 11:43:48 harvesting Jeff Snider (Eurodollar University) (youtube) since 20240101

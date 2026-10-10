@@ -34,7 +34,7 @@ TRANSCRIPT:
 Answer STRICTLY as JSON: {{"predictions": [{{"claim": "...", "excerpt": "the 1-3 sentences supporting it"}}]}}"""
 
 
-def ollama_json(prompt, model='qwen3:32b', host='100.84.167.88:11434', timeout=300):
+def ollama_json(prompt, model='qwen3:32b', host='100.84.167.88:11500', timeout=300):
     body = json.dumps({'model': model, 'stream': False, 'think': False,
                        'messages': [{'role': 'user', 'content': prompt}],
                        'options': {'num_predict': 600, 'temperature': 0.2}})

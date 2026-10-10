@@ -1,0 +1,34 @@
+{
+ "saved_at": "2026-10-09 (pre-11500-proxy migration)",
+ "note": "Old direct-Ollama endpoints, saved per owner instruction in case of rollback. Fallback: 11434 on same host if 11500 does not answer.",
+ "old_endpoints": {
+  "nimo128": {
+   "extract_model": "qwen3:32b",
+   "gate_model": "nimble:latest",
+   "extract_base": "http://100.84.167.88:11434",
+   "note": "harvest_daemon.py call_nimo(); market_matcher get_local_embedding"
+  },
+  "big3080_pool": {
+   "base_ports": "11434-11441",
+   "model": "qwen3:8b",
+   "note": "monte_carlo.py SWARM_ENDPOINTS; monte_carlo_400.py POOL; 11500 fronts ONLY 11434"
+  },
+  "upthread64": {
+   "base": "http://100.120.21.39:11434",
+   "model": "llama3.1:8b",
+   "note": "monte_carlo SWARM_ENDPOINTS fallback"
+  },
+  "tower1": {
+   "base": "http://100.68.43.17:11434",
+   "note": "bench"
+  },
+  "mlsfs": {
+   "base": "http://100.73.201.124:11434",
+   "note": "monitor host"
+  },
+  "local_18434": {
+   "note": "laptop 27B, currently down"
+  }
+ },
+ "rollback": "Revert endpoint ports 11500 -> 11434 in: scripts/harvest_daemon.py, scripts/monte_carlo.py, scripts/monte_carlo_400.py, src/market_matcher.py, and the proxy :8899 upstream for miro (nimo)."
+}

@@ -25,10 +25,10 @@ from src.pipeline import PRODUCER_ENDPOINTS, call_llm
 # Swarm vote endpoints: nimo128 + 3080 box 7B (parallel workers)
 SWARM_ENDPOINTS = [
     *PRODUCER_ENDPOINTS,
-    {"url": "http://100.120.21.39:11434/v1/chat/completions", "key": None, "model": "llama3.1:8b"},
+    {"url": "http://100.120.21.39:11500/v1/chat/completions", "key": None, "model": "llama3.1:8b"},
     # 3080 pool: 7 instances, GPUs 1-7 (user released 2026-10-06). Full paths required -
     # call_llm posts to ep['url'] verbatim (the /v1-only form 404s).
-    {"url": "http://100.124.236.23:11434/v1/chat/completions", "key": None, "model": "qwen3:8b"},  # GPU0 (qwen3:8b only; whisper not running on TJ1)
+    {"url": "http://100.124.236.23:11500/v1/chat/completions", "key": None, "model": "qwen3:8b"},  # GPU0 (qwen3:8b only; whisper not running on TJ1)
     {"url": "http://100.124.236.23:11435/v1/chat/completions", "key": None, "model": "qwen3:8b"},
     {"url": "http://100.124.236.23:11436/v1/chat/completions", "key": None, "model": "qwen3:8b"},
     {"url": "http://100.124.236.23:11437/v1/chat/completions", "key": None, "model": "qwen3:8b"},

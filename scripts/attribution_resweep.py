@@ -18,9 +18,9 @@ Rules (STRICT OWNERSHIP): a prediction belongs only to whoever ARTICULATED the s
 Reply ONLY JSON: {"results":[{"i":<idx>,"verdict":"keep"|"remove","confidence":0-1,"reason":"<short>","speaker":"<name or empty>"}]} with exactly one entry per item, in order."""
 
 ENDPOINTS = [
-    ('http://upthread64.tail5b3b50.ts.net:11434/v1/chat/completions', 'qwen3-coder:30b-32k', None),
+    ('http://100.120.21.39:11500/v1/chat/completions', 'qwen3-coder:30b-32k', None),
     ('http://127.0.0.1:18434/v1/chat/completions', 'Qwen3.8-27B-UD-Q4_K_M', 'OyISwmqwQMak4mEOtO3zajuzSY8clG73'),
-    ('http://tower1.tail5b3b50.ts.net:11434/v1/chat/completions', 'llama3.3:70b', None),
+    ('http://100.68.43.17:11500/v1/chat/completions', 'llama3.3:70b', None),
 ]
 
 def llm(messages, timeout=420):

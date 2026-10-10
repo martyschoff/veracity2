@@ -23,7 +23,7 @@ QUEUE = BASE / 'data' / 'harvest_queue.json'
 LOG = BASE / 'data' / 'harvest_daemon.log'
 HEARTBEAT = BASE / 'data' / 'harvest_heartbeat.txt'
 
-NIMO = 'http://100.84.167.88:11434'
+NIMO = 'http://100.84.167.88:11500'
 EXTRACT_MODEL = 'qwen3:32b'
 GATE_MODEL = 'nimble:latest'
 

@@ -80,7 +80,7 @@ def main():
             body = json.dumps({'model': 'qwen3:32b', 'stream': False, 'think': False,
                                'messages': [{'role': 'user', 'content': EXTRACT_PROMPT.format(date=date, transcript=t[:15000])}],
                                'options': {'num_predict': 600, 'temperature': 0.2}})
-            r = sp.run(['curl', '-s', '-m', '300', 'http://100.84.167.88:11434/api/chat', '-d', body],
+            r = sp.run(['curl', '-s', '-m', '300', 'http://100.84.167.88:11500/api/chat', '-d', body],
                        capture_output=True, text=True, timeout=310)
             try:
                 res = json.loads(re.search(r'\{.*\}', json.loads(r.stdout)['message']['content'], re.S).group(0))

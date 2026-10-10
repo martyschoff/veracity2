@@ -20,7 +20,7 @@ logger = logging.getLogger(__name__)
 LLM_ENDPOINTS = [
     {"url": "http://127.0.0.1:8081/v1/chat/completions", "model": "qwen3-coder:30b"},
     {
-        "url": "http://upthread64.tail5b3b50.ts.net:11434/v1/chat/completions",
+        "url": "http://100.120.21.39:11500/v1/chat/completions",
         "model": "qwen3-coder:30b-32k",
     },
 ]

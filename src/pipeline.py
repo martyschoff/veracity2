@@ -30,11 +30,11 @@ logger = logging.getLogger("pipeline")
 # ---- Configuration ----
 LLM_ENDPOINTS = [
     # QA JUDGE (tower1 gpt-oss:120b, 2x3080+RAM MoE split) — strongest, use for QA/verdict review
-    {"url": "http://tower1.tail5b3b50.ts.net:11434/v1/chat/completions",
+    {"url": "http://100.68.43.17:11500/v1/chat/completions",
      "key": None,
      "model": "gpt-oss:120b"},
     # nimo128 (Ollama qwen3:32b on HermesMac) — primary producer workhorse
-    {"url": "http://100.84.167.88:11434/v1/chat/completions",
+    {"url": "http://100.84.167.88:11500/v1/chat/completions",
      "key": None,
      "model": "qwen3:32b"},
     # local llama-server (Qwen3.8-27B, 64k ctx) — extraction + fallback
@@ -42,7 +42,7 @@ LLM_ENDPOINTS = [
      "key": "OyISwmqwQMak4mEOtO3zajuzSY8clG73",
      "model": "Qwen3.8-27B-UD-Q4_K_M"},
     # upthread64 (Mac Mini Ollama, qwen3-coder MoE) — last fallback
-    {"url": "http://upthread64.tail5b3b50.ts.net:11434/v1/chat/completions",
+    {"url": "http://100.120.21.39:11500/v1/chat/completions",
      "key": None,
      "model": "qwen3-coder:30b-32k"},
 ]
@@ -52,10 +52,10 @@ PRODUCER_ENDPOINTS = LLM_ENDPOINTS[1:]
 
 # Judges used ONLY for QA review (not production/extraction)
 QA_JUDGE_ENDPOINTS = [
-    {"url": "http://tower1.tail5b3b50.ts.net:11434/v1/chat/completions",
+    {"url": "http://100.68.43.17:11500/v1/chat/completions",
      "key": None,
      "model": "gpt-oss:120b"},
-    {"url": "http://100.84.167.88:11434/v1/chat/completions",
+    {"url": "http://100.84.167.88:11500/v1/chat/completions",
      "key": None,
      "model": "qwen3:32b"},
 ]

@@ -79,7 +79,7 @@ def get_local_embedding(text: str) -> list[float] | None:
     try:
         with httpx.Client(timeout=60.0) as client:
             resp = client.post(
-                "http://100.84.167.88:11434/api/embed",
+                "http://100.84.167.88:11500/api/embed",
                 json={"model": "nomic-embed-text", "input": [text]},
             )
             resp.raise_for_status()

@@ -33,7 +33,7 @@ def clean(html_content):
     return t
 
 
-MAC = 'http://upthread64.tail5b3b50.ts.net:11434/v1/chat/completions'
+MAC = 'http://100.120.21.39:11500/v1/chat/completions'
 
 
 def _post(url, prompt, model, key=None, timeout=300):
