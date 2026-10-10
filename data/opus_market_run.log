@@ -1,0 +1,54 @@
+Phase 4 implementation complete. Here's what was created:
+
+## Files Created/Modified
+
+### New Files
+
+**`src/market_matcher.py`** - Core market matching module:
+- `get_embedding()` - OpenAI embeddings with local Ollama fallback
+- `cosine_similarity()` - Vector similarity using numpy
+- `fetch_polymarket_markets()` - Fetch active markets from Polymarket API
+- `match_claim_to_markets()` - Semantic matching with thresholds (≥0.85 auto, 0.75-0.85 review)
+- `link_prediction_to_market()` - Add `market_link` to predictions
+- `add_market_judgement()` - Create market-based judgement (weight 1.2)
+- `queue_for_review()` / `get_review_queue()` - Ambiguous match handling
+- `batch_match_predictions()` - Batch processing
+
+**`scripts/market_price_worker.py`** - Price polling daemon:
+- Polls every 6 hours for linked predictions
+- Updates `market_prices` array with price history
+- Detects market resolutions and applies as ground truth
+- Logs conflicts to `data/market_conflicts.jsonl`
+
+### Modified Files
+
+**`scripts/panel_adjudicate.py`** - Market signal integration:
+- Imports `add_market_judgement` from market_matcher
+- Adds market vote (weight 1.2) during adjudication
+- Reduces LLM weights to 0.8 when market signal present
+
+**`src/app.py`** - New API endpoints:
+- `GET /api/prediction/{id}/market` - Market link + price history
+- `POST /api/prediction/{id}/market/link` - Manual market linking
+- `GET /api/markets/conflicts` - Resolution conflicts
+- `GET /api/markets/review-queue` - Pending reviews (0.75-0.85 similarity)
+- `POST /api/markets/review` - Resolve review items
+- `GET /api/markets/stats` - Market integration statistics
+
+### Data Model Extensions
+
+Predictions gain new fields per DESIGN_STEALS.md:
+```json
+{
+  "market_link": {
+    "platform": "polymarket",
+    "market_id": "0x...",
+    "market_question": "...",
+    "match_confidence": 0.92,
+    "match_method": "embedding_auto",
+    "linked_at": "..."
+  },
+  "market_prices": [{"ts": "...", "price": 0.65}],
+  "resolution_source": "polymarket"
+}
+```

@@ -1,0 +1,23 @@
+Implement Phase 4 from DESIGN_STEALS.md (read it first): MARKET SIGNALS via Polymarket.
+
+WORK ON feature/market-signals BRANCH ONLY (git checkout feature/market-signals). Do NOT touch master. Do NOT deploy.
+
+IMPLEMENT:
+1. src/market_matcher.py:
+   - match_claim_to_market(claim_text) -> best candidate via Polymarket public search API: GET https://gamma-api.polymarket.com/public-search?q=<keywords>&limit_per_type=5 (public, no key - TESTED working)
+   - return {'market_id','title','slug','outcomePrices','volumeNum','endDate','match_confidence'} or None
+   - keyword extraction from claim (strip stopwords, keep nouns/numbers/dates)
+2. scripts/market_price_worker.py:
+   - polls data/predictions.json via locked_data for predictions with market_link but no market_prices, and for linked ones needing refresh (>6h since last price point)
+   - appends {'ts','price'} to market_prices on the prediction
+   - writes heartbeat to data/market_heartbeat.txt every loop
+   - single-instance lock data/market_worker.lock
+3. Integration in scripts/harvest_daemon.py: after gate_prediction passes and add_prediction succeeds, attempt match_claim_to_market(claim); if match_confidence >= 0.90, write market_link on the prediction. Wrap in try/except - harvest must never fail because Polymarket is down. One attempt per new prediction.
+4. app.py endpoint: GET /api/prediction/<id>/market returns market_link + market_prices.
+5. UI (templates/index.html): prediction detail card - if market_link present, show a "polymarket: XXc" badge with the market title, plus a tiny inline SVG sparkline of market_prices. Data flows via render.py (pass through market_link/market_prices on rows).
+
+ACCEPTANCE:
+- py_compile all touched files
+- Live-test match_claim_to_market on 3 real claims: "Gold could reach around 8,000 per ounce by late 2027 or 2028" (should match gold markets), "Japanese interest rates will rise to about 2.5% by the end of 2026" (BOJ/Japan markets), "Chairman Xi Jinping will be in Washington for bilateral talks" (may return None - fine)
+- Do NOT write to data/predictions.json (test against the API only; integration wiring stays dormant until merged)
+- Commit on feature/market-signals and push. Report match results, files changed, deviations.

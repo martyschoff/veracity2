@@ -12513,3 +12513,16 @@ openai.APIConnectionError: Connection error.
 2026-10-09 12:45:44 miro worker started (nimo via proxy; 7-GPU pool skipped)
 2026-10-09 14:20:51 miro worker started (nimo via proxy; 7-GPU pool skipped)
 2026-10-09 15:24:06 miro worker started (nimo via proxy; 7-GPU pool skipped)
+2026-10-09 18:25:11 worker error: JSONDecodeError: Expecting ',' delimiter: line 25975 column 51 (char 1461395)
+2026-10-09 18:25:11 e_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "C:\Users\schof\AppData\Local\hermes\tools\python-3.14.7+20260901-win32-x64\Lib\json\__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\schof\AppData\Local\hermes\tools\python-3.14.7+20260901-win32-x64\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\schof\AppData\Local\hermes\tools\python-3.14.7+20260901-win32-x64\Lib\json\decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 25975 column 51 (char 1461395)
+
