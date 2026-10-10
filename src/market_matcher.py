@@ -79,11 +79,11 @@ def get_local_embedding(text: str) -> list[float] | None:
     try:
         with httpx.Client(timeout=60.0) as client:
             resp = client.post(
-                "http://127.0.0.1:11434/api/embeddings",
-                json={"model": "nomic-embed-text", "prompt": text},
+                "http://100.84.167.88:11434/api/embed",
+                json={"model": "nomic-embed-text", "input": [text]},
             )
             resp.raise_for_status()
-            return resp.json().get("embedding")
+            return (resp.json().get("embeddings") or [[None]])[0]
     except Exception as e:
         logger.debug("Local embedding failed: %s", e)
         return None
@@ -104,6 +104,7 @@ def fetch_polymarket_markets(limit: int = 500) -> list[dict]:
             resp = client.get(
                 f"{GAMMA_API}/markets",
                 params={"limit": limit, "active": "true", "closed": "false"},
+                headers={"User-Agent": "Mozilla/5.0 (SeerScore harvester)"},
             )
             resp.raise_for_status()
             data = resp.json()
@@ -189,51 +190,59 @@ def match_claim_to_markets(
 ) -> list[dict]:
     """Match a claim to potential Polymarket markets.
 
-    Returns list of matches sorted by similarity, each with:
-    - market: the market dict
-    - similarity: cosine similarity score
-    - match_method: "embedding_auto" or "embedding_review"
+    PRIMARY: keyword search via public-search API.
+    FALLBACK: embedding similarity over fetched markets.
+    Returns list of matches sorted by relevance.
     """
-    if markets is None:
-        markets = load_cached_markets() or fetch_polymarket_markets()
-
-    if not markets:
-        logger.warning("No markets available for matching")
-        return []
-
-    # Get claim embedding
-    claim_embedding = get_embedding(claim)
-    if not claim_embedding:
-        logger.error("Failed to get embedding for claim")
-        return []
-
     matches = []
-    for market in markets:
-        question = get_market_question(market)
-        if not question:
-            continue
 
-        # Get market question embedding
-        market_embedding = get_embedding(question)
-        if not market_embedding:
-            continue
-
-        similarity = cosine_similarity(claim_embedding, market_embedding)
-        if similarity >= min_threshold:
-            volume = get_market_volume(market)
+    # PRIMARY: keyword search
+    try:
+        import urllib.request as _ur
+        import urllib.parse as _up
+        keywords = re.sub(r"[^a-zA-Z0-9 $%]", " ", claim)
+        keywords = " ".join(keywords.split()[:8])
+        url = f"https://gamma-api.polymarket.com/public-search?q={_up.quote(keywords)}&limit_per_type=8"
+        resp = _ur.urlopen(_ur.Request(url, headers={"User-Agent": "Mozilla/5.0"}), timeout=30)
+        events = json.loads(resp.read()).get("events", [])
+        for ev in events[:8]:
+            title = ev.get("title", "")
+            if not title:
+                continue
             matches.append({
-                "market": market,
-                "market_id": market.get("condition_id") or market.get("id"),
-                "market_question": question,
-                "similarity": similarity,
-                "volume": volume,
-                "match_method": (
-                    "embedding_auto" if similarity >= AUTO_MATCH_THRESHOLD
-                    else "embedding_review"
-                ),
+                "market": ev,
+                "market_id": ev.get("id"),
+                "market_question": title,
+                "similarity": 0.9,
+                "match_method": "keyword_search",
             })
+    except Exception as e:
+        logger.warning("Search API failed: %s", e)
 
-    # Sort by similarity descending
+    # FALLBACK: embedding similarity
+    if not matches:
+        if markets is None:
+            markets = load_cached_markets() or fetch_polymarket_markets()
+        if markets:
+            claim_embedding = get_embedding(claim)
+            if claim_embedding:
+                for market in markets:
+                    question = get_market_question(market)
+                    if not question:
+                        continue
+                    market_embedding = get_embedding(question)
+                    if not market_embedding:
+                        continue
+                    similarity = cosine_similarity(claim_embedding, market_embedding)
+                    if similarity >= min_threshold:
+                        matches.append({
+                            "market": market,
+                            "market_id": market.get("condition_id") or market.get("id"),
+                            "market_question": question,
+                            "similarity": similarity,
+                            "match_method": "embedding_fallback",
+                        })
+
     matches.sort(key=lambda x: x["similarity"], reverse=True)
     return matches
 
