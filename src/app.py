@@ -358,3 +358,177 @@ async def api_critique(request: Request):
     body = await request.json()
     ok = _apply_critique(body.get("id", ""), body.get("text", ""))
     return JSONResponse({"ok": ok})
+
+
+# ---- Phase 4: Market Signals API (DESIGN_STEALS.md) ----
+
+@app.get("/api/prediction/{pred_id}/market")
+async def api_prediction_market(pred_id: str):
+    """Return market link + price history for a prediction.
+    
+    Returns:
+    - market_link: platform, market_id, market_question, match_confidence
+    - market_prices: array of {ts, price} entries
+    - current_price: most recent price
+    - verification_url: link to verify on Polymarket
+    """
+    store = get_store()
+    preds = store.get_all_raw().get("predictions", [])
+    pred = next((p for p in preds if p.get("id") == pred_id), None)
+    
+    if not pred:
+        return JSONResponse(status_code=404, content={"error": "Prediction not found"})
+    
+    market_link = pred.get("market_link")
+    if not market_link:
+        return JSONResponse(content={"linked": False, "message": "No market link"})
+    
+    prices = pred.get("market_prices", [])
+    current_price = prices[-1]["price"] if prices else None
+    
+    return JSONResponse(content={
+        "linked": True,
+        "prediction_id": pred_id,
+        "market_link": market_link,
+        "market_prices": prices,
+        "current_price": current_price,
+        "price_count": len(prices),
+        "verification_url": f"https://polymarket.com/event/{market_link.get('market_id', '')}",
+    })
+
+
+@app.post("/api/prediction/{pred_id}/market/link")
+async def api_link_market(pred_id: str, request: Request):
+    """Manually link a prediction to a Polymarket market.
+    
+    Body: {"market_id": "...", "market_question": "...", "confidence": 0.95}
+    """
+    try:
+        from src.market_matcher import link_prediction_to_market
+    except ImportError:
+        return JSONResponse(status_code=500, content={"error": "Market matcher not available"})
+    
+    body = await request.json()
+    market_id = body.get("market_id")
+    if not market_id:
+        return JSONResponse(status_code=400, content={"error": "market_id required"})
+    
+    with _DATA_LOCK:
+        with open(DATA_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        
+        pred = next((p for p in data["predictions"] if p.get("id") == pred_id), None)
+        if not pred:
+            return JSONResponse(status_code=404, content={"error": "Prediction not found"})
+        
+        # Create market link manually
+        pred["market_link"] = {
+            "platform": "polymarket",
+            "market_id": market_id,
+            "market_question": body.get("market_question", ""),
+            "match_confidence": body.get("confidence", 1.0),
+            "match_method": "manual",
+            "linked_at": datetime.now().isoformat(),
+            "volume": body.get("volume", 0),
+        }
+        
+        with open(DATA_FILE, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+    
+    return JSONResponse(content={"ok": True, "market_link": pred["market_link"]})
+
+
+@app.get("/api/markets/conflicts")
+async def api_market_conflicts():
+    """Return list of predictions where market resolution conflicts with our verdict."""
+    conflicts_file = BASE_DIR / "data" / "market_conflicts.jsonl"
+    conflicts = []
+    
+    if conflicts_file.exists():
+        with open(conflicts_file, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if line:
+                    try:
+                        conflicts.append(json.loads(line))
+                    except json.JSONDecodeError:
+                        pass
+    
+    return JSONResponse(content={"conflicts": conflicts, "count": len(conflicts)})
+
+
+@app.get("/api/markets/review-queue")
+async def api_market_review_queue():
+    """Return pending market match reviews (similarity 0.75-0.85)."""
+    try:
+        from src.market_matcher import get_review_queue
+        queue = get_review_queue()
+        return JSONResponse(content={"queue": queue, "count": len(queue)})
+    except ImportError:
+        return JSONResponse(content={"queue": [], "count": 0, "error": "Market matcher not available"})
+
+
+@app.post("/api/markets/review")
+async def api_resolve_market_review(request: Request):
+    """Resolve a market review queue item.
+    
+    Body: {"pred_id": "...", "action": "link"|"skip"}
+    """
+    try:
+        from src.market_matcher import resolve_review, get_review_queue
+    except ImportError:
+        return JSONResponse(status_code=500, content={"error": "Market matcher not available"})
+    
+    body = await request.json()
+    pred_id = body.get("pred_id")
+    action = body.get("action")
+    
+    if not pred_id or action not in ("link", "skip"):
+        return JSONResponse(status_code=400, content={"error": "pred_id and action (link/skip) required"})
+    
+    # If action is "link", we need to create the actual link
+    if action == "link":
+        # Get the queue item to find market details
+        queue = get_review_queue()
+        item = next((q for q in queue if q.get("pred_id") == pred_id), None)
+        if item:
+            with _DATA_LOCK:
+                with open(DATA_FILE, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                
+                pred = next((p for p in data["predictions"] if p.get("id") == pred_id), None)
+                if pred:
+                    pred["market_link"] = {
+                        "platform": "polymarket",
+                        "market_id": item.get("market_id"),
+                        "market_question": item.get("market_question", ""),
+                        "match_confidence": item.get("similarity", 0.8),
+                        "match_method": "manual_review",
+                        "linked_at": datetime.now().isoformat(),
+                        "volume": item.get("volume", 0),
+                    }
+                
+                with open(DATA_FILE, "w", encoding="utf-8") as f:
+                    json.dump(data, f, indent=2, ensure_ascii=False)
+    
+    ok = resolve_review(pred_id, action)
+    return JSONResponse(content={"ok": ok})
+
+
+@app.get("/api/markets/stats")
+async def api_market_stats():
+    """Return market integration statistics."""
+    store = get_store()
+    preds = store.get_all_raw().get("predictions", [])
+    
+    linked = [p for p in preds if p.get("market_link")]
+    resolved_by_market = [p for p in preds if p.get("resolution_source") == "polymarket"]
+    with_conflict = [p for p in preds if p.get("market_conflict")]
+    
+    return JSONResponse(content={
+        "total_predictions": len(preds),
+        "linked_to_market": len(linked),
+        "resolved_by_market": len(resolved_by_market),
+        "market_conflicts": len(with_conflict),
+        "link_rate": round(len(linked) / len(preds) * 100, 1) if preds else 0,
+    })

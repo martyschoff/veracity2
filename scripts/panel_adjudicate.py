@@ -3,15 +3,26 @@
 predictions using the 4-GPU qwen3:8b pool (nimo as escalation).
 
   python scripts/panel_adjudicate.py --person Doomberg --year 2024
+
+Phase 4 (DESIGN_STEALS.md): Integrates Polymarket signals into adjudication.
+Market weight 1.2 when: match_confidence >= 0.90, volume >= $50k, >= 3 price points.
 """
 import argparse, json, random, re, subprocess, time
 from pathlib import Path
 import sys, os as _os
 _os.sys.path if False else None
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from data_lock import locked_data
 
 import filelock
+
+# Market signal integration (Phase 4)
+try:
+    from src.market_matcher import add_market_judgement, compute_market_weight
+    MARKET_SIGNALS_ENABLED = True
+except ImportError:
+    MARKET_SIGNALS_ENABLED = False
 
 BASE = Path(__file__).resolve().parent.parent
 DATA = BASE / 'data' / 'predictions.json'
@@ -23,6 +34,10 @@ MODEL = 'qwen3:32b'  # 8b pool proved too shallow: votes unclear on everything (
 
 # Non-voting entities (fact-checkers, bots, etc.)
 NON_VOTERS = {'Fact-Check', 'Twitter Bot', 'Publication Account'}
+
+# Weight adjustment when market signal is present (from DESIGN_STEALS.md)
+WEIGHT_WITH_MARKET = 0.8  # LLM panelist weights reduce from 1.0 to 0.8
+MARKET_WEIGHT = 1.2  # Polymarket signal weight
 
 PROMPT = """You are simulating panelist {name} ({role}) — weight {weight}x — on a predictions adjudication panel.
 
@@ -155,10 +170,36 @@ def main():
             for v in new_votes:
                 if v['panelist'] not in existing_panelists:
                     existing_votes.append(v)
+
+            # Phase 4: Add market signal if eligible
+            has_market_vote = any(v.get('source') == 'polymarket' for v in existing_votes)
+            market_weight = 0.0
+            if MARKET_SIGNALS_ENABLED and not has_market_vote:
+                market_vote = add_market_judgement(target)
+                if market_vote:
+                    existing_votes.append(market_vote)
+                    market_weight = market_vote.get('weight', 0)
+                    print(f'  + Market signal: {market_vote["verdict"]} (price={market_vote.get("market_price", 0):.1%})', flush=True)
+
             target['judgements'] = existing_votes
 
-            score = sum(v['weight'] * (1 if v['verdict'] == 'correct' else -1 if v['verdict'] == 'incorrect' else 0)
-                        for v in existing_votes)
+            # Compute weighted score
+            # Per DESIGN_STEALS.md: when market signal present, LLM weights reduce to 0.8
+            score = 0.0
+            for v in existing_votes:
+                if v.get('source') == 'polymarket':
+                    w = v.get('weight', MARKET_WEIGHT)
+                elif market_weight > 0:
+                    # Reduce LLM panelist weights when market signal is present
+                    w = v.get('weight', 1.0) * WEIGHT_WITH_MARKET
+                else:
+                    w = v.get('weight', 1.0)
+                
+                if v['verdict'] == 'correct':
+                    score += w
+                elif v['verdict'] in ('incorrect', 'wrong'):
+                    score -= w
+            
             if score >= 2.0:
                 target['verdict'] = 'correct'
             elif score <= -2.0:
