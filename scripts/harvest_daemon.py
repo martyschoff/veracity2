@@ -24,6 +24,7 @@ LOG = BASE / 'data' / 'harvest_daemon.log'
 HEARTBEAT = BASE / 'data' / 'harvest_heartbeat.txt'
 
 NIMO = 'http://100.84.167.88:11500'
+GATE_HOST = 'http://100.73.201.124:11500'  # mlsfs - nimble resident, no model-swap war with the 32b extractor
 EXTRACT_MODEL = 'qwen3:32b'
 GATE_MODEL = 'nimble:latest'
 
@@ -81,15 +82,33 @@ def fetch_text(url):
     return re.sub(r'\s+', ' ', text).strip()
 
 
-def youtube_transcripts(channel_url, since, out_dir):
-    """yt-dlp transcripts for a channel since date; returns list of (url, date, text)."""
+def youtube_transcripts(channel_url, since, out_dir, page_size=15):
+    """yt-dlp transcripts for a channel since date, PAGED: fetch newest `page_size`
+    un-downloaded videos per call (bounded time, honest heartbeats, incremental processing).
+    Returns list of (url, date, text) for newly fetched srts only."""
     out_dir.mkdir(parents=True, exist_ok=True)
     import sys as _sys
     yt = [ _sys.executable, '-m', 'yt_dlp']  # module form: immune to PATH stripping
-    r = subprocess.run([*yt, '--skip-download', '--write-auto-subs', '--sub-langs', 'en',
-                        '--convert-subs', 'srt', '--dateafter', since,
-                        '-o', str(out_dir / '%(id)s_%(upload_date)s.%(ext)s'),
-                        channel_url + '/videos'], capture_output=True, text=True, timeout=3600)
+    # page through newest videos: playlist-items N:M window, advancing until we hit already-downloaded ones
+    start = 1
+    new_srts = []
+    while start <= 400:  # hard page cap per cycle
+        r = subprocess.run([*yt, '--skip-download', '--write-auto-subs', '--sub-langs', 'en',
+                            '--convert-subs', 'srt', '--dateafter', since,
+                            '--playlist-items', f'{start}:{start + page_size - 1}',
+                            '--no-overwrites',
+                            '-o', str(out_dir / '%(id)s_%(upload_date)s.%(ext)s'),
+                            channel_url + '/videos'], capture_output=True, text=True, timeout=900)
+        before = {p.name for p in out_dir.glob('*.srt')}
+        # nothing new -> we've reached already-harvested territory; stop paging
+        after = {p.name for p in out_dir.glob('*.srt')}
+        fresh = after - before
+        if not fresh:
+            break
+        new_srts.extend(fresh)
+        start += page_size
+        if len(new_srts) >= 30:  # batch cap: process these before fetching more
+            break
     results = []
     for srt in sorted(out_dir.glob('*.srt')):
         m = re.match(r'(.+)_(\d{8})', srt.name)
@@ -125,14 +144,25 @@ def extract_predictions(text, person, date, url):
     return out
 
 
+def gate_call(model, prompt, max_tokens=300, timeout=280):
+    """Call the gate host (mlsfs) - same API shape as call_nimo."""
+    import urllib.request
+    body = json.dumps({'model': model, 'stream': False, 'think': False,
+                       'messages': [{'role': 'user', 'content': prompt}],
+                       'options': {'num_predict': max_tokens, 'temperature': 0.2}}).encode()
+    req = urllib.request.Request(f'{GATE_HOST}/api/chat', data=body, headers={'Content-Type': 'application/json'})
+    with urllib.request.urlopen(req, timeout=timeout) as resp:
+        return json.loads(resp.read()).get('message', {}).get('content', '')
+
+
 def gate_prediction(claim):
-    """nimble gate: is this a genuine dated testable prediction? Returns 'prediction'|'reject'."""
+    """nimble gate (on mlsfs): is this a genuine dated testable prediction? Returns 'prediction'|'reject'."""
     prompt = (
         "Classify this statement: is it a genuine, dated, testable PREDICTION about future events, "
         "or is it EDUCATION/explanation, a PRESCRIPTION (advice), a QUOTED third-party view, or "
         "VAGUE commentary? Answer ONLY one word: prediction or reject.\n\nSTATEMENT: " + claim
     )
-    raw = call_nimo(GATE_MODEL, prompt, max_tokens=8)
+    raw = gate_call(GATE_MODEL, prompt, max_tokens=300)
     return 'prediction' if 'prediction' in (raw or '').lower() else 'reject'
 
 
@@ -236,11 +266,13 @@ def process_source(src):
         state_file.write_text(json.dumps(state, indent=1), encoding='utf-8')
         log(f'  {url[:70]} -> {len(kept)} kept')
     log(f'  {name}: processed {processed}, added {added}')
-    return processed, added
+    # remaining = did this cycle fetch new material that may continue next cycle?
+    remaining = src['type'] == 'youtube' and processed > 0
+    return processed, added, remaining
 
 
 def main():
-    log('harvest daemon started (extract qwen3:32b / gate nimble on nimo)')
+    log('harvest daemon started (extract qwen3:32b on nimo / gate nimble on mlsfs)')
     while True:
         heartbeat()
         try:
@@ -253,10 +285,11 @@ def main():
                 time.sleep(300)
                 continue
             src = pending[0]
-            process_source(src)
-            src['completed'] = True
+            _, _, more = process_source(src)
+            if not more:
+                src['completed'] = True
+                log(f"source {src['person']} complete")
             QUEUE.write_text(json.dumps(queue, indent=1), encoding='utf-8')
-            log(f"source {src['person']} complete")
         except BaseException as e:
             import traceback
             log(f'error {type(e).__name__}: {e}')
