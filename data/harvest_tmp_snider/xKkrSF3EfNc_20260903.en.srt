@@ -9830,16 +9830,16 @@ meant by "cockroaches
 1971
 00:17:18,234 --> 00:17:19,316
 ."  One suspicious
-borrower is a
+borrower is a cause for
 
 1972
 00:17:19,316 --> 00:17:19,344
-borrower is a
+borrower is a cause for
  
 
 1973
 00:17:19,344 --> 00:17:20,259
-borrower is a
+borrower is a cause for
 concern just
 
 1974
@@ -9989,36 +9989,36 @@ First Brands were the first
 2003
 00:17:33,805 --> 00:17:35,214
 First Brands were the first
-to raise these issues in the
+to raise these issues in
 
 2004
 00:17:35,214 --> 00:17:35,250
-to raise these issues in the
+to raise these issues in
  
 
 2005
 00:17:35,250 --> 00:17:36,370
-to raise these issues in the
-private
+to raise these issues in
+the field of private
 
 2006
 00:17:36,370 --> 00:17:36,406
-private
+the field of private
  
 
 2007
 00:17:36,406 --> 00:17:37,679
-private
-lending sector.  Radiant
+the field of private
+lending.  Radiant
 
 2008
 00:17:37,679 --> 00:17:37,718
-lending sector.  Radiant
+lending.  Radiant
  
 
 2009
 00:17:37,718 --> 00:17:38,566
-lending sector.  Radiant
+lending.  Radiant
 is disrupting them in
 
 2010
@@ -12018,609 +12018,604 @@ for three
 consecutive quarters.
 
 2410
-00:20:58,443 --> 00:20:58,543
+00:20:58,443 --> 00:20:59,757
 consecutive quarters.
  
 
 2411
-00:20:58,543 --> 00:20:59,757
-consecutive quarters.
-Spreads on
+00:20:59,757 --> 00:20:59,796
+
+ 
 
 2412
-00:20:59,757 --> 00:20:59,796
-Spreads on
+00:20:59,796 --> 00:21:01,245
  
+CCC bond spreads widened to 1,053
 
 2413
-00:20:59,796 --> 00:21:01,245
-Spreads on
-CCC bonds widened to 1,053
-
-2414
 00:21:01,245 --> 00:21:01,284
-CCC bonds widened to 1,053
+CCC bond spreads widened to 1,053
  
 
-2415
+2414
 00:21:01,284 --> 00:21:02,538
-CCC bonds widened to 1,053
+CCC bond spreads widened to 1,053
 basis points.
 
-2416
+2415
 00:21:02,538 --> 00:21:02,638
 basis points.
  
 
-2417
+2416
 00:21:02,638 --> 00:21:03,567
 basis points.
 Australian
 
-2418
+2417
 00:21:03,567 --> 00:21:03,592
 Australian
  
 
-2419
+2418
 00:21:03,592 --> 00:21:04,095
 Australian
 private
 
-2420
+2419
 00:21:04,095 --> 00:21:04,120
 private
  
 
-2421
+2420
 00:21:04,120 --> 00:21:04,723
 private
 equity funds are
 
-2422
+2421
 00:21:04,723 --> 00:21:04,748
 equity funds are
  
 
-2423
+2422
 00:21:04,748 --> 00:21:05,527
 equity funds are
 restricting
 
-2424
+2423
 00:21:05,527 --> 00:21:05,552
 restricting
  
 
-2425
+2424
 00:21:05,552 --> 00:21:06,532
 restricting
 withdrawals as
 
-2426
+2425
 00:21:06,532 --> 00:21:06,557
 withdrawals as
  
 
-2427
+2426
 00:21:06,557 --> 00:21:07,361
 withdrawals as
 Bathless' $3.3 billion debt
 
-2428
+2427
 00:21:07,361 --> 00:21:07,386
 Bathless' $3.3 billion debt
  
 
-2429
+2428
 00:21:07,386 --> 00:21:08,215
 Bathless' $3.3 billion debt
 goes through
 
-2430
+2429
 00:21:08,215 --> 00:21:08,240
 goes through
  
 
-2431
+2430
 00:21:08,240 --> 00:21:08,693
 goes through
 
-2432
+2431
 00:21:08,693 --> 00:21:08,718
 
  
 
-2433
+2432
 00:21:08,718 --> 00:21:09,698
  
 insolvency proceedings,
 
-2434
+2433
 00:21:09,698 --> 00:21:09,723
 insolvency proceedings,
  
 
-2435
+2434
 00:21:09,723 --> 00:21:10,351
 insolvency proceedings,
 and Radiant World could
 
-2436
+2435
 00:21:10,351 --> 00:21:10,376
 and Radiant World could
  
 
-2437
+2436
 00:21:10,376 --> 00:21:11,306
 and Radiant World could
 prove to be another "
 
-2438
+2437
 00:21:11,306 --> 00:21:11,909
 prove to be another "
 cockroach"
 
-2439
+2438
 00:21:11,909 --> 00:21:11,934
 cockroach"
  
 
-2440
+2439
 00:21:11,934 --> 00:21:12,637
 cockroach"
 linking allegedly
 
-2441
+2440
 00:21:12,637 --> 00:21:12,662
 linking allegedly
  
 
-2442
+2441
 00:21:12,662 --> 00:21:13,542
 linking allegedly
 forged trading
 
-2443
+2442
 00:21:13,542 --> 00:21:13,567
 forged trading
  
 
-2444
+2443
 00:21:13,567 --> 00:21:14,497
 forged trading
 documents to banks,
 
-2445
+2444
 00:21:14,497 --> 00:21:14,522
 documents to banks,
  
 
-2446
+2445
 00:21:14,522 --> 00:21:15,401
 documents to banks,
 private equity funds
 
-2447
+2446
 00:21:15,401 --> 00:21:15,426
 private equity funds
  
 
-2448
+2447
 00:21:15,426 --> 00:21:15,954
 private equity funds
 and major
 
-2449
+2448
 00:21:15,954 --> 00:21:15,979
 and major
  
 
-2450
+2449
 00:21:15,979 --> 00:21:16,532
 and major
 commodities
 
-2451
+2450
 00:21:16,532 --> 00:21:16,557
 commodities
  
 
-2452
+2451
 00:21:16,557 --> 00:21:17,483
 commodities
 companies.  However,
 
-2453
+2452
 00:21:17,483 --> 00:21:17,516
 companies.  However,
  
 
-2454
+2453
 00:21:17,516 --> 00:21:18,412
 companies.  However,
 none of this
 
-2455
+2454
 00:21:18,412 --> 00:21:18,445
 none of this
  
 
-2456
+2455
 00:21:18,445 --> 00:21:19,441
 none of this
 guarantees a
 
-2457
+2456
 00:21:19,441 --> 00:21:19,474
 guarantees a
  
 
-2458
+2457
 00:21:19,474 --> 00:21:20,304
 guarantees a
 2008-style crash.
 
-2459
+2458
 00:21:20,304 --> 00:21:20,404
 2008-style crash.
  
 
-2460
+2459
 00:21:20,404 --> 00:21:21,479
 2008-style crash.
 In fact, we do
 
-2461
+2460
 00:21:21,479 --> 00:21:21,508
 In fact, we do
  
 
-2462
+2461
 00:21:21,508 --> 00:21:22,651
 In fact, we do
 n't expect that.  Private
 
-2463
+2462
 00:21:22,651 --> 00:21:22,675
 n't expect that.  Private
  
 
-2464
+2463
 00:21:22,675 --> 00:21:23,543
 n't expect that.  Private
 lending is not a
 
-2465
+2464
 00:21:23,543 --> 00:21:23,567
 lending is not a
  
 
-2466
+2465
 00:21:23,567 --> 00:21:24,362
 lending is not a
 bank, foreclosure restrictions
 
-2467
+2466
 00:21:24,362 --> 00:21:24,386
 bank, foreclosure restrictions
  
 
-2468
+2467
 00:21:24,386 --> 00:21:25,326
 bank, foreclosure restrictions
 are part of its
 
-2469
+2468
 00:21:25,326 --> 00:21:25,350
 are part of its
  
 
-2470
+2469
 00:21:25,350 --> 00:21:26,193
 are part of its
 structure, and many
 
-2471
+2470
 00:21:26,193 --> 00:21:26,217
 structure, and many
  
 
-2472
+2471
 00:21:26,217 --> 00:21:26,916
 structure, and many
 private loans
 
-2473
+2472
 00:21:26,916 --> 00:21:26,940
 private loans
  
 
-2474
+2473
 00:21:26,940 --> 00:21:27,711
 private loans
 will continue
 
-2475
+2474
 00:21:27,711 --> 00:21:27,735
 will continue
  
 
-2476
+2475
 00:21:27,735 --> 00:21:28,434
 will continue
 to be paid out as normal
 
-2477
+2476
 00:21:28,434 --> 00:21:28,458
 to be paid out as normal
  
 
-2478
+2477
 00:21:28,458 --> 00:21:29,278
 to be paid out as normal
 .
 
-2479
+2478
 00:21:29,278 --> 00:21:29,554
 .
  
 
-2480
+2479
 00:21:29,554 --> 00:21:31,441
 .
 But just because it's not 2008
 
-2481
+2480
 00:21:31,441 --> 00:21:33,086
 But just because it's not 2008
 doesn't mean everything is
 
-2482
+2481
 00:21:33,086 --> 00:21:33,134
 doesn't mean everything is
  
 
-2483
+2482
 00:21:33,134 --> 00:21:35,072
 doesn't mean everything is
 okay.  An important
 
-2484
+2483
 00:21:35,072 --> 00:21:35,108
 okay.  An important
  
 
-2485
+2484
 00:21:35,108 --> 00:21:36,391
 okay.  An important
 signal is the direction of
 
-2486
+2485
 00:21:36,391 --> 00:21:36,427
 signal is the direction of
  
 
-2487
+2486
 00:21:36,427 --> 00:21:37,347
 signal is the direction of
 movement.
 
-2488
+2487
 00:21:37,347 --> 00:21:37,375
 movement.
  
 
-2489
+2488
 00:21:37,375 --> 00:21:38,347
 movement.
 Withdrawals remain
 
-2490
+2489
 00:21:38,347 --> 00:21:38,375
 Withdrawals remain
  
 
-2491
+2490
 00:21:38,375 --> 00:21:39,375
 Withdrawals remain
 high,
 
-2492
+2491
 00:21:39,375 --> 00:21:39,402
 high,
  
 
-2493
+2492
 00:21:39,402 --> 00:21:40,235
 high,
 capital raising has disappeared,
 
-2494
+2493
 00:21:40,235 --> 00:21:40,263
 capital raising has disappeared,
  
 
-2495
+2494
 00:21:40,263 --> 00:21:41,180
 capital raising has disappeared,
 loan portfolios
 
-2496
+2495
 00:21:41,180 --> 00:21:41,207
 loan portfolios
  
 
-2497
+2496
 00:21:41,207 --> 00:21:41,985
 loan portfolios
 are shrinking, and the
 
-2498
+2497
 00:21:41,985 --> 00:21:42,013
 are shrinking, and the
  
 
-2499
+2498
 00:21:42,013 --> 00:21:42,985
 are shrinking, and the
 weakest public
 
-2500
+2499
 00:21:42,985 --> 00:21:43,012
 weakest public
  
 
-2501
+2500
 00:21:43,012 --> 00:21:43,679
 weakest public
 borrowers
 
-2502
+2501
 00:21:43,679 --> 00:21:43,707
 borrowers
  
 
-2503
+2502
 00:21:43,707 --> 00:21:44,401
 borrowers
 face
 
-2504
+2503
 00:21:44,401 --> 00:21:44,429
 face
  
 
-2505
+2504
 00:21:44,429 --> 00:21:45,456
 face
 distressed
 
-2506
+2505
 00:21:45,456 --> 00:21:45,484
 distressed
  
 
-2507
+2506
 00:21:45,484 --> 00:21:46,715
 distressed
 asset spreads.  And new "
 
-2508
+2507
 00:21:46,715 --> 00:21:47,924
 asset spreads.  And new "
 cockroaches" continue to
 
-2509
+2508
 00:21:47,924 --> 00:21:47,955
 cockroaches" continue to
  
 
-2510
+2509
 00:21:47,955 --> 00:21:48,947
 cockroaches" continue to
 appear where
 
-2511
+2510
 00:21:48,947 --> 00:21:48,978
 appear where
  
 
-2512
+2511
 00:21:48,978 --> 00:21:49,784
 appear where
 
-2513
+2512
 00:21:49,784 --> 00:21:49,815
 
  
 
-2514
+2513
 00:21:49,815 --> 00:21:50,900
  
 leverage and "
 
-2515
+2514
 00:21:50,900 --> 00:21:51,644
 leverage and "
 bubble"
 
-2516
+2515
 00:21:51,644 --> 00:21:51,675
 bubble"
  
 
-2517
+2516
 00:21:51,675 --> 00:21:52,835
 bubble"
 behavior intersect.  The mess in
 
-2518
+2517
 00:21:52,835 --> 00:21:52,866
 behavior intersect.  The mess in
  
 
-2519
+2518
 00:21:52,866 --> 00:21:53,495
 behavior intersect.  The mess in
 private
 
-2520
+2519
 00:21:53,495 --> 00:21:53,526
 private
  
 
-2521
+2520
 00:21:53,526 --> 00:21:54,532
 private
 lending, this
 
-2522
+2521
 00:21:54,532 --> 00:21:54,564
 lending, this
  
 
-2523
+2522
 00:21:54,564 --> 00:21:55,412
 lending, this
 crash, hasn't
 
-2524
+2523
 00:21:55,412 --> 00:21:55,444
 crash, hasn't
  
 
-2525
+2524
 00:21:55,444 --> 00:21:56,607
 crash, hasn't
-gone away, it hasn't disappeared.
+gone anywhere, it hasn't disappeared.
 
-2526
+2525
 00:21:56,607 --> 00:21:57,238
-gone away, it hasn't disappeared.
+gone anywhere, it hasn't disappeared.
  
 
-2527
+2526
 00:21:57,238 --> 00:21:58,380
-gone away, it hasn't disappeared.
+gone anywhere, it hasn't disappeared.
 The cycle changed from
 
-2528
+2527
 00:21:58,380 --> 00:21:58,416
 The cycle changed from
  
 
-2529
+2528
 00:21:58,416 --> 00:21:59,238
 The cycle changed from
 madness to
 
-2530
+2529
 00:21:59,238 --> 00:21:59,273
 madness to
  
 
-2531
+2530
 00:21:59,273 --> 00:22:00,881
 madness to
 purification.

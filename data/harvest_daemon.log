@@ -833,3 +833,264 @@ ConnectionResetError: [WinError 10054] An existing connection was forcibly close
 2026-10-10 11:43:48 harvesting Jeff Snider (Eurodollar University) (youtube) since 20240101
 2026-10-10 11:54:42 harvest daemon started (extract qwen3:32b / gate nimble on nimo)
 2026-10-10 11:54:42 harvesting Jeff Snider (Eurodollar University) (youtube) since 20240101
+2026-10-10 12:26:57   https://www.youtube.com/watch?v=-45asMeLMOs -> 1 kept
+2026-10-10 12:27:59   https://www.youtube.com/watch?v=-4r_yoVvBa4 -> 2 kept
+2026-10-10 12:29:45   https://www.youtube.com/watch?v=-dCtZc1piMU -> 1 kept
+2026-10-10 12:30:25   https://www.youtube.com/watch?v=-Ej1OvSe_Wg -> 0 kept
+2026-10-10 12:30:29   https://www.youtube.com/watch?v=-45asMeLMOs -> 2 kept
+2026-10-10 12:31:08   https://www.youtube.com/watch?v=-J65XyUCCOU -> 0 kept
+2026-10-10 12:32:44   https://www.youtube.com/watch?v=-PrKIZZjoig -> 2 kept
+2026-10-10 12:32:44   https://www.youtube.com/watch?v=-4r_yoVvBa4 -> 1 kept
+2026-10-10 12:33:25   https://www.youtube.com/watch?v=-dCtZc1piMU -> 0 kept
+2026-10-10 12:33:58   https://www.youtube.com/watch?v=-rU4sGIQxaU -> 0 kept
+2026-10-10 12:34:33   https://www.youtube.com/watch?v=-Ej1OvSe_Wg -> 0 kept
+2026-10-10 12:35:53   https://www.youtube.com/watch?v=-J65XyUCCOU -> 0 kept
+2026-10-10 12:36:51   https://www.youtube.com/watch?v=-T01ER-vCPc -> 2 kept
+2026-10-10 12:37:50   https://www.youtube.com/watch?v=03YGwtkexdY -> 2 kept
+2026-10-10 12:38:46   https://www.youtube.com/watch?v=08hhCWHROPM -> 2 kept
+2026-10-10 12:39:38   https://www.youtube.com/watch?v=0APVhIi_QfA -> 0 kept
+2026-10-10 12:40:29   https://www.youtube.com/watch?v=0bhRj1pNfsE -> 0 kept
+2026-10-10 12:41:21   https://www.youtube.com/watch?v=0Dx_vd09joU -> 0 kept
+2026-10-10 12:42:15   https://www.youtube.com/watch?v=0KIGFRbmufo -> 2 kept
+2026-10-10 12:42:59   https://www.youtube.com/watch?v=0MSHbRXGYSY -> 0 kept
+2026-10-10 12:43:51   https://www.youtube.com/watch?v=0S8M3OtFIVc -> 1 kept
+2026-10-10 12:44:31   https://www.youtube.com/watch?v=0UGjNm0JF1Q -> 0 kept
+2026-10-10 12:45:06   https://www.youtube.com/watch?v=0wEQ61Nhz6w -> 0 kept
+2026-10-10 12:45:40   https://www.youtube.com/watch?v=1CpvrOt7Ckg -> 0 kept
+2026-10-10 12:46:27   https://www.youtube.com/watch?v=1HcW3mfuggs -> 1 kept
+2026-10-10 12:47:23   https://www.youtube.com/watch?v=1iEsqtJmP98 -> 1 kept
+2026-10-10 12:48:00   https://www.youtube.com/watch?v=1nrdDJwDUlw -> 0 kept
+2026-10-10 12:48:34   https://www.youtube.com/watch?v=1pEkpZF5TDQ -> 0 kept
+2026-10-10 12:49:08   https://www.youtube.com/watch?v=1s0wk2iNv2Y -> 0 kept
+2026-10-10 12:49:41   https://www.youtube.com/watch?v=1Y2X3ieHMEY -> 0 kept
+2026-10-10 12:50:14   https://www.youtube.com/watch?v=2BfKkmAwZo8 -> 0 kept
+2026-10-10 12:50:47   https://www.youtube.com/watch?v=2FODurb5M_0 -> 0 kept
+2026-10-10 12:51:35   https://www.youtube.com/watch?v=2GQ7Wp4cwFE -> 0 kept
+2026-10-10 12:52:08   https://www.youtube.com/watch?v=2jmWxePZyxY -> 0 kept
+2026-10-10 12:52:58   https://www.youtube.com/watch?v=2kBdoM40aj8 -> 2 kept
+2026-10-10 12:53:55   https://www.youtube.com/watch?v=2MubX3PxCoY -> 1 kept
+2026-10-10 12:54:39   https://www.youtube.com/watch?v=2vS31t0jN4w -> 0 kept
+2026-10-10 12:55:14   https://www.youtube.com/watch?v=38RePWahMEI -> 0 kept
+2026-10-10 12:55:57   https://www.youtube.com/watch?v=3bzDNBiDtfE -> 1 kept
+2026-10-10 12:56:51   https://www.youtube.com/watch?v=3EzhMvBSYLc -> 1 kept
+2026-10-10 12:57:28   https://www.youtube.com/watch?v=3j8NhL0FTo4 -> 0 kept
+2026-10-10 12:58:00   https://www.youtube.com/watch?v=3kyX2qTEztc -> 0 kept
+2026-10-10 12:58:41   https://www.youtube.com/watch?v=3LPseP6SVaU -> 0 kept
+2026-10-10 12:59:36   https://www.youtube.com/watch?v=3NDNB7MOulU -> 2 kept
+2026-10-10 13:00:11   https://www.youtube.com/watch?v=3sBiZyAa6d0 -> 0 kept
+2026-10-10 13:00:55   https://www.youtube.com/watch?v=3Z6Tb7vaPO0 -> 1 kept
+2026-10-10 13:01:34   https://www.youtube.com/watch?v=4A5tWzL0sQg -> 0 kept
+2026-10-10 13:02:17   https://www.youtube.com/watch?v=4rcPMkyahiY -> 0 kept
+2026-10-10 13:03:06   https://www.youtube.com/watch?v=4u624gvLxk4 -> 1 kept
+2026-10-10 13:03:55   https://www.youtube.com/watch?v=4Wfkj92ArhY -> 1 kept
+2026-10-10 13:04:48   https://www.youtube.com/watch?v=5-_ZLJveVpA -> 0 kept
+2026-10-10 13:05:35   https://www.youtube.com/watch?v=5_T6OonlaSw -> 1 kept
+2026-10-10 13:06:30   https://www.youtube.com/watch?v=5i3FyQpn7jQ -> 1 kept
+2026-10-10 13:07:22   https://www.youtube.com/watch?v=5kjTt_hv3fo -> 2 kept
+2026-10-10 13:08:09   https://www.youtube.com/watch?v=5P3t9p3J6PM -> 1 kept
+2026-10-10 13:08:58   https://www.youtube.com/watch?v=5sbGIDW-Z9E -> 1 kept
+2026-10-10 13:09:37   https://www.youtube.com/watch?v=5vgfjQbLJ3k -> 0 kept
+2026-10-10 13:10:11   https://www.youtube.com/watch?v=5VzKLaYb7dM -> 0 kept
+2026-10-10 13:10:44   https://www.youtube.com/watch?v=5XBdp2I_aSg -> 0 kept
+2026-10-10 13:11:54   https://www.youtube.com/watch?v=5xkV_-O7Er0 -> 1 kept
+2026-10-10 13:12:46   https://www.youtube.com/watch?v=5XyyL8ejdlk -> 1 kept
+2026-10-10 13:13:37   https://www.youtube.com/watch?v=6AABXKja6bY -> 1 kept
+2026-10-10 13:14:13   https://www.youtube.com/watch?v=6CWAyov87r0 -> 0 kept
+2026-10-10 13:14:58   https://www.youtube.com/watch?v=6RmKPdKUAds -> 1 kept
+2026-10-10 13:15:37   https://www.youtube.com/watch?v=6tfxDNimk8I -> 0 kept
+2026-10-10 13:16:13   https://www.youtube.com/watch?v=6U_UzQ0j99Y -> 0 kept
+2026-10-10 13:17:16   https://www.youtube.com/watch?v=7GctEw9Xy5c -> 0 kept
+2026-10-10 13:18:04   https://www.youtube.com/watch?v=7Ku5DAAilGE -> 0 kept
+2026-10-10 13:18:41   https://www.youtube.com/watch?v=7L8150uskoE -> 0 kept
+2026-10-10 13:19:41   https://www.youtube.com/watch?v=7T9BfYgLAsQ -> 1 kept
+2026-10-10 13:20:18   https://www.youtube.com/watch?v=87G7gXWxCQA -> 0 kept
+2026-10-10 13:20:55   https://www.youtube.com/watch?v=8HVhmNAztzU -> 0 kept
+2026-10-10 13:21:38   https://www.youtube.com/watch?v=8tfCe2K4_20 -> 1 kept
+2026-10-10 13:22:26   https://www.youtube.com/watch?v=8UHnmRaCUiE -> 1 kept
+2026-10-10 13:23:19   https://www.youtube.com/watch?v=8xmXTVzNSM4 -> 0 kept
+2026-10-10 13:23:57   https://www.youtube.com/watch?v=8xosqm54JY0 -> 0 kept
+2026-10-10 13:24:50   https://www.youtube.com/watch?v=8Y30pjdecWM -> 0 kept
+2026-10-10 13:25:26   https://www.youtube.com/watch?v=98Uf1YnjSgs -> 0 kept
+2026-10-10 13:26:18   https://www.youtube.com/watch?v=9FR8l3t1pfo -> 2 kept
+2026-10-10 13:26:56   https://www.youtube.com/watch?v=9hLOTHIJn-o -> 0 kept
+2026-10-10 13:27:30   https://www.youtube.com/watch?v=9MwFnDSDF5E -> 0 kept
+2026-10-10 13:28:23   https://www.youtube.com/watch?v=9NJ1bBOq_U8 -> 2 kept
+2026-10-10 13:29:15   https://www.youtube.com/watch?v=9WH-0Pl9ydM -> 2 kept
+2026-10-10 13:30:03   https://www.youtube.com/watch?v=_-mosbMFmSM -> 1 kept
+2026-10-10 13:30:41   https://www.youtube.com/watch?v=_5Sil5OvzK4 -> 0 kept
+2026-10-10 13:31:35   https://www.youtube.com/watch?v=__JOTqivqQk -> 1 kept
+2026-10-10 13:32:37   https://www.youtube.com/watch?v=_D2BwSA9MXI -> 2 kept
+2026-10-10 13:33:17   https://www.youtube.com/watch?v=_mNADikFu6Y -> 0 kept
+2026-10-10 13:34:07   https://www.youtube.com/watch?v=_QvlQ130Kvw -> 1 kept
+2026-10-10 13:35:05   https://www.youtube.com/watch?v=_W4hRmHkbFs -> 2 kept
+2026-10-10 13:35:42   https://www.youtube.com/watch?v=_WkRQHRm_PY -> 0 kept
+2026-10-10 13:36:16   https://www.youtube.com/watch?v=A0oMjoywJ0U -> 0 kept
+2026-10-10 13:37:04   https://www.youtube.com/watch?v=a1R7i9W3OM8 -> 2 kept
+2026-10-10 13:37:42   https://www.youtube.com/watch?v=AbLig2FUAxI -> 0 kept
+2026-10-10 13:38:15   https://www.youtube.com/watch?v=AC0EjR4SbgY -> 0 kept
+2026-10-10 13:39:04   https://www.youtube.com/watch?v=AcmY43iot4E -> 1 kept
+2026-10-10 13:39:55   https://www.youtube.com/watch?v=adAogX1z7B8 -> 0 kept
+2026-10-10 13:40:34   https://www.youtube.com/watch?v=adjd12BA6c8 -> 0 kept
+2026-10-10 13:41:07   https://www.youtube.com/watch?v=AG7uaBEsQWc -> 0 kept
+2026-10-10 13:41:42   https://www.youtube.com/watch?v=AilDbX-TQCs -> 0 kept
+2026-10-10 13:42:16   https://www.youtube.com/watch?v=aJeViQlem8c -> 0 kept
+2026-10-10 13:43:03   https://www.youtube.com/watch?v=ams5suvGO8I -> 1 kept
+2026-10-10 13:43:54   https://www.youtube.com/watch?v=an5RcTOFCbU -> 2 kept
+2026-10-10 13:44:31   https://www.youtube.com/watch?v=AOSryz53Jlo -> 0 kept
+2026-10-10 13:45:05   https://www.youtube.com/watch?v=AOXuWAPSqEY -> 0 kept
+2026-10-10 13:46:02   https://www.youtube.com/watch?v=aQHR9u0FU8M -> 2 kept
+2026-10-10 13:47:13   https://www.youtube.com/watch?v=aug9ZJCfgZg -> 0 kept
+2026-10-10 13:47:51   https://www.youtube.com/watch?v=AUo8CJJeEEA -> 0 kept
+2026-10-10 13:48:37   https://www.youtube.com/watch?v=aw_z8cwxYsM -> 0 kept
+2026-10-10 13:49:14   https://www.youtube.com/watch?v=aYanrJO6054 -> 0 kept
+2026-10-10 13:50:04   https://www.youtube.com/watch?v=aychcns0eFg -> 2 kept
+2026-10-10 13:50:55   https://www.youtube.com/watch?v=B03jMrfetks -> 2 kept
+2026-10-10 13:51:54   https://www.youtube.com/watch?v=b3_7GadEkUE -> 2 kept
+2026-10-10 13:52:31   https://www.youtube.com/watch?v=B6cFq80QWuo -> 0 kept
+2026-10-10 13:53:02   https://www.youtube.com/watch?v=B84zglefiSQ -> 0 kept
+2026-10-10 13:53:55   https://www.youtube.com/watch?v=b9btjjQ1qpQ -> 2 kept
+2026-10-10 13:54:40   https://www.youtube.com/watch?v=bBMP-s5PzKo -> 0 kept
+2026-10-10 13:55:30   https://www.youtube.com/watch?v=bDeP1xG3f_g -> 0 kept
+2026-10-10 13:56:21   https://www.youtube.com/watch?v=bpPsnaLOAUg -> 0 kept
+2026-10-10 13:57:22   https://www.youtube.com/watch?v=bqhtv5blPdE -> 2 kept
+2026-10-10 13:58:01   https://www.youtube.com/watch?v=bqmF70unjg8 -> 0 kept
+2026-10-10 13:58:59   https://www.youtube.com/watch?v=bR-CAVcFhvE -> 2 kept
+2026-10-10 14:00:03   https://www.youtube.com/watch?v=BTapMI6ZB5o -> 2 kept
+2026-10-10 14:00:54   https://www.youtube.com/watch?v=BUkQSu8V8iA -> 1 kept
+2026-10-10 14:01:52   https://www.youtube.com/watch?v=BW3Nc91Bn10 -> 1 kept
+2026-10-10 14:02:27   https://www.youtube.com/watch?v=BxalnW4dr8A -> 0 kept
+2026-10-10 14:03:02   https://www.youtube.com/watch?v=BXTdk9TTkhQ -> 0 kept
+2026-10-10 14:03:48   https://www.youtube.com/watch?v=bYublkj0fUo -> 0 kept
+2026-10-10 14:04:41   https://www.youtube.com/watch?v=c2LzapdRuT4 -> 2 kept
+2026-10-10 14:05:28   https://www.youtube.com/watch?v=C4R6etmKd-A -> 1 kept
+2026-10-10 14:06:19   https://www.youtube.com/watch?v=c8A_EZDurPo -> 1 kept
+2026-10-10 14:07:06   https://www.youtube.com/watch?v=cAE1gli1xwg -> 0 kept
+2026-10-10 14:07:43   https://www.youtube.com/watch?v=ccC3hBXMar4 -> 0 kept
+2026-10-10 14:08:18   https://www.youtube.com/watch?v=CCD4GXJhta4 -> 0 kept
+2026-10-10 14:09:10   https://www.youtube.com/watch?v=cfMSbGRWTgM -> 0 kept
+2026-10-10 14:09:54   https://www.youtube.com/watch?v=cLtyEro9XLs -> 0 kept
+2026-10-10 14:10:43   https://www.youtube.com/watch?v=cmcgzqFJFOc -> 0 kept
+2026-10-10 14:11:28   https://www.youtube.com/watch?v=cNQltglYOBw -> 0 kept
+2026-10-10 14:12:03   https://www.youtube.com/watch?v=CPsDENrhLpw -> 0 kept
+2026-10-10 14:12:52   https://www.youtube.com/watch?v=CqlpgQKTxpk -> 0 kept
+2026-10-10 14:13:33   https://www.youtube.com/watch?v=CrY3zNKtcEI -> 0 kept
+2026-10-10 14:14:22   https://www.youtube.com/watch?v=cRYrLBYK5sQ -> 2 kept
+2026-10-10 14:14:59   https://www.youtube.com/watch?v=CSppMqwXq8M -> 0 kept
+2026-10-10 14:15:34   https://www.youtube.com/watch?v=Ct78M-GG9F0 -> 0 kept
+2026-10-10 14:16:23   https://www.youtube.com/watch?v=cvkUhZpaAaQ -> 1 kept
+2026-10-10 14:17:22   https://www.youtube.com/watch?v=cybKytm3EFE -> 2 kept
+2026-10-10 14:18:08   https://www.youtube.com/watch?v=Cyc7ySkFONg -> 0 kept
+2026-10-10 14:18:45   https://www.youtube.com/watch?v=D4BN2Y9fG64 -> 0 kept
+2026-10-10 14:19:39   https://www.youtube.com/watch?v=d4p6H1PU7LA -> 2 kept
+2026-10-10 14:20:41   https://www.youtube.com/watch?v=d6TYgwA36YI -> 2 kept
+2026-10-10 14:21:27   https://www.youtube.com/watch?v=d7cNjW_mcEM -> 0 kept
+2026-10-10 14:22:04   https://www.youtube.com/watch?v=dAauHT69g5Q -> 0 kept
+2026-10-10 14:22:41   https://www.youtube.com/watch?v=DbWvNFFNsII -> 0 kept
+2026-10-10 14:23:17   https://www.youtube.com/watch?v=dea4kKDA83U -> 0 kept
+2026-10-10 14:24:08   https://www.youtube.com/watch?v=dirQELXUayo -> 2 kept
+2026-10-10 14:24:45   https://www.youtube.com/watch?v=DJRussFAw8k -> 0 kept
+2026-10-10 14:25:18   https://www.youtube.com/watch?v=DnQ_6w6qy2s -> 0 kept
+2026-10-10 14:26:06   https://www.youtube.com/watch?v=DrdlO2MGAOk -> 1 kept
+2026-10-10 14:26:44   https://www.youtube.com/watch?v=DTh7cPI8z3E -> 0 kept
+2026-10-10 14:27:18   https://www.youtube.com/watch?v=duUJhcVF3-A -> 0 kept
+2026-10-10 14:27:53   https://www.youtube.com/watch?v=duurtsHEu3U -> 0 kept
+2026-10-10 14:28:24   https://www.youtube.com/watch?v=dYeS8A9bnpk -> 0 kept
+2026-10-10 14:28:54   https://www.youtube.com/watch?v=DZg504QXRm8 -> 0 kept
+2026-10-10 14:29:27   https://www.youtube.com/watch?v=e2p4ydnc_Fw -> 0 kept
+2026-10-10 14:30:03   https://www.youtube.com/watch?v=E5wj2tc2oYE -> 0 kept
+2026-10-10 14:30:19 error RemoteDisconnected: Remote end closed connection without response
+2026-10-10 14:30:19 es\tools\python-3.14.7+20260901-win32-x64\Lib\http\client.py", line 343, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\schof\AppData\Local\hermes\tools\python-3.14.7+20260901-win32-x64\Lib\http\client.py", line 312, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+                             " response")
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+2026-10-10 14:32:19 harvesting Jeff Snider (Eurodollar University) (youtube) since 20240101
+2026-10-10 15:12:14   https://www.youtube.com/watch?v=e_TJP8RQDJk -> 2 kept
+2026-10-10 15:13:10   https://www.youtube.com/watch?v=eapOq_ppCAw -> 1 kept
+2026-10-10 15:13:49   https://www.youtube.com/watch?v=eC7-lUKaiSE -> 0 kept
+2026-10-10 15:14:29   https://www.youtube.com/watch?v=EHpC0jhX7Bw -> 1 kept
+2026-10-10 15:15:17   https://www.youtube.com/watch?v=ejrEjye9YEk -> 1 kept
+2026-10-10 15:15:51   https://www.youtube.com/watch?v=epMIV7iCBFs -> 0 kept
+2026-10-10 15:16:24   https://www.youtube.com/watch?v=eqzq1utbbVQ -> 0 kept
+2026-10-10 15:17:12   https://www.youtube.com/watch?v=EryyLM6UuIQ -> 2 kept
+2026-10-10 15:18:00   https://www.youtube.com/watch?v=ETGz0hDvHWU -> 0 kept
+2026-10-10 15:18:47   https://www.youtube.com/watch?v=Eu1l3f5SpXc -> 1 kept
+2026-10-10 15:19:30   https://www.youtube.com/watch?v=eUbEC8w5RCQ -> 1 kept
+2026-10-10 15:20:11   https://www.youtube.com/watch?v=eyW66Qgoi3M -> 1 kept
+2026-10-10 15:20:55   https://www.youtube.com/watch?v=ez9QoIC-nr0 -> 1 kept
+2026-10-10 15:21:31   https://www.youtube.com/watch?v=fA5rF6jYmcs -> 0 kept
+2026-10-10 15:22:02   https://www.youtube.com/watch?v=Fcfwu8u-dJA -> 0 kept
+2026-10-10 15:22:38   https://www.youtube.com/watch?v=fDNBPn7jmUw -> 0 kept
+2026-10-10 15:23:14   https://www.youtube.com/watch?v=fh_j35dcPJo -> 0 kept
+2026-10-10 15:23:46   https://www.youtube.com/watch?v=fj1JW5MsPj8 -> 0 kept
+2026-10-10 15:24:45   https://www.youtube.com/watch?v=Flyk1nIfIwM -> 2 kept
+2026-10-10 15:25:29   https://www.youtube.com/watch?v=Fm8vUd-lZB4 -> 0 kept
+2026-10-10 15:26:22   https://www.youtube.com/watch?v=FPI-Wbighu0 -> 2 kept
+2026-10-10 15:27:16   https://www.youtube.com/watch?v=fqVMOHrar64 -> 1 kept
+2026-10-10 15:27:51   https://www.youtube.com/watch?v=FUdv4P9cKBk -> 0 kept
+2026-10-10 15:28:25   https://www.youtube.com/watch?v=Fuk12HZKZbg -> 0 kept
+2026-10-10 15:29:14   https://www.youtube.com/watch?v=fX15vT5nr98 -> 1 kept
+2026-10-10 15:30:02   https://www.youtube.com/watch?v=FxKWAvWnSvk -> 1 kept
+2026-10-10 15:30:38   https://www.youtube.com/watch?v=g0mNQgH-tEs -> 0 kept
+2026-10-10 15:31:10   https://www.youtube.com/watch?v=g1-a7ectpCo -> 0 kept
+2026-10-10 16:58:46 harvest daemon started (extract qwen3:32b / gate nimble on nimo)
+2026-10-10 16:58:47 harvesting Jeff Snider (Eurodollar University) (youtube) since 20240101
+2026-10-10 17:28:47 harvest daemon started (extract qwen3:32b / gate nimble on nimo)
+2026-10-10 17:28:47 harvesting Jeff Snider (Eurodollar University) (youtube) since 20240101
+2026-10-10 17:46:52 harvest daemon started (extract qwen3:32b / gate nimble on nimo)
+2026-10-10 17:46:52 harvesting Jeff Snider (Eurodollar University) (youtube) since 20240101
+2026-10-10 17:53:31 harvest daemon started (extract qwen3:32b / gate nimble on nimo)
+2026-10-10 17:53:31 harvesting Jeff Snider (Eurodollar University) (youtube) since 20240101
+2026-10-10 17:54:08 harvest daemon started (extract qwen3:32b / gate nimble on nimo)
+2026-10-10 17:54:08 harvesting Jeff Snider (Eurodollar University) (youtube) since 20240101
+2026-10-10 17:54:51 harvest daemon started (extract qwen3:32b / gate nimble on nimo)
+2026-10-10 17:54:51 harvesting Jeff Snider (Eurodollar University) (youtube) since 20240101
+2026-10-10 17:58:46 harvest daemon started (extract qwen3:32b / gate nimble on nimo)
+2026-10-10 17:58:46 harvesting Jeff Snider (Eurodollar University) (youtube) since 20240101
+2026-10-10 18:29:18   https://www.youtube.com/watch?v=8XK1DP46RWk -> 0 kept
+2026-10-10 18:30:08   https://www.youtube.com/watch?v=C4gNWY4bHYQ -> 2 kept
+2026-10-10 18:30:54   https://www.youtube.com/watch?v=fbgxVX3L7EM -> 0 kept
+2026-10-10 18:31:38   https://www.youtube.com/watch?v=g17_CXWRnxU -> 0 kept
+2026-10-10 18:32:26   https://www.youtube.com/watch?v=g9Mx5b0YoJs -> 0 kept
+2026-10-10 18:33:54   https://www.youtube.com/watch?v=G_GrfQG1Eh0 -> 2 kept
+2026-10-10 18:34:45   https://www.youtube.com/watch?v=gFeiPNiw9eY -> 1 kept
+2026-10-10 18:35:32   https://www.youtube.com/watch?v=Gl67xz8K7Po -> 0 kept
+2026-10-10 18:36:13 harvest daemon started (extract qwen3:32b on nimo / gate nimble on mlsfs)
+2026-10-10 18:36:13 harvesting Jeff Snider (Eurodollar University) (youtube) since 20240101
+2026-10-10 18:36:48   Jeff Snider (Eurodollar University): processed 0, added 0
+2026-10-10 18:36:48 source Jeff Snider (Eurodollar University) complete
+2026-10-10 18:36:49 harvesting Tom Lee (youtube) since 20240101
+2026-10-10 18:36:50   Tom Lee: processed 0, added 0
+2026-10-10 18:36:50 source Tom Lee complete
+2026-10-10 18:36:50 harvesting Rick Rule (youtube) since 20240101
+2026-10-10 18:36:51   Rick Rule: processed 0, added 0
+2026-10-10 18:36:51 source Rick Rule complete
+2026-10-10 18:36:51 harvesting Adam Taggart (youtube) since 20240101
+2026-10-10 18:37:25   Adam Taggart: processed 0, added 0
+2026-10-10 18:37:25 source Adam Taggart complete
+2026-10-10 18:37:25 harvesting Peter St Onge (youtube) since 20240101
+2026-10-10 18:37:56   Peter St Onge: processed 0, added 0
+2026-10-10 18:37:56 source Peter St Onge complete
+2026-10-10 18:37:56 harvesting James Rickards (youtube) since 20240101
+2026-10-10 18:37:57   James Rickards: processed 0, added 0
+2026-10-10 18:37:57 source James Rickards complete
+2026-10-10 18:38:36 harvest daemon started (extract qwen3:32b on nimo / gate nimble on mlsfs)
+2026-10-10 19:29:28 harvest daemon started (extract qwen3:32b on nimo / gate nimble on mlsfs)
+2026-10-10 19:52:40 harvest daemon started (extract qwen3:32b on nimo / gate nimble on mlsfs)
+2026-10-10 19:56:42 harvest daemon started (extract qwen3:32b on nimo / gate nimble on mlsfs)
+2026-10-10 19:59:35   listed 1188 videos
+2026-10-10 19:59:59   fetched subs for 10 videos (506/1188 done)
+2026-10-10 20:02:44 harvest daemon started (extract qwen3:32b on nimo / gate nimble on mlsfs)
+2026-10-10 20:07:27 harvest daemon started (extract qwen3:32b on nimo / gate nimble on mlsfs)
+2026-10-10 20:12:27 harvesting Jeff Snider (Eurodollar University) (youtube) since 20240101
+2026-10-10 20:12:51   fetched subs for 10 videos (506/1188 done)
+2026-10-10 20:13:39   https://www.youtube.com/watch?v=GobxQdHyI3g -> 1 kept
+2026-10-10 20:14:23   https://www.youtube.com/watch?v=gOf6QhwYiwM -> 0 kept
+2026-10-10 20:15:00   https://www.youtube.com/watch?v=gtREJqgCV_g -> 0 kept
+2026-10-10 20:15:34   https://www.youtube.com/watch?v=GWMAcLDTEgM -> 0 kept
+2026-10-10 20:16:11   https://www.youtube.com/watch?v=gY3Wge-v1sI -> 0 kept
+2026-10-10 20:16:46   https://www.youtube.com/watch?v=h-Nc2KGjIUw -> 0 kept
+2026-10-10 20:17:24   https://www.youtube.com/watch?v=h20iV_dpDLk -> 0 kept

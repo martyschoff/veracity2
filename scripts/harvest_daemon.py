@@ -82,33 +82,40 @@ def fetch_text(url):
     return re.sub(r'\s+', ' ', text).strip()
 
 
-def youtube_transcripts(channel_url, since, out_dir, page_size=15):
-    """yt-dlp transcripts for a channel since date, PAGED: fetch newest `page_size`
-    un-downloaded videos per call (bounded time, honest heartbeats, incremental processing).
-    Returns list of (url, date, text) for newly fetched srts only."""
+def youtube_transcripts(channel_url, since, out_dir, page_size=10):
+    """yt-dlp transcripts for a channel since date.
+    Phase 1: ONE flat playlist listing (fast) -> video id+date list, cached to disk.
+    Phase 2: fetch subs for the next un-fetched batch of videos (bounded, incremental).
+    Returns list of (url, date, text) parsed from ALL srts in out_dir (state dedupes)."""
     out_dir.mkdir(parents=True, exist_ok=True)
     import sys as _sys
     yt = [ _sys.executable, '-m', 'yt_dlp']  # module form: immune to PATH stripping
-    # page through newest videos: playlist-items N:M window, advancing until we hit already-downloaded ones
-    start = 1
-    new_srts = []
-    while start <= 400:  # hard page cap per cycle
-        r = subprocess.run([*yt, '--skip-download', '--write-auto-subs', '--sub-langs', 'en',
-                            '--convert-subs', 'srt', '--dateafter', since,
-                            '--playlist-items', f'{start}:{start + page_size - 1}',
-                            '--no-overwrites',
-                            '-o', str(out_dir / '%(id)s_%(upload_date)s.%(ext)s'),
-                            channel_url + '/videos'], capture_output=True, text=True, timeout=900)
-        before = {p.name for p in out_dir.glob('*.srt')}
-        # nothing new -> we've reached already-harvested territory; stop paging
-        after = {p.name for p in out_dir.glob('*.srt')}
-        fresh = after - before
-        if not fresh:
-            break
-        new_srts.extend(fresh)
-        start += page_size
-        if len(new_srts) >= 30:  # batch cap: process these before fetching more
-            break
+    listing_file = out_dir / '_listing.json'
+
+    # Phase 1: full flat listing, cached (channel metadata changes slowly)
+    if not listing_file.exists():
+        r = subprocess.run([*yt, '--flat-playlist', '--print', '%(id)s',
+                            channel_url + '/videos'],
+                           capture_output=True, text=True, timeout=1200)
+        vids = [[line.strip()] for line in (r.stdout or '').splitlines() if len(line.strip()) == 11]
+        listing_file.write_text(json.dumps(vids))
+        log(f'  listed {len(vids)} videos')
+    vids = json.load(open(listing_file, encoding='utf-8'))
+
+    # Phase 2: next unfetched batch (by oldest first? newest first = list order; take first batch missing on disk)
+    have = {p.name.split('_')[0] for p in out_dir.glob('*.srt')}
+    batch = [v for v in vids if v[0] not in have][:page_size]
+    if batch:
+        ids_file = out_dir / '_batch.txt'
+        ids_file.write_text('\n'.join(v[0] for v in batch))
+        subprocess.run([*yt, '--skip-download', '--write-auto-subs', '--sub-langs', 'en',
+                        '--convert-subs', 'srt', '--no-overwrites',
+                        '-a', str(ids_file),
+                        '-o', str(out_dir / '%(id)s_%(upload_date)s.%(ext)s')],
+                       capture_output=True, text=True, timeout=1800)
+        ids_file.unlink(missing_ok=True)
+        log(f'  fetched subs for {len(batch)} videos ({len(have)+len(batch)}/{len(vids)} done)')
+
     results = []
     for srt in sorted(out_dir.glob('*.srt')):
         m = re.match(r'(.+)_(\d{8})', srt.name)
@@ -116,12 +123,15 @@ def youtube_transcripts(channel_url, since, out_dir, page_size=15):
             continue
         vid, ymd = m.group(1), m.group(2)
         date = f'{ymd[:4]}-{ymd[4:6]}-{ymd[6:]}'
+        if ymd < since.replace('-', ''):
+            continue  # pre-dates the harvest window
         lines = [l for l in srt.read_text(encoding='utf-8', errors='replace').splitlines()
                  if l.strip() and not l.strip().isdigit() and '-->' not in l]
         text = ' '.join(lines)
         if len(text) > 800:
             results.append((f'https://www.youtube.com/watch?v={vid}', date, text[:20000]))
     return results
+
 
 
 def extract_predictions(text, person, date, url):
@@ -250,9 +260,14 @@ def process_source(src):
                 pieces.append((url, src.get('date', datetime.date.today().isoformat()), text[:20000]))
 
     processed = added = 0
+    MAX_PIECES_PER_CYCLE = 8  # extraction is ~60s/piece on nimo; keep cycles short so heartbeats stay honest
+    done_count = 0
     for url, date, text in pieces:
         if url in state['done']:
             continue
+        if done_count >= MAX_PIECES_PER_CYCLE:
+            break
+        done_count += 1
         preds = extract_predictions(text, name, date, url)
         kept = []
         for pr in preds:

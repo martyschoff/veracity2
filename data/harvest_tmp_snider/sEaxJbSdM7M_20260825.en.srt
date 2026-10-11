@@ -1505,11 +1505,11 @@ cheaper goods,
 302
 00:02:55,215 --> 00:02:56,319
 cheaper goods,
-traveling less, eating out less often,
+traveling less, eating out less,
 
 303
 00:02:56,319 --> 00:02:57,293
-traveling less, eating out less often,
+traveling less, eating out less,
  
 
 304
@@ -3480,16 +3480,16 @@ expectations index, has
 697
 00:06:41,426 --> 00:06:42,728
 expectations index, has
-been recording these changes
+been capturing these changes
 
 698
 00:06:42,728 --> 00:06:42,769
-been recording these changes
+been capturing these changes
  
 
 699
 00:06:42,769 --> 00:06:43,949
-been recording these changes
+been capturing these changes
 since they
 
 700
@@ -6886,16 +6886,16 @@ labor force participation rate fell to
 1379
 00:12:55,949 --> 00:12:56,814
 labor force participation rate fell to
-61.4%, 0.7
+61.4%, down 0.7
 
 1380
 00:12:56,814 --> 00:12:56,857
-61.4%, 0.7
+61.4%, down 0.7
  
 
 1381
 00:12:56,857 --> 00:12:58,456
-61.4%, 0.7
+61.4%, down 0.7
 percentage points
 
 1382
@@ -6906,16 +6906,16 @@ percentage points
 1383
 00:12:58,500 --> 00:12:59,753
 percentage points
-lower than six
+from six
 
 1384
 00:12:59,753 --> 00:12:59,796
-lower than six
+from six
  
 
 1385
 00:12:59,796 --> 00:13:01,279
-lower than six
+from six
 months ago.  So,
 
 1386

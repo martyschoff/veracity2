@@ -3109,16 +3109,16 @@ Gold is a safe
 623
 00:05:20,058 --> 00:05:21,090
 Gold is a safe
-haven, but beyond
+haven, but apart from
 
 624
 00:05:21,090 --> 00:05:21,123
-haven, but beyond
+haven, but apart from
  
 
 625
 00:05:21,123 --> 00:05:22,288
-haven, but beyond
+haven, but apart from
 being stored in a safe,
 
 626
@@ -4869,16 +4869,16 @@ yield curve control
 976
 00:08:44,052 --> 00:08:45,261
 yield curve control
-, then doubling the limit
+, doubling the limit
 
 977
 00:08:45,261 --> 00:08:45,293
-, then doubling the limit
+, doubling the limit
  
 
 978
 00:08:45,293 --> 00:08:46,120
-, then doubling the limit
+, doubling the limit
 doesn't suddenly give the Treasury Department
 
 979
@@ -7937,16 +7937,16 @@ buyers’ strike” that
 1590
 00:14:20,791 --> 00:14:21,620
 buyers’ strike” that
-Dalio talks about.
+Dalio is talking about.
 
 1591
 00:14:21,620 --> 00:14:21,720
-Dalio talks about.
+Dalio is talking about.
  
 
 1592
 00:14:21,720 --> 00:14:22,705
-Dalio talks about.
+Dalio is talking about.
 Let's set aside for a moment
 
 1593
@@ -9456,16 +9456,16 @@ in the debt market.  Well
 1894
 00:17:01,473 --> 00:17:02,662
 , the crisis is already
-showing up, and not in
+showing, and not in
 
 1895
 00:17:02,662 --> 00:17:02,695
-showing up, and not in
+showing, and not in
  
 
 1896
 00:17:02,695 --> 00:17:03,950
-showing up, and not in
+showing, and not in
 interest rates,
 
 1897
@@ -10044,16 +10044,16 @@ should therefore lead to
 2012
 00:18:01,522 --> 00:18:02,844
 should therefore lead to
-buyers' rejection.  But the
+buyer rejection.  But the
 
 2013
 00:18:02,844 --> 00:18:02,877
-buyers' rejection.  But the
+buyer rejection.  But the
  
 
 2014
 00:18:02,877 --> 00:18:03,845
-buyers' rejection.  But the
+buyer rejection.  But the
 truth is that
 
 2015
@@ -12002,16 +12002,16 @@ sufficient evidence,
 2404
 00:21:41,555 --> 00:21:42,571
 sufficient evidence,
-as the move was
+as this move was
 
 2405
 00:21:42,571 --> 00:21:42,598
-as the move was
+as this move was
  
 
 2406
 00:21:42,598 --> 00:21:43,339
-as the move was
+as this move was
 surprisingly small
 
 2407
